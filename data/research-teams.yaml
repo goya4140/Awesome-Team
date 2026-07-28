@@ -1482,7 +1482,8 @@ teams:
     evidence:
       affiliation: ["https://cbmm.mit.edu/about"]
       recent_activity: ["https://cbmm.mit.edu/research"]
-    status: verified
+    status: provisional
+    notes: "CBMM 官方说明该 NSF 中心已于 2025 年结束；相关研究由 Poggio Lab 等团队延续。本条保留为历史研究中心，后续应评估是否迁移至 archived 数据集。"
 
   - id: mit-improbable-ai
     name: MIT Improbable AI Lab

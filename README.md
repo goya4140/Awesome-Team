@@ -2,15 +2,15 @@
 
 # Awesome Team
 
-**An evidence-first map of AI research teams that keep building.**
+**中美顶尖 AI 公司与高校科研团队的可核验目录**
 
-持续追踪中美顶尖 AI 公司与高校中，公开产出论文、模型、数据集与系统的研究团队。
+团队 Logo、研究方向、所属机构、公开负责人，以及可折叠的代表作、摘要、引用量与原文图表。
 
-[![Teams](https://img.shields.io/badge/teams-143-171814?style=flat-square)](https://goya4140.github.io/awesome-team/)
-[![Parents](https://img.shields.io/badge/institutions-46-5f77ff?style=flat-square)](docs/SEED_LIST.md)
-[![Verified](https://img.shields.io/badge/verified-123-55af71?style=flat-square)](docs/TEAM_COLLECTION_METHOD.md)
-[![Featured works](https://img.shields.io/badge/featured_entries-429-ff6846?style=flat-square)](data/representative-works.yaml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-c9ff48?style=flat-square)](LICENSE)
+[![Teams](https://img.shields.io/badge/teams-143-2563eb?style=flat-square)](https://goya4140.github.io/awesome-team/)
+[![Institutions](https://img.shields.io/badge/institutions-46-2563eb?style=flat-square)](docs/SEED_LIST.md)
+[![Verified](https://img.shields.io/badge/verified-122-2563eb?style=flat-square)](docs/TEAM_COLLECTION_METHOD.md)
+[![Resolved papers](https://img.shields.io/badge/resolved_papers-155-2563eb?style=flat-square)](docs/RESEARCH_TEAMS.md)
+[![Original figures](https://img.shields.io/badge/original_figures-107-2563eb?style=flat-square)](docs/RESEARCH_TEAMS.md)
 
 [**Explore the visual directory →**](https://goya4140.github.io/awesome-team/) ·
 [Full catalog](docs/RESEARCH_TEAMS.md) ·
@@ -21,7 +21,7 @@
 
 ---
 
-## Why Awesome Team?
+## 为什么是团队目录？
 
 论文列表只能告诉你“发生过什么”，团队索引更适合回答“谁还在持续创造”。Awesome Team 不按机构光环排名，也不把一次顶会录用当成永久通行证；每个条目都需要官方归属与近期公开研究活动作为证据。
 
@@ -32,19 +32,21 @@
 | 科技公司 | 17 | 44 | 中国 P0/P1 白名单与美国 P0 白名单 |
 | 前沿 AI 公司 | 6 | 10 | OpenAI、Anthropic 与中国前沿模型公司 |
 | 顶尖高校 | 23 | 89 | C9、HKUST(GZ)、港三、新二、美国 AI 核心高校 |
-| **合计** | **46** | **143** | **123 verified / 20 provisional** |
+| **合计** | **46** | **143** | **122 verified / 21 provisional** |
 
 地区分布：**中国大陆 65**、**美国 58**、**中国香港 11**、**新加坡 9**。
 
-## What you can explore
+## 每个团队展示什么？
 
-- 团队官方主页与 GitHub Organization
-- 母体机构、地区、团队类型和研究方向
-- 归属证据与滚动两年内的研究活动证据
-- 每队三项代表论文、开源成果或官方研究入口
-- 可搜索、可组合筛选的 [GitHub Pages 可视化目录](https://goya4140.github.io/awesome-team/)
+- **身份信息：** 团队 Logo；没有独立 Logo 时使用 GitHub 头像或母组织官网图标。
+- **团队画像：** 简介、所属机构、研究方向、核验状态。
+- **负责人：** 只收录能由官方页面确认的负责人，并链接个人主页；无法确认单一负责人的团队明确标注，不做猜测。
+- **代表成果：** 每队三项，可折叠查看论文或项目摘要、学术引用量、GitHub Stars 和原文图表。
+- **双视图：** [GitHub Markdown 完整目录](docs/RESEARCH_TEAMS.md) 与 [白蓝简约网页](https://goya4140.github.io/awesome-team/)。
 
 > `research_index` 表示已核验的官方研究入口，但尚未细化为单篇作品。它不是论文，欢迎通过 PR 补充更精确的论文或项目链接。
+
+> 引用量是 OpenAlex 在 **2026-07-28** 的快照，不等同于 Google Scholar；GitHub Stars 与论文引用量分开展示。原文图表来自对应 arXiv 论文并保留出处。
 
 ## Data
 
@@ -52,16 +54,25 @@
 |---|---|
 | [`data/seed-parents.yaml`](data/seed-parents.yaml) | 46 个母体机构白名单 |
 | [`data/research-teams.yaml`](data/research-teams.yaml) | 143 个团队的主数据与证据 |
+| [`data/team-profiles.yaml`](data/team-profiles.yaml) | Logo、中文简介、方向与公开负责人 |
 | [`data/representative-works.yaml`](data/representative-works.yaml) | 每队三项精选条目 |
+| [`data/work-metadata.yaml`](data/work-metadata.yaml) | 论文匹配、摘要、引用量与原文图表 |
 | [`site/data/catalog.json`](site/data/catalog.json) | 由 YAML 生成的网页数据 |
 
 ## Maintain
 
 ```bash
+ruby scripts/build_team_profiles.rb > data/team-profiles.yaml
+ruby scripts/extract_repo_paper_ids.rb
+ruby scripts/resolve_crossref_metadata.rb
+ruby scripts/build_work_metadata.rb
+ruby scripts/render_research_teams.rb
 ruby scripts/validate_catalog.rb
 ruby scripts/build_site_data.rb > site/data/catalog.json
 node --check site/assets/app.js
 ```
+
+前三个元数据命令会访问 GitHub、Crossref、OpenAlex 与 arXiv/ar5iv；引用量和图表应按快照日期定期刷新。
 
 详细筛选标准见 [`docs/TEAM_COLLECTION_METHOD.md`](docs/TEAM_COLLECTION_METHOD.md)。新增或修订条目前，请阅读 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
 
