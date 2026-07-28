@@ -7,6 +7,8 @@ ROOT = File.expand_path("..", __dir__)
 parents_data = YAML.load_file(File.join(ROOT, "data", "seed-parents.yaml"))
 catalog = YAML.load_file(File.join(ROOT, "data", "research-teams.yaml"))
 works_catalog = YAML.load_file(File.join(ROOT, "data", "representative-works.yaml"))
+profiles_catalog = YAML.load_file(File.join(ROOT, "data", "team-profiles.yaml"))
+metadata_catalog = YAML.load_file(File.join(ROOT, "data", "work-metadata.yaml"))
 
 parents = parents_data.fetch("companies") +
           parents_data.fetch("frontier_ai_companies") +
@@ -78,6 +80,49 @@ works_by_team.each do |team_id, works|
   end
 end
 
+profiles_by_team = profiles_catalog.fetch("teams")
+errors << "team profiles must cover every team exactly once" unless profiles_by_team.keys.sort == team_ids.sort
+profiles_by_team.each do |team_id, profile|
+  errors << "#{team_id}: missing introduction" unless profile["introduction"].is_a?(String) && profile["introduction"].length >= 30
+  errors << "#{team_id}: missing Chinese directions" unless profile["directions_zh"].is_a?(Array) && !profile["directions_zh"].empty?
+  errors << "#{team_id}: missing logo" unless profile.dig("logo", "url").is_a?(String)
+  leaders = profile["leaders"]
+  errors << "#{team_id}: leaders must be an array" unless leaders.is_a?(Array)
+  if leaders.is_a?(Array) && leaders.empty?
+    errors << "#{team_id}: missing leadership note" unless profile["leadership_note"].is_a?(String)
+  end
+  Array(leaders).each do |leader|
+    %w[name role url].each { |field| errors << "#{team_id}: leader missing #{field}" unless leader[field].is_a?(String) && !leader[field].empty? }
+  end
+end
+
+metadata_by_work = metadata_catalog.fetch("works")
+expected_metadata_keys = works_by_team.flat_map do |team_id, works|
+  works.each_index.map { |index| "#{team_id}:#{index}" }
+end
+errors << "work metadata must cover all 429 featured entries exactly once" unless metadata_by_work.keys.sort == expected_metadata_keys.sort
+metadata_by_work.each do |key, item|
+  errors << "#{key}: missing summary" unless item["summary"].is_a?(String) && item["summary"].length >= 20
+  errors << "#{key}: missing resolution status" unless %w[resolved unresolved not_a_paper].include?(item["resolution_status"])
+  errors << "#{key}: missing citation object" unless item["citation"].is_a?(Hash)
+  if item["resolution_status"] == "resolved"
+    errors << "#{key}: resolved item missing paper" unless item["paper"].is_a?(Hash) && item.dig("paper", "title")
+    errors << "#{key}: resolved item missing citation count" unless item.dig("citation", "count").is_a?(Integer)
+    errors << "#{key}: resolved item missing citation source" unless item.dig("citation", "source").is_a?(String)
+    errors << "#{key}: resolved item has a negative citation count" if item.dig("citation", "count").is_a?(Integer) && item.dig("citation", "count").negative?
+  end
+  if item["figure"]
+    %w[image_url caption source_page source_kind].each do |field|
+      errors << "#{key}: figure missing #{field}" unless item.dig("figure", field).is_a?(String) && !item.dig("figure", field).empty?
+    end
+  end
+end
+
+resolved_count = metadata_by_work.values.count { |item| item["resolution_status"] == "resolved" }
+figure_count = metadata_by_work.values.count { |item| item["figure"] }
+errors << "expected at least 150 strictly resolved papers, found #{resolved_count}" if resolved_count < 150
+errors << "expected at least 100 original-paper figures, found #{figure_count}" if figure_count < 100
+
 unless errors.empty?
   warn errors.map { |error| "ERROR: #{error}" }.join("\n")
   exit 1
@@ -87,4 +132,5 @@ status_counts = teams.group_by { |team| team.fetch("status") }.transform_values(
 puts "OK: #{parent_ids.size} parents, #{teams.size} teams, #{coverage.size} coverage rows"
 puts "Statuses: #{status_counts.sort.map { |status, count| "#{status}=#{count}" }.join(", ")}"
 puts "Featured entries: #{works_by_team.values.flatten.size}"
+puts "Profiles: #{profiles_by_team.size}; resolved papers: #{resolved_count}; original figures: #{figure_count}"
 puts "Link audit: #{catalog.fetch("link_check")}"

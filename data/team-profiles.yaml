@@ -1,0 +1,2011 @@
+---
+schema_version: 1
+last_updated: '2026-07-28'
+notes:
+- 'Logo priority: team GitHub avatar, then the icon of the official team site.'
+- Leader names are only included when a role and official/person page were manually verified.
+- A leadership note is shown instead of guessing when no single public lead is identifiable.
+teams:
+  bytedance-seed:
+    logo:
+      url: https://github.com/ByteDance-Seed.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/ByteDance-Seed
+    introduction: ByteDance Seed 隶属于 ByteDance，是一支主要关注基础模型、多模态学习、视频生成等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 基础模型
+    - 多模态学习
+    - 视频生成
+    - AI 系统
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://seed.bytedance.com/
+  alibaba-qwen:
+    logo:
+      url: https://github.com/QwenLM.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/QwenLM
+    introduction: Qwen Team 隶属于 Alibaba，是一支主要关注大语言模型、多模态学习、智能体等方向的基础模型团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - 多模态学习
+    - 智能体
+    - 语音技术
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://qwenlm.github.io/
+  alibaba-damo-academy:
+    logo:
+      url: https://github.com/alibaba-damo-academy.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/alibaba-damo-academy
+    introduction: DAMO Academy 隶属于 Alibaba，是一支主要关注计算机视觉、语言智能、多模态学习等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 计算机视觉
+    - 语言智能
+    - 多模态学习
+    - AI for Science
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://damo.alibaba.com/
+  alibaba-nlp:
+    logo:
+      url: https://github.com/Alibaba-NLP.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/Alibaba-NLP
+    introduction: Alibaba NLP 隶属于 Alibaba，是一支主要关注自然语言处理、信息检索、智能体的企业研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 自然语言处理
+    - 信息检索
+    - 智能体
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/Alibaba-NLP
+  alibaba-modelscope:
+    logo:
+      url: https://github.com/modelscope.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/modelscope
+    introduction: ModelScope 隶属于 Alibaba，是一支主要关注开放模型、多模态学习、模型评测等方向的研究平台。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 开放模型
+    - 多模态学习
+    - 模型评测
+    - AI 系统
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://modelscope.cn/
+  tencent-hunyuan:
+    logo:
+      url: https://github.com/Tencent-Hunyuan.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/Tencent-Hunyuan
+    introduction: Tencent Hunyuan 隶属于 Tencent，是一支主要关注大语言模型、多模态学习、图像生成等方向的基础模型团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - 多模态学习
+    - 图像生成
+    - 视频生成
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://hunyuan.tencent.com/
+  tencent-ai-lab:
+    logo:
+      url: https://github.com/tencent-ailab.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/tencent-ailab
+    introduction: Tencent AI Lab 隶属于 Tencent，是一支主要关注机器学习、自然语言处理、计算机视觉等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器学习
+    - 自然语言处理
+    - 计算机视觉
+    - AI for Science
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://ailab.tencent.com/
+  tencent-arc-lab:
+    logo:
+      url: https://github.com/TencentARC.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/TencentARC
+    introduction: Tencent ARC Lab 隶属于 Tencent，是一支主要关注计算机视觉、计算机图形学、多模态学习等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 计算机视觉
+    - 计算机图形学
+    - 多模态学习
+    - 游戏 AI
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://arc.tencent.com/research
+  tencent-youtu-lab:
+    logo:
+      url: https://github.com/Tencent.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/Tencent
+    introduction: Tencent Youtu Lab 隶属于 Tencent，是一支主要关注计算机视觉、多模态学习、生成式 AI的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 计算机视觉
+    - 多模态学习
+    - 生成式 AI
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://open.youtu.qq.com/
+  huawei-noahs-ark-lab:
+    logo:
+      url: https://github.com/huawei-noah.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/huawei-noah
+    introduction: Huawei Noah's Ark Lab 隶属于 Huawei，是一支主要关注基础模型、机器学习、决策学习等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 基础模型
+    - 机器学习
+    - 决策学习
+    - AI 系统
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.noahlab.com.hk/
+  baidu-ernie:
+    logo:
+      url: https://github.com/PaddlePaddle.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/PaddlePaddle/ERNIE
+    introduction: ERNIE Team 隶属于 Baidu，是一支主要关注大语言模型、多模态学习、知识增强学习的基础模型团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - 多模态学习
+    - 知识增强学习
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://ernie.baidu.com/
+  baidu-paddlepaddle:
+    logo:
+      url: https://github.com/PaddlePaddle.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/PaddlePaddle
+    introduction: PaddlePaddle 隶属于 Baidu，是一支主要关注深度学习框架、基础模型、计算机视觉等方向的研究平台。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 深度学习框架
+    - 基础模型
+    - 计算机视觉
+    - AI 系统
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.paddlepaddle.org.cn/
+  kuaishou-kling-ai-research:
+    logo:
+      url: https://github.com/KlingAIResearch.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/KlingAIResearch
+    introduction: Kling AI Research 隶属于 Kuaishou，是一支主要关注视频生成、图像生成、计算机视觉的基础模型团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 视频生成
+    - 图像生成
+    - 计算机视觉
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://klingai.com/
+  kuaishou-kolors:
+    logo:
+      url: https://github.com/Kwai-Kolors.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/Kwai-Kolors
+    introduction: Kuaishou Kolors Team 隶属于 Kuaishou，是一支主要关注图像生成、可控生成的基础模型团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 图像生成
+    - 可控生成
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/Kwai-Kolors
+  meituan-longcat:
+    logo:
+      url: https://github.com/meituan-longcat.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/meituan-longcat
+    introduction: Meituan LongCat Team 隶属于 Meituan，是一支主要关注大语言模型、智能体、多模态学习的基础模型团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - 智能体
+    - 多模态学习
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://longcat.chat/
+  jd-multimodal-llm:
+    logo:
+      url: https://github.com/jd-opensource.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/jd-opensource
+    introduction: JD Explore Academy — Multimodal LLM 隶属于 JD.com，是一支主要关注大语言模型、多模态学习、图像生成的企业研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - 多模态学习
+    - 图像生成
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://research.joyai.com/
+  jd-speech-acoustics:
+    logo:
+      url: https://github.com/jd-opensource.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/jd-opensource
+    introduction: JD Explore Academy — Speech & Acoustics 隶属于 JD.com，是一支主要关注语音技术、音频生成、多模态学习的企业研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 语音技术
+    - 音频生成
+    - 多模态学习
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://research.joyai.com/
+  jd-multimodal-interaction-world-model:
+    logo:
+      url: https://github.com/jd-opensource.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/jd-opensource
+    introduction: JD Explore Academy — Multimodal Interaction & World Model 隶属于 JD.com，是一支主要关注多模态学习、世界模型、交互式智能体的企业研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 多模态学习
+    - 世界模型
+    - 交互式智能体
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://research.joyai.com/
+  jd-embodied-ai:
+    logo:
+      url: https://github.com/jd-opensource.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/jd-opensource
+    introduction: JD Explore Academy — Embodied AI 隶属于 JD.com，是一支主要关注具身智能、机器人、世界模型的企业研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 具身智能
+    - 机器人
+    - 世界模型
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://research.joyai.com/team/embodied-ai
+  jd-ai-infrastructures:
+    logo:
+      url: https://github.com/jd-opensource.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/jd-opensource
+    introduction: JD Explore Academy — Infrastructures 隶属于 JD.com，是一支主要关注AI 系统、分布式训练、模型推理的企业研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - AI 系统
+    - 分布式训练
+    - 模型推理
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://research.joyai.com/
+  ant-interactive-ai-lab:
+    logo:
+      url: https://github.com/ant-research.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/ant-research
+    introduction: Ant Research — Interactive Artificial Intelligence Lab 隶属于 Ant Group，是一支主要关注计算机视觉、多模态学习、内容生成等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 计算机视觉
+    - 多模态学习
+    - 内容生成
+    - 数字人
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.antresearch.com/
+  ant-inclusion-ai:
+    logo:
+      url: https://github.com/inclusionAI.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/inclusionAI
+    introduction: InclusionAI 隶属于 Ant Group，是一支主要关注基础模型、机器推理、智能体等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 基础模型
+    - 机器推理
+    - 智能体
+    - 多模态学习
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.inclusion-ai.org/
+  ant-areal:
+    logo:
+      url: https://github.com/areal-project.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/areal-project/AReaL
+    introduction: AReaL Team 隶属于 Ant Group，是一支主要关注强化学习、大模型训练、智能体等方向的研究工程团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 强化学习
+    - 大模型训练
+    - 智能体
+    - AI 系统
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/areal-project/AReaL
+  xiaomi-mimo:
+    logo:
+      url: https://github.com/XiaomiMiMo.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/XiaomiMiMo
+    introduction: Xiaomi MiMo / LLM-Core Team 隶属于 Xiaomi，是一支主要关注大语言模型、多模态学习、机器推理的基础模型团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - 多模态学习
+    - 机器推理
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/XiaomiMiMo
+  xiaomi-embodied-intelligence:
+    logo:
+      url: https://github.com/XiaomiMiMo.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/XiaomiMiMo/MiMo-Embodied
+    introduction: Xiaomi Embodied Intelligence Team 隶属于 Xiaomi，是一支主要关注具身智能、机器人、视觉—语言—动作模型的企业研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 具身智能
+    - 机器人
+    - 视觉—语言—动作模型
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/XiaomiMiMo/MiMo-Embodied
+  rednote-hi-lab:
+    logo:
+      url: https://github.com/rednote-hilab.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/rednote-hilab/dots.vlm1
+    introduction: RedNote Hi Lab 隶属于 Xiaohongshu，是一支主要关注大语言模型、机器推理、智能体的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - 机器推理
+    - 智能体
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/rednote-hilab/dots.vlm1
+  xiaohongshu-firered:
+    logo:
+      url: https://github.com/FireRedTeam.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/FireRedTeam
+    introduction: FireRed Team 隶属于 Xiaohongshu，是一支主要关注语音技术、多模态学习、图像生成等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 语音技术
+    - 多模态学习
+    - 图像生成
+    - 视频生成
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://fireredteam.github.io/
+  deepseek-research:
+    logo:
+      url: https://github.com/deepseek-ai.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/deepseek-ai
+    introduction: DeepSeek AI Research 隶属于 DeepSeek，是一支主要关注大语言模型、机器推理、AI 系统等方向的前沿 AI 实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - 机器推理
+    - AI 系统
+    - 多模态学习
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.deepseek.com/
+  zhipu-glm:
+    logo:
+      url: https://github.com/zai-org.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/zai-org
+    introduction: Z.ai / GLM Team 隶属于 Zhipu AI，是一支主要关注大语言模型、多模态学习、智能体等方向的前沿 AI 实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - 多模态学习
+    - 智能体
+    - 机器推理
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://z.ai/
+  moonshot-kimi:
+    logo:
+      url: https://github.com/MoonshotAI.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/MoonshotAI
+    introduction: Moonshot AI / Kimi Research 隶属于 Moonshot AI，是一支主要关注大语言模型、智能体、多模态学习等方向的前沿 AI 实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - 智能体
+    - 多模态学习
+    - AI 系统
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.moonshot.cn/
+  minimax-research:
+    logo:
+      url: https://github.com/MiniMax-AI.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/MiniMax-AI
+    introduction: MiniMax Research 隶属于 MiniMax，是一支主要关注大语言模型、语音技术、多模态学习等方向的前沿 AI 实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - 语音技术
+    - 多模态学习
+    - 视频生成
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.minimaxi.com/
+  google-deepmind:
+    logo:
+      url: https://github.com/google-deepmind.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/google-deepmind
+    introduction: Google DeepMind 隶属于 Alphabet，是一支主要关注基础模型、强化学习、多模态学习等方向的前沿 AI 实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 基础模型
+    - 强化学习
+    - 多模态学习
+    - AI for Science
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://deepmind.google/
+  google-research:
+    logo:
+      url: https://github.com/google-research.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/google-research
+    introduction: Google Research 隶属于 Alphabet，是一支主要关注机器学习、自然语言处理、计算机视觉等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器学习
+    - 自然语言处理
+    - 计算机视觉
+    - AI 系统
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://research.google/
+  meta-fair:
+    logo:
+      url: https://github.com/facebookresearch.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/facebookresearch
+    introduction: Fundamental AI Research (FAIR) 隶属于 Meta，是一支主要关注基础模型、多模态学习、计算机视觉等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 基础模型
+    - 多模态学习
+    - 计算机视觉
+    - AI for Science
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://ai.meta.com/research/
+  meta-reality-labs-research:
+    logo:
+      url: https://github.com/facebookresearch.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/facebookresearch
+    introduction: Meta Reality Labs Research 隶属于 Meta，是一支主要关注增强现实、计算机视觉、具身智能等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 增强现实
+    - 计算机视觉
+    - 具身智能
+    - 人机交互
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://about.meta.com/realitylabs/
+  microsoft-ai-frontiers:
+    logo:
+      url: https://github.com/microsoft.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/microsoft
+    introduction: Microsoft Research AI Frontiers 隶属于 Microsoft，是一支主要关注基础模型、智能体、机器推理等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 基础模型
+    - 智能体
+    - 机器推理
+    - 模型评估
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.microsoft.com/en-us/research/project/ai-frontiers-explorations/
+  microsoft-general-ai:
+    logo:
+      url: https://github.com/microsoft.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/microsoft/unilm
+    introduction: Microsoft Research Asia — General Artificial Intelligence 隶属于 Microsoft，是一支主要关注基础模型、自然语言处理、语音技术等方向的企业研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 基础模型
+    - 自然语言处理
+    - 语音技术
+    - 多模态学习
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.microsoft.com/en-us/research/group/general-artificial-intelligence/
+  microsoft-ai-for-science:
+    logo:
+      url: https://github.com/microsoft.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/microsoft
+    introduction: Microsoft Research AI for Science 隶属于 Microsoft，是一支主要关注AI for Science、基础模型、计算化学等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - AI for Science
+    - 基础模型
+    - 计算化学
+    - 计算生物学
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.microsoft.com/en-us/research/lab/microsoft-research-ai-for-science/
+  microsoft-machine-learning-area:
+    logo:
+      url: https://github.com/microsoft.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/microsoft
+    introduction: Microsoft Research — Machine Learning Area 隶属于 Microsoft，是一支主要关注机器学习、强化学习、因果学习等方向的企业研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器学习
+    - 强化学习
+    - 因果学习
+    - 优化方法
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.microsoft.com/en-us/research/group/machine-learning-research-group/
+  microsoft-computer-vision:
+    logo:
+      url: https://github.com/microsoft.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/microsoft
+    introduction: Microsoft Research — Computer Vision Group 隶属于 Microsoft，是一支主要关注计算机视觉、多模态学习、图像生成等方向的企业研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 计算机视觉
+    - 多模态学习
+    - 图像生成
+    - 视频理解
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.microsoft.com/en-us/research/group/vision/
+  nvidia-cosmos-lab:
+    logo:
+      url: https://github.com/NVlabs.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/NVlabs
+    introduction: NVIDIA Cosmos Lab 隶属于 NVIDIA，是一支主要关注世界模型、物理世界 AI、视频生成等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 世界模型
+    - 物理世界 AI
+    - 视频生成
+    - 具身智能
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://research.nvidia.com/labs/dir/
+  nvidia-gear:
+    logo:
+      url: https://github.com/NVlabs.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/NVlabs
+    introduction: NVIDIA GEAR 隶属于 NVIDIA，是一支主要关注具身智能、机器人、基础模型等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 具身智能
+    - 机器人
+    - 基础模型
+    - 仿真
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://research.nvidia.com/labs/gear/
+  nvidia-dair:
+    logo:
+      url: https://github.com/NVlabs.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/NVlabs
+    introduction: NVIDIA Data-Driven AI for Robotics (DAIR) 隶属于 NVIDIA，是一支主要关注机器人、具身智能、人体运动建模等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器人
+    - 具身智能
+    - 人体运动建模
+    - 计算机视觉
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://research.nvidia.com/labs/dair/
+  nvidia-efficient-ai:
+    logo:
+      url: https://github.com/NVlabs.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/NVlabs
+    introduction: NVIDIA Efficient AI Lab 隶属于 NVIDIA，是一支主要关注高效 AI、模型压缩、模型推理等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 高效 AI
+    - 模型压缩
+    - 模型推理
+    - 生成式 AI
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://research.nvidia.com/labs/eai/
+  amazon-agi-lab:
+    logo:
+      url: https://github.com/amazon-science.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/amazon-science
+    introduction: Amazon AGI Lab 隶属于 Amazon，是一支主要关注智能体、强化学习、多模态学习等方向的前沿 AI 实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 智能体
+    - 强化学习
+    - 多模态学习
+    - 人机交互
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://labs.amazon.science/
+  amazon-science:
+    logo:
+      url: https://github.com/amazon-science.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/amazon-science
+    introduction: Amazon Science 隶属于 Amazon，是一支主要关注机器学习、自然语言处理、机器人等方向的企业研究网络。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器学习
+    - 自然语言处理
+    - 机器人
+    - 推荐系统
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.amazon.science/
+  apple-machine-learning-research:
+    logo:
+      url: https://github.com/apple.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/apple
+    introduction: Apple Machine Learning Research 隶属于 Apple，是一支主要关注机器学习、计算机视觉、语音技术等方向的企业研究网络。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器学习
+    - 计算机视觉
+    - 语音技术
+    - 负责任 AI
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://machinelearning.apple.com/
+  apple-mlx:
+    logo:
+      url: https://github.com/ml-explore.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/ml-explore
+    introduction: Apple MLX Research Team 隶属于 Apple，是一支主要关注机器学习框架、高效 AI、端侧 AI的研究工程团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器学习框架
+    - 高效 AI
+    - 端侧 AI
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://ml-explore.github.io/mlx/
+  openai-research:
+    logo:
+      url: https://github.com/openai.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/openai
+    introduction: OpenAI Research 隶属于 OpenAI，是一支主要关注基础模型、机器推理、多模态学习等方向的前沿 AI 实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 基础模型
+    - 机器推理
+    - 多模态学习
+    - AI 安全
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://openai.com/research/
+  anthropic-alignment:
+    logo:
+      url: https://github.com/anthropics.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/anthropics
+    introduction: Anthropic Alignment 隶属于 Anthropic，是一支主要关注AI 对齐、模型行为、AI 安全与对齐的前沿 AI 研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - AI 对齐
+    - 模型行为
+    - AI 安全与对齐
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.anthropic.com/research
+  anthropic-interpretability:
+    logo:
+      url: https://github.com/anthropics.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/anthropics
+    introduction: Anthropic Interpretability 隶属于 Anthropic，是一支主要关注机制可解释性、AI 安全与对齐、模型分析的前沿 AI 研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机制可解释性
+    - AI 安全与对齐
+    - 模型分析
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.anthropic.com/research
+  anthropic-frontier-red-team:
+    logo:
+      url: https://github.com/anthropics.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/anthropics
+    introduction: Anthropic Frontier Red Team 隶属于 Anthropic，是一支主要关注红队评测、网络安全、生物安全等方向的前沿 AI 研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 红队评测
+    - 网络安全
+    - 生物安全
+    - 自主系统
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.anthropic.com/research
+  anthropic-societal-impacts:
+    logo:
+      url: https://github.com/anthropics.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/anthropics
+    introduction: Anthropic Societal Impacts 隶属于 Anthropic，是一支主要关注AI 社会影响、模型评测、负责任 AI的前沿 AI 研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - AI 社会影响
+    - 模型评测
+    - 负责任 AI
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.anthropic.com/research
+  anthropic-economic-research:
+    logo:
+      url: https://github.com/anthropics.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/anthropics
+    introduction: Anthropic Economic Research 隶属于 Anthropic，是一支主要关注AI 经济学、AI 与劳动力、AI 应用与采用等方向的前沿 AI 研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - AI 经济学
+    - AI 与劳动力
+    - AI 应用与采用
+    - AI 社会影响
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.anthropic.com/research
+  tsinghua-thunlp:
+    logo:
+      url: https://github.com/thunlp.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/thunlp
+    introduction: Tsinghua Natural Language Processing Lab (THUNLP) 隶属于 Tsinghua University，是一支主要关注自然语言处理、大语言模型、知识图谱等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 自然语言处理
+    - 大语言模型
+    - 知识图谱
+    - 智能体
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://nlp.csai.tsinghua.edu.cn/
+  tsinghua-keg-thudm:
+    logo:
+      url: https://github.com/THUDM.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/THUDM
+    introduction: Tsinghua Knowledge Engineering Group / THUDM 隶属于 Tsinghua University，是一支主要关注基础模型、知识图谱、多模态学习等方向的校企联合实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 基础模型
+    - 知识图谱
+    - 多模态学习
+    - 智能体
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://keg.cs.tsinghua.edu.cn/
+  tsinghua-coai:
+    logo:
+      url: https://github.com/thu-coai.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/thu-coai
+    introduction: Tsinghua Conversational AI Group (CoAI) 隶属于 Tsinghua University，是一支主要关注对话智能、自然语言处理、大语言模型等方向的高校研究组。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 对话智能
+    - 自然语言处理
+    - 大语言模型
+    - AI 对齐
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/thu-coai
+  tsinghua-air:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fair.tsinghua.edu.cn&sz=128
+      kind: official_site_icon
+      source_url: https://air.tsinghua.edu.cn/en/
+    introduction: Institute for AI Industry Research (AIR), Tsinghua University 隶属于 Tsinghua University，是一支主要关注大语言模型、AI 系统、机器人等方向的高校研究院。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - AI 系统
+    - 机器人
+    - AI for Science
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://air.tsinghua.edu.cn/en/
+  pku-alignment:
+    logo:
+      url: https://github.com/PKU-Alignment.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/PKU-Alignment
+    introduction: PKU Alignment 隶属于 Peking University，是一支主要关注AI 对齐、强化学习、多模态学习等方向的高校研究组。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - AI 对齐
+    - 强化学习
+    - 多模态学习
+    - AI 安全与对齐
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/PKU-Alignment
+  pku-dair:
+    logo:
+      url: https://github.com/PKU-DAIR.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/PKU-DAIR
+    introduction: PKU Data and Intelligence Research Lab (DAIR) 隶属于 Peking University，是一支主要关注AI 系统、分布式训练、数据库等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - AI 系统
+    - 分布式训练
+    - 数据库
+    - 机器学习
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/PKU-DAIR
+  pku-core:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fpku.ai&sz=128
+      kind: official_site_icon
+      source_url: https://pku.ai/
+    introduction: PKU Cognitive Reasoning Lab (CoRe) 隶属于 Peking University，是一支主要关注认知推理、计算机视觉、具身智能等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 认知推理
+    - 计算机视觉
+    - 具身智能
+    - 机器人
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://pku.ai/
+  pku-camera-intelligence:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fcamera.pku.edu.cn&sz=128
+      kind: official_site_icon
+      source_url: https://camera.pku.edu.cn/
+    introduction: PKU Camera Intelligence Lab 隶属于 Peking University，是一支主要关注计算机视觉、计算摄影、视频生成等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 计算机视觉
+    - 计算摄影
+    - 视频生成
+    - 多模态学习
+    leaders:
+    - name: Boxin Shi
+      role: Principal Investigator
+      url: https://camera.pku.edu.cn/team
+    leadership_source: https://camera.pku.edu.cn/
+  pku-wu-lab:
+    logo:
+      url: https://github.com/PKU-Wu-Lab.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/PKU-Wu-Lab
+    introduction: PKU Institute of Computational Linguistics — Wu Lab 隶属于 Peking University，是一支主要关注自然语言处理、机器翻译、多模态推理等方向的高校研究组。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 自然语言处理
+    - 机器翻译
+    - 多模态推理
+    - 模型融合
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/PKU-Wu-Lab
+  zju-nlp-kg:
+    logo:
+      url: https://github.com/zjunlp.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/zjunlp
+    introduction: Zhejiang University NLP & Knowledge Graph Group 隶属于 Zhejiang University，是一支主要关注自然语言处理、知识图谱、智能体等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 自然语言处理
+    - 知识图谱
+    - 智能体
+    - 模型编辑
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://zjunlp.github.io/
+  zju-real:
+    logo:
+      url: https://github.com/ZJU-REAL.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/ZJU-REAL
+    introduction: ZJU Reasoning, Evaluation and Agents Lab (REAL) 隶属于 Zhejiang University，是一支主要关注大语言模型、机器推理、智能体等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - 机器推理
+    - 智能体
+    - 多模态学习
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/ZJU-REAL
+  zju-3dv:
+    logo:
+      url: https://github.com/zju3dv.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/zju3dv
+    introduction: ZJU 3D Vision Group 隶属于 Zhejiang University，是一支主要关注三维视觉、计算机视觉、自动驾驶等方向的高校研究组。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 三维视觉
+    - 计算机视觉
+    - 自动驾驶
+    - 具身智能
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/zju3dv
+  sjtu-mint:
+    logo:
+      url: https://github.com/MINT-SJTU.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/MINT-SJTU
+    introduction: SJTU Machine Intelligence and Interaction Lab (MINT) 隶属于 Shanghai Jiao Tong University，是一支主要关注具身智能、机器人、多模态学习等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 具身智能
+    - 机器人
+    - 多模态学习
+    - 智能体
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://mint-sjtu.github.io/
+  sjtu-gair-nlp:
+    logo:
+      url: https://github.com/GAIR-NLP.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/GAIR-NLP
+    introduction: SJTU Generative AI Research Lab (GAIR-NLP) 隶属于 Shanghai Jiao Tong University，是一支主要关注大语言模型、智能体、AI 对齐等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - 智能体
+    - AI 对齐
+    - AI for Science
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/GAIR-NLP
+  sjtu-mifa:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fmifa.sjtu.edu.cn&sz=128
+      kind: official_site_icon
+      source_url: https://mifa.sjtu.edu.cn/
+    introduction: SJTU Machine Intelligence Foundations and Applications Lab (MIFA) 隶属于 Shanghai Jiao Tong University，是一支主要关注基础模型、持续学习、多模态学习等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 基础模型
+    - 持续学习
+    - 多模态学习
+    - 数据高效学习
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://mifa.sjtu.edu.cn/
+  sjtu-rl2:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fgaoyue.sjtu.edu.cn&sz=128
+      kind: official_site_icon
+      source_url: https://gaoyue.sjtu.edu.cn/
+    introduction: SJTU Robot Learning and Representation Learning Lab (RL2) 隶属于 Shanghai Jiao Tong University，是一支主要关注机器人学习、具身智能、视觉—语言—动作模型等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器人学习
+    - 具身智能
+    - 视觉—语言—动作模型
+    - 机器人导航
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://gaoyue.sjtu.edu.cn/
+  fudan-nlp:
+    logo:
+      url: https://github.com/FudanNLP.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/FudanNLP
+    introduction: Fudan NLP Group 隶属于 Fudan University，是一支主要关注自然语言处理、大语言模型、信息抽取的高校研究组。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 自然语言处理
+    - 大语言模型
+    - 信息抽取
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/FudanNLP
+  fudan-disc:
+    logo:
+      url: https://github.com/FudanDISC.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/FudanDISC
+    introduction: Fudan Data Intelligence and Social Computing Lab (DISC) 隶属于 Fudan University，是一支主要关注大语言模型、数据挖掘、社会计算等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - 数据挖掘
+    - 社会计算
+    - 智能体
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/FudanDISC
+  fudan-data-intelligence-lab:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fdil.fudan.edu.cn&sz=128
+      kind: official_site_icon
+      source_url: https://dil.fudan.edu.cn/
+    introduction: Fudan Data Intelligence Lab 隶属于 Fudan University，是一支主要关注机器学习、基础模型、可信 AI等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器学习
+    - 基础模型
+    - 可信 AI
+    - 计算机视觉
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://dil.fudan.edu.cn/
+  ustc-vim:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fvim.ustc.edu.cn&sz=128
+      kind: official_site_icon
+      source_url: https://vim.ustc.edu.cn/
+    introduction: USTC Vision and Multimedia Research Group (VIM) 隶属于 University of Science and Technology of China，是一支主要关注计算机视觉、多模态学习、深度学习等方向的高校研究组。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 计算机视觉
+    - 多模态学习
+    - 深度学习
+    - AI 系统
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://vim.ustc.edu.cn/
+  ustc-ivc:
+    logo:
+      url: https://github.com/ustc-ivclab.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/ustc-ivclab
+    introduction: USTC Intelligent Visual Data Coding Lab (iVC) 隶属于 University of Science and Technology of China，是一支主要关注计算机视觉、视觉压缩、多模态学习等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 计算机视觉
+    - 视觉压缩
+    - 多模态学习
+    - 高效 AI
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://ustc-ivclab.github.io/
+  ustc-alpha-lab:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Falphalab-ustc.github.io&sz=128
+      kind: official_site_icon
+      source_url: https://alphalab-ustc.github.io/
+    introduction: AlphaLab @ USTC 隶属于 University of Science and Technology of China，是一支主要关注大语言模型、多模态学习、推荐系统等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - 多模态学习
+    - 推荐系统
+    - 可信 AI
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://alphalab-ustc.github.io/
+  ustc-mei-lab:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fustc-milab.work&sz=128
+      kind: official_site_icon
+      source_url: https://ustc-milab.work/
+    introduction: USTC Multimodal Embodied Intelligence Lab (MEI) 隶属于 University of Science and Technology of China，是一支主要关注多模态学习、具身智能、生成式 AI等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 多模态学习
+    - 具身智能
+    - 生成式 AI
+    - 信息检索
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://ustc-milab.work/
+  nju-lamda:
+    logo:
+      url: https://github.com/lamda-nju.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/lamda-nju
+    introduction: NJU Learning and Mining from Data Group (LAMDA) 隶属于 Nanjing University，是一支主要关注机器学习、数据挖掘、进化计算等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器学习
+    - 数据挖掘
+    - 进化计算
+    - 计算机视觉
+    leaders:
+    - name: Zhi-Hua Zhou
+      role: Head of LAMDA
+      url: https://cs.nju.edu.cn/zhouzh/
+    leadership_source: https://www.lamda.nju.edu.cn/
+  nju-lamda-cl:
+    logo:
+      url: https://github.com/LAMDA-CL.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/LAMDA-CL
+    introduction: LAMDA Continual Learning Lab 隶属于 Nanjing University，是一支主要关注持续学习、终身学习、视觉语言模型的高校研究组。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 持续学习
+    - 终身学习
+    - 视觉语言模型
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/LAMDA-CL
+  hit-scir:
+    logo:
+      url: https://github.com/HIT-SCIR.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/HIT-SCIR
+    introduction: HIT Research Center for Social Computing and Information Retrieval (SCIR) 隶属于 Harbin Institute of Technology，是一支主要关注自然语言处理、信息检索、知识图谱等方向的高校研究中心。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 自然语言处理
+    - 信息检索
+    - 知识图谱
+    - 社会计算
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://ir.hit.edu.cn/
+  hit-robotics-systems:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=http%3A%2F%2Frobot.hit.edu.cn&sz=128
+      kind: official_site_icon
+      source_url: http://robot.hit.edu.cn/
+    introduction: HIT State Key Laboratory of Robotics and Systems 隶属于 Harbin Institute of Technology，是一支主要关注机器人、具身智能、控制理论等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器人
+    - 具身智能
+    - 控制理论
+    - 智能系统
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: http://robot.hit.edu.cn/
+  xjtu-ai-sec:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fgr.xjtu.edu.cn&sz=128
+      kind: official_site_icon
+      source_url: https://gr.xjtu.edu.cn/en/web/cshen
+    introduction: Xi'an Jiaotong University AI Security Lab (AI-SEC) 隶属于 Xi'an Jiaotong University，是一支主要关注可信 AI、AI 安全与对齐、多模态学习等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 可信 AI
+    - AI 安全与对齐
+    - 多模态学习
+    - 高效 AI
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://gr.xjtu.edu.cn/en/web/cshen
+  xjtu-robotics-institute:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fen.xjtu.edu.cn&sz=128
+      kind: official_site_icon
+      source_url: https://en.xjtu.edu.cn/2025-08/22/c_1118744.htm
+    introduction: Xi'an Jiaotong University Robotics Research Institute 隶属于 Xi'an Jiaotong University，是一支主要关注机器人、具身智能、机器感知等方向的高校研究院。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器人
+    - 具身智能
+    - 机器感知
+    - 控制理论
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://en.xjtu.edu.cn/2025-08/22/c_1118744.htm
+  hkust-gz-precognition:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fprecognition.team&sz=128
+      kind: official_site_icon
+      source_url: https://precognition.team/
+    introduction: Precognition Lab 隶属于 The Hong Kong University of Science and Technology (Guangzhou)，是一支主要关注具身智能、计算机视觉、机器人等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 具身智能
+    - 计算机视觉
+    - 机器人
+    - 多模态学习
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://precognition.team/
+  hkust-gz-envision:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fenvision-research.hkust-gz.edu.cn&sz=128
+      kind: official_site_icon
+      source_url: https://envision-research.hkust-gz.edu.cn/
+    introduction: ENVISION Lab 隶属于 The Hong Kong University of Science and Technology (Guangzhou)，是一支主要关注生成式 AI、视频生成、三维生成等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 生成式 AI
+    - 视频生成
+    - 三维生成
+    - 计算机视觉
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://envision-research.hkust-gz.edu.cn/
+  hkust-gz-dsail:
+    logo:
+      url: https://github.com/DSAILatHKUST.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/DSAILatHKUST
+    introduction: HKUST(GZ) Data Science & Artificial Intelligence Lab (DSAIL) 隶属于 The Hong Kong University of Science and Technology (Guangzhou)，是一支主要关注大语言模型、AI for Science、图学习等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - AI for Science
+    - 图学习
+    - 智能体
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/DSAILatHKUST
+  hkust-gz-mdi:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fmdi.hkust-gz.edu.cn&sz=128
+      kind: official_site_icon
+      source_url: https://mdi.hkust-gz.edu.cn/en/
+    introduction: HKUST(GZ) Medical Data Intelligence Lab 隶属于 The Hong Kong University of Science and Technology (Guangzhou)，是一支主要关注医疗 AI、计算病理、多模态学习等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 医疗 AI
+    - 计算病理
+    - 多模态学习
+    - 数据挖掘
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://mdi.hkust-gz.edu.cn/en/
+  hkust-gz-hpml:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fdsa.hkust-gz.edu.cn&sz=128
+      kind: official_site_icon
+      source_url: https://dsa.hkust-gz.edu.cn/research/labs-institutes/high-performance-machine-learning-laboratory/
+    introduction: HKUST(GZ) High-Performance Machine Learning Lab 隶属于 The Hong Kong University of Science and Technology (Guangzhou)，是一支主要关注机器学习、AI 系统、分布式训练等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器学习
+    - AI 系统
+    - 分布式训练
+    - 优化方法
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://dsa.hkust-gz.edu.cn/research/labs-institutes/high-performance-machine-learning-laboratory/
+  hku-data-intelligence-lab:
+    logo:
+      url: https://github.com/HKUDS.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/HKUDS
+    introduction: HKU Data Intelligence Lab (HKUDS) 隶属于 The University of Hong Kong，是一支主要关注大语言模型、检索增强生成、智能体等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - 检索增强生成
+    - 智能体
+    - 推荐系统
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/HKUDS
+  hku-sail:
+    logo:
+      url: https://github.com/hkust-vgd.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/hkust-vgd
+    introduction: HKU Super Artificial Intelligence Lab (SAIL) 隶属于 The University of Hong Kong，是一支主要关注生成式 AI、具身智能、多模态学习等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 生成式 AI
+    - 具身智能
+    - 多模态学习
+    - 空间智能
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://sail.ai.hku.hk/
+  hku-intelligent-cybersecurity:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fsec.hku.hk&sz=128
+      kind: official_site_icon
+      source_url: https://sec.hku.hk/
+    introduction: HKU JC STEM Lab of Intelligent Cybersecurity 隶属于 The University of Hong Kong，是一支主要关注AI 安全、代码生成、可信 AI等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - AI 安全
+    - 代码生成
+    - 可信 AI
+    - 智能体安全
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://sec.hku.hk/
+  cuhk-mmlab:
+    logo:
+      url: https://github.com/open-mmlab.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/open-mmlab
+    introduction: CUHK Multimedia Laboratory (MMLab) 隶属于 The Chinese University of Hong Kong，是一支主要关注计算机视觉、多模态学习、生成式 AI等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 计算机视觉
+    - 多模态学习
+    - 生成式 AI
+    - 视频理解
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://mmlab.ie.cuhk.edu.hk/
+  cuhk-t-stone-robotics:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.cuhk.edu.hk&sz=128
+      kind: official_site_icon
+      source_url: https://www.cuhk.edu.hk/ri/
+    introduction: CUHK T Stone Robotics Institute 隶属于 The Chinese University of Hong Kong，是一支主要关注机器人、手术机器人、具身智能等方向的高校研究院。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器人
+    - 手术机器人
+    - 具身智能
+    - 计算机视觉
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.cuhk.edu.hk/ri/
+  cuhk-legged-robot-lab:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fcuhkleggedrobotlab.github.io&sz=128
+      kind: official_site_icon
+      source_url: https://cuhkleggedrobotlab.github.io/
+    introduction: CUHK Legged Robot Lab 隶属于 The Chinese University of Hong Kong，是一支主要关注足式机器人、具身智能、控制理论等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 足式机器人
+    - 具身智能
+    - 控制理论
+    - 机器感知
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://cuhkleggedrobotlab.github.io/
+  cuhk-language-processing-lab:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fcuhklpl.github.io&sz=128
+      kind: official_site_icon
+      source_url: https://cuhklpl.github.io/
+    introduction: CUHK Language Processing Lab 隶属于 The Chinese University of Hong Kong，是一支主要关注自然语言处理、心理语言学、可解释 AI等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 自然语言处理
+    - 心理语言学
+    - 可解释 AI
+    - 模型行为
+    leaders:
+    - name: Zhenguang Cai
+      role: Lab Director
+      url: https://cuhklpl.github.io/
+    leadership_source: https://cuhklpl.github.io/
+  hkust-dv-lab:
+    logo:
+      url: https://github.com/DVLab.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/DVLab
+    introduction: HKUST Deep Vision Lab (DV Lab) 隶属于 The Hong Kong University of Science and Technology，是一支主要关注计算机视觉、多模态学习、生成式 AI等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 计算机视觉
+    - 多模态学习
+    - 生成式 AI
+    - 自动驾驶
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.dvlab.ai/
+  hkust-caire:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fcaire.hkust.edu.hk&sz=128
+      kind: official_site_icon
+      source_url: https://caire.hkust.edu.hk/about/about-caire
+    introduction: HKUST Centre for Artificial Intelligence Research (CAiRE) 隶属于 The Hong Kong University of Science and Technology，是一支主要关注自然语言处理、对话智能、多模态学习等方向的高校研究中心。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 自然语言处理
+    - 对话智能
+    - 多模态学习
+    - 负责任 AI
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://caire.hkust.edu.hk/about/about-caire
+  hkust-aerial-robotics:
+    logo:
+      url: https://github.com/HKUST-Aerial-Robotics.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/HKUST-Aerial-Robotics
+    introduction: HKUST Aerial Robotics Group 隶属于 The Hong Kong University of Science and Technology，是一支主要关注空中机器人、同步定位与建图、具身智能等方向的高校研究组。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 空中机器人
+    - 同步定位与建图
+    - 具身智能
+    - 自主系统
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/HKUST-Aerial-Robotics
+  hkust-mevita-robotics:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fmrl.hkust.edu.hk&sz=128
+      kind: official_site_icon
+      source_url: https://mrl.hkust.edu.hk/
+    introduction: HKUST Mevita Robotics Lab 隶属于 The Hong Kong University of Science and Technology，是一支主要关注机器人、触觉感知、灵巧操作等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器人
+    - 触觉感知
+    - 灵巧操作
+    - 物理智能
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://mrl.hkust.edu.hk/
+  nus-ai-institute:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fai.nus.edu.sg&sz=128
+      kind: official_site_icon
+      source_url: https://ai.nus.edu.sg/
+    introduction: NUS Artificial Intelligence Institute 隶属于 National University of Singapore，是一支主要关注基础模型、可信 AI、AI for Science等方向的高校研究院。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 基础模型
+    - 可信 AI
+    - AI for Science
+    - AI 公益
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://ai.nus.edu.sg/
+  nus-nlp:
+    logo:
+      url: https://github.com/nusnlp.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/nusnlp
+    introduction: NUS Natural Language Processing Group 隶属于 National University of Singapore，是一支主要关注自然语言处理、大语言模型、多语言 AI等方向的高校研究组。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 自然语言处理
+    - 大语言模型
+    - 多语言 AI
+    - 视频语言学习
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/nusnlp
+  nus-ai-lab:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fnusail.comp.nus.edu.sg&sz=128
+      kind: official_site_icon
+      source_url: https://nusail.comp.nus.edu.sg/
+    introduction: NUS AI Lab 隶属于 National University of Singapore，是一支主要关注具身智能、规划与决策、多智能体系统等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 具身智能
+    - 规划与决策
+    - 多智能体系统
+    - 机器人
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://nusail.comp.nus.edu.sg/
+  nus-cvml:
+    logo:
+      url: https://github.com/nus-cvml.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/nus-cvml
+    introduction: NUS Computer Vision and Machine Learning Group 隶属于 National University of Singapore，是一支主要关注计算机视觉、机器学习、多模态学习等方向的高校研究组。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 计算机视觉
+    - 机器学习
+    - 多模态学习
+    - 生成式 AI
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://cvml.comp.nus.edu.sg/
+  ntu-grail:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.ntu.edu.sg&sz=128
+      kind: official_site_icon
+      source_url: https://www.ntu.edu.sg/computing/research/institutes-centres/grail
+    introduction: NTU Generative AI Lab (GrAIL) 隶属于 Nanyang Technological University，是一支主要关注生成式 AI、多模态学习、计算机视觉等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 生成式 AI
+    - 多模态学习
+    - 计算机视觉
+    - AI for Science
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.ntu.edu.sg/computing/research/institutes-centres/grail
+  ntu-mmlab:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.mmlab-ntu.com&sz=128
+      kind: official_site_icon
+      source_url: https://www.mmlab-ntu.com/
+    introduction: MMLab@NTU 隶属于 Nanyang Technological University，是一支主要关注计算机视觉、多模态学习、生成式 AI等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 计算机视觉
+    - 多模态学习
+    - 生成式 AI
+    - 具身智能
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.mmlab-ntu.com/
+  ntu-nlp:
+    logo:
+      url: https://github.com/ntunlpsg.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/ntunlpsg
+    introduction: NTU Natural Language Processing Group 隶属于 Nanyang Technological University，是一支主要关注自然语言处理、多语言 AI、多模态学习等方向的高校研究组。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 自然语言处理
+    - 多语言 AI
+    - 多模态学习
+    - 医疗自然语言处理
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://ntunlpsg.github.io/
+  ntu-declare:
+    logo:
+      url: https://github.com/declare-lab.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/declare-lab
+    introduction: NTU Deep Cognition and Language Research Lab (DeCLaRe) 隶属于 Nanyang Technological University，是一支主要关注AI 安全与对齐、可信 AI、多模态学习等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - AI 安全与对齐
+    - 可信 AI
+    - 多模态学习
+    - 具身智能
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://declare-lab.github.io/
+  ntu-s-lab:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.ntu.edu.sg&sz=128
+      kind: official_site_icon
+      source_url: https://www.ntu.edu.sg/s-lab
+    introduction: NTU S-Lab for Advanced Intelligence 隶属于 Nanyang Technological University，是一支主要关注计算机视觉、自然语言处理、强化学习等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 计算机视觉
+    - 自然语言处理
+    - 强化学习
+    - 分布式智能
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.ntu.edu.sg/s-lab
+  cmu-language-technologies-institute:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.lti.cs.cmu.edu&sz=128
+      kind: official_site_icon
+      source_url: https://www.lti.cs.cmu.edu/
+    introduction: CMU Language Technologies Institute (LTI) 隶属于 Carnegie Mellon University，是一支主要关注自然语言处理、语音技术、信息检索等方向的高校研究院。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 自然语言处理
+    - 语音技术
+    - 信息检索
+    - 大语言模型
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.lti.cs.cmu.edu/
+  cmu-machine-learning-department:
+    logo:
+      url: https://github.com/cmu-mlsp.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/cmu-mlsp
+    introduction: CMU Machine Learning Department 隶属于 Carnegie Mellon University，是一支主要关注机器学习、统计学习、强化学习等方向的高校研究院系。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器学习
+    - 统计学习
+    - 强化学习
+    - AI for Science
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.ml.cmu.edu/
+  cmu-robotics-institute:
+    logo:
+      url: https://github.com/cmu-robotics.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/cmu-robotics
+    introduction: CMU Robotics Institute 隶属于 Carnegie Mellon University，是一支主要关注机器人、具身智能、计算机视觉等方向的高校研究院。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器人
+    - 具身智能
+    - 计算机视觉
+    - 自主系统
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.ri.cmu.edu/
+  cmu-auton-lab:
+    logo:
+      url: https://github.com/autonlab.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/autonlab
+    introduction: CMU Auton Lab 隶属于 Carnegie Mellon University，是一支主要关注机器学习、数据挖掘、自主科学发现等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器学习
+    - 数据挖掘
+    - 自主科学发现
+    - AI for Science
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.autonlab.org/
+  cmu-generative-intelligence-lab:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.ri.cmu.edu&sz=128
+      kind: official_site_icon
+      source_url: https://www.ri.cmu.edu/robotics-groups/generative-intelligence-lab/
+    introduction: CMU Generative Intelligence Lab 隶属于 Carnegie Mellon University，是一支主要关注生成式 AI、计算机视觉、人机协作等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 生成式 AI
+    - 计算机视觉
+    - 人机协作
+    - 机器人
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.ri.cmu.edu/robotics-groups/generative-intelligence-lab/
+  mit-csail:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.csail.mit.edu&sz=128
+      kind: official_site_icon
+      source_url: https://www.csail.mit.edu/
+    introduction: MIT Computer Science and Artificial Intelligence Laboratory (CSAIL) 隶属于 Massachusetts Institute of Technology，是一支主要关注机器学习、自然语言处理、计算机视觉等方向的高校研究院。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器学习
+    - 自然语言处理
+    - 计算机视觉
+    - 机器人
+    leaders:
+    - name: Daniela Rus
+      role: Director
+      url: https://www.csail.mit.edu/person/daniela-rus
+    leadership_source: https://www.csail.mit.edu/
+  mit-cbmm:
+    logo:
+      url: https://github.com/CBMM.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/CBMM
+    introduction: MIT Center for Brains, Minds and Machines (CBMM) 隶属于 Massachusetts Institute of Technology，是一支主要关注学习理论、计算神经科学、计算机视觉等方向的高校研究中心。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 学习理论
+    - 计算神经科学
+    - 计算机视觉
+    - 认知智能
+    leaders:
+    - name: Tomaso Poggio
+      role: Co-Director
+      url: https://cbmm.mit.edu/about/people/poggio
+    leadership_source: https://cbmm.mit.edu/
+  mit-improbable-ai:
+    logo:
+      url: https://github.com/Improbable-AI.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/Improbable-AI
+    introduction: MIT Improbable AI Lab 隶属于 Massachusetts Institute of Technology，是一支主要关注机器人、具身智能、强化学习等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器人
+    - 具身智能
+    - 强化学习
+    - 机器人运动
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://improbable-ai.github.io/
+  mit-embodied-intelligence:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fei.csail.mit.edu&sz=128
+      kind: official_site_icon
+      source_url: https://ei.csail.mit.edu/
+    introduction: MIT Embodied Intelligence Group 隶属于 Massachusetts Institute of Technology，是一支主要关注具身智能、机器人、计算机视觉等方向的高校研究组。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 具身智能
+    - 机器人
+    - 计算机视觉
+    - 表征学习
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://ei.csail.mit.edu/
+  stanford-sail:
+    logo:
+      url: https://github.com/stanfordai.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/stanfordai
+    introduction: Stanford Artificial Intelligence Laboratory (SAIL) 隶属于 Stanford University，是一支主要关注机器学习、自然语言处理、计算机视觉等方向的高校研究院。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器学习
+    - 自然语言处理
+    - 计算机视觉
+    - 机器人
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://ai.stanford.edu/
+  stanford-crfm:
+    logo:
+      url: https://github.com/stanford-crfm.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/stanford-crfm
+    introduction: Stanford Center for Research on Foundation Models (CRFM) 隶属于 Stanford University，是一支主要关注基础模型、模型评估、AI 透明度等方向的高校研究中心。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 基础模型
+    - 模型评估
+    - AI 透明度
+    - 负责任 AI
+    leaders:
+    - name: Percy Liang
+      role: Director
+      url: https://cs.stanford.edu/~pliang/
+    leadership_source: https://crfm.stanford.edu/
+  stanford-nlp:
+    logo:
+      url: https://github.com/stanfordnlp.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/stanfordnlp
+    introduction: Stanford Natural Language Processing Group 隶属于 Stanford University，是一支主要关注自然语言处理、大语言模型、智能体等方向的高校研究组。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 自然语言处理
+    - 大语言模型
+    - 智能体
+    - 模型评估
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://nlp.stanford.edu/
+  stanford-svl:
+    logo:
+      url: https://github.com/StanfordVL.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/StanfordVL
+    introduction: Stanford Vision and Learning Lab (SVL) 隶属于 Stanford University，是一支主要关注计算机视觉、自动驾驶、机器人等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 计算机视觉
+    - 自动驾驶
+    - 机器人
+    - 多模态学习
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://svl.stanford.edu/
+  stanford-iliad:
+    logo:
+      url: https://github.com/Stanford-ILIAD.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/Stanford-ILIAD
+    introduction: Stanford Intelligent and Interactive Autonomous Systems Group (ILIAD) 隶属于 Stanford University，是一支主要关注机器人、人机交互与协作、强化学习等方向的高校研究组。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器人
+    - 人机交互与协作
+    - 强化学习
+    - 具身智能
+    leaders:
+    - name: Dorsa Sadigh
+      role: Faculty Lead
+      url: https://dorsa.fyi/
+    leadership_source: https://iliad.stanford.edu/
+  berkeley-bair:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fbair.berkeley.edu&sz=128
+      kind: official_site_icon
+      source_url: https://bair.berkeley.edu/
+    introduction: Berkeley Artificial Intelligence Research (BAIR) 隶属于 University of California, Berkeley，是一支主要关注机器学习、计算机视觉、自然语言处理等方向的高校研究院。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器学习
+    - 计算机视觉
+    - 自然语言处理
+    - 机器人
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://bair.berkeley.edu/
+  berkeley-chai:
+    logo:
+      url: https://github.com/HumanCompatibleAI.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/HumanCompatibleAI
+    introduction: Berkeley Center for Human-Compatible AI (CHAI) 隶属于 University of California, Berkeley，是一支主要关注AI 安全与对齐、AI 对齐、强化学习等方向的高校研究中心。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - AI 安全与对齐
+    - AI 对齐
+    - 强化学习
+    - 人类兼容 AI
+    leaders:
+    - name: Stuart Russell
+      role: Founder and Faculty Director
+      url: https://people.eecs.berkeley.edu/~russell/
+    leadership_source: https://humancompatible.ai/
+  berkeley-rail:
+    logo:
+      url: https://github.com/rail-berkeley.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/rail-berkeley
+    introduction: Berkeley Robotic AI & Learning Lab (RAIL) 隶属于 University of California, Berkeley，是一支主要关注机器人、强化学习、计算机视觉等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器人
+    - 强化学习
+    - 计算机视觉
+    - 具身智能
+    leaders:
+    - name: Sergey Levine
+      role: Faculty Lead
+      url: https://people.eecs.berkeley.edu/~svlevine/
+    leadership_source: https://rail.eecs.berkeley.edu/
+  berkeley-nlp:
+    logo:
+      url: https://github.com/Berkeley-NLP.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/Berkeley-NLP
+    introduction: Berkeley Natural Language Processing Group 隶属于 University of California, Berkeley，是一支主要关注自然语言处理、大语言模型、信息检索等方向的高校研究组。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 自然语言处理
+    - 大语言模型
+    - 信息检索
+    - 模型评估
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://nlp.berkeley.edu/
+  berkeley-sky-computing-lab:
+    logo:
+      url: https://github.com/skypilot-org.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/skypilot-org
+    introduction: Berkeley Sky Computing Lab 隶属于 University of California, Berkeley，是一支主要关注AI 系统、分布式计算、模型服务等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - AI 系统
+    - 分布式计算
+    - 模型服务
+    - 云计算
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://sky.cs.berkeley.edu/
+  umd-umiacs:
+    logo:
+      url: https://github.com/UMIACS.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/UMIACS
+    introduction: University of Maryland Institute for Advanced Computer Studies (UMIACS) 隶属于 University of Maryland, College Park，是一支主要关注人工智能、自然语言处理、计算机视觉等方向的高校研究院。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 人工智能
+    - 自然语言处理
+    - 计算机视觉
+    - 机器人
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://www.umiacs.umd.edu/
+  umd-clip:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwiki.umiacs.umd.edu&sz=128
+      kind: official_site_icon
+      source_url: https://wiki.umiacs.umd.edu/clip/index.php/Main_Page
+    introduction: UMD Computational Linguistics and Information Processing Lab (CLIP) 隶属于 University of Maryland, College Park，是一支主要关注自然语言处理、信息检索、机器翻译等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 自然语言处理
+    - 信息检索
+    - 机器翻译
+    - 大语言模型
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://wiki.umiacs.umd.edu/clip/index.php/Main_Page
+  umd-maryland-robotics-center:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Frobotics.umd.edu&sz=128
+      kind: official_site_icon
+      source_url: https://robotics.umd.edu/
+    introduction: Maryland Robotics Center 隶属于 University of Maryland, College Park，是一支主要关注机器人、具身智能、自主系统等方向的高校研究中心。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器人
+    - 具身智能
+    - 自主系统
+    - 计算机视觉
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://robotics.umd.edu/
+  umd-gamma:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fgamma.umd.edu&sz=128
+      kind: official_site_icon
+      source_url: https://gamma.umd.edu/
+    introduction: UMD GAMMA Research Group 隶属于 University of Maryland, College Park，是一支主要关注计算机视觉、机器人、仿真等方向的高校研究组。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 计算机视觉
+    - 机器人
+    - 仿真
+    - 生成式 AI
+    leaders:
+    - name: Dinesh Manocha
+      role: Director
+      url: https://www.cs.umd.edu/people/dmanocha
+    leadership_source: https://gamma.umd.edu/
+  ucsd-hdsi-ai-ml:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fdatascience.ucsd.edu&sz=128
+      kind: official_site_icon
+      source_url: https://datascience.ucsd.edu/research/artificial-intelligence-and-machine-learning/
+    introduction: UC San Diego HDSI — Artificial Intelligence and Machine Learning 隶属于 University of California, San Diego，是一支主要关注机器学习、计算机视觉、机器人等方向的高校研究网络。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器学习
+    - 计算机视觉
+    - 机器人
+    - 数据科学
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://datascience.ucsd.edu/research/artificial-intelligence-and-machine-learning/
+  ucsd-contextual-robotics:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fcontextualrobotics.ucsd.edu&sz=128
+      kind: official_site_icon
+      source_url: https://contextualrobotics.ucsd.edu/
+    introduction: UC San Diego Contextual Robotics Institute 隶属于 University of California, San Diego，是一支主要关注机器人、自主系统、计算机视觉等方向的高校研究院。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器人
+    - 自主系统
+    - 计算机视觉
+    - 人机交互与协作
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://contextualrobotics.ucsd.edu/
+  ucsd-existential-robotics:
+    logo:
+      url: https://github.com/ExistentialRobotics.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/ExistentialRobotics
+    introduction: UC San Diego Existential Robotics Lab 隶属于 University of California, San Diego，是一支主要关注机器人、强化学习、同步定位与建图等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器人
+    - 强化学习
+    - 同步定位与建图
+    - 安全自主系统
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://erl.ucsd.edu/
+  ucsd-cvrr-lisa:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fcvrr.ucsd.edu&sz=128
+      kind: official_site_icon
+      source_url: https://cvrr.ucsd.edu/
+    introduction: UC San Diego Computer Vision & Robotics Research / LISA Lab 隶属于 University of California, San Diego，是一支主要关注计算机视觉、自动驾驶、多模态感知等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 计算机视觉
+    - 自动驾驶
+    - 多模态感知
+    - 机器人
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://cvrr.ucsd.edu/
+  uw-wail:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwail.uw.edu&sz=128
+      kind: official_site_icon
+      source_url: https://wail.uw.edu/
+    introduction: Washington AI Lab (WAIL) 隶属于 University of Washington，是一支主要关注人工智能、自然语言处理、计算机视觉等方向的高校研究网络。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 人工智能
+    - 自然语言处理
+    - 计算机视觉
+    - 可信 AI
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://wail.uw.edu/
+  uw-robotics:
+    logo:
+      url: https://github.com/uwrobotics.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/uwrobotics
+    introduction: UW Robotics 隶属于 University of Washington，是一支主要关注机器人、具身智能、计算机视觉等方向的高校研究网络。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 机器人
+    - 具身智能
+    - 计算机视觉
+    - 人机交互与协作
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://robotics.cs.washington.edu/
+  uw-nlp:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fnlp.cs.washington.edu&sz=128
+      kind: official_site_icon
+      source_url: https://nlp.cs.washington.edu/
+    introduction: UW Natural Language Processing Group 隶属于 University of Washington，是一支主要关注自然语言处理、大语言模型、多语言 AI等方向的高校研究组。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 自然语言处理
+    - 大语言模型
+    - 多语言 AI
+    - 负责任 AI
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://nlp.cs.washington.edu/
+  uw-weird-lab:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fweirdlab.cs.washington.edu&sz=128
+      kind: official_site_icon
+      source_url: https://weirdlab.cs.washington.edu/
+    introduction: UW Washington Embodied Intelligence and Robotics Development Lab (WEIRD) 隶属于 University of Washington，是一支主要关注具身智能、机器人学习、计算机视觉等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 具身智能
+    - 机器人学习
+    - 计算机视觉
+    - 强化学习
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://weirdlab.cs.washington.edu/
+  uiuc-nlp:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fnlp.cs.illinois.edu&sz=128
+      kind: official_site_icon
+      source_url: https://nlp.cs.illinois.edu/
+    introduction: NLP @ UIUC 隶属于 University of Illinois Urbana-Champaign，是一支主要关注自然语言处理、大语言模型、语音技术等方向的高校研究网络。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 自然语言处理
+    - 大语言模型
+    - 语音技术
+    - 多模态学习
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://nlp.cs.illinois.edu/
+  uiuc-blender-lab:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fblender.cs.illinois.edu&sz=128
+      kind: official_site_icon
+      source_url: https://blender.cs.illinois.edu/
+    introduction: UIUC BLENDER Lab 隶属于 University of Illinois Urbana-Champaign，是一支主要关注自然语言处理、信息抽取、知识推理等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 自然语言处理
+    - 信息抽取
+    - 知识推理
+    - 大语言模型
+    leaders:
+    - name: Heng Ji
+      role: Director
+      url: https://blender.cs.illinois.edu/
+    leadership_source: https://blender.cs.illinois.edu/
+  uiuc-dais:
+    logo:
+      url: https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fdais.cs.illinois.edu&sz=128
+      kind: official_site_icon
+      source_url: https://dais.cs.illinois.edu/
+    introduction: UIUC Data and Intelligent Systems (DAIS) 隶属于 University of Illinois Urbana-Champaign，是一支主要关注数据挖掘、自然语言处理、机器学习等方向的高校研究网络。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 数据挖掘
+    - 自然语言处理
+    - 机器学习
+    - 信息检索
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://dais.cs.illinois.edu/
+  uiuc-secure-learning-lab:
+    logo:
+      url: https://github.com/AI-secure.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/AI-secure
+    introduction: UIUC Secure Learning Lab 隶属于 University of Illinois Urbana-Champaign，是一支主要关注可信 AI、对抗机器学习、隐私保护等方向的高校实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 可信 AI
+    - 对抗机器学习
+    - 隐私保护
+    - 大语言模型
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://aisecure.github.io/

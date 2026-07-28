@@ -1,0 +1,1635 @@
+---
+schema_version: 1
+last_updated: '2026-07-28'
+notes:
+- Scholarly identifiers were extracted from each representative GitHub repository README.
+- Multiple identifiers are retained because a repository can cover several papers; the metadata resolver validates title similarity before choosing one.
+works:
+  alibaba-damo-academy:0:
+    repository: https://github.com/alibaba-damo-academy/Uni3C
+    readme_status: read
+    arxiv_ids:
+    - '2504.14899'
+    dois: []
+  alibaba-damo-academy:1:
+    repository: https://github.com/alibaba-damo-academy/RynnVLA-001
+    readme_status: read
+    arxiv_ids:
+    - '2509.15212'
+    - '2511.17502'
+    - '2506.21539'
+    - '2508.14160'
+    dois: []
+  alibaba-damo-academy:2:
+    repository: https://github.com/alibaba-damo-academy/Lumos
+    readme_status: read
+    arxiv_ids:
+    - '2507.08801'
+    dois: []
+  alibaba-modelscope:0:
+    repository: https://github.com/modelscope/ms-swift
+    readme_status: read
+    arxiv_ids:
+    - '2408.05517'
+    - '2508.05629'
+    - '2309.00986'
+    dois: []
+  alibaba-modelscope:1:
+    repository: https://github.com/modelscope/modelscope
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  alibaba-modelscope:2:
+    repository: https://github.com/modelscope/FunClip
+    readme_status: read
+    arxiv_ids:
+    - '2305.11013'
+    - '2308.03266'
+    dois: []
+  alibaba-nlp:0:
+    repository: https://github.com/Alibaba-NLP/ViDoRAG
+    readme_status: read
+    arxiv_ids:
+    - '2502.18017'
+    dois: []
+  alibaba-nlp:1:
+    repository: https://github.com/Alibaba-NLP/CHRONOS
+    readme_status: read
+    arxiv_ids:
+    - '2501.00888'
+    dois: []
+  alibaba-nlp:2:
+    repository: https://github.com/Alibaba-NLP/VLLM-KB
+    readme_status: read
+    arxiv_ids:
+    - '2502.18023'
+    dois: []
+  alibaba-qwen:0:
+    repository: https://github.com/QwenLM/ProcessBench
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  alibaba-qwen:1:
+    repository: https://github.com/QwenLM/PolyMath
+    readme_status: read
+    arxiv_ids:
+    - '2504.18428'
+    dois: []
+  alibaba-qwen:2:
+    repository: https://github.com/QwenLM/Qwen
+    readme_status: read
+    arxiv_ids:
+    - '2309.16609'
+    - '2106.09685'
+    - '2305.14314'
+    - '2307.11088'
+    dois: []
+  amazon-agi-lab:0:
+    repository: https://github.com/amazon-science/CodeSage
+    readme_status: read
+    arxiv_ids:
+    - '2402.01935'
+    dois: []
+  amazon-agi-lab:1:
+    repository: https://github.com/amazon-science/auto-rag-eval
+    readme_status: read
+    arxiv_ids:
+    - '2405.13622'
+    dois: []
+  amazon-agi-lab:2:
+    repository: https://github.com/amazon-science/TISER
+    readme_status: read
+    arxiv_ids:
+    - '2504.05258'
+    dois: []
+  amazon-science:0:
+    repository: https://github.com/amazon-science/CodeSage
+    readme_status: read
+    arxiv_ids:
+    - '2402.01935'
+    dois: []
+  amazon-science:1:
+    repository: https://github.com/amazon-science/auto-rag-eval
+    readme_status: read
+    arxiv_ids:
+    - '2405.13622'
+    dois: []
+  amazon-science:2:
+    repository: https://github.com/amazon-science/TISER
+    readme_status: read
+    arxiv_ids:
+    - '2504.05258'
+    dois: []
+  ant-areal:0:
+    repository: https://github.com/areal-project/AReaL
+    readme_status: read
+    arxiv_ids:
+    - '2505.24298'
+    - '2601.22607'
+    - '2607.01120'
+    - '2402.03300'
+    - '2507.18071'
+    dois: []
+  ant-areal:1:
+    repository: https://github.com/areal-project/AReaL-MinT
+    readme_status: read
+    arxiv_ids:
+    - '2605.13779'
+    dois: []
+  ant-areal:2:
+    repository: https://github.com/areal-project/community
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  ant-inclusion-ai:0:
+    repository: https://github.com/inclusionAI/TwinFlow
+    readme_status: read
+    arxiv_ids:
+    - '2512.05150'
+    - '2505.07447'
+    dois: []
+  ant-inclusion-ai:1:
+    repository: https://github.com/inclusionAI/Zooming-without-Zooming
+    readme_status: read
+    arxiv_ids:
+    - '2602.11858'
+    dois: []
+  ant-inclusion-ai:2:
+    repository: https://github.com/inclusionAI/AudioMCQ
+    readme_status: read
+    arxiv_ids:
+    - '2509.21060'
+    dois: []
+  ant-interactive-ai-lab:0:
+    repository: https://github.com/ant-research/DreamLIP
+    readme_status: read
+    arxiv_ids:
+    - '2403.17007'
+    dois: []
+  ant-interactive-ai-lab:1:
+    repository: https://github.com/ant-research/edicho
+    readme_status: read
+    arxiv_ids:
+    - '2412.21079'
+    dois: []
+  ant-interactive-ai-lab:2:
+    repository: https://github.com/ant-research/PlanarSplatting
+    readme_status: read
+    arxiv_ids:
+    - '2412.03451'
+    dois: []
+  anthropic-alignment:0:
+    repository: https://github.com/anthropics/defending-code-reference-harness
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  anthropic-alignment:1:
+    repository: https://github.com/anthropics/courses
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  anthropic-alignment:2:
+    repository: https://github.com/anthropics/claude-code-security-review
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  anthropic-economic-research:0:
+    repository: https://github.com/anthropics/defending-code-reference-harness
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  anthropic-economic-research:1:
+    repository: https://github.com/anthropics/courses
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  anthropic-economic-research:2:
+    repository: https://github.com/anthropics/claude-code-security-review
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  anthropic-frontier-red-team:0:
+    repository: https://github.com/anthropics/defending-code-reference-harness
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  anthropic-frontier-red-team:1:
+    repository: https://github.com/anthropics/courses
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  anthropic-frontier-red-team:2:
+    repository: https://github.com/anthropics/claude-code-security-review
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  anthropic-interpretability:0:
+    repository: https://github.com/anthropics/defending-code-reference-harness
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  anthropic-interpretability:1:
+    repository: https://github.com/anthropics/courses
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  anthropic-interpretability:2:
+    repository: https://github.com/anthropics/claude-code-security-review
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  anthropic-societal-impacts:0:
+    repository: https://github.com/anthropics/defending-code-reference-harness
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  anthropic-societal-impacts:1:
+    repository: https://github.com/anthropics/courses
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  anthropic-societal-impacts:2:
+    repository: https://github.com/anthropics/claude-code-security-review
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  apple-machine-learning-research:0:
+    repository: https://github.com/apple/ml-fastvlm
+    readme_status: read
+    arxiv_ids:
+    - '2412.13303'
+    dois: []
+  apple-machine-learning-research:1:
+    repository: https://github.com/apple/ml-mobileclip
+    readme_status: read
+    arxiv_ids:
+    - '2508.20691'
+    - '2311.17049'
+    - '2103.00020'
+    - '2303.15343'
+    - '2309.17425'
+    dois: []
+  apple-machine-learning-research:2:
+    repository: https://github.com/apple/ml-lito
+    readme_status: read
+    arxiv_ids:
+    - '2603.11047'
+    dois: []
+  apple-mlx:0:
+    repository: https://github.com/ml-explore/mlx
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  apple-mlx:1:
+    repository: https://github.com/ml-explore/mlx-examples
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  apple-mlx:2:
+    repository: https://github.com/ml-explore/mlx-lm
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  baidu-ernie:0:
+    repository: https://github.com/PaddlePaddle/ERNIE
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  baidu-ernie:1:
+    repository: https://github.com/PaddlePaddle/PaddleSpeech
+    readme_status: read
+    arxiv_ids:
+    - '2205.12007'
+    - '1907.04448'
+    - '2211.03545'
+    dois: []
+  baidu-ernie:2:
+    repository: https://github.com/PaddlePaddle/PaddleOCR
+    readme_status: read
+    arxiv_ids:
+    - '2507.05595'
+    - '2510.14528'
+    - '2601.21957'
+    - '2606.03264'
+    dois: []
+  baidu-paddlepaddle:0:
+    repository: https://github.com/PaddlePaddle/PaddleSpeech
+    readme_status: read
+    arxiv_ids:
+    - '2205.12007'
+    - '1907.04448'
+    - '2211.03545'
+    dois: []
+  baidu-paddlepaddle:1:
+    repository: https://github.com/PaddlePaddle/PaddleOCR
+    readme_status: read
+    arxiv_ids:
+    - '2507.05595'
+    - '2510.14528'
+    - '2601.21957'
+    - '2606.03264'
+    dois: []
+  baidu-paddlepaddle:2:
+    repository: https://github.com/PaddlePaddle/Paddle
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  berkeley-chai:0:
+    repository: https://github.com/HumanCompatibleAI/overcooked_ai
+    readme_status: read
+    arxiv_ids:
+    - '1910.05789'
+    - '2101.05507'
+    - '2106.10853'
+    - '2112.11701'
+    - '2201.03538'
+    dois: []
+  berkeley-chai:1:
+    repository: https://github.com/HumanCompatibleAI/imitation
+    readme_status: read
+    arxiv_ids:
+    - '1011.0686'
+    - '1710.11248'
+    - '1606.03476'
+    - '1706.03741'
+    - '1905.11108'
+    dois: []
+  berkeley-chai:2:
+    repository: https://github.com/HumanCompatibleAI/tensor-trust
+    readme_status: read
+    arxiv_ids:
+    - '2311.01011'
+    dois: []
+  berkeley-nlp:0:
+    repository: https://github.com/Berkeley-NLP/Agent-Eval-Refine
+    readme_status: read
+    arxiv_ids:
+    - '2404.06474'
+    dois: []
+  berkeley-nlp:1:
+    repository: https://github.com/Berkeley-NLP/Lex-Rules
+    readme_status: read
+    arxiv_ids:
+    - '2411.05781'
+    dois: []
+  berkeley-nlp:2:
+    repository: https://github.com/Berkeley-NLP/Multilingual-Long-CoT
+    readme_status: read
+    arxiv_ids:
+    - '2508.14828'
+    dois: []
+  berkeley-rail:0:
+    repository: https://github.com/rail-berkeley/soar
+    readme_status: read
+    arxiv_ids:
+    - '2407.20635'
+    dois: []
+  berkeley-rail:1:
+    repository: https://github.com/rail-berkeley/rlkit
+    readme_status: read
+    arxiv_ids:
+    - '2107.03974'
+    - '1903.03698'
+    - '1807.04742'
+    - '1802.09081'
+    - '1707.01495'
+    dois: []
+  berkeley-rail:2:
+    repository: https://github.com/rail-berkeley/serl
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  berkeley-sky-computing-lab:0:
+    repository: https://github.com/skypilot-org/skypilot
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  berkeley-sky-computing-lab:1:
+    repository: https://github.com/skypilot-org/skypilot-tutorial
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  berkeley-sky-computing-lab:2:
+    repository: https://github.com/skypilot-org/spot-traces
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  bytedance-seed:0:
+    repository: https://github.com/ByteDance-Seed/VideoWorld
+    readme_status: read
+    arxiv_ids:
+    - '2501.09781'
+    - '2602.10102'
+    dois: []
+  bytedance-seed:1:
+    repository: https://github.com/ByteDance-Seed/TraceAnything
+    readme_status: read
+    arxiv_ids:
+    - '2510.13802'
+    dois: []
+  bytedance-seed:2:
+    repository: https://github.com/ByteDance-Seed/DAComp
+    readme_status: read
+    arxiv_ids:
+    - '2512.04324'
+    dois: []
+  cmu-auton-lab:0:
+    repository: https://github.com/autonlab/auton-survival
+    readme_status: read
+    arxiv_ids:
+    - '2204.07276'
+    - '2202.11089'
+    - '2101.06536'
+    - '2003.01176'
+    dois: []
+  cmu-auton-lab:1:
+    repository: https://github.com/autonlab/STAMP
+    readme_status: read
+    arxiv_ids:
+    - '2511.10848'
+    dois: []
+  cmu-auton-lab:2:
+    repository: https://github.com/autonlab/MBRL-flat-minima
+    readme_status: read
+    arxiv_ids:
+    - '2403.10506'
+    dois: []
+  cmu-machine-learning-department:0:
+    repository: https://github.com/cmu-mlsp/interview_humanssum
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  cmu-machine-learning-department:1:
+    repository: https://github.com/cmu-mlsp/mlspcourse-2024
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  cmu-machine-learning-department:2:
+    repository: https://github.com/cmu-mlsp/learning_from_weak_labels
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  cuhk-mmlab:0:
+    repository: https://github.com/open-mmlab/PowerPaint
+    readme_status: read
+    arxiv_ids:
+    - '2312.03594'
+    dois: []
+  cuhk-mmlab:1:
+    repository: https://github.com/open-mmlab/PIA
+    readme_status: read
+    arxiv_ids:
+    - '2312.13964'
+    dois: []
+  cuhk-mmlab:2:
+    repository: https://github.com/open-mmlab/AnyControl
+    readme_status: read
+    arxiv_ids:
+    - '2406.18958'
+    dois: []
+  deepseek-research:0:
+    repository: https://github.com/deepseek-ai/DreamCraft3D
+    readme_status: read
+    arxiv_ids:
+    - '2310.16818'
+    - '2410.12928'
+    dois: []
+  deepseek-research:1:
+    repository: https://github.com/deepseek-ai/DeepSeek-LLM
+    readme_status: read
+    arxiv_ids:
+    - '2401.02954'
+    - '2311.07911'
+    dois: []
+  deepseek-research:2:
+    repository: https://github.com/deepseek-ai/DeepSeek-V2
+    readme_status: read
+    arxiv_ids:
+    - '2405.04434'
+    - '2311.18743'
+    dois: []
+  fudan-disc:0:
+    repository: https://github.com/FudanDISC/J1Bench
+    readme_status: read
+    arxiv_ids:
+    - '2507.04037'
+    dois: []
+  fudan-disc:1:
+    repository: https://github.com/FudanDISC/MASER
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  fudan-disc:2:
+    repository: https://github.com/FudanDISC/DISC-LawLLM
+    readme_status: read
+    arxiv_ids:
+    - '2309.11325'
+    dois: []
+  fudan-nlp:0:
+    repository: https://github.com/FudanNLP/fitlog
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  fudan-nlp:1:
+    repository: https://github.com/FudanNLP/FDU-PRML-2025Fall
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  fudan-nlp:2:
+    repository: https://github.com/FudanNLP/.github
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  google-deepmind:0:
+    repository: https://github.com/google-deepmind/videoprism
+    readme_status: read
+    arxiv_ids:
+    - '2402.13217'
+    - '2209.06794'
+    - '2307.03166'
+    dois: []
+  google-deepmind:1:
+    repository: https://github.com/google-deepmind/latent-multi-hop-reasoning
+    readme_status: read
+    arxiv_ids:
+    - '2402.16837'
+    - '2411.16679'
+    dois: []
+  google-deepmind:2:
+    repository: https://github.com/google-deepmind/speech-compass
+    readme_status: read
+    arxiv_ids:
+    - '2502.08848'
+    dois:
+    - 10.1145/3706598.3713631
+    - 10.1145/3586182.3615789
+  google-research:0:
+    repository: https://github.com/google-research/google-research
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  google-research:1:
+    repository: https://github.com/google-research/language
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  google-research:2:
+    repository: https://github.com/google-research/perch-hoplite
+    readme_status: read
+    arxiv_ids:
+    - '2505.03071'
+    dois: []
+  hit-scir:0:
+    repository: https://github.com/HIT-SCIR/ltp
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  hit-scir:1:
+    repository: https://github.com/HIT-SCIR/Chinese-Mixtral-8x7B
+    readme_status: read
+    arxiv_ids:
+    - '2401.04088'
+    - '2109.07306'
+    dois: []
+  hit-scir:2:
+    repository: https://github.com/HIT-SCIR/plm-nlp-code
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  hku-data-intelligence-lab:0:
+    repository: https://github.com/HKUDS/VideoRAG
+    readme_status: read
+    arxiv_ids:
+    - '2502.01549'
+    dois: []
+  hku-data-intelligence-lab:1:
+    repository: https://github.com/HKUDS/OpenPhone
+    readme_status: read
+    arxiv_ids:
+    - '2510.22009'
+    dois: []
+  hku-data-intelligence-lab:2:
+    repository: https://github.com/HKUDS/GraphGPT
+    readme_status: read
+    arxiv_ids:
+    - '2310.13023'
+    dois: []
+  hku-sail:0:
+    repository: https://github.com/hkust-vgd/CoralSCOP
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  hku-sail:1:
+    repository: https://github.com/hkust-vgd/CoralSRT_web
+    readme_status: unavailable
+    arxiv_ids: []
+    dois: []
+  hku-sail:2:
+    repository: https://github.com/hkust-vgd/architectural_style_transfer
+    readme_status: read
+    arxiv_ids:
+    - '2209.05800'
+    dois: []
+  hkust-aerial-robotics:0:
+    repository: https://github.com/HKUST-Aerial-Robotics/VINS-Multi
+    readme_status: read
+    arxiv_ids:
+    - '2405.14539'
+    dois: []
+  hkust-aerial-robotics:1:
+    repository: https://github.com/HKUST-Aerial-Robotics/OmniNxt
+    readme_status: read
+    arxiv_ids:
+    - '2403.20085'
+    dois: []
+  hkust-aerial-robotics:2:
+    repository: https://github.com/HKUST-Aerial-Robotics/MonoLaneMapping
+    readme_status: read
+    arxiv_ids:
+    - '2307.11653'
+    dois: []
+  hkust-gz-dsail:0:
+    repository: https://github.com/DSAILatHKUST/DSAILatHKUST
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  huawei-noahs-ark-lab:0:
+    repository: https://github.com/huawei-noah/trustworthyAI
+    readme_status: read
+    arxiv_ids:
+    - '2111.15155'
+    dois: []
+  huawei-noahs-ark-lab:1:
+    repository: https://github.com/huawei-noah/Efficient-AI-Backbones
+    readme_status: read
+    arxiv_ids:
+    - '2306.14525'
+    - '2211.12905'
+    - '2201.03297'
+    - '2206.00272'
+    - '1911.11907'
+    dois: []
+  huawei-noahs-ark-lab:2:
+    repository: https://github.com/huawei-noah/Pretrained-Language-Model
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  jd-ai-infrastructures:0:
+    repository: https://github.com/jd-opensource/OxyGent
+    readme_status: read
+    arxiv_ids:
+    - '2604.25602'
+    dois: []
+  jd-ai-infrastructures:1:
+    repository: https://github.com/jd-opensource/JDOxyGent4J
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  jd-ai-infrastructures:2:
+    repository: https://github.com/jd-opensource/lapa-dataset
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  jd-embodied-ai:0:
+    repository: https://github.com/jd-opensource/OxyGent
+    readme_status: read
+    arxiv_ids:
+    - '2604.25602'
+    dois: []
+  jd-embodied-ai:1:
+    repository: https://github.com/jd-opensource/JDOxyGent4J
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  jd-embodied-ai:2:
+    repository: https://github.com/jd-opensource/lapa-dataset
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  jd-multimodal-interaction-world-model:0:
+    repository: https://github.com/jd-opensource/OxyGent
+    readme_status: read
+    arxiv_ids:
+    - '2604.25602'
+    dois: []
+  jd-multimodal-interaction-world-model:1:
+    repository: https://github.com/jd-opensource/JDOxyGent4J
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  jd-multimodal-interaction-world-model:2:
+    repository: https://github.com/jd-opensource/lapa-dataset
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  jd-multimodal-llm:0:
+    repository: https://github.com/jd-opensource/OxyGent
+    readme_status: read
+    arxiv_ids:
+    - '2604.25602'
+    dois: []
+  jd-multimodal-llm:1:
+    repository: https://github.com/jd-opensource/JDOxyGent4J
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  jd-multimodal-llm:2:
+    repository: https://github.com/jd-opensource/lapa-dataset
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  jd-speech-acoustics:0:
+    repository: https://github.com/jd-opensource/OxyGent
+    readme_status: read
+    arxiv_ids:
+    - '2604.25602'
+    dois: []
+  jd-speech-acoustics:1:
+    repository: https://github.com/jd-opensource/JDOxyGent4J
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  jd-speech-acoustics:2:
+    repository: https://github.com/jd-opensource/lapa-dataset
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  kuaishou-kling-ai-research:0:
+    repository: https://github.com/KlingAIResearch/UniVideo
+    readme_status: read
+    arxiv_ids:
+    - '2510.08377'
+    dois: []
+  kuaishou-kling-ai-research:1:
+    repository: https://github.com/KlingAIResearch/GameFactory
+    readme_status: read
+    arxiv_ids:
+    - '2501.08325'
+    dois: []
+  kuaishou-kling-ai-research:2:
+    repository: https://github.com/KlingAIResearch/VideoAlign
+    readme_status: read
+    arxiv_ids:
+    - '2501.13918'
+    - '2505.05470'
+    dois: []
+  kuaishou-kolors:0:
+    repository: https://github.com/Kwai-Kolors/ResTok
+    readme_status: read
+    arxiv_ids:
+    - '2601.03955'
+    dois: []
+  kuaishou-kolors:1:
+    repository: https://github.com/Kwai-Kolors/Kolors
+    readme_status: read
+    arxiv_ids:
+    - '2403.07420'
+    - '2405.14705'
+    dois: []
+  kuaishou-kolors:2:
+    repository: https://github.com/Kwai-Kolors/CoTyle
+    readme_status: read
+    arxiv_ids:
+    - '2511.10555'
+    dois: []
+  meituan-longcat:0:
+    repository: https://github.com/meituan-longcat/vitabench
+    readme_status: read
+    arxiv_ids:
+    - '2509.26490'
+    dois: []
+  meituan-longcat:1:
+    repository: https://github.com/meituan-longcat/UNO-Bench
+    readme_status: read
+    arxiv_ids:
+    - '2510.18915'
+    - '2501.12380'
+    - '2407.15754'
+    - '2504.17821'
+    - '2502.04326'
+    dois: []
+  meituan-longcat:2:
+    repository: https://github.com/meituan-longcat/R-HORIZON
+    readme_status: read
+    arxiv_ids:
+    - '2510.08189'
+    dois: []
+  meta-fair:0:
+    repository: https://github.com/facebookresearch/vggt
+    readme_status: read
+    arxiv_ids:
+    - '2503.11651'
+    dois: []
+  meta-fair:1:
+    repository: https://github.com/facebookresearch/vggt-omega
+    readme_status: read
+    arxiv_ids:
+    - '2605.15195'
+    dois: []
+  meta-fair:2:
+    repository: https://github.com/facebookresearch/nwm
+    readme_status: read
+    arxiv_ids:
+    - '2412.03572'
+    dois: []
+  meta-reality-labs-research:0:
+    repository: https://github.com/facebookresearch/vggt
+    readme_status: read
+    arxiv_ids:
+    - '2503.11651'
+    dois: []
+  meta-reality-labs-research:1:
+    repository: https://github.com/facebookresearch/vggt-omega
+    readme_status: read
+    arxiv_ids:
+    - '2605.15195'
+    dois: []
+  meta-reality-labs-research:2:
+    repository: https://github.com/facebookresearch/nwm
+    readme_status: read
+    arxiv_ids:
+    - '2412.03572'
+    dois: []
+  microsoft-ai-for-science:0:
+    repository: https://github.com/microsoft/VITRA
+    readme_status: read
+    arxiv_ids:
+    - '2510.21571'
+    dois: []
+  microsoft-ai-for-science:1:
+    repository: https://github.com/microsoft/TRELLIS
+    readme_status: read
+    arxiv_ids:
+    - '2412.01506'
+    dois: []
+  microsoft-ai-for-science:2:
+    repository: https://github.com/microsoft/AI-For-Beginners
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  microsoft-ai-frontiers:0:
+    repository: https://github.com/microsoft/VITRA
+    readme_status: read
+    arxiv_ids:
+    - '2510.21571'
+    dois: []
+  microsoft-ai-frontiers:1:
+    repository: https://github.com/microsoft/TRELLIS
+    readme_status: read
+    arxiv_ids:
+    - '2412.01506'
+    dois: []
+  microsoft-ai-frontiers:2:
+    repository: https://github.com/microsoft/AI-For-Beginners
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  microsoft-computer-vision:0:
+    repository: https://github.com/microsoft/VITRA
+    readme_status: read
+    arxiv_ids:
+    - '2510.21571'
+    dois: []
+  microsoft-computer-vision:1:
+    repository: https://github.com/microsoft/TRELLIS
+    readme_status: read
+    arxiv_ids:
+    - '2412.01506'
+    dois: []
+  microsoft-computer-vision:2:
+    repository: https://github.com/microsoft/AI-For-Beginners
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  microsoft-general-ai:0:
+    repository: https://github.com/microsoft/VITRA
+    readme_status: read
+    arxiv_ids:
+    - '2510.21571'
+    dois: []
+  microsoft-general-ai:1:
+    repository: https://github.com/microsoft/TRELLIS
+    readme_status: read
+    arxiv_ids:
+    - '2412.01506'
+    dois: []
+  microsoft-general-ai:2:
+    repository: https://github.com/microsoft/AI-For-Beginners
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  microsoft-machine-learning-area:0:
+    repository: https://github.com/microsoft/VITRA
+    readme_status: read
+    arxiv_ids:
+    - '2510.21571'
+    dois: []
+  microsoft-machine-learning-area:1:
+    repository: https://github.com/microsoft/TRELLIS
+    readme_status: read
+    arxiv_ids:
+    - '2412.01506'
+    dois: []
+  microsoft-machine-learning-area:2:
+    repository: https://github.com/microsoft/AI-For-Beginners
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  minimax-research:0:
+    repository: https://github.com/MiniMax-AI/VTP
+    readme_status: read
+    arxiv_ids:
+    - '2512.13687'
+    dois: []
+  minimax-research:1:
+    repository: https://github.com/MiniMax-AI/SynLogic
+    readme_status: read
+    arxiv_ids:
+    - '2505.19641'
+    dois: []
+  minimax-research:2:
+    repository: https://github.com/MiniMax-AI/skills
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  mit-improbable-ai:0:
+    repository: https://github.com/Improbable-AI/curiosity_redteam
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  mit-improbable-ai:1:
+    repository: https://github.com/Improbable-AI/dw-offline-rl
+    readme_status: read
+    arxiv_ids:
+    - '2310.04413'
+    dois: []
+  mit-improbable-ai:2:
+    repository: https://github.com/Improbable-AI/walk-these-ways
+    readme_status: read
+    arxiv_ids:
+    - '2109.11978'
+    - '2108.10470'
+    dois: []
+  moonshot-kimi:0:
+    repository: https://github.com/MoonshotAI/Kimi-K2
+    readme_status: read
+    arxiv_ids:
+    - '2507.20534'
+    dois: []
+  moonshot-kimi:1:
+    repository: https://github.com/MoonshotAI/kimi-cli
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  moonshot-kimi:2:
+    repository: https://github.com/MoonshotAI/kimi-code
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  nju-lamda-cl:0:
+    repository: https://github.com/LAMDA-CL/CIL_Survey
+    readme_status: read
+    arxiv_ids:
+    - '2302.03648'
+    - '1612.00796'
+    - '1606.09282'
+    - '1706.08840'
+    - '1611.07725'
+    dois: []
+  nju-lamda-cl:1:
+    repository: https://github.com/LAMDA-CL/PROOF
+    readme_status: read
+    arxiv_ids:
+    - '2305.19270'
+    - '2503.08510'
+    dois: []
+  nju-lamda-cl:2:
+    repository: https://github.com/LAMDA-CL/ICCV25-ENGINE
+    readme_status: read
+    arxiv_ids:
+    - '2503.08510'
+    dois: []
+  nju-lamda:0:
+    repository: https://github.com/LAMDA-NJU/Deep-Forest
+    readme_status: read
+    arxiv_ids:
+    - '1702.08835'
+    dois: []
+  ntu-declare:0:
+    repository: https://github.com/declare-lab/TangoFlux
+    readme_status: read
+    arxiv_ids:
+    - '2412.21037'
+    dois: []
+  ntu-declare:1:
+    repository: https://github.com/declare-lab/Sealing
+    readme_status: read
+    arxiv_ids:
+    - '2307.04192'
+    dois: []
+  ntu-declare:2:
+    repository: https://github.com/declare-lab/OffTopicEval
+    readme_status: read
+    arxiv_ids:
+    - '2509.26495'
+    dois: []
+  nus-cvml:0:
+    repository: https://github.com/nus-cvml/awesome-temporal-action-segmentation
+    readme_status: read
+    arxiv_ids:
+    - '2210.10352'
+    - '2102.08065'
+    - '2303.17959'
+    - '2308.11358'
+    - '2209.13808'
+    dois:
+    - 10.1145/2493432.2493482
+    - 10.1109/CVPR.2016.495
+  nus-nlp:0:
+    repository: https://github.com/nusnlp/SlideTailor
+    readme_status: read
+    arxiv_ids:
+    - '2512.20292'
+    dois: []
+  nus-nlp:1:
+    repository: https://github.com/nusnlp/d2vlm
+    readme_status: read
+    arxiv_ids:
+    - '2512.24097'
+    dois: []
+  nus-nlp:2:
+    repository: https://github.com/nusnlp/greco
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  nvidia-cosmos-lab:0:
+    repository: https://github.com/NVlabs/FoundationPose
+    readme_status: read
+    arxiv_ids:
+    - '2312.08344'
+    dois: []
+  nvidia-cosmos-lab:1:
+    repository: https://github.com/NVlabs/FoundationStereo
+    readme_status: read
+    arxiv_ids:
+    - '2501.09898'
+    dois: []
+  nvidia-cosmos-lab:2:
+    repository: https://github.com/NVlabs/MambaVision
+    readme_status: read
+    arxiv_ids:
+    - '2407.08083'
+    dois: []
+  nvidia-dair:0:
+    repository: https://github.com/NVlabs/FoundationPose
+    readme_status: read
+    arxiv_ids:
+    - '2312.08344'
+    dois: []
+  nvidia-dair:1:
+    repository: https://github.com/NVlabs/FoundationStereo
+    readme_status: read
+    arxiv_ids:
+    - '2501.09898'
+    dois: []
+  nvidia-dair:2:
+    repository: https://github.com/NVlabs/MambaVision
+    readme_status: read
+    arxiv_ids:
+    - '2407.08083'
+    dois: []
+  nvidia-efficient-ai:0:
+    repository: https://github.com/NVlabs/FoundationPose
+    readme_status: read
+    arxiv_ids:
+    - '2312.08344'
+    dois: []
+  nvidia-efficient-ai:1:
+    repository: https://github.com/NVlabs/FoundationStereo
+    readme_status: read
+    arxiv_ids:
+    - '2501.09898'
+    dois: []
+  nvidia-efficient-ai:2:
+    repository: https://github.com/NVlabs/MambaVision
+    readme_status: read
+    arxiv_ids:
+    - '2407.08083'
+    dois: []
+  nvidia-gear:0:
+    repository: https://github.com/NVlabs/FoundationPose
+    readme_status: read
+    arxiv_ids:
+    - '2312.08344'
+    dois: []
+  nvidia-gear:1:
+    repository: https://github.com/NVlabs/FoundationStereo
+    readme_status: read
+    arxiv_ids:
+    - '2501.09898'
+    dois: []
+  nvidia-gear:2:
+    repository: https://github.com/NVlabs/MambaVision
+    readme_status: read
+    arxiv_ids:
+    - '2407.08083'
+    dois: []
+  openai-research:0:
+    repository: https://github.com/openai/CLIP
+    readme_status: read
+    arxiv_ids:
+    - '2103.00020'
+    dois: []
+  openai-research:1:
+    repository: https://github.com/openai/Video-Pre-Training
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  openai-research:2:
+    repository: https://github.com/openai/mle-bench
+    readme_status: read
+    arxiv_ids:
+    - '2410.07095'
+    - '2602.02660'
+    dois: []
+  pku-alignment:0:
+    repository: https://github.com/PKU-Alignment/aligner
+    readme_status: read
+    arxiv_ids:
+    - '2402.02416'
+    dois: []
+  pku-alignment:1:
+    repository: https://github.com/PKU-Alignment/SafeVLA
+    readme_status: read
+    arxiv_ids:
+    - '2503.03480'
+    dois: []
+  pku-alignment:2:
+    repository: https://github.com/PKU-Alignment/SafeDreamer
+    readme_status: read
+    arxiv_ids:
+    - '2307.07176'
+    dois: []
+  pku-dair:0:
+    repository: https://github.com/PKU-DAIR/SGL
+    readme_status: read
+    arxiv_ids:
+    - '2203.00638'
+    - '2110.14377'
+    - '2206.08583'
+    - '2206.08582'
+    - '2206.04361'
+    dois: []
+  pku-dair:1:
+    repository: https://github.com/PKU-DAIR/A-Tune-Online
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  pku-dair:2:
+    repository: https://github.com/PKU-DAIR/Starter-Guide
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  pku-wu-lab:0:
+    repository: https://github.com/PKU-Wu-Lab/RepoZero
+    readme_status: read
+    arxiv_ids:
+    - '2605.07122'
+    dois: []
+  rednote-hi-lab:0:
+    repository: https://github.com/rednote-hilab/dots.vlm1
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  rednote-hi-lab:2:
+    repository: https://github.com/rednote-hilab/dots.vlm1
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  sjtu-gair-nlp:0:
+    repository: https://github.com/GAIR-NLP/LIMO
+    readme_status: read
+    arxiv_ids:
+    - '2502.03387'
+    dois: []
+  sjtu-gair-nlp:1:
+    repository: https://github.com/GAIR-NLP/anole
+    readme_status: read
+    arxiv_ids:
+    - '2407.06135'
+    dois: []
+  sjtu-gair-nlp:2:
+    repository: https://github.com/GAIR-NLP/ProX
+    readme_status: read
+    arxiv_ids:
+    - '2409.17115'
+    - '2412.17743'
+    - '2502.05171'
+    - '2504.11393'
+    dois: []
+  sjtu-mint:0:
+    repository: https://github.com/MINT-SJTU/Evo-RL
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  sjtu-mint:1:
+    repository: https://github.com/MINT-SJTU/RoboClaw
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  sjtu-mint:2:
+    repository: https://github.com/MINT-SJTU/Evo-1
+    readme_status: read
+    arxiv_ids:
+    - '2511.04555'
+    dois: []
+  stanford-crfm:0:
+    repository: https://github.com/stanford-crfm/air-bench-2024
+    readme_status: read
+    arxiv_ids:
+    - '2407.17436'
+    dois: []
+  stanford-crfm:1:
+    repository: https://github.com/stanford-crfm/helm
+    readme_status: read
+    arxiv_ids:
+    - '2410.07112'
+    - '2311.04287'
+    - '2410.22456'
+    - '2410.12857'
+    - '2502.19412'
+    dois: []
+  stanford-crfm:2:
+    repository: https://github.com/stanford-crfm/mistral
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  stanford-iliad:0:
+    repository: https://github.com/Stanford-ILIAD/active-preference-based-gpr
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  stanford-iliad:1:
+    repository: https://github.com/Stanford-ILIAD/emergent-prosociality-through-gifting
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  stanford-iliad:2:
+    repository: https://github.com/Stanford-ILIAD/proximal-teaching
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  stanford-nlp:0:
+    repository: https://github.com/stanfordnlp/stanza
+    readme_status: read
+    arxiv_ids:
+    - '2003.07082'
+    - '2007.14640'
+    dois: []
+  stanford-nlp:1:
+    repository: https://github.com/stanfordnlp/pyvene
+    readme_status: read
+    arxiv_ids:
+    - '2403.07809'
+    dois: []
+  stanford-nlp:2:
+    repository: https://github.com/stanfordnlp/stanford-nlp-history
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  stanford-svl:0:
+    repository: https://github.com/StanfordVL/GibsonEnv
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  stanford-svl:1:
+    repository: https://github.com/StanfordVL/atp-video-language
+    readme_status: read
+    arxiv_ids:
+    - '2206.01720'
+    dois: []
+  stanford-svl:2:
+    repository: https://github.com/StanfordVL/BEHAVIOR-1K
+    readme_status: read
+    arxiv_ids:
+    - '2403.09227'
+    dois: []
+  tencent-ai-lab:0:
+    repository: https://github.com/tencent-ailab/ZED
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  tencent-ai-lab:1:
+    repository: https://github.com/tencent-ailab/IP-Adapter
+    readme_status: read
+    arxiv_ids:
+    - '2308.06721'
+    dois: []
+  tencent-ai-lab:2:
+    repository: https://github.com/tencent-ailab/V-Express
+    readme_status: read
+    arxiv_ids:
+    - '2406.02511'
+    dois: []
+  tencent-arc-lab:0:
+    repository: https://github.com/TencentARC/PhotoMaker
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  tencent-arc-lab:1:
+    repository: https://github.com/TencentARC/Pixal3D
+    readme_status: read
+    arxiv_ids:
+    - '2605.10922'
+    dois: []
+  tencent-arc-lab:2:
+    repository: https://github.com/TencentARC/BrushNet
+    readme_status: read
+    arxiv_ids:
+    - '2403.06976'
+    dois: []
+  tencent-hunyuan:0:
+    repository: https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror
+    readme_status: read
+    arxiv_ids:
+    - '2510.10726'
+    dois: []
+  tencent-hunyuan:1:
+    repository: https://github.com/Tencent-Hunyuan/MixGRPO
+    readme_status: read
+    arxiv_ids:
+    - '2507.21802'
+    - '2509.05952'
+    dois: []
+  tencent-hunyuan:2:
+    repository: https://github.com/Tencent-Hunyuan/HunyuanPortrait
+    readme_status: read
+    arxiv_ids:
+    - '2503.18860'
+    dois: []
+  tencent-youtu-lab:0:
+    repository: https://github.com/Tencent/DepthCrafter
+    readme_status: read
+    arxiv_ids:
+    - '2409.02095'
+    dois: []
+  tencent-youtu-lab:1:
+    repository: https://github.com/Tencent/libco
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  tencent-youtu-lab:2:
+    repository: https://github.com/Tencent/APIJSON
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  tsinghua-coai:0:
+    repository: https://github.com/thu-coai/SafetyBench
+    readme_status: read
+    arxiv_ids:
+    - '2309.07045'
+    dois: []
+  tsinghua-coai:1:
+    repository: https://github.com/thu-coai/ShieldLM
+    readme_status: read
+    arxiv_ids:
+    - '2402.16444'
+    dois: []
+  tsinghua-coai:2:
+    repository: https://github.com/thu-coai/ComplexBench
+    readme_status: read
+    arxiv_ids:
+    - '2407.03978'
+    dois: []
+  tsinghua-keg-thudm:0:
+    repository: https://github.com/THUDM/LongWriter
+    readme_status: read
+    arxiv_ids:
+    - '2408.07055'
+    - '2506.18841'
+    dois: []
+  tsinghua-keg-thudm:1:
+    repository: https://github.com/THUDM/ReST-MCTS
+    readme_status: read
+    arxiv_ids:
+    - '2406.03816'
+    dois: []
+  tsinghua-keg-thudm:2:
+    repository: https://github.com/THUDM/LongAlign
+    readme_status: read
+    arxiv_ids:
+    - '2401.18058'
+    dois: []
+  tsinghua-thunlp:0:
+    repository: https://github.com/thunlp/JustRL
+    readme_status: read
+    arxiv_ids:
+    - '2512.16649'
+    - '2604.13016'
+    dois: []
+  tsinghua-thunlp:1:
+    repository: https://github.com/thunlp/Ouroboros
+    readme_status: read
+    arxiv_ids:
+    - '2402.13720'
+    dois: []
+  tsinghua-thunlp:2:
+    repository: https://github.com/thunlp/LEAD
+    readme_status: read
+    arxiv_ids:
+    - '2410.06581'
+    dois: []
+  ucsd-existential-robotics:0:
+    repository: https://github.com/ExistentialRobotics/SBP
+    readme_status: read
+    arxiv_ids:
+    - '2510.03885'
+    dois: []
+  ucsd-existential-robotics:1:
+    repository: https://github.com/ExistentialRobotics/PNO
+    readme_status: read
+    arxiv_ids:
+    - '2410.17547'
+    - '1910.14442'
+    dois: []
+  ucsd-existential-robotics:2:
+    repository: https://github.com/ExistentialRobotics/MISO
+    readme_status: read
+    arxiv_ids:
+    - '2504.19104'
+    dois: []
+  uiuc-secure-learning-lab:0:
+    repository: https://github.com/AI-secure/AgentPoison
+    readme_status: read
+    arxiv_ids:
+    - '2407.12784'
+    - '1810.04805'
+    - '2004.04906'
+    - '2007.00808'
+    - '2310.07554'
+    dois: []
+  uiuc-secure-learning-lab:1:
+    repository: https://github.com/AI-secure/aug-pe
+    readme_status: read
+    arxiv_ids:
+    - '2403.01749'
+    dois: []
+  uiuc-secure-learning-lab:2:
+    repository: https://github.com/AI-secure/UDora
+    readme_status: read
+    arxiv_ids:
+    - '2503.01908'
+    dois: []
+  umd-umiacs:0:
+    repository: https://github.com/UMIACS/rgwadmin
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  uw-robotics:0:
+    repository: https://github.com/uwrobotics/UWRT_Controller_StateMachine
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  uw-robotics:1:
+    repository: https://github.com/uwrobotics/URC_ROVER_2025
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  uw-robotics:2:
+    repository: https://github.com/uwrobotics/Sparky-CIRC-2026
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  xiaohongshu-firered:0:
+    repository: https://github.com/FireRedTeam/InstanceAssemble
+    readme_status: read
+    arxiv_ids:
+    - '2509.16691'
+    dois: []
+  xiaohongshu-firered:1:
+    repository: https://github.com/FireRedTeam/ReMatch
+    readme_status: read
+    arxiv_ids:
+    - '2511.19278'
+    dois: []
+  xiaohongshu-firered:2:
+    repository: https://github.com/FireRedTeam/FireRedASR
+    readme_status: read
+    arxiv_ids:
+    - '2501.14350'
+    dois: []
+  xiaomi-embodied-intelligence:0:
+    repository: https://github.com/XiaomiMiMo/MiMo-Embodied
+    readme_status: read
+    arxiv_ids:
+    - '2511.16518'
+    dois: []
+  xiaomi-embodied-intelligence:1:
+    repository: https://github.com/XiaomiMiMo/MiMo-Code
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  xiaomi-embodied-intelligence:2:
+    repository: https://github.com/XiaomiMiMo/MiMo
+    readme_status: read
+    arxiv_ids:
+    - '2505.07608'
+    dois: []
+  xiaomi-mimo:0:
+    repository: https://github.com/XiaomiMiMo/MiMo-Code
+    readme_status: read
+    arxiv_ids: []
+    dois: []
+  xiaomi-mimo:1:
+    repository: https://github.com/XiaomiMiMo/MiMo
+    readme_status: read
+    arxiv_ids:
+    - '2505.07608'
+    dois: []
+  xiaomi-mimo:2:
+    repository: https://github.com/XiaomiMiMo/MiMo-V2-Flash
+    readme_status: read
+    arxiv_ids:
+    - '2601.02780'
+    dois: []
+  zhipu-glm:0:
+    repository: https://github.com/zai-org/CogVideo
+    readme_status: read
+    arxiv_ids:
+    - '2408.06072'
+    - '2205.15868'
+    dois: []
+  zhipu-glm:1:
+    repository: https://github.com/zai-org/CogView4
+    readme_status: read
+    arxiv_ids:
+    - '2403.05121'
+    dois: []
+  zhipu-glm:2:
+    repository: https://github.com/zai-org/SCAIL
+    readme_status: read
+    arxiv_ids:
+    - '2512.05905'
+    dois: []
+  zju-3dv:0:
+    repository: https://github.com/zju3dv/4K4D
+    readme_status: read
+    arxiv_ids:
+    - '2310.11448'
+    dois: []
+  zju-3dv:1:
+    repository: https://github.com/zju3dv/GVHMR
+    readme_status: read
+    arxiv_ids:
+    - '2409.06662'
+    dois: []
+  zju-3dv:2:
+    repository: https://github.com/zju3dv/street_gaussians
+    readme_status: read
+    arxiv_ids:
+    - '2401.01339'
+    dois: []
+  zju-nlp-kg:0:
+    repository: https://github.com/zjunlp/EasyEdit
+    readme_status: read
+    arxiv_ids:
+    - '2401.01286'
+    - '2504.15133'
+    - '2402.18909'
+    - '2402.09394'
+    - '2405.15349'
+    dois: []
+  zju-nlp-kg:1:
+    repository: https://github.com/zjunlp/LightMem
+    readme_status: read
+    arxiv_ids:
+    - '2510.18866'
+    - '2604.21748'
+    - '2605.28773'
+    dois: []
+  zju-nlp-kg:2:
+    repository: https://github.com/zjunlp/OmniThink
+    readme_status: read
+    arxiv_ids:
+    - '2501.09751'
+    dois: []
+  zju-real:0:
+    repository: https://github.com/ZJU-REAL/GUI-G2
+    readme_status: read
+    arxiv_ids:
+    - '2507.15846'
+    - '2604.11784'
+    dois: []
+  zju-real:1:
+    repository: https://github.com/ZJU-REAL/SpatialLadder
+    readme_status: read
+    arxiv_ids:
+    - '2510.08531'
+    dois: []
+  zju-real:2:
+    repository: https://github.com/ZJU-REAL/ViewSpatial-Bench
+    readme_status: read
+    arxiv_ids:
+    - '2505.21500'
+    - '2508.13142'
+    dois: []

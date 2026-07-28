@@ -1,94 +1,155 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
+require "cgi"
 require "yaml"
 
 ROOT = File.expand_path("..", __dir__)
 PARENTS_PATH = File.join(ROOT, "data", "seed-parents.yaml")
 TEAMS_PATH = File.join(ROOT, "data", "research-teams.yaml")
+PROFILES_PATH = File.join(ROOT, "data", "team-profiles.yaml")
+WORKS_PATH = File.join(ROOT, "data", "representative-works.yaml")
+METADATA_PATH = File.join(ROOT, "data", "work-metadata.yaml")
 OUTPUT_PATH = File.join(ROOT, "docs", "RESEARCH_TEAMS.md")
 
 parents_data = YAML.load_file(PARENTS_PATH)
 teams_data = YAML.load_file(TEAMS_PATH)
+profiles = YAML.load_file(PROFILES_PATH).fetch("teams")
+works = YAML.load_file(WORKS_PATH).fetch("teams")
+metadata_catalog = YAML.load_file(METADATA_PATH)
+metadata = metadata_catalog.fetch("works")
 
 sections = [
-  ["中国公司", parents_data.fetch("companies").select { |x| x["region"] == "CN-mainland" }],
-  ["中国前沿 AI 公司", parents_data.fetch("frontier_ai_companies").select { |x| x["region"] == "CN-mainland" }],
-  ["美国公司", parents_data.fetch("companies").select { |x| x["region"] == "US" }],
-  ["美国前沿 AI 公司", parents_data.fetch("frontier_ai_companies").select { |x| x["region"] == "US" }],
-  ["中国 C9", parents_data.fetch("universities").select { |x| x["group"] == "C9" }],
-  ["港科广", parents_data.fetch("universities").select { |x| x["group"] == "HKUST-GZ" }],
-  ["香港三校", parents_data.fetch("universities").select { |x| x["group"] == "HK3" }],
-  ["新加坡两校", parents_data.fetch("universities").select { |x| x["group"] == "SG2" }],
-  ["美国 AI 核心高校", parents_data.fetch("universities").select { |x| x["group"] == "US-AI-Core" }]
+  ["中国公司", parents_data.fetch("companies").select { |item| item["region"] == "CN-mainland" }],
+  ["中国前沿 AI 公司", parents_data.fetch("frontier_ai_companies").select { |item| item["region"] == "CN-mainland" }],
+  ["美国公司", parents_data.fetch("companies").select { |item| item["region"] == "US" }],
+  ["美国前沿 AI 公司", parents_data.fetch("frontier_ai_companies").select { |item| item["region"] == "US" }],
+  ["中国 C9", parents_data.fetch("universities").select { |item| item["group"] == "C9" }],
+  ["港科广", parents_data.fetch("universities").select { |item| item["group"] == "HKUST-GZ" }],
+  ["香港三校", parents_data.fetch("universities").select { |item| item["group"] == "HK3" }],
+  ["新加坡两校", parents_data.fetch("universities").select { |item| item["group"] == "SG2" }],
+  ["美国 AI 核心高校", parents_data.fetch("universities").select { |item| item["group"] == "US-AI-Core" }]
 ]
 
-teams_by_parent = teams_data.fetch("teams").group_by { |x| x.fetch("parent_id") }
-status_counts = teams_data.fetch("teams").group_by { |x| x.fetch("status") }.transform_values(&:size)
+teams_by_parent = teams_data.fetch("teams").group_by { |team| team.fetch("parent_id") }
+status_counts = teams_data.fetch("teams").group_by { |team| team.fetch("status") }.transform_values(&:size)
+all_metadata = metadata.values
 
-def escape_cell(value)
-  value.to_s.gsub("|", "\\|").gsub("\n", " ")
+def h(value)
+  CGI.escapeHTML(value.to_s)
 end
 
 def links_for(team)
+  labels = { "github" => "GitHub", "official" => "官网", "huggingface" => "Hugging Face" }
   team.fetch("homepages").map do |entry|
-    label = {
-      "github" => "GitHub",
-      "official" => "官网",
-      "huggingface" => "Hugging Face"
-    }.fetch(entry.fetch("kind"), entry.fetch("kind"))
-    "[#{label}](#{entry.fetch("url")})"
+    "[#{labels.fetch(entry.fetch("kind"), entry.fetch("kind"))}](#{entry.fetch("url")})"
   end.join(" · ")
 end
 
-lines = []
-lines << "# AI 科研团队目录"
-lines << ""
-lines << "更新日期：#{teams_data.fetch("last_updated")}"
-lines << ""
-lines << "本目录仅覆盖 [`data/seed-parents.yaml`](../data/seed-parents.yaml) 中的 46 个母体机构，并按 [`TEAM_COLLECTION_METHOD.md`](TEAM_COLLECTION_METHOD.md) 的近 24 个月活跃标准筛选。当前共收录 **#{teams_data.fetch("teams").size}** 个团队：**#{status_counts.fetch("verified", 0)}** 个已核验，**#{status_counts.fetch("provisional", 0)}** 个待二次核验。"
-lines << ""
-lines << "状态说明：`verified` 表示归属、近期研究活动和入口均有可核验依据；`provisional` 表示团队真实存在，但论文数量、团队边界或集中代码入口仍需补证。"
-lines << ""
-lines << "## 汇总"
-lines << ""
-lines << "| 范围 | 母体数 | 团队数 |"
-lines << "|---|---:|---:|"
-sections.each do |title, parents|
-  count = parents.sum { |parent| teams_by_parent.fetch(parent.fetch("id"), []).size }
-  lines << "| #{title} | #{parents.size} | #{count} |"
-end
-lines << "| **合计** | **#{sections.sum { |_, parents| parents.size }}** | **#{teams_data.fetch("teams").size}** |"
+def leader_text(profile)
+  leaders = profile.fetch("leaders")
+  return "[负责人/成员页](#{profile.fetch("leadership_source")}) — #{profile.fetch("leadership_note")}" if leaders.empty?
 
-sections.each do |title, parents|
+  leaders.map do |leader|
+    "[#{leader.fetch("name")}](#{leader.fetch("url")})（#{leader.fetch("role")}）"
+  end.join(" · ")
+end
+
+def work_block(work, metadata, index)
+  paper = metadata["paper"] || {}
+  citation = metadata.fetch("citation")
+  figure = metadata["figure"]
+  title = paper["title"] || work.fetch("title")
+  venue = [paper["venue"], paper["year"]].compact.join(" · ")
+  citation_text = if citation["count"].nil?
+                    "引用量：不适用或尚未可靠匹配"
+                  else
+                    "引用量：**#{citation.fetch("count")}**（[#{citation.fetch("source")}](#{citation.fetch("source_url")})，#{citation.fetch("checked_at")}）"
+                  end
+  impact = metadata.dig("code_impact", "github_stars")
+
+  lines = []
+  lines << "<details>"
+  lines << "<summary><strong>#{index + 1}. #{h(title)}</strong>#{venue.empty? ? '' : " · #{h(venue)}"}</summary>"
   lines << ""
-  lines << "## #{title}"
+  lines << "- #{citation_text}"
+  lines << "- GitHub Stars：**#{impact}**（与论文引用量分开统计）" if impact
+  lines << "- [论文 / 项目原始入口](#{paper["url"] || work.fetch("url")})"
+  lines << ""
+  lines << "**摘要 / TL;DR**"
+  lines << ""
+  lines << h(metadata.fetch("summary"))
+  if figure
+    lines << ""
+    lines << "**原文关键图表**"
+    lines << ""
+    lines << "<a href=\"#{h(figure.fetch("source_page"))}\"><img src=\"#{h(figure.fetch("image_url"))}\" alt=\"#{h(figure.fetch("caption"))}\" width=\"720\"></a>"
+    lines << ""
+    lines << "> #{h(figure.fetch("caption")).rstrip}"
+    lines << "> 来源：[原论文](#{figure.fetch("source_page")})"
+  end
+  lines << ""
+  lines << "</details>"
+  lines.join("\n")
+end
+
+lines = []
+lines << "# Awesome Team · AI 科研团队目录"
+lines << ""
+lines << "> GitHub 内可直接浏览的基础资料版。更适合筛选和阅读图表的版本见 [在线目录](https://goya4140.github.io/awesome-team/)。"
+lines << ""
+lines << "更新日期：**#{teams_data.fetch("last_updated")}** · 引用量来源：[OpenAlex](https://openalex.org/)"
+lines << ""
+lines << "当前收录 **#{teams_data.fetch("teams").size}** 个团队（#{status_counts.fetch("verified", 0)} verified / #{status_counts.fetch("provisional", 0)} provisional），共 **#{all_metadata.size}** 项代表成果；其中 **#{all_metadata.count { |item| item["resolution_status"] == "resolved" }}** 项已匹配论文元数据，**#{all_metadata.count { |item| item.dig("figure", "image_url") }}** 项带原文图表。"
+lines << ""
+lines << "引用量会随时间变化；每项均显示数据来源和核验日期。`research_index` 是官方研究入口，不冒充单篇论文。"
+lines << ""
+lines << "## 快速导航"
+lines << ""
+sections.each { |title, _| lines << "- [#{title}](##{title.downcase.gsub(/\s+/, '-').gsub(/[^\p{Han}a-z0-9-]/i, '')})" }
+
+sections.each do |section_title, parents|
+  lines << ""
+  lines << "## #{section_title}"
   parents.each do |parent|
-    teams = teams_by_parent.fetch(parent.fetch("id"), [])
+    parent_teams = teams_by_parent.fetch(parent.fetch("id"), [])
     lines << ""
-    lines << "### #{parent.fetch("name")}（#{teams.size}）"
-    lines << ""
-    lines << "| 团队 | 类型 | 主要方向 | 入口 | 状态 |"
-    lines << "|---|---|---|---|---|"
-    teams.each do |team|
-      lines << "| #{escape_cell(team.fetch("name"))} | #{escape_cell(team.fetch("team_type"))} | #{escape_cell(team.fetch("focus").join("、"))} | #{links_for(team)} | `#{team.fetch("status")}` |"
-    end
-    provisional_notes = teams.select { |team| team["status"] == "provisional" && team["notes"] }
-    unless provisional_notes.empty?
+    lines << "### #{parent.fetch("name")}（#{parent_teams.size}）"
+    parent_teams.each do |team|
+      profile = profiles.fetch(team.fetch("id"))
+      team_works = works.fetch(team.fetch("id"))
       lines << ""
-      provisional_notes.each do |team|
-        lines << "- 待核验：**#{team.fetch("name")}** — #{team.fetch("notes")}"
+      lines << "<details>"
+      lines << "<summary><img src=\"#{h(profile.dig("logo", "url"))}\" width=\"32\" height=\"32\" alt=\"#{h(team.fetch("name"))} logo\"> &nbsp;<strong>#{h(team.fetch("name"))}</strong> · <code>#{team.fetch("status")}</code></summary>"
+      lines << ""
+      lines << "<br>"
+      lines << ""
+      lines << profile.fetch("introduction")
+      lines << ""
+      lines << "- **所属：** #{parent.fetch("name")}"
+      lines << "- **主要方向：** #{profile.fetch("directions_zh").join("、")}"
+      lines << "- **负责人：** #{leader_text(profile)}"
+      lines << "- **官方入口：** #{links_for(team)}"
+      lines << ""
+      lines << "#### 代表作"
+      lines << ""
+      team_works.each_with_index do |work, index|
+        lines << work_block(work, metadata.fetch("#{team.fetch("id")}:#{index}"), index)
+        lines << ""
       end
+      lines << "</details>"
     end
   end
 end
 
 lines << ""
-lines << "## 数据与核验"
+lines << "## 数据与维护"
 lines << ""
-lines << "- YAML 主数据：[`data/research-teams.yaml`](../data/research-teams.yaml)"
-lines << "- 母体白名单：[`data/seed-parents.yaml`](../data/seed-parents.yaml)"
+lines << "- 团队主数据：[`data/research-teams.yaml`](../data/research-teams.yaml)"
+lines << "- Logo、介绍与负责人：[`data/team-profiles.yaml`](../data/team-profiles.yaml)"
+lines << "- 代表成果：[`data/representative-works.yaml`](../data/representative-works.yaml)"
+lines << "- 论文摘要、引用与图表：[`data/work-metadata.yaml`](../data/work-metadata.yaml)"
 lines << "- 收录标准：[`docs/TEAM_COLLECTION_METHOD.md`](TEAM_COLLECTION_METHOD.md)"
-lines << "- 链接检查：主页、GitHub 与证据链接已于 #{teams_data.fetch("last_updated")} 批量检查；少量站点会对命令行访问返回 403，但浏览器入口可用。"
 lines << ""
 
 File.write(OUTPUT_PATH, lines.join("\n"))
