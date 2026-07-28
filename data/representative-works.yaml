@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-last_updated: 2026-07-28
+last_updated: "2026-07-28"
 notes:
 - Each team has three featured entries.
 - paper/open_source/paper_or_project are item-level outputs; research_index is an official research entry awaiting finer curation.
