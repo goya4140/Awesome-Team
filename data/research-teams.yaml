@@ -1,0 +1,1887 @@
+schema_version: 1
+last_updated: 2026-07-28
+activity_window: "2024-07-28/2026-07-28"
+methodology: "../docs/TEAM_COLLECTION_METHOD.md"
+link_check:
+  checked_at: 2026-07-28
+  scope: homepages_and_evidence
+  accepted_http_statuses: "200-399 and 403 for known anti-bot sites"
+  unresolved_failures: 0
+
+teams:
+  # China — established companies
+  - id: bytedance-seed
+    name: ByteDance Seed
+    parent_id: byte-dance
+    team_type: corporate_research_lab
+    focus: [foundation-models, multimodal, video-generation, ai-systems]
+    homepages:
+      - { kind: official, url: "https://seed.bytedance.com/" }
+      - { kind: github, url: "https://github.com/ByteDance-Seed" }
+    evidence:
+      affiliation: ["https://seed.bytedance.com/about"]
+      recent_activity: ["https://seed.bytedance.com/en/public_papers", "https://seed.bytedance.com/en/blog/meet-seed-at-icml-2025-25-papers-accepted"]
+    status: verified
+
+  - id: alibaba-qwen
+    name: Qwen Team
+    parent_id: alibaba
+    team_type: foundation_model_team
+    focus: [large-language-models, multimodal, agents, speech]
+    homepages:
+      - { kind: github, url: "https://github.com/QwenLM" }
+      - { kind: official, url: "https://qwenlm.github.io/" }
+    evidence:
+      affiliation: ["https://alihome.alibaba-inc.com/en-US/document-1853940226976645120"]
+      recent_activity: ["https://github.com/QwenLM"]
+    status: verified
+
+  - id: alibaba-damo-academy
+    name: DAMO Academy
+    parent_id: alibaba
+    team_type: corporate_research_lab
+    focus: [computer-vision, language, multimodal, ai-for-science]
+    homepages:
+      - { kind: github, url: "https://github.com/alibaba-damo-academy" }
+      - { kind: official, url: "https://damo.alibaba.com/" }
+    evidence:
+      affiliation: ["https://damo.alibaba.com/"]
+      recent_activity: ["https://github.com/alibaba-damo-academy"]
+    status: verified
+
+  - id: alibaba-nlp
+    name: Alibaba NLP
+    parent_id: alibaba
+    team_type: corporate_research_team
+    focus: [natural-language-processing, information-retrieval, agents]
+    homepages:
+      - { kind: github, url: "https://github.com/Alibaba-NLP" }
+    evidence:
+      affiliation: ["https://github.com/Alibaba-NLP"]
+      recent_activity: ["https://github.com/Alibaba-NLP"]
+    status: verified
+
+  - id: alibaba-modelscope
+    name: ModelScope
+    parent_id: alibaba
+    team_type: research_platform
+    focus: [open-models, multimodal, model-evaluation, ai-systems]
+    homepages:
+      - { kind: official, url: "https://modelscope.cn/" }
+      - { kind: github, url: "https://github.com/modelscope" }
+    evidence:
+      affiliation: ["https://github.com/modelscope/modelscope"]
+      recent_activity: ["https://github.com/modelscope"]
+    status: verified
+
+  - id: tencent-hunyuan
+    name: Tencent Hunyuan
+    parent_id: tencent
+    team_type: foundation_model_team
+    focus: [large-language-models, multimodal, image-generation, video-generation]
+    homepages:
+      - { kind: official, url: "https://hunyuan.tencent.com/" }
+      - { kind: github, url: "https://github.com/Tencent-Hunyuan" }
+    evidence:
+      affiliation: ["https://github.com/Tencent-Hunyuan"]
+      recent_activity: ["https://github.com/orgs/Tencent-Hunyuan/repositories"]
+    status: verified
+
+  - id: tencent-ai-lab
+    name: Tencent AI Lab
+    parent_id: tencent
+    team_type: corporate_research_lab
+    focus: [machine-learning, natural-language-processing, computer-vision, ai-for-science]
+    homepages:
+      - { kind: official, url: "https://ailab.tencent.com/" }
+      - { kind: github, url: "https://github.com/tencent-ailab" }
+    evidence:
+      affiliation: ["https://ailab.tencent.com/"]
+      recent_activity: ["https://github.com/tencent-ailab"]
+    status: verified
+
+  - id: tencent-arc-lab
+    name: Tencent ARC Lab
+    parent_id: tencent
+    team_type: corporate_research_lab
+    focus: [computer-vision, graphics, multimodal, game-ai]
+    homepages:
+      - { kind: official, url: "https://arc.tencent.com/research" }
+      - { kind: github, url: "https://github.com/TencentARC" }
+    evidence:
+      affiliation: ["https://arc.tencent.com/research"]
+      recent_activity: ["https://github.com/TencentARC"]
+    status: verified
+
+  - id: tencent-youtu-lab
+    name: Tencent Youtu Lab
+    parent_id: tencent
+    team_type: corporate_research_lab
+    focus: [computer-vision, multimodal, generative-ai]
+    homepages:
+      - { kind: official, url: "https://open.youtu.qq.com/" }
+      - { kind: github, url: "https://github.com/Tencent" }
+    evidence:
+      affiliation: ["https://open.youtu.qq.com/"]
+      recent_activity: ["https://github.com/Tencent/YOLO-Master"]
+    status: provisional
+    notes: "近期论文代码分散在 Tencent 总组织中，仍需补齐团队级论文索引。"
+
+  - id: huawei-noahs-ark-lab
+    name: Huawei Noah's Ark Lab
+    parent_id: huawei
+    team_type: corporate_research_lab
+    focus: [foundation-models, machine-learning, decision-making, ai-systems]
+    homepages:
+      - { kind: official, url: "https://www.noahlab.com.hk/" }
+      - { kind: github, url: "https://github.com/huawei-noah" }
+    evidence:
+      affiliation: ["https://www.noahlab.com.hk/"]
+      recent_activity: ["https://www.noahlab.com.hk/research_paper", "https://github.com/huawei-noah"]
+    status: verified
+
+  - id: baidu-ernie
+    name: ERNIE Team
+    parent_id: baidu
+    team_type: foundation_model_team
+    focus: [large-language-models, multimodal, knowledge-enhanced-learning]
+    homepages:
+      - { kind: official, url: "https://ernie.baidu.com/" }
+      - { kind: github, url: "https://github.com/PaddlePaddle/ERNIE" }
+    evidence:
+      affiliation: ["https://ernie.baidu.com/"]
+      recent_activity: ["https://ernie.baidu.com/blog/publication/", "https://github.com/PaddlePaddle/ERNIE"]
+    status: verified
+
+  - id: baidu-paddlepaddle
+    name: PaddlePaddle
+    parent_id: baidu
+    team_type: research_platform
+    focus: [deep-learning-frameworks, foundation-models, computer-vision, ai-systems]
+    homepages:
+      - { kind: official, url: "https://www.paddlepaddle.org.cn/" }
+      - { kind: github, url: "https://github.com/PaddlePaddle" }
+    evidence:
+      affiliation: ["https://www.paddlepaddle.org.cn/"]
+      recent_activity: ["https://github.com/PaddlePaddle"]
+    status: verified
+
+  - id: kuaishou-kling-ai-research
+    name: Kling AI Research
+    parent_id: kuaishou
+    team_type: foundation_model_team
+    focus: [video-generation, image-generation, computer-vision]
+    homepages:
+      - { kind: github, url: "https://github.com/KlingAIResearch" }
+      - { kind: official, url: "https://klingai.com/" }
+    evidence:
+      affiliation: ["https://github.com/KlingAIResearch"]
+      recent_activity: ["https://github.com/orgs/KlingAIResearch/repositories"]
+    status: verified
+
+  - id: kuaishou-kolors
+    name: Kuaishou Kolors Team
+    parent_id: kuaishou
+    team_type: foundation_model_team
+    focus: [image-generation, controllable-generation]
+    homepages:
+      - { kind: github, url: "https://github.com/Kwai-Kolors" }
+    evidence:
+      affiliation: ["https://github.com/Kwai-Kolors/Kolors"]
+      recent_activity: ["https://github.com/Kwai-Kolors/Kolors"]
+    status: provisional
+    notes: "归属明确；需继续核验 2025–2026 是否形成独立且持续的论文序列。"
+
+  - id: meituan-longcat
+    name: Meituan LongCat Team
+    parent_id: meituan
+    team_type: foundation_model_team
+    focus: [large-language-models, agents, multimodal]
+    homepages:
+      - { kind: github, url: "https://github.com/meituan-longcat" }
+      - { kind: official, url: "https://longcat.chat/" }
+    evidence:
+      affiliation: ["https://github.com/meituan-longcat"]
+      recent_activity: ["https://github.com/orgs/meituan-longcat/repositories"]
+    status: verified
+
+  - id: jd-multimodal-llm
+    name: JD Explore Academy — Multimodal LLM
+    parent_id: jd-com
+    team_type: corporate_research_team
+    focus: [large-language-models, multimodal, image-generation]
+    homepages:
+      - { kind: official, url: "https://research.joyai.com/" }
+      - { kind: github, url: "https://github.com/jd-opensource" }
+    evidence:
+      affiliation: ["https://research.joyai.com/"]
+      recent_activity: ["https://research.joyai.com/models", "https://github.com/jd-opensource"]
+    status: verified
+
+  - id: jd-speech-acoustics
+    name: JD Explore Academy — Speech & Acoustics
+    parent_id: jd-com
+    team_type: corporate_research_team
+    focus: [speech, audio-generation, multimodal]
+    homepages:
+      - { kind: official, url: "https://research.joyai.com/" }
+      - { kind: github, url: "https://github.com/jd-opensource" }
+    evidence:
+      affiliation: ["https://research.joyai.com/"]
+      recent_activity: ["https://research.joyai.com/models"]
+    status: provisional
+
+  - id: jd-multimodal-interaction-world-model
+    name: JD Explore Academy — Multimodal Interaction & World Model
+    parent_id: jd-com
+    team_type: corporate_research_team
+    focus: [multimodal, world-models, interactive-agents]
+    homepages:
+      - { kind: official, url: "https://research.joyai.com/" }
+      - { kind: github, url: "https://github.com/jd-opensource" }
+    evidence:
+      affiliation: ["https://research.joyai.com/"]
+      recent_activity: ["https://research.joyai.com/models"]
+    status: provisional
+
+  - id: jd-embodied-ai
+    name: JD Explore Academy — Embodied AI
+    parent_id: jd-com
+    team_type: corporate_research_team
+    focus: [embodied-ai, robotics, world-models]
+    homepages:
+      - { kind: official, url: "https://research.joyai.com/team/embodied-ai" }
+      - { kind: github, url: "https://github.com/jd-opensource" }
+    evidence:
+      affiliation: ["https://research.joyai.com/team/embodied-ai"]
+      recent_activity: ["https://research.joyai.com/team/embodied-ai"]
+    status: verified
+
+  - id: jd-ai-infrastructures
+    name: JD Explore Academy — Infrastructures
+    parent_id: jd-com
+    team_type: corporate_research_team
+    focus: [ai-systems, distributed-training, inference]
+    homepages:
+      - { kind: official, url: "https://research.joyai.com/" }
+      - { kind: github, url: "https://github.com/jd-opensource" }
+    evidence:
+      affiliation: ["https://research.joyai.com/"]
+      recent_activity: ["https://research.joyai.com/models"]
+    status: provisional
+
+  - id: ant-interactive-ai-lab
+    name: Ant Research — Interactive Artificial Intelligence Lab
+    parent_id: ant-group
+    team_type: corporate_research_lab
+    focus: [computer-vision, multimodal, content-generation, digital-human]
+    homepages:
+      - { kind: official, url: "https://www.antresearch.com/" }
+      - { kind: github, url: "https://github.com/ant-research" }
+    evidence:
+      affiliation: ["https://github.com/ant-research"]
+      recent_activity: ["https://github.com/ant-research"]
+    status: verified
+
+  - id: ant-inclusion-ai
+    name: InclusionAI
+    parent_id: ant-group
+    team_type: corporate_research_lab
+    focus: [foundation-models, reasoning, agents, multimodal]
+    homepages:
+      - { kind: official, url: "https://www.inclusion-ai.org/" }
+      - { kind: github, url: "https://github.com/inclusionAI" }
+    evidence:
+      affiliation: ["https://www.inclusion-ai.org/"]
+      recent_activity: ["https://github.com/inclusionAI"]
+    status: verified
+
+  - id: ant-areal
+    name: AReaL Team
+    parent_id: ant-group
+    team_type: research_engineering_team
+    focus: [reinforcement-learning, llm-training, agents, ai-systems]
+    homepages:
+      - { kind: github, url: "https://github.com/areal-project/AReaL" }
+    evidence:
+      affiliation: ["https://github.com/areal-project/AReaL"]
+      recent_activity: ["https://github.com/areal-project/AReaL"]
+    status: verified
+
+  - id: xiaomi-mimo
+    name: Xiaomi MiMo / LLM-Core Team
+    parent_id: xiaomi
+    team_type: foundation_model_team
+    focus: [large-language-models, multimodal, reasoning]
+    homepages:
+      - { kind: github, url: "https://github.com/XiaomiMiMo" }
+    evidence:
+      affiliation: ["https://github.com/XiaomiMiMo"]
+      recent_activity: ["https://github.com/orgs/XiaomiMiMo/repositories"]
+    status: verified
+
+  - id: xiaomi-embodied-intelligence
+    name: Xiaomi Embodied Intelligence Team
+    parent_id: xiaomi
+    team_type: corporate_research_team
+    focus: [embodied-ai, robotics, vision-language-action]
+    homepages:
+      - { kind: github, url: "https://github.com/XiaomiMiMo/MiMo-Embodied" }
+    evidence:
+      affiliation: ["https://github.com/XiaomiMiMo/MiMo-Embodied"]
+      recent_activity: ["https://github.com/XiaomiMiMo/MiMo-Embodied"]
+    status: verified
+
+  - id: rednote-hi-lab
+    name: RedNote Hi Lab
+    parent_id: xiaohongshu
+    team_type: corporate_research_lab
+    focus: [large-language-models, reasoning, agents]
+    homepages:
+      - { kind: github, url: "https://github.com/rednote-hilab/dots.vlm1" }
+    evidence:
+      affiliation: ["https://github.com/rednote-hilab/dots.vlm1", "https://huggingface.co/rednote-hilab/dots.llm1.base"]
+      recent_activity: ["https://github.com/rednote-hilab/dots.vlm1", "https://huggingface.co/rednote-hilab/dots.llm1.base"]
+    status: provisional
+    notes: "GitHub 组织与成果活跃；仍需补充小红书官方域名上的团队归属页面。"
+
+  - id: xiaohongshu-firered
+    name: FireRed Team
+    parent_id: xiaohongshu
+    team_type: corporate_research_lab
+    focus: [speech, multimodal, image-generation, video-generation]
+    homepages:
+      - { kind: official, url: "https://fireredteam.github.io/" }
+      - { kind: github, url: "https://github.com/FireRedTeam" }
+    evidence:
+      affiliation: ["https://github.com/FireRedTeam"]
+      recent_activity: ["https://github.com/orgs/FireRedTeam/repositories"]
+    status: verified
+
+  # China — frontier AI companies
+  - id: deepseek-research
+    name: DeepSeek AI Research
+    parent_id: deepseek
+    team_type: frontier_ai_lab
+    focus: [large-language-models, reasoning, ai-systems, multimodal]
+    homepages:
+      - { kind: official, url: "https://www.deepseek.com/" }
+      - { kind: github, url: "https://github.com/deepseek-ai" }
+    evidence:
+      affiliation: ["https://www.deepseek.com/en/transparency/"]
+      recent_activity: ["https://github.com/deepseek-ai"]
+    status: verified
+
+  - id: zhipu-glm
+    name: Z.ai / GLM Team
+    parent_id: zhipu-ai
+    team_type: frontier_ai_lab
+    focus: [large-language-models, multimodal, agents, reasoning]
+    homepages:
+      - { kind: official, url: "https://z.ai/" }
+      - { kind: github, url: "https://github.com/zai-org" }
+    evidence:
+      affiliation: ["https://github.com/zai-org"]
+      recent_activity: ["https://github.com/orgs/zai-org/repositories"]
+    status: verified
+
+  - id: moonshot-kimi
+    name: Moonshot AI / Kimi Research
+    parent_id: moonshot-ai
+    team_type: frontier_ai_lab
+    focus: [large-language-models, agents, multimodal, ai-systems]
+    homepages:
+      - { kind: official, url: "https://www.moonshot.cn/" }
+      - { kind: github, url: "https://github.com/MoonshotAI" }
+    evidence:
+      affiliation: ["https://github.com/MoonshotAI"]
+      recent_activity: ["https://github.com/MoonshotAI"]
+    status: verified
+
+  - id: minimax-research
+    name: MiniMax Research
+    parent_id: minimax
+    team_type: frontier_ai_lab
+    focus: [large-language-models, speech, multimodal, video-generation]
+    homepages:
+      - { kind: official, url: "https://www.minimaxi.com/" }
+      - { kind: github, url: "https://github.com/MiniMax-AI" }
+    evidence:
+      affiliation: ["https://github.com/MiniMax-AI"]
+      recent_activity: ["https://github.com/orgs/MiniMax-AI/repositories"]
+    status: verified
+
+  # United States — established companies
+  - id: google-deepmind
+    name: Google DeepMind
+    parent_id: alphabet
+    team_type: frontier_ai_lab
+    focus: [foundation-models, reinforcement-learning, multimodal, ai-for-science]
+    homepages:
+      - { kind: official, url: "https://deepmind.google/" }
+      - { kind: github, url: "https://github.com/google-deepmind" }
+    evidence:
+      affiliation: ["https://deepmind.google/about/"]
+      recent_activity: ["https://deepmind.google/research/publications/", "https://github.com/google-deepmind"]
+    status: verified
+
+  - id: google-research
+    name: Google Research
+    parent_id: alphabet
+    team_type: corporate_research_lab
+    focus: [machine-learning, natural-language-processing, computer-vision, ai-systems]
+    homepages:
+      - { kind: official, url: "https://research.google/" }
+      - { kind: github, url: "https://github.com/google-research" }
+    evidence:
+      affiliation: ["https://research.google/teams/"]
+      recent_activity: ["https://research.google/pubs/", "https://github.com/google-research"]
+    status: verified
+
+  - id: meta-fair
+    name: Fundamental AI Research (FAIR)
+    parent_id: meta
+    team_type: corporate_research_lab
+    focus: [foundation-models, multimodal, computer-vision, ai-for-science]
+    homepages:
+      - { kind: official, url: "https://ai.meta.com/research/" }
+      - { kind: github, url: "https://github.com/facebookresearch" }
+    evidence:
+      affiliation: ["https://ai.meta.com/research/"]
+      recent_activity: ["https://github.com/facebookresearch", "https://about.fb.com/news/2025/12/ai-breakthroughs-advanced-ai-glasses-meta-2025-highlights/"]
+    status: verified
+
+  - id: meta-reality-labs-research
+    name: Meta Reality Labs Research
+    parent_id: meta
+    team_type: corporate_research_lab
+    focus: [augmented-reality, computer-vision, embodied-ai, human-computer-interaction]
+    homepages:
+      - { kind: official, url: "https://about.meta.com/realitylabs/" }
+      - { kind: github, url: "https://github.com/facebookresearch" }
+    evidence:
+      affiliation: ["https://about.fb.com/news/2024/04/celebrating-10-years-of-reality-labs/"]
+      recent_activity: ["https://github.com/facebookresearch/projectaria_tools", "https://github.com/facebookresearch/mvdust3r"]
+    status: verified
+
+  - id: microsoft-ai-frontiers
+    name: Microsoft Research AI Frontiers
+    parent_id: microsoft
+    team_type: corporate_research_lab
+    focus: [foundation-models, agents, reasoning, evaluation]
+    homepages:
+      - { kind: official, url: "https://www.microsoft.com/en-us/research/project/ai-frontiers-explorations/" }
+      - { kind: github, url: "https://github.com/microsoft" }
+    evidence:
+      affiliation: ["https://www.microsoft.com/en-us/research/project/ai-frontiers-explorations/"]
+      recent_activity: ["https://www.microsoft.com/en-us/research/project/ai-frontiers-explorations/"]
+    status: verified
+
+  - id: microsoft-general-ai
+    name: Microsoft Research Asia — General Artificial Intelligence
+    parent_id: microsoft
+    team_type: corporate_research_team
+    focus: [foundation-models, natural-language-processing, speech, multimodal]
+    homepages:
+      - { kind: official, url: "https://www.microsoft.com/en-us/research/group/general-artificial-intelligence/" }
+      - { kind: github, url: "https://github.com/microsoft/unilm" }
+    evidence:
+      affiliation: ["https://www.microsoft.com/en-us/research/group/general-artificial-intelligence/"]
+      recent_activity: ["https://www.microsoft.com/en-us/research/group/general-artificial-intelligence/publications/"]
+    status: verified
+
+  - id: microsoft-ai-for-science
+    name: Microsoft Research AI for Science
+    parent_id: microsoft
+    team_type: corporate_research_lab
+    focus: [ai-for-science, foundation-models, chemistry, biology]
+    homepages:
+      - { kind: official, url: "https://www.microsoft.com/en-us/research/lab/microsoft-research-ai-for-science/" }
+      - { kind: github, url: "https://github.com/microsoft" }
+    evidence:
+      affiliation: ["https://www.microsoft.com/en-us/research/lab/microsoft-research-ai-for-science/"]
+      recent_activity: ["https://www.microsoft.com/en-us/research/lab/microsoft-research-ai-for-science/publications/"]
+    status: verified
+
+  - id: microsoft-machine-learning-area
+    name: Microsoft Research — Machine Learning Area
+    parent_id: microsoft
+    team_type: corporate_research_team
+    focus: [machine-learning, reinforcement-learning, causal-learning, optimization]
+    homepages:
+      - { kind: official, url: "https://www.microsoft.com/en-us/research/group/machine-learning-research-group/" }
+      - { kind: github, url: "https://github.com/microsoft" }
+    evidence:
+      affiliation: ["https://www.microsoft.com/en-us/research/group/machine-learning-research-group/"]
+      recent_activity: ["https://www.microsoft.com/en-us/research/group/machine-learning-research-group/publications/"]
+    status: verified
+
+  - id: microsoft-computer-vision
+    name: Microsoft Research — Computer Vision Group
+    parent_id: microsoft
+    team_type: corporate_research_team
+    focus: [computer-vision, multimodal, image-generation, video-understanding]
+    homepages:
+      - { kind: official, url: "https://www.microsoft.com/en-us/research/group/vision/" }
+      - { kind: github, url: "https://github.com/microsoft" }
+    evidence:
+      affiliation: ["https://www.microsoft.com/en-us/research/group/vision/"]
+      recent_activity: ["https://www.microsoft.com/en-us/research/group/vision/publications/"]
+    status: verified
+
+  - id: nvidia-cosmos-lab
+    name: NVIDIA Cosmos Lab
+    parent_id: nvidia
+    team_type: corporate_research_lab
+    focus: [world-models, physical-ai, video-generation, embodied-ai]
+    homepages:
+      - { kind: official, url: "https://research.nvidia.com/labs/dir/" }
+      - { kind: github, url: "https://github.com/NVlabs" }
+    evidence:
+      affiliation: ["https://research.nvidia.com/labs/dir/"]
+      recent_activity: ["https://research.nvidia.com/labs/dir/"]
+    status: verified
+
+  - id: nvidia-gear
+    name: NVIDIA GEAR
+    parent_id: nvidia
+    team_type: corporate_research_lab
+    focus: [embodied-ai, robotics, foundation-models, simulation]
+    homepages:
+      - { kind: official, url: "https://research.nvidia.com/labs/gear/" }
+      - { kind: github, url: "https://github.com/NVlabs" }
+    evidence:
+      affiliation: ["https://research.nvidia.com/labs/gear/"]
+      recent_activity: ["https://research.nvidia.com/labs/gear/publications/"]
+    status: verified
+
+  - id: nvidia-dair
+    name: NVIDIA Data-Driven AI for Robotics (DAIR)
+    parent_id: nvidia
+    team_type: corporate_research_lab
+    focus: [robotics, embodied-ai, human-motion, computer-vision]
+    homepages:
+      - { kind: official, url: "https://research.nvidia.com/labs/dair/" }
+      - { kind: github, url: "https://github.com/NVlabs" }
+    evidence:
+      affiliation: ["https://research.nvidia.com/labs/dair/"]
+      recent_activity: ["https://research.nvidia.com/labs/dair/"]
+    status: verified
+
+  - id: nvidia-efficient-ai
+    name: NVIDIA Efficient AI Lab
+    parent_id: nvidia
+    team_type: corporate_research_lab
+    focus: [efficient-ai, model-compression, inference, generative-ai]
+    homepages:
+      - { kind: official, url: "https://research.nvidia.com/labs/eai/" }
+      - { kind: github, url: "https://github.com/NVlabs" }
+    evidence:
+      affiliation: ["https://research.nvidia.com/labs/eai/"]
+      recent_activity: ["https://research.nvidia.com/labs/eai/publications/"]
+    status: verified
+
+  - id: amazon-agi-lab
+    name: Amazon AGI Lab
+    parent_id: amazon
+    team_type: frontier_ai_lab
+    focus: [agents, reinforcement-learning, multimodal, human-computer-interaction]
+    homepages:
+      - { kind: official, url: "https://labs.amazon.science/" }
+      - { kind: github, url: "https://github.com/amazon-science" }
+    evidence:
+      affiliation: ["https://labs.amazon.science/"]
+      recent_activity: ["https://labs.amazon.science/tools", "https://labs.amazon.science/blog"]
+    status: verified
+
+  - id: amazon-science
+    name: Amazon Science
+    parent_id: amazon
+    team_type: corporate_research_network
+    focus: [machine-learning, natural-language-processing, robotics, recommendation]
+    homepages:
+      - { kind: official, url: "https://www.amazon.science/" }
+      - { kind: github, url: "https://github.com/amazon-science" }
+    evidence:
+      affiliation: ["https://www.amazon.science/"]
+      recent_activity: ["https://www.amazon.science/publications", "https://github.com/orgs/amazon-science/repositories"]
+    status: verified
+    notes: "Amazon 研究团队分散且命名变化快；该条作为官方研究网络入口，后续继续拆分稳定子团队。"
+
+  - id: apple-machine-learning-research
+    name: Apple Machine Learning Research
+    parent_id: apple
+    team_type: corporate_research_network
+    focus: [machine-learning, computer-vision, speech, responsible-ai]
+    homepages:
+      - { kind: official, url: "https://machinelearning.apple.com/" }
+      - { kind: github, url: "https://github.com/apple" }
+    evidence:
+      affiliation: ["https://machinelearning.apple.com/"]
+      recent_activity: ["https://machinelearning.apple.com/research/"]
+    status: verified
+
+  - id: apple-mlx
+    name: Apple MLX Research Team
+    parent_id: apple
+    team_type: research_engineering_team
+    focus: [machine-learning-frameworks, efficient-ai, on-device-ai]
+    homepages:
+      - { kind: official, url: "https://ml-explore.github.io/mlx/" }
+      - { kind: github, url: "https://github.com/ml-explore" }
+    evidence:
+      affiliation: ["https://github.com/ml-explore/mlx"]
+      recent_activity: ["https://github.com/ml-explore"]
+    status: verified
+
+  # United States — frontier AI companies
+  - id: openai-research
+    name: OpenAI Research
+    parent_id: openai
+    team_type: frontier_ai_lab
+    focus: [foundation-models, reasoning, multimodal, safety]
+    homepages:
+      - { kind: official, url: "https://openai.com/research/" }
+      - { kind: github, url: "https://github.com/openai" }
+    evidence:
+      affiliation: ["https://openai.com/research/"]
+      recent_activity: ["https://openai.com/research/index/publication/", "https://github.com/openai"]
+    status: verified
+    notes: "OpenAI 未维护稳定、完整的公开内部团队目录，因此暂按 Research 总入口收录。"
+
+  - id: anthropic-alignment
+    name: Anthropic Alignment
+    parent_id: anthropic
+    team_type: frontier_ai_research_team
+    focus: [alignment, model-behavior, ai-safety]
+    homepages:
+      - { kind: official, url: "https://www.anthropic.com/research" }
+      - { kind: github, url: "https://github.com/anthropics" }
+    evidence:
+      affiliation: ["https://www.anthropic.com/research"]
+      recent_activity: ["https://www.anthropic.com/research?subjects=alignment"]
+    status: verified
+
+  - id: anthropic-interpretability
+    name: Anthropic Interpretability
+    parent_id: anthropic
+    team_type: frontier_ai_research_team
+    focus: [mechanistic-interpretability, ai-safety, model-analysis]
+    homepages:
+      - { kind: official, url: "https://www.anthropic.com/research" }
+      - { kind: github, url: "https://github.com/anthropics" }
+    evidence:
+      affiliation: ["https://www.anthropic.com/research"]
+      recent_activity: ["https://www.anthropic.com/research?subjects=interpretability"]
+    status: verified
+
+  - id: anthropic-frontier-red-team
+    name: Anthropic Frontier Red Team
+    parent_id: anthropic
+    team_type: frontier_ai_research_team
+    focus: [red-teaming, cybersecurity, biosecurity, autonomous-systems]
+    homepages:
+      - { kind: official, url: "https://www.anthropic.com/research" }
+      - { kind: github, url: "https://github.com/anthropics" }
+    evidence:
+      affiliation: ["https://www.anthropic.com/research"]
+      recent_activity: ["https://www.anthropic.com/research?subjects=frontier-red-team"]
+    status: verified
+
+  - id: anthropic-societal-impacts
+    name: Anthropic Societal Impacts
+    parent_id: anthropic
+    team_type: frontier_ai_research_team
+    focus: [societal-impacts, model-evaluation, responsible-ai]
+    homepages:
+      - { kind: official, url: "https://www.anthropic.com/research" }
+      - { kind: github, url: "https://github.com/anthropics" }
+    evidence:
+      affiliation: ["https://www.anthropic.com/research"]
+      recent_activity: ["https://www.anthropic.com/research?subjects=societal-impacts"]
+    status: verified
+
+  - id: anthropic-economic-research
+    name: Anthropic Economic Research
+    parent_id: anthropic
+    team_type: frontier_ai_research_team
+    focus: [economics-of-ai, labor, adoption, societal-impacts]
+    homepages:
+      - { kind: official, url: "https://www.anthropic.com/research" }
+      - { kind: github, url: "https://github.com/anthropics" }
+    evidence:
+      affiliation: ["https://www.anthropic.com/research"]
+      recent_activity: ["https://www.anthropic.com/research?subjects=economic-research"]
+    status: verified
+
+  # China — C9 universities
+  - id: tsinghua-thunlp
+    name: Tsinghua Natural Language Processing Lab (THUNLP)
+    parent_id: tsinghua
+    team_type: university_research_lab
+    focus: [natural-language-processing, large-language-models, knowledge-graphs, agents]
+    homepages:
+      - { kind: official, url: "https://nlp.csai.tsinghua.edu.cn/" }
+      - { kind: github, url: "https://github.com/thunlp" }
+    evidence:
+      affiliation: ["https://github.com/thunlp"]
+      recent_activity: ["https://github.com/orgs/thunlp/repositories"]
+    status: verified
+
+  - id: tsinghua-keg-thudm
+    name: Tsinghua Knowledge Engineering Group / THUDM
+    parent_id: tsinghua
+    team_type: university_industry_joint_lab
+    focus: [foundation-models, knowledge-graphs, multimodal, agents]
+    homepages:
+      - { kind: official, url: "https://keg.cs.tsinghua.edu.cn/" }
+      - { kind: github, url: "https://github.com/THUDM" }
+    evidence:
+      affiliation: ["https://github.com/THUDM"]
+      recent_activity: ["https://github.com/orgs/THUDM/repositories"]
+    status: verified
+    notes: "GitHub 组织同时标注 Tsinghua KEG 与 Zhipu/Z.ai；此处按高校团队收录并保留联合身份。"
+
+  - id: tsinghua-coai
+    name: Tsinghua Conversational AI Group (CoAI)
+    parent_id: tsinghua
+    team_type: university_research_group
+    focus: [conversational-ai, natural-language-processing, large-language-models, alignment]
+    homepages:
+      - { kind: github, url: "https://github.com/thu-coai" }
+    evidence:
+      affiliation: ["https://github.com/thu-coai"]
+      recent_activity: ["https://github.com/orgs/thu-coai/repositories"]
+    status: verified
+
+  - id: tsinghua-air
+    name: Institute for AI Industry Research (AIR), Tsinghua University
+    parent_id: tsinghua
+    team_type: university_research_institute
+    focus: [large-language-models, ai-systems, robotics, ai-for-science]
+    homepages:
+      - { kind: official, url: "https://air.tsinghua.edu.cn/en/" }
+    evidence:
+      affiliation: ["https://air.tsinghua.edu.cn/en/"]
+      recent_activity: ["https://air.tsinghua.edu.cn/en/"]
+    status: provisional
+    notes: "研究院覆盖面较宽，后续需继续拆分具有稳定代码入口的研究组。"
+
+  - id: pku-alignment
+    name: PKU Alignment
+    parent_id: peking
+    team_type: university_research_group
+    focus: [alignment, reinforcement-learning, multimodal, ai-safety]
+    homepages:
+      - { kind: github, url: "https://github.com/PKU-Alignment" }
+    evidence:
+      affiliation: ["https://github.com/PKU-Alignment/safe-rlhf"]
+      recent_activity: ["https://github.com/PKU-Alignment/align-anything"]
+    status: verified
+
+  - id: pku-dair
+    name: PKU Data and Intelligence Research Lab (DAIR)
+    parent_id: peking
+    team_type: university_research_lab
+    focus: [ai-systems, distributed-training, databases, machine-learning]
+    homepages:
+      - { kind: github, url: "https://github.com/PKU-DAIR" }
+    evidence:
+      affiliation: ["https://github.com/PKU-DAIR/Hetu"]
+      recent_activity: ["https://github.com/PKU-DAIR/Hetu"]
+    status: verified
+
+  - id: pku-core
+    name: PKU Cognitive Reasoning Lab (CoRe)
+    parent_id: peking
+    team_type: university_research_lab
+    focus: [cognitive-reasoning, computer-vision, embodied-ai, robotics]
+    homepages:
+      - { kind: official, url: "https://pku.ai/" }
+    evidence:
+      affiliation: ["https://pku.ai/join/"]
+      recent_activity: ["https://pku.ai/"]
+    status: verified
+
+  - id: pku-camera-intelligence
+    name: PKU Camera Intelligence Lab
+    parent_id: peking
+    team_type: university_research_lab
+    focus: [computer-vision, computational-photography, video-generation, multimodal]
+    homepages:
+      - { kind: official, url: "https://camera.pku.edu.cn/" }
+    evidence:
+      affiliation: ["https://camera.pku.edu.cn/"]
+      recent_activity: ["https://camera.pku.edu.cn/"]
+    status: verified
+
+  - id: pku-wu-lab
+    name: PKU Institute of Computational Linguistics — Wu Lab
+    parent_id: peking
+    team_type: university_research_group
+    focus: [natural-language-processing, machine-translation, multimodal-reasoning, model-merging]
+    homepages:
+      - { kind: github, url: "https://github.com/PKU-Wu-Lab" }
+      - { kind: huggingface, url: "https://huggingface.co/PKU-Wu-Lab" }
+    evidence:
+      affiliation: ["https://huggingface.co/PKU-Wu-Lab"]
+      recent_activity: ["https://github.com/PKU-Wu-Lab"]
+    status: verified
+
+  - id: zju-nlp-kg
+    name: Zhejiang University NLP & Knowledge Graph Group
+    parent_id: zhejiang
+    team_type: university_research_lab
+    focus: [natural-language-processing, knowledge-graphs, agents, model-editing]
+    homepages:
+      - { kind: official, url: "https://zjunlp.github.io/" }
+      - { kind: github, url: "https://github.com/zjunlp" }
+    evidence:
+      affiliation: ["https://github.com/zjunlp"]
+      recent_activity: ["https://github.com/orgs/zjunlp/repositories"]
+    status: verified
+
+  - id: zju-real
+    name: ZJU Reasoning, Evaluation and Agents Lab (REAL)
+    parent_id: zhejiang
+    team_type: university_research_lab
+    focus: [large-language-models, reasoning, agents, multimodal]
+    homepages:
+      - { kind: github, url: "https://github.com/ZJU-REAL" }
+    evidence:
+      affiliation: ["https://github.com/ZJU-REAL"]
+      recent_activity: ["https://github.com/orgs/ZJU-REAL/repositories"]
+    status: verified
+
+  - id: zju-3dv
+    name: ZJU 3D Vision Group
+    parent_id: zhejiang
+    team_type: university_research_group
+    focus: [3d-vision, computer-vision, autonomous-driving, embodied-ai]
+    homepages:
+      - { kind: github, url: "https://github.com/zju3dv" }
+    evidence:
+      affiliation: ["https://github.com/zju3dv"]
+      recent_activity: ["https://github.com/zju3dv"]
+    status: verified
+
+  - id: sjtu-mint
+    name: SJTU Machine Intelligence and Interaction Lab (MINT)
+    parent_id: sjtu
+    team_type: university_research_lab
+    focus: [embodied-ai, robotics, multimodal, agents]
+    homepages:
+      - { kind: official, url: "https://mint-sjtu.github.io/" }
+      - { kind: github, url: "https://github.com/MINT-SJTU" }
+    evidence:
+      affiliation: ["https://github.com/MINT-SJTU"]
+      recent_activity: ["https://github.com/MINT-SJTU"]
+    status: verified
+
+  - id: sjtu-gair-nlp
+    name: SJTU Generative AI Research Lab (GAIR-NLP)
+    parent_id: sjtu
+    team_type: university_research_lab
+    focus: [large-language-models, agents, alignment, ai-for-science]
+    homepages:
+      - { kind: github, url: "https://github.com/GAIR-NLP" }
+    evidence:
+      affiliation: ["https://github.com/GAIR-NLP"]
+      recent_activity: ["https://github.com/orgs/GAIR-NLP/repositories"]
+    status: verified
+
+  - id: sjtu-mifa
+    name: SJTU Machine Intelligence Foundations and Applications Lab (MIFA)
+    parent_id: sjtu
+    team_type: university_research_lab
+    focus: [foundation-models, continual-learning, multimodal, data-efficient-learning]
+    homepages:
+      - { kind: official, url: "https://mifa.sjtu.edu.cn/" }
+    evidence:
+      affiliation: ["https://mifa.sjtu.edu.cn/"]
+      recent_activity: ["https://mifa.sjtu.edu.cn/"]
+    status: verified
+
+  - id: sjtu-rl2
+    name: SJTU Robot Learning and Representation Learning Lab (RL2)
+    parent_id: sjtu
+    team_type: university_research_lab
+    focus: [robot-learning, embodied-ai, vision-language-action, navigation]
+    homepages:
+      - { kind: official, url: "https://gaoyue.sjtu.edu.cn/" }
+    evidence:
+      affiliation: ["https://gaoyue.sjtu.edu.cn/"]
+      recent_activity: ["https://gaoyue.sjtu.edu.cn/"]
+    status: verified
+
+  - id: fudan-nlp
+    name: Fudan NLP Group
+    parent_id: fudan
+    team_type: university_research_group
+    focus: [natural-language-processing, large-language-models, information-extraction]
+    homepages:
+      - { kind: github, url: "https://github.com/FudanNLP" }
+    evidence:
+      affiliation: ["https://github.com/FudanNLP"]
+      recent_activity: ["https://github.com/orgs/FudanNLP/repositories"]
+    status: verified
+
+  - id: fudan-disc
+    name: Fudan Data Intelligence and Social Computing Lab (DISC)
+    parent_id: fudan
+    team_type: university_research_lab
+    focus: [large-language-models, data-mining, social-computing, agents]
+    homepages:
+      - { kind: github, url: "https://github.com/FudanDISC" }
+    evidence:
+      affiliation: ["https://github.com/FudanDISC"]
+      recent_activity: ["https://github.com/orgs/FudanDISC/repositories"]
+    status: verified
+
+  - id: fudan-data-intelligence-lab
+    name: Fudan Data Intelligence Lab
+    parent_id: fudan
+    team_type: university_research_lab
+    focus: [machine-learning, foundation-models, trustworthy-ai, computer-vision]
+    homepages:
+      - { kind: official, url: "https://dil.fudan.edu.cn/" }
+    evidence:
+      affiliation: ["https://dil.fudan.edu.cn/"]
+      recent_activity: ["https://dil.fudan.edu.cn/"]
+    status: verified
+
+  - id: ustc-vim
+    name: USTC Vision and Multimedia Research Group (VIM)
+    parent_id: ustc
+    team_type: university_research_group
+    focus: [computer-vision, multimodal, deep-learning, ai-systems]
+    homepages:
+      - { kind: official, url: "https://vim.ustc.edu.cn/" }
+    evidence:
+      affiliation: ["https://vim.ustc.edu.cn/Introduction/list.htm"]
+      recent_activity: ["https://vim.ustc.edu.cn/"]
+    status: verified
+
+  - id: ustc-ivc
+    name: USTC Intelligent Visual Data Coding Lab (iVC)
+    parent_id: ustc
+    team_type: university_research_lab
+    focus: [computer-vision, visual-compression, multimodal, efficient-ai]
+    homepages:
+      - { kind: official, url: "https://ustc-ivclab.github.io/" }
+      - { kind: github, url: "https://github.com/ustc-ivclab" }
+    evidence:
+      affiliation: ["https://ustc-ivclab.github.io/"]
+      recent_activity: ["https://ustc-ivclab.github.io/"]
+    status: verified
+
+  - id: ustc-alpha-lab
+    name: AlphaLab @ USTC
+    parent_id: ustc
+    team_type: university_research_lab
+    focus: [large-language-models, multimodal, recommendation, trustworthy-ai]
+    homepages:
+      - { kind: official, url: "https://alphalab-ustc.github.io/" }
+    evidence:
+      affiliation: ["https://alphalab-ustc.github.io/index.html"]
+      recent_activity: ["https://alphalab-ustc.github.io/index.html"]
+    status: verified
+
+  - id: ustc-mei-lab
+    name: USTC Multimodal Embodied Intelligence Lab (MEI)
+    parent_id: ustc
+    team_type: university_research_lab
+    focus: [multimodal, embodied-ai, generative-ai, information-retrieval]
+    homepages:
+      - { kind: official, url: "https://ustc-milab.work/" }
+    evidence:
+      affiliation: ["https://ustc-milab.work/"]
+      recent_activity: ["https://ustc-milab.work/"]
+    status: verified
+
+  - id: nju-lamda
+    name: NJU Learning and Mining from Data Group (LAMDA)
+    parent_id: nanjing
+    team_type: university_research_lab
+    focus: [machine-learning, data-mining, evolutionary-computation, computer-vision]
+    homepages:
+      - { kind: official, url: "https://www.lamda.nju.edu.cn/" }
+      - { kind: github, url: "https://github.com/lamda-nju" }
+    evidence:
+      affiliation: ["https://www.lamda.nju.edu.cn/"]
+      recent_activity: ["https://www.lamda.nju.edu.cn/"]
+    status: verified
+
+  - id: nju-lamda-cl
+    name: LAMDA Continual Learning Lab
+    parent_id: nanjing
+    team_type: university_research_group
+    focus: [continual-learning, lifelong-learning, vision-language-models]
+    homepages:
+      - { kind: github, url: "https://github.com/LAMDA-CL" }
+    evidence:
+      affiliation: ["https://github.com/LAMDA-CL"]
+      recent_activity: ["https://github.com/LAMDA-CL"]
+    status: verified
+
+  - id: hit-scir
+    name: HIT Research Center for Social Computing and Information Retrieval (SCIR)
+    parent_id: hit
+    team_type: university_research_center
+    focus: [natural-language-processing, information-retrieval, knowledge-graphs, social-computing]
+    homepages:
+      - { kind: official, url: "https://ir.hit.edu.cn/" }
+      - { kind: github, url: "https://github.com/HIT-SCIR" }
+    evidence:
+      affiliation: ["https://ir.hit.edu.cn/"]
+      recent_activity: ["https://github.com/HIT-SCIR"]
+    status: verified
+
+  - id: hit-robotics-systems
+    name: HIT State Key Laboratory of Robotics and Systems
+    parent_id: hit
+    team_type: university_research_lab
+    focus: [robotics, embodied-ai, control, intelligent-systems]
+    homepages:
+      - { kind: official, url: "http://robot.hit.edu.cn/" }
+    evidence:
+      affiliation: ["https://en.hit.edu.cn/11961/list.htm"]
+      recent_activity: ["http://robot.hit.edu.cn/"]
+    status: provisional
+    notes: "机构归属明确；仍需补齐集中式 GitHub 与最近两年的论文目录。"
+
+  - id: xjtu-ai-sec
+    name: Xi'an Jiaotong University AI Security Lab (AI-SEC)
+    parent_id: xjtu
+    team_type: university_research_lab
+    focus: [trustworthy-ai, ai-safety, multimodal, efficient-ai]
+    homepages:
+      - { kind: official, url: "https://gr.xjtu.edu.cn/en/web/cshen" }
+    evidence:
+      affiliation: ["https://www.yangle.cc/"]
+      recent_activity: ["https://www.yangle.cc/"]
+    status: provisional
+    notes: "已确认团队与研究方向；需继续寻找团队级主页和集中代码组织。"
+
+  - id: xjtu-robotics-institute
+    name: Xi'an Jiaotong University Robotics Research Institute
+    parent_id: xjtu
+    team_type: university_research_institute
+    focus: [robotics, embodied-ai, perception, control]
+    homepages:
+      - { kind: official, url: "https://en.xjtu.edu.cn/2025-08/22/c_1118744.htm" }
+    evidence:
+      affiliation: ["https://en.xjtu.edu.cn/2025-08/22/c_1118744.htm"]
+      recent_activity: ["https://en.xjtu.edu.cn/2025-08/22/c_1118744.htm"]
+    status: provisional
+    notes: "当前入口为学校新闻页；需补齐研究院主页与论文/代码索引。"
+
+  # HKUST (Guangzhou)
+  - id: hkust-gz-precognition
+    name: Precognition Lab
+    parent_id: hkust-gz
+    team_type: university_research_lab
+    focus: [embodied-ai, computer-vision, robotics, multimodal]
+    homepages:
+      - { kind: official, url: "https://precognition.team/" }
+    evidence:
+      affiliation: ["https://precognition.team/index.html"]
+      recent_activity: ["https://precognition.team/index.html"]
+    status: verified
+
+  - id: hkust-gz-envision
+    name: ENVISION Lab
+    parent_id: hkust-gz
+    team_type: university_research_lab
+    focus: [generative-ai, video-generation, 3d-generation, computer-vision]
+    homepages:
+      - { kind: official, url: "https://envision-research.hkust-gz.edu.cn/" }
+    evidence:
+      affiliation: ["https://envision-research.hkust-gz.edu.cn/"]
+      recent_activity: ["https://envision-research.hkust-gz.edu.cn/"]
+    status: verified
+
+  - id: hkust-gz-dsail
+    name: HKUST(GZ) Data Science & Artificial Intelligence Lab (DSAIL)
+    parent_id: hkust-gz
+    team_type: university_research_lab
+    focus: [large-language-models, ai-for-science, graph-learning, agents]
+    homepages:
+      - { kind: github, url: "https://github.com/DSAILatHKUST" }
+      - { kind: huggingface, url: "https://huggingface.co/HKUST-DSAIL" }
+    evidence:
+      affiliation: ["https://huggingface.co/HKUST-DSAIL"]
+      recent_activity: ["https://github.com/DSAILatHKUST"]
+    status: verified
+
+  - id: hkust-gz-mdi
+    name: HKUST(GZ) Medical Data Intelligence Lab
+    parent_id: hkust-gz
+    team_type: university_research_lab
+    focus: [medical-ai, pathology, multimodal, data-mining]
+    homepages:
+      - { kind: official, url: "https://mdi.hkust-gz.edu.cn/en/" }
+    evidence:
+      affiliation: ["https://mdi.hkust-gz.edu.cn/en/"]
+      recent_activity: ["https://mdi.hkust-gz.edu.cn/en/"]
+    status: verified
+
+  - id: hkust-gz-hpml
+    name: HKUST(GZ) High-Performance Machine Learning Lab
+    parent_id: hkust-gz
+    team_type: university_research_lab
+    focus: [machine-learning, ai-systems, distributed-training, optimization]
+    homepages:
+      - { kind: official, url: "https://dsa.hkust-gz.edu.cn/research/labs-institutes/high-performance-machine-learning-laboratory/" }
+    evidence:
+      affiliation: ["https://dsa.hkust-gz.edu.cn/research/labs-institutes/high-performance-machine-learning-laboratory/"]
+      recent_activity: ["https://dsa.hkust-gz.edu.cn/research/labs-institutes/high-performance-machine-learning-laboratory/"]
+    status: provisional
+    notes: "团队主页有效；需补齐集中论文目录或 GitHub 组织。"
+
+  # Hong Kong three
+  - id: hku-data-intelligence-lab
+    name: HKU Data Intelligence Lab (HKUDS)
+    parent_id: hku
+    team_type: university_research_lab
+    focus: [large-language-models, retrieval-augmented-generation, agents, recommendation]
+    homepages:
+      - { kind: github, url: "https://github.com/HKUDS" }
+    evidence:
+      affiliation: ["https://github.com/HKUDS"]
+      recent_activity: ["https://github.com/orgs/HKUDS/repositories"]
+    status: verified
+
+  - id: hku-sail
+    name: HKU Super Artificial Intelligence Lab (SAIL)
+    parent_id: hku
+    team_type: university_research_lab
+    focus: [generative-ai, embodied-ai, multimodal, spatial-ai]
+    homepages:
+      - { kind: official, url: "https://sail.ai.hku.hk/" }
+      - { kind: github, url: "https://github.com/hkust-vgd" }
+    evidence:
+      affiliation: ["https://sail.ai.hku.hk/"]
+      recent_activity: ["https://sail.ai.hku.hk/"]
+    status: verified
+    notes: "GitHub 账号沿用负责人此前团队命名，官方主页用于确认当前 HKU 归属。"
+
+  - id: hku-intelligent-cybersecurity
+    name: HKU JC STEM Lab of Intelligent Cybersecurity
+    parent_id: hku
+    team_type: university_research_lab
+    focus: [ai-security, code-generation, trustworthy-ai, agent-security]
+    homepages:
+      - { kind: official, url: "https://sec.hku.hk/" }
+    evidence:
+      affiliation: ["https://sec.hku.hk/"]
+      recent_activity: ["https://sec.hku.hk/research"]
+    status: verified
+
+  - id: cuhk-mmlab
+    name: CUHK Multimedia Laboratory (MMLab)
+    parent_id: cuhk
+    team_type: university_research_lab
+    focus: [computer-vision, multimodal, generative-ai, video-understanding]
+    homepages:
+      - { kind: official, url: "https://mmlab.ie.cuhk.edu.hk/" }
+      - { kind: github, url: "https://github.com/open-mmlab" }
+    evidence:
+      affiliation: ["https://mmlab.ie.cuhk.edu.hk/"]
+      recent_activity: ["https://github.com/open-mmlab"]
+    status: verified
+    notes: "OpenMMLab 已成为跨机构社区；CUHK MMLab 主页用于确认实验室本体，GitHub 作为主要开源入口。"
+
+  - id: cuhk-t-stone-robotics
+    name: CUHK T Stone Robotics Institute
+    parent_id: cuhk
+    team_type: university_research_institute
+    focus: [robotics, surgical-robotics, embodied-ai, computer-vision]
+    homepages:
+      - { kind: official, url: "https://www.cuhk.edu.hk/ri/" }
+    evidence:
+      affiliation: ["https://www.cuhk.edu.hk/ri/"]
+      recent_activity: ["https://www.cuhk.edu.hk/ri/"]
+    status: verified
+
+  - id: cuhk-legged-robot-lab
+    name: CUHK Legged Robot Lab
+    parent_id: cuhk
+    team_type: university_research_lab
+    focus: [legged-robotics, embodied-ai, control, perception]
+    homepages:
+      - { kind: official, url: "https://cuhkleggedrobotlab.github.io/" }
+    evidence:
+      affiliation: ["https://cuhkleggedrobotlab.github.io/"]
+      recent_activity: ["https://cuhkleggedrobotlab.github.io/"]
+    status: verified
+
+  - id: cuhk-language-processing-lab
+    name: CUHK Language Processing Lab
+    parent_id: cuhk
+    team_type: university_research_lab
+    focus: [natural-language-processing, psycholinguistics, explainable-ai, model-behavior]
+    homepages:
+      - { kind: official, url: "https://cuhklpl.github.io/" }
+    evidence:
+      affiliation: ["https://cuhklpl.github.io/"]
+      recent_activity: ["https://cuhklpl.github.io/"]
+    status: provisional
+    notes: "归属与方向明确；需继续核验最近 24 个月达到正式收录阈值的论文数量。"
+
+  - id: hkust-dv-lab
+    name: HKUST Deep Vision Lab (DV Lab)
+    parent_id: hkust
+    team_type: university_research_lab
+    focus: [computer-vision, multimodal, generative-ai, autonomous-driving]
+    homepages:
+      - { kind: official, url: "https://www.dvlab.ai/" }
+      - { kind: github, url: "https://github.com/DVLab" }
+    evidence:
+      affiliation: ["https://www.dvlab.ai/"]
+      recent_activity: ["https://github.com/DVLab"]
+    status: verified
+
+  - id: hkust-caire
+    name: HKUST Centre for Artificial Intelligence Research (CAiRE)
+    parent_id: hkust
+    team_type: university_research_center
+    focus: [natural-language-processing, conversational-ai, multimodal, responsible-ai]
+    homepages:
+      - { kind: official, url: "https://caire.hkust.edu.hk/about/about-caire" }
+    evidence:
+      affiliation: ["https://caire.hkust.edu.hk/about/about-caire"]
+      recent_activity: ["https://caire.hkust.edu.hk/about/about-caire"]
+    status: provisional
+    notes: "中心归属明确；公开页面的近期论文索引仍需逐项核验。"
+
+  - id: hkust-aerial-robotics
+    name: HKUST Aerial Robotics Group
+    parent_id: hkust
+    team_type: university_research_group
+    focus: [aerial-robotics, slam, embodied-ai, autonomous-systems]
+    homepages:
+      - { kind: github, url: "https://github.com/HKUST-Aerial-Robotics" }
+    evidence:
+      affiliation: ["https://github.com/HKUST-Aerial-Robotics"]
+      recent_activity: ["https://github.com/orgs/HKUST-Aerial-Robotics/repositories"]
+    status: verified
+
+  - id: hkust-mevita-robotics
+    name: HKUST Mevita Robotics Lab
+    parent_id: hkust
+    team_type: university_research_lab
+    focus: [robotics, tactile-perception, dexterous-manipulation, physical-intelligence]
+    homepages:
+      - { kind: official, url: "https://mrl.hkust.edu.hk/" }
+    evidence:
+      affiliation: ["https://mrl.hkust.edu.hk/"]
+      recent_activity: ["https://mrl.hkust.edu.hk/"]
+    status: provisional
+    notes: "新近建立且方向高度相关；需继续累积和核验近期论文数量。"
+
+  # Singapore two
+  - id: nus-ai-institute
+    name: NUS Artificial Intelligence Institute
+    parent_id: nus
+    team_type: university_research_institute
+    focus: [foundation-models, trustworthy-ai, ai-for-science, ai-for-public-good]
+    homepages:
+      - { kind: official, url: "https://ai.nus.edu.sg/" }
+    evidence:
+      affiliation: ["https://ai.nus.edu.sg/"]
+      recent_activity: ["https://ai.nus.edu.sg/", "https://ai.nus.edu.sg/wp-content/uploads/2025/07/Technical-Peogram.pdf"]
+    status: verified
+
+  - id: nus-nlp
+    name: NUS Natural Language Processing Group
+    parent_id: nus
+    team_type: university_research_group
+    focus: [natural-language-processing, large-language-models, multilingual-ai, video-language]
+    homepages:
+      - { kind: github, url: "https://github.com/nusnlp" }
+    evidence:
+      affiliation: ["https://github.com/nusnlp"]
+      recent_activity: ["https://github.com/orgs/nusnlp/repositories"]
+    status: verified
+
+  - id: nus-ai-lab
+    name: NUS AI Lab
+    parent_id: nus
+    team_type: university_research_lab
+    focus: [embodied-ai, planning, multi-agent-systems, robotics]
+    homepages:
+      - { kind: official, url: "https://nusail.comp.nus.edu.sg/" }
+    evidence:
+      affiliation: ["https://nusail.comp.nus.edu.sg/"]
+      recent_activity: ["https://nusail.comp.nus.edu.sg/research-areas/"]
+    status: verified
+
+  - id: nus-cvml
+    name: NUS Computer Vision and Machine Learning Group
+    parent_id: nus
+    team_type: university_research_group
+    focus: [computer-vision, machine-learning, multimodal, generative-ai]
+    homepages:
+      - { kind: official, url: "https://cvml.comp.nus.edu.sg/" }
+      - { kind: github, url: "https://github.com/nus-cvml" }
+    evidence:
+      affiliation: ["https://cvml.comp.nus.edu.sg/"]
+      recent_activity: ["https://github.com/nus-cvml"]
+    status: provisional
+    notes: "需继续核验该集中入口的近期更新频率与团队边界。"
+
+  - id: ntu-grail
+    name: NTU Generative AI Lab (GrAIL)
+    parent_id: ntu-singapore
+    team_type: university_research_lab
+    focus: [generative-ai, multimodal, computer-vision, ai-for-science]
+    homepages:
+      - { kind: official, url: "https://www.ntu.edu.sg/computing/research/institutes-centres/grail" }
+    evidence:
+      affiliation: ["https://www.ntu.edu.sg/computing/research/institutes-centres/grail"]
+      recent_activity: ["https://www.ntu.edu.sg/computing/research/institutes-centres/grail"]
+    status: verified
+
+  - id: ntu-mmlab
+    name: MMLab@NTU
+    parent_id: ntu-singapore
+    team_type: university_research_lab
+    focus: [computer-vision, multimodal, generative-ai, embodied-ai]
+    homepages:
+      - { kind: official, url: "https://www.mmlab-ntu.com/" }
+    evidence:
+      affiliation: ["https://www.mmlab-ntu.com/"]
+      recent_activity: ["https://www.mmlab-ntu.com/downloads.html"]
+    status: verified
+
+  - id: ntu-nlp
+    name: NTU Natural Language Processing Group
+    parent_id: ntu-singapore
+    team_type: university_research_group
+    focus: [natural-language-processing, multilingual-ai, multimodal, medical-nlp]
+    homepages:
+      - { kind: official, url: "https://ntunlpsg.github.io/" }
+      - { kind: github, url: "https://github.com/ntunlpsg" }
+    evidence:
+      affiliation: ["https://ntunlpsg.github.io/"]
+      recent_activity: ["https://github.com/ntunlpsg"]
+    status: verified
+
+  - id: ntu-declare
+    name: NTU Deep Cognition and Language Research Lab (DeCLaRe)
+    parent_id: ntu-singapore
+    team_type: university_research_lab
+    focus: [ai-safety, trustworthy-ai, multimodal, embodied-ai]
+    homepages:
+      - { kind: official, url: "https://declare-lab.github.io/" }
+      - { kind: github, url: "https://github.com/declare-lab" }
+    evidence:
+      affiliation: ["https://declare-lab.github.io/"]
+      recent_activity: ["https://declare-lab.github.io/"]
+    status: verified
+
+  - id: ntu-s-lab
+    name: NTU S-Lab for Advanced Intelligence
+    parent_id: ntu-singapore
+    team_type: university_research_lab
+    focus: [computer-vision, natural-language-processing, reinforcement-learning, distributed-ai]
+    homepages:
+      - { kind: official, url: "https://www.ntu.edu.sg/s-lab" }
+    evidence:
+      affiliation: ["https://www.ntu.edu.sg/s-lab"]
+      recent_activity: ["https://www.ntu.edu.sg/s-lab"]
+    status: verified
+
+  # United States — AI core universities
+  - id: cmu-language-technologies-institute
+    name: CMU Language Technologies Institute (LTI)
+    parent_id: cmu
+    team_type: university_research_institute
+    focus: [natural-language-processing, speech, information-retrieval, large-language-models]
+    homepages:
+      - { kind: official, url: "https://www.lti.cs.cmu.edu/" }
+    evidence:
+      affiliation: ["https://www.lti.cs.cmu.edu/"]
+      recent_activity: ["https://www.lti.cs.cmu.edu/research"]
+    status: verified
+
+  - id: cmu-machine-learning-department
+    name: CMU Machine Learning Department
+    parent_id: cmu
+    team_type: university_research_department
+    focus: [machine-learning, statistical-learning, reinforcement-learning, ai-for-science]
+    homepages:
+      - { kind: official, url: "https://www.ml.cmu.edu/" }
+      - { kind: github, url: "https://github.com/cmu-mlsp" }
+    evidence:
+      affiliation: ["https://www.ml.cmu.edu/"]
+      recent_activity: ["https://www.ml.cmu.edu/research/index.html"]
+    status: verified
+    notes: "院系级研究入口；后续可继续拆分长期稳定的教授实验室。"
+
+  - id: cmu-robotics-institute
+    name: CMU Robotics Institute
+    parent_id: cmu
+    team_type: university_research_institute
+    focus: [robotics, embodied-ai, computer-vision, autonomous-systems]
+    homepages:
+      - { kind: official, url: "https://www.ri.cmu.edu/" }
+      - { kind: github, url: "https://github.com/cmu-robotics" }
+    evidence:
+      affiliation: ["https://www.ri.cmu.edu/"]
+      recent_activity: ["https://www.ri.cmu.edu/research/"]
+    status: verified
+
+  - id: cmu-auton-lab
+    name: CMU Auton Lab
+    parent_id: cmu
+    team_type: university_research_lab
+    focus: [machine-learning, data-mining, autonomous-discovery, ai-for-science]
+    homepages:
+      - { kind: official, url: "https://www.autonlab.org/" }
+      - { kind: github, url: "https://github.com/autonlab" }
+    evidence:
+      affiliation: ["https://www.autonlab.org/"]
+      recent_activity: ["https://www.autonlab.org/publications"]
+    status: verified
+
+  - id: cmu-generative-intelligence-lab
+    name: CMU Generative Intelligence Lab
+    parent_id: cmu
+    team_type: university_research_lab
+    focus: [generative-ai, computer-vision, human-ai-collaboration, robotics]
+    homepages:
+      - { kind: official, url: "https://www.ri.cmu.edu/robotics-groups/generative-intelligence-lab/" }
+    evidence:
+      affiliation: ["https://www.ri.cmu.edu/robotics-groups/generative-intelligence-lab/"]
+      recent_activity: ["https://www.ri.cmu.edu/robotics-groups/generative-intelligence-lab/"]
+    status: provisional
+    notes: "实验室边界清晰但官网论文列表抓取不完整，需补充项目级代码索引。"
+
+  - id: mit-csail
+    name: MIT Computer Science and Artificial Intelligence Laboratory (CSAIL)
+    parent_id: mit
+    team_type: university_research_institute
+    focus: [machine-learning, natural-language-processing, computer-vision, robotics]
+    homepages:
+      - { kind: official, url: "https://www.csail.mit.edu/" }
+    evidence:
+      affiliation: ["https://www.csail.mit.edu/"]
+      recent_activity: ["https://www.csail.mit.edu/research"]
+    status: verified
+
+  - id: mit-cbmm
+    name: MIT Center for Brains, Minds and Machines (CBMM)
+    parent_id: mit
+    team_type: university_research_center
+    focus: [learning-theory, computational-neuroscience, computer-vision, cognitive-ai]
+    homepages:
+      - { kind: official, url: "https://cbmm.mit.edu/" }
+      - { kind: github, url: "https://github.com/CBMM" }
+    evidence:
+      affiliation: ["https://cbmm.mit.edu/about"]
+      recent_activity: ["https://cbmm.mit.edu/research"]
+    status: verified
+
+  - id: mit-improbable-ai
+    name: MIT Improbable AI Lab
+    parent_id: mit
+    team_type: university_research_lab
+    focus: [robotics, embodied-ai, reinforcement-learning, locomotion]
+    homepages:
+      - { kind: official, url: "https://improbable-ai.github.io/" }
+      - { kind: github, url: "https://github.com/Improbable-AI" }
+    evidence:
+      affiliation: ["https://improbable-ai.github.io/"]
+      recent_activity: ["https://github.com/Improbable-AI"]
+    status: verified
+
+  - id: mit-embodied-intelligence
+    name: MIT Embodied Intelligence Group
+    parent_id: mit
+    team_type: university_research_group
+    focus: [embodied-ai, robotics, computer-vision, representation-learning]
+    homepages:
+      - { kind: official, url: "https://ei.csail.mit.edu/" }
+    evidence:
+      affiliation: ["https://ei.csail.mit.edu/"]
+      recent_activity: ["https://ei.csail.mit.edu/"]
+    status: provisional
+    notes: "需继续核对当前团队成员和最近两年集中论文列表。"
+
+  - id: stanford-sail
+    name: Stanford Artificial Intelligence Laboratory (SAIL)
+    parent_id: stanford
+    team_type: university_research_institute
+    focus: [machine-learning, natural-language-processing, computer-vision, robotics]
+    homepages:
+      - { kind: official, url: "https://ai.stanford.edu/" }
+      - { kind: github, url: "https://github.com/stanfordai" }
+    evidence:
+      affiliation: ["https://ai.stanford.edu/"]
+      recent_activity: ["https://ai.stanford.edu/research-groups/", "https://ai.stanford.edu/blog/sail-graduates/"]
+    status: verified
+
+  - id: stanford-crfm
+    name: Stanford Center for Research on Foundation Models (CRFM)
+    parent_id: stanford
+    team_type: university_research_center
+    focus: [foundation-models, evaluation, transparency, responsible-ai]
+    homepages:
+      - { kind: official, url: "https://crfm.stanford.edu/" }
+      - { kind: github, url: "https://github.com/stanford-crfm" }
+    evidence:
+      affiliation: ["https://crfm.stanford.edu/"]
+      recent_activity: ["https://crfm.stanford.edu/research.html", "https://github.com/stanford-crfm"]
+    status: verified
+
+  - id: stanford-nlp
+    name: Stanford Natural Language Processing Group
+    parent_id: stanford
+    team_type: university_research_group
+    focus: [natural-language-processing, large-language-models, agents, evaluation]
+    homepages:
+      - { kind: official, url: "https://nlp.stanford.edu/" }
+      - { kind: github, url: "https://github.com/stanfordnlp" }
+    evidence:
+      affiliation: ["https://nlp.stanford.edu/"]
+      recent_activity: ["https://nlp.stanford.edu/pubs/"]
+    status: verified
+
+  - id: stanford-svl
+    name: Stanford Vision and Learning Lab (SVL)
+    parent_id: stanford
+    team_type: university_research_lab
+    focus: [computer-vision, autonomous-driving, robotics, multimodal]
+    homepages:
+      - { kind: official, url: "https://svl.stanford.edu/" }
+      - { kind: github, url: "https://github.com/StanfordVL" }
+    evidence:
+      affiliation: ["https://svl.stanford.edu/"]
+      recent_activity: ["https://svl.stanford.edu/publications/"]
+    status: verified
+
+  - id: stanford-iliad
+    name: Stanford Intelligent and Interactive Autonomous Systems Group (ILIAD)
+    parent_id: stanford
+    team_type: university_research_group
+    focus: [robotics, human-robot-interaction, reinforcement-learning, embodied-ai]
+    homepages:
+      - { kind: official, url: "https://iliad.stanford.edu/" }
+      - { kind: github, url: "https://github.com/Stanford-ILIAD" }
+    evidence:
+      affiliation: ["https://iliad.stanford.edu/"]
+      recent_activity: ["https://iliad.stanford.edu/publications/"]
+    status: verified
+
+  - id: berkeley-bair
+    name: Berkeley Artificial Intelligence Research (BAIR)
+    parent_id: uc-berkeley
+    team_type: university_research_institute
+    focus: [machine-learning, computer-vision, natural-language-processing, robotics]
+    homepages:
+      - { kind: official, url: "https://bair.berkeley.edu/" }
+    evidence:
+      affiliation: ["https://bair.berkeley.edu/"]
+      recent_activity: ["https://bair.berkeley.edu/blog/"]
+    status: verified
+
+  - id: berkeley-chai
+    name: Berkeley Center for Human-Compatible AI (CHAI)
+    parent_id: uc-berkeley
+    team_type: university_research_center
+    focus: [ai-safety, alignment, reinforcement-learning, human-compatible-ai]
+    homepages:
+      - { kind: official, url: "https://humancompatible.ai/" }
+      - { kind: github, url: "https://github.com/HumanCompatibleAI" }
+    evidence:
+      affiliation: ["https://humancompatible.ai/about"]
+      recent_activity: ["https://humancompatible.ai/research"]
+    status: verified
+
+  - id: berkeley-rail
+    name: Berkeley Robotic AI & Learning Lab (RAIL)
+    parent_id: uc-berkeley
+    team_type: university_research_lab
+    focus: [robotics, reinforcement-learning, computer-vision, embodied-ai]
+    homepages:
+      - { kind: official, url: "https://rail.eecs.berkeley.edu/" }
+      - { kind: github, url: "https://github.com/rail-berkeley" }
+    evidence:
+      affiliation: ["https://rail.eecs.berkeley.edu/"]
+      recent_activity: ["https://rail.eecs.berkeley.edu/"]
+    status: verified
+
+  - id: berkeley-nlp
+    name: Berkeley Natural Language Processing Group
+    parent_id: uc-berkeley
+    team_type: university_research_group
+    focus: [natural-language-processing, large-language-models, information-retrieval, evaluation]
+    homepages:
+      - { kind: official, url: "https://nlp.berkeley.edu/" }
+      - { kind: github, url: "https://github.com/Berkeley-NLP" }
+    evidence:
+      affiliation: ["https://nlp.berkeley.edu/"]
+      recent_activity: ["https://nlp.berkeley.edu/"]
+    status: verified
+
+  - id: berkeley-sky-computing-lab
+    name: Berkeley Sky Computing Lab
+    parent_id: uc-berkeley
+    team_type: university_research_lab
+    focus: [ai-systems, distributed-computing, model-serving, cloud-computing]
+    homepages:
+      - { kind: official, url: "https://sky.cs.berkeley.edu/" }
+      - { kind: github, url: "https://github.com/skypilot-org" }
+    evidence:
+      affiliation: ["https://sky.cs.berkeley.edu/"]
+      recent_activity: ["https://sky.cs.berkeley.edu/projects/"]
+    status: verified
+
+  - id: umd-umiacs
+    name: University of Maryland Institute for Advanced Computer Studies (UMIACS)
+    parent_id: umd
+    team_type: university_research_institute
+    focus: [artificial-intelligence, natural-language-processing, computer-vision, robotics]
+    homepages:
+      - { kind: official, url: "https://www.umiacs.umd.edu/" }
+      - { kind: github, url: "https://github.com/UMIACS" }
+    evidence:
+      affiliation: ["https://www.umiacs.umd.edu/"]
+      recent_activity: ["https://www.umiacs.umd.edu/research"]
+    status: verified
+
+  - id: umd-clip
+    name: UMD Computational Linguistics and Information Processing Lab (CLIP)
+    parent_id: umd
+    team_type: university_research_lab
+    focus: [natural-language-processing, information-retrieval, machine-translation, large-language-models]
+    homepages:
+      - { kind: official, url: "https://wiki.umiacs.umd.edu/clip/index.php/Main_Page" }
+    evidence:
+      affiliation: ["https://ischool.umd.edu/centers-and-labs/clip/"]
+      recent_activity: ["https://wiki.umiacs.umd.edu/clip/index.php/Main_Page"]
+    status: verified
+
+  - id: umd-maryland-robotics-center
+    name: Maryland Robotics Center
+    parent_id: umd
+    team_type: university_research_center
+    focus: [robotics, embodied-ai, autonomous-systems, computer-vision]
+    homepages:
+      - { kind: official, url: "https://robotics.umd.edu/" }
+    evidence:
+      affiliation: ["https://robotics.umd.edu/"]
+      recent_activity: ["https://robotics.umd.edu/research"]
+    status: verified
+
+  - id: umd-gamma
+    name: UMD GAMMA Research Group
+    parent_id: umd
+    team_type: university_research_group
+    focus: [computer-vision, robotics, simulation, generative-ai]
+    homepages:
+      - { kind: official, url: "https://gamma.umd.edu/" }
+    evidence:
+      affiliation: ["https://gamma.umd.edu/"]
+      recent_activity: ["https://gamma.umd.edu/research"]
+    status: provisional
+    notes: "需继续核验当前 GitHub 组织命名与近两年项目的集中度。"
+
+  - id: ucsd-hdsi-ai-ml
+    name: UC San Diego HDSI — Artificial Intelligence and Machine Learning
+    parent_id: ucsd
+    team_type: university_research_network
+    focus: [machine-learning, computer-vision, robotics, data-science]
+    homepages:
+      - { kind: official, url: "https://datascience.ucsd.edu/research/artificial-intelligence-and-machine-learning/" }
+    evidence:
+      affiliation: ["https://datascience.ucsd.edu/research/artificial-intelligence-and-machine-learning/"]
+      recent_activity: ["https://datascience.ucsd.edu/research/artificial-intelligence-and-machine-learning/"]
+    status: verified
+
+  - id: ucsd-contextual-robotics
+    name: UC San Diego Contextual Robotics Institute
+    parent_id: ucsd
+    team_type: university_research_institute
+    focus: [robotics, autonomous-systems, computer-vision, human-robot-interaction]
+    homepages:
+      - { kind: official, url: "https://contextualrobotics.ucsd.edu/" }
+    evidence:
+      affiliation: ["https://contextualrobotics.ucsd.edu/"]
+      recent_activity: ["https://contextualrobotics.ucsd.edu/"]
+    status: verified
+
+  - id: ucsd-existential-robotics
+    name: UC San Diego Existential Robotics Lab
+    parent_id: ucsd
+    team_type: university_research_lab
+    focus: [robotics, reinforcement-learning, slam, safe-autonomy]
+    homepages:
+      - { kind: official, url: "https://erl.ucsd.edu/" }
+      - { kind: github, url: "https://github.com/ExistentialRobotics" }
+    evidence:
+      affiliation: ["https://erl.ucsd.edu/"]
+      recent_activity: ["https://erl.ucsd.edu/"]
+    status: verified
+
+  - id: ucsd-cvrr-lisa
+    name: UC San Diego Computer Vision & Robotics Research / LISA Lab
+    parent_id: ucsd
+    team_type: university_research_lab
+    focus: [computer-vision, autonomous-driving, multimodal-perception, robotics]
+    homepages:
+      - { kind: official, url: "https://cvrr.ucsd.edu/" }
+    evidence:
+      affiliation: ["https://cvrr.ucsd.edu/"]
+      recent_activity: ["https://cvrr.ucsd.edu/"]
+    status: provisional
+    notes: "团队历史清晰；需补齐最近 24 个月的集中论文与代码证据。"
+
+  - id: uw-wail
+    name: Washington AI Lab (WAIL)
+    parent_id: uw
+    team_type: university_research_network
+    focus: [artificial-intelligence, natural-language-processing, computer-vision, trustworthy-ai]
+    homepages:
+      - { kind: official, url: "https://wail.uw.edu/" }
+    evidence:
+      affiliation: ["https://wail.uw.edu/"]
+      recent_activity: ["https://wail.uw.edu/"]
+    status: verified
+
+  - id: uw-robotics
+    name: UW Robotics
+    parent_id: uw
+    team_type: university_research_network
+    focus: [robotics, embodied-ai, computer-vision, human-robot-interaction]
+    homepages:
+      - { kind: official, url: "https://robotics.cs.washington.edu/" }
+      - { kind: github, url: "https://github.com/uwrobotics" }
+    evidence:
+      affiliation: ["https://robotics.cs.washington.edu/"]
+      recent_activity: ["https://robotics.cs.washington.edu/"]
+    status: verified
+
+  - id: uw-nlp
+    name: UW Natural Language Processing Group
+    parent_id: uw
+    team_type: university_research_group
+    focus: [natural-language-processing, large-language-models, multilingual-ai, responsible-ai]
+    homepages:
+      - { kind: official, url: "https://nlp.cs.washington.edu/" }
+    evidence:
+      affiliation: ["https://nlp.cs.washington.edu/"]
+      recent_activity: ["https://nlp.cs.washington.edu/"]
+    status: verified
+
+  - id: uw-weird-lab
+    name: UW Washington Embodied Intelligence and Robotics Development Lab (WEIRD)
+    parent_id: uw
+    team_type: university_research_lab
+    focus: [embodied-ai, robot-learning, computer-vision, reinforcement-learning]
+    homepages:
+      - { kind: official, url: "https://weirdlab.cs.washington.edu/" }
+    evidence:
+      affiliation: ["https://weirdlab.cs.washington.edu/"]
+      recent_activity: ["https://weirdlab.cs.washington.edu/"]
+    status: verified
+
+  - id: uiuc-nlp
+    name: NLP @ UIUC
+    parent_id: uiuc
+    team_type: university_research_network
+    focus: [natural-language-processing, large-language-models, speech, multimodal]
+    homepages:
+      - { kind: official, url: "https://nlp.cs.illinois.edu/" }
+    evidence:
+      affiliation: ["https://nlp.cs.illinois.edu/"]
+      recent_activity: ["https://nlp.cs.illinois.edu/"]
+    status: verified
+
+  - id: uiuc-blender-lab
+    name: UIUC BLENDER Lab
+    parent_id: uiuc
+    team_type: university_research_lab
+    focus: [natural-language-processing, information-extraction, knowledge-reasoning, large-language-models]
+    homepages:
+      - { kind: official, url: "https://blender.cs.illinois.edu/" }
+    evidence:
+      affiliation: ["https://blender.cs.illinois.edu/"]
+      recent_activity: ["https://blender.cs.illinois.edu/"]
+    status: provisional
+    notes: "需核验 GitHub 组织是否仍是当前主要代码入口。"
+
+  - id: uiuc-dais
+    name: UIUC Data and Intelligent Systems (DAIS)
+    parent_id: uiuc
+    team_type: university_research_network
+    focus: [data-mining, natural-language-processing, machine-learning, information-retrieval]
+    homepages:
+      - { kind: official, url: "https://dais.cs.illinois.edu/" }
+    evidence:
+      affiliation: ["https://dais.cs.illinois.edu/"]
+      recent_activity: ["https://dais.cs.illinois.edu/research/"]
+    status: verified
+
+  - id: uiuc-secure-learning-lab
+    name: UIUC Secure Learning Lab
+    parent_id: uiuc
+    team_type: university_research_lab
+    focus: [trustworthy-ai, adversarial-machine-learning, privacy, large-language-models]
+    homepages:
+      - { kind: official, url: "https://aisecure.github.io/" }
+      - { kind: github, url: "https://github.com/AI-secure" }
+    evidence:
+      affiliation: ["https://aisecure.github.io/"]
+      recent_activity: ["https://aisecure.github.io/"]
+    status: verified
+
+coverage:
+  - { parent_id: byte-dance, status: searched, team_count: 1 }
+  - { parent_id: alibaba, status: searched, team_count: 4 }
+  - { parent_id: tencent, status: searched, team_count: 4 }
+  - { parent_id: huawei, status: searched, team_count: 1 }
+  - { parent_id: baidu, status: searched, team_count: 2 }
+  - { parent_id: kuaishou, status: searched, team_count: 2 }
+  - { parent_id: meituan, status: searched, team_count: 1 }
+  - { parent_id: jd-com, status: searched, team_count: 5 }
+  - { parent_id: ant-group, status: searched, team_count: 3 }
+  - { parent_id: xiaomi, status: searched, team_count: 2 }
+  - { parent_id: xiaohongshu, status: searched, team_count: 2 }
+  - { parent_id: deepseek, status: searched, team_count: 1 }
+  - { parent_id: zhipu-ai, status: searched, team_count: 1 }
+  - { parent_id: moonshot-ai, status: searched, team_count: 1 }
+  - { parent_id: minimax, status: searched, team_count: 1 }
+  - { parent_id: alphabet, status: searched, team_count: 2 }
+  - { parent_id: meta, status: searched, team_count: 2 }
+  - { parent_id: microsoft, status: searched, team_count: 5 }
+  - { parent_id: nvidia, status: searched, team_count: 4 }
+  - { parent_id: amazon, status: searched, team_count: 2 }
+  - { parent_id: apple, status: searched, team_count: 2 }
+  - { parent_id: openai, status: searched, team_count: 1 }
+  - { parent_id: anthropic, status: searched, team_count: 5 }
+  - { parent_id: tsinghua, status: searched, team_count: 4 }
+  - { parent_id: peking, status: searched, team_count: 5 }
+  - { parent_id: zhejiang, status: searched, team_count: 3 }
+  - { parent_id: sjtu, status: searched, team_count: 4 }
+  - { parent_id: fudan, status: searched, team_count: 3 }
+  - { parent_id: ustc, status: searched, team_count: 4 }
+  - { parent_id: nanjing, status: searched, team_count: 2 }
+  - { parent_id: hit, status: searched, team_count: 2 }
+  - { parent_id: xjtu, status: searched, team_count: 2 }
+  - { parent_id: hkust-gz, status: searched, team_count: 5 }
+  - { parent_id: hku, status: searched, team_count: 3 }
+  - { parent_id: cuhk, status: searched, team_count: 4 }
+  - { parent_id: hkust, status: searched, team_count: 4 }
+  - { parent_id: nus, status: searched, team_count: 4 }
+  - { parent_id: ntu-singapore, status: searched, team_count: 5 }
+  - { parent_id: cmu, status: searched, team_count: 5 }
+  - { parent_id: mit, status: searched, team_count: 4 }
+  - { parent_id: stanford, status: searched, team_count: 5 }
+  - { parent_id: uc-berkeley, status: searched, team_count: 5 }
+  - { parent_id: umd, status: searched, team_count: 4 }
+  - { parent_id: ucsd, status: searched, team_count: 4 }
+  - { parent_id: uw, status: searched, team_count: 4 }
+  - { parent_id: uiuc, status: searched, team_count: 4 }

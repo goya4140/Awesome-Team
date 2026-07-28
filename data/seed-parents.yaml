@@ -1,0 +1,75 @@
+schema_version: 2
+last_updated: 2026-07-28
+scope:
+  company_regions: [CN-mainland, US]
+  university_groups: [C9, HKUST-GZ, HK3, SG2, US-AI-Core]
+  notes:
+    - HK3 means The University of Hong Kong, The Chinese University of Hong Kong and The Hong Kong University of Science and Technology.
+    - SG2 means NUS and NTU Singapore.
+    - Priority is collection order, not an institutional ranking.
+
+companies:
+  # China
+  - { id: byte-dance, name: ByteDance, region: CN-mainland, priority: P0, entity_type: company }
+  - { id: alibaba, name: Alibaba, region: CN-mainland, priority: P0, entity_type: company }
+  - { id: tencent, name: Tencent, region: CN-mainland, priority: P0, entity_type: company }
+  - { id: huawei, name: Huawei, region: CN-mainland, priority: P0, entity_type: company }
+  - { id: baidu, name: Baidu, region: CN-mainland, priority: P0, entity_type: company }
+  - { id: kuaishou, name: Kuaishou, region: CN-mainland, priority: P0, entity_type: company }
+  - { id: meituan, name: Meituan, region: CN-mainland, priority: P0, entity_type: company }
+  - { id: jd-com, name: JD.com, region: CN-mainland, priority: P0, entity_type: company }
+  - { id: ant-group, name: Ant Group, region: CN-mainland, priority: P0, entity_type: company }
+  - { id: xiaomi, name: Xiaomi, region: CN-mainland, priority: P0, entity_type: company }
+  - { id: xiaohongshu, name: Xiaohongshu, region: CN-mainland, priority: P1, entity_type: company }
+
+  # United States
+  - { id: alphabet, name: Alphabet, region: US, priority: P0, entity_type: company }
+  - { id: meta, name: Meta, region: US, priority: P0, entity_type: company }
+  - { id: microsoft, name: Microsoft, region: US, priority: P0, entity_type: company }
+  - { id: nvidia, name: NVIDIA, region: US, priority: P0, entity_type: company }
+  - { id: amazon, name: Amazon, region: US, priority: P0, entity_type: company }
+  - { id: apple, name: Apple, region: US, priority: P0, entity_type: company }
+
+frontier_ai_companies:
+  # China
+  - { id: deepseek, name: DeepSeek, region: CN-mainland, priority: P0, entity_type: frontier_ai_company }
+  - { id: zhipu-ai, name: Zhipu AI, region: CN-mainland, priority: P0, entity_type: frontier_ai_company }
+  - { id: moonshot-ai, name: Moonshot AI, region: CN-mainland, priority: P0, entity_type: frontier_ai_company }
+  - { id: minimax, name: MiniMax, region: CN-mainland, priority: P0, entity_type: frontier_ai_company }
+  # United States
+  - { id: openai, name: OpenAI, region: US, priority: P0, entity_type: frontier_ai_company }
+  - { id: anthropic, name: Anthropic, region: US, priority: P0, entity_type: frontier_ai_company }
+
+universities:
+  # China 9 University Alliance (C9)
+  - { id: tsinghua, name: Tsinghua University, region: CN-mainland, group: C9, entity_type: university }
+  - { id: peking, name: Peking University, region: CN-mainland, group: C9, entity_type: university }
+  - { id: zhejiang, name: Zhejiang University, region: CN-mainland, group: C9, entity_type: university }
+  - { id: sjtu, name: Shanghai Jiao Tong University, region: CN-mainland, group: C9, entity_type: university }
+  - { id: fudan, name: Fudan University, region: CN-mainland, group: C9, entity_type: university }
+  - { id: ustc, name: University of Science and Technology of China, region: CN-mainland, group: C9, entity_type: university }
+  - { id: nanjing, name: Nanjing University, region: CN-mainland, group: C9, entity_type: university }
+  - { id: hit, name: Harbin Institute of Technology, region: CN-mainland, group: C9, entity_type: university }
+  - { id: xjtu, name: "Xi'an Jiaotong University", region: CN-mainland, group: C9, entity_type: university }
+
+  # HKUST (Guangzhou)
+  - { id: hkust-gz, name: The Hong Kong University of Science and Technology (Guangzhou), region: CN-mainland, group: HKUST-GZ, entity_type: university }
+
+  # Hong Kong three
+  - { id: hku, name: The University of Hong Kong, region: HK, group: HK3, entity_type: university }
+  - { id: cuhk, name: The Chinese University of Hong Kong, region: HK, group: HK3, entity_type: university }
+  - { id: hkust, name: The Hong Kong University of Science and Technology, region: HK, group: HK3, entity_type: university }
+
+  # Singapore two
+  - { id: nus, name: National University of Singapore, region: SG, group: SG2, entity_type: university }
+  - { id: ntu-singapore, name: Nanyang Technological University, region: SG, group: SG2, entity_type: university }
+
+  # United States AI core universities
+  - { id: cmu, name: Carnegie Mellon University, region: US, group: US-AI-Core, entity_type: university }
+  - { id: mit, name: Massachusetts Institute of Technology, region: US, group: US-AI-Core, entity_type: university }
+  - { id: stanford, name: Stanford University, region: US, group: US-AI-Core, entity_type: university }
+  - { id: uc-berkeley, name: "University of California, Berkeley", region: US, group: US-AI-Core, entity_type: university }
+  - { id: umd, name: "University of Maryland, College Park", region: US, group: US-AI-Core, entity_type: university }
+  - { id: ucsd, name: "University of California, San Diego", region: US, group: US-AI-Core, entity_type: university }
+  - { id: uw, name: University of Washington, region: US, group: US-AI-Core, entity_type: university }
+  - { id: uiuc, name: University of Illinois Urbana-Champaign, region: US, group: US-AI-Core, entity_type: university }

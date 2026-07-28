@@ -1,0 +1,2132 @@
+---
+schema_version: 1
+last_updated: 2026-07-28
+notes:
+- Each team has three featured entries.
+- paper/open_source/paper_or_project are item-level outputs; research_index is an official research entry awaiting finer curation.
+teams:
+  bytedance-seed:
+  - title: "[CVPR 2025] VideoWorld is a simple generative model that learns purely from unlabeled videos—much like how babies learn by observing their environment."
+    url: https://github.com/ByteDance-Seed/VideoWorld
+    kind: open_source
+    source: github
+    stars: 793
+  - title: "[ICLR 2026] Trace Anything: Representing Any Video in 4D via Trajectory Fields"
+    url: https://github.com/ByteDance-Seed/TraceAnything
+    kind: open_source
+    source: github
+    stars: 543
+  - title: "[ICLR 2026] DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle"
+    url: https://github.com/ByteDance-Seed/DAComp
+    kind: open_source
+    source: github
+    stars: 433
+  alibaba-qwen:
+  - title: 'Official repository for ACL 2025 paper "ProcessBench: Identifying Process Errors in Mathematical Reasoning"'
+    url: https://github.com/QwenLM/ProcessBench
+    kind: open_source
+    source: github
+    stars: 190
+  - title: '[NeurIPS 2025 D&B Track] Evaluation Code Repo for Paper "PolyMath: Evaluating Mathematical Reasoning in Multilingual Contexts"'
+    url: https://github.com/QwenLM/PolyMath
+    kind: open_source
+    source: github
+    stars: 43
+  - title: The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.
+    url: https://github.com/QwenLM/Qwen
+    kind: open_source
+    source: github
+    stars: 21492
+  alibaba-damo-academy:
+  - title: 'Uni3C: Unifying Precisely 3D-Enhanced Camera and Human Motion Controls for Video Generation [Siggraph Asian 2025]'
+    url: https://github.com/alibaba-damo-academy/Uni3C
+    kind: open_source
+    source: github
+    stars: 560
+  - title: "[ICRA 2026] RynnVLA-001: Using Human Demonstrations to Improve Robot Manipulation"
+    url: https://github.com/alibaba-damo-academy/RynnVLA-001
+    kind: open_source
+    source: github
+    stars: 303
+  - title: "[ICLR 2026] Lumos Project: Frontier video unified model research by Alibaba DAMO Academy."
+    url: https://github.com/alibaba-damo-academy/Lumos
+    kind: open_source
+    source: github
+    stars: 161
+  alibaba-nlp:
+  - title: "[EMNLP 2025] ViDoRAG: Visual Document Retrieval-Augmented Generation via Dynamic Iterative Reasoning Agents"
+    url: https://github.com/Alibaba-NLP/ViDoRAG
+    kind: open_source
+    source: github
+    stars: 669
+  - title: 'Repo for NAACL 2025 Paper "Unfolding the Headline: Iterative Self-Questioning for News Retrieval and Timeline Summarization"'
+    url: https://github.com/Alibaba-NLP/CHRONOS
+    kind: open_source
+    source: github
+    stars: 297
+  - title: '[EMNLP 2025] Code for "Detecting Knowledge Boundary of Vision Large Language Models by Sampling-Based Inference"'
+    url: https://github.com/Alibaba-NLP/VLLM-KB
+    kind: open_source
+    source: github
+    stars: 2
+  alibaba-modelscope:
+  - title: Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025).
+    url: https://github.com/modelscope/ms-swift
+    kind: open_source
+    source: github
+    stars: 14973
+  - title: 'ModelScope: bring the notion of Model-as-a-Service to life.'
+    url: https://github.com/modelscope/modelscope
+    kind: open_source
+    source: github
+    stars: 9059
+  - title: FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI.
+    url: https://github.com/modelscope/FunClip
+    kind: open_source
+    source: github
+    stars: 6072
+  tencent-hunyuan:
+  - title: "[ICML 2026] WorldMirror: Fast and Universal 3D reconstruction model for versatile tasks"
+    url: https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror
+    kind: open_source
+    source: github
+    stars: 1174
+  - title: "[ECCV 2026] MixGRPO: Unlocking Flow-based GRPO Efficiency with Mixed ODE-SDE"
+    url: https://github.com/Tencent-Hunyuan/MixGRPO
+    kind: open_source
+    source: github
+    stars: 1159
+  - title: "[CVPR-2025] The official code of HunyuanPortrait: Implicit Condition Control for Enhanced Portrait Animation"
+    url: https://github.com/Tencent-Hunyuan/HunyuanPortrait
+    kind: open_source
+    source: github
+    stars: 345
+  tencent-ai-lab:
+  - title: This is the repository for EMNLP 2022 paper "Efficient Zero-shot Event Extraction with Context-Definition Alignment"
+    url: https://github.com/tencent-ailab/ZED
+    kind: open_source
+    source: github
+    stars: 11
+  - title: The image prompt adapter is designed to enable a pretrained text-to-image diffusion model to generate images with image prompt.
+    url: https://github.com/tencent-ailab/IP-Adapter
+    kind: open_source
+    source: github
+    stars: 6644
+  - title: V-Express aims to generate a talking head video under the control of a reference image, an audio, and a sequence of V-Kps images.
+    url: https://github.com/tencent-ailab/V-Express
+    kind: open_source
+    source: github
+    stars: 2357
+  tencent-arc-lab:
+  - title: PhotoMaker [CVPR 2024]
+    url: https://github.com/TencentARC/PhotoMaker
+    kind: open_source
+    source: github
+    stars: 10099
+  - title: "[SIGGRAPH 2026] Pixal3D: Pixel-Aligned 3D Generation from Images"
+    url: https://github.com/TencentARC/Pixal3D
+    kind: open_source
+    source: github
+    stars: 2041
+  - title: '[ECCV 2024] The official implementation of paper "BrushNet: A Plug-and-Play Image Inpainting Model with Decomposed Dual-Branch Diffusion"'
+    url: https://github.com/TencentARC/BrushNet
+    kind: open_source
+    source: github
+    stars: 1737
+  tencent-youtu-lab:
+  - title: "[CVPR 2025 Highlight] DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos"
+    url: https://github.com/Tencent/DepthCrafter
+    kind: open_source
+    source: github
+    stars: 1568
+  - title: libco is a coroutine library which is widely used in wechat  back-end service. It has been running on tens of thousands of machines since 2013.
+    url: https://github.com/Tencent/libco
+    kind: open_source
+    source: github
+    stars: 8682
+  - title: "\U0001F3C6 Real-Time no-code, powerful and secure ORM \U0001F680  providing APIs and Docs without coding by Backend, and Frontend(Client) can customize response JSONs \U0001F3C6 实时 零代码、全功能、强安全 ORM 库 \U0001F680 后端接口和文档零代码，前端(客户端) 定制返回 JSON 的数据和结构"
+    url: https://github.com/Tencent/APIJSON
+    kind: open_source
+    source: github
+    stars: 18391
+  huawei-noahs-ark-lab:
+  - title: Trustworthy AI related projects
+    url: https://github.com/huawei-noah/trustworthyAI
+    kind: open_source
+    source: github
+    stars: 1127
+  - title: Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab.
+    url: https://github.com/huawei-noah/Efficient-AI-Backbones
+    kind: open_source
+    source: github
+    stars: 4417
+  - title: Pretrained language model and its related optimization techniques developed by Huawei Noah's Ark Lab.
+    url: https://github.com/huawei-noah/Pretrained-Language-Model
+    kind: open_source
+    source: github
+    stars: 3163
+  baidu-ernie:
+  - title: The official repository for ERNIE 4.5 and ERNIEKit – its industrial-grade development toolkit based on PaddlePaddle.
+    url: https://github.com/PaddlePaddle/ERNIE
+    kind: open_source
+    source: github
+    stars: 7727
+  - title: Easy-to-use Speech Toolkit including Self-Supervised Learning model, SOTA/Streaming ASR with punctuation, Streaming TTS with text frontend, Speaker Verification System, End-to-End Speech Translation and Keyword Spotting. Won NAACL2022 Best Demo Award.
+    url: https://github.com/PaddlePaddle/PaddleSpeech
+    kind: open_source
+    source: github
+    stars: 12654
+  - title: Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.
+    url: https://github.com/PaddlePaddle/PaddleOCR
+    kind: open_source
+    source: github
+    stars: 86387
+  baidu-paddlepaddle:
+  - title: Easy-to-use Speech Toolkit including Self-Supervised Learning model, SOTA/Streaming ASR with punctuation, Streaming TTS with text frontend, Speaker Verification System, End-to-End Speech Translation and Keyword Spotting. Won NAACL2022 Best Demo Award.
+    url: https://github.com/PaddlePaddle/PaddleSpeech
+    kind: open_source
+    source: github
+    stars: 12654
+  - title: Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.
+    url: https://github.com/PaddlePaddle/PaddleOCR
+    kind: open_source
+    source: github
+    stars: 86387
+  - title: 'PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）'
+    url: https://github.com/PaddlePaddle/Paddle
+    kind: open_source
+    source: github
+    stars: 24036
+  kuaishou-kling-ai-research:
+  - title: "[ICLR 2026] UniVideo: Unified Understanding, Generation, and Editing for Videos"
+    url: https://github.com/KlingAIResearch/UniVideo
+    kind: open_source
+    source: github
+    stars: 543
+  - title: "[ICCV 2025] GameFactory: Creating New Games with Generative Interactive Videos"
+    url: https://github.com/KlingAIResearch/GameFactory
+    kind: open_source
+    source: github
+    stars: 493
+  - title: "[NeurIPS 2025] Improving Video Generation with Human Feedback"
+    url: https://github.com/KlingAIResearch/VideoAlign
+    kind: open_source
+    source: github
+    stars: 488
+  kuaishou-kolors:
+  - title: 'ResTok: Learning Hierarchical Residuals in 1D Visual Tokenizers for Autoregressive Image Generation'
+    url: https://github.com/Kwai-Kolors/ResTok
+    kind: open_source
+    source: github
+    stars: 6
+  - title: Kolors Team
+    url: https://github.com/Kwai-Kolors/Kolors
+    kind: open_source
+    source: github
+    stars: 4609
+  - title: "\U0001F3A8 A Style is Worth One Code: Unlocking Code-to-Style Image Generation with Discrete Style Space"
+    url: https://github.com/Kwai-Kolors/CoTyle
+    kind: open_source
+    source: github
+    stars: 221
+  meituan-longcat:
+  - title: "[ICLR 2026] VitaBench: Benchmarking LLM Agents with Versatile Interactive Tasks in Real-world Applications"
+    url: https://github.com/meituan-longcat/vitabench
+    kind: open_source
+    source: github
+    stars: 161
+  - title: Omni Model Benchmark with high quality and diversity, which reveals the Compositional Law. We’re now focused on Chinese scenarios — and actively seeking partners to co-build English & multilingual versions! Let’s expand global impact together.
+    url: https://github.com/meituan-longcat/UNO-Bench
+    kind: open_source
+    source: github
+    stars: 78
+  - title: "[ICLR'26] R-HORIZON: How Far Can Your Large Reasoning Model Really Go in Breadth and Depth?"
+    url: https://github.com/meituan-longcat/R-HORIZON
+    kind: open_source
+    source: github
+    stars: 27
+  jd-multimodal-llm:
+  - title: "[ACL 2026] OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction https://arxiv.org/abs/2604.25602"
+    url: https://github.com/jd-opensource/OxyGent
+    kind: open_source
+    source: github
+    stars: 2022
+  - title: "[ACL 2026] OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction https://arxiv.org/abs/2604.25602"
+    url: https://github.com/jd-opensource/JDOxyGent4J
+    kind: open_source
+    source: github
+    stars: 105
+  - title: A large-scale dataset for face parsing (AAAI2020)
+    url: https://github.com/jd-opensource/lapa-dataset
+    kind: open_source
+    source: github
+    stars: 312
+  jd-speech-acoustics:
+  - title: "[ACL 2026] OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction https://arxiv.org/abs/2604.25602"
+    url: https://github.com/jd-opensource/OxyGent
+    kind: open_source
+    source: github
+    stars: 2022
+  - title: "[ACL 2026] OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction https://arxiv.org/abs/2604.25602"
+    url: https://github.com/jd-opensource/JDOxyGent4J
+    kind: open_source
+    source: github
+    stars: 105
+  - title: A large-scale dataset for face parsing (AAAI2020)
+    url: https://github.com/jd-opensource/lapa-dataset
+    kind: open_source
+    source: github
+    stars: 312
+  jd-multimodal-interaction-world-model:
+  - title: "[ACL 2026] OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction https://arxiv.org/abs/2604.25602"
+    url: https://github.com/jd-opensource/OxyGent
+    kind: open_source
+    source: github
+    stars: 2022
+  - title: "[ACL 2026] OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction https://arxiv.org/abs/2604.25602"
+    url: https://github.com/jd-opensource/JDOxyGent4J
+    kind: open_source
+    source: github
+    stars: 105
+  - title: A large-scale dataset for face parsing (AAAI2020)
+    url: https://github.com/jd-opensource/lapa-dataset
+    kind: open_source
+    source: github
+    stars: 312
+  jd-embodied-ai:
+  - title: "[ACL 2026] OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction https://arxiv.org/abs/2604.25602"
+    url: https://github.com/jd-opensource/OxyGent
+    kind: open_source
+    source: github
+    stars: 2022
+  - title: "[ACL 2026] OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction https://arxiv.org/abs/2604.25602"
+    url: https://github.com/jd-opensource/JDOxyGent4J
+    kind: open_source
+    source: github
+    stars: 105
+  - title: A large-scale dataset for face parsing (AAAI2020)
+    url: https://github.com/jd-opensource/lapa-dataset
+    kind: open_source
+    source: github
+    stars: 312
+  jd-ai-infrastructures:
+  - title: "[ACL 2026] OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction https://arxiv.org/abs/2604.25602"
+    url: https://github.com/jd-opensource/OxyGent
+    kind: open_source
+    source: github
+    stars: 2022
+  - title: "[ACL 2026] OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction https://arxiv.org/abs/2604.25602"
+    url: https://github.com/jd-opensource/JDOxyGent4J
+    kind: open_source
+    source: github
+    stars: 105
+  - title: A large-scale dataset for face parsing (AAAI2020)
+    url: https://github.com/jd-opensource/lapa-dataset
+    kind: open_source
+    source: github
+    stars: 312
+  ant-interactive-ai-lab:
+  - title: "[ECCV 2024] Official PyTorch implementation of DreamLIP: Language-Image Pre-training with Long Captions"
+    url: https://github.com/ant-research/DreamLIP
+    kind: open_source
+    source: github
+    stars: 138
+  - title: "[ICCV 2025] Edicho: Consistent Image Editing in the Wild"
+    url: https://github.com/ant-research/edicho
+    kind: open_source
+    source: github
+    stars: 128
+  - title: "[CVPR 2025 Hightlight] PlanarSplatting: Accurate Planar Surface Reconstruction in 3 Minutes"
+    url: https://github.com/ant-research/PlanarSplatting
+    kind: open_source
+    source: github
+    stars: 81
+  ant-inclusion-ai:
+  - title: "[ICLR 2026] Taming large-scale few-step training with self-adversarial flows! \U0001F44F\U0001F3FB"
+    url: https://github.com/inclusionAI/TwinFlow
+    kind: open_source
+    source: github
+    stars: 537
+  - title: "[ICML 2026] ZwZ model family: SOTA fine-grained perception performace; ZoomBench: a new challenging perception benchmark"
+    url: https://github.com/inclusionAI/Zooming-without-Zooming
+    kind: open_source
+    source: github
+    stars: 177
+  - title: "[ICLR 2026] AudioMCQ: A 571k audio multiple-choice question dataset for post-training Large Audio Language Models with dual CoT annotations and audio-contribution filtering. \U0001F3C6 1st place in DCASE 2025 Challenge."
+    url: https://github.com/inclusionAI/AudioMCQ
+    kind: open_source
+    source: github
+    stars: 51
+  ant-areal:
+  - title: The RL Bridge for LLM-based Agent Applications. Made Simple & Flexible.
+    url: https://github.com/areal-project/AReaL
+    kind: open_source
+    source: github
+    stars: 5611
+  - title: Open MinT training runtime on AReaL
+    url: https://github.com/areal-project/AReaL-MinT
+    kind: open_source
+    source: github
+    stars: 26
+  - title: This repository is the central place for non-code resources that govern and support the AReaL ecosystem.
+    url: https://github.com/areal-project/community
+    kind: open_source
+    source: github
+    stars: 4
+  xiaomi-mimo:
+  - title: 'MiMo Code: Where Models and Agents Co-Evolve'
+    url: https://github.com/XiaomiMiMo/MiMo-Code
+    kind: open_source
+    source: github
+    stars: 12507
+  - title: 'MiMo: Unlocking the Reasoning Potential of Language Model – From Pretraining to Posttraining'
+    url: https://github.com/XiaomiMiMo/MiMo
+    kind: open_source
+    source: github
+    stars: 2288
+  - title: 'MiMo-V2-Flash: Efficient Reasoning, Coding, and Agentic Foundation Model'
+    url: https://github.com/XiaomiMiMo/MiMo-V2-Flash
+    kind: open_source
+    source: github
+    stars: 1362
+  xiaomi-embodied-intelligence:
+  - title: MiMo-Embodied
+    url: https://github.com/XiaomiMiMo/MiMo-Embodied
+    kind: open_source
+    source: github
+    stars: 397
+  - title: 'MiMo Code: Where Models and Agents Co-Evolve'
+    url: https://github.com/XiaomiMiMo/MiMo-Code
+    kind: open_source
+    source: github
+    stars: 12507
+  - title: 'MiMo: Unlocking the Reasoning Potential of Language Model – From Pretraining to Posttraining'
+    url: https://github.com/XiaomiMiMo/MiMo
+    kind: open_source
+    source: github
+    stars: 2288
+  rednote-hi-lab:
+  - title: Research track · Large Language Models
+    url: https://github.com/rednote-hilab/dots.vlm1
+    kind: research_index
+    source: official
+  - title: Research track · Reasoning
+    url: https://huggingface.co/rednote-hilab/dots.llm1.base
+    kind: research_index
+    source: official
+  - title: Research track · Agents
+    url: https://github.com/rednote-hilab/dots.vlm1
+    kind: research_index
+    source: official
+  xiaohongshu-firered:
+  - title: 'Official implementation of "InstanceAssemble: Layout-Aware Image Generation via Instance Assembling Attention" (NeurIPS 2025)'
+    url: https://github.com/FireRedTeam/InstanceAssemble
+    kind: open_source
+    source: github
+    stars: 45
+  - title: 'Official implementation of "ReMatch: Boosting Representation through Matching for Multimodal Retrieval" (CVPR 2026)'
+    url: https://github.com/FireRedTeam/ReMatch
+    kind: open_source
+    source: github
+    stars: 6
+  - title: Open-source industrial-grade ASR models supporting Mandarin, Chinese dialects and English, achieving a new SOTA on public Mandarin ASR benchmarks, while also offering outstanding singing lyrics recognition capability.
+    url: https://github.com/FireRedTeam/FireRedASR
+    kind: open_source
+    source: github
+    stars: 1943
+  deepseek-research:
+  - title: "[ICLR 2024] Official implementation of DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior"
+    url: https://github.com/deepseek-ai/DreamCraft3D
+    kind: open_source
+    source: github
+    stars: 3014
+  - title: 'DeepSeek LLM: Let there be answers'
+    url: https://github.com/deepseek-ai/DeepSeek-LLM
+    kind: open_source
+    source: github
+    stars: 7161
+  - title: 'DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model'
+    url: https://github.com/deepseek-ai/DeepSeek-V2
+    kind: open_source
+    source: github
+    stars: 5021
+  zhipu-glm:
+  - title: 'text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023)'
+    url: https://github.com/zai-org/CogVideo
+    kind: open_source
+    source: github
+    stars: 12916
+  - title: CogView4, CogView3-Plus and CogView3(ECCV 2024)
+    url: https://github.com/zai-org/CogView4
+    kind: open_source
+    source: github
+    stars: 1101
+  - title: 'SCAIL: Towards Studio-Grade Character Animation via In-Context Learning of 3D-Consistent Pose Representations (CVPR 2026 Findings)'
+    url: https://github.com/zai-org/SCAIL
+    kind: open_source
+    source: github
+    stars: 1024
+  moonshot-kimi:
+  - title: Kimi K2 is the large language model series developed by Moonshot AI team
+    url: https://github.com/MoonshotAI/Kimi-K2
+    kind: open_source
+    source: github
+    stars: 11053
+  - title: Kimi Code CLI is your next CLI agent.
+    url: https://github.com/MoonshotAI/kimi-cli
+    kind: open_source
+    source: github
+    stars: 10972
+  - title: Kimi Code CLI  —  The Starting Point for Next-Gen Agents
+    url: https://github.com/MoonshotAI/kimi-code
+    kind: open_source
+    source: github
+    stars: 5453
+  minimax-research:
+  - title: "[ECCV 2026] Towards Scalable Pre-training of Visual Tokenizers for Generation"
+    url: https://github.com/MiniMax-AI/VTP
+    kind: open_source
+    source: github
+    stars: 495
+  - title: "[NeurIPS 2025] The official repo of SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond"
+    url: https://github.com/MiniMax-AI/SynLogic
+    kind: open_source
+    source: github
+    stars: 203
+  - title: skills
+    url: https://github.com/MiniMax-AI/skills
+    kind: open_source
+    source: github
+    stars: 13174
+  google-deepmind:
+  - title: 'Official repository for "VideoPrism: A Foundational Visual Encoder for Video Understanding" (ICML 2024)'
+    url: https://github.com/google-deepmind/videoprism
+    kind: open_source
+    source: github
+    stars: 388
+  - title: "[ACL 2024] Do Large Language Models Latently Perform Multi-Hop Reasoning?"
+    url: https://github.com/google-deepmind/latent-multi-hop-reasoning
+    kind: open_source
+    source: github
+    stars: 93
+  - title: '"Making group conversations more accessible. Real-time speaker localization and directional guidance for mobile speech-to-text. ACM CHI 2025 Best Paper Award."'
+    url: https://github.com/google-deepmind/speech-compass
+    kind: open_source
+    source: github
+    stars: 9
+  google-research:
+  - title: Google Research
+    url: https://github.com/google-research/google-research
+    kind: open_source
+    source: github
+    stars: 38436
+  - title: Shared repository for open-sourced projects from the Google AI Language team.
+    url: https://github.com/google-research/language
+    kind: open_source
+    source: github
+    stars: 1789
+  - title: Tooling for agile modeling on large machine perception embedding databases.
+    url: https://github.com/google-research/perch-hoplite
+    kind: open_source
+    source: github
+    stars: 120
+  meta-fair:
+  - title: "[CVPR 2025 Best Paper Award] VGGT: Visual Geometry Grounded Transformer"
+    url: https://github.com/facebookresearch/vggt
+    kind: open_source
+    source: github
+    stars: 14046
+  - title: "[CVPR 2026 Oral] VGGT Omega"
+    url: https://github.com/facebookresearch/vggt-omega
+    kind: open_source
+    source: github
+    stars: 3717
+  - title: Official code for the CVPR 2025 paper "Navigation World Models".
+    url: https://github.com/facebookresearch/nwm
+    kind: open_source
+    source: github
+    stars: 658
+  meta-reality-labs-research:
+  - title: "[CVPR 2025 Best Paper Award] VGGT: Visual Geometry Grounded Transformer"
+    url: https://github.com/facebookresearch/vggt
+    kind: open_source
+    source: github
+    stars: 14046
+  - title: "[CVPR 2026 Oral] VGGT Omega"
+    url: https://github.com/facebookresearch/vggt-omega
+    kind: open_source
+    source: github
+    stars: 3717
+  - title: Official code for the CVPR 2025 paper "Navigation World Models".
+    url: https://github.com/facebookresearch/nwm
+    kind: open_source
+    source: github
+    stars: 658
+  microsoft-ai-frontiers:
+  - title: "[ICRA 2026] VITRA: Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos"
+    url: https://github.com/microsoft/VITRA
+    kind: open_source
+    source: github
+    stars: 454
+  - title: Official repo for paper "Structured 3D Latents for Scalable and Versatile 3D Generation" (CVPR'25 Spotlight).
+    url: https://github.com/microsoft/TRELLIS
+    kind: open_source
+    source: github
+    stars: 13317
+  - title: 12 Weeks, 24 Lessons, AI for All!
+    url: https://github.com/microsoft/AI-For-Beginners
+    kind: open_source
+    source: github
+    stars: 53008
+  microsoft-general-ai:
+  - title: "[ICRA 2026] VITRA: Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos"
+    url: https://github.com/microsoft/VITRA
+    kind: open_source
+    source: github
+    stars: 454
+  - title: Official repo for paper "Structured 3D Latents for Scalable and Versatile 3D Generation" (CVPR'25 Spotlight).
+    url: https://github.com/microsoft/TRELLIS
+    kind: open_source
+    source: github
+    stars: 13317
+  - title: 12 Weeks, 24 Lessons, AI for All!
+    url: https://github.com/microsoft/AI-For-Beginners
+    kind: open_source
+    source: github
+    stars: 53008
+  microsoft-ai-for-science:
+  - title: "[ICRA 2026] VITRA: Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos"
+    url: https://github.com/microsoft/VITRA
+    kind: open_source
+    source: github
+    stars: 454
+  - title: Official repo for paper "Structured 3D Latents for Scalable and Versatile 3D Generation" (CVPR'25 Spotlight).
+    url: https://github.com/microsoft/TRELLIS
+    kind: open_source
+    source: github
+    stars: 13317
+  - title: 12 Weeks, 24 Lessons, AI for All!
+    url: https://github.com/microsoft/AI-For-Beginners
+    kind: open_source
+    source: github
+    stars: 53008
+  microsoft-machine-learning-area:
+  - title: "[ICRA 2026] VITRA: Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos"
+    url: https://github.com/microsoft/VITRA
+    kind: open_source
+    source: github
+    stars: 454
+  - title: Official repo for paper "Structured 3D Latents for Scalable and Versatile 3D Generation" (CVPR'25 Spotlight).
+    url: https://github.com/microsoft/TRELLIS
+    kind: open_source
+    source: github
+    stars: 13317
+  - title: 12 Weeks, 24 Lessons, AI for All!
+    url: https://github.com/microsoft/AI-For-Beginners
+    kind: open_source
+    source: github
+    stars: 53008
+  microsoft-computer-vision:
+  - title: "[ICRA 2026] VITRA: Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos"
+    url: https://github.com/microsoft/VITRA
+    kind: open_source
+    source: github
+    stars: 454
+  - title: Official repo for paper "Structured 3D Latents for Scalable and Versatile 3D Generation" (CVPR'25 Spotlight).
+    url: https://github.com/microsoft/TRELLIS
+    kind: open_source
+    source: github
+    stars: 13317
+  - title: 12 Weeks, 24 Lessons, AI for All!
+    url: https://github.com/microsoft/AI-For-Beginners
+    kind: open_source
+    source: github
+    stars: 53008
+  nvidia-cosmos-lab:
+  - title: "[CVPR 2024 Highlight] FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects"
+    url: https://github.com/NVlabs/FoundationPose
+    kind: open_source
+    source: github
+    stars: 3453
+  - title: "[CVPR 2025 Best Paper Nomination] FoundationStereo: Zero-Shot Stereo Matching"
+    url: https://github.com/NVlabs/FoundationStereo
+    kind: open_source
+    source: github
+    stars: 2839
+  - title: "[CVPR 2025] Official PyTorch Implementation of MambaVision: A Hybrid Mamba-Transformer Vision Backbone"
+    url: https://github.com/NVlabs/MambaVision
+    kind: open_source
+    source: github
+    stars: 2210
+  nvidia-gear:
+  - title: "[CVPR 2024 Highlight] FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects"
+    url: https://github.com/NVlabs/FoundationPose
+    kind: open_source
+    source: github
+    stars: 3453
+  - title: "[CVPR 2025 Best Paper Nomination] FoundationStereo: Zero-Shot Stereo Matching"
+    url: https://github.com/NVlabs/FoundationStereo
+    kind: open_source
+    source: github
+    stars: 2839
+  - title: "[CVPR 2025] Official PyTorch Implementation of MambaVision: A Hybrid Mamba-Transformer Vision Backbone"
+    url: https://github.com/NVlabs/MambaVision
+    kind: open_source
+    source: github
+    stars: 2210
+  nvidia-dair:
+  - title: "[CVPR 2024 Highlight] FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects"
+    url: https://github.com/NVlabs/FoundationPose
+    kind: open_source
+    source: github
+    stars: 3453
+  - title: "[CVPR 2025 Best Paper Nomination] FoundationStereo: Zero-Shot Stereo Matching"
+    url: https://github.com/NVlabs/FoundationStereo
+    kind: open_source
+    source: github
+    stars: 2839
+  - title: "[CVPR 2025] Official PyTorch Implementation of MambaVision: A Hybrid Mamba-Transformer Vision Backbone"
+    url: https://github.com/NVlabs/MambaVision
+    kind: open_source
+    source: github
+    stars: 2210
+  nvidia-efficient-ai:
+  - title: "[CVPR 2024 Highlight] FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects"
+    url: https://github.com/NVlabs/FoundationPose
+    kind: open_source
+    source: github
+    stars: 3453
+  - title: "[CVPR 2025 Best Paper Nomination] FoundationStereo: Zero-Shot Stereo Matching"
+    url: https://github.com/NVlabs/FoundationStereo
+    kind: open_source
+    source: github
+    stars: 2839
+  - title: "[CVPR 2025] Official PyTorch Implementation of MambaVision: A Hybrid Mamba-Transformer Vision Backbone"
+    url: https://github.com/NVlabs/MambaVision
+    kind: open_source
+    source: github
+    stars: 2210
+  amazon-agi-lab:
+  - title: 'CodeSage: Code Representation Learning At Scale (ICLR 2024)'
+    url: https://github.com/amazon-science/CodeSage
+    kind: open_source
+    source: github
+    stars: 122
+  - title: Code repo for the ICML 2024 paper "Automated Evaluation of Retrieval-Augmented Language Models with Task-Specific Exam Generation"
+    url: https://github.com/amazon-science/auto-rag-eval
+    kind: open_source
+    source: github
+    stars: 88
+  - title: "[ACL 2025] Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models"
+    url: https://github.com/amazon-science/TISER
+    kind: open_source
+    source: github
+    stars: 14
+  amazon-science:
+  - title: 'CodeSage: Code Representation Learning At Scale (ICLR 2024)'
+    url: https://github.com/amazon-science/CodeSage
+    kind: open_source
+    source: github
+    stars: 122
+  - title: Code repo for the ICML 2024 paper "Automated Evaluation of Retrieval-Augmented Language Models with Task-Specific Exam Generation"
+    url: https://github.com/amazon-science/auto-rag-eval
+    kind: open_source
+    source: github
+    stars: 88
+  - title: "[ACL 2025] Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models"
+    url: https://github.com/amazon-science/TISER
+    kind: open_source
+    source: github
+    stars: 14
+  apple-machine-learning-research:
+  - title: 'This repository contains the official implementation of "FastVLM: Efficient Vision Encoding for Vision Language Models" - CVPR 2025'
+    url: https://github.com/apple/ml-fastvlm
+    kind: open_source
+    source: github
+    stars: 7389
+  - title: This repository contains the official implementation of the research papers, "MobileCLIP" CVPR 2024 and "MobileCLIP2" TMLR August 2025
+    url: https://github.com/apple/ml-mobileclip
+    kind: open_source
+    source: github
+    stars: 1602
+  - title: "[ICLR 2026] LiTo: Surface Light Field Tokenization"
+    url: https://github.com/apple/ml-lito
+    kind: open_source
+    source: github
+    stars: 459
+  apple-mlx:
+  - title: 'MLX: An array framework for Apple silicon'
+    url: https://github.com/ml-explore/mlx
+    kind: open_source
+    source: github
+    stars: 27732
+  - title: Examples in the MLX framework
+    url: https://github.com/ml-explore/mlx-examples
+    kind: open_source
+    source: github
+    stars: 8856
+  - title: Run LLMs with MLX
+    url: https://github.com/ml-explore/mlx-lm
+    kind: open_source
+    source: github
+    stars: 6440
+  openai-research:
+  - title: CLIP (Contrastive Language-Image Pretraining),  Predict the most relevant text snippet given an image
+    url: https://github.com/openai/CLIP
+    kind: open_source
+    source: github
+    stars: 34080
+  - title: 'Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos'
+    url: https://github.com/openai/Video-Pre-Training
+    kind: open_source
+    source: github
+    stars: 1720
+  - title: MLE-bench is a benchmark for measuring how well AI agents perform at machine learning engineering
+    url: https://github.com/openai/mle-bench
+    kind: open_source
+    source: github
+    stars: 1658
+  anthropic-alignment:
+  - title: Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize
+    url: https://github.com/anthropics/defending-code-reference-harness
+    kind: open_source
+    source: github
+    stars: 6860
+  - title: Anthropic's educational courses
+    url: https://github.com/anthropics/courses
+    kind: open_source
+    source: github
+    stars: 22465
+  - title: An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities.
+    url: https://github.com/anthropics/claude-code-security-review
+    kind: open_source
+    source: github
+    stars: 5665
+  anthropic-interpretability:
+  - title: Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize
+    url: https://github.com/anthropics/defending-code-reference-harness
+    kind: open_source
+    source: github
+    stars: 6860
+  - title: Anthropic's educational courses
+    url: https://github.com/anthropics/courses
+    kind: open_source
+    source: github
+    stars: 22465
+  - title: An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities.
+    url: https://github.com/anthropics/claude-code-security-review
+    kind: open_source
+    source: github
+    stars: 5665
+  anthropic-frontier-red-team:
+  - title: Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize
+    url: https://github.com/anthropics/defending-code-reference-harness
+    kind: open_source
+    source: github
+    stars: 6860
+  - title: Anthropic's educational courses
+    url: https://github.com/anthropics/courses
+    kind: open_source
+    source: github
+    stars: 22465
+  - title: An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities.
+    url: https://github.com/anthropics/claude-code-security-review
+    kind: open_source
+    source: github
+    stars: 5665
+  anthropic-societal-impacts:
+  - title: Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize
+    url: https://github.com/anthropics/defending-code-reference-harness
+    kind: open_source
+    source: github
+    stars: 6860
+  - title: Anthropic's educational courses
+    url: https://github.com/anthropics/courses
+    kind: open_source
+    source: github
+    stars: 22465
+  - title: An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities.
+    url: https://github.com/anthropics/claude-code-security-review
+    kind: open_source
+    source: github
+    stars: 5665
+  anthropic-economic-research:
+  - title: Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize
+    url: https://github.com/anthropics/defending-code-reference-harness
+    kind: open_source
+    source: github
+    stars: 6860
+  - title: Anthropic's educational courses
+    url: https://github.com/anthropics/courses
+    kind: open_source
+    source: github
+    stars: 22465
+  - title: An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities.
+    url: https://github.com/anthropics/claude-code-security-review
+    kind: open_source
+    source: github
+    stars: 5665
+  tsinghua-thunlp:
+  - title: "[ICLR 2026 Blogpost Track Poster] JustRL: Scaling a 1.5B LLM with a Simple RL Recipe"
+    url: https://github.com/thunlp/JustRL
+    kind: open_source
+    source: github
+    stars: 292
+  - title: 'Ouroboros: Speculative Decoding with Large Model Enhanced Drafting (EMNLP 2024 main)'
+    url: https://github.com/thunlp/Ouroboros
+    kind: open_source
+    source: github
+    stars: 117
+  - title: Enhancing Legal Case Retrieval via Scaling High-quality Synthetic Query-Candidate Pairs (EMNLP 2024)
+    url: https://github.com/thunlp/LEAD
+    kind: open_source
+    source: github
+    stars: 17
+  tsinghua-keg-thudm:
+  - title: "[ICLR 2025] LongWriter: Unleashing 10,000+ Word Generation from Long Context LLMs"
+    url: https://github.com/THUDM/LongWriter
+    kind: open_source
+    source: github
+    stars: 1868
+  - title: 'ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search (NeurIPS 2024)'
+    url: https://github.com/THUDM/ReST-MCTS
+    kind: open_source
+    source: github
+    stars: 710
+  - title: "[EMNLP 2024] LongAlign: A Recipe for Long Context Alignment of LLMs"
+    url: https://github.com/THUDM/LongAlign
+    kind: open_source
+    source: github
+    stars: 262
+  tsinghua-coai:
+  - title: Official github repo for SafetyBench, a comprehensive benchmark to evaluate LLMs' safety. [ACL 2024]
+    url: https://github.com/thu-coai/SafetyBench
+    kind: open_source
+    source: github
+    stars: 296
+  - title: 'ShieldLM: Empowering LLMs as Aligned, Customizable and Explainable Safety Detectors [EMNLP 2024 Findings]'
+    url: https://github.com/thu-coai/ShieldLM
+    kind: open_source
+    source: github
+    stars: 231
+  - title: Benchmarking Complex Instruction-Following with Multiple Constraints Composition (NeurIPS 2024 Datasets and Benchmarks Track)
+    url: https://github.com/thu-coai/ComplexBench
+    kind: open_source
+    source: github
+    stars: 102
+  tsinghua-air:
+  - title: Big Data Intelligence （BDI）Lab
+    url: https://air.tsinghua.edu.cn/en/Research1/Big_Data_Intelligence_Lab.htm
+    kind: paper_or_project
+    source: official
+  - title: DISCOVER Laboratory
+    url: https://air.tsinghua.edu.cn/en/Research1/DISCOVER_Laboratory.htm
+    kind: paper_or_project
+    source: official
+  - title: '01/29 2026 China’s AI: The Latest Trends Have Arrived'
+    url: https://mp.weixin.qq.com/s/86JPTvjuPY0TwDeb9bNOBw
+    kind: paper_or_project
+    source: official
+  pku-alignment:
+  - title: "[NeurIPS 2024 Oral] Aligner: Efficient Alignment by Learning to Correct"
+    url: https://github.com/PKU-Alignment/aligner
+    kind: open_source
+    source: github
+    stars: 194
+  - title: "[NeurIPS 2025 Spotlight] Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning."
+    url: https://github.com/PKU-Alignment/SafeVLA
+    kind: open_source
+    source: github
+    stars: 154
+  - title: 'ICLR 2024: SafeDreamer: Safe Reinforcement Learning with World Models'
+    url: https://github.com/PKU-Alignment/SafeDreamer
+    kind: open_source
+    source: github
+    stars: 105
+  pku-dair:
+  - title: "A scalable graph learning toolkit for extremely large graph datasets. (WWW'22,  \U0001F3C6 Best Student Paper Award)"
+    url: https://github.com/PKU-DAIR/SGL
+    kind: open_source
+    source: github
+    stars: 158
+  - title: "[ICDE 2025] A-Tune-Online: Efficient and QoS-aware Online Configuration Tuning for Dynamic Workloads."
+    url: https://github.com/PKU-DAIR/A-Tune-Online
+    kind: open_source
+    source: github
+    stars: 1
+  - title: A comprehensive guide for beginners in the field of data management and artificial intelligence.
+    url: https://github.com/PKU-DAIR/Starter-Guide
+    kind: open_source
+    source: github
+    stars: 674
+  pku-core:
+  - title: Proposing and solving olympiad geometry with guided tree search
+    url: https://pku.ai/
+    kind: paper
+    source: official_curated
+  - title: Combined evidence from artificial neural networks and human brain-lesion models reveals that language modulates vision in human perception
+    url: https://pku.ai/
+    kind: paper
+    source: official_curated
+  - title: Embedding high-resolution touch across robotic hands enables adaptive human-like grasping
+    url: https://pku.ai/
+    kind: paper
+    source: official_curated
+  pku-camera-intelligence:
+  - title: 'V2V: Scaling event-based vision through efficient video-to-voxel simulation'
+    url: https://camera.pku.edu.cn/publication
+    kind: paper
+    source: official_curated
+  - title: Dense metric depth estimation via event-based differential focus volume prompting
+    url: https://camera.pku.edu.cn/publication
+    kind: paper
+    source: official_curated
+  - title: 'EventAid: Benchmarking event-aided image/video enhancement algorithms with real-captured hybrid dataset'
+    url: https://camera.pku.edu.cn/publication
+    kind: paper
+    source: official_curated
+  pku-wu-lab:
+  - title: RepoZero
+    url: https://github.com/PKU-Wu-Lab/RepoZero
+    kind: open_source
+    source: github
+    stars: 1
+  - title: Research track · Natural Language Processing
+    url: https://github.com/PKU-Wu-Lab
+    kind: research_index
+    source: official
+  - title: Research track · Machine Translation
+    url: https://huggingface.co/PKU-Wu-Lab
+    kind: research_index
+    source: official
+  zju-nlp-kg:
+  - title: "[ACL 2024] An Easy-to-use Knowledge Editing Framework for LLMs."
+    url: https://github.com/zjunlp/EasyEdit
+    kind: open_source
+    source: github
+    stars: 2886
+  - title: "[ICLR 2026] LightMem: Lightweight and Efficient Memory-Augmented Generation"
+    url: https://github.com/zjunlp/LightMem
+    kind: open_source
+    source: github
+    stars: 1036
+  - title: "[EMNLP 2025]  OmniThink: Expanding Knowledge Boundaries in Machine Writing through Thinking"
+    url: https://github.com/zjunlp/OmniThink
+    kind: open_source
+    source: github
+    stars: 487
+  zju-real:
+  - title: "[AAAI 2026] GUI-G²: Gaussian Reward Modeling for GUI Grounding"
+    url: https://github.com/ZJU-REAL/GUI-G2
+    kind: open_source
+    source: github
+    stars: 310
+  - title: "[ICLR 2026] SpatialLadder: Progressive Training for Spatial Reasoning in Vision-Language Models"
+    url: https://github.com/ZJU-REAL/SpatialLadder
+    kind: open_source
+    source: github
+    stars: 99
+  - title: "[ECCV 2026] ViewSpatial-Bench:Evaluating Multi-perspective Spatial Localization in Vision-Language Models"
+    url: https://github.com/ZJU-REAL/ViewSpatial-Bench
+    kind: open_source
+    source: github
+    stars: 82
+  zju-3dv:
+  - title: "[CVPR 2024] 4K4D: Real-Time 4D View Synthesis at 4K Resolution"
+    url: https://github.com/zju3dv/4K4D
+    kind: open_source
+    source: github
+    stars: 1805
+  - title: 'Code for "GVHMR: World-Grounded Human Motion Recovery via Gravity-View Coordinates", Siggraph Asia 2024, TPAMI 2026'
+    url: https://github.com/zju3dv/GVHMR
+    kind: open_source
+    source: github
+    stars: 1800
+  - title: "[ECCV 2024] Street Gaussians: Modeling Dynamic Urban Scenes with Gaussian Splatting"
+    url: https://github.com/zju3dv/street_gaussians
+    kind: open_source
+    source: github
+    stars: 1373
+  sjtu-mint:
+  - title: We release Evo-RL, the opensource real-world offline RL on So-101 and AgileX PiPER for easier reproduction.
+    url: https://github.com/MINT-SJTU/Evo-RL
+    kind: open_source
+    source: github
+    stars: 724
+  - title: RoboClaw is an Embodied AI Assistant.
+    url: https://github.com/MINT-SJTU/RoboClaw
+    kind: open_source
+    source: github
+    stars: 519
+  - title: 'Evo-1: Lightweight Vision-Language-Action Model with Preserved Semantic Alignment'
+    url: https://github.com/MINT-SJTU/Evo-1
+    kind: open_source
+    source: github
+    stars: 342
+  sjtu-gair-nlp:
+  - title: "[COLM 2025] LIMO: Less is More for Reasoning"
+    url: https://github.com/GAIR-NLP/LIMO
+    kind: open_source
+    source: github
+    stars: 1080
+  - title: "[Extended verision ICLR 2025 Blog Track] Anole: An Open, Autoregressive and Native Multimodal Models for Interleaved Image-Text Generation"
+    url: https://github.com/GAIR-NLP/anole
+    kind: open_source
+    source: github
+    stars: 842
+  - title: "[ICML 2025] Programming Every Example: Lifting Pre-training Data Quality Like Experts at Scale"
+    url: https://github.com/GAIR-NLP/ProX
+    kind: open_source
+    source: github
+    stars: 272
+  sjtu-mifa:
+  - title: Shanghai Jiao Tong University
+    url: https://www.sjtu.edu.cn/
+    kind: paper_or_project
+    source: official
+  - title: School of Computer Science
+    url: https://www.cs.sjtu.edu.cn/jiaoshiml.html
+    kind: paper_or_project
+    source: official
+  - title: When Noisy Labels Meet Long Tail Dilemmas
+    url: https://arxiv.org/pdf/2211.10955
+    kind: paper_or_project
+    source: official
+  sjtu-rl2:
+  - title: Active Exploration and Online Perception of Terrain Physics with Legged Robots
+    url: https://gaoyue.sjtu.edu.cn/paperlist/AEOP.html
+    kind: paper_or_project
+    source: official
+  - title: Contrastive Forward Prediction Reinforcement Learning for Adaptive Fault-Tolerant Legged Robots
+    url: https://proceedings.mlr.press/v305/fu25b.html
+    kind: paper_or_project
+    source: official
+  - title: 'Constrained Dirichlet Distribution Policy: Guarantee Zero Constraint Violation for Continuous Robotic Control'
+    url: https://gaoyue.sjtu.edu.cn/paperlist/Dirichletv1.html
+    kind: paper_or_project
+    source: official
+  fudan-nlp:
+  - title: fitlog是一款在深度学习训练中用于辅助用户记录日志和管理代码的工具
+    url: https://github.com/FudanNLP/fitlog
+    kind: open_source
+    source: github
+    stars: 1512
+  - title: 复旦大学《模式识别与机器学习》课程仓库
+    url: https://github.com/FudanNLP/FDU-PRML-2025Fall
+    kind: open_source
+    source: github
+    stars: 33
+  - title: ".github"
+    url: https://github.com/FudanNLP/.github
+    kind: open_source
+    source: github
+    stars: 1
+  fudan-disc:
+  - title: "[ACL 2026] An interactive and comprehensive legal agent benchmark"
+    url: https://github.com/FudanDISC/J1Bench
+    kind: open_source
+    source: github
+    stars: 14
+  - title: "[NAACL 2025] Multi-Agent Legal Simulation Driver (MASER), a synthetic data engine for dynamic legal scenarios."
+    url: https://github.com/FudanDISC/MASER
+    kind: open_source
+    source: github
+    stars: 8
+  - title: "[中文法律大模型] DISC-LawLLM: an intelligent legal system powered by large language models (LLMs) to provide a wide range of legal services."
+    url: https://github.com/FudanDISC/DISC-LawLLM
+    kind: open_source
+    source: github
+    stars: 945
+  fudan-data-intelligence-lab:
+  - title: '多模态大模型 CVPR 2025 | Reasoning to Attend: Try to Understand How Token Works'
+    url: https://dil.fudan.edu.cn/_upload/tpl/14/d5/5333/template5333/pub/2404.pdf
+    kind: paper_or_project
+    source: official
+  - title: 大模型安全与对抗学习 ICML 2025 | Flexible, Efficient, and Stable Adversarial Attacks on Machine Unlearning
+    url: https://dil.fudan.edu.cn/_upload/tpl/14/d5/5333/template5333/pub/2501.pdf
+    kind: paper_or_project
+    source: official
+  - title: '联邦学习 AAAI 2024 | FedASMU: Effcient Asynchronous Federated Learning with Dynamic Staleness-Aware Model Update'
+    url: https://dil.fudan.edu.cn/_upload/tpl/14/d5/5333/template5333/pub/2402.pdf
+    kind: paper_or_project
+    source: official
+  ustc-vim:
+  - title: Website Production：Provided by Weilai Technology
+    url: http://www.ahweilai.com/
+    kind: paper_or_project
+    source: official
+  - title: 'DOI: 10.3969/j.issn.1000-3428.2012.04.029'
+    url: https://www.ecice06.com/CN/article/downloadArticleFile.do?attachType=PDF&id=22702
+    kind: paper_or_project
+    source: official
+  - title: 'DOI: 10.11834/jig.20091114'
+    url: http://www.cjig.cn/jig/ch/reader/view_abstract.aspx?file_no=20091114&flag=1
+    kind: paper_or_project
+    source: official
+  ustc-ivc:
+  - title: Research track · Computer Vision
+    url: https://ustc-ivclab.github.io/
+    kind: research_index
+    source: official
+  - title: Research track · Visual Compression
+    url: https://github.com/ustc-ivclab
+    kind: research_index
+    source: official
+  - title: Research track · Multimodal
+    url: https://ustc-ivclab.github.io/
+    kind: research_index
+    source: official
+  ustc-alpha-lab:
+  - title: 'MemOCR: Layout-Aware Visual Memory for Efficient Long-Horizon Reasoning'
+    url: https://alphalab-ustc.github.io/publications.html
+    kind: paper
+    source: official_curated
+  - title: 'Tiny Brains, Giant Impact: Uncovering the Keystone Neurons of LLM with Just a Few Prompts'
+    url: https://alphalab-ustc.github.io/publications.html
+    kind: paper
+    source: official_curated
+  - title: 'When to Memorize and When to Stop: Gated Recurrent Memory for Long-Context Reasoning'
+    url: https://alphalab-ustc.github.io/publications.html
+    kind: paper
+    source: official_curated
+  ustc-mei-lab:
+  - title: 'AliTok: Towards Sequence Modeling Alignment between Tokenizer and Autoregressive Model'
+    url: https://arxiv.org/pdf/2506.05289
+    kind: paper_or_project
+    source: official
+  - title: Research track · Multimodal
+    url: https://ustc-milab.work/
+    kind: research_index
+    source: official
+  - title: Research track · Embodied Ai
+    url: https://ustc-milab.work/
+    kind: research_index
+    source: official
+  nju-lamda:
+  - title: An Efficient, Scalable and Optimized Python Framework for Deep Forest (2021.2.1)
+    url: https://github.com/LAMDA-NJU/Deep-Forest
+    kind: open_source
+    source: github
+    stars: 962
+  - title: Research track · Machine Learning
+    url: https://www.lamda.nju.edu.cn/
+    kind: research_index
+    source: official
+  - title: Research track · Data Mining
+    url: https://github.com/lamda-nju
+    kind: research_index
+    source: official
+  nju-lamda-cl:
+  - title: 'Class-Incremental Learning: A Survey (TPAMI 2024)'
+    url: https://github.com/LAMDA-CL/CIL_Survey
+    kind: open_source
+    source: github
+    stars: 285
+  - title: Learning without Forgetting for Vision-Language Models (TPAMI 2025)
+    url: https://github.com/LAMDA-CL/PROOF
+    kind: open_source
+    source: github
+    stars: 65
+  - title: External Knowledge Injection for CLIP-Based Class-Incremental Learning (ICCV 2025)
+    url: https://github.com/LAMDA-CL/ICCV25-ENGINE
+    kind: open_source
+    source: github
+    stars: 59
+  hit-scir:
+  - title: Language Technology Platform
+    url: https://github.com/HIT-SCIR/ltp
+    kind: open_source
+    source: github
+    stars: 5260
+  - title: 中文Mixtral-8x7B（Chinese-Mixtral-8x7B）
+    url: https://github.com/HIT-SCIR/Chinese-Mixtral-8x7B
+    kind: open_source
+    source: github
+    stars: 651
+  - title: plm-nlp-code
+    url: https://github.com/HIT-SCIR/plm-nlp-code
+    kind: open_source
+    source: github
+    stars: 655
+  hit-robotics-systems:
+  - title: Research track · Robotics
+    url: http://robot.hit.edu.cn/
+    kind: research_index
+    source: official
+  - title: Research track · Embodied Ai
+    url: https://en.hit.edu.cn/11961/list.htm
+    kind: research_index
+    source: official
+  - title: Research track · Control
+    url: http://robot.hit.edu.cn/
+    kind: research_index
+    source: official
+  xjtu-ai-sec:
+  - title: Selected Publications
+    url: https://gr.xjtu.edu.cn/cshen/zh_CN/zdylm/1000952/list/index.htm
+    kind: paper_or_project
+    source: official
+  - title: Xiaohong Guan (管晓宏)
+    url: http://www.xjtu.edu.cn/info/1728/1960199.htm
+    kind: paper_or_project
+    source: official
+  - title: Typographic-attack-for-LVLM
+    url: https://arxiv.org/abs/2402.19150
+    kind: paper_or_project
+    source: official
+  xjtu-robotics-institute:
+  - title: Teaching & Learning
+    url: https://en.xjtu.edu.cn/teachingandlearning.html
+    kind: paper_or_project
+    source: official
+  - title: XJTU team achieves breakthrough in AI-driven operation management
+    url: https://en.xjtu.edu.cn/2025-08/04/c_1116437.htm
+    kind: paper_or_project
+    source: official
+  - title: XJTU team achieves breakthrough in special functional alloys
+    url: https://en.xjtu.edu.cn/2025-07/28/c_1116491.htm
+    kind: paper_or_project
+    source: official
+  hkust-gz-precognition:
+  - title: "[Semantic Scholar]"
+    url: https://www.semanticscholar.org/author/Junwei-Liang/1915796
+    kind: paper_or_project
+    source: official
+  - title: "&nbsp; Publications"
+    url: https://precognition.team/index.html#publications
+    kind: paper_or_project
+    source: official
+  - title: cool publications and demos
+    url: https://precognition.team/index.html#publications
+    kind: paper_or_project
+    source: official
+  hkust-gz-envision:
+  - title: ENVISION Lab @ HKUST(GZ)
+    url: https://envision-research.hkust-gz.edu.cn/index.html
+    kind: paper_or_project
+    source: official
+  - title: Research track · Generative Ai
+    url: https://envision-research.hkust-gz.edu.cn/
+    kind: research_index
+    source: official
+  - title: Research track · Video Generation
+    url: https://envision-research.hkust-gz.edu.cn/
+    kind: research_index
+    source: official
+  hkust-gz-dsail:
+  - title: Config files for my GitHub profile.
+    url: https://github.com/DSAILatHKUST/DSAILatHKUST
+    kind: open_source
+    source: github
+    stars: 1
+  - title: Research track · Large Language Models
+    url: https://github.com/DSAILatHKUST
+    kind: research_index
+    source: official
+  - title: Research track · Ai For Science
+    url: https://huggingface.co/HKUST-DSAIL
+    kind: research_index
+    source: official
+  hkust-gz-mdi:
+  - title: Research track · Medical Ai
+    url: https://mdi.hkust-gz.edu.cn/en/
+    kind: research_index
+    source: official
+  - title: Research track · Pathology
+    url: https://mdi.hkust-gz.edu.cn/en/
+    kind: research_index
+    source: official
+  - title: Research track · Multimodal
+    url: https://mdi.hkust-gz.edu.cn/en/
+    kind: research_index
+    source: official
+  hkust-gz-hpml:
+  - title: HKUST(GZ) X Program
+    url: https://rd.hkust-gz.edu.cn/2025/04/hkustgz-explorers-undergraduate-research-program-x-program-%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%B9%BF%E5%B7%9E%EF%BC%89%E6%8E%A2%E7%B4%A2%E8%80%85/#new_tab
+    kind: paper_or_project
+    source: official
+  - title: BSc in Data Science and Big Data Technology
+    url: https://dsa.hkust-gz.edu.cn/programs/undergraduate-program/bsc-in-data-science-and-big-data/
+    kind: paper_or_project
+    source: official
+  - title: MPhil in Data Science and Analytics
+    url: https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/mphil-in-data-science-and-analytics/
+    kind: paper_or_project
+    source: official
+  hku-data-intelligence-lab:
+  - title: '[KDD''2026] "VideoRAG: Chat with Your Videos"'
+    url: https://github.com/HKUDS/VideoRAG
+    kind: open_source
+    source: github
+    stars: 3218
+  - title: '[ACL 2026] "OpenPhone: Mobile Agentic Foundation Models for AI Phone"'
+    url: https://github.com/HKUDS/OpenPhone
+    kind: open_source
+    source: github
+    stars: 932
+  - title: '[SIGIR''2024] "GraphGPT: Graph Instruction Tuning for Large Language Models"'
+    url: https://github.com/HKUDS/GraphGPT
+    kind: open_source
+    source: github
+    stars: 834
+  hku-sail:
+  - title: 'The official repository of "CoralSCOP: Segment any COral Image on this Planet". CVPR 2024'
+    url: https://github.com/hkust-vgd/CoralSCOP
+    kind: open_source
+    source: github
+    stars: 2
+  - title: 'The official website repository of "CoralSRT: Revisiting Coral Reef Semantic Segmentation by Feature Rectification via Self-supervised Guidance". ICCV 2025'
+    url: https://github.com/hkust-vgd/CoralSRT_web
+    kind: open_source
+    source: github
+    stars: 0
+  - title: Code and data release for ICCP 2022 paper "Time-of-Day Neural Style Transfer for Architectural Photographs".
+    url: https://github.com/hkust-vgd/architectural_style_transfer
+    kind: open_source
+    source: github
+    stars: 43
+  hku-intelligent-cybersecurity:
+  - title: 'BugAuditor: Detecting Bugs via Inconsistent Defensive Code Auditing'
+    url: https://sec.hku.hk/publications/#lin2026bugauditor
+    kind: paper
+    source: official_curated
+  - title: 'FuzzAug: Data Augmentation by Coverage-guided Fuzzing for Neural Test Generation'
+    url: https://sec.hku.hk/publications/#he2025fuzzaug
+    kind: paper
+    source: official_curated
+  - title: Evaluating Program Semantics Reasoning with Type Inference in System F
+    url: https://sec.hku.hk/publications/#he2025tfbench
+    kind: paper
+    source: official_curated
+  cuhk-mmlab:
+  - title: "[ECCV 2024] PowerPaint, a versatile image inpainting model that supports text-guided object inpainting, object removal, image outpainting and shape-guided object inpainting with only a single model. 一个高质量多功能的图像修补模型，可以同时支持插入物体、移除物体、图像扩展、形状可控的物体生成，只需要一个模型"
+    url: https://github.com/open-mmlab/PowerPaint
+    kind: open_source
+    source: github
+    stars: 1095
+  - title: "[CVPR 2024] PIA, your Personalized Image Animator. Animate your images by text prompt, combing with Dreambooth, achieving stunning videos.           PIA，你的个性化图像动画生成器，利用文本提示将图像变为奇妙的动画"
+    url: https://github.com/open-mmlab/PIA
+    kind: open_source
+    source: github
+    stars: 975
+  - title: "[ECCV 2024] AnyControl, a multi-control image synthesis model that supports any combination of user provided control signals. 一个支持用户自由输入控制信号的图像生成模型，能够根据多种控制生成自然和谐的结果！"
+    url: https://github.com/open-mmlab/AnyControl
+    kind: open_source
+    source: github
+    stars: 132
+  cuhk-t-stone-robotics:
+  - title: Research track · Robotics
+    url: https://www.cuhk.edu.hk/ri/
+    kind: research_index
+    source: official
+  - title: Research track · Surgical Robotics
+    url: https://www.cuhk.edu.hk/ri/
+    kind: research_index
+    source: official
+  - title: Research track · Embodied Ai
+    url: https://www.cuhk.edu.hk/ri/
+    kind: research_index
+    source: official
+  cuhk-legged-robot-lab:
+  - title: Research track · Legged Robotics
+    url: https://cuhkleggedrobotlab.github.io/
+    kind: research_index
+    source: official
+  - title: Research track · Embodied Ai
+    url: https://cuhkleggedrobotlab.github.io/
+    kind: research_index
+    source: official
+  - title: Research track · Control
+    url: https://cuhkleggedrobotlab.github.io/
+    kind: research_index
+    source: official
+  cuhk-language-processing-lab:
+  - title: https://aclanthology.org/2025.coling-main.459/
+    url: https://aclanthology.org/2025.coling-main.459//
+    kind: paper_or_project
+    source: official
+  - title: https://aclanthology.org/2025.coling-main.677/
+    url: https://aclanthology.org/2025.coling-main.677/
+    kind: paper_or_project
+    source: official
+  - title: Research track · Natural Language Processing
+    url: https://cuhklpl.github.io/
+    kind: research_index
+    source: official
+  hkust-dv-lab:
+  - title: Research track · Computer Vision
+    url: https://www.dvlab.ai/
+    kind: research_index
+    source: official
+  - title: Research track · Multimodal
+    url: https://github.com/DVLab
+    kind: research_index
+    source: official
+  - title: Research track · Generative Ai
+    url: https://www.dvlab.ai/
+    kind: research_index
+    source: official
+  hkust-caire:
+  - title: Skip to main content
+    url: https://caire.hkust.edu.hk/research/projects#main-content
+    kind: paper_or_project
+    source: official
+  - title: Research track · Natural Language Processing
+    url: https://caire.hkust.edu.hk/about/about-caire
+    kind: research_index
+    source: official
+  - title: Research track · Conversational Ai
+    url: https://caire.hkust.edu.hk/about/about-caire
+    kind: research_index
+    source: official
+  hkust-aerial-robotics:
+  - title: A robust optimization-based asynchronous Multi-camera-IMU state estimator [ICRA 2024, Workshop on Future of Construction, Best Research Award]
+    url: https://github.com/HKUST-Aerial-Robotics/VINS-Multi
+    kind: open_source
+    source: github
+    stars: 135
+  - title: "[IROS'24 Oral] A Fully Open-source and Compact Aerial Robot with Omnidirectional Visual Perception"
+    url: https://github.com/HKUST-Aerial-Robotics/OmniNxt
+    kind: open_source
+    source: github
+    stars: 546
+  - title: Online Monocular Lane Mapping Using Catmull-Rom Spline (IROS 2023)
+    url: https://github.com/HKUST-Aerial-Robotics/MonoLaneMapping
+    kind: open_source
+    source: github
+    stars: 437
+  hkust-mevita-robotics:
+  - title: Tactile Perception
+    url: https://mrl.hkust.edu.hk/research/#tactile-perception
+    kind: paper_or_project
+    source: official
+  - title: Embodied Dexterity
+    url: https://mrl.hkust.edu.hk/research/#embodied-dexterity
+    kind: paper_or_project
+    source: official
+  - title: Miniature Biomedical Robotics
+    url: https://mrl.hkust.edu.hk/research/#miniature-biomedical
+    kind: paper_or_project
+    source: official
+  nus-ai-institute:
+  - title: Research track · Foundation Models
+    url: https://ai.nus.edu.sg/
+    kind: research_index
+    source: official
+  - title: Research track · Trustworthy Ai
+    url: https://ai.nus.edu.sg/wp-content/uploads/2025/07/Technical-Peogram.pdf
+    kind: research_index
+    source: official
+  - title: Research track · Ai For Science
+    url: https://ai.nus.edu.sg/
+    kind: research_index
+    source: official
+  nus-nlp:
+  - title: "[AAAI 2026] SlideTailor: Personalized Presentation Slide Generation for Scientific Papers"
+    url: https://github.com/nusnlp/SlideTailor
+    kind: open_source
+    source: github
+    stars: 57
+  - title: "[ICCV 2025] Factorized Learning for Temporally Grounded Video-Language Models"
+    url: https://github.com/nusnlp/d2vlm
+    kind: open_source
+    source: github
+    stars: 24
+  - title: The official code for the "System Combination via Quality Estimation for Grammatical Error Correction" paper, published in EMNLP 2023.
+    url: https://github.com/nusnlp/greco
+    kind: open_source
+    source: github
+    stars: 16
+  nus-ai-lab:
+  - title: 'Handling Missing Values in Information Systems Research: A Review of Methods and Assumptions'
+    url: https://nusail.comp.nus.edu.sg/integrating-deep-learning-statistical-models-and-structured-representations/index.html
+    kind: paper_or_project
+    source: official
+  - title: 'Handling Missing Values in Information Systems Research: A...'
+    url: https://nusail.comp.nus.edu.sg/integrating-deep-learning-statistical-models-and-structured-representations/index.html
+    kind: paper_or_project
+    source: official
+  - title: Research track · Embodied Ai
+    url: https://nusail.comp.nus.edu.sg/
+    kind: research_index
+    source: official
+  nus-cvml:
+  - title: A curated list of awesome temporal action segmentation resources.
+    url: https://github.com/nus-cvml/awesome-temporal-action-segmentation
+    kind: open_source
+    source: github
+    stars: 252
+  - title: Research track · Computer Vision
+    url: https://cvml.comp.nus.edu.sg/
+    kind: research_index
+    source: official
+  - title: Research track · Machine Learning
+    url: https://github.com/nus-cvml
+    kind: research_index
+    source: official
+  ntu-grail:
+  - title: Emeritus Professorship
+    url: https://www.ntu.edu.sg/computing/about-us/emeritus-professorship
+    kind: paper_or_project
+    source: official
+  - title: Our Distinctive Edge
+    url: https://www.ntu.edu.sg/computing/about-us/our-distinctive-edge
+    kind: paper_or_project
+    source: official
+  - title: Show me more results >
+    url: https://www.ntu.edu.sg/search-results?q={{=%20it.term}}
+    kind: paper_or_project
+    source: official
+  ntu-mmlab:
+  - title: CVPR 2026 GigaBrain Workshop
+    url: https://gigaai-research.github.io/GigaBrain-Challenge-2026/
+    kind: paper_or_project
+    source: official
+  - title: EgoVis 2024/2025 Distinguished Paper Award
+    url: https://egovis.github.io/awards/2024_2025/
+    kind: paper_or_project
+    source: official
+  - title: 2025 Apple Scholar in AIML
+    url: https://machinelearning.apple.com/updates/apple-scholars-aiml-2025
+    kind: paper_or_project
+    source: official
+  ntu-nlp:
+  - title: Research track · Natural Language Processing
+    url: https://ntunlpsg.github.io/
+    kind: research_index
+    source: official
+  - title: Research track · Multilingual Ai
+    url: https://github.com/ntunlpsg
+    kind: research_index
+    source: official
+  - title: Research track · Multimodal
+    url: https://ntunlpsg.github.io/
+    kind: research_index
+    source: official
+  ntu-declare:
+  - title: "[ICLR 2026] TangoFlux: Super Fast and Faithful Text to Audio Generation with Flow Matching"
+    url: https://github.com/declare-lab/TangoFlux
+    kind: open_source
+    source: github
+    stars: 878
+  - title: '[NAACL 2024] Official Implementation of paper "Self-Adaptive Sampling for Efficient Video Question Answering on Image--Text Models"'
+    url: https://github.com/declare-lab/Sealing
+    kind: open_source
+    source: github
+    stars: 12
+  - title: "[ICLR 2026] OffTopicEval: When Large Language Models Enter the Wrong Chat, Almost Always!"
+    url: https://github.com/declare-lab/OffTopicEval
+    kind: open_source
+    source: github
+    stars: 10
+  ntu-s-lab:
+  - title: Show me more results >
+    url: https://www.ntu.edu.sg/search-results?q={{=%20it.term}}
+    kind: paper_or_project
+    source: official
+  - title: Equality, Diversity and Inclusion
+    url: https://www.ntu.edu.sg/about-us#edi-policy
+    kind: paper_or_project
+    source: official
+  - title: S-Lab for Advanced Intelligence
+    url: https://www.ntu.edu.sg/s-lab
+    kind: paper_or_project
+    source: official
+  cmu-language-technologies-institute:
+  - title: Carnegie Mellon University
+    url: https://www.cmu.edu/
+    kind: paper_or_project
+    source: official
+  - title: Language Technologies Institute
+    url: https://www.lti.cs.cmu.edu/index.html
+    kind: paper_or_project
+    source: official
+  - title: School of Computer Science
+    url: https://www.cs.cmu.edu/
+    kind: paper_or_project
+    source: official
+  cmu-machine-learning-department:
+  - title: "[ACL 2024] Speech vs. Transcript: Does It Matter for Human Annotators in Speech Summarization?"
+    url: https://github.com/cmu-mlsp/interview_humanssum
+    kind: open_source
+    source: github
+    stars: 4
+  - title: "[website] Machine Learning for Signal Processing"
+    url: https://github.com/cmu-mlsp/mlspcourse-2024
+    kind: open_source
+    source: github
+    stars: 1
+  - title: "[Interspeech 2022] Tutorial - Learning from Weak Labels"
+    url: https://github.com/cmu-mlsp/learning_from_weak_labels
+    kind: open_source
+    source: github
+    stars: 9
+  cmu-robotics-institute:
+  - title: Research track · Robotics
+    url: https://www.ri.cmu.edu/
+    kind: research_index
+    source: official
+  - title: Research track · Embodied Ai
+    url: https://github.com/cmu-robotics
+    kind: research_index
+    source: official
+  - title: Research track · Computer Vision
+    url: https://www.ri.cmu.edu/research/
+    kind: research_index
+    source: official
+  cmu-auton-lab:
+  - title: Auton Survival -  an open source package for Regression, Counterfactual Estimation, Evaluation and Phenotyping with Censored Time-to-Events
+    url: https://github.com/autonlab/auton-survival
+    kind: open_source
+    source: github
+    stars: 370
+  - title: 'Official Implementation of "STAMP: Spatial-Temporal Adapter with Multi-Head Pooling". arXiv: https://www.arxiv.org/abs/2511.10848'
+    url: https://github.com/autonlab/STAMP
+    kind: open_source
+    source: github
+    stars: 6
+  - title: Code repo for Neurips paper Improving Model-Based Reinforcement Learning by Converging to Flatter Minimas
+    url: https://github.com/autonlab/MBRL-flat-minima
+    kind: open_source
+    source: github
+    stars: 1
+  cmu-generative-intelligence-lab:
+  - title: Supported Browsers
+    url: https://www.ri.cmu.edu/supported-browsers/
+    kind: paper_or_project
+    source: official
+  - title: History of the Robotics Institute
+    url: https://www.ri.cmu.edu/about/ri-history/
+    kind: paper_or_project
+    source: official
+  - title: Maps, Directions & Parking
+    url: https://www.ri.cmu.edu/about/maps-directions/
+    kind: paper_or_project
+    source: official
+  mit-csail:
+  - title: Skip to main content
+    url: https://www.csail.mit.edu/#main-content
+    kind: paper_or_project
+    source: official
+  - title: Skip to main content
+    url: https://www.csail.mit.edu/research#main-content
+    kind: paper_or_project
+    source: official
+  - title: Research track · Machine Learning
+    url: https://www.csail.mit.edu/
+    kind: research_index
+    source: official
+  mit-cbmm:
+  - title: Research track · Learning Theory
+    url: https://cbmm.mit.edu/
+    kind: research_index
+    source: official
+  - title: Research track · Computational Neuroscience
+    url: https://github.com/CBMM
+    kind: research_index
+    source: official
+  - title: Research track · Computer Vision
+    url: https://cbmm.mit.edu/research
+    kind: research_index
+    source: official
+  mit-improbable-ai:
+  - title: Official implementation of ICLR'24 paper, "Curiosity-driven Red Teaming for Large Language Models" (https://openreview.net/pdf?id=4KqkizXgXU)
+    url: https://github.com/Improbable-AI/curiosity_redteam
+    kind: open_source
+    source: github
+    stars: 90
+  - title: 'Official implementation of NeurIPS''23 paper, Beyond Uniform Sampling: Offline Reinforcement Learning with Imbalanced Datasets'
+    url: https://github.com/Improbable-AI/dw-offline-rl
+    kind: open_source
+    source: github
+    stars: 25
+  - title: Sim-to-real RL training and deployment tools for the Unitree Go1 robot.
+    url: https://github.com/Improbable-AI/walk-these-ways
+    kind: open_source
+    source: github
+    stars: 1426
+  mit-embodied-intelligence:
+  - title: Research track · Embodied Ai
+    url: https://ei.csail.mit.edu/
+    kind: research_index
+    source: official
+  - title: Research track · Robotics
+    url: https://ei.csail.mit.edu/
+    kind: research_index
+    source: official
+  - title: Research track · Computer Vision
+    url: https://ei.csail.mit.edu/
+    kind: research_index
+    source: official
+  stanford-sail:
+  - title: Research track · Machine Learning
+    url: https://ai.stanford.edu/
+    kind: research_index
+    source: official
+  - title: Research track · Natural Language Processing
+    url: https://github.com/stanfordai
+    kind: research_index
+    source: official
+  - title: Research track · Computer Vision
+    url: https://ai.stanford.edu/research-groups/
+    kind: research_index
+    source: official
+  stanford-crfm:
+  - title: AIR-Bench 2024 is a safety benchmark that aligns with emerging government regulations and company policies
+    url: https://github.com/stanford-crfm/air-bench-2024
+    kind: open_source
+    source: github
+    stars: 30
+  - title: Holistic Evaluation of Language Models (HELM) is an open source Python framework created by the Center for Research on Foundation Models (CRFM) at Stanford for holistic, reproducible and transparent evaluation of foundation models, including large language models (LLMs) and multimodal models.
+    url: https://github.com/stanford-crfm/helm
+    kind: open_source
+    source: github
+    stars: 2864
+  - title: "Mistral: A strong, northwesterly wind: Framework for transparent and accessible large-scale language model training, built with Hugging Face \U0001F917  Transformers."
+    url: https://github.com/stanford-crfm/mistral
+    kind: open_source
+    source: github
+    stars: 581
+  stanford-nlp:
+  - title: Stanford NLP Python library for tokenization, sentence segmentation, NER, and parsing of many human languages
+    url: https://github.com/stanfordnlp/stanza
+    kind: open_source
+    source: github
+    stars: 7854
+  - title: Stanford NLP Python library for understanding and improving PyTorch models via interventions
+    url: https://github.com/stanfordnlp/pyvene
+    kind: open_source
+    source: github
+    stars: 893
+  - title: A history of NLP at Stanford, initially written for the Stanford NLP 25 year reunion in 2025
+    url: https://github.com/stanfordnlp/stanford-nlp-history
+    kind: open_source
+    source: github
+    stars: 2
+  stanford-svl:
+  - title: 'Gibson Environments: Real-World Perception for Embodied Agents'
+    url: https://github.com/StanfordVL/GibsonEnv
+    kind: open_source
+    source: github
+    stars: 943
+  - title: 'Official repo for CVPR 2022 (Oral) paper: Revisiting the "Video" in Video-Language Understanding. Contains code for the Atemporal Probe (ATP).'
+    url: https://github.com/StanfordVL/atp-video-language
+    kind: open_source
+    source: github
+    stars: 51
+  - title: 'BEHAVIOR-1K: a platform for accelerating Embodied AI research. Join our Discord for support: https://discord.gg/bccR5vGFEx'
+    url: https://github.com/StanfordVL/BEHAVIOR-1K
+    kind: open_source
+    source: github
+    stars: 1598
+  stanford-iliad:
+  - title: 'Companion code for RSS 2020 paper: "Active Preference-Based Gaussian Process Regression for Reward Learning"'
+    url: https://github.com/Stanford-ILIAD/active-preference-based-gpr
+    kind: open_source
+    source: github
+    stars: 39
+  - title: Companion code for IJCAI 2021 paper "Emergent Prosociality in Multi-Agent Games Through Gifting"
+    url: https://github.com/Stanford-ILIAD/emergent-prosociality-through-gifting
+    kind: open_source
+    source: github
+    stars: 6
+  - title: Public release for "Shared Autonomy for Proximal Teaching"
+    url: https://github.com/Stanford-ILIAD/proximal-teaching
+    kind: open_source
+    source: github
+    stars: 4
+  berkeley-bair:
+  - title: Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction
+    url: https://bair.berkeley.edu/blog/2026/07/26/abbel/
+    kind: paper_or_project
+    source: official
+  - title: Lundberg & Lee, 2017
+    url: https://proceedings.neurips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html
+    kind: paper_or_project
+    source: official
+  - title: Ilyas et al., 2022
+    url: https://proceedings.mlr.press/v162/ilyas22a/ilyas22a.pdf
+    kind: paper_or_project
+    source: official
+  berkeley-chai:
+  - title: A benchmark environment for fully cooperative human-AI performance.
+    url: https://github.com/HumanCompatibleAI/overcooked_ai
+    kind: open_source
+    source: github
+    stars: 988
+  - title: Clean PyTorch implementations of imitation and reward learning algorithms
+    url: https://github.com/HumanCompatibleAI/imitation
+    kind: open_source
+    source: github
+    stars: 1773
+  - title: A prompt injection game to collect data for robust ML research
+    url: https://github.com/HumanCompatibleAI/tensor-trust
+    kind: open_source
+    source: github
+    stars: 72
+  berkeley-rail:
+  - title: Code release for paper "Autonomous Improvement of Instruction Following Skills via Foundation Models" | CoRL 2024
+    url: https://github.com/rail-berkeley/soar
+    kind: open_source
+    source: github
+    stars: 77
+  - title: Collection of reinforcement learning algorithms
+    url: https://github.com/rail-berkeley/rlkit
+    kind: open_source
+    source: github
+    stars: 2922
+  - title: 'SERL: A Software Suite for Sample-Efficient Robotic Reinforcement Learning'
+    url: https://github.com/rail-berkeley/serl
+    kind: open_source
+    source: github
+    stars: 846
+  berkeley-nlp:
+  - title: 'Code for Paper: Autonomous Evaluation and Refinement of Digital Agents [COLM 2024]'
+    url: https://github.com/Berkeley-NLP/Agent-Eval-Refine
+    kind: open_source
+    source: github
+    stars: 149
+  - title: 'Code for Paper: Using Language Models to Disambiguate Lexical Choices in Translation [EMNLP 2024]'
+    url: https://github.com/Berkeley-NLP/Lex-Rules
+    kind: open_source
+    source: github
+    stars: 6
+  - title: 'Code for Paper: Long Chain-of-Thought Reasoning Across Languages [SCALR @ COLM 2025]'
+    url: https://github.com/Berkeley-NLP/Multilingual-Long-CoT
+    kind: open_source
+    source: github
+    stars: 1
+  berkeley-sky-computing-lab:
+  - title: The AI Compute Platform for frontier teams. SkyPilot turns fragmented AI compute into one AI supercomputer, so frontier AI teams build custom intelligence faster.
+    url: https://github.com/skypilot-org/skypilot
+    kind: open_source
+    source: github
+    stars: 10416
+  - title: Tutorial to get started with SkyPilot!
+    url: https://github.com/skypilot-org/skypilot-tutorial
+    kind: open_source
+    source: github
+    stars: 60
+  - title: Releasing the spot availability traces used in "Can't Be Late" paper.
+    url: https://github.com/skypilot-org/spot-traces
+    kind: open_source
+    source: github
+    stars: 27
+  umd-umiacs:
+  - title: Ceph Object Storage Admin API python library bindings.
+    url: https://github.com/UMIACS/rgwadmin
+    kind: open_source
+    source: github
+    stars: 90
+  - title: Research track · Artificial Intelligence
+    url: https://www.umiacs.umd.edu/
+    kind: research_index
+    source: official
+  - title: Research track · Natural Language Processing
+    url: https://github.com/UMIACS
+    kind: research_index
+    source: official
+  umd-clip:
+  - title: Department of Computer Science
+    url: http://www.cs.umd.edu/
+    kind: paper_or_project
+    source: official
+  - title: Department of Linguistics
+    url: http://www.ling.umd.edu/
+    kind: paper_or_project
+    source: official
+  - title: Robert H. Smith School of Business
+    url: http://www.rhsmith.umd.edu/
+    kind: paper_or_project
+    source: official
+  umd-maryland-robotics-center:
+  - title: Autonomous Systems
+    url: https://robotics.umd.edu/research/autonomous-systems
+    kind: paper_or_project
+    source: official
+  - title: Bio-Inspired Robotics
+    url: https://robotics.umd.edu/research/bio-inspired-robotics
+    kind: paper_or_project
+    source: official
+  - title: Cognitive Robotics
+    url: https://robotics.umd.edu/research/cognitive-robotics
+    kind: paper_or_project
+    source: official
+  umd-gamma:
+  - title: 'VEGA: Learning Navigation VLAs from In-the-Wild Egocentric Video with Geometric Trajectory Supervision'
+    url: https://gamma.umd.edu/publication/848/
+    kind: paper
+    source: official_curated
+  - title: 'Act on What You See: Unlocking Safe Social Navigation in Vision-Language-Action Models'
+    url: https://gamma.umd.edu/publication/849/
+    kind: paper
+    source: official_curated
+  - title: 'PhysGS: Bayesian-Inferred Gaussian Splatting for Physical Property Estimation'
+    url: https://gamma.umd.edu/publication/847/
+    kind: paper
+    source: official_curated
+  ucsd-hdsi-ai-ml:
+  - title: Commitment and Resources
+    url: https://datascience.ucsd.edu/commitment-and-resources/
+    kind: paper_or_project
+    source: official
+  - title: The Halıcıoğlu Challenge
+    url: https://datascience.ucsd.edu/the-halicioglu-challenge/
+    kind: paper_or_project
+    source: official
+  - title: Annual Report – Year 6
+    url: https://datascience.ucsd.edu/annual-report-year-6/
+    kind: paper_or_project
+    source: official
+  ucsd-contextual-robotics:
+  - title: Tania Morimoto Recognized with MassRobotics Rising Star in Robotics Medal
+    url: https://www.massrobotics.org/massrobotics-announces-recipients-of-2025-robotics-medal-recognizing-accomplishments-of-women-in-robotics/
+    kind: paper_or_project
+    source: official
+  - title: View a list of research sponsors.
+    url: https://contextualrobotics.ucsd.edu/sponsors
+    kind: paper_or_project
+    source: official
+  - title: Henrik Christensen head shots
+    url: https://www.flickr.com/photos/jsoe/sets/72157677096495406
+    kind: paper_or_project
+    source: official
+  ucsd-existential-robotics:
+  - title: 'Code release for Seeing the Bigger Picture: 3D Latent Mapping for Mobile Manipulation Policy Learning (ICRA 2026)'
+    url: https://github.com/ExistentialRobotics/SBP
+    kind: open_source
+    source: github
+    stars: 9
+  - title: This repository is the official implementation for the ICLR 2025 paper titled "Generalizable Motion Planning Via Operator Learning".
+    url: https://github.com/ExistentialRobotics/PNO
+    kind: open_source
+    source: github
+    stars: 8
+  - title: 'Code for RSS''25 paper "MISO: Multiresolution Submap Optimization for Efficient Globally Consistent Neural Implicit Reconstruction"'
+    url: https://github.com/ExistentialRobotics/MISO
+    kind: open_source
+    source: github
+    stars: 47
+  ucsd-cvrr-lisa:
+  - title: 'doi: 10.1109/JSTSP.2012.2196975'
+    url: http://web.archive.org/web/20210518075048/http://dx.doi.org/10.1109/JSTSP.2012.2196975
+    kind: paper_or_project
+    source: official
+  - title: doi:10.1167/12.2.9
+    url: http://web.archive.org/web/20210518075048/http://www.journalofvision.org/content/12/2/9.short
+    kind: paper_or_project
+    source: official
+  - title: Research track · Computer Vision
+    url: https://cvrr.ucsd.edu/
+    kind: research_index
+    source: official
+  uw-wail:
+  - title: WCAG accessibility standards
+    url: https://www.w3.org/WAI/standards-guidelines/wcag/
+    kind: paper_or_project
+    source: official
+  - title: Research track · Artificial Intelligence
+    url: https://wail.uw.edu/
+    kind: research_index
+    source: official
+  - title: Research track · Natural Language Processing
+    url: https://wail.uw.edu/
+    kind: research_index
+    source: official
+  uw-robotics:
+  - title: UWRT_Controller_StateMachine
+    url: https://github.com/uwrobotics/UWRT_Controller_StateMachine
+    kind: open_source
+    source: github
+    stars: 0
+  - title: This is the project for URC 2025 season code for the jetson host.
+    url: https://github.com/uwrobotics/URC_ROVER_2025
+    kind: open_source
+    source: github
+    stars: 0
+  - title: UWRobotics competition repository for our season 2026 competition rover Sparky.
+    url: https://github.com/uwrobotics/Sparky-CIRC-2026
+    kind: open_source
+    source: github
+    stars: 0
+  uw-nlp:
+  - title: Masters degree in Computational Linguistics
+    url: http://www.compling.uw.edu/
+    kind: paper_or_project
+    source: official
+  - title: Natural Language Processing group&nbsp;(CSE)
+    url: http://www.cs.washington.edu/research/nlp/
+    kind: paper_or_project
+    source: official
+  - title: Research track · Natural Language Processing
+    url: https://nlp.cs.washington.edu/
+    kind: research_index
+    source: official
+  uw-weird-lab:
+  - title: Paul G. Allen School for Computer Science and Engineering
+    url: https://www.cs.washington.edu
+    kind: paper_or_project
+    source: official
+  - title: Mateo Guaman Castro
+    url: https://www.mateoguaman.com/
+    kind: paper_or_project
+    source: official
+  - title: Research track · Embodied Ai
+    url: https://weirdlab.cs.washington.edu/
+    kind: research_index
+    source: official
+  uiuc-nlp:
+  - title: Siebel School of Computing and Data Science
+    url: https://siebelschool.illinois.edu/
+    kind: paper_or_project
+    source: official
+  - title: Mark Hasegawa-Johnson
+    url: http://www.ifp.illinois.edu/~hasegawa/
+    kind: paper_or_project
+    source: official
+  - title: Research track · Natural Language Processing
+    url: https://nlp.cs.illinois.edu/
+    kind: research_index
+    source: official
+  uiuc-blender-lab:
+  - title: Research track · Natural Language Processing
+    url: https://blender.cs.illinois.edu/
+    kind: research_index
+    source: official
+  - title: Research track · Information Extraction
+    url: https://blender.cs.illinois.edu/
+    kind: research_index
+    source: official
+  - title: Research track · Knowledge Reasoning
+    url: https://blender.cs.illinois.edu/
+    kind: research_index
+    source: official
+  uiuc-dais:
+  - title: CS 277 – Algorithms and Data Structures for Data Science
+    url: https://courses.illinois.edu/search/schedule/2024/spring/CS/277
+    kind: paper_or_project
+    source: official
+  - title: Research track · Data Mining
+    url: https://dais.cs.illinois.edu/
+    kind: research_index
+    source: official
+  - title: Research track · Natural Language Processing
+    url: https://dais.cs.illinois.edu/research/
+    kind: research_index
+    source: official
+  uiuc-secure-learning-lab:
+  - title: '[NeurIPS 2024] Official implementation for "AgentPoison: Red-teaming LLM Agents via Memory or Knowledge Base Backdoor Poisoning"'
+    url: https://github.com/AI-secure/AgentPoison
+    kind: open_source
+    source: github
+    stars: 231
+  - title: "[ICML 2024 Spotlight] Differentially Private Synthetic Data via Foundation Model APIs 2: Text"
+    url: https://github.com/AI-secure/aug-pe
+    kind: open_source
+    source: github
+    stars: 61
+  - title: "[ICML 2025] UDora: A Unified Red Teaming Framework against LLM Agents"
+    url: https://github.com/AI-secure/UDora
+    kind: open_source
+    source: github
+    stars: 38
