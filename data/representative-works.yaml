@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-last_updated: "2026-07-28"
+last_updated: '2026-07-28'
 notes:
 - Each team has three featured entries.
 - paper/open_source/paper_or_project are item-level outputs; research_index is an official research entry awaiting finer curation.
@@ -1190,18 +1190,18 @@ teams:
     kind: paper
     source: official_curated
   ustc-mei-lab:
-  - title: 'AliTok: Towards Sequence Modeling Alignment between Tokenizer and Autoregressive Model'
-    url: https://arxiv.org/pdf/2506.05289
-    kind: paper_or_project
-    source: official
-  - title: Research track · Multimodal
+  - title: Bayesian Window Transformer for Image Restoration
     url: https://ustc-milab.work/
-    kind: research_index
-    source: official
-  - title: Research track · Embodied Ai
+    kind: paper
+    source: official_curated
+  - title: Mamba-Driven Comprehensive Context Learning for Zero-Shot HOI Detection
     url: https://ustc-milab.work/
-    kind: research_index
-    source: official
+    kind: paper
+    source: official_curated
+  - title: 'AR-Diffusion: Asynchronous Video Generation with Auto-Regressive Diffusion'
+    url: https://ustc-milab.work/
+    kind: paper
+    source: official_curated
   nju-lamda:
   - title: An Efficient, Scalable and Optimized Python Framework for Deep Forest (2021.2.1)
     url: https://github.com/LAMDA-NJU/Deep-Forest
@@ -1328,18 +1328,18 @@ teams:
     kind: research_index
     source: official
   hkust-gz-mdi:
-  - title: Research track · Medical Ai
+  - title: 'Core: Precision Medical Assistance System'
     url: https://mdi.hkust-gz.edu.cn/en/
-    kind: research_index
-    source: official
-  - title: Research track · Pathology
+    kind: paper_or_project
+    source: official_curated
+  - title: 'Care: Outpatient Follow-up Management Platform'
     url: https://mdi.hkust-gz.edu.cn/en/
-    kind: research_index
-    source: official
-  - title: Research track · Multimodal
+    kind: paper_or_project
+    source: official_curated
+  - title: Intelligent Multimodal Medical Data Platform
     url: https://mdi.hkust-gz.edu.cn/en/
-    kind: research_index
-    source: official
+    kind: paper_or_project
+    source: official_curated
   hkust-gz-hpml:
   - title: HKUST(GZ) X Program
     url: https://rd.hkust-gz.edu.cn/2025/04/hkustgz-explorers-undergraduate-research-program-x-program-%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%B9%BF%E5%B7%9E%EF%BC%89%E6%8E%A2%E7%B4%A2%E8%80%85/#new_tab
@@ -1441,18 +1441,18 @@ teams:
     kind: research_index
     source: official
   cuhk-language-processing-lab:
-  - title: https://aclanthology.org/2025.coling-main.459/
-    url: https://aclanthology.org/2025.coling-main.459//
-    kind: paper_or_project
-    source: official
-  - title: https://aclanthology.org/2025.coling-main.677/
+  - title: Linguistic Minimal Pairs Elicit Linguistic Similarity in Large Language Models
+    url: https://aclanthology.org/2025.coling-main.459/
+    kind: paper
+    source: official_curated
+  - title: 'Unveiling Language Competence Neurons: A Psycholinguistic Approach to Model Interpretability'
     url: https://aclanthology.org/2025.coling-main.677/
-    kind: paper_or_project
-    source: official
-  - title: Research track · Natural Language Processing
-    url: https://cuhklpl.github.io/
-    kind: research_index
-    source: official
+    kind: paper
+    source: official_curated
+  - title: 'Evaluating Grammatical Well-Formedness in Large Language Models: A Comparative Study with Human Judgments'
+    url: https://aclanthology.org/2024.cmcl-1.16/
+    kind: paper
+    source: official_curated
   hkust-dv-lab:
   - title: Research track · Computer Vision
     url: https://www.dvlab.ai/
@@ -1662,18 +1662,18 @@ teams:
     source: github
     stars: 9
   cmu-robotics-institute:
-  - title: Research track · Robotics
+  - title: 'What needs to be learned in robot learning? A case study: learning battery insertion from a diagram'
     url: https://www.ri.cmu.edu/
-    kind: research_index
-    source: official
-  - title: Research track · Embodied Ai
-    url: https://github.com/cmu-robotics
-    kind: research_index
-    source: official
-  - title: Research track · Computer Vision
-    url: https://www.ri.cmu.edu/research/
-    kind: research_index
-    source: official
+    kind: paper_or_project
+    source: official_curated
+  - title: Harnessing AI to Find Critical Minerals
+    url: https://www.ri.cmu.edu/harnessing-ai-to-find-critical-minerals/
+    kind: paper_or_project
+    source: official_curated
+  - title: 'Healthcare Blind Spots: AI Models Prone To Fabricating Diagnoses'
+    url: https://www.ri.cmu.edu/healthcare-blind-spots-ai-models-prone-to-fabricating-diagnoses/
+    kind: paper_or_project
+    source: official_curated
   cmu-auton-lab:
   - title: Auton Survival -  an open source package for Regression, Counterfactual Estimation, Evaluation and Phenotyping with Censored Time-to-Events
     url: https://github.com/autonlab/auton-survival
@@ -1704,31 +1704,31 @@ teams:
     kind: paper_or_project
     source: official
   mit-csail:
-  - title: Skip to main content
-    url: https://www.csail.mit.edu/#main-content
+  - title: LLMs help robots understand vague instructions and focus on key details
+    url: https://www.csail.mit.edu/news/llms-help-robots-understand-vague-instructions-and-focus-key-details
     kind: paper_or_project
-    source: official
-  - title: Skip to main content
-    url: https://www.csail.mit.edu/research#main-content
+    source: official_curated
+  - title: AI agents create virtual playgrounds to help robots get crucial training data
+    url: https://www.csail.mit.edu/news/ai-agents-create-virtual-playgrounds-help-robots-get-crucial-training-data
     kind: paper_or_project
-    source: official
-  - title: Research track · Machine Learning
-    url: https://www.csail.mit.edu/
-    kind: research_index
-    source: official
+    source: official_curated
+  - title: Motion tracking system shows robots the path most traveled by, keeping them on task
+    url: https://www.csail.mit.edu/news/motion-tracking-system-shows-robots-path-most-traveled-keeping-them-task
+    kind: paper_or_project
+    source: official_curated
   mit-cbmm:
-  - title: Research track · Learning Theory
-    url: https://cbmm.mit.edu/
-    kind: research_index
-    source: official
-  - title: Research track · Computational Neuroscience
-    url: https://github.com/CBMM
-    kind: research_index
-    source: official
-  - title: Research track · Computer Vision
-    url: https://cbmm.mit.edu/research
-    kind: research_index
-    source: official
+  - title: Modeling Human Goal Inference as Inverse Planning in Real Scenes
+    url: https://cbmm.mit.edu/research/cbmm-alumni-seed-grants/modeling-human-goal-inference-inverse-planning-real-scenes
+    kind: paper_or_project
+    source: official_curated
+  - title: Computational Models of Human Social Interaction Perception
+    url: https://cbmm.mit.edu/research/cbmm-alumni-seed-grants/computational-models-human-social-interaction-perception
+    kind: paper_or_project
+    source: official_curated
+  - title: Invariance in Visual Cortex Neurons as Defined Through Deep Generative Networks
+    url: https://cbmm.mit.edu/research/cbmm-alumni-seed-grants/invariance-visual-cortex-neurons-defined-through-deep-generative
+    kind: paper_or_project
+    source: official_curated
   mit-improbable-ai:
   - title: Official implementation of ICLR'24 paper, "Curiosity-driven Red Teaming for Large Language Models" (https://openreview.net/pdf?id=4KqkizXgXU)
     url: https://github.com/Improbable-AI/curiosity_redteam
@@ -1746,18 +1746,18 @@ teams:
     source: github
     stars: 1426
   mit-embodied-intelligence:
-  - title: Research track · Embodied Ai
-    url: https://ei.csail.mit.edu/
-    kind: research_index
-    source: official
-  - title: Research track · Robotics
-    url: https://ei.csail.mit.edu/
-    kind: research_index
-    source: official
-  - title: Research track · Computer Vision
-    url: https://ei.csail.mit.edu/
-    kind: research_index
-    source: official
+  - title: Emergent Discrete Communication in Semantic Spaces
+    url: https://arxiv.org/abs/2108.01828
+    kind: paper
+    source: official_curated
+  - title: Learning to See by Looking at Noise
+    url: https://arxiv.org/abs/2106.05963
+    kind: paper
+    source: official_curated
+  - title: Long-Horizon Manipulation of Unknown Objects via Task and Motion Planning with Estimated Affordances
+    url: https://arxiv.org/abs/2108.04145
+    kind: paper
+    source: official_curated
   stanford-sail:
   - title: Research track · Machine Learning
     url: https://ai.stanford.edu/

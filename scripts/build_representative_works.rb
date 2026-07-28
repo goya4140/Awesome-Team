@@ -41,6 +41,41 @@ MANUAL = {
     ["VEGA: Learning Navigation VLAs from In-the-Wild Egocentric Video with Geometric Trajectory Supervision", "https://gamma.umd.edu/publication/848/", "paper"],
     ["Act on What You See: Unlocking Safe Social Navigation in Vision-Language-Action Models", "https://gamma.umd.edu/publication/849/", "paper"],
     ["PhysGS: Bayesian-Inferred Gaussian Splatting for Physical Property Estimation", "https://gamma.umd.edu/publication/847/", "paper"]
+  ],
+  "cuhk-language-processing-lab" => [
+    ["Linguistic Minimal Pairs Elicit Linguistic Similarity in Large Language Models", "https://aclanthology.org/2025.coling-main.459/", "paper"],
+    ["Unveiling Language Competence Neurons: A Psycholinguistic Approach to Model Interpretability", "https://aclanthology.org/2025.coling-main.677/", "paper"],
+    ["Evaluating Grammatical Well-Formedness in Large Language Models: A Comparative Study with Human Judgments", "https://aclanthology.org/2024.cmcl-1.16/", "paper"]
+  ],
+  "cmu-robotics-institute" => [
+    ["What needs to be learned in robot learning? A case study: learning battery insertion from a diagram", "https://www.ri.cmu.edu/", "paper_or_project"],
+    ["Harnessing AI to Find Critical Minerals", "https://www.ri.cmu.edu/harnessing-ai-to-find-critical-minerals/", "paper_or_project"],
+    ["Healthcare Blind Spots: AI Models Prone To Fabricating Diagnoses", "https://www.ri.cmu.edu/healthcare-blind-spots-ai-models-prone-to-fabricating-diagnoses/", "paper_or_project"]
+  ],
+  "mit-csail" => [
+    ["LLMs help robots understand vague instructions and focus on key details", "https://www.csail.mit.edu/news/llms-help-robots-understand-vague-instructions-and-focus-key-details", "paper_or_project"],
+    ["AI agents create virtual playgrounds to help robots get crucial training data", "https://www.csail.mit.edu/news/ai-agents-create-virtual-playgrounds-help-robots-get-crucial-training-data", "paper_or_project"],
+    ["Motion tracking system shows robots the path most traveled by, keeping them on task", "https://www.csail.mit.edu/news/motion-tracking-system-shows-robots-path-most-traveled-keeping-them-task", "paper_or_project"]
+  ],
+  "mit-embodied-intelligence" => [
+    ["Emergent Discrete Communication in Semantic Spaces", "https://arxiv.org/abs/2108.01828", "paper"],
+    ["Learning to See by Looking at Noise", "https://arxiv.org/abs/2106.05963", "paper"],
+    ["Long-Horizon Manipulation of Unknown Objects via Task and Motion Planning with Estimated Affordances", "https://arxiv.org/abs/2108.04145", "paper"]
+  ],
+  "mit-cbmm" => [
+    ["Modeling Human Goal Inference as Inverse Planning in Real Scenes", "https://cbmm.mit.edu/research/cbmm-alumni-seed-grants/modeling-human-goal-inference-inverse-planning-real-scenes", "paper_or_project"],
+    ["Computational Models of Human Social Interaction Perception", "https://cbmm.mit.edu/research/cbmm-alumni-seed-grants/computational-models-human-social-interaction-perception", "paper_or_project"],
+    ["Invariance in Visual Cortex Neurons as Defined Through Deep Generative Networks", "https://cbmm.mit.edu/research/cbmm-alumni-seed-grants/invariance-visual-cortex-neurons-defined-through-deep-generative", "paper_or_project"]
+  ],
+  "ustc-mei-lab" => [
+    ["Bayesian Window Transformer for Image Restoration", "https://ustc-milab.work/", "paper"],
+    ["Mamba-Driven Comprehensive Context Learning for Zero-Shot HOI Detection", "https://ustc-milab.work/", "paper"],
+    ["AR-Diffusion: Asynchronous Video Generation with Auto-Regressive Diffusion", "https://ustc-milab.work/", "paper"]
+  ],
+  "hkust-gz-mdi" => [
+    ["Core: Precision Medical Assistance System", "https://mdi.hkust-gz.edu.cn/en/", "paper_or_project"],
+    ["Care: Outpatient Follow-up Management Platform", "https://mdi.hkust-gz.edu.cn/en/", "paper_or_project"],
+    ["Intelligent Multimodal Medical Data Platform", "https://mdi.hkust-gz.edu.cn/en/", "paper_or_project"]
   ]
 }.freeze
 

@@ -5009,22 +5009,22 @@
       },
       "representative_works": [
         {
-          "title": "AliTok: Towards Sequence Modeling Alignment between Tokenizer and Autoregressive Model",
-          "url": "https://arxiv.org/pdf/2506.05289",
-          "kind": "paper_or_project",
-          "source": "official"
+          "title": "Bayesian Window Transformer for Image Restoration",
+          "url": "https://ustc-milab.work/",
+          "kind": "paper",
+          "source": "official_curated"
         },
         {
-          "title": "Research track · Multimodal",
+          "title": "Mamba-Driven Comprehensive Context Learning for Zero-Shot HOI Detection",
           "url": "https://ustc-milab.work/",
-          "kind": "research_index",
-          "source": "official"
+          "kind": "paper",
+          "source": "official_curated"
         },
         {
-          "title": "Research track · Embodied Ai",
+          "title": "AR-Diffusion: Asynchronous Video Generation with Auto-Regressive Diffusion",
           "url": "https://ustc-milab.work/",
-          "kind": "research_index",
-          "source": "official"
+          "kind": "paper",
+          "source": "official_curated"
         }
       ]
     },
@@ -5581,22 +5581,22 @@
       },
       "representative_works": [
         {
-          "title": "Research track · Medical Ai",
+          "title": "Core: Precision Medical Assistance System",
           "url": "https://mdi.hkust-gz.edu.cn/en/",
-          "kind": "research_index",
-          "source": "official"
+          "kind": "paper_or_project",
+          "source": "official_curated"
         },
         {
-          "title": "Research track · Pathology",
+          "title": "Care: Outpatient Follow-up Management Platform",
           "url": "https://mdi.hkust-gz.edu.cn/en/",
-          "kind": "research_index",
-          "source": "official"
+          "kind": "paper_or_project",
+          "source": "official_curated"
         },
         {
-          "title": "Research track · Multimodal",
+          "title": "Intelligent Multimodal Medical Data Platform",
           "url": "https://mdi.hkust-gz.edu.cn/en/",
-          "kind": "research_index",
-          "source": "official"
+          "kind": "paper_or_project",
+          "source": "official_curated"
         }
       ]
     },
@@ -6042,22 +6042,22 @@
       },
       "representative_works": [
         {
-          "title": "https://aclanthology.org/2025.coling-main.459/",
-          "url": "https://aclanthology.org/2025.coling-main.459//",
-          "kind": "paper_or_project",
-          "source": "official"
+          "title": "Linguistic Minimal Pairs Elicit Linguistic Similarity in Large Language Models",
+          "url": "https://aclanthology.org/2025.coling-main.459/",
+          "kind": "paper",
+          "source": "official_curated"
         },
         {
-          "title": "https://aclanthology.org/2025.coling-main.677/",
+          "title": "Unveiling Language Competence Neurons: A Psycholinguistic Approach to Model Interpretability",
           "url": "https://aclanthology.org/2025.coling-main.677/",
-          "kind": "paper_or_project",
-          "source": "official"
+          "kind": "paper",
+          "source": "official_curated"
         },
         {
-          "title": "Research track · Natural Language Processing",
-          "url": "https://cuhklpl.github.io/",
-          "kind": "research_index",
-          "source": "official"
+          "title": "Evaluating Grammatical Well-Formedness in Large Language Models: A Comparative Study with Human Judgments",
+          "url": "https://aclanthology.org/2024.cmcl-1.16/",
+          "kind": "paper",
+          "source": "official_curated"
         }
       ]
     },
@@ -6964,22 +6964,22 @@
       },
       "representative_works": [
         {
-          "title": "Research track · Robotics",
+          "title": "What needs to be learned in robot learning? A case study: learning battery insertion from a diagram",
           "url": "https://www.ri.cmu.edu/",
-          "kind": "research_index",
-          "source": "official"
+          "kind": "paper_or_project",
+          "source": "official_curated"
         },
         {
-          "title": "Research track · Embodied Ai",
-          "url": "https://github.com/cmu-robotics",
-          "kind": "research_index",
-          "source": "official"
+          "title": "Harnessing AI to Find Critical Minerals",
+          "url": "https://www.ri.cmu.edu/harnessing-ai-to-find-critical-minerals/",
+          "kind": "paper_or_project",
+          "source": "official_curated"
         },
         {
-          "title": "Research track · Computer Vision",
-          "url": "https://www.ri.cmu.edu/research/",
-          "kind": "research_index",
-          "source": "official"
+          "title": "Healthcare Blind Spots: AI Models Prone To Fabricating Diagnoses",
+          "url": "https://www.ri.cmu.edu/healthcare-blind-spots-ai-models-prone-to-fabricating-diagnoses/",
+          "kind": "paper_or_project",
+          "source": "official_curated"
         }
       ]
     },
@@ -7137,22 +7137,22 @@
       },
       "representative_works": [
         {
-          "title": "Skip to main content",
-          "url": "https://www.csail.mit.edu/#main-content",
+          "title": "LLMs help robots understand vague instructions and focus on key details",
+          "url": "https://www.csail.mit.edu/news/llms-help-robots-understand-vague-instructions-and-focus-key-details",
           "kind": "paper_or_project",
-          "source": "official"
+          "source": "official_curated"
         },
         {
-          "title": "Skip to main content",
-          "url": "https://www.csail.mit.edu/research#main-content",
+          "title": "AI agents create virtual playgrounds to help robots get crucial training data",
+          "url": "https://www.csail.mit.edu/news/ai-agents-create-virtual-playgrounds-help-robots-get-crucial-training-data",
           "kind": "paper_or_project",
-          "source": "official"
+          "source": "official_curated"
         },
         {
-          "title": "Research track · Machine Learning",
-          "url": "https://www.csail.mit.edu/",
-          "kind": "research_index",
-          "source": "official"
+          "title": "Motion tracking system shows robots the path most traveled by, keeping them on task",
+          "url": "https://www.csail.mit.edu/news/motion-tracking-system-shows-robots-path-most-traveled-keeping-them-task",
+          "kind": "paper_or_project",
+          "source": "official_curated"
         }
       ]
     },
@@ -7196,22 +7196,22 @@
       },
       "representative_works": [
         {
-          "title": "Research track · Learning Theory",
-          "url": "https://cbmm.mit.edu/",
-          "kind": "research_index",
-          "source": "official"
+          "title": "Modeling Human Goal Inference as Inverse Planning in Real Scenes",
+          "url": "https://cbmm.mit.edu/research/cbmm-alumni-seed-grants/modeling-human-goal-inference-inverse-planning-real-scenes",
+          "kind": "paper_or_project",
+          "source": "official_curated"
         },
         {
-          "title": "Research track · Computational Neuroscience",
-          "url": "https://github.com/CBMM",
-          "kind": "research_index",
-          "source": "official"
+          "title": "Computational Models of Human Social Interaction Perception",
+          "url": "https://cbmm.mit.edu/research/cbmm-alumni-seed-grants/computational-models-human-social-interaction-perception",
+          "kind": "paper_or_project",
+          "source": "official_curated"
         },
         {
-          "title": "Research track · Computer Vision",
-          "url": "https://cbmm.mit.edu/research",
-          "kind": "research_index",
-          "source": "official"
+          "title": "Invariance in Visual Cortex Neurons as Defined Through Deep Generative Networks",
+          "url": "https://cbmm.mit.edu/research/cbmm-alumni-seed-grants/invariance-visual-cortex-neurons-defined-through-deep-generative",
+          "kind": "paper_or_project",
+          "source": "official_curated"
         }
       ]
     },
@@ -7314,22 +7314,22 @@
       },
       "representative_works": [
         {
-          "title": "Research track · Embodied Ai",
-          "url": "https://ei.csail.mit.edu/",
-          "kind": "research_index",
-          "source": "official"
+          "title": "Emergent Discrete Communication in Semantic Spaces",
+          "url": "https://arxiv.org/abs/2108.01828",
+          "kind": "paper",
+          "source": "official_curated"
         },
         {
-          "title": "Research track · Robotics",
-          "url": "https://ei.csail.mit.edu/",
-          "kind": "research_index",
-          "source": "official"
+          "title": "Learning to See by Looking at Noise",
+          "url": "https://arxiv.org/abs/2106.05963",
+          "kind": "paper",
+          "source": "official_curated"
         },
         {
-          "title": "Research track · Computer Vision",
-          "url": "https://ei.csail.mit.edu/",
-          "kind": "research_index",
-          "source": "official"
+          "title": "Long-Horizon Manipulation of Unknown Objects via Task and Motion Planning with Estimated Affordances",
+          "url": "https://arxiv.org/abs/2108.04145",
+          "kind": "paper",
+          "source": "official_curated"
         }
       ]
     },
