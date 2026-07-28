@@ -2,6 +2,7 @@ const state = {
   data: null,
   query: "",
   region: "",
+  entity: "",
   parent: "",
   focus: "",
   status: "",
@@ -14,6 +15,7 @@ const elements = {
   resultCount: document.querySelector("#result-count"),
   search: document.querySelector("#search"),
   region: document.querySelector("#region-filter"),
+  entity: document.querySelector("#entity-filter"),
   parent: document.querySelector("#parent-filter"),
   focus: document.querySelector("#focus-filter"),
   status: document.querySelector("#status-filter"),
@@ -63,7 +65,7 @@ function setup(data) {
   document.querySelector("#parent-count").textContent = formatNumber(meta.counts.parents);
   document.querySelector("#paper-count").textContent = formatNumber(meta.counts.resolved_papers);
   document.querySelector("#figure-count").textContent = formatNumber(meta.counts.works_with_figures);
-  document.querySelector("#citation-count").textContent = formatNumber(meta.counts.citations);
+  document.querySelector("#scholar-count").textContent = formatNumber(meta.counts.scholar_links);
   document.querySelector("#last-updated").textContent = meta.last_updated;
 
   addOptions(elements.region, [...new Set(data.parents.map((parent) => parent.region))], (value) => labels[value] || value);
@@ -96,6 +98,7 @@ function filteredTeams() {
   return state.data.teams.filter((team) => {
     if (query && !searchableText(team).includes(query)) return false;
     if (state.region && team.parent.region !== state.region) return false;
+    if (state.entity && team.parent.organization_class !== state.entity) return false;
     if (state.parent && team.parent_id !== state.parent) return false;
     if (state.focus && !team.profile.directions_zh.includes(state.focus)) return false;
     if (state.status && team.status !== state.status) return false;
@@ -123,6 +126,7 @@ function workMarkup(work) {
   const title = paper.title || work.title;
   const subline = [paper.venue, paper.year, labels[work.kind]].filter(Boolean).join(" · ");
   const citationKnown = citation.count !== null && citation.count !== undefined;
+  const scholarAvailable = citation.source === "Google Scholar" && citation.source_url;
   const stars = metadata.code_impact?.github_stars;
   const paperUrl = paper.url || work.url;
 
@@ -134,14 +138,14 @@ function workMarkup(work) {
           <span class="work-subline">${escapeHtml(subline)}</span>
         </span>
         <span class="citation-badge ${citationKnown ? "" : "unknown"}">
-          ${citationKnown ? `引用 ${formatNumber(citation.count)}` : "引用待匹配"}
+          ${citationKnown ? `引用 ${formatNumber(citation.count)}` : scholarAvailable ? "Google Scholar ↗" : "非论文条目"}
         </span>
       </summary>
       <div class="work-detail">
-        <h4>摘要 / TL;DR</h4>
+        <h4>${metadata.abstract ? "基于 Abstract 的 TL;DR" : "摘要 / 项目说明"}</h4>
         <p>${escapeHtml(metadata.summary)}</p>
         <div class="impact-row">
-          ${citationKnown ? `<span class="impact-chip">引用量：${formatNumber(citation.count)} · ${escapeHtml(citation.source)} · ${escapeHtml(citation.checked_at)}</span>` : ""}
+          ${citationKnown ? `<span class="impact-chip">引用量：${formatNumber(citation.count)} · ${escapeHtml(citation.source)} · ${escapeHtml(citation.checked_at)}</span>` : scholarAvailable ? `<a class="impact-chip scholar-chip" href="${escapeHtml(citation.source_url)}" target="_blank" rel="noreferrer">在 Google Scholar 查看引用量 ↗</a>` : ""}
           ${stars !== undefined ? `<span class="impact-chip">GitHub Stars：${formatNumber(stars)} · 与引用量分开统计</span>` : ""}
           <span class="impact-chip">匹配状态：${escapeHtml(metadata.resolution_status)}</span>
         </div>
@@ -152,6 +156,7 @@ function workMarkup(work) {
         </div>
         ${figure ? `
           <figure class="paper-figure">
+            <div class="figure-label">关键流程 / 方法图</div>
             <a href="${escapeHtml(figure.source_page)}" target="_blank" rel="noreferrer">
               <img src="${escapeHtml(figure.image_url)}" alt="${escapeHtml(figure.caption)}" loading="lazy">
             </a>
@@ -173,6 +178,7 @@ function teamMarkup(team) {
   const initials = team.name.split(/\s+/).slice(0, 2).map((word) => word[0]).join("").toUpperCase();
   const figureCount = team.representative_works.filter((work) => work.metadata.figure?.image_url).length;
   const resolvedCount = team.representative_works.filter((work) => work.metadata.resolution_status === "resolved").length;
+  const recentDate = team.recent_work.recency?.recent_at || "日期待核验";
 
   return `
     <article class="team-card" id="${escapeHtml(team.id)}">
@@ -201,6 +207,13 @@ function teamMarkup(team) {
       <div class="tag-list">
         ${profile.directions_zh.map((direction) => `<span class="tag">${escapeHtml(direction)}</span>`).join("")}
       </div>
+      <section class="recent-work">
+        <div class="recent-heading">
+          <div><span>RECENT WORK</span><h4>最近工作</h4></div>
+          <time>${escapeHtml(recentDate)}</time>
+        </div>
+        ${workMarkup(team.recent_work)}
+      </section>
       <details class="works-group">
         <summary><span>代表作 · ${team.representative_works.length} 项</span><span>${resolvedCount} 篇已匹配 · ${figureCount} 张原文图</span></summary>
         <div class="works-body">${team.representative_works.map(workMarkup).join("")}</div>
@@ -238,6 +251,7 @@ function bindEvents() {
   });
   [
     ["region", elements.region],
+    ["entity", elements.entity],
     ["parent", elements.parent],
     ["focus", elements.focus],
     ["status", elements.status],
@@ -252,9 +266,9 @@ function bindEvents() {
     render();
   });
   elements.clear.addEventListener("click", () => {
-    Object.assign(state, { query: "", region: "", parent: "", focus: "", status: "", figuresOnly: false });
+    Object.assign(state, { query: "", region: "", entity: "", parent: "", focus: "", status: "", figuresOnly: false });
     elements.search.value = "";
-    [elements.region, elements.parent, elements.focus, elements.status].forEach((select) => { select.value = ""; });
+    [elements.region, elements.entity, elements.parent, elements.focus, elements.status].forEach((select) => { select.value = ""; });
     elements.figuresOnly.checked = false;
     render();
   });

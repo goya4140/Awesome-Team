@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 last_updated: "2026-07-28"
 scope:
   company_regions: [CN-mainland, US]
@@ -32,6 +32,7 @@ companies:
 
 frontier_ai_companies:
   # China
+  - { id: shanghai-ai-lab, name: Shanghai Artificial Intelligence Laboratory, region: CN-mainland, priority: P0, entity_type: research_institute }
   - { id: deepseek, name: DeepSeek, region: CN-mainland, priority: P0, entity_type: frontier_ai_company }
   - { id: zhipu-ai, name: Zhipu AI, region: CN-mainland, priority: P0, entity_type: frontier_ai_company }
   - { id: moonshot-ai, name: Moonshot AI, region: CN-mainland, priority: P0, entity_type: frontier_ai_company }

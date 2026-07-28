@@ -9,6 +9,7 @@ catalog = YAML.load_file(File.join(ROOT, "data", "research-teams.yaml"))
 works_catalog = YAML.load_file(File.join(ROOT, "data", "representative-works.yaml"))
 profiles_catalog = YAML.load_file(File.join(ROOT, "data", "team-profiles.yaml"))
 metadata_catalog = YAML.load_file(File.join(ROOT, "data", "work-metadata.yaml"))
+recent_catalog = YAML.load_file(File.join(ROOT, "data", "recent-works.yaml"))
 
 parents = parents_data.fetch("companies") +
           parents_data.fetch("frontier_ai_companies") +
@@ -18,7 +19,7 @@ teams = catalog.fetch("teams")
 coverage = catalog.fetch("coverage")
 errors = []
 
-errors << "expected 46 parents, found #{parent_ids.size}" unless parent_ids.size == 46
+errors << "expected 47 parents, found #{parent_ids.size}" unless parent_ids.size == 47
 errors << "duplicate parent ids" unless parent_ids.uniq.size == parent_ids.size
 
 team_ids = teams.map { |team| team["id"] }
@@ -100,15 +101,16 @@ metadata_by_work = metadata_catalog.fetch("works")
 expected_metadata_keys = works_by_team.flat_map do |team_id, works|
   works.each_index.map { |index| "#{team_id}:#{index}" }
 end
-errors << "work metadata must cover all 429 featured entries exactly once" unless metadata_by_work.keys.sort == expected_metadata_keys.sort
+errors << "work metadata must cover every featured entry exactly once" unless metadata_by_work.keys.sort == expected_metadata_keys.sort
 metadata_by_work.each do |key, item|
   errors << "#{key}: missing summary" unless item["summary"].is_a?(String) && item["summary"].length >= 20
   errors << "#{key}: missing resolution status" unless %w[resolved unresolved not_a_paper].include?(item["resolution_status"])
   errors << "#{key}: missing citation object" unless item["citation"].is_a?(Hash)
   if item["resolution_status"] == "resolved"
     errors << "#{key}: resolved item missing paper" unless item["paper"].is_a?(Hash) && item.dig("paper", "title")
-    errors << "#{key}: resolved item missing citation count" unless item.dig("citation", "count").is_a?(Integer)
-    errors << "#{key}: resolved item missing citation source" unless item.dig("citation", "source").is_a?(String)
+    errors << "#{key}: resolved item missing Abstract-derived summary" unless item["abstract"].is_a?(String) || item["summary"].include?("暂未提供 Abstract")
+    errors << "#{key}: resolved item must use Google Scholar as citation destination" unless item.dig("citation", "source") == "Google Scholar"
+    errors << "#{key}: resolved item missing Google Scholar URL" unless item.dig("citation", "source_url").to_s.start_with?("https://scholar.google.com/")
     errors << "#{key}: resolved item has a negative citation count" if item.dig("citation", "count").is_a?(Integer) && item.dig("citation", "count").negative?
   end
   if item["figure"]
@@ -122,6 +124,14 @@ resolved_count = metadata_by_work.values.count { |item| item["resolution_status"
 figure_count = metadata_by_work.values.count { |item| item["figure"] }
 errors << "expected at least 150 strictly resolved papers, found #{resolved_count}" if resolved_count < 150
 errors << "expected at least 100 original-paper figures, found #{figure_count}" if figure_count < 100
+
+recent_by_team = recent_catalog.fetch("teams")
+errors << "recent works must cover every team exactly once" unless recent_by_team.keys.sort == team_ids.sort
+recent_by_team.each do |team_id, recent|
+  index = recent["work_index"]
+  errors << "#{team_id}: recent work index is invalid" unless index.is_a?(Integer) && index.between?(0, 2)
+  errors << "#{team_id}: recent work missing selection note" unless recent["selection_note"].is_a?(String)
+end
 
 unless errors.empty?
   warn errors.map { |error| "ERROR: #{error}" }.join("\n")

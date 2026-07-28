@@ -2009,3 +2009,73 @@ teams:
     leaders: []
     leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
     leadership_source: https://aisecure.github.io/
+  shanghai-ai-lab-internlm:
+    logo:
+      url: https://github.com/InternLM.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/InternLM
+    introduction: InternLM 隶属于 Shanghai Artificial Intelligence Laboratory，是一支主要关注大语言模型、多模态学习、AI 系统等方向的基础模型团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 大语言模型
+    - 多模态学习
+    - AI 系统
+    - 模型服务
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://internlm.intern-ai.org.cn/
+  shanghai-ai-lab-opengvlab:
+    logo:
+      url: https://github.com/OpenGVLab.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/OpenGVLab
+    introduction: OpenGVLab 隶属于 Shanghai Artificial Intelligence Laboratory，是一支主要关注计算机视觉、多模态学习、视觉语言模型等方向的前沿 AI 研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 计算机视觉
+    - 多模态学习
+    - 视觉语言模型
+    - 视频理解
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://github.com/OpenGVLab
+  shanghai-ai-lab-internscience:
+    logo:
+      url: https://github.com/InternScience.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/InternScience
+    introduction: InternScience 隶属于 Shanghai Artificial Intelligence Laboratory，是一支主要关注AI for Science、智能体、自主科学发现等方向的前沿 AI 研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - AI for Science
+    - 智能体
+    - 自主科学发现
+    - 大语言模型
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://discovery.intern-ai.org.cn/
+  shanghai-ai-lab-opendatalab:
+    logo:
+      url: https://github.com/opendatalab.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/opendatalab
+    introduction: OpenDataLab 隶属于 Shanghai Artificial Intelligence Laboratory，是一支主要关注数据中心 AI、多模态学习、文档智能等方向的研究平台。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 数据中心 AI
+    - 多模态学习
+    - 文档智能
+    - AI for Science
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://opendatalab.github.io/
+  shanghai-ai-lab-opendrivelab:
+    logo:
+      url: https://github.com/OpenDriveLab.png?size=160
+      kind: github_avatar
+      source_url: https://github.com/OpenDriveLab
+    introduction: OpenDriveLab 隶属于 Shanghai Artificial Intelligence Laboratory，是一支主要关注自动驾驶、具身智能、世界模型等方向的前沿 AI 研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+    directions_zh:
+    - 自动驾驶
+    - 具身智能
+    - 世界模型
+    - 机器人
+    leaders: []
+    leadership_note: 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+    leadership_source: https://opendrivelab.com/

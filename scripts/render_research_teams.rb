@@ -10,6 +10,7 @@ TEAMS_PATH = File.join(ROOT, "data", "research-teams.yaml")
 PROFILES_PATH = File.join(ROOT, "data", "team-profiles.yaml")
 WORKS_PATH = File.join(ROOT, "data", "representative-works.yaml")
 METADATA_PATH = File.join(ROOT, "data", "work-metadata.yaml")
+RECENT_PATH = File.join(ROOT, "data", "recent-works.yaml")
 OUTPUT_PATH = File.join(ROOT, "docs", "RESEARCH_TEAMS.md")
 
 parents_data = YAML.load_file(PARENTS_PATH)
@@ -18,10 +19,11 @@ profiles = YAML.load_file(PROFILES_PATH).fetch("teams")
 works = YAML.load_file(WORKS_PATH).fetch("teams")
 metadata_catalog = YAML.load_file(METADATA_PATH)
 metadata = metadata_catalog.fetch("works")
+recent = YAML.load_file(RECENT_PATH).fetch("teams")
 
 sections = [
   ["中国公司", parents_data.fetch("companies").select { |item| item["region"] == "CN-mainland" }],
-  ["中国前沿 AI 公司", parents_data.fetch("frontier_ai_companies").select { |item| item["region"] == "CN-mainland" }],
+  ["中国前沿 AI 公司与研究机构", parents_data.fetch("frontier_ai_companies").select { |item| item["region"] == "CN-mainland" }],
   ["美国公司", parents_data.fetch("companies").select { |item| item["region"] == "US" }],
   ["美国前沿 AI 公司", parents_data.fetch("frontier_ai_companies").select { |item| item["region"] == "US" }],
   ["中国 C9", parents_data.fetch("universities").select { |item| item["group"] == "C9" }],
@@ -61,8 +63,10 @@ def work_block(work, metadata, index)
   figure = metadata["figure"]
   title = paper["title"] || work.fetch("title")
   venue = [paper["venue"], paper["year"]].compact.join(" · ")
-  citation_text = if citation["count"].nil?
-                    "引用量：不适用或尚未可靠匹配"
+  citation_text = if citation["count"].nil? && citation["source"] == "Google Scholar"
+                    "引用量：[在 Google Scholar 查看](#{citation.fetch("source_url")})（未缓存未经核验的数字）"
+                  elsif citation["count"].nil?
+                    "引用量：非论文条目或尚未可靠匹配"
                   else
                     "引用量：**#{citation.fetch("count")}**（[#{citation.fetch("source")}](#{citation.fetch("source_url")})，#{citation.fetch("checked_at")}）"
                   end
@@ -76,12 +80,12 @@ def work_block(work, metadata, index)
   lines << "- GitHub Stars：**#{impact}**（与论文引用量分开统计）" if impact
   lines << "- [论文 / 项目原始入口](#{paper["url"] || work.fetch("url")})"
   lines << ""
-  lines << "**摘要 / TL;DR**"
+  lines << (metadata["abstract"] ? "**基于 Abstract 的 TL;DR**" : "**摘要 / 项目说明**")
   lines << ""
   lines << h(metadata.fetch("summary"))
   if figure
     lines << ""
-    lines << "**原文关键图表**"
+    lines << "**原文关键流程 / 方法图**"
     lines << ""
     lines << "<a href=\"#{h(figure.fetch("source_page"))}\"><img src=\"#{h(figure.fetch("image_url"))}\" alt=\"#{h(figure.fetch("caption"))}\" width=\"720\"></a>"
     lines << ""
@@ -98,11 +102,11 @@ lines << "# Awesome Team · AI 科研团队目录"
 lines << ""
 lines << "> GitHub 内可直接浏览的基础资料版。更适合筛选和阅读图表的版本见 [在线目录](https://goya4140.github.io/awesome-team/)。"
 lines << ""
-lines << "更新日期：**#{teams_data.fetch("last_updated")}** · 引用量来源：[OpenAlex](https://openalex.org/)"
+lines << "更新日期：**#{teams_data.fetch("last_updated")}** · 引用入口：[Google Scholar](https://scholar.google.com/)"
 lines << ""
 lines << "当前收录 **#{teams_data.fetch("teams").size}** 个团队（#{status_counts.fetch("verified", 0)} verified / #{status_counts.fetch("provisional", 0)} provisional），共 **#{all_metadata.size}** 项代表成果；其中 **#{all_metadata.count { |item| item["resolution_status"] == "resolved" }}** 项已匹配论文元数据，**#{all_metadata.count { |item| item.dig("figure", "image_url") }}** 项带原文图表。"
 lines << ""
-lines << "引用量会随时间变化；每项均显示数据来源和核验日期。`research_index` 是官方研究入口，不冒充单篇论文。"
+lines << "Google Scholar 没有官方公开结构化 API；未逐篇核验的数字不缓存，改为提供精确标题检索入口。`research_index` 是官方研究入口，不冒充单篇论文。"
 lines << ""
 lines << "## 快速导航"
 lines << ""
@@ -130,6 +134,12 @@ sections.each do |section_title, parents|
       lines << "- **主要方向：** #{profile.fetch("directions_zh").join("、")}"
       lines << "- **负责人：** #{leader_text(profile)}"
       lines << "- **官方入口：** #{links_for(team)}"
+      lines << ""
+      recent_entry = recent.fetch(team.fetch("id"))
+      recent_index = recent_entry.fetch("work_index")
+      lines << "#### 最近工作 · #{recent_entry.fetch("recent_at", "日期待核验")}"
+      lines << ""
+      lines << work_block(team_works.fetch(recent_index), metadata.fetch("#{team.fetch("id")}:#{recent_index}"), recent_index)
       lines << ""
       lines << "#### 代表作"
       lines << ""
