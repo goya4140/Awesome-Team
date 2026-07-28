@@ -2130,3 +2130,83 @@ teams:
     kind: open_source
     source: github
     stars: 38
+  shanghai-ai-lab-internlm:
+  - title: "Intern-S1: A Scientific Multimodal Foundation Model"
+    url: https://github.com/InternLM/Intern-S1
+    kind: open_source
+    source: github
+    stars: 842
+  - title: "[ICLR 2026] Visual Self-Refine: A Pixel-Guided Paradigm for Accurate Chart Parsing"
+    url: https://github.com/InternLM/VSR
+    kind: open_source
+    source: github
+    stars: 34
+  - title: "[ECCV 2026] EndoCoT: Scaling Endogenous Chain-of-Thought Reasoning in Diffusion Models"
+    url: https://github.com/InternLM/EndoCoT
+    kind: open_source
+    source: github
+    stars: 43
+  shanghai-ai-lab-opengvlab:
+  - title: "[ICLR 2026] VideoChat-Flash: Hierarchical Compression for Long-Context Video Modeling"
+    url: https://github.com/OpenGVLab/VideoChat-Flash
+    kind: open_source
+    source: github
+    stars: 527
+  - title: "[ECCV 2026] Learning Goal-Oriented Language-Guided Navigation with Self-Improving Demonstrations at Scale"
+    url: https://github.com/OpenGVLab/SID-VLN
+    kind: open_source
+    source: github
+    stars: 14
+  - title: "[ICML 2026] GenExam: A Multidisciplinary Text-to-Image Exam"
+    url: https://github.com/OpenGVLab/GenExam
+    kind: open_source
+    source: github
+    stars: 69
+  shanghai-ai-lab-internscience:
+  - title: "ResearchClawBench: Evaluating AI Agents for Automated Research from Re-Discovery to New-Discovery"
+    url: https://github.com/InternScience/ResearchClawBench
+    kind: open_source
+    source: github
+    stars: 227
+  - title: "Agents-A1: Scaling the Horizon, Not the Parameters"
+    url: https://github.com/InternScience/Agents-A1
+    kind: open_source
+    source: github
+    stars: 523
+  - title: "InternAgent-1.5: A Unified Agentic Framework for Long-Horizon Autonomous Scientific Discovery"
+    url: https://github.com/InternScience/InternAgent
+    kind: open_source
+    source: github
+    stars: 1388
+  shanghai-ai-lab-opendatalab:
+  - title: "[CVPR 2025] OmniDocBench: A Comprehensive Benchmark for Document Parsing and Evaluation"
+    url: https://github.com/opendatalab/OmniDocBench
+    kind: open_source
+    source: github
+    stars: 1921
+  - title: "[CVPR 2026] TRivia: Self-supervised Fine-tuning of Vision-Language Models for Table Recognition"
+    url: https://github.com/opendatalab/TRivia
+    kind: open_source
+    source: github
+    stars: 35
+  - title: "[ECCV 2026] MinerU-Diffusion: Parallel Diffusion Decoding for Document OCR"
+    url: https://github.com/opendatalab/MinerU-Diffusion
+    kind: open_source
+    source: github
+    stars: 626
+  shanghai-ai-lab-opendrivelab:
+  - title: "[CVPR 2026 Oral] SimScale: Learning to Drive via Real-World Simulation at Scale"
+    url: https://github.com/OpenDriveLab/SimScale
+    kind: open_source
+    source: github
+    stars: 311
+  - title: "WorldEngine: Towards the Era of Post-Training for Autonomous Driving"
+    url: https://github.com/OpenDriveLab/WorldEngine
+    kind: open_source
+    source: github
+    stars: 477
+  - title: "[RSS 2026] RISE: Self-Improving Robot Policy with Compositional World Model"
+    url: https://github.com/OpenDriveLab/RISE
+    kind: open_source
+    source: github
+    stars: 329

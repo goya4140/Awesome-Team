@@ -1839,6 +1839,86 @@ teams:
       recent_activity: ["https://aisecure.github.io/"]
     status: verified
 
+  - id: shanghai-ai-lab-internlm
+    name: InternLM
+    parent_id: shanghai-ai-lab
+    team_type: foundation_model_team
+    focus: [large-language-models, multimodal, ai-systems, model-serving]
+    homepages:
+      - { kind: official, url: "https://internlm.intern-ai.org.cn/" }
+      - { kind: github, url: "https://github.com/InternLM" }
+    evidence:
+      affiliation:
+        - "https://github.com/InternLM"
+        - "https://www.shlab.org.cn/research"
+      recent_activity:
+        - "https://github.com/InternLM"
+    status: verified
+
+  - id: shanghai-ai-lab-opengvlab
+    name: OpenGVLab
+    parent_id: shanghai-ai-lab
+    team_type: frontier_ai_research_team
+    focus: [computer-vision, multimodal, vision-language-models, video-understanding]
+    homepages:
+      - { kind: github, url: "https://github.com/OpenGVLab" }
+      - { kind: huggingface, url: "https://huggingface.co/OpenGVLab" }
+    evidence:
+      affiliation:
+        - "https://github.com/OpenGVLab"
+        - "https://www.shlab.org.cn/news/5443855"
+      recent_activity:
+        - "https://github.com/OpenGVLab"
+    status: verified
+
+  - id: shanghai-ai-lab-internscience
+    name: InternScience
+    parent_id: shanghai-ai-lab
+    team_type: frontier_ai_research_team
+    focus: [ai-for-science, agents, autonomous-discovery, large-language-models]
+    homepages:
+      - { kind: github, url: "https://github.com/InternScience" }
+      - { kind: official, url: "https://discovery.intern-ai.org.cn/" }
+    evidence:
+      affiliation:
+        - "https://github.com/InternScience"
+        - "https://www.shlab.org.cn/research"
+      recent_activity:
+        - "https://github.com/InternScience"
+    status: verified
+
+  - id: shanghai-ai-lab-opendatalab
+    name: OpenDataLab
+    parent_id: shanghai-ai-lab
+    team_type: research_platform
+    focus: [data-centric-ai, multimodal, document-intelligence, ai-for-science]
+    homepages:
+      - { kind: official, url: "https://opendatalab.github.io/" }
+      - { kind: github, url: "https://github.com/opendatalab" }
+    evidence:
+      affiliation:
+        - "https://opendatalab.github.io/"
+        - "https://www.shlab.org.cn/research"
+      recent_activity:
+        - "https://github.com/opendatalab"
+    status: verified
+
+  - id: shanghai-ai-lab-opendrivelab
+    name: OpenDriveLab
+    parent_id: shanghai-ai-lab
+    team_type: frontier_ai_research_team
+    focus: [autonomous-driving, embodied-ai, world-models, robotics]
+    homepages:
+      - { kind: official, url: "https://opendrivelab.com/" }
+      - { kind: github, url: "https://github.com/OpenDriveLab" }
+    evidence:
+      affiliation:
+        - "https://opendrivelab.com/"
+        - "https://www.shlab.org.cn/research"
+      recent_activity:
+        - "https://github.com/OpenDriveLab"
+    status: verified
+
 coverage:
   - { parent_id: byte-dance, status: searched, team_count: 1 }
   - { parent_id: alibaba, status: searched, team_count: 4 }
@@ -1855,6 +1935,7 @@ coverage:
   - { parent_id: zhipu-ai, status: searched, team_count: 1 }
   - { parent_id: moonshot-ai, status: searched, team_count: 1 }
   - { parent_id: minimax, status: searched, team_count: 1 }
+  - { parent_id: shanghai-ai-lab, status: searched, team_count: 5 }
   - { parent_id: alphabet, status: searched, team_count: 2 }
   - { parent_id: meta, status: searched, team_count: 2 }
   - { parent_id: microsoft, status: searched, team_count: 5 }

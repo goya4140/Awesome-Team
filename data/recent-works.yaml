@@ -1,0 +1,1003 @@
+---
+schema_version: 1
+last_updated: '2026-07-28'
+notes:
+- Recent work is selected independently for every team from its three curated representative entries.
+- Resolved papers take precedence and are ordered by publication year; GitHub pushed_at is used only when a team has no resolved paper.
+- This field measures recency, not importance.
+teams:
+  alibaba-damo-academy:
+    work_index: 1
+    title: "[ICRA 2026] RynnVLA-001: Using Human Demonstrations to Improve Robot Manipulation"
+    url: https://github.com/alibaba-damo-academy/RynnVLA-001
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  alibaba-modelscope:
+    work_index: 0
+    title: Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025).
+    url: https://github.com/modelscope/ms-swift
+    recent_at: '2026-07-28'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  alibaba-nlp:
+    work_index: 2
+    title: '[EMNLP 2025] Code for "Detecting Knowledge Boundary of Vision Large Language Models by Sampling-Based Inference"'
+    url: https://github.com/Alibaba-NLP/VLLM-KB
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  alibaba-qwen:
+    work_index: 1
+    title: '[NeurIPS 2025 D&B Track] Evaluation Code Repo for Paper "PolyMath: Evaluating Mathematical Reasoning in Multilingual Contexts"'
+    url: https://github.com/QwenLM/PolyMath
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  amazon-agi-lab:
+    work_index: 2
+    title: "[ACL 2025] Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models"
+    url: https://github.com/amazon-science/TISER
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  amazon-science:
+    work_index: 2
+    title: "[ACL 2025] Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models"
+    url: https://github.com/amazon-science/TISER
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  ant-areal:
+    work_index: 0
+    title: The RL Bridge for LLM-based Agent Applications. Made Simple & Flexible.
+    url: https://github.com/areal-project/AReaL
+    recent_at: '2026-07-28'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  ant-inclusion-ai:
+    work_index: 0
+    title: "[ICLR 2026] Taming large-scale few-step training with self-adversarial flows! \U0001F44F\U0001F3FB"
+    url: https://github.com/inclusionAI/TwinFlow
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  ant-interactive-ai-lab:
+    work_index: 1
+    title: "[ICCV 2025] Edicho: Consistent Image Editing in the Wild"
+    url: https://github.com/ant-research/edicho
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  anthropic-alignment:
+    work_index: 0
+    title: Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize
+    url: https://github.com/anthropics/defending-code-reference-harness
+    recent_at: '2026-07-16'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  anthropic-economic-research:
+    work_index: 0
+    title: Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize
+    url: https://github.com/anthropics/defending-code-reference-harness
+    recent_at: '2026-07-16'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  anthropic-frontier-red-team:
+    work_index: 0
+    title: Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize
+    url: https://github.com/anthropics/defending-code-reference-harness
+    recent_at: '2026-07-16'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  anthropic-interpretability:
+    work_index: 0
+    title: Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize
+    url: https://github.com/anthropics/defending-code-reference-harness
+    recent_at: '2026-07-16'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  anthropic-societal-impacts:
+    work_index: 0
+    title: Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize
+    url: https://github.com/anthropics/defending-code-reference-harness
+    recent_at: '2026-07-16'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  apple-machine-learning-research:
+    work_index: 2
+    title: "[ICLR 2026] LiTo: Surface Light Field Tokenization"
+    url: https://github.com/apple/ml-lito
+    recent_at: '2026'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  apple-mlx:
+    work_index: 0
+    title: 'MLX: An array framework for Apple silicon'
+    url: https://github.com/ml-explore/mlx
+    recent_at: '2026-07-27'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  baidu-ernie:
+    work_index: 0
+    title: The official repository for ERNIE 4.5 and ERNIEKit – its industrial-grade development toolkit based on PaddlePaddle.
+    url: https://github.com/PaddlePaddle/ERNIE
+    recent_at: '2026-07-24'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  baidu-paddlepaddle:
+    work_index: 2
+    title: 'PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）'
+    url: https://github.com/PaddlePaddle/Paddle
+    recent_at: '2026-07-28'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  berkeley-bair:
+    work_index: 0
+    title: Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction
+    url: https://bair.berkeley.edu/blog/2026/07/26/abbel/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  berkeley-chai:
+    work_index: 0
+    title: A benchmark environment for fully cooperative human-AI performance.
+    url: https://github.com/HumanCompatibleAI/overcooked_ai
+    recent_at: '2025-03-22'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  berkeley-nlp:
+    work_index: 2
+    title: 'Code for Paper: Long Chain-of-Thought Reasoning Across Languages [SCALR @ COLM 2025]'
+    url: https://github.com/Berkeley-NLP/Multilingual-Long-CoT
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  berkeley-rail:
+    work_index: 2
+    title: 'SERL: A Software Suite for Sample-Efficient Robotic Reinforcement Learning'
+    url: https://github.com/rail-berkeley/serl
+    recent_at: '2024'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  berkeley-sky-computing-lab:
+    work_index: 0
+    title: The AI Compute Platform for frontier teams. SkyPilot turns fragmented AI compute into one AI supercomputer, so frontier AI teams build custom intelligence faster.
+    url: https://github.com/skypilot-org/skypilot
+    recent_at: '2026-07-28'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  bytedance-seed:
+    work_index: 2
+    title: "[ICLR 2026] DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle"
+    url: https://github.com/ByteDance-Seed/DAComp
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  cmu-auton-lab:
+    work_index: 1
+    title: 'Official Implementation of "STAMP: Spatial-Temporal Adapter with Multi-Head Pooling". arXiv: https://www.arxiv.org/abs/2511.10848'
+    url: https://github.com/autonlab/STAMP
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  cmu-generative-intelligence-lab:
+    work_index: 0
+    title: Supported Browsers
+    url: https://www.ri.cmu.edu/supported-browsers/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  cmu-language-technologies-institute:
+    work_index: 0
+    title: Carnegie Mellon University
+    url: https://www.cmu.edu/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  cmu-machine-learning-department:
+    work_index: 0
+    title: "[ACL 2024] Speech vs. Transcript: Does It Matter for Human Annotators in Speech Summarization?"
+    url: https://github.com/cmu-mlsp/interview_humanssum
+    recent_at: '2024'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  cmu-robotics-institute:
+    work_index: 0
+    title: 'What needs to be learned in robot learning? A case study: learning battery insertion from a diagram'
+    url: https://www.ri.cmu.edu/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  cuhk-language-processing-lab:
+    work_index: 2
+    title: 'Evaluating Grammatical Well-Formedness in Large Language Models: A Comparative Study with Human Judgments'
+    url: https://aclanthology.org/2024.cmcl-1.16/
+    recent_at: '2024'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  cuhk-legged-robot-lab:
+    work_index: 0
+    title: Research track · Legged Robotics
+    url: https://cuhkleggedrobotlab.github.io/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  cuhk-mmlab:
+    work_index: 0
+    title: "[ECCV 2024] PowerPaint, a versatile image inpainting model that supports text-guided object inpainting, object removal, image outpainting and shape-guided object inpainting with only a single model. 一个高质量多功能的图像修补模型，可以同时支持插入物体、移除物体、图像扩展、形状可控的物体生成，只需要一个模型"
+    url: https://github.com/open-mmlab/PowerPaint
+    recent_at: '2025-12-20'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  cuhk-t-stone-robotics:
+    work_index: 0
+    title: Research track · Robotics
+    url: https://www.cuhk.edu.hk/ri/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  deepseek-research:
+    work_index: 2
+    title: 'DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model'
+    url: https://github.com/deepseek-ai/DeepSeek-V2
+    recent_at: '2024'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  fudan-data-intelligence-lab:
+    work_index: 2
+    title: '联邦学习 AAAI 2024 | FedASMU: Effcient Asynchronous Federated Learning with Dynamic Staleness-Aware Model Update'
+    url: https://dil.fudan.edu.cn/_upload/tpl/14/d5/5333/template5333/pub/2402.pdf
+    recent_at: '2024'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  fudan-disc:
+    work_index: 2
+    title: "[中文法律大模型] DISC-LawLLM: an intelligent legal system powered by large language models (LLMs) to provide a wide range of legal services."
+    url: https://github.com/FudanDISC/DISC-LawLLM
+    recent_at: '2023'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  fudan-nlp:
+    work_index: 2
+    title: ".github"
+    url: https://github.com/FudanNLP/.github
+    recent_at: '2026-05-27'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  google-deepmind:
+    work_index: 0
+    title: 'Official repository for "VideoPrism: A Foundational Visual Encoder for Video Understanding" (ICML 2024)'
+    url: https://github.com/google-deepmind/videoprism
+    recent_at: '2024'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  google-research:
+    work_index: 2
+    title: Tooling for agile modeling on large machine perception embedding databases.
+    url: https://github.com/google-research/perch-hoplite
+    recent_at: '2026-07-27'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  hit-robotics-systems:
+    work_index: 0
+    title: Research track · Robotics
+    url: http://robot.hit.edu.cn/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  hit-scir:
+    work_index: 0
+    title: Language Technology Platform
+    url: https://github.com/HIT-SCIR/ltp
+    recent_at: '2026-03-11'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  hku-data-intelligence-lab:
+    work_index: 1
+    title: '[ACL 2026] "OpenPhone: Mobile Agentic Foundation Models for AI Phone"'
+    url: https://github.com/HKUDS/OpenPhone
+    recent_at: '2026'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  hku-intelligent-cybersecurity:
+    work_index: 1
+    title: 'FuzzAug: Data Augmentation by Coverage-guided Fuzzing for Neural Test Generation'
+    url: https://sec.hku.hk/publications/#he2025fuzzaug
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  hku-sail:
+    work_index: 1
+    title: 'The official website repository of "CoralSRT: Revisiting Coral Reef Semantic Segmentation by Feature Rectification via Self-supervised Guidance". ICCV 2025'
+    url: https://github.com/hkust-vgd/CoralSRT_web
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  hkust-aerial-robotics:
+    work_index: 0
+    title: A robust optimization-based asynchronous Multi-camera-IMU state estimator [ICRA 2024, Workshop on Future of Construction, Best Research Award]
+    url: https://github.com/HKUST-Aerial-Robotics/VINS-Multi
+    recent_at: '2024'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  hkust-caire:
+    work_index: 0
+    title: Skip to main content
+    url: https://caire.hkust.edu.hk/research/projects#main-content
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  hkust-dv-lab:
+    work_index: 0
+    title: Research track · Computer Vision
+    url: https://www.dvlab.ai/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  hkust-gz-dsail:
+    work_index: 0
+    title: Config files for my GitHub profile.
+    url: https://github.com/DSAILatHKUST/DSAILatHKUST
+    recent_at: '2024-06-29'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  hkust-gz-envision:
+    work_index: 0
+    title: ENVISION Lab @ HKUST(GZ)
+    url: https://envision-research.hkust-gz.edu.cn/index.html
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  hkust-gz-hpml:
+    work_index: 0
+    title: HKUST(GZ) X Program
+    url: https://rd.hkust-gz.edu.cn/2025/04/hkustgz-explorers-undergraduate-research-program-x-program-%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%B9%BF%E5%B7%9E%EF%BC%89%E6%8E%A2%E7%B4%A2%E8%80%85/#new_tab
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  hkust-gz-mdi:
+    work_index: 0
+    title: 'Core: Precision Medical Assistance System'
+    url: https://mdi.hkust-gz.edu.cn/en/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  hkust-gz-precognition:
+    work_index: 0
+    title: "[Semantic Scholar]"
+    url: https://www.semanticscholar.org/author/Junwei-Liang/1915796
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  hkust-mevita-robotics:
+    work_index: 0
+    title: Tactile Perception
+    url: https://mrl.hkust.edu.hk/research/#tactile-perception
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  huawei-noahs-ark-lab:
+    work_index: 0
+    title: Trustworthy AI related projects
+    url: https://github.com/huawei-noah/trustworthyAI
+    recent_at: '2026-06-01'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  jd-ai-infrastructures:
+    work_index: 0
+    title: "[ACL 2026] OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction https://arxiv.org/abs/2604.25602"
+    url: https://github.com/jd-opensource/OxyGent
+    recent_at: '2026'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  jd-embodied-ai:
+    work_index: 0
+    title: "[ACL 2026] OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction https://arxiv.org/abs/2604.25602"
+    url: https://github.com/jd-opensource/OxyGent
+    recent_at: '2026'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  jd-multimodal-interaction-world-model:
+    work_index: 0
+    title: "[ACL 2026] OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction https://arxiv.org/abs/2604.25602"
+    url: https://github.com/jd-opensource/OxyGent
+    recent_at: '2026'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  jd-multimodal-llm:
+    work_index: 0
+    title: "[ACL 2026] OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction https://arxiv.org/abs/2604.25602"
+    url: https://github.com/jd-opensource/OxyGent
+    recent_at: '2026'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  jd-speech-acoustics:
+    work_index: 0
+    title: "[ACL 2026] OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction https://arxiv.org/abs/2604.25602"
+    url: https://github.com/jd-opensource/OxyGent
+    recent_at: '2026'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  kuaishou-kling-ai-research:
+    work_index: 2
+    title: "[NeurIPS 2025] Improving Video Generation with Human Feedback"
+    url: https://github.com/KlingAIResearch/VideoAlign
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  kuaishou-kolors:
+    work_index: 0
+    title: 'ResTok: Learning Hierarchical Residuals in 1D Visual Tokenizers for Autoregressive Image Generation'
+    url: https://github.com/Kwai-Kolors/ResTok
+    recent_at: '2026'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  meituan-longcat:
+    work_index: 2
+    title: "[ICLR'26] R-HORIZON: How Far Can Your Large Reasoning Model Really Go in Breadth and Depth?"
+    url: https://github.com/meituan-longcat/R-HORIZON
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  meta-fair:
+    work_index: 0
+    title: "[CVPR 2025 Best Paper Award] VGGT: Visual Geometry Grounded Transformer"
+    url: https://github.com/facebookresearch/vggt
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  meta-reality-labs-research:
+    work_index: 0
+    title: "[CVPR 2025 Best Paper Award] VGGT: Visual Geometry Grounded Transformer"
+    url: https://github.com/facebookresearch/vggt
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  microsoft-ai-for-science:
+    work_index: 0
+    title: "[ICRA 2026] VITRA: Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos"
+    url: https://github.com/microsoft/VITRA
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  microsoft-ai-frontiers:
+    work_index: 0
+    title: "[ICRA 2026] VITRA: Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos"
+    url: https://github.com/microsoft/VITRA
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  microsoft-computer-vision:
+    work_index: 0
+    title: "[ICRA 2026] VITRA: Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos"
+    url: https://github.com/microsoft/VITRA
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  microsoft-general-ai:
+    work_index: 0
+    title: "[ICRA 2026] VITRA: Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos"
+    url: https://github.com/microsoft/VITRA
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  microsoft-machine-learning-area:
+    work_index: 0
+    title: "[ICRA 2026] VITRA: Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos"
+    url: https://github.com/microsoft/VITRA
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  minimax-research:
+    work_index: 0
+    title: "[ECCV 2026] Towards Scalable Pre-training of Visual Tokenizers for Generation"
+    url: https://github.com/MiniMax-AI/VTP
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  mit-cbmm:
+    work_index: 0
+    title: Modeling Human Goal Inference as Inverse Planning in Real Scenes
+    url: https://cbmm.mit.edu/research/cbmm-alumni-seed-grants/modeling-human-goal-inference-inverse-planning-real-scenes
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  mit-csail:
+    work_index: 0
+    title: LLMs help robots understand vague instructions and focus on key details
+    url: https://www.csail.mit.edu/news/llms-help-robots-understand-vague-instructions-and-focus-key-details
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  mit-embodied-intelligence:
+    work_index: 2
+    title: Long-Horizon Manipulation of Unknown Objects via Task and Motion Planning with Estimated Affordances
+    url: https://arxiv.org/abs/2108.04145
+    recent_at: '2022'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  mit-improbable-ai:
+    work_index: 1
+    title: 'Official implementation of NeurIPS''23 paper, Beyond Uniform Sampling: Offline Reinforcement Learning with Imbalanced Datasets'
+    url: https://github.com/Improbable-AI/dw-offline-rl
+    recent_at: '2023'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  moonshot-kimi:
+    work_index: 2
+    title: Kimi Code CLI  —  The Starting Point for Next-Gen Agents
+    url: https://github.com/MoonshotAI/kimi-code
+    recent_at: '2026-07-28'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  nju-lamda:
+    work_index: 0
+    title: An Efficient, Scalable and Optimized Python Framework for Deep Forest (2021.2.1)
+    url: https://github.com/LAMDA-NJU/Deep-Forest
+    recent_at: '2026-05-18'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  nju-lamda-cl:
+    work_index: 2
+    title: External Knowledge Injection for CLIP-Based Class-Incremental Learning (ICCV 2025)
+    url: https://github.com/LAMDA-CL/ICCV25-ENGINE
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  ntu-declare:
+    work_index: 0
+    title: "[ICLR 2026] TangoFlux: Super Fast and Faithful Text to Audio Generation with Flow Matching"
+    url: https://github.com/declare-lab/TangoFlux
+    recent_at: '2024'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  ntu-grail:
+    work_index: 0
+    title: Emeritus Professorship
+    url: https://www.ntu.edu.sg/computing/about-us/emeritus-professorship
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  ntu-mmlab:
+    work_index: 0
+    title: CVPR 2026 GigaBrain Workshop
+    url: https://gigaai-research.github.io/GigaBrain-Challenge-2026/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  ntu-nlp:
+    work_index: 0
+    title: Research track · Natural Language Processing
+    url: https://ntunlpsg.github.io/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  ntu-s-lab:
+    work_index: 0
+    title: Show me more results >
+    url: https://www.ntu.edu.sg/search-results?q={{=%20it.term}}
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  nus-ai-institute:
+    work_index: 0
+    title: Research track · Foundation Models
+    url: https://ai.nus.edu.sg/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  nus-ai-lab:
+    work_index: 0
+    title: 'Handling Missing Values in Information Systems Research: A Review of Methods and Assumptions'
+    url: https://nusail.comp.nus.edu.sg/integrating-deep-learning-statistical-models-and-structured-representations/index.html
+    recent_at: '2022'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  nus-cvml:
+    work_index: 0
+    title: A curated list of awesome temporal action segmentation resources.
+    url: https://github.com/nus-cvml/awesome-temporal-action-segmentation
+    recent_at: '2024-04-04'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  nus-nlp:
+    work_index: 1
+    title: "[ICCV 2025] Factorized Learning for Temporally Grounded Video-Language Models"
+    url: https://github.com/nusnlp/d2vlm
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  nvidia-cosmos-lab:
+    work_index: 1
+    title: "[CVPR 2025 Best Paper Nomination] FoundationStereo: Zero-Shot Stereo Matching"
+    url: https://github.com/NVlabs/FoundationStereo
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  nvidia-dair:
+    work_index: 1
+    title: "[CVPR 2025 Best Paper Nomination] FoundationStereo: Zero-Shot Stereo Matching"
+    url: https://github.com/NVlabs/FoundationStereo
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  nvidia-efficient-ai:
+    work_index: 1
+    title: "[CVPR 2025 Best Paper Nomination] FoundationStereo: Zero-Shot Stereo Matching"
+    url: https://github.com/NVlabs/FoundationStereo
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  nvidia-gear:
+    work_index: 1
+    title: "[CVPR 2025 Best Paper Nomination] FoundationStereo: Zero-Shot Stereo Matching"
+    url: https://github.com/NVlabs/FoundationStereo
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  openai-research:
+    work_index: 2
+    title: MLE-bench is a benchmark for measuring how well AI agents perform at machine learning engineering
+    url: https://github.com/openai/mle-bench
+    recent_at: '2024'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  pku-alignment:
+    work_index: 1
+    title: "[NeurIPS 2025 Spotlight] Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning."
+    url: https://github.com/PKU-Alignment/SafeVLA
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  pku-camera-intelligence:
+    work_index: 2
+    title: 'EventAid: Benchmarking event-aided image/video enhancement algorithms with real-captured hybrid dataset'
+    url: https://camera.pku.edu.cn/publication
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  pku-core:
+    work_index: 0
+    title: Proposing and solving olympiad geometry with guided tree search
+    url: https://pku.ai/
+    recent_at: '2026'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  pku-dair:
+    work_index: 1
+    title: "[ICDE 2025] A-Tune-Online: Efficient and QoS-aware Online Configuration Tuning for Dynamic Workloads."
+    url: https://github.com/PKU-DAIR/A-Tune-Online
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  pku-wu-lab:
+    work_index: 0
+    title: RepoZero
+    url: https://github.com/PKU-Wu-Lab/RepoZero
+    recent_at: '2026-07-09'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  rednote-hi-lab:
+    work_index: 0
+    title: Research track · Large Language Models
+    url: https://github.com/rednote-hilab/dots.vlm1
+    recent_at: '2025-09-26'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  shanghai-ai-lab-internlm:
+    work_index: 0
+    title: 'Intern-S1: A Scientific Multimodal Foundation Model'
+    url: https://github.com/InternLM/Intern-S1
+    recent_at: '2026'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  shanghai-ai-lab-internscience:
+    work_index: 2
+    title: 'InternAgent-1.5: A Unified Agentic Framework for Long-Horizon Autonomous Scientific Discovery'
+    url: https://github.com/InternScience/InternAgent
+    recent_at: '2026'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  shanghai-ai-lab-opendatalab:
+    work_index: 2
+    title: "[ECCV 2026] MinerU-Diffusion: Parallel Diffusion Decoding for Document OCR"
+    url: https://github.com/opendatalab/MinerU-Diffusion
+    recent_at: '2026'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  shanghai-ai-lab-opendrivelab:
+    work_index: 1
+    title: 'WorldEngine: Towards the Era of Post-Training for Autonomous Driving'
+    url: https://github.com/OpenDriveLab/WorldEngine
+    recent_at: '2026'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  shanghai-ai-lab-opengvlab:
+    work_index: 0
+    title: "[ICLR 2026] VideoChat-Flash: Hierarchical Compression for Long-Context Video Modeling"
+    url: https://github.com/OpenGVLab/VideoChat-Flash
+    recent_at: '2024'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  sjtu-gair-nlp:
+    work_index: 0
+    title: "[COLM 2025] LIMO: Less is More for Reasoning"
+    url: https://github.com/GAIR-NLP/LIMO
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  sjtu-mifa:
+    work_index: 0
+    title: Shanghai Jiao Tong University
+    url: https://www.sjtu.edu.cn/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  sjtu-mint:
+    work_index: 2
+    title: 'Evo-1: Lightweight Vision-Language-Action Model with Preserved Semantic Alignment'
+    url: https://github.com/MINT-SJTU/Evo-1
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  sjtu-rl2:
+    work_index: 2
+    title: 'Constrained Dirichlet Distribution Policy: Guarantee Zero Constraint Violation for Continuous Robotic Control'
+    url: https://gaoyue.sjtu.edu.cn/paperlist/Dirichletv1.html
+    recent_at: '2024'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  stanford-crfm:
+    work_index: 1
+    title: Holistic Evaluation of Language Models (HELM) is an open source Python framework created by the Center for Research on Foundation Models (CRFM) at Stanford for holistic, reproducible and transparent evaluation of foundation models, including large language models (LLMs) and multimodal models.
+    url: https://github.com/stanford-crfm/helm
+    recent_at: '2026-07-01'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  stanford-iliad:
+    work_index: 2
+    title: Public release for "Shared Autonomy for Proximal Teaching"
+    url: https://github.com/Stanford-ILIAD/proximal-teaching
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  stanford-nlp:
+    work_index: 1
+    title: Stanford NLP Python library for understanding and improving PyTorch models via interventions
+    url: https://github.com/stanfordnlp/pyvene
+    recent_at: '2024'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  stanford-sail:
+    work_index: 0
+    title: Research track · Machine Learning
+    url: https://ai.stanford.edu/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  stanford-svl:
+    work_index: 1
+    title: 'Official repo for CVPR 2022 (Oral) paper: Revisiting the "Video" in Video-Language Understanding. Contains code for the Atemporal Probe (ATP).'
+    url: https://github.com/StanfordVL/atp-video-language
+    recent_at: '2022'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  tencent-ai-lab:
+    work_index: 1
+    title: The image prompt adapter is designed to enable a pretrained text-to-image diffusion model to generate images with image prompt.
+    url: https://github.com/tencent-ailab/IP-Adapter
+    recent_at: '2023'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  tencent-arc-lab:
+    work_index: 1
+    title: "[SIGGRAPH 2026] Pixal3D: Pixel-Aligned 3D Generation from Images"
+    url: https://github.com/TencentARC/Pixal3D
+    recent_at: '2026'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  tencent-hunyuan:
+    work_index: 2
+    title: "[CVPR-2025] The official code of HunyuanPortrait: Implicit Condition Control for Enhanced Portrait Animation"
+    url: https://github.com/Tencent-Hunyuan/HunyuanPortrait
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  tencent-youtu-lab:
+    work_index: 0
+    title: "[CVPR 2025 Highlight] DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos"
+    url: https://github.com/Tencent/DepthCrafter
+    recent_at: '2024'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  tsinghua-air:
+    work_index: 0
+    title: Big Data Intelligence （BDI）Lab
+    url: https://air.tsinghua.edu.cn/en/Research1/Big_Data_Intelligence_Lab.htm
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  tsinghua-coai:
+    work_index: 2
+    title: Benchmarking Complex Instruction-Following with Multiple Constraints Composition (NeurIPS 2024 Datasets and Benchmarks Track)
+    url: https://github.com/thu-coai/ComplexBench
+    recent_at: '2024'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  tsinghua-keg-thudm:
+    work_index: 0
+    title: "[ICLR 2025] LongWriter: Unleashing 10,000+ Word Generation from Long Context LLMs"
+    url: https://github.com/THUDM/LongWriter
+    recent_at: '2024'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  tsinghua-thunlp:
+    work_index: 0
+    title: "[ICLR 2026 Blogpost Track Poster] JustRL: Scaling a 1.5B LLM with a Simple RL Recipe"
+    url: https://github.com/thunlp/JustRL
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  ucsd-contextual-robotics:
+    work_index: 0
+    title: Tania Morimoto Recognized with MassRobotics Rising Star in Robotics Medal
+    url: https://www.massrobotics.org/massrobotics-announces-recipients-of-2025-robotics-medal-recognizing-accomplishments-of-women-in-robotics/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  ucsd-cvrr-lisa:
+    work_index: 0
+    title: 'doi: 10.1109/JSTSP.2012.2196975'
+    url: http://web.archive.org/web/20210518075048/http://dx.doi.org/10.1109/JSTSP.2012.2196975
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  ucsd-existential-robotics:
+    work_index: 0
+    title: 'Code release for Seeing the Bigger Picture: 3D Latent Mapping for Mobile Manipulation Policy Learning (ICRA 2026)'
+    url: https://github.com/ExistentialRobotics/SBP
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  ucsd-hdsi-ai-ml:
+    work_index: 0
+    title: Commitment and Resources
+    url: https://datascience.ucsd.edu/commitment-and-resources/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  uiuc-blender-lab:
+    work_index: 0
+    title: Research track · Natural Language Processing
+    url: https://blender.cs.illinois.edu/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  uiuc-dais:
+    work_index: 0
+    title: CS 277 – Algorithms and Data Structures for Data Science
+    url: https://courses.illinois.edu/search/schedule/2024/spring/CS/277
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  uiuc-nlp:
+    work_index: 0
+    title: Siebel School of Computing and Data Science
+    url: https://siebelschool.illinois.edu/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  uiuc-secure-learning-lab:
+    work_index: 2
+    title: "[ICML 2025] UDora: A Unified Red Teaming Framework against LLM Agents"
+    url: https://github.com/AI-secure/UDora
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  umd-clip:
+    work_index: 0
+    title: Department of Computer Science
+    url: http://www.cs.umd.edu/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  umd-gamma:
+    work_index: 0
+    title: 'VEGA: Learning Navigation VLAs from In-the-Wild Egocentric Video with Geometric Trajectory Supervision'
+    url: https://gamma.umd.edu/publication/848/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  umd-maryland-robotics-center:
+    work_index: 0
+    title: Autonomous Systems
+    url: https://robotics.umd.edu/research/autonomous-systems
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  umd-umiacs:
+    work_index: 0
+    title: Ceph Object Storage Admin API python library bindings.
+    url: https://github.com/UMIACS/rgwadmin
+    recent_at: '2024-02-13'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  ustc-alpha-lab:
+    work_index: 0
+    title: 'MemOCR: Layout-Aware Visual Memory for Efficient Long-Horizon Reasoning'
+    url: https://alphalab-ustc.github.io/publications.html
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  ustc-ivc:
+    work_index: 0
+    title: Research track · Computer Vision
+    url: https://ustc-ivclab.github.io/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  ustc-mei-lab:
+    work_index: 0
+    title: Bayesian Window Transformer for Image Restoration
+    url: https://ustc-milab.work/
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  ustc-vim:
+    work_index: 0
+    title: Website Production：Provided by Weilai Technology
+    url: http://www.ahweilai.com/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  uw-nlp:
+    work_index: 0
+    title: Masters degree in Computational Linguistics
+    url: http://www.compling.uw.edu/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  uw-robotics:
+    work_index: 2
+    title: UWRobotics competition repository for our season 2026 competition rover Sparky.
+    url: https://github.com/uwrobotics/Sparky-CIRC-2026
+    recent_at: '2026-07-27'
+    recency_source: github_pushed_at
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  uw-wail:
+    work_index: 0
+    title: WCAG accessibility standards
+    url: https://www.w3.org/WAI/standards-guidelines/wcag/
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  uw-weird-lab:
+    work_index: 0
+    title: Paul G. Allen School for Computer Science and Engineering
+    url: https://www.cs.washington.edu
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  xiaohongshu-firered:
+    work_index: 1
+    title: 'Official implementation of "ReMatch: Boosting Representation through Matching for Multimodal Retrieval" (CVPR 2026)'
+    url: https://github.com/FireRedTeam/ReMatch
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  xiaomi-embodied-intelligence:
+    work_index: 2
+    title: 'MiMo: Unlocking the Reasoning Potential of Language Model – From Pretraining to Posttraining'
+    url: https://github.com/XiaomiMiMo/MiMo
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  xiaomi-mimo:
+    work_index: 1
+    title: 'MiMo: Unlocking the Reasoning Potential of Language Model – From Pretraining to Posttraining'
+    url: https://github.com/XiaomiMiMo/MiMo
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  xjtu-ai-sec:
+    work_index: 0
+    title: Selected Publications
+    url: https://gr.xjtu.edu.cn/cshen/zh_CN/zdylm/1000952/list/index.htm
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  xjtu-robotics-institute:
+    work_index: 0
+    title: Teaching & Learning
+    url: https://en.xjtu.edu.cn/teachingandlearning.html
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  zhipu-glm:
+    work_index: 2
+    title: 'SCAIL: Towards Studio-Grade Character Animation via In-Context Learning of 3D-Consistent Pose Representations (CVPR 2026 Findings)'
+    url: https://github.com/zai-org/SCAIL
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  zju-3dv:
+    work_index: 1
+    title: 'Code for "GVHMR: World-Grounded Human Motion Recovery via Gravity-View Coordinates", Siggraph Asia 2024, TPAMI 2026'
+    url: https://github.com/zju3dv/GVHMR
+    recent_at: '2024'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  zju-nlp-kg:
+    work_index: 1
+    title: "[ICLR 2026] LightMem: Lightweight and Efficient Memory-Augmented Generation"
+    url: https://github.com/zjunlp/LightMem
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  zju-real:
+    work_index: 1
+    title: "[ICLR 2026] SpatialLadder: Progressive Training for Spatial Reasoning in Vision-Language Models"
+    url: https://github.com/ZJU-REAL/SpatialLadder
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。

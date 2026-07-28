@@ -1,0 +1,803 @@
+---
+schema_version: 1
+last_updated: '2026-07-28'
+model: llama3.2
+notes:
+- Chinese TL;DRs are generated locally and strictly grounded in the stored paper abstract.
+- Each cache entry is keyed by the SHA-256 digest of its source abstract.
+works:
+  alibaba-damo-academy:0:
+    abstract_sha256: 54f6c712d4e94bbc20e3280901f53793a138604f5af7697643c3d77af667acad
+    summary_zh: Uni3C是一种统一的3D增强框架，旨在精确控制视频生成中的相机和人体运动。该框架通过两个关键贡献来实现这一目标：首先，提出了一个可插拔的控制模块PCDController，利用单眼深度图的未投影点云来实现精确的相机控制；第二，提出了一个统一的3D世界指引， seamless地整合景点点云和SMPL-X人体模型，以统一控制信号。Uni3C在相机控制和人体运动质量方面取得了显著的优势。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  alibaba-damo-academy:1:
+    abstract_sha256: 3e8ef3befed855a94fa5332c3f3fc88167e08663030b292b213064abea37defb
+    summary_zh: 该研究提出了一种两阶段的预训练方法，首先使用12M个自主操作视频进行图像到视频预训练，接着联合预测未来关键点轨迹。结果表明，该方法可以有效提高视觉框架预测和动作预测的性能，并且在同类数据集上超越了现有最佳模型。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  alibaba-nlp:0:
+    abstract_sha256: b0bbdd72ece2d7d9c32d26293157e0cd6b0b088b4bc5fceee2e80f8a02192881
+    summary_zh: '以下是简要的 TL;DR : 研究问题：传统的Retrieval-Augmented Generation（RAG）方法难以有效处理视觉丰富的文档，导致信息理解和推理能力有限。现有的 benchmarks主要关注图像-based问答（QA），忽略了视觉文档中效率的检索、理解和推理挑战。 核心方法：我们提出了ViDoSeek.dataset和ViDoRAG框架，旨在评估RAG性能在视觉丰富文档上。ViDoRAG采用Gaussian Mixture Model（GMM）-based混合策略来有效处理多模态检索，并引入了迭代代理流程，以促进模型的推理能力。 主要实验结论：我们的方法ViDoRAG在竞争性基准 ViDoSeek上表现出显著优势，超过现有方法的10%。'
+    model: llama3.2
+    generated_at: '2026-07-28'
+  alibaba-nlp:1:
+    abstract_sha256: 983583f576b398f671bfc58a171be2a6486a5c9278b67be80aa5225a589e47b2
+    summary_zh: 该研究提出了一种名为CHRONOS的方法，用于构建开源新闻时线总结。该方法通过反复询问和更新信息来聚集相关文档，并在每个轮次中生成基于文档检索的时间线总结。实验结果表明，CHRONOS不仅能够有效地处理开源时线总结，而且也与已有的闭域应用系统相比表现出相当好的效果。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  alibaba-nlp:2:
+    abstract_sha256: eb70b39365ce813f97123e78ffeee0e740d6858c31f5faa5f60a5bababf6cc91
+    summary_zh: 该研究旨在解决 Vision Large Language Models（VLLMs）在处理知识密集或需要实时信息的问题。研究者提出了一个方法来检测 VLLMs 的知识界限，从而可以更高效地使用 Retrieval Augmented Generation（RAG）技术。实验结果表明，该方法能够有效识别 VLLM 的知识界限，并且可以减少不必要的检索，同时保持或提高性能。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  alibaba-qwen:0:
+    abstract_sha256: e3fc3ecf76fc49a8e7f8c8753ed4ee92986b01b4807697e912da546a88d074c7
+    summary_zh: 该研究探讨了语言模型的多样性和可解释性问题。研究人员使用了多种方法，包括对语言模型的分析和评估，以了解其在不同任务上的表现。实验结果表明，语言模型在某些任务上具有出色的性能，但在其他任务上则存在缺陷。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  alibaba-qwen:1:
+    abstract_sha256: 3e170aef7b6c0caf5431acc95b92feffa5357e8af8b5127b316ca097d4c79788
+    summary_zh: 本文 introduces PolyMath，一个涵盖18种语言和4个难度级别的多语种数学推理benchmark。研究发现，即使是目前最先进的LLM，如Qwen-3-235B-A22B-Thinking和Gemini-2.5-pro，也无法获得高分，表明LLMs在多语种推理中的挑战性仍然存在。控制输出语言可以改善推理性能，尤其对于低资源语言。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  amazon-agi-lab:0:
+    abstract_sha256: 6e653a58fa9c89475e865352a58d14de32dd14927cf624d0e95905a8daad7a30
+    summary_zh: 研究人员提出一种两阶段预训练方案，利用大量代码数据来改善代码表示学习。他们发现这种方法可以建立一个高性能的编码器模型，远超现有模型在多种下游任务上的表现。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  amazon-agi-lab:1:
+    abstract_sha256: 180f500c7ef1a35d43cce5ccf0f93f078c4c4043f651461a8fdc10ce25b3308b
+    summary_zh: 我们提出了一种新方法来评估Retrieval-Augmented Large Language Models（RAG）的任务特异性准确度。该方法使用自动生成的多选题考试，基于与任务相关的文档集合，评估RAG的性能。我们的方法是一种自动化、成本效益、解释性和robust的策略来选择RAG系统的最佳组件。我们利用Item Response Theory（IRT）估计测试的质量和信息性，并提供了一个自然的方式来通过移除不够信息性的考试题来迭代改进测试。我们的方法在四个新开启的问答任务上进行了实验，包括Arxiv摘要、StackExchange问题、AWS DevOps troubleshooting指南和SEC文件。我们的实验结果表明，选择正确的检索算法往往比仅使用更大的语言模型来获得更大的性能提升。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  amazon-agi-lab:2:
+    abstract_sha256: 033a49ae640cfb0c4239fb5c62129e8bf92c2d8fad5513b7c5f878980d29611f
+    summary_zh: 研究问题是大型语言模型（LLM）在时间推理方面的局限性。该论文提出TISER框架，通过多阶段过程和测试时缩放来增强LMM的时间推理能力。实验结果显示TISER实现了多项benchmarks的最佳表现，并使小型开源模型能够超越大型闭量模型在复杂时间推理任务上取得突破。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  amazon-science:0:
+    abstract_sha256: 6e653a58fa9c89475e865352a58d14de32dd14927cf624d0e95905a8daad7a30
+    summary_zh: 研究人员提出一种两阶段预训练方案，利用大量代码数据和混合masking语言模型和编程结构的方法进行编码学习。结果表明该方法的模型在多种下游任务上表现出显著的优势，并对成功的编码学习的因素进行了详细分析。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  amazon-science:1:
+    abstract_sha256: 180f500c7ef1a35d43cce5ccf0f93f078c4c4043f651461a8fdc10ce25b3308b
+    summary_zh: 我们提出了一种新方法来评估Retrieval-Augmented Large Language Models（RAG）的任务特异性准确度。该方法使用自动生成的多选题考试，基于与任务相关的文档集。这种方法是一种自动化、成本效益、解释性和robust的策略来选择RAG系统的最佳组件。我们利用Item Response Theory（IRT）估计测试的质量和其对任务特异准确度的信息价值。 IRT还提供了一个自然的方式来通过移除不足够有信息的考试题目来迭代改进测试。我们在四个新开放式问题回答任务上进行了实验，基于Arxiv摘要、StackExchange问题、AWS DevOps调试指南和SEC文件。我们的实验结果显示，选择正确的检索算法往往比仅使用更大的语言模型而言带来更大的性能提升。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  amazon-science:2:
+    abstract_sha256: 033a49ae640cfb0c4239fb5c62129e8bf92c2d8fad5513b7c5f878980d29611f
+    summary_zh: 研究问题是大型语言模型（LLM）在时间推理方面的局限性。该论文提出了TISER框架，通过多阶段过程和测试时缩放来增强LMM的时间推理能力。实验结果显示TISER在多个benchmarks上取得了领先水平，包括出分布测试集，并且使小型开源模型能够超过大型闭量模型在挑战性时间推理任务中。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  ant-inclusion-ai:0:
+    abstract_sha256: f49545294b86569cf4d97685ca150b5183011a44028f3167ea1a2f1035db3b98
+    summary_zh: 研究者提出了TwinFlow框架，旨在提高大型多模态生成模型的效率。该方法通过简化传统的distillation和adversarial training过程，实现1步生成模型的训练，从而降低计算成本并保持性能。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  ant-interactive-ai-lab:0:
+    abstract_sha256: 2ee68734b8016b8c520a8322f1b0f43030c22226e688a95ef09de646e5585e0d
+    summary_zh: 研究者探讨了语言图像预训练中长描述的重要性，发现每个句子都可能描述图像的一部分。他们提出了一个动态采样子句并引入组合损失的方法，实现了对比学习框架下使用长描述的有效性。实验结果表明，这种方法DreamLIP在多种下游任务上表现出优越性，甚至在图像-文本检索和语义分割任务上与CLIP训练的400M对相匹配或超越。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  ant-interactive-ai-lab:1:
+    abstract_sha256: 6e1d3f00251eb0ecb8a6192792331510d73f10f1c2beaf04ba358ad9b1debf08
+    summary_zh: 研究问题是如何在实际场景中保持一致的编辑。Edicho提出了一个基于diffusion模型的无需训练的解决方案，利用明确的图像对应性来指导编辑。该方法结合了注意力操纵模块和精心调节的分类器-free guidance denoising策略，能够在不同环境下实现一致的跨图像编辑。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  ant-interactive-ai-lab:2:
+    abstract_sha256: d71eedd5941b824f0044b43b3b9ccad3d31ffe2f954d911aaec63678d6484f3c
+    summary_zh: 本 paper 提出了 PlanarSplatting，一个极快和精确的多视图室内图像重建方法。该方法利用 3D 平面作为主要目标，并开发了一个明确优化框架来将 3D 平面分割为 2.5D 深度和法向图。这种方法不依赖于 2D/3D 平面检测和匹配，以及平面重建的传统依赖关系。通过使用 CUDA 实现的计划 splatting 函数，该方法可以在 3 分钟内准确重建室内场景，并在大量场景上对 ScanNet 和 ScanNet++ 数据集进行量化评估，表明其优势。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  apple-machine-learning-research:0:
+    abstract_sha256: b93bafc50bfe234dd3c35f26303504ff50bdf1b9e702960554296d83ab514690
+    summary_zh: 研究者探讨了如何提高视觉语言模型（VLM）的性能，特别是在文本丰富的图像理解任务中。他们提出了FastVLM，该模型通过优化视觉编码器的效率和模型大小来实现最佳平衡。FastVLM使用FastViTHD，一个新式的混合视觉编码器，可以减少token数量并降低编码时间。实验结果表明，FastVLM在时间到第一个 token（TTFT）的速度方面取得了 3.2 倍的改进，同时保持了与其他方法相似的性能。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  apple-machine-learning-research:2:
+    abstract_sha256: 27f279cac7396642c1052ca3ea807442e338ee81c60701f840f589f011ba7fb5
+    summary_zh: 该研究提出了一个可以同时 modeling 对象几何和视觉依赖性表面颜色的 3D 隐式表示。通过利用 RGB-深度图像提供的表面光场样本，模型学习在统一的 3D 隐式空间中表示几何和颜色。这一表示可以重现复杂照明下 specular 高光和弗雷斯内射反射等视觉依赖性效果。实验结果显示，该方法比现有方法具有更高的可视质量和更好的输入准确度。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  berkeley-nlp:0:
+    abstract_sha256: abc75ee55c7ac5992656dcec2106e286c670a58130a59b0eef7f5fd74d7496c5
+    summary_zh: 研究表明，通用自动评估工具可以显著改善 web 导航和设备控制的代理人性能。通过实验，发现多种评估模型在不同权衡中取得了良好的结果，并且在几项流行的代理人benchmark上获得了74.4%至92.9%的 oracle 评估指标一致性。使用这些评估工具改进现有代理人，仅通过 fine-tuning 和实时指导就能提高 WebArena 基准的状态-of-the-art性能29%，并在设备控制设置中实现大约75%相对改善。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  berkeley-nlp:1:
+    abstract_sha256: 9ad804a402cd0d273beee02d9af772f156ec77f982a68a7978c9fc043d8846e6
+    summary_zh: 研究人员创建了一个数据集DTAiLS，包含9种语言的单词概念变异。他们评估了最近的语言模型和机器翻译系统，并发现GPT-4在67%至85%的准确率之间取得了最佳结果。使用语言模型生成目标语言概念变异规则后，弱化模型的准确度大幅提高，甚至超过GPT-4。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  berkeley-nlp:2:
+    abstract_sha256: 375ae5e013eb9fc1973b334b366606b2e71e36ff02ec5cb31b28674d600b6057
+    summary_zh: 研究人员探讨了如何将长链思考能力从英语转移到其他语言中。他们发现，增加模型大小可以改善非英语语言中的任务性能，但对于需要多步长链思考的任务，效果不佳。通过预训练和后期训练，他们发现专门设计的推理阶段可以提高非英语语言中的性能，但也会降低目标语言中的性能。研究人员还发现不同语言之间存在推理效率差异，并找到了语言特有的失败模式。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  berkeley-rail:0:
+    abstract_sha256: 7eca1a6f722f204150c3c3f796906a41c7e2bdac227480e25133ab83a92e28a9
+    summary_zh: 该研究探讨了如何让智能机器人通过自主收集经验来改进，避免需要昂贵的人工操作示例数据。研究者提出了一个新方法，可以让机器人在无人监督下从自主收集的数据中改进。该方法使用视觉-语言模型收集和评估有意义的机器人数据，然后分解指令遵循任务为语义条件下的图像生成和非语义目标-reaching，这使得可以在没有人工标注的情况下从自主收集的数据中改进。实验结果表明，在未见过的环境中，机器人政策可以通过自主收集的数据改进2倍。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  berkeley-rail:2:
+    abstract_sha256: 766d478d313c5286e3b461105518bafaf7d2d77f99e76d101578062e81c96068
+    summary_zh: 研究人员开发了一种开源深度学习库，旨在解决机器人强化学习的实施难题。实验结果表明，该方法可以在短时间内有效地学习和实现复杂任务，如板式组装、线路布局和物体移动，表现出极高的成功率和对扰动的鲁棒性。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  bytedance-seed:1:
+    abstract_sha256: 2e33d1a7ef4be397324e2363ca13c5a69ce61f3fa1fa2a7381daaf4bf3f6826a
+    summary_zh: 该研究旨在开发一种能够有效表示视频动态的方法，即Trajectory Field。该方法将每个视频分成一个连续的3D轨迹，作为动态的基本单位。通过这种方法，提出了Trace Anything神经网络，该模型可以预测整个轨迹场景在单次前向传递中。该模型对4D数据进行了训练，并且实验结果表明：(i) Trace Anything在新建立的轨迹场景估计benchmark上取得了state-of-the-art表现，竞争性地在已有的点跟踪benchmark上表现出色；(ii) 该模型由于其单次前向传递的原则，没有需要进行迭代优化或辅助估计器，从而获得了显著的效率优势；(iii) 该模型还展现出了新颖的能力，包括目标条件操纵、运动预测和空间-时间融合。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  bytedance-seed:2:
+    abstract_sha256: 5512172478a7fe828b607d7ed9809faba9e3fd472fb8a6d411c2ed50fb9ab18c
+    summary_zh: 研究者引入DAComp，一个模拟复杂企业数据智能流程的benchmark，评估数据工程和数据分析任务。结果表明，即使是最先进的机器人也难以通过DAComp，表明存在数据工程和分析两个领域都有严重不足。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  cmu-auton-lab:0:
+    abstract_sha256: cc89207a9b7dab9a22559791933a933fe6c373c12567b71e951fd6f18603da8e
+    summary_zh: 研究问题是机器学习在医疗领域中处理时间到事件预测任务的挑战，特别是在面对缺失跟进数据的情况下。该论文提出了一种名为auton-survival的开源工具集，可以简化处理有缺失数据的时间到事件或生存数据。通过实用案例研究，auton-survival能够帮助数据科学家快速回答复杂的健康和流行病学问题。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  cmu-auton-lab:1:
+    abstract_sha256: 34c94d2c3e7e80d8dab2ac177a15ae9ca7d1430eda6933b1ae7e842ae820914b
+    summary_zh: 研究者开发了一个适应于电生理数据的新模型，称为STAMP（空间-时间适配器多头池化），它利用一般TSFM生成的单变量嵌入隐式地模拟了EEG数据的空间-时间特征。该模型在8个临床任务的benchmark数据上表现出相当的性能，与现有最好的EEGFMs相比。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  cuhk-language-processing-lab:2:
+    abstract_sha256: bc7ee885a95fa38131dd916649eb8bd7684c657f518940a33c28d4ef23f57450
+    summary_zh: 本研究探讨了大型语言模型（LLM）在表示语法正确性的表达方式上与人类的相似性。通过三个预先注册的实验，研究人员收集了Chat-GPT和Vicuna等LLM处理的2400多个英文句子，并与人类判断结果进行比较。结果显示，LLMs与人类判断结果的语法正确性评估有着显著的相似性，但LLMs往往表现出更保守的判断。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  deepseek-research:0:
+    abstract_sha256: 8c77a32c366ca072428eb1697aa8bfdbb7f605ae1093b85a557f53a14a5960a9
+    summary_zh: DreamCraft3D是一种高效的3D内容生成方法，利用2D参考图来指导几何 sculpting和表面增强。该方法通过视依赖性扩散模型进行分数稀释样本，以确保几何形状的一致性。通过使用3D感知的扩散模型和多种训练策略，DreamCraft3D能够生成具有高真实度的3D对象，并且通过反复优化扩散 prior 和 3D场景表示来实现视依赖性的改进。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  deepseek-research:2:
+    abstract_sha256: 34be19f145b294541b00af89c6c645f9f2a38458db5a855344767f8a1500785e
+    summary_zh: DeepSeek-V2是一种强大的混合专家语言模型，采用多头隐息注意力（Multi-head Latent Attention）和深度寻找MoE（DeepSeekMoE）等创新架构。通过预训练和fine-tuning，DeepSeek-V2在性能方面取得了显著的进步，同时降低了计算成本和缓存大小。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  fudan-data-intelligence-lab:2:
+    abstract_sha256: 2525bac8c4f6642ec5288b3f2ddc3f05af940c11459d9ee3178e5eff5e5ce137
+    summary_zh: 该研究提出了一个异步 staleness-aware 的模型更新的 Federated Learning 框架，FedASMU。它解决了数据非独立性和设备系统不一致性的问题，通过动态模型聚合和适应式局部模型调整方法来提高准确率和效率。实验结果表明，FedASMU在准确率和效率方面都有显著的优势。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  fudan-disc:2:
+    abstract_sha256: 1eb9fa957b6589c3ba7a029aa47d13aa9634cd2d23430cd1331864b22183a0e4
+    summary_zh: 该研究提出了一个利用大型语言模型（LLM）构建智能法律系统的方法，称为DISC-LawLLM。通过采用法律逻辑提示策略和增强模型的检索模块，研究人员成功地 fine-tuned LLMs 以实现法律推理能力，并在多种法律场景中获得了良好的效果。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  google-deepmind:0:
+    abstract_sha256: 8d15632f04863c06fc9eb071d659805c0b40a1c72be60814faf7ea5cca8598d0
+    summary_zh: VideoPrism是一种通用视频编码器，使用单个冻结模型解决多种视频理解任务。通过预训练于高质量视频-caption对集和噪声平行文本的视频片段集上，VideoPrism实现了语义视频嵌入的全局局部 distilled 和token shuffling方案，使其专注于视频模态，同时利用视频相关的有价值的文本。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  google-deepmind:1:
+    abstract_sha256: e2f917f625012d0598345e4c2b9773b187ef2dadfa5569756e2f301f077efd75
+    summary_zh: 研究人员探讨了大型语言模型（LLM）是否隐含执行复杂提示的多步推理。他们发现，LLM在某些关系类型的提示中隐含执行多步推理，并且利用其知识来完成提示，但这种推理的使用取决于上下文。研究结果表明，大型语言模型的大小会影响第一步推理的效率，但第二步推理的效率则没有明显的关联。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  hku-data-intelligence-lab:1:
+    abstract_sha256: b98f8d1152cfae4357a681747cca48087db74ee9df859e0ce58dc1988d3def38
+    summary_zh: 研究者提出了OpenPhone，一个可以在移动设备上运行的GUI agent系统。该系统利用了设备和云之间的合作，能够获得成本效益的局部模型和高能力的云模型的优势。通过两阶段的训练和实时复杂性评估，OpenPhone能够有效地解决移动设备上的性能问题，并在云上执行困难任务。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  hku-data-intelligence-lab:2:
+    abstract_sha256: 49d0b3d389347fde8b862fe361dc5de83a13e0e84c5b0e3e10d732a7d57ad506
+    summary_zh: 该研究探讨了如何在零射学习环境中提高图神经网络的通用性。作者提出了GraphGPT框架，结合语言模型和图结构知识，实现了图结构理解和适应性增强。结果表明，GraphGPT在监督和零射图学习任务上表现出超越现有基准的优势。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  hku-intelligent-cybersecurity:1:
+    abstract_sha256: e4561cc997ed83419821e86d188d8a4b7b8799833717d41e92645827aad4eab9
+    summary_zh: 该研究探讨了如何利用大型语言模型生成高质量的自动化测试案例。研究人员提出了FuzzAug数据增强技术，通过将有效测试语义和覆盖指引输入结合使用，提高了语言模型在测试生成方面的性能。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  hku-sail:0:
+    abstract_sha256: 15d832c3aa0b07ffdd675608a44a9bb3f0308802689e9ebb42d1629f30297169
+    summary_zh: 该研究开发了CoralSCop，第一款专门用于自动密集分段的海绵 coral reefs 的模型。该模型可以准确地标记不同海绵实体，并解决海绵图像的语义分析挑战。通过引入新式并行语义分支，CoralSCop能够产生高质量的海绵掩码，支持多种下游海绵 reef 分析任务。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  hku-sail:2:
+    abstract_sha256: c0ce72b0a269130c35670a63a6b1ff7eac926eda362dee59f7fbfe76e9e46558
+    summary_zh: 该研究旨在解决建筑摄影中的风格转换问题。现有的神经风格转换方法难以处理建筑摄影的特殊组成，导致生成不符合实际的光线、颜色 rendition 和视觉artifact。该研究提出了一个专门针对建筑摄影的神经风格转换方法，该方法分为两个子网络，分别处理前景和背景。实验结果表明该方法可以产生 photorealistic 的光线和颜色 rendition，且优于一般的图像转换和随机风格转换方法。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  hkust-aerial-robotics:0:
+    abstract_sha256: 1365e654993e9f405caa483b0bea5a6d67338a8873ca577152a882287a580ce8
+    summary_zh: 该研究旨在解决异步相机系统的状态估计问题，提出了VINS-Multi，一个能够处理异步输入框架的多相机-IMU状态估imator。实验结果表明，该估imator具有更好的性能和可靠性。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  hkust-aerial-robotics:1:
+    abstract_sha256: 4b3a28e1bcd62230a4a28d3aba8a146f14b7bb2f8f5b516d5ab2955dab020eae
+    summary_zh: 该研究旨在解决使用 omnidirectional Field of View (FoV) 相机在无人机中的挑战。研究人员提出了 OmniNxt，一个开源的无人机平台，可以实现高性能飞行控制器和多相机系统。通过实地实验，研究人员证明了 OmniNxt 在实际应用中具有超越其他方案的能力。该项目的硬件和软件都可供公开使用，包括docker镜像。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  hkust-aerial-robotics:2:
+    abstract_sha256: f5dc3c6df2a9fba55f2615c0cedea2f423c79683ad0c9c0b60c84bb45ab8d65d
+    summary_zh: 本研究提出了一种基于单相机和 Odometry 的 online monocular lane mapping 方法。该方法将车道关联过程视为一个分配问题，使用双向图来表示车道关联关系，并将边的权重通过 Chamfer 距离、姿态不确定性和横向序列一致性来计算。研究人员详细设计了控制点初始化、曲线参数化和优化，以逐步创建、扩展和精确曲线。该方法在 OpenLane 数据集上进行实验，结果显示该方法改善了车道关联和 Odometry 精度，以及总体车道地图质量。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  jd-ai-infrastructures:0:
+    abstract_sha256: d7a7d9e3718048ed3970ed2520df2cec2e149aada92d1ca432e1ae2dcabea1a0
+    summary_zh: 研究问题是如何在复杂的工业环境中部署可生产化的多-agent系统（MAS）。该研究提出了OxyGent框架，利用统一的氧气抽象和氧气银行演化引擎。OxyGent提供了可扩展、监控和持续演化的能力，使其成为 MAS的 Robust 和 Scalable 基础。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  jd-ai-infrastructures:1:
+    abstract_sha256: 539d382317a479091a205adfc8327d42fd6c1cebd3a809dc04e86bc51bc8a0ab
+    summary_zh: 研究问题是如何在复杂工业环境中部署可生产化的多-agent系统（MAS）。该研究提出了OxyGent开源框架，利用统一的氧气抽象和氧气银行演化引擎。OxyGent提供了可扩展、监控和自适应视觉化的能力，同时支持持续演化。实验结果表明，OxyGent为MAS提供了一种 Robust 和 Scalable 的基础。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  jd-embodied-ai:0:
+    abstract_sha256: d7a7d9e3718048ed3970ed2520df2cec2e149aada92d1ca432e1ae2dcabea1a0
+    summary_zh: 研究问题是如何在复杂的工业环境中部署可生产化的多-agent系统（MAS）。该研究提出了OxyGent框架，利用统一的氧气抽象和氧气银行演化引擎。结果表明，OxyGent提供了一个可靠且可扩展的基础设施，适用于MAS的部署。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  jd-embodied-ai:1:
+    abstract_sha256: 539d382317a479091a205adfc8327d42fd6c1cebd3a809dc04e86bc51bc8a0ab
+    summary_zh: 研究问题在部署生产-ready多-agent系统（MAS）时，面临的挑战包括可扩展性、观察性和自主演化。该论文提出了OxyGent开源框架，通过统一抽象和Oxy-Bank演化引擎实现了 MAS 的设计和演化。实验结果表明，OxyGent 提供了一种 Robust 和 Scalable 的基础框架。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  jd-multimodal-interaction-world-model:0:
+    abstract_sha256: d7a7d9e3718048ed3970ed2520df2cec2e149aada92d1ca432e1ae2dcabea1a0
+    summary_zh: 研究问题是如何在复杂的工业环境中部署可生产化的多-agent系统。该研究提出了OxyGent框架，利用统一的氧气抽象和氧气银行演化引擎来解决这些挑战。结果表明，OxyGent提供了一个可靠且可扩展的基础设施，适用于多_agent系统的开发。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  jd-multimodal-interaction-world-model:1:
+    abstract_sha256: 539d382317a479091a205adfc8327d42fd6c1cebd3a809dc04e86bc51bc8a0ab
+    summary_zh: 研究问题是如何在复杂的工业环境中部署可生产化的多-agent系统（MAS）。该论文提出了OxyGent开源框架，采用统一的Oxy抽象和Oxy-Bank演化引擎。OxyGent能够实现可扩展、监控和自我更新的MAS。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  jd-multimodal-llm:0:
+    abstract_sha256: d7a7d9e3718048ed3970ed2520df2cec2e149aada92d1ca432e1ae2dcabea1a0
+    summary_zh: 研究问题是如何在复杂的工业环境中部署可生产化的多-agent系统。该研究提出了OxyGent框架，利用统一的氧气抽象和氧气银行演化引擎来解决这些挑战。结果表明，OxyGent提供了一个可靠且可扩展的基础设施，适用于复杂的工业环境。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  jd-multimodal-llm:1:
+    abstract_sha256: 539d382317a479091a205adfc8327d42fd6c1cebd3a809dc04e86bc51bc8a0ab
+    summary_zh: 研究问题是如何在复杂的工业环境中部署可生产-ready 的多-agent系统（MAS），面临着 Scalability、观察性和自我演化的限制。该论文提出了OxyGent框架，利用两大核心创新：统一的氧气抽象和氧气银行演化引擎。该框架通过可插拔的原子组件来实现系统的可扩展性和监控，并提供动态规划和AI资产管理平台来增强观察性和自我演化。实验结果表明，OxyGent为MAS提供了一个稳健和可扩展的基础。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  jd-speech-acoustics:0:
+    abstract_sha256: d7a7d9e3718048ed3970ed2520df2cec2e149aada92d1ca432e1ae2dcabea1a0
+    summary_zh: 研究问题是如何在复杂的工业环境中部署可生产化的多-agent系统（MAS）。该研究提出了OxyGent框架，利用统一的氧气抽象和氧气银行演化引擎。结果表明，OxyGent提供了一个可靠且可扩展的基础设施，使 MAS能够在复杂环境中高效运行。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  jd-speech-acoustics:1:
+    abstract_sha256: 539d382317a479091a205adfc8327d42fd6c1cebd3a809dc04e86bc51bc8a0ab
+    summary_zh: 研究问题是如何在复杂的工业环境中部署可生产化的多-agent系统（MAS）。该研究提出了OxyGent框架，利用统一的氧气抽象和氧气银行演化引擎。OxyGent提供了可扩展、监控和自适应视觉化的能力，同时支持持续演化。实验结果表明，OxyGent为MAS提供了一种 Robust 和 Scalable 的基础。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  kuaishou-kling-ai-research:1:
+    abstract_sha256: e62282cda9176d6934ec73fef02582da7eda1aab01e8a7538e643a60f0f76516
+    summary_zh: 该研究提出GameFactory框架，用于生成动态控制的场景通用游戏视频。通过引入GF-Minecraft数据集和精确控制模块，GameFactory解决了动作控制的关键问题，并实现了无限长度的自回归生成。该框架利用预训练视频 diffuser 模型的开放域先验，推广了场景通用动作控制，实现了游戏生成的重要突破。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  kuaishou-kling-ai-research:2:
+    abstract_sha256: 22e61832910f78c4c0bfd6335a6d146409535214ecb9efa4904e4e3f4b35a3ca
+    summary_zh: 该研究旨在解决视频生成中不平滑运动和视频与指示的不匹配问题。通过构建大规模的人类偏好数据集和引入VideoReward模型，研究人员开发了一种系统 pipelines， harnessing human feedback 来优化视频生成模型。实验结果表明，VideoReward显著高于现有奖励模型，而Flow-DPO在训练时间策略中表现出更好的性能。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  kuaishou-kolors:0:
+    abstract_sha256: 2eeefb8e3af54c33935497c772706f6a522a241e2824ea0445d6b949267c45fd
+    summary_zh: 现有的1D视觉token化器主要遵循语言模型的设计原则，忽略了视觉数据的多层次性和残差网络设计。该研究提出了Residual Tokenizer（ResTok），一个可以建造多层级残差的1D视觉token化器，能够有效地增强表示能力并减少信息重叠。通过引入多层级AR生成器，ResTok显著提高了视觉图像生成的效率和质量。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  kuaishou-kolors:2:
+    abstract_sha256: 13c53203a7645a0877c5c7bdb9e4c763303975170afddce4e184e84aa74ce18a
+    summary_zh: 该研究提出了一种新颖的任务——code-to-style image generation，旨在生成具有 novel 和consistent visual styles 的图像，只需输入一个数字样式码。该方法 CoTyle 是第一种开源方法，通过训练一个样式码书和使用文本-图像 diffuser 模型（T2I-DM）来实现。实验结果表明，该方法能够有效地将一个数字样式码转换为一个样式控制器，证明了样式值得以一个代码。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  meituan-longcat:2:
+    abstract_sha256: 4f29c9661eb8f7529166369f1857a8a6ca2aeb620bd0fbaaa5fbf2d9d8419730
+    summary_zh: 研究者提出R-HORIZON方法，旨在评估大型推理模型（LRM）的长时程推理能力。通过构建长时程推理benchmark和RLVR训练，发现LRM在多步骤的复杂问题中表现出明显的性能下降，并且难以分配思考预算。R-HORIZON方法能够提高LRM在多时程推理任务上的性能，并且在标准推理任务上也取得了改进。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  meta-fair:0:
+    abstract_sha256: 7179d17f8ee3c3b747774c4c25c1734e9cb4b50a762189e2af59807e6ca98cce
+    summary_zh: VGGT是一种能够直接从视图中推导场景的3D属性，包括相机参数、点云、深度图和3D点轨迹。该方法在多个3D任务上取得了state-of-the-art结果，并且具有简单高效的特性，可以在一秒内重构图像。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  meta-fair:2:
+    abstract_sha256: 1c8d409d18d95340568aaa25620fb130f276e8d8f2da04436b2cbb3d0d0f77d1
+    summary_zh: '以下是简要的 TL;DR : 该研究引入了 Navigation World Model（NWM），一种可以预测未来视觉观察结果的可控制视频生成模型。NWM使用Conditional 扩散 Transformer（CDiT）来捕捉复杂环境动态，通过模拟和评估导航轨迹来规划导航轨迹。在实验中，NWM证明了在熟悉环境中有效地规划导航轨迹，并且可以动态 incorporate约束。'
+    model: llama3.2
+    generated_at: '2026-07-28'
+  meta-reality-labs-research:0:
+    abstract_sha256: 7179d17f8ee3c3b747774c4c25c1734e9cb4b50a762189e2af59807e6ca98cce
+    summary_zh: 研究者提出了VGGT，一个能够直接从单个视图或多个视图中推导场景的3D属性，包括相机参数、点云、深度图和3D点轨迹。该方法在多个3D任务上取得了state-of-the-art结果，并且具有简单高效的特性，可以在一秒内重建图像。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  meta-reality-labs-research:2:
+    abstract_sha256: 1c8d409d18d95340568aaa25620fb130f276e8d8f2da04436b2cbb3d0d0f77d1
+    summary_zh: 该研究引入了Navigation World Model（NWM），一种可控制的视频生成模型，能够预测未来视觉观察值基于过去观察值和导航行为。NWM使用条件分辉Transformer（CDiT）来捕捉复杂环境动态，利用人机双方的多样化视频数据，并将参数规模扩大到1亿。实验结果表明，在熟悉环境中，NWM可以通过模拟导航轨迹并评估是否达到目标来规划导航轨迹。与固定行为的监督导航策略不同，NWM可以在规划过程中动态包含约束。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  microsoft-ai-for-science:0:
+    abstract_sha256: f7a3585d3e929b94ac4fee23bb73acd908431c531bedb5ff6851ae65eaeb1685
+    summary_zh: 该研究探讨了如何使用未注释的现实生活视频来预训练视觉-语言-动作（VLA）模型。研究人员开发了一种全自动的人类手部活动分析方法，可以将未注释的视频转换为与现有机器人V-L-A训练数据相符的格式。这一方法可以生成手部活动段和其语言描述，各 accompanied byframewise 3D 手部运动和摄像头运动。该研究创建了一个包含1M集和26M帧的手部-VLA训练数据集，这个数据集覆盖了现有机器人数据的多倍。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  microsoft-ai-for-science:1:
+    abstract_sha256: 8dfbb269fadb5ee39d954209d5aba3aa2077d2ee66a22654c20e530a4fcb3945
+    summary_zh: 我们提出了一种新颖的3D生成方法，旨在为多样化和高质量的3D资产创造。该方法基于统一的结构性LAT（SLAT）表示形式，可以解码不同输出格式，如辐射场、3D高斯分布和网格。这种方法通过整合稀疏的3D网格与从强大视觉基础模型中提取的密集多视图视觉特征，有效地捕捉了结构（几何）和表面（颜色）信息，同时保持解码灵活性。我们使用适应SLAT的直角流转器为3D生成模型，并在500K多样化对象的大型3D资产数据集上训练模型，达到2亿参数的最大值。我们的模型在文本或图像条件下产生高质量结果，远超现有方法，包括最近的方法。我们展示了可选择输出格式和局部3D编辑能力，这些功能不被之前
+    model: llama3.2
+    generated_at: '2026-07-28'
+  microsoft-ai-frontiers:0:
+    abstract_sha256: f7a3585d3e929b94ac4fee23bb73acd908431c531bedb5ff6851ae65eaeb1685
+    summary_zh: 该研究探讨了如何使用未注释的现实生活视频来预训练视觉-语言-动作（VLA）模型。研究人员开发了一种全自动的人类手活动分析方法，可以将人类手的动作段和语言描述与每个帧的3D手部运动和相机运动关联起来。这一方法生成了1M集和26M帧的数据，覆盖了现有机器人数据的100倍。研究结果表明，该模型在未见过的现实世界观察中表现出强大的零-shot能力，并且通过 fine-tuning 在小规模的机器人动作数据上，能够显著提高任务成功率和对新物体的 generalizeability。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  microsoft-ai-frontiers:1:
+    abstract_sha256: 8dfbb269fadb5ee39d954209d5aba3aa2077d2ee66a22654c20e530a4fcb3945
+    summary_zh: 该研究引入了一种新颖的3D生成方法，用于创造高质量和多样性的3D资产。该方法使用统一的结构化潜在值（SLAT）表示来实现不同输出格式的解码，如辐射场、3D高斯分布和网格。该方法通过整合稀疏的3D网格与强大的视觉基础模型中多视图可视特征的密集表达来捕捉结构（几何）和表面（颜色）信息，同时保持解码灵活性。研究人员使用适应SLAT的直流变换器为3D生成模型，利用2亿参数的模型在500万多个多样化对象的大型3D资产数据上进行训练。该方法产生高质量的结果，并且可以根据文本或图像条件生成。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  microsoft-computer-vision:0:
+    abstract_sha256: f7a3585d3e929b94ac4fee23bb73acd908431c531bedb5ff6851ae65eaeb1685
+    summary_zh: 该研究探讨了如何使用未注释的现实生活视频来预训练视觉-语言-动作（VLA）模型。研究人员开发了一种全自动的人类手活动分析方法，可以将人类手作为可Manipulation机器人末端，转换为与现有机器人V-L-A培训数据相符的数据格式。这一方法生成了具有语言描述和3D手部运动和摄像头运动的每个手部活动段。该研究创建了一大规模的手部VLA培训数据集，包含1M个场景和26M帧。预训练模型在未见过的现实世界观察上表现出强大的零-shot能力，并且通过 fine-tuning 在小样本的真实机器人动作数据中，提高了任务成功率和对新物体的 generalizeability。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  microsoft-computer-vision:1:
+    abstract_sha256: 8dfbb269fadb5ee39d954209d5aba3aa2077d2ee66a22654c20e530a4fcb3945
+    summary_zh: 该研究开发了一种新的3D生成方法，能够产生高质量的多样化3D资产。该方法基于统一的结构性LAT（SLAT）表示，可以解码不同输出格式，如辐射场、3D高斯分布和网格。该方法结合稀疏的3D网格与dense的多视图视觉特征，捕捉了结构信息和表面信息，同时保持解码灵活性。研究人员使用适合SLAT的直化流形状转换器作为3D生成模型，并在500K多样化对象的大型3D资产数据集上训练模型，达到2亿参数的最大值。该方法产生了高质量的结果，包括文本或图像条件，远超现有方法，包括最近的方法。研究人员展示了输出格式选择的灵活性和局部3D编辑能力，这些功能在之前的模型中没有实现。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  microsoft-general-ai:0:
+    abstract_sha256: f7a3585d3e929b94ac4fee23bb73acd908431c531bedb5ff6851ae65eaeb1685
+    summary_zh: 该研究探讨了如何使用未注释的现实生活视频来预训练视觉-语言-动作（VLA）模型。通过开发一个自动化的人类手部活动分析方法，可以将未注释的视频转换为与现有机器人V-L-A培训数据相符的格式。这一方法可以生成手部活动段和其语言描述，各 accompanied byframewise 3D 手部运动和摄像头运动。该研究创建了一个包含1M集和26M帧的手部-VLA培训数据集，这个数据集覆盖了现有机器人数据的多倍。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  microsoft-general-ai:1:
+    abstract_sha256: 8dfbb269fadb5ee39d954209d5aba3aa2077d2ee66a22654c20e530a4fcb3945
+    summary_zh: 我们提出了一种新颖的3D生成方法，用于创造高质量和多样性的3D资产。该方法基于统一的结构化潜在值（SLAT）表示，这使得可以解码不同输出格式，如辐射场、3D高斯分布和网格。这种方法通过整合稀疏的3D网格与从强大视觉基础模型中提取的密集多视图视觉特征来实现，既捕捉了结构信息（几何）也捕捉了表面信息（颜色）。我们使用适应SLAT的直化流转器为我们的3D生成模型，并在500K多样性的3D资产大型数据集上训练模型，达到2亿参数。该模型在文本或图像条件下产生高质量结果，远超现有方法，包括最近的方法。我们展示了输出格式选择的灵活性和局部3D编辑能力，这些功能不被之前的模型
+    model: llama3.2
+    generated_at: '2026-07-28'
+  microsoft-machine-learning-area:0:
+    abstract_sha256: f7a3585d3e929b94ac4fee23bb73acd908431c531bedb5ff6851ae65eaeb1685
+    summary_zh: 该研究探讨了如何使用未注释的现实生活视频来预训练视觉-语言-动作（VLA）模型。研究人员开发了一种全自动的人类手部活动分析方法，可以将未注释的视频转换为与现有机器人V-L-A数据格式一致的数据。通过这种方法，研究人员创建了一个包含1M个episode和26M帧的手部VLA训练数据集，这大大超过了现有的机器人数据。预训练模型在未见过的现实世界观察上表现出强大的零-shot能力，并且在 fine-tuning 上可以显著提高任务成功率和对新物体的 generalizeability。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  microsoft-machine-learning-area:1:
+    abstract_sha256: 8dfbb269fadb5ee39d954209d5aba3aa2077d2ee66a22654c20e530a4fcb3945
+    summary_zh: 该研究提出了一种新颖的3D生成方法，能够产生高质量和多样性的3D资产。该方法基于统一的结构化潜在值（SLAT）表示，从而可以解码为不同输出格式，如辐射场、3D高斯分布和网格。该方法结合稀疏的3D网格与dense的多视图视觉特征，能够捕捉结构信息和表面信息。研究人员使用适合SLAT的流形变换模型，并在500K多样化对象的大型3D资产数据上训练了具有2亿参数的模型。该方法产生高质量结果，并且可以选择不同输出格式和局部编辑3D对象。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  minimax-research:0:
+    abstract_sha256: adf4244f95066b37e1da7b52db6511cc0d9cd73db414d38f3a1af4312558c00b
+    summary_zh: 该研究探讨了视觉 tokenizer中的隐层空间质量对生成模型的影响。研究发现，标准重构基准训练方法产生的隐层空间偏向低级信息，从而导致生成能力下降。该工作提出了一种新的视觉 tokenizer预训练框架VTP，通过联合优化图像-文本对比、自-supervised和重构损失来解决这一问题。研究结果表明，理解力是生成的关键驱动因素，而预训练视觉 tokenizer可以有效提高生成性能，并且能够有效利用计算资源和参数。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  minimax-research:1:
+    abstract_sha256: 297b55f4f9ff245f98361cd0ccbdc55ca1805c48c24b4b90dd6a624c5e36746d
+    summary_zh: 本研究开发了SynLogic数据合成框架和数据集，用于生成大量的逻辑推理数据。通过RL训练，SynLogic在7B和32B模型上表现出领先的逻辑推理能力，并且与其他开源数据集进行比较，显示出更好的结果。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  mit-embodied-intelligence:2:
+    abstract_sha256: 9e50cf96a5469a760da2bf8ac006bb6692b9987c843ab405911c8a34be22a291
+    summary_zh: 该研究提出一种设计和构建广泛适用机器人操纵系统的策略，使用任务和运动规划器结合工程化和学习模块来估计未知物体的属性和 affordances。该策略使得机器人在没有先验知识的情况下表现出智能行为，并且可以 flexibly 组合 robot-centric primitives 使用 PDDLStream 框架。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  mit-improbable-ai:1:
+    abstract_sha256: 21bb7e4e253155c0b51876a343027a2568c4308e0542e68d65c0a906997bc7db
+    summary_zh: 该研究探讨了离线政策学习的局限性，发现当数据中主要由低效率轨迹组成时，现有的离线RL算法难以超越原始轨迹的平均回报。该工作提出了一个采样策略，使得政策仅受“好数据”的约束，而不是整个数据集。这一改进在72个不平衡数据集、D4RL数据集和三个不同离线RL算法上表现出显著的性能提高。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nju-lamda-cl:0:
+    abstract_sha256: 20c2efd09a28674a22f4455e0fa3ce0bc6753987d9ffd8f6c6b4c1b3f28f3b9d
+    summary_zh: 研究了Class-Incremental Learning（CIL）方法，发现直接训练新类别时，模型容易遭受“忘记旧类”问题。该论文对17个CIL方法进行了全面比较，并提出了使用memory budget和多种性能指标的评估方法，以确保公平的比较结果。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nju-lamda-cl:1:
+    abstract_sha256: 39487019359a49d982544f88cf871a9392052cb074dd6cd69e75bcba18e8f914
+    summary_zh: 研究者提出了PROjectiOn Fusion（PROOF）方法，旨在解决视觉语言模型（VLM）在类别递增学习中的两大挑战：如何适应新任务而不遗忘旧知识和如何充分利用多模态信息。通过训练task-specific的投影和融合模块，PROOF能够有效地学习并记忆旧知识，同时捕捉到更强大的表示能力。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nju-lamda-cl:2:
+    abstract_sha256: 5c9516ccf37b70f65b156b94cd897b4cd8548178dfc82d6c28fdd54cabf18a7e
+    summary_zh: 该研究提出了一种称为ExterNal knowledGe INjEction（ENGINE）的方法，用于改进Class-Incremental Learning（CIL）中的预训练模型。该方法通过在预训练模型中注入外部知识，特别是从视觉和语言两个模态中获得的信息，从而提高了模型对新数据的适应能力。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  ntu-declare:0:
+    abstract_sha256: a0fe3a73b7af6556323776b64bd010fdd4242f12913a53ddd1ef1c9db10a032e
+    summary_zh: 研究者提出了一种称为TangoFlux的高效的文本到音频（TTA）生成模型，能够在3.7秒内使用单个GPU生成30秒的44.1kHz音频。该模型通过一种名为CRPO的框架来优化偏好数据，从而改善TTA对齐。研究结果表明TangoFlux在多种评估标准下达到了先进水平。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  ntu-declare:1:
+    abstract_sha256: db5269cda7a1cf4a49764e2661102eca3e3544cd25e5ad9e2e6c0b482168ea11
+    summary_zh: 研究者提出了两个frame采样策略，MDF和MIF，以优化video question-answering模型的性能。这些策略通过最大限度地保留关键帧来减少关键帧 omission的风险，并且在实验中证明了其有效性。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nus-ai-lab:0:
+    abstract_sha256: 7ce0408958d9e3ca3aef34aa1852cca54acfe1a79e0246c62a27feaafb2345e6
+    summary_zh: 研究探讨了缺失值对决策的影响，发现缺失值如果是由于非随机原因引起的，单纯增加样本大小不足以纠正偏差。该研究提出了 Monte CarloLikelihood方法来纠正偏差，并表明这种方法具有更好的性能。结果建议采取有效数据收集流程、记录可能原因、谨慎采用缺失值处理方法和结构化缺失值报告实践。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nus-nlp:0:
+    abstract_sha256: 8b763404362b18a58c58dbc9b5bfe2e311468b073596026f511d883f85940c89
+    summary_zh: 研究者提出了一种新颖的任务，即根据用户的偏好条件生成幻灯片。他们提出了一个人行为 Inspired 的框架，SlideTailor，可以逐步生成可编辑的幻灯片，以满足用户的需求。该框架利用自然而易于提供的artifact来隐含地编码用户偏好，并且有效地将这些偏好 distilled 和 generalization 到指导定制幻灯片生成。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nus-nlp:1:
+    abstract_sha256: 40cd4b695509b8bb1c9ca9530e72336b11d1af052a3700ccf03c4e97264ee2e0
+    summary_zh: 研究人员探讨了视频理解中的时间定位和文本回应的关系，发现时间定位是文本回应的基础。他们提出了D$^2$VLM框架，将学习这两个任务分离出来，并引入了一种新的优化算法FPO，以便于同时优化时间定位和文本回应。实验结果表明，这个方法比传统方法更有效。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nus-nlp:2:
+    abstract_sha256: e86d843dcbf547ffbf6bf753271a9946727b85a9fd6023f389f8c61abcdd12f5
+    summary_zh: 研究人员提出了GRECO（质量估计模型），一个新型的质量估计模型，能够更好地评估语法错误校正结果的质量。通过使用GRECO，组合多个语法错误校正系统可以获得更高的F0.5分数。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nvidia-cosmos-lab:0:
+    abstract_sha256: '094c83445e59e68841c6a331a9fd7b7c2f43fb01eb625862688da595c1e80b49'
+    summary_zh: 基础Pose是一种统一的基础模型，支持6D物体位置估计和跟踪，适用于基于模型和无模型的设置。该方法可以在测试时立即应用于新物体，无需重复训练，只要提供CAD模型或少量参考图像就足够。通过统一框架，下游位置估计模块在两种设置中相同，使用神经隐式表示进行高效的新视图合成。当没有CAD模型时。该方法通过大规模合成训练、语言模型、大型变换器结构和对比学习公式实现强大的普遍性。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nvidia-cosmos-lab:1:
+    abstract_sha256: 4d67c2df74c657bed16b6b5c1ac3bd49913736e7ff8693e6db2485e82322fe6b
+    summary_zh: 研究者开发了基础Stereo模型，旨在实现强大的零shot泛化能力。该模型通过构建大规模的合成数据集和自适应的优化管道来获得强大的鲁棒性和精度。结果表明，该模型在不同域上表现出强大的零shot泛化能力，建立了新标准。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nvidia-cosmos-lab:2:
+    abstract_sha256: 38ed3f70693365d6ebccf2e916b5bce004640d57f27d89436f65550683e10e56
+    summary_zh: 该研究提出了MambaVision，一个专门设计的Mamba-Transformer骨架，用于视觉应用。通过综合性分析，发现将Mamba与视觉变换器（ViT）结合起来可以显著提高其处理长距离空间依赖性的能力。MambaVision模型在ImageNet-1K数据集上的分类任务表现出SOTA的性能，并在其他下游任务如检测、分割等方面也取得了优异的结果。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nvidia-dair:0:
+    abstract_sha256: '094c83445e59e68841c6a331a9fd7b7c2f43fb01eb625862688da595c1e80b49'
+    summary_zh: 基础Pose是一种统一的基础模型，支持6D物体位置估计和跟踪，适用于基于模型和无模型两种设置。该方法可以在测试时间直接应用于新物体，无需重复训练，只要提供CAD模型或少量参考图像即可。通过统一框架，下游位置估计模块在两个设置中相同，使用神经隐式表示进行高效的新视图合成，当没有CAD模型时。该方法通过大规模合成数据、语言模型、大型变换器架构和对比学习公式实现强大的普遍性。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nvidia-dair:1:
+    abstract_sha256: 4d67c2df74c657bed16b6b5c1ac3bd49913736e7ff8693e6db2485e82322fe6b
+    summary_zh: 研究者开发了基础Stereo模型，旨在实现强大的零shot泛化能力。该模型通过构建大规模的合成数据集和自 curated 的数据处理 pipeline，结合多个网络组件来提高模型的可靠性和精度。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nvidia-dair:2:
+    abstract_sha256: 38ed3f70693365d6ebccf2e916b5bce004640d57f27d89436f65550683e10e56
+    summary_zh: 研究者提出了一个专门为视觉应用设计的新型混合Mamba-Transformer骨架，称为MambaVision。通过全面分析，发现将自注意力块融入最后一层显著提高Mamba模型对长距离空间依赖关系的能力。基于这些发现，研究者开发了一系列具有多级结构的MambaVision模型，以满足不同设计要求。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nvidia-efficient-ai:0:
+    abstract_sha256: '094c83445e59e68841c6a331a9fd7b7c2f43fb01eb625862688da595c1e80b49'
+    summary_zh: 基础Pose是一种统一的基础模型，支持6D物体位置估计和跟踪，适用于基于模型和无模型两种设置。该方法可以在测试时间直接应用于新物体，无需重复训练，只要提供CAD模型或少量参考图像即可。通过大规模合成数据的训练和语言模型、Transformer架构和对比学习等技术，基础Pose实现了强大的普遍性和高性能。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nvidia-efficient-ai:1:
+    abstract_sha256: 4d67c2df74c657bed16b6b5c1ac3bd49913736e7ff8693e6db2485e82322fe6b
+    summary_zh: 研究者开发了基础Stereo模型，旨在实现强大的零-shot通用性。该模型通过构建大规模的合成数据集和自适应的优化管道来获得强大的泛化能力，并且采用多个网络组件来增强可扩性和鲁棒性。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nvidia-efficient-ai:2:
+    abstract_sha256: 38ed3f70693365d6ebccf2e916b5bce004640d57f27d89436f65550683e10e56
+    summary_zh: 研究者提出了MambaVision，一个专门设计的Mamba-Transformer骨架，用于视觉应用。通过综合性分析，发现将Mamba与视觉转换器（ViT）结合起来可以显著提高其处理长距离空间依赖性的能力。MambaVision模型在ImageNet-1K数据集上的分类任务表现出SOTA的性能，并在其他下游任务如检测、分割等方面也取得了优越的结果。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nvidia-gear:0:
+    abstract_sha256: '094c83445e59e68841c6a331a9fd7b7c2f43fb01eb625862688da595c1e80b49'
+    summary_zh: 基础Pose是一种统一的基础模型，支持6D物体位置估计和跟踪，适用于基于模型和无模型两种设置。该方法可以在测试时立即应用于新物体，无需重复训练，只要提供CAD模型或少量参考图像就足够。通过统一的框架，下游位置估计模块在两个设置中相同，使用神经隐式表示进行高效的新视图合成，当没有CAD模型时。该方法通过大规模合成数据、语言模型、大型变换器结构和对比学习公式实现强大的普遍性。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nvidia-gear:1:
+    abstract_sha256: 4d67c2df74c657bed16b6b5c1ac3bd49913736e7ff8693e6db2485e82322fe6b
+    summary_zh: 研究者开发了基础Stereo模型，旨在实现强大的零-shot通用性。该模型通过构建大规模的合成数据集和自适应的优化管道来获得强大的泛化能力，并且采用多种网络组件来增强可扩性和鲁棒性。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  nvidia-gear:2:
+    abstract_sha256: 38ed3f70693365d6ebccf2e916b5bce004640d57f27d89436f65550683e10e56
+    summary_zh: 该研究提出了MambaVision，一个专门设计的Mamba-Transformer骨架，用于视觉应用。通过综合性分析，发现将Mamba与视觉变换器（ViT）结合起来可以显著提高其处理长距离空间依赖性的能力。MambaVision模型在ImageNet-1K数据集上实现SOTA性能，并在其他任务如物体检测、实例分割和语义分割中表现出优越的结果。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  openai-research:2:
+    abstract_sha256: 7a75eee03a45b59314f97ce8193c784ed719e389362f1a55572ee3db5db8f4c4
+    summary_zh: 该研究探讨了长时间运行的智能代理在有限活动环境下如何保持稳定性。研究重点不仅是模型质量，还是在中间层次上研究如何让代理维持、退役、替换、压缩、分支和重置竞争性的假设或路线总结。该框架将搜索状态表示为一个被分成粗糙家族的活跃假设组合，各个项目都包含了承诺、验证延迟、保留成本、老化、重叠负担和 inertia。研究的关键贡献是建立了一种适当性语义：在每个鉴别窗口中，系统与一个非空随机集合相关联，这个集合由现实初始信息状态和下游随机性的实现所诞生。成功定义为在第一阶段强烈鉴别的验证阶段中至少保留一个适当家族的recoverability，避免依赖于选择器定义的伪真。研究
+    model: llama3.2
+    generated_at: '2026-07-28'
+  pku-alignment:0:
+    abstract_sha256: 78e86046c8e42f679c6d5b5d52aa1689d340ac9ed927d00639a903255580db7e
+    summary_zh: 该研究开发了一个名为Aligner的模型无关的对齐方法，旨在解决大型语言模型（LLM）快速迭代和有效对齐的挑战。通过学习偏好答案与不受欢迎答案之间的纠正余数，Aligner可以直接应用于各种开源和API模型，只需进行一次训练。实验结果表明，Aligner在11种不同LLM上获得了平均改进68.9%的有用性和23.8%的无害性，同时有效减少幻听。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  pku-alignment:1:
+    abstract_sha256: 31acff15e7e520cf820d028269c0cb4cca46925f48e471817642933b19cbe81e
+    summary_zh: 该研究探讨了如何在视觉-语言-行动模型（Vision-language-action models，VLAs）中明确地整合安全约束。研究人员提出了一个集成安全方法（Integrated Safety Approach，ISA），通过系统地建模安全要求、激活多种不安全行为，并使用安全强化学习来有效地约束VLA政策，从而在严格的评估下确保其安全性。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  pku-alignment:2:
+    abstract_sha256: 1030f3f3f96e15a7893c3e6d1998c2624ede0a7036238650805a31e0acb97ecb
+    summary_zh: 该研究旨在解决RL在实际应用中的安全性问题。SafeDreamer算法通过将Lagrangian方法整合到世界模型规划过程中，实现了近零成本的性能，在Safety-Gymnasiumbenchmark上取得了成功。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  pku-camera-intelligence:2:
+    abstract_sha256: 6364fe1be0017931d8e08aeaaadac4c76fe2f956afdce3f5685a1e8c094ee48a
+    summary_zh: 该研究探讨了事件摄像技术在图像和视频增强方面的应用，利用事件摄像器来超越传统帧基准摄像器的优势。研究重点是五个事件辅助图像/视频增强任务（即事件基于视频重建、事件辅助高帧率视频重建、图像去雾、图像超分辨率和高动态范围图像重建），并提供了不同事件属性的影响分析、一个真实捕获的标签数据集以及对主流事件模拟器的评估。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  pku-core:0:
+    abstract_sha256: cb11ba0affb1fa8d8a2d58e21ed6ec1c57d9e9dafa10a50d23ec9e2d96ceed74
+    summary_zh: 研究者开发了TongGeometry，一个能够发现和证明奥林匹克级几何定理的神经符号系统。通过使用指导树搜索，TongGeometry在同等计算资源下建立了更大的几何定理库，并且在国际数学奥林匹克竞赛中获得了成功。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  pku-dair:1:
+    abstract_sha256: bcc6e4965104c1e5ce2d4668deed14bf6f1f43b3d0f0d227865117b19a661d27
+    summary_zh: 该研究提出了A-Tune-Online系统，旨在解决在线服务配置的自动化调优问题。系统通过多阶段检测策略和知识转移机制来实现高效、稳定和质量保证。实验结果表明A-Tune-Online比现有系统具有更好的性能和效率。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  shanghai-ai-lab-internlm:0:
+    abstract_sha256: 45720d08d4b2cc599d181cf2870a4e404389091162bc6bfe83c9cac76b8fc803
+    summary_zh: 研究问题是如何在科学领域实现高性能的多模态基础模型。该模型Intern-S1-Pro首次实现一万亿参数的规模，强化了一般和科学领域的能力，并扩展了专门任务的科学专业能力。通过 XTuner 和 LMDeploy 的支持，模型能够有效地进行强化学习训练并保持精确性。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  shanghai-ai-lab-internlm:1:
+    abstract_sha256: 39cd11afe47ccbaa4379e04743d3aba9e7f56886f6ff562320c126f295c92bba
+    summary_zh: 现有的大型视觉语言模型在文本级别的推理和自校正方面表现出突出的能力，但在视觉感知中心的复杂任务中，例如图表解析，仍然面临挑战。该研究提出了一种新颖的方法称为 Visual Self-Refine（VSR），它使模型能够生成像素级定位输出、可视化它们，然后将这些可视化反馈回自身，以便自我检查和纠正潜在的视觉感知错误。该研究在图表解析领域应用了 VSR 模式，提出了 ChartVSR 模型，该模型分为两个阶段：精确化阶段和解码阶段。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  shanghai-ai-lab-internlm:2:
+    abstract_sha256: b8b7c46b9a7301883fa9ba3035210efa5b0a0797106fd904f0cc4969ab74c616
+    summary_zh: 研究者提出了Endogenous Chain-of-Thought（EndoCoT）框架，旨在解决多模态大语言模型（MLLMs）在扩散框架中的两个关键问题。首先，它通过迭代性思考指导模块来激活MLLMs的推理潜力，然后将这些状态与Denoising 扩散 Transformer（DiT）的去噪过程连接起来，最后使用终止思考对齐模块确保推理轨迹在文本监督下保持稳定。通过大量实验，EndoCoT实现了平均准确度92.1%，超过强基线的8.3个百分点。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  shanghai-ai-lab-internscience:2:
+    abstract_sha256: 23201e34991facfe2473d631b19413a74dedbb1ac871d39833c981115ec131ab
+    summary_zh: InternAgent-1.5是一种统一的系统，旨在实现从头到尾的科学探索。该系统采用结构化的架构，包括生成、验证和演化三个子系统，支持深度研究、解决方案优化和长期记忆等核心能力。通过多个科学推理基准和两个类型的发现任务，InternAgent-1.5表现出强大的基础能力，并提供了一种广泛适用和可扩展的自主科学探索框架。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  shanghai-ai-lab-opendatalab:0:
+    abstract_sha256: b4847b3ead9e03948ba876f2d7563455b70bfdb773de1f450ef072dda2db34a5
+    summary_zh: 研究者推出OmniDocBench，一个新标准的benchmark，评估文档解析方法。该benchmark涵盖了多种文档类型和评估方式，包括19个布局类别和15个属性标签。结果表明，pipeline-based方法和end-to-end vision-language模型在不同文档类型上的强弱有所不同。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  shanghai-ai-lab-opendatalab:1:
+    abstract_sha256: 19e21b26af6a50cf10219c2ceeab637e70dab7864f1f3821f9dedd4db7ab3341
+    summary_zh: 以下是简要的 TL;DR： 研究问题：表格识别（Table Recognition，TR）旨在将表格图像转换为半结构化表示，如 HTML 或 Markdown。目前，TR主要依赖于监督学习，但需要大量标签数据，这使得开源模型难以与商业模型相比。 核心方法：TRivia是一种自-supervised fine-tuning方法，可以让预训练的视觉-语言模型（VLM）直接从未标记的表格图像中学习。该方法使用问答机制和注意力引导模块来生成问题，并通过回答问题得分来提供反馈，促进TR模型自主地学习识别、结构化和推理表格。 主要实验结论：TRivia-3B是一种开源的、紧凑且领先的TR模型，它在三项流行基准上超过了现有系统（例如Gemini 2.5 Pro、MinerU2.5）。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  shanghai-ai-lab-opendatalab:2:
+    abstract_sha256: 8527f9bbccabe12d356a73dc719f107bd570b838c1312142e973324c9487706d
+    summary_zh: 该研究从逆渲染的角度重新探讨了文档OCR，认为左到右的因果生成是序列化的artifact，而不是任务本身。提出了MinerU-Diffusion框架，采用平行diffusion降噪下条件化来替代传统的自回归解码。实验结果表明，MinerU-Diffusion在稳定性和效率方面有显著改进，能够减少依赖语言先验并提高视觉OCR能力。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  shanghai-ai-lab-opendrivelab:0:
+    abstract_sha256: 6d1c67b82646d332289fb959fe5fc1a815e35a9fefa9f82d7cbda8eb2a82031b
+    summary_zh: 该研究旨在解决自主驾驶系统的关键问题，即在各种场景中学习合理的决策。然而，现有数据集主要由人类专家收集的有限场景组成，这导致了缺乏数据多样性。为了补充这种不足，我们开发了一种能够合成大量未知状态的可扩展模拟框架。该框架使用先进的神经渲染技术和反应环境来生成高真实度的多视图观察，控制这些新生成的轨迹。我们还开发了一个伪专家轨迹生成机制，这些新生成的状态为动作监督提供了支持。在合成数据上，我们发现使用现有数据集和模拟样本进行简单的共训练可以显著提高各种规划方法在挑战性真实世界benchmark上的性能，包括+8.6 EPDMS 在 navhard 和 +2.9 在 navtest。更重要的是，这种政策改进随着模
+    model: llama3.2
+    generated_at: '2026-07-28'
+  shanghai-ai-lab-opendrivelab:1:
+    abstract_sha256: 103134cdbf70f4500624a382e34a230b3fe12149c7034bbfdb93d8d9287f8f67
+    summary_zh: 研究者开发了一个名为World Engine的框架，能够生成高真实度的交互环境，并在这些环境中训练自主汽车模型。通过这种方法，可以在安全性方面取得显著改进，减少安全性边界中的错误发生率。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  shanghai-ai-lab-opendrivelab:2:
+    abstract_sha256: 67fed0b4726e6c9448bce7bfbde7310adba57017fda4d7654d655f2c496f067b
+    summary_zh: 研究者提出了Rise框架，旨在通过想象力来实现机器人强化学习的可靠性。该框架结合了预测未来动态和评估想象结果的模型，能够在无需物理交互的情况下不断改进策略。实验结果表明，Rise在三项挑战任务上取得了显著的改善，尤其是在动态堆栈、背包装裹和箱子关闭等任务中。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  shanghai-ai-lab-opengvlab:0:
+    abstract_sha256: 28ba24fedd92e6719f08e05f6e80f34cf6cb0beeb42fc1377784875c986a6844
+    summary_zh: 该研究旨在解决长视频处理的挑战，提出了Hierarchical video token Compression（HiCo）方法和多阶段短到长学习方案。通过这些方法，研究者开发了VideoChat-Flash模型，表现出在主流长短视频benchmark上取得领先结果。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  sjtu-gair-nlp:0:
+    abstract_sha256: 7eb9bdd730113260867582e2ad90a077371b04e04f64d5d921d85ba9ea5c788b
+    summary_zh: 研究表明，复杂推理在大语言模型中不一定需要大量的训练数据。通过简单的监督 fine-tuning，LIMO模型可以获得63.3%的准确率和95.6%的准确率，并且在出于分布中的一般化方面表现出强大的能力。研究结果支持“Less-Is-More Reasoning Hypothesis”，即当基础模型中已有充分的知识编码时，通过少量但策略性的示例来引导推理可以获得复杂的推理。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  sjtu-gair-nlp:1:
+    abstract_sha256: 6c82551e500055c10edbac67ea74263d66afb9135882cda79bb81e3fd91e8b6a
+    summary_zh: 研究问题是目前的开源大型多模态模型面临的问题，包括缺乏 native 整合、单模态生成和依赖于 separate diffuser 模型。该论文提出了 Anole，这是一种 open、autoregressive 的 native 大型多模态模型，可以进行交替图像-文本生成。通过采用 Meta AI 的 Chameleon 和创新 fine-tuning 策略，Anole 展示了高质量和一致的多模态生成能力，并且开源了模型、训练框架和 instruction tuning 数据。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  sjtu-gair-nlp:2:
+    abstract_sha256: aa93153a08162b908171020b358b94e6c51c2246d7b0ce3b033bb47479a60c2d
+    summary_zh: 研究表明，即使使用小型语言模型（0.3B参数），它们也可以通过“编程每个例子”（ProX）框架有效地改善数据质量，超过人类专家和其他选择方法。实验结果显示，预训练于ProX优化的数据下，模型的性能大幅提高。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  sjtu-mint:2:
+    abstract_sha256: 5d57a38d4272d53e6edf7318a41fd45148c794ccfd1f2706cf8896f610d6237a
+    summary_zh: 该研究提出了一种轻量化的Vision-Language-Action（VLA）模型Evo-1，通过减少计算成本和提高部署效率，实现了强大的性能。Evo-1结合了多模态视觉语言模型和跨模态diffusion变换器，采用两阶段训练方法来优化表示。该模型在Meta-World和RoboTwin等suite上取得了state-of-the-art结果，并在实际应用中表现出高成功率和低内存占用。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  sjtu-rl2:2:
+    abstract_sha256: 538feab7686de63624cbf000a6762f7b74df072433556140ce0708fd95c17a58
+    summary_zh: 该研究提出了一种新的动作约束强化学习方法，通过将动作空间转换为其对应的双空间，并使用Dirichlet分布策略来保证严格约束满足，同时进行随机探索。实验结果表明该方法在benchmark环境和实际四肢行走任务中表现出更高的奖励和更快的推导速度，证明了该方法的有效性和潜在应用价值。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  stanford-iliad:0:
+    abstract_sha256: 03270d42b61282000b8462d513ce2707172568a4bf73c692431128b3cf3a3973
+    summary_zh: 研究问题是如何让人机交互设计出合适的奖励函数。该方法使用Gaussian Process模型，通过人类对动作序列的比较来学习奖励函数，不需要预先定义特定的结构或大量数据。实验结果表明这种方法可以有效地学习 robotics 任务的 expressive reward functions。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  stanford-iliad:1:
+    abstract_sha256: 6ba7dcac3bb656385c853d68f17feb318f33904db416da47e033c27e21d1e990
+    summary_zh: 研究者提出了一个新的机制——“赠送”（gifting），它允许在多个代理人之间形成更有利于社会的行为。通过理论框架和实验，研究者证明了赠送可以促进高风险、一般和分散的协调游戏向更有利于社会的平衡状态转变。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  stanford-iliad:2:
+    abstract_sha256: 488e22ecef86e9ade5c338e4a3a78618c93f706352e5f2ae79d3fbd8ea2bb35f
+    summary_zh: 研究者开发了Z-COACH方法，利用共享自主性框架来提供个人化的运动技能教育。该方法通过分析学生在自动化辅助下行为改善的方式，确定哪些子技能是最适合的学习目标。这项研究在一项用户实验中证明了Z-COACH的有效性，可以提高驾驶时间、行为和平滑度。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  stanford-nlp:1:
+    abstract_sha256: d75dadea5bc816f666f5cd939cdcaaf75f5b10990c88c66db90676f4e043cace
+    summary_zh: 研究人员开发了一个名为pyvene的开源Python库，用于在多个AI领域中进行模型内部状态的干预。该库支持自定义干预方案，并且可以包含静态或可训练的参数。通过pyvene，可以实现对神经网络模型的统一和扩展性干预，共享干预结果并进行解释分析。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  stanford-svl:1:
+    abstract_sha256: bf1c055f5ab1736e65d36eff5d1e5af5e777bded119569ea29e04f3c54da1aa7
+    summary_zh: 该研究探讨了视频任务与单图的区别，提出了一个新的模型“时间点探针”（ATP），通过它发现理解事件时序性并不是必需条件来实现强或状态-of-the-art的性能。该模型可以改善视频语言数据集和模型设计，并且可以提高效率和性能。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  tencent-ai-lab:0:
+    abstract_sha256: 592e2b3b91a080a6db4a9955795b444b2f1abf8d99bcea3ebd81b1bc8adcc893
+    summary_zh: 本研究探讨了事件提取（Event Extraction，EE）任务的零-shot学习问题。该方法使用对比学习和温化阶段来将事件提取和定义语义融合到同一个空间中，从而实现有效的零-shot学习。实验结果表明，该模型在MAVEN数据集上显著优于之前的零-shot EE 方法，并且可以轻松应用于少样本设置，超越baseline的监督方法。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  tencent-ai-lab:1:
+    abstract_sha256: 37e4209c8aeda156328ec51adcf0cdc88cdfcfc68f75180d3018d146fd913488
+    summary_zh: 该研究探讨了如何将预训练的文本到图像diffusion模型转换为图像提示能力。研究人员提出了IP-Adapter，一个轻量化的适配器，可以在不需要大量计算资源的情况下实现图像提示功能。通过使用分离的交叉注意机制，IP-Adapter可以有效地将预训练的diffusion模型转换为图像提示能力，并且可以与其他基准模型、文本提示和结构控制相兼容。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  tencent-arc-lab:1:
+    abstract_sha256: 2124d45fb5498a71fd96738d265fc9873494806e90d1c99d952db0985d4c2eeb
+    summary_zh: 研究者提出了Pixal3D，一个能够生成高精度的3D模型的方法。该方法通过将图像中的特征直接投影到3D空间中，解决了2D-3D correspondence问题，从而实现了高精度的3D生成。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  tencent-arc-lab:2:
+    abstract_sha256: 8d54aeaf65980cf1d8e93320b2ae60d9f4bd2a90a6792b3f29d07db7b9f09153
+    summary_zh: 研究问题是如何改善图像填充模型的性能。该研究提出了一种新颖的方法，即将掩盖图像特征和噪声latent分离为两个独立支线，减少模型的学习负担。这导致了更细致入微地包含必要的掩盖图像信息。在本文中，提出了BrushNet模型，该模型可以在任何预训练的DM中嵌入pixel级掩盖图像特征，从而实现更加一致和高质量的图像填充结果。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  tencent-hunyuan:2:
+    abstract_sha256: 101848855bef86d805f2c6bfe8c73d9ce601191261d5f34fdd10d7d1bd7b19a4
+    summary_zh: HunyuanPortrait是一种基于diffusion的条件控制方法，能够实现高可控性和 lifelike 的portrait动画。该方法利用预训练编码器分离 portrait 动态信息和身份信息，并使用隐式表示作为控制信号。在实验中，HunyuanPortrait表现出强大的通用性能，可以有效分离外观和动态在不同图像风格下。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  tencent-youtu-lab:0:
+    abstract_sha256: d5c04755ddc89244d54e074c210334c6824c14cd07dea9a52d8f5d4a7a66b944
+    summary_zh: DepthCrafter是一种能够生成高详细度长深图序列的方法，适用于开放世界视频。该方法不需要额外信息，如相机姿势或光流来实现。通过设计的三阶段训练策略，DepthCrafter可以在一时间内生成长度可变的深图序列，直到110帧，并从现实和合成数据集中获取精确深度细节和丰富内容多样性。该方法也提供了处理极长视频的推断策略，通过段位估计和无缝接合来实现。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  tsinghua-coai:1:
+    abstract_sha256: 39b55187a7573522f423a725ce2324539b86c0d59fc8f051cdd998768037a488
+    summary_zh: 该研究提出了ShieldLM，一个基于大语言模型的安全检测器，可以根据不同标准检测安全性，并提供解释。通过实验结果表明，ShieldLM在多个测试集上优于强基线，表现出可定制化和解释能力。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  tsinghua-coai:2:
+    abstract_sha256: 004ebf2594f873c5ad8db6fa57e924c60766076f320898f65dc38015b5e563e7
+    summary_zh: 研究者提出ComplexBench，一个评估大型语言模型（LLM）复杂指令遵循能力的基准。该benchmark使用分类系统和高质量数据来评估LLMs在处理多个约束组成的复杂指令时的能力。结果表明，ComplexBench揭示了现有LLMs在处理复杂指令时存在显著缺陷。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  tsinghua-keg-thudm:0:
+    abstract_sha256: 1ac333be4ca95512fff4a29690879803f2a707b7a3972c06bbe0e7bd8d7fdd73
+    summary_zh: 现有长文本大语言模型（LLM）在处理长输出时遇到瓶颈，主要原因是训练数据中长输出的例子相对稀缺。该研究引入了AgentWrite管道，分解超长生成任务为小任务，从而使现有LLM能够生成超过20,000字的合理输出。通过构建LongWriter-6k数据集和LongBench-Write评估指标，研究者 successfully Scaling LLM 的输出长度至10,000字以上，同时保持输出质量。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  tsinghua-keg-thudm:1:
+    abstract_sha256: 9869ebaf8c00c0bfc8d84d0e1bd20131e6db2f484a5714e106d39bb8ffb26457
+    summary_zh: 该研究提出了一种称为ReST-MCTS*的强化学习方法，旨在通过集成过程奖励指导和树搜索MCTS*来收集高质量的推理轨迹和每步价值，以训练策略和奖励模型。结果表明，这种方法可以实现更高的准确率，并且可以连续改进多个语言模型，超越其他自我学习算法。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  tsinghua-keg-thudm:2:
+    abstract_sha256: d4173e73fa7492b39be76ea72197a28c3aa25aac23e8bb782e94c956c20eb2ac
+    summary_zh: 该研究提出了一种长文本对齐的方法，称为LongAlign。通过构建一个长指令遵循数据集、采用packing和排序批量策略以及平衡损失方法，实验结果表明LongAlign在长文本任务上出perform了现有方法，达到了30%的优势，同时保持对短指令任务的准确性。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  tsinghua-thunlp:0:
+    abstract_sha256: e18972ca4d61ea7ee0550d496197fa5d3a1a546e234e0180a7186fce8732cd3c
+    summary_zh: 研究人员探讨了大型语言模型的强化学习中是否需要增加复杂性。他们提出了一个简单的方法JustRL，使用单阶段训练和固定超参数，实现了两种1.5B计算量的推理模型（54.9%和64.3%平均准确率）在九个数学benchmark上的state-of-the-art表现，同时使用2倍的计算资源。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  tsinghua-thunlp:2:
+    abstract_sha256: 18661ab9a42a32cccdf14fbb9e4a20ef82d28e5e346bb293f1e5b1fe662cd481
+    summary_zh: 该研究旨在解决法律案件检索（Legal Case Retrieval，简称LCR）任务的两个主要挑战：现有工作主要关注案件之间的检索，使用长句子，这不符合实际场景；现有数据集规模有限，只有几百个查询，不足以满足现有的大数据需求。该研究提出了一种自动化方法来构建合成的查询候选对，并建立了最大的LCR数据集LEAD，超过现有数据集数百倍。实验结果表明，使用我们的构造数据，可以实现现有两个广泛使用的LCRbenchmark的最佳结果。此外，该方法也可以应用于民事案件，取得了令人满意的效果。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  ucsd-existential-robotics:0:
+    abstract_sha256: 914e55a4f9cc139f1465c7f51e9b64230b86ef0df99664595da37af603f47c43
+    summary_zh: 该研究表明，使用3D隐形地图的移动操作策略可以比仅依靠图像实现更强大的空间和时间推理。该方法 Seeing the Bigger Picture（SBP）通过直接在3D隐形地图上进行端到端的学习来实现，这个地图可以扩展感知范围，聚合观察结果在长时空内。实验结果表明，SBP能够在场景级别移动操作和序列性桌面操作任务中表现出更强大的全球推理能力、长时空记忆和图像基于策略的优越性。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  ucsd-existential-robotics:1:
+    abstract_sha256: 694da62c7f1121a188fb7b6e8fca44fb1660259036260528b2c97a21a4efa786
+    summary_zh: 该研究引入了一种规划神经操作器（Planning Neural Operator，PNO），用于预测运动规划问题的值函数。该模型将值函数估计重写为从成本函数空间到值函数空间的单个操作，从Eikonal部分微分方程（PDE）定义。因此，PNO模型尽管在有限样本下训练，但具有神经操作器的零-shot超解析性。研究表明，该模型在MovingAI lab 2D城市数据集上准确估计值函数，且在3D场景中与现有神经值函数预测器进行比较。在4DOF机器人手臂上展示了优质的规划。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  ucsd-existential-robotics:2:
+    abstract_sha256: 5717b7b1dd52dc637ab3d5d9de0c36dee9b22a071a4c077ff473f1b1756abf4f
+    summary_zh: 研究者提出MISO（多层级优化方法），一种利用多分辨率子图的方法，来解决大环境中神经隐式表示SLAM的优化问题。该方法通过使用多层级优化方案和学习初始化来减少局部SLAM的计算时间，并且通过对多分辨率子图进行对齐和融合来提高全局一致性，进而显著提高神经签度函数SLAM的计算效率和估计精度。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  uiuc-secure-learning-lab:0:
+    abstract_sha256: 0af3558c957de408d4d4ade3d7c3ecc76077880def5bb11fac7f62a010b90d47
+    summary_zh: 该研究提出了AgentPoison，一个针对LLM agents的红队攻击方法，通过污染其长期记忆或知识库来实现安全性和可信度的侵蚀。实验结果表明，AgentPoison在攻击三个现实世界的LLM agent中成功率高达80%以上，并且对正常性能的影响较小。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  uiuc-secure-learning-lab:1:
+    abstract_sha256: 634711015fc03894770ec1d45576c11fc0b983ae200e3df7fb992e21b1217515
+    summary_zh: 该研究探讨了如何生成合理的隐私保护文本数据。现有的方法需要使用大型语言模型（LLM）进行微调以获得隐私保护的文本数据。然而，这种方法对于商业性质的LLM和开源LLM来说不适用，而且计算资源消耗较多。该研究提出了一个名为Aug-PE的增强Private Evolution（PE）算法，用于生成具有形式隐私保护（Differential Privacy, DP）的文本数据。该算法仅依赖于语言模型的API接口，并且不需要进行任何模型训练。通过对三个benchmark数据集的实验，研究结果表明Aug-PE能够产生具有竞争性高的DP合理文本数据，这意味着仅靠LLM的API接口就可以生成高质量的隐私保护文本数据，从而为更广泛的隐私保护语言模型应用提供了便捷途径。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  uiuc-secure-learning-lab:2:
+    abstract_sha256: d04036bbe90b64bee5e589d9992e6c4bb6cf9e6777aa26999ffd8ffba5eb8a41
+    summary_zh: 研究者开发了 UDora框架，旨在利用大型语言模型（LLM）进行红队攻击。该框架通过分析任务的推理过程，并在关键点处插入恶意扰动，导致LLM模型执行恶意行为或触发特定工具。实验结果表明UDora比现有方法更有效。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  ustc-mei-lab:0:
+    abstract_sha256: 8db1843760f93c0a0deab10f469c40d344f0bf7fdba61eb5376f4898f2dbfe2e
+    summary_zh: 研究者提出了一个新的Bayesian Window Transformer，通过引入概率分布来实现窗口的动态调整，从而克服传统Transformer的局限性。该方法不仅保留了Transformer强大的表达能力，还维护了翻译变异性和局部关系的重要性。实验结果显示，该方法在多种图像恢复任务中表现出突出的效果。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  ustc-mei-lab:2:
+    abstract_sha256: 6992ac5762462c159b103adcce5a8d83f2ff819220a148a4bd5c34345278c4a0
+    summary_zh: 该研究探讨了视频生成任务，旨在合并异步自动回归模型和 diffusión 模型的优势。他们提出了 Auto-Regressive 扩散（AR-扩散）模型，该模型通过逐渐污染视频帧来解决异步生成中的不一致性问题。该模型结合了非递减约束和时间序列注意力，实现了可变长度视频的生成，同时保留时间连贯性。实验结果表明该方法在四个挑战性基准上取得了竞争性和领先性的成果。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  xiaohongshu-firered:0:
+    abstract_sha256: 601aac431d7c73e77425359914d59422d11a0a676156bc346bcfb6a48a2567bb
+    summary_zh: 研究者提出了InstanceAssemble模型，利用instance-assembling attention来控制图像的布局和多模态内容。该模型通过轻量化LoRA模块适应现有DiT-based T2I模型，并引入Layout 对齐 Score（LGS）评估指标。实验结果显示，该模型在复杂布局条件下实现了state-of-the-art性能，兼容多种样式的LoRA模块。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  xiaohongshu-firered:1:
+    abstract_sha256: 918419b19d085ffea1cad48528b59993876a2cd442bf85a7d08497baddb529e9
+    summary_zh: ReMatch是一种框架，利用MLLM的生成能力进行多模态检索。它通过将MLLM的embedding阶段与chat-style的生成匹配阶段结合起来，实现了instance-wise的判别监督和强化对难题负面样本的梯度。该方法在Massive 多模态 Embedding 基准（MMEB）上取得新高的表现，并在五个数据集上显示出强大的零-shot generalizeization结果。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  xiaomi-embodied-intelligence:2:
+    abstract_sha256: 87bbccc85d0cd45c5e0178d907d8149c697b60ef9a3d391bb9d63ddc91cea741
+    summary_zh: 研究者提出了MiMo-7B，一个专门用于解决推理任务的大型语言模型。通过优化预训练和后训练阶段，MiMo-7B表现出出色的推理能力，尤其是在数学、编程和一般推理任务上。该模型在测试中超越了更大的32B模型，并且经过RL训练后的版本MiMo-7B-RL也取得了突破性成果。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  xiaomi-mimo:1:
+    abstract_sha256: 87bbccc85d0cd45c5e0178d907d8149c697b60ef9a3d391bb9d63ddc91cea741
+    summary_zh: 研究者提出了一种名为MiMo-7B的语言模型，专门用于解决推理任务。该模型在预训练和后训练阶段进行优化，并通过多步骤的数据混合策略和测试难度驱动的代码奖励方案来改善推理能力。结果表明，MiMo-7B-Base具有出色的推理潜力，超越了更大的32B模型，而RL-tuned模型MiMo-7B-RL在数学、代码和一般推理任务上表现出色，超过了OpenAI o1-mini的性能。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  zhipu-glm:2:
+    abstract_sha256: 0dda50a1c1cf24ca5ee62e521998fc724b3d3b3ab2f417c770b453cabd9ce9e0
+    summary_zh: 研究者提出了一种名为SCAIL的框架，旨在解决控制性人形动画达到Studio级标准的挑战。该框架通过创新3D姿势表示和全文本姿势注入机制，实现了对复杂动作和跨身份动画的有效处理。实验结果表明，SCAIL取得了State-of-the-Art的表现，推进人形动画控制向Studio级标准的进展。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  zju-3dv:0:
+    abstract_sha256: b90f2781f46c82ee282edb6a055bda4883f752b1e751515ab645cd77237087c5
+    summary_zh: 该研究旨在实现高分辨率和实时的动态3D场景视图合成。通过提出的4K4D点云表示，该方法可以有效提高渲染速度，并且能够实现高质量的渲染效果。实验结果表明，该方法在1080p分辨率下可达400FPS，在4K分辨率下可达80FPS，显著超越了之前的方法，并达到当前最佳的渲染质量。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  zju-3dv:1:
+    abstract_sha256: d1974dddb534410c343958c9e75789c5af7579fbe3a7a720ce9d14e4a9adffa6
+    summary_zh: 该研究提出了一个用于从单视图视频中恢复世界基准的人体运动的新方法。该方法使用一种名为Gravity-View（GV）的坐标系统，利用世界重力和相机视角来定义它。这导致了对学习图像姿势映射的错误积累的解决方案，并在实验中证明了其在摄像头空间和世界基准下的更真实运动恢复方面的优势。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  zju-3dv:2:
+    abstract_sha256: 97f5140a93f6d0bf5fe04e351ebdb8219e1f1df9aaaca72c336acdb7193bd491
+    summary_zh: 该研究旨在解决自主驾驶场景中动态城市街头的模型化问题。 recent方法通过将跟踪车辆姿势 incorporation 运用NeRF，实现动态城市街头场景的 photo-realistic 视觉合成。但是，这些方法存在显著限制，即训练和渲染速度较慢。该论文提出Street Gaussians，一个新的隐式场景表示方法，解决这些限制。该方法将动态城市街头表示为一组点云，每个点云与语义标签和3D高斯分布相关联，分别对应于前景车辆或背景。该方法使用可调节跟踪姿势的对象点云，并结合4D球面谐波模型来模拟前景车辆的动态外观。这种隐式表示方法使得场景编辑和渲染在 135 FPS（1066×1600分辨率）内进行，仅在半小时的训练时间
+    model: llama3.2
+    generated_at: '2026-07-28'
+  zju-nlp-kg:1:
+    abstract_sha256: bc16a1d8f53c2b90469c70f8ed82504ecbe084c6ef38e0d4f21db2b045b99649
+    summary_zh: 研究人员开发了一个名为LightMem的新记忆系统，旨在在Large Language Models（LLMs）中有效利用历史互动信息。该系统通过三个阶段实现，包括感知式感知、主题相关短期记忆和长期记忆。实验结果表明，LightMem在QA准确率、token使用量和API调用数量方面都取得了显著改进。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  zju-nlp-kg:2:
+    abstract_sha256: 8876154a07f0e8f8d6d16c2a0585bb7c47944e14fa422568cbd6afb0dd75aca2
+    summary_zh: 研究问题是机器写作中使用大型语言模型的检索增强方法，限制了生成具有丰富信息的内容。 OmniThink 是一种慢思考的机器写作框架，模拟人类学习过程中的逐步深化知识。实验结果表明，OmniThink 提高了生成文章的知识密度，而不会损害逻辑一致性和深度。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  zju-real:0:
+    abstract_sha256: d2a2a49373259cb5903fad8c2fb48a7380732642bedd81a644e735af4f028c63
+    summary_zh: 该研究引入了GUI-G$^2$奖励框架，利用Gaussian分布模拟人工点击行为，改善GUI grounding任务的性能。通过实验结果表明，GUI-G$^2$在ScreenSpot、ScreenSpot-v2和ScreenSpot-Probenchmark上显著优于现有方法，尤其是在ScreenSpot-Probenchmark上的改进率达24.7%。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  zju-real:1:
+    abstract_sha256: eea602026e8bb82d0cefb04152519e933b3e0a09a7065d641e80c172a6802716
+    summary_zh: 研究表明，当前的视觉语言模型（VLM）难以实现稳健的空间推理能力。该研究提出了一种通过逐步建立感知和理解的层次结构来解决这一问题的方法。通过构建了一个包含26,610个样本的多模态数据集，并设计了一个三阶段的进步训练框架，该框架首先建立空间感知，接着发展空间理解，最终强化复杂推理。该方法得到了3B参数模型SpatialLadder的成功应用，实现了对空间推理benchmark的state-of-the-art表现，且在出域测试中保持了强大的 generalize能力。
+    model: llama3.2
+    generated_at: '2026-07-28'
+  zju-real:2:
+    abstract_sha256: 4f8e3c39d4e26c390ae912bb7ff59b75ba29cb8b5edcf4274254e50c6a5c5e18
+    summary_zh: 研究者发现现有视觉语言模型（VLM）在理解和推理视觉内容方面取得了显著成就，但在跨视角理解和空间推理方面仍存在挑战。他们开发了ViewSpatial-Bench，一个专门针对多视角空间定位识别评估的全面benchmark，并发现通过 fine-tuning VLMs 在多视角空间数据上，性能可以提高 46.24%。
+    model: llama3.2
+    generated_at: '2026-07-28'

@@ -10,9 +10,15 @@ teams_data = YAML.load_file(File.join(ROOT, "data", "research-teams.yaml"))
 works_data = YAML.load_file(File.join(ROOT, "data", "representative-works.yaml"))
 profiles_data = YAML.load_file(File.join(ROOT, "data", "team-profiles.yaml"))
 metadata_data = YAML.load_file(File.join(ROOT, "data", "work-metadata.yaml"))
+recent_data = YAML.load_file(File.join(ROOT, "data", "recent-works.yaml"))
 
 parents = %w[companies frontier_ai_companies universities].flat_map do |section|
-  parents_data.fetch(section).map { |parent| parent.merge("collection" => section) }
+  parents_data.fetch(section).map do |parent|
+    parent.merge(
+      "collection" => section,
+      "organization_class" => parent.fetch("entity_type") == "university" ? "university" : "industry"
+    )
+  end
 end
 parent_by_id = parents.to_h { |parent| [parent.fetch("id"), parent] }
 
@@ -25,7 +31,9 @@ teams = teams_data.fetch("teams").map do |team|
   team.merge(
     "parent" => parent,
     "profile" => profiles_data.fetch("teams").fetch(team_id),
-    "representative_works" => works
+    "representative_works" => works,
+    "recent_work" => works.fetch(recent_data.fetch("teams").fetch(team_id).fetch("work_index"))
+      .merge("recency" => recent_data.fetch("teams").fetch(team_id))
   )
 end
 
@@ -43,7 +51,7 @@ payload = {
       "works" => all_works.length,
       "resolved_papers" => all_works.count { |work| work.dig("metadata", "resolution_status") == "resolved" },
       "works_with_figures" => all_works.count { |work| work.dig("metadata", "figure", "image_url") },
-      "citations" => all_works.sum { |work| work.dig("metadata", "citation", "count").to_i }
+      "scholar_links" => all_works.count { |work| work.dig("metadata", "citation", "source") == "Google Scholar" }
     }
   },
   "parents" => parents,

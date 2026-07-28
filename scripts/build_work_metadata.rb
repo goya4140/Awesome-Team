@@ -5,6 +5,7 @@ require "cgi"
 require "json"
 require "net/http"
 require "open3"
+require "digest"
 require "thread"
 require "uri"
 require "yaml"
@@ -14,6 +15,7 @@ WORKS_PATH = File.join(ROOT, "data", "representative-works.yaml")
 REPO_IDS_PATH = File.join(ROOT, "data", "repo-paper-ids.yaml")
 CROSSREF_PATH = File.join(ROOT, "data", "crossref-metadata.yaml")
 OUTPUT_PATH = File.join(ROOT, "data", "work-metadata.yaml")
+SUMMARY_CACHE_PATH = File.join(ROOT, "data", "abstract-summaries-zh.yaml")
 CHECKED_AT = ENV.fetch("CHECKED_AT", Time.now.strftime("%Y-%m-%d"))
 FIGURE_THREADS = Integer(ENV.fetch("FIGURE_THREADS", "6"))
 
@@ -104,6 +106,34 @@ def first_sentences(text, limit = 680)
   summary.length > limit ? "#{summary.slice(0, limit).sub(/\s+\S*\z/, '')}…" : summary
 end
 
+def abstract_summary(text, title)
+  return "已匹配论文《#{title}》，但开放元数据暂未提供 Abstract；请通过论文原文查看方法与结论。" if text.to_s.strip.empty?
+
+  sentences = text.gsub(/\s+/, " ").strip.scan(/.+?(?:[.!?](?=\s|\z)|\z)/).map(&:strip)
+  signals = [
+    /we (?:propose|present|introduce|develop|design)/i,
+    /(?:our|the proposed) (?:method|model|framework|system|approach|pipeline)/i,
+    /(?:results|experiments|evaluation) (?:show|demonstrate|indicate)/i,
+    /(?:outperform|achiev|improv|state-of-the-art|sota)/i
+  ]
+  ranked = sentences.each_with_index.map do |sentence, index|
+    signal_score = signals.count { |pattern| sentence.match?(pattern) }
+    length_score = sentence.length.between?(70, 360) ? 1 : 0
+    [sentence, signal_score * 10 + length_score - index * 0.01]
+  end
+  selected = [sentences.first, *ranked.sort_by { |(_, score)| -score }.map(&:first)]
+    .compact
+    .uniq
+    .first(3)
+  summary = selected.join(" ")
+  summary = "#{summary.slice(0, 980).sub(/\s+\S*\z/, '')}…" if summary.length > 980
+  "基于论文 Abstract 自动提炼：#{summary}"
+end
+
+def google_scholar_url(title)
+  "https://scholar.google.com/scholar?hl=en&q=#{URI.encode_www_form_component(%Q{\"#{title}\"})}"
+end
+
 def record_to_paper(record, arxiv_id: nil)
   location = record["primary_location"] || {}
   doi = record["doi"].to_s.sub(%r{\Ahttps://doi\.org/}i, "")
@@ -131,7 +161,7 @@ def figure_from_arxiv(arxiv_id)
   )
   return nil unless status.success?
 
-  stdout.scan(/<figure[^>]*>(.*?)<\/figure>/im).each do |match|
+  candidates = stdout.scan(/<figure[^>]*>(.*?)<\/figure>/im).map do |match|
     block = match.first
     src = block[/<img[^>]+src=["']([^"']+)["']/i, 1]
     caption_html = block[/<figcaption[^>]*>(.*?)<\/figcaption>/im, 1]
@@ -140,14 +170,18 @@ def figure_from_arxiv(arxiv_id)
     caption = CGI.unescapeHTML(caption_html.gsub(/<[^>]+>/, " ").gsub(/\s+/, " ").strip)
     next if caption.length < 40
 
-    return {
+    flow_terms = caption.scan(/\b(?:overview|pipeline|framework|architecture|workflow|method|system|training|inference|proposed|approach)\b/i).length
+    result_terms = caption.scan(/\b(?:result|comparison|performance|benchmark|ablation|example|visualization|curve)\b/i).length
+    figure_one_bonus = caption.match?(/\b(?:figure|fig\.)\s*1\b/i) ? 2 : 0
+    {
       "image_url" => URI.join(html_url, src).to_s,
-      "caption" => caption.slice(0, 700),
+      "caption" => caption.slice(0, 700).rstrip,
       "source_page" => "https://arxiv.org/abs/#{arxiv_id}",
-      "source_kind" => "原论文图表（通过 ar5iv 渲染）"
+      "source_kind" => "原论文流程 / 方法图（通过 ar5iv 渲染）",
+      "selection_score" => flow_terms * 3 + figure_one_bonus - result_terms
     }
-  end
-  nil
+  end.compact
+  candidates.max_by { |candidate| candidate.fetch("selection_score") }
 rescue URI::InvalidURIError
   nil
 end
@@ -155,6 +189,7 @@ end
 catalog = YAML.load_file(WORKS_PATH)
 repo_ids = YAML.load_file(REPO_IDS_PATH).fetch("works")
 crossref = YAML.load_file(CROSSREF_PATH).fetch("works")
+summary_cache = File.exist?(SUMMARY_CACHE_PATH) ? YAML.load_file(SUMMARY_CACHE_PATH).fetch("works", {}) : {}
 
 all_arxiv_ids = repo_ids.values.flat_map { |entry| entry.fetch("arxiv_ids") }.uniq
 strict_crossref_dois = crossref.values.map do |entry|
@@ -185,8 +220,7 @@ catalog.fetch("teams").each do |team_id, works|
     if work.fetch("kind") == "research_index"
       metadata[key] = base.merge(
         "summary" => "这是团队的官方研究入口，可继续访问其研究方向、项目或论文列表；该条目不是单篇论文，因此不展示论文引用量。",
-        "citation" => { "count" => nil, "source" => nil, "checked_at" => CHECKED_AT },
-        "figure" => nil,
+        "citation" => {},
         "resolution_status" => "not_a_paper"
       )
       next
@@ -209,20 +243,27 @@ catalog.fetch("teams").each do |team_id, works|
 
     if record
       paper = record_to_paper(record, arxiv_id: arxiv_id)
-      abstract = first_sentences(abstract_text(record["abstract_inverted_index"]))
-      summary = if abstract
-                  "该工作《#{paper.fetch('title')}》聚焦于其标题所述的研究问题。原始摘要要点：#{abstract}"
+      abstract = abstract_text(record["abstract_inverted_index"])
+      abstract_hash = abstract ? Digest::SHA256.hexdigest(abstract) : nil
+      cached_summary = summary_cache[key]
+      summary = if cached_summary && cached_summary["abstract_sha256"] == abstract_hash
+                  cached_summary.fetch("summary_zh")
                 else
-                  "该工作《#{paper.fetch('title')}》已通过学术标识与 OpenAlex 记录完成匹配；摘要暂未由数据源提供，可从论文原文继续阅读。"
+                  abstract_summary(abstract, paper.fetch("title"))
                 end
+      scholar_url = google_scholar_url(paper.fetch("title"))
       metadata[key] = base.merge(
         "paper" => paper,
+        "abstract" => abstract,
         "summary" => summary,
         "citation" => {
-          "count" => record.fetch("cited_by_count"),
-          "source" => "OpenAlex",
-          "source_url" => record.fetch("id"),
-          "checked_at" => CHECKED_AT
+          "source" => "Google Scholar",
+          "source_url" => scholar_url,
+          "verification_status" => "search_link_only"
+        },
+        "metadata_provenance" => {
+          "identity_and_abstract" => "OpenAlex",
+          "openalex_url" => record.fetch("id")
         },
         "code_impact" => work["stars"] ? { "github_stars" => work["stars"], "checked_at" => CHECKED_AT } : nil,
         "figure" => nil,
@@ -234,7 +275,7 @@ catalog.fetch("teams").each do |team_id, works|
       description = work.fetch("title").gsub(/\s+/, " ").strip
       metadata[key] = base.merge(
         "summary" => "这是团队公开的#{work.fetch('kind') == 'open_source' ? '开源研究成果' : '代表性研究成果'}。目录中的公开说明为：#{description} 可通过原始链接查看完整项目、论文或数据说明。",
-        "citation" => { "count" => nil, "source" => nil, "checked_at" => CHECKED_AT },
+        "citation" => {},
         "code_impact" => work["stars"] ? { "github_stars" => work["stars"], "checked_at" => CHECKED_AT } : nil,
         "figure" => nil,
         "resolution_status" => "unresolved"
@@ -266,12 +307,13 @@ workers.each(&:join)
 payload = {
   "schema_version" => 2,
   "last_updated" => CHECKED_AT,
-  "citation_provider" => "OpenAlex",
+  "citation_provider" => "Google Scholar",
   "notes" => [
-    "Citation counts are a dated snapshot from OpenAlex and may differ from Google Scholar, Semantic Scholar, or Crossref.",
+    "Google Scholar is the primary citation destination. Google Scholar does not provide an official public structured API, so unverified counts remain null and link to an exact-title Scholar search.",
+    "OpenAlex is used only for paper identity, bibliographic fields, and abstracts; OpenAlex citation counts are not relabeled as Google Scholar counts.",
     "GitHub stars measure code adoption and are deliberately shown separately from scholarly citations.",
     "Paper identity is resolved first from arXiv/DOI identifiers in the representative repository README, then from strict Crossref title matches.",
-    "Figures are extracted from the original arXiv paper rendered by ar5iv, with the original paper page retained as the source."
+    "Figures are extracted from the original arXiv paper rendered by ar5iv. Captions are scored to prefer pipeline, architecture, framework, and method-overview figures."
   ],
   "works" => metadata.sort.to_h
 }

@@ -1206,6 +1206,107 @@ works:
     readme_status: read
     arxiv_ids: []
     dois: []
+  shanghai-ai-lab-internlm:0:
+    repository: https://github.com/InternLM/Intern-S1
+    readme_status: read
+    arxiv_ids:
+    - '2508.15763'
+    - '2603.25040'
+    dois: []
+  shanghai-ai-lab-internlm:1:
+    repository: https://github.com/InternLM/VSR
+    readme_status: read
+    arxiv_ids:
+    - '2602.16455'
+    dois: []
+  shanghai-ai-lab-internlm:2:
+    repository: https://github.com/InternLM/EndoCoT
+    readme_status: read
+    arxiv_ids:
+    - '2603.12252'
+    dois: []
+  shanghai-ai-lab-internscience:0:
+    repository: https://github.com/InternScience/ResearchClawBench
+    readme_status: read
+    arxiv_ids:
+    - '2606.07591'
+    dois: []
+  shanghai-ai-lab-internscience:1:
+    repository: https://github.com/InternScience/Agents-A1
+    readme_status: read
+    arxiv_ids:
+    - '2606.30616'
+    dois: []
+  shanghai-ai-lab-internscience:2:
+    repository: https://github.com/InternScience/InternAgent
+    readme_status: read
+    arxiv_ids:
+    - '2505.16938'
+    - '2602.08990'
+    - '2510.08521'
+    dois: []
+  shanghai-ai-lab-opendatalab:0:
+    repository: https://github.com/opendatalab/OmniDocBench
+    readme_status: read
+    arxiv_ids:
+    - '2412.07626'
+    dois: []
+  shanghai-ai-lab-opendatalab:1:
+    repository: https://github.com/opendatalab/TRivia
+    readme_status: read
+    arxiv_ids:
+    - '2512.01248'
+    dois: []
+  shanghai-ai-lab-opendatalab:2:
+    repository: https://github.com/opendatalab/MinerU-Diffusion
+    readme_status: read
+    arxiv_ids:
+    - '2603.22458'
+    - '2406.07524'
+    - '2410.17891'
+    - '2503.09573'
+    - '2509.22186'
+    dois: []
+  shanghai-ai-lab-opendrivelab:0:
+    repository: https://github.com/OpenDriveLab/SimScale
+    readme_status: read
+    arxiv_ids:
+    - '2511.23369'
+    dois: []
+  shanghai-ai-lab-opendrivelab:1:
+    repository: https://github.com/OpenDriveLab/WorldEngine
+    readme_status: read
+    arxiv_ids:
+    - '2606.19836'
+    - '2503.12552'
+    - '2511.23369'
+    dois: []
+  shanghai-ai-lab-opendrivelab:2:
+    repository: https://github.com/OpenDriveLab/RISE
+    readme_status: read
+    arxiv_ids:
+    - '2602.11075'
+    dois: []
+  shanghai-ai-lab-opengvlab:0:
+    repository: https://github.com/OpenGVLab/VideoChat-Flash
+    readme_status: read
+    arxiv_ids:
+    - '2501.00574'
+    - '2607.14935'
+    - '2505.14640'
+    dois: []
+  shanghai-ai-lab-opengvlab:1:
+    repository: https://github.com/OpenGVLab/SID-VLN
+    readme_status: read
+    arxiv_ids:
+    - '2509.24910'
+    dois: []
+  shanghai-ai-lab-opengvlab:2:
+    repository: https://github.com/OpenGVLab/GenExam
+    readme_status: read
+    arxiv_ids:
+    - '2509.14232'
+    dois: []
   sjtu-gair-nlp:0:
     repository: https://github.com/GAIR-NLP/LIMO
     readme_status: read

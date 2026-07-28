@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Awesome Team：中美顶尖 AI 研究团队、负责人、代表论文、引用量与原文图表目录。">
+    <meta name="description" content="Awesome Team：中美顶尖 AI 研究团队、最近工作、Abstract 摘要、Google Scholar 引用入口与原文流程图目录。">
     <meta name="theme-color" content="#ffffff">
     <title>Awesome Team — AI Research Teams</title>
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232563eb'/%3E%3Cpath d='M18 45 29 17h6l11 28h-7l-2-7H27l-2 7Zm11-13h6l-3-9Z' fill='white'/%3E%3C/svg%3E">
@@ -31,7 +31,7 @@
         <h1>追踪团队，而不只是论文榜单。</h1>
         <p class="hero-copy">
           收录中美顶尖 AI 公司与高校中持续公开研究成果的团队。每个条目包含团队标识、研究介绍、
-          所属机构、公开负责人、代表论文、引用量与可核验的原文图表。
+          所属机构、公开负责人、最近工作、代表论文、基于 Abstract 的摘要、Google Scholar 引用入口与原文流程图。
         </p>
         <div class="hero-links">
           <a class="primary-button" href="#directory">浏览团队</a>
@@ -40,11 +40,11 @@
       </section>
 
       <section class="stats" aria-label="目录统计">
-        <article><strong id="team-count">143</strong><span>研究团队</span></article>
-        <article><strong id="parent-count">46</strong><span>母体机构</span></article>
+        <article><strong id="team-count">—</strong><span>研究团队</span></article>
+        <article><strong id="parent-count">—</strong><span>母体机构</span></article>
         <article><strong id="paper-count">—</strong><span>已匹配论文</span></article>
         <article><strong id="figure-count">—</strong><span>原文图表</span></article>
-        <article><strong id="citation-count">—</strong><span>累计引用</span></article>
+        <article><strong id="scholar-count">—</strong><span>Scholar 入口</span></article>
       </section>
 
       <section class="directory" id="directory">
@@ -53,7 +53,7 @@
             <p class="kicker">DIRECTORY</p>
             <h2>AI 研究团队</h2>
           </div>
-          <p>引用量是动态指标，卡片中同时显示数据来源与核验日期。</p>
+          <p>引用量动态变化；目录提供 Google Scholar 精确标题入口，不缓存未经逐篇核验的数字。</p>
         </div>
 
         <div class="controls">
@@ -65,6 +65,7 @@
           </label>
           <div class="filters">
             <label><span>地区</span><select id="region-filter"><option value="">全部地区</option></select></label>
+            <label><span>机构类型</span><select id="entity-filter"><option value="">高校与企业</option><option value="university">高校</option><option value="industry">企业 / 研究机构</option></select></label>
             <label><span>机构</span><select id="parent-filter"><option value="">全部机构</option></select></label>
             <label><span>方向</span><select id="focus-filter"><option value="">全部方向</option></select></label>
             <label><span>状态</span><select id="status-filter"><option value="">全部状态</option><option value="verified">已核验</option><option value="provisional">待完善</option></select></label>
@@ -95,7 +96,7 @@
       </div>
       <div>
         <p>数据更新：<span id="last-updated">—</span></p>
-        <p>论文元数据与引用量：OpenAlex · DOI 候选：Crossref</p>
+        <p>引用入口：Google Scholar · 论文身份与 Abstract：OpenAlex / Crossref</p>
       </div>
       <div class="footer-links">
         <a href="https://github.com/goya4140/awesome-team">Source</a>
