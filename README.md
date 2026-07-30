@@ -13,6 +13,7 @@ AI 论文越来越多，但研究者的注意力并没有变多。<br>
 [![Method figures](https://img.shields.io/badge/原文图表-125-f3f1e8?style=for-the-badge&labelColor=091827)](docs/RESEARCH_TEAMS.md)
 
 [**浏览研究团队与论文 →**](https://goya4140.github.io/awesome-team/)　·　
+[**进入 ByteDance Seed 研究专页 →**](https://goya4140.github.io/awesome-team/seed.html)　·　
 [推荐团队或论文](https://github.com/goya4140/awesome-team/issues/new)　·　
 [参与共建](CONTRIBUTING.md)
 
@@ -40,6 +41,7 @@ AI 生产力正在高速增长。大量论文持续涌现，AI 顶会的收录�
 - **近期工作与代表作：** 每个团队单列最近公开工作，并整理三项代表成果。
 - **不止标题的论文信息：** 提供基于 Abstract 的中文 TL;DR、Semantic Scholar 引用量、Google Scholar 入口与原文方法图。
 - **可核验的团队画像：** 展示所属机构、研究方向、公开负责人 / 教师与官方来源，并明确区分 `verified` 与 `provisional`。
+- **ByteDance Seed 研究专页：** 汇总 Seed 团队、公开研究者、212 篇公开论文与 Abstract 关键词方向，[进入专题档案](https://goya4140.github.io/awesome-team/seed.html)。
 
 > Awesome Team 不按机构光环排名，也不把一次顶会录用当成永久通行证。每个条目都需要官方归属与近期公开研究活动作为证据。
 

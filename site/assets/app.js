@@ -1,4 +1,19 @@
 const CATALOG_VERSION = "20260730-citations-v1";
+const LOGO_WALL_TEAM_IDS = [
+  "bytedance-seed", "alibaba-qwen", "alibaba-damo-academy", "alibaba-modelscope",
+  "tencent-hunyuan", "tencent-ai-lab", "tencent-arc-lab", "huawei-noahs-ark-lab",
+  "baidu-paddlepaddle", "kuaishou-kling-ai-research", "kuaishou-kolors", "meituan-longcat",
+  "ant-interactive-ai-lab", "ant-inclusion-ai", "xiaomi-mimo", "xiaohongshu-firered",
+  "deepseek-research", "zhipu-glm", "moonshot-kimi", "minimax-research",
+  "google-deepmind", "google-research", "meta-fair", "amazon-science",
+  "apple-mlx", "openai-research", "anthropic-alignment", "tsinghua-thunlp",
+  "tsinghua-keg-thudm", "tsinghua-coai", "pku-alignment", "pku-dair",
+  "zju-real", "zju-3dv", "sjtu-mint", "fudan-nlp", "fudan-disc", "ustc-ivc",
+  "nju-lamda", "hkust-gz-dsail", "cuhk-mmlab", "nus-nlp", "cmu-robotics-institute", "mit-cbmm",
+  "nju-lamda-cl", "ntu-declare", "cmu-auton-lab", "mit-improbable-ai",
+  "stanford-crfm", "stanford-nlp", "berkeley-chai", "berkeley-rail",
+  "berkeley-sky-computing-lab", "umd-umiacs", "uw-robotics", "shanghai-ai-lab-internscience",
+];
 
 const state = {
   data: null,
@@ -18,6 +33,7 @@ const elements = {
   signalStream: document.querySelector("#signal-stream"),
   signalProgress: document.querySelector("#signal-progress"),
   directionTrack: document.querySelector("#direction-track"),
+  logoWall: document.querySelector("#logo-wall"),
   search: document.querySelector("#search"),
   region: document.querySelector("#region-filter"),
   entity: document.querySelector("#entity-filter"),
@@ -79,6 +95,34 @@ function setup(data) {
   addOptions(elements.focus, directions);
   setupSignalStream(data.teams);
   setupDirectionBoard(data.teams);
+  setupLogoWall(data.teams, meta.counts.teams);
+}
+
+function selectLogoTeams(teams) {
+  const teamsById = new Map(teams.map((team) => [team.id, team]));
+  return LOGO_WALL_TEAM_IDS.map((teamId) => teamsById.get(teamId)).filter(Boolean);
+}
+
+function setupLogoWall(teams, totalCount) {
+  if (!elements.logoWall) return;
+  const selected = selectLogoTeams(teams);
+  const summaryPosition = Math.min(26, selected.length);
+  const tiles = selected.map((team, index) => {
+    const initials = team.name.split(/\s+/).slice(0, 2).map((word) => word[0]).join("").toUpperCase();
+    const logo = `
+      <div class="logo-wall-item" title="${escapeHtml(team.name)} · 已核验官方标识">
+        <img class="logo-wall-image" src="assets/team-logos/${escapeHtml(team.id)}.webp" width="240" height="240" alt="${escapeHtml(team.name)} 官方标识" loading="lazy" decoding="async">
+        <span class="logo-wall-fallback">${escapeHtml(initials)}</span>
+      </div>`;
+    if (index !== summaryPosition) return logo;
+    return `
+      <div class="logo-wall-summary">
+        <strong>${formatNumber(totalCount)}</strong>
+        <span>RESEARCH<br>TEAMS</span>
+      </div>
+      ${logo}`;
+  });
+  elements.logoWall.innerHTML = tiles.join("");
 }
 
 function paperSignal(team, work) {
@@ -249,10 +293,14 @@ function workMarkup(work) {
 }
 
 function officialLinks(team) {
-  return team.homepages.map((page) => {
+  const profileLink = team.id === "bytedance-seed"
+    ? '<a class="team-deep-link" href="seed.html">进入 Seed 研究专页 →</a>'
+    : "";
+  const externalLinks = team.homepages.map((page) => {
     const label = page.kind === "github" ? "GitHub" : page.kind === "official" ? "官方网站" : page.kind;
     return `<a href="${escapeHtml(page.url)}" target="_blank" rel="noreferrer">${escapeHtml(label)} ↗</a>`;
   }).join("");
+  return profileLink + externalLinks;
 }
 
 function teamMarkup(team) {
@@ -305,11 +353,16 @@ function teamMarkup(team) {
 }
 
 function bindLogoFallbacks() {
-  document.querySelectorAll(".team-logo").forEach((image) => {
-    image.addEventListener("error", () => {
+  document.querySelectorAll(".team-logo, .logo-wall-image").forEach((image) => {
+    const showFallback = () => {
       image.style.display = "none";
       image.nextElementSibling.style.display = "grid";
-    }, { once: true });
+    };
+    if (image.complete && image.naturalWidth === 0) {
+      showFallback();
+    } else {
+      image.addEventListener("error", showFallback, { once: true });
+    }
   });
 }
 

@@ -1,0 +1,221 @@
+{
+  "source": "ByteDance Seed public paper abstracts",
+  "generated_at": "2026-07-30",
+  "paper_count": 212,
+  "metric": "document_frequency",
+  "methodology": "Curated research vocabulary with synonym-normalizing regular expressions. Ranked by the number of distinct abstracts containing each term. Generic academic boilerplate, organization names, URLs, and low-information words are excluded.",
+  "excluded_examples": [
+    "paper",
+    "method",
+    "results",
+    "novel",
+    "state-of-the-art",
+    "model",
+    "dataset"
+  ],
+  "keywords": [
+    {
+      "keyword": "Large Language Models",
+      "category": "Language & Reasoning",
+      "document_count": 74,
+      "document_share": 0.3491,
+      "mention_count": 204
+    },
+    {
+      "keyword": "Architecture & Scaling",
+      "category": "Systems & Architecture",
+      "document_count": 58,
+      "document_share": 0.2736,
+      "mention_count": 99
+    },
+    {
+      "keyword": "Image Generation",
+      "category": "Multimodal & Generation",
+      "document_count": 52,
+      "document_share": 0.2453,
+      "mention_count": 165
+    },
+    {
+      "keyword": "Diffusion Models",
+      "category": "Multimodal & Generation",
+      "document_count": 48,
+      "document_share": 0.2264,
+      "mention_count": 96
+    },
+    {
+      "keyword": "Code Intelligence",
+      "category": "Language & Reasoning",
+      "document_count": 48,
+      "document_share": 0.2264,
+      "mention_count": 87
+    },
+    {
+      "keyword": "Reasoning",
+      "category": "Language & Reasoning",
+      "document_count": 45,
+      "document_share": 0.2123,
+      "mention_count": 139
+    },
+    {
+      "keyword": "Inference Efficiency",
+      "category": "Systems & Architecture",
+      "document_count": 45,
+      "document_share": 0.2123,
+      "mention_count": 96
+    },
+    {
+      "keyword": "Video Generation",
+      "category": "Multimodal & Generation",
+      "document_count": 40,
+      "document_share": 0.1887,
+      "mention_count": 184
+    },
+    {
+      "keyword": "Multimodal Learning",
+      "category": "Multimodal & Generation",
+      "document_count": 36,
+      "document_share": 0.1698,
+      "mention_count": 70
+    },
+    {
+      "keyword": "Training Systems",
+      "category": "Systems & Architecture",
+      "document_count": 36,
+      "document_share": 0.1698,
+      "mention_count": 61
+    },
+    {
+      "keyword": "Post-training",
+      "category": "Systems & Architecture",
+      "document_count": 33,
+      "document_share": 0.1557,
+      "mention_count": 47
+    },
+    {
+      "keyword": "Alignment",
+      "category": "Language & Reasoning",
+      "document_count": 32,
+      "document_share": 0.1509,
+      "mention_count": 65
+    },
+    {
+      "keyword": "Motion & Dynamics",
+      "category": "Multimodal & Generation",
+      "document_count": 30,
+      "document_share": 0.1415,
+      "mention_count": 58
+    },
+    {
+      "keyword": "Reinforcement Learning",
+      "category": "Language & Reasoning",
+      "document_count": 29,
+      "document_share": 0.1368,
+      "mention_count": 62
+    },
+    {
+      "keyword": "Safety & Robustness",
+      "category": "Science & Trust",
+      "document_count": 29,
+      "document_share": 0.1368,
+      "mention_count": 34
+    },
+    {
+      "keyword": "Vision–Language",
+      "category": "Multimodal & Generation",
+      "document_count": 26,
+      "document_share": 0.1226,
+      "mention_count": 51
+    },
+    {
+      "keyword": "3D Generation",
+      "category": "Multimodal & Generation",
+      "document_count": 19,
+      "document_share": 0.0896,
+      "mention_count": 41
+    },
+    {
+      "keyword": "Long Context & Memory",
+      "category": "Language & Reasoning",
+      "document_count": 18,
+      "document_share": 0.0849,
+      "mention_count": 61
+    },
+    {
+      "keyword": "Robotics",
+      "category": "Embodied & World",
+      "document_count": 18,
+      "document_share": 0.0849,
+      "mention_count": 53
+    },
+    {
+      "keyword": "AI for Science",
+      "category": "Science & Trust",
+      "document_count": 18,
+      "document_share": 0.0849,
+      "mention_count": 44
+    },
+    {
+      "keyword": "Speech & Audio",
+      "category": "Multimodal & Generation",
+      "document_count": 17,
+      "document_share": 0.0802,
+      "mention_count": 106
+    },
+    {
+      "keyword": "Agents",
+      "category": "Language & Reasoning",
+      "document_count": 17,
+      "document_share": 0.0802,
+      "mention_count": 55
+    },
+    {
+      "keyword": "Mixture of Experts",
+      "category": "Systems & Architecture",
+      "document_count": 14,
+      "document_share": 0.066,
+      "mention_count": 49
+    },
+    {
+      "keyword": "Molecular Design",
+      "category": "Science & Trust",
+      "document_count": 13,
+      "document_share": 0.0613,
+      "mention_count": 38
+    },
+    {
+      "keyword": "Tokenization",
+      "category": "Systems & Architecture",
+      "document_count": 10,
+      "document_share": 0.0472,
+      "mention_count": 26
+    },
+    {
+      "keyword": "Embodied AI",
+      "category": "Embodied & World",
+      "document_count": 10,
+      "document_share": 0.0472,
+      "mention_count": 20
+    },
+    {
+      "keyword": "Protein & Biomolecules",
+      "category": "Science & Trust",
+      "document_count": 7,
+      "document_share": 0.033,
+      "mention_count": 20
+    },
+    {
+      "keyword": "Retrieval",
+      "category": "Language & Reasoning",
+      "document_count": 4,
+      "document_share": 0.0189,
+      "mention_count": 11
+    },
+    {
+      "keyword": "Synthetic Data",
+      "category": "Science & Trust",
+      "document_count": 4,
+      "document_share": 0.0189,
+      "mention_count": 5
+    }
+  ]
+}

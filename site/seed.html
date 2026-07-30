@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ByteDance Seed 公开研究档案：团队、成员与完整公开论文目录。">
+    <meta name="theme-color" content="#f7f7f7">
+    <meta property="og:title" content="ByteDance Seed · Public Research Archive">
+    <meta property="og:description" content="团队、公开成员与 Seed 官方公开论文目录。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://awesome-team-seed.lij850601.chatgpt.site/seed.html">
+    <meta property="og:image" content="https://awesome-team-seed.lij850601.chatgpt.site/assets/seed-og.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>ByteDance Seed · Research Archive</title>
+    <link rel="stylesheet" href="assets/seed.css?v=20260730-v3">
+    <script defer src="assets/seed.js?v=20260730-v3"></script>
+  </head>
+  <body>
+    <header class="site-nav">
+      <a class="brand" href="#top" aria-label="ByteDance Seed 研究档案首页">
+        <span class="brand-bydance">ByteDance</span>
+        <span class="brand-seed">Seed</span>
+      </a>
+      <nav aria-label="页面导航">
+        <a href="#about">研究团队</a>
+        <a href="#keywords">论文关键词</a>
+        <a href="#people">公开成员</a>
+        <a href="#publications">公开论文</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="https://seed.bytedance.com/zh/" target="_blank" rel="noreferrer">Seed 官网</a>
+        <a class="back-link" href="index.html#directory">Awesome Team ↗</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="hero-kicker">BYTEDANCE SEED · PUBLIC RESEARCH ARCHIVE</p>
+          <h1>追求智能上限，<br>创造社会价值</h1>
+          <p class="hero-intro">
+            Seed 是字节跳动的基础模型与前沿 AI 研究团队。本页以 Seed 官方公开数据为主索引，
+            将团队、研究者与论文整理成一份可检索、可追溯的独立研究档案。
+          </p>
+          <div class="hero-links">
+            <a class="primary-link" href="#publications">浏览全部公开论文 <span>↓</span></a>
+            <a href="https://seed.bytedance.com/zh/public_papers?view_from=research&amp;order_desc=true&amp;offset=0" target="_blank" rel="noreferrer">查看官方论文页 ↗</a>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="论文目录统计">
+          <p class="panel-label">PUBLICATIONS / 公开论文</p>
+          <strong id="hero-reported-total">230</strong>
+          <span>官方页面计数</span>
+          <div class="panel-rule"></div>
+          <div class="panel-detail">
+            <p><b id="hero-retrieved-total">212</b> 条公开元数据</p>
+            <p><b id="hero-arxiv-total">202</b> 条直接 arXiv</p>
+            <p><b id="hero-figure-total">205</b> 条论文图 / PDF 图</p>
+          </div>
+        </div>
+      </section>
+
+      <aside class="data-notice" id="data-notice">
+        <span>DATA NOTE</span>
+        <p>
+          Seed 官方计数器当前显示 230，但公开分页载荷实际只返回 212 条已发布记录。
+          本页完整收录这 212 条，并明确保留 18 条计数差异；未虚构未公开论文的标题或摘要。
+        </p>
+        <a href="#methodology">查看采集说明 ↓</a>
+      </aside>
+
+      <section class="about section" id="about">
+        <div class="section-heading">
+          <p class="section-number">01</p>
+          <div>
+            <p class="eyebrow">RESEARCH TEAM</p>
+            <h2>从基础模型出发，<br>向真实世界延伸</h2>
+          </div>
+          <div class="section-copy">
+            <p>
+              Seed 成立于 2023 年，公开研究横跨大语言模型、训练基础设施、视觉与语音、
+              多模态交互和世界模型、AI for Science、机器人以及负责任 AI。
+            </p>
+            <p>
+              团队同时推进基础研究和真实产品中的应用研究，持续通过模型、论文、技术报告与开源项目发布成果。
+              官方网站披露其在中国、新加坡和美国设有研究岗位。
+            </p>
+          </div>
+        </div>
+
+        <div class="direction-list" aria-label="Seed 的八个公开研究方向">
+          <article><span>01</span><h3>LLM</h3><p>预训练、推理、强化学习与智能体</p></article>
+          <article><span>02</span><h3>Infrastructures</h3><p>大模型训练、推理与全模态系统</p></article>
+          <article><span>03</span><h3>Vision</h3><p>视觉生成、理解与高保真内容创作</p></article>
+          <article><span>04</span><h3>Speech</h3><p>语音理解、合成与全双工交互</p></article>
+          <article><span>05</span><h3>Multimodal &amp; World Model</h3><p>统一理解生成、交互与世界建模</p></article>
+          <article><span>06</span><h3>AI for Science</h3><p>生物分子、量子化学与科学计算</p></article>
+          <article><span>07</span><h3>Robotics</h3><p>具身智能、VLA 与灵巧操作</p></article>
+          <article><span>08</span><h3>Responsible AI</h3><p>安全、可靠与可持续的 AI 机制</p></article>
+        </div>
+      </section>
+
+      <section class="keywords section" id="keywords">
+        <div class="section-heading">
+          <p class="section-number">02</p>
+          <div>
+            <p class="eyebrow">ABSTRACT KEYWORDS</p>
+            <h2>摘要里的<br>研究重心</h2>
+          </div>
+          <div class="section-copy">
+            <p>
+              我们对 212 篇公开论文 Abstract 做了研究词汇归一化，并按“包含该术语的论文数”排序，
+              以跨论文覆盖率观察 Seed 的主流研究方向。
+            </p>
+            <p>
+              图中已剔除 paper、method、results、novel、state-of-the-art 等论文写作套话；
+              同义写法则合并到同一个可解释的研究关键词。
+            </p>
+          </div>
+        </div>
+
+        <figure class="keyword-visual">
+          <img
+            src="assets/seed-keywords.png"
+            width="1800"
+            height="1080"
+            loading="lazy"
+            alt="Seed 212 篇公开论文摘要关键词图，展示大语言模型、架构与扩展、图像生成、扩散模型、代码智能、推理和推理效率等关键词的论文覆盖率"
+          >
+          <figcaption>
+            <span>KEYWORD MAP · DOCUMENT FREQUENCY</span>
+            <p>字号对应跨论文覆盖数；右侧列出覆盖率最高的 10 个方向。关键词可以重叠出现于同一篇论文，因此占比不相加。</p>
+          </figcaption>
+        </figure>
+
+        <div class="keyword-highlights" id="keyword-highlights" aria-label="关键词覆盖率摘要">
+          <p>正在载入关键词摘要…</p>
+        </div>
+      </section>
+
+      <section class="people section" id="people">
+        <div class="section-heading people-heading">
+          <p class="section-number">03</p>
+          <div>
+            <p class="eyebrow">PUBLIC PEOPLE</p>
+            <h2>公开成员样本</h2>
+          </div>
+          <p class="people-note">
+            Seed 未公开完整员工名册。以下研究者均在个人主页公开标注 Seed/ByteDance 任职或研究经历；
+            描述采用其公开研究方向，不推断内部职级。
+          </p>
+        </div>
+        <div class="people-list">
+          <a href="https://haoqifan.github.io/" target="_blank" rel="noreferrer"><span>Haoqi Fan</span><i>统一多模态 · BAGEL</i><b>↗</b></a>
+          <a href="https://zhengzx-nlp.github.io/" target="_blank" rel="noreferrer"><span>Zaixiang Zheng</span><i>AI for Science · 生物分子生成</i><b>↗</b></a>
+          <a href="https://yusufma03.github.io/" target="_blank" rel="noreferrer"><span>Xiao Ma</span><i>机器人基础模型 · 具身决策</i><b>↗</b></a>
+          <a href="https://jcyk.github.io/" target="_blank" rel="noreferrer"><span>Deng Cai</span><i>大语言模型 · 预训练与对齐</i><b>↗</b></a>
+          <a href="https://jiangjiechen.github.io/" target="_blank" rel="noreferrer"><span>Jiangjie Chen</span><i>推理模型 · 自主智能体</i><b>↗</b></a>
+          <a href="https://wujie1010.github.io/" target="_blank" rel="noreferrer"><span>Jie Wu</span><i>视频生成 · Seedance</i><b>↗</b></a>
+          <a href="https://nblt.github.io/" target="_blank" rel="noreferrer"><span>Tao Li</span><i>语音交互 · 多模态语音</i><b>↗</b></a>
+          <a href="https://zhudefa.github.io/" target="_blank" rel="noreferrer"><span>Defa Zhu</span><i>LLM 架构 · Scaling</i><b>↗</b></a>
+        </div>
+      </section>
+
+      <section class="publications" id="publications">
+        <div class="publication-head">
+          <div>
+            <p class="section-number">04</p>
+            <p class="eyebrow">PUBLICATIONS</p>
+            <h2>公开论文</h2>
+          </div>
+          <p>
+            以 Seed 官网公开顺序为准。每条记录均提供抽取式 TL;DR、完整 Abstract、
+            核心图表或论文 PDF 图、Seed 官方详情与 arXiv 入口。
+          </p>
+        </div>
+
+        <div class="paper-browser">
+          <div class="browser-controls">
+            <label class="search-control">
+              <span>搜索</span>
+              <input id="paper-search" type="search" placeholder="标题、作者、摘要关键词" autocomplete="off">
+            </label>
+            <label>
+              <span>团队</span>
+              <select id="team-filter"><option value="">全部团队</option></select>
+            </label>
+            <label>
+              <span>年份</span>
+              <select id="year-filter"><option value="">全部年份</option></select>
+            </label>
+            <label>
+              <span>排序</span>
+              <select id="sort-filter">
+                <option value="desc">由近到远</option>
+                <option value="asc">由远到近</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="results-meta">
+            <p id="results-count" aria-live="polite">正在载入论文目录…</p>
+            <button id="clear-filters" type="button">清除筛选</button>
+          </div>
+          <div id="paper-list" class="paper-list" aria-live="polite"></div>
+          <div id="pagination" class="pagination" aria-label="论文分页"></div>
+        </div>
+      </section>
+
+      <section class="methodology section" id="methodology">
+        <div>
+          <p class="section-number">05</p>
+          <p class="eyebrow">SOURCE &amp; METHOD</p>
+          <h2>数据来源与边界</h2>
+        </div>
+        <div class="method-grid">
+          <article>
+            <span>01</span>
+            <h3>官方目录</h3>
+            <p>标题、作者、发布日期、研究团队、方向、Venue 与 Abstract 均来自 Seed 官方公开分页载荷。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>TL;DR</h3>
+            <p>采用可复现的抽取式方法：优先选取方法句与结果句，不添加摘要中不存在的结论。</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>核心图表</h3>
+            <p>优先使用 arXiv HTML 的首个论文图；不可用时展示 PDF 页面预览，仍不可用时显示明确标注的摘要信号图。</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>230 / 212</h3>
+            <p>官方 total 字段为 230，但分页仅公开 212 条记录。18 条差异不具备可核验标题，因此未伪造补齐。</p>
+          </article>
+        </div>
+        <div class="source-links">
+          <a href="https://seed.bytedance.com/zh/public_papers?view_from=research&amp;order_desc=true&amp;offset=0" target="_blank" rel="noreferrer">Seed 官方公开论文页 ↗</a>
+          <span id="retrieved-at">数据同步时间：载入中</span>
+        </div>
+        <div class="audit-panel">
+          <div>
+            <p class="detail-label">OFFICIAL API COMPLETENESS AUDIT</p>
+            <h3>按年份核对官方计数与实际返回</h3>
+          </div>
+          <div id="year-audit" class="audit-years" aria-label="按年份的数据完整性审计"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-wordmark">ByteDance <b>Seed</b></div>
+      <p>Advancing the frontier of intelligence, in service of humanity.</p>
+      <a href="#top">返回顶部 ↑</a>
+    </footer>
+  </body>
+</html>
