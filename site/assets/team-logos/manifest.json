@@ -1,0 +1,842 @@
+[
+  {
+    "team_id": "bytedance-seed",
+    "team_name": "ByteDance Seed",
+    "source": "https://github.com/ByteDance-Seed.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "bytedance-seed.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "alibaba-qwen",
+    "team_name": "Qwen Team",
+    "source": "https://github.com/QwenLM.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "alibaba-qwen.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "alibaba-damo-academy",
+    "team_name": "DAMO Academy",
+    "source": "https://github.com/alibaba-damo-academy.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "alibaba-damo-academy.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "alibaba-modelscope",
+    "team_name": "ModelScope",
+    "source": "https://github.com/modelscope.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "alibaba-modelscope.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "tencent-hunyuan",
+    "team_name": "Tencent Hunyuan",
+    "source": "https://github.com/Tencent-Hunyuan.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "tencent-hunyuan.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "tencent-ai-lab",
+    "team_name": "Tencent AI Lab",
+    "source": "https://github.com/tencent-ailab.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "tencent-ai-lab.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "tencent-arc-lab",
+    "team_name": "Tencent ARC Lab",
+    "source": "https://github.com/TencentARC.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      292,
+      292
+    ],
+    "asset": "tencent-arc-lab.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "huawei-noahs-ark-lab",
+    "team_name": "Huawei Noah's Ark Lab",
+    "source": "https://github.com/huawei-noah.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "huawei-noahs-ark-lab.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "baidu-paddlepaddle",
+    "team_name": "PaddlePaddle",
+    "source": "https://github.com/PaddlePaddle.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "baidu-paddlepaddle.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "kuaishou-kling-ai-research",
+    "team_name": "Kling AI Research",
+    "source": "https://github.com/KlingAIResearch.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      315,
+      315
+    ],
+    "asset": "kuaishou-kling-ai-research.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "kuaishou-kolors",
+    "team_name": "Kuaishou Kolors Team",
+    "source": "https://github.com/Kwai-Kolors.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "kuaishou-kolors.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "meituan-longcat",
+    "team_name": "Meituan LongCat Team",
+    "source": "https://github.com/meituan-longcat.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "meituan-longcat.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "ant-interactive-ai-lab",
+    "team_name": "Ant Research — Interactive Artificial Intelligence Lab",
+    "source": "https://github.com/ant-research.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "ant-interactive-ai-lab.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "ant-inclusion-ai",
+    "team_name": "InclusionAI",
+    "source": "https://github.com/inclusionAI.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "ant-inclusion-ai.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "xiaomi-mimo",
+    "team_name": "Xiaomi MiMo / LLM-Core Team",
+    "source": "https://github.com/XiaomiMiMo.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "xiaomi-mimo.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "xiaohongshu-firered",
+    "team_name": "FireRed Team",
+    "source": "https://github.com/FireRedTeam.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "xiaohongshu-firered.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "deepseek-research",
+    "team_name": "DeepSeek AI Research",
+    "source": "https://github.com/deepseek-ai.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "deepseek-research.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "zhipu-glm",
+    "team_name": "Z.ai / GLM Team",
+    "source": "https://github.com/zai-org.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "zhipu-glm.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "moonshot-kimi",
+    "team_name": "Moonshot AI / Kimi Research",
+    "source": "https://github.com/MoonshotAI.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "moonshot-kimi.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "minimax-research",
+    "team_name": "MiniMax Research",
+    "source": "https://github.com/MiniMax-AI.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "minimax-research.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "google-deepmind",
+    "team_name": "Google DeepMind",
+    "source": "https://github.com/google-deepmind.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "google-deepmind.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "google-research",
+    "team_name": "Google Research",
+    "source": "https://github.com/google-research.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "google-research.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "meta-fair",
+    "team_name": "Fundamental AI Research (FAIR)",
+    "source": "https://github.com/facebookresearch.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "meta-fair.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "amazon-science",
+    "team_name": "Amazon Science",
+    "source": "https://github.com/amazon-science.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "amazon-science.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "apple-mlx",
+    "team_name": "Apple MLX Research Team",
+    "source": "https://github.com/ml-explore.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "apple-mlx.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "openai-research",
+    "team_name": "OpenAI Research",
+    "source": "https://github.com/openai.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      200,
+      200
+    ],
+    "asset": "openai-research.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "anthropic-alignment",
+    "team_name": "Anthropic Alignment",
+    "source": "https://github.com/anthropics.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "anthropic-alignment.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "tsinghua-thunlp",
+    "team_name": "Tsinghua Natural Language Processing Lab (THUNLP)",
+    "source": "https://github.com/thunlp.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      200,
+      200
+    ],
+    "asset": "tsinghua-thunlp.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "tsinghua-keg-thudm",
+    "team_name": "Tsinghua Knowledge Engineering Group / THUDM",
+    "source": "https://github.com/THUDM.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "tsinghua-keg-thudm.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "tsinghua-coai",
+    "team_name": "Tsinghua Conversational AI Group (CoAI)",
+    "source": "https://github.com/thu-coai.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "tsinghua-coai.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "pku-alignment",
+    "team_name": "PKU Alignment",
+    "source": "https://github.com/PKU-Alignment.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "pku-alignment.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "pku-dair",
+    "team_name": "PKU Data and Intelligence Research Lab (DAIR)",
+    "source": "https://github.com/PKU-DAIR.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "pku-dair.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "zju-real",
+    "team_name": "ZJU Reasoning, Evaluation and Agents Lab (REAL)",
+    "source": "https://github.com/ZJU-REAL.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "zju-real.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "zju-3dv",
+    "team_name": "ZJU 3D Vision Group",
+    "source": "https://github.com/zju3dv.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      420,
+      420
+    ],
+    "asset": "zju-3dv.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "sjtu-mint",
+    "team_name": "SJTU Machine Intelligence and Interaction Lab (MINT)",
+    "source": "https://github.com/MINT-SJTU.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "sjtu-mint.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "fudan-nlp",
+    "team_name": "Fudan NLP Group",
+    "source": "https://github.com/FudanNLP.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      420,
+      420
+    ],
+    "asset": "fudan-nlp.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "fudan-disc",
+    "team_name": "Fudan Data Intelligence and Social Computing Lab (DISC)",
+    "source": "https://github.com/FudanDISC.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "fudan-disc.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "ustc-ivc",
+    "team_name": "USTC Intelligent Visual Data Coding Lab (iVC)",
+    "source": "https://github.com/ustc-ivclab.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "ustc-ivc.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "nju-lamda",
+    "team_name": "NJU Learning and Mining from Data Group (LAMDA)",
+    "source": "https://github.com/lamda-nju.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "nju-lamda.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "hkust-gz-dsail",
+    "team_name": "HKUST(GZ) Data Science & Artificial Intelligence Lab (DSAIL)",
+    "source": "https://github.com/DSAILatHKUST.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      420,
+      420
+    ],
+    "asset": "hkust-gz-dsail.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "cuhk-mmlab",
+    "team_name": "CUHK Multimedia Laboratory (MMLab)",
+    "source": "https://github.com/open-mmlab.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      273,
+      273
+    ],
+    "asset": "cuhk-mmlab.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "nus-nlp",
+    "team_name": "NUS Natural Language Processing Group",
+    "source": "https://github.com/nusnlp.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "nus-nlp.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "cmu-robotics-institute",
+    "team_name": "CMU Robotics Institute",
+    "source": "https://github.com/cmu-robotics.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      420,
+      420
+    ],
+    "asset": "cmu-robotics-institute.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "mit-cbmm",
+    "team_name": "MIT Center for Brains, Minds and Machines (CBMM)",
+    "source": "https://github.com/CBMM.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "mit-cbmm.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "nju-lamda-cl",
+    "team_name": "LAMDA Continual Learning Lab",
+    "source": "https://github.com/LAMDA-CL.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "nju-lamda-cl.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "ntu-declare",
+    "team_name": "NTU Deep Cognition and Language Research Lab (DeCLaRe)",
+    "source": "https://github.com/declare-lab.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "ntu-declare.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "cmu-auton-lab",
+    "team_name": "CMU Auton Lab",
+    "source": "https://github.com/autonlab.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      180,
+      180
+    ],
+    "asset": "cmu-auton-lab.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "mit-improbable-ai",
+    "team_name": "MIT Improbable AI Lab",
+    "source": "https://github.com/Improbable-AI.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "mit-improbable-ai.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "stanford-crfm",
+    "team_name": "Stanford Center for Research on Foundation Models (CRFM)",
+    "source": "https://github.com/stanford-crfm.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "stanford-crfm.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "stanford-nlp",
+    "team_name": "Stanford Natural Language Processing Group",
+    "source": "https://github.com/stanfordnlp.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "stanford-nlp.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "berkeley-chai",
+    "team_name": "Berkeley Center for Human-Compatible AI (CHAI)",
+    "source": "https://github.com/HumanCompatibleAI.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "berkeley-chai.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "berkeley-rail",
+    "team_name": "Berkeley Robotic AI & Learning Lab (RAIL)",
+    "source": "https://github.com/rail-berkeley.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "berkeley-rail.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "berkeley-sky-computing-lab",
+    "team_name": "Berkeley Sky Computing Lab",
+    "source": "https://github.com/skypilot-org.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "berkeley-sky-computing-lab.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "umd-umiacs",
+    "team_name": "University of Maryland Institute for Advanced Computer Studies (UMIACS)",
+    "source": "https://github.com/UMIACS.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "umd-umiacs.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "uw-robotics",
+    "team_name": "UW Robotics",
+    "source": "https://github.com/uwrobotics.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "uw-robotics.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  },
+  {
+    "team_id": "shanghai-ai-lab-internscience",
+    "team_name": "InternScience",
+    "source": "https://github.com/InternScience.png?size=320",
+    "source_kind": "official_github_avatar",
+    "source_dimensions": [
+      320,
+      320
+    ],
+    "asset": "shanghai-ai-lab-internscience.webp",
+    "asset_dimensions": [
+      240,
+      240
+    ]
+  }
+]
