@@ -12,8 +12,8 @@
     <meta property="og:image" content="https://awesome-team-seed.lij850601.chatgpt.site/assets/seed-og.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <title>ByteDance Seed · Research Archive</title>
-    <link rel="stylesheet" href="assets/seed.css?v=20260730-v2">
-    <script defer src="assets/seed.js?v=20260730-v2"></script>
+    <link rel="stylesheet" href="assets/seed.css?v=20260730-v3">
+    <script defer src="assets/seed.js?v=20260730-v3"></script>
   </head>
   <body>
     <header class="site-nav">
@@ -23,6 +23,7 @@
       </a>
       <nav aria-label="页面导航">
         <a href="#about">研究团队</a>
+        <a href="#keywords">论文关键词</a>
         <a href="#people">公开成员</a>
         <a href="#publications">公开论文</a>
       </nav>
@@ -99,9 +100,47 @@
         </div>
       </section>
 
+      <section class="keywords section" id="keywords">
+        <div class="section-heading">
+          <p class="section-number">02</p>
+          <div>
+            <p class="eyebrow">ABSTRACT KEYWORDS</p>
+            <h2>摘要里的<br>研究重心</h2>
+          </div>
+          <div class="section-copy">
+            <p>
+              我们对 212 篇公开论文 Abstract 做了研究词汇归一化，并按“包含该术语的论文数”排序，
+              以跨论文覆盖率观察 Seed 的主流研究方向。
+            </p>
+            <p>
+              图中已剔除 paper、method、results、novel、state-of-the-art 等论文写作套话；
+              同义写法则合并到同一个可解释的研究关键词。
+            </p>
+          </div>
+        </div>
+
+        <figure class="keyword-visual">
+          <img
+            src="assets/seed-keywords.png"
+            width="1800"
+            height="1080"
+            loading="lazy"
+            alt="Seed 212 篇公开论文摘要关键词图，展示大语言模型、架构与扩展、图像生成、扩散模型、代码智能、推理和推理效率等关键词的论文覆盖率"
+          >
+          <figcaption>
+            <span>KEYWORD MAP · DOCUMENT FREQUENCY</span>
+            <p>字号对应跨论文覆盖数；右侧列出覆盖率最高的 10 个方向。关键词可以重叠出现于同一篇论文，因此占比不相加。</p>
+          </figcaption>
+        </figure>
+
+        <div class="keyword-highlights" id="keyword-highlights" aria-label="关键词覆盖率摘要">
+          <p>正在载入关键词摘要…</p>
+        </div>
+      </section>
+
       <section class="people section" id="people">
         <div class="section-heading people-heading">
-          <p class="section-number">02</p>
+          <p class="section-number">03</p>
           <div>
             <p class="eyebrow">PUBLIC PEOPLE</p>
             <h2>公开成员样本</h2>
@@ -126,7 +165,7 @@
       <section class="publications" id="publications">
         <div class="publication-head">
           <div>
-            <p class="section-number">03</p>
+            <p class="section-number">04</p>
             <p class="eyebrow">PUBLICATIONS</p>
             <h2>公开论文</h2>
           </div>
@@ -170,7 +209,7 @@
 
       <section class="methodology section" id="methodology">
         <div>
-          <p class="section-number">04</p>
+          <p class="section-number">05</p>
           <p class="eyebrow">SOURCE &amp; METHOD</p>
           <h2>数据来源与边界</h2>
         </div>

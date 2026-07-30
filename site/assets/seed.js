@@ -19,6 +19,7 @@ const elements = {
   count: document.querySelector("#results-count"),
   list: document.querySelector("#paper-list"),
   pagination: document.querySelector("#pagination"),
+  keywordHighlights: document.querySelector("#keyword-highlights"),
 };
 
 function escapeHtml(value) {
@@ -234,4 +235,21 @@ async function initialize() {
   }
 }
 
+async function loadKeywordHighlights() {
+  try {
+    const response = await fetch("data/seed-keywords.json");
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const payload = await response.json();
+    elements.keywordHighlights.innerHTML = payload.keywords.slice(0, 4).map((item, index) => `
+      <article>
+        <span>TOP ${String(index + 1).padStart(2, "0")}</span>
+        <b>${escapeHtml(item.keyword)}</b>
+        <i>${escapeHtml(item.document_count)} 篇论文 · ${Math.round(item.document_share * 100)}% 覆盖率</i>
+      </article>`).join("");
+  } catch (error) {
+    elements.keywordHighlights.innerHTML = "<p>关键词摘要暂时无法载入，完整结果仍可在上方图片中查看。</p>";
+  }
+}
+
 initialize();
+loadKeywordHighlights();
