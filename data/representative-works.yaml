@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-last_updated: '2026-07-28'
+last_updated: '2026-07-30'
 notes:
 - Each team has three featured entries.
 - paper/open_source/paper_or_project are item-level outputs; research_index is an official research entry awaiting finer curation.
@@ -2130,6 +2130,71 @@ teams:
     kind: open_source
     source: github
     stars: 38
+  cas-ai-innovation-academy:
+  - title: Chinese Academy of Sciences Artificial Intelligence Innovation Academy
+    url: https://www.bjb.cas.cn/xtdw2016/sljg2016/201612/t20161208_4718524.html
+    kind: research_index
+    source: official
+  - title: CAS Intelligent Decision Forum
+    url: https://www.cas.cn/yx/202404/t20240419_5011963.shtml
+    kind: research_index
+    source: official
+  - title: CAS Artificial Intelligence Industry–Academia–Research Innovation Alliance
+    url: http://www.casisd.cas.cn/ttxw1/zlyjytt/202212/t20221219_6585872.html
+    kind: research_index
+    source: official
+  casia-multimodal-ai-systems:
+  - title: 'ArcFace: Additive Angular Margin Loss for Deep Face Recognition'
+    url: https://arxiv.org/abs/1801.07698
+    kind: paper
+    source: arxiv
+  - title: 'CASIA-SURF: A Large-scale Multi-modal Benchmark for Face Anti-spoofing'
+    url: https://arxiv.org/abs/1908.10654
+    kind: paper
+    source: arxiv
+  - title: 'Partial FC: Training 10 Million Identities on a Single Machine'
+    url: https://arxiv.org/abs/2010.05222
+    kind: paper
+    source: arxiv
+  casia-taichu:
+  - title: 'Steering LVLMs via Sparse Autoencoder for Hallucination Mitigation'
+    url: https://arxiv.org/abs/2505.16146
+    kind: paper
+    source: arxiv
+  - title: Zidong Taichu Cross-modal General Artificial Intelligence Platform
+    url: https://ia.cas.cn/xwzx/ttxw/202107/t20210709_6130180.html
+    kind: paper_or_project
+    source: official
+  - title: Zidong Taichu Omnimodal Cognitive Foundation Model
+    url: https://www.ia.cas.cn/xwzx/ttxw/202306/t20230616_6779379.html
+    kind: paper_or_project
+    source: official
+  casia-brain-ai:
+  - title: 'The Human Brainnetome Atlas: A New Brain Atlas Based on Connectional Architecture'
+    url: https://doi.org/10.1093/cercor/bhw157
+    kind: paper
+    source: doi
+  - title: Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features
+    url: https://doi.org/10.1109/TPAMI.2023.3263181
+    kind: paper
+    source: doi
+  - title: A Neural Network for Modeling Human Concept Formation, Understanding and Communication
+    url: https://ia.cas.cn/rcdw/yjy/202404/t20240422_7130909.html
+    kind: paper_or_project
+    source: official
+  casia-ai-ethics-governance:
+  - title: Linking Artificial Intelligence Principles
+    url: https://www.linking-ai-principles.org/
+    kind: paper_or_project
+    source: official
+  - title: 'Ethics and Governance of Artificial Intelligence: Evidence from a Survey of Machine Learning Researchers'
+    url: https://arxiv.org/abs/2105.02117
+    kind: paper
+    source: arxiv
+  - title: Ethical and Safety Observatory for Large Artificial Intelligence Models
+    url: https://for-good.ai/large-ai-investigator
+    kind: paper_or_project
+    source: official
   shanghai-ai-lab-internlm:
   - title: "Intern-S1: A Scientific Multimodal Foundation Model"
     url: https://github.com/InternLM/Intern-S1

@@ -11,6 +11,7 @@ ROOT = File.expand_path("..", __dir__)
 WORKS_PATH = File.join(ROOT, "data", "representative-works.yaml")
 OUTPUT_PATH = ENV.fetch("OUTPUT_PATH", File.join(ROOT, "data", "crossref-metadata.yaml"))
 CHECKED_AT = ENV.fetch("CHECKED_AT", Time.now.strftime("%Y-%m-%d"))
+FORCE_REFRESH = ENV["FORCE_REFRESH"] == "1"
 USER_AGENT = "AwesomeTeamCatalog/1.0 (https://github.com/goya4140/awesome-team)"
 STOPWORDS = %w[a an and are as at be by for from in into is of on or the this to with official paper repo repository implementation code project].freeze
 
@@ -54,6 +55,11 @@ def year_from(item)
 end
 
 catalog = YAML.load_file(WORKS_PATH)
+cached_results = if !FORCE_REFRESH && File.exist?(OUTPUT_PATH)
+                   YAML.load_file(OUTPUT_PATH).fetch("works", {})
+                 else
+                   {}
+                 end
 jobs = catalog.fetch("teams").flat_map do |team_id, works|
   works.each_with_index.map { |work, index| [team_id, index, work] }
 end
@@ -71,6 +77,13 @@ Net::HTTP.start(uri.host, uri.port, use_ssl: true, read_timeout: 20, open_timeou
     end
 
     query = clean_query(work.fetch("title"))
+    cached = cached_results[key]
+    if cached && cached["query"] == query && %w[resolved unresolved].include?(cached["status"])
+      results[key] = cached
+      resolved += 1 if cached["status"] == "resolved"
+      next
+    end
+
     path = "/works?#{URI.encode_www_form("query.title" => query, "rows" => 3, "select" => "title,DOI,is-referenced-by-count,URL,abstract,published,container-title,author")}"
     request = Net::HTTP::Get.new(path, "User-Agent" => USER_AGENT, "Accept" => "application/json")
     response = http.request(request)

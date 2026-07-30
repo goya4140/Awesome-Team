@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-last_updated: '2026-07-28'
+last_updated: '2026-07-30'
 model: llama3.2
 notes:
 - Chinese TL;DRs are generated locally and strictly grounded in the stored paper abstract.
@@ -136,6 +136,41 @@ works:
     summary_zh: 研究者引入DAComp，一个模拟复杂企业数据智能流程的benchmark，评估数据工程和数据分析任务。结果表明，即使是最先进的机器人也难以通过DAComp，表明存在数据工程和分析两个领域都有严重不足。
     model: llama3.2
     generated_at: '2026-07-28'
+  casia-ai-ethics-governance:1:
+    abstract_sha256: c77719fb5815a5b91b53ca446e805d11daa1734950edf9c3fe0b157aac690d01
+    summary_zh: 研究人员通过调查AI/ML领域的顶级会议发表者（N=524人）来了解他们对AI使用的态度。结果显示，AI/ML研究人员高度信任国际组织和科学组织，中等信任西方技术公司，但低信任国家军事、中国技术公司和Facebook。调查结果表明，AI/ML研究人员大多数不支持 lethal autonomous weapons，但对其他军事应用的AI持更积极态度。此外，大多数人认为AI安全研究应优先，并支持ML机构进行预发表审查，以评估潜在危害。
+    model: llama3.2
+    generated_at: '2026-07-30'
+  casia-brain-ai:0:
+    abstract_sha256: 971e0e2ba7442434f29345bde919d355755e3942bbbd4ce83582c2a5546e1332
+    summary_zh: 研究者开发了一种基于连接性的分区框架，利用非侵入性多模态神经影像技术，创建了一个包含210个皮层和36个下丘脑区域的全脑分区图。该图提供了精细的、可验证的分区，并包含了解剖结构和功能连接信息。此外，它将分区结构与心理过程进行了对应，提供了一个稳定的起点来探索结构-连接-功能之间复杂关系，从而改善了解人类脑部如何工作。
+    model: llama3.2
+    generated_at: '2026-07-30'
+  casia-brain-ai:1:
+    abstract_sha256: 8a85e545ce1789bfeb1bbaad2229a86374e19e9dacd8ba408be2e3cf2a439624
+    summary_zh: 该研究旨在开发一种能够解码人类视觉神经表示的通用方法，称为BraVL。该方法利用多模态学习来结合脑、视觉和语言特征。通过使用混合-of-product-of-experts公式，BraVL模型可以推导出一个共享的隐式代码，使其能够生成所有三个模态的合一表示。实验结果表明，解码新类别的视觉活动是可行的，并且使用多模态特征的模型比单模态特征的模型更准确。
+    model: llama3.2
+    generated_at: '2026-07-30'
+  casia-brain-ai:2:
+    abstract_sha256: 7e8c7b103c0cb51da91fee4524565e012e18a7ab45a3b548f584957e2280cb71
+    summary_zh: 研究问题：人脑如何形成抽象概念并在感官输入下灵活应用。 核心方法：CATS Net（概念抽象网络），一个双模块网络框架，包括概念抽象模块和任务解决模块。该系统通过概念表示的跨网络知识转移实现了跨网络的概念通信。 主要实验结论：研究表明，CATS Net中的概念空间与人脑中涉及语义理解的神经元结构相符，而控制机制也与语义控制脑网的机制一致。
+    model: llama3.2
+    generated_at: '2026-07-30'
+  casia-multimodal-ai-systems:1:
+    abstract_sha256: 9ae485b4556cff53ca7e4313f0a76541a3b319abc151eca2a29ce910d42c5563
+    summary_zh: 面部反欺骗技术对于防止面部识别系统受到安全侵害至关重要。近年来，面部反欺骗benchmark数据集的可用性取得了显著进展。但是，现有的面部反欺骗benchmark数据集的主体人数和模态数量有限（人数不超过170人，模态不超过2），限制了学术界进一步发展的能力。为了促进面部反欺骗研究，我们推出了一大规模多模态数据集，称为CASIA-SURF，是目前公众可用的面部反欺骗数据集中最大的，包含1000名主体，21,000个视频，每个样本都有3种模态（即RGB、深度和IR）。我们还提供了全面评估指标、多种评估协议、训练/验证/测试子集以及测量工具，建立了一项新的面部反欺骗benchmark。另外
+    model: llama3.2
+    generated_at: '2026-07-30'
+  casia-multimodal-ai-systems:2:
+    abstract_sha256: 2c388e685c06f47d2bdaf75d3ac932be90bfc3a365c7d0b5b4e09a4d468e6353
+    summary_zh: 研究人员探讨了softmax-based损失函数在面部识别中的优化目标和难题。他们发现，负类别在softmax函数中对面部表示学习的重要性不如之前认为的那么高。实验结果表明，只使用10%随机采样类别的softmax损失函数可以保持准确率，与使用全部类别的状态-of-the-art模型相比没有差异。
+    model: llama3.2
+    generated_at: '2026-07-30'
+  casia-taichu:0:
+    abstract_sha256: d726de4bbe3f0b94299f60fcc22977bc91cfa2eb7fd56c44e9a86f5135abf171
+    summary_zh: 研究者探索了如何有效地减少大型视觉语言模型（LVLM）的幻想现象。他们发现使用稀疏自动编码器（SAE）来识别相关的语义方向，可以有效地减少幻想现象并且不需要额外的计算资源。
+    model: llama3.2
+    generated_at: '2026-07-30'
   cmu-auton-lab:0:
     abstract_sha256: cc89207a9b7dab9a22559791933a933fe6c373c12567b71e951fd6f18603da8e
     summary_zh: 研究问题是机器学习在医疗领域中处理时间到事件预测任务的挑战，特别是在面对缺失跟进数据的情况下。该论文提出了一种名为auton-survival的开源工具集，可以简化处理有缺失数据的时间到事件或生存数据。通过实用案例研究，auton-survival能够帮助数据科学家快速回答复杂的健康和流行病学问题。
@@ -376,11 +411,21 @@ works:
     summary_zh: 本研究开发了SynLogic数据合成框架和数据集，用于生成大量的逻辑推理数据。通过RL训练，SynLogic在7B和32B模型上表现出领先的逻辑推理能力，并且与其他开源数据集进行比较，显示出更好的结果。
     model: llama3.2
     generated_at: '2026-07-28'
-  mit-embodied-intelligence:2:
-    abstract_sha256: 9e50cf96a5469a760da2bf8ac006bb6692b9987c843ab405911c8a34be22a291
-    summary_zh: 该研究提出一种设计和构建广泛适用机器人操纵系统的策略，使用任务和运动规划器结合工程化和学习模块来估计未知物体的属性和 affordances。该策略使得机器人在没有先验知识的情况下表现出智能行为，并且可以 flexibly 组合 robot-centric primitives 使用 PDDLStream 框架。
+  mit-embodied-intelligence:0:
+    abstract_sha256: 2fd6ec63795a7df2623703bcfdb3b99df5c048a8fffb8b59aa16ab15470b9ca3
+    summary_zh: 研究者提出一种新型的神经网络模型，利用学习的连续空间生成离散通信token，从而实现零-shot理解和在 noisy 环境中有效通信。实验结果表明，这种方法优于传统的使用一-hot token的方法，并且可以让机器人有效地应对人类的新型通信和理解未标记的机器人通信。
     model: llama3.2
-    generated_at: '2026-07-28'
+    generated_at: '2026-07-30'
+  mit-embodied-intelligence:1:
+    abstract_sha256: 6e1a7886bca1d727d581e9dcdbab5cfa63e73a97c98b60c9c021edc073cd15d1
+    summary_zh: 该研究探讨了使用无标签图像数据和噪声过程来训练视觉表示学习模型。研究人员使用不同类型的噪声过程（统计图像模型和深度生成模型）作为训练数据，结合对比损失来学习视觉表示。结果表明，噪声过程中需要捕捉真实数据的结构性特征，但即使使用不太接近现实的过程也可以获得良好的表现。此外，研究发现多样性是学习良好表示的关键属性。
+    model: llama3.2
+    generated_at: '2026-07-30'
+  mit-embodied-intelligence:2:
+    abstract_sha256: ab1fc35fdaca99ab69b5a5d2bef7b3f8592106cdc151101c0264dcaa405c9476
+    summary_zh: 该研究探讨了如何设计和构建能够在未知物体上执行多步操作的 robots 系统。该系统通过结合一般性任务和运动规划器与工程化和学习性的感知模块来实现。感知模块可以估计物体的属性和可用性，形成闭环策略，从图像、深度图和机器人关节编码测量到机器人关节位置指令。研究表明，这种策略可以在没有先验知识的情况下使用任务和运动规划器来计划智能行为。
+    model: llama3.2
+    generated_at: '2026-07-30'
   mit-improbable-ai:1:
     abstract_sha256: 21bb7e4e253155c0b51876a343027a2568c4308e0542e68d65c0a906997bc7db
     summary_zh: 该研究探讨了离线政策学习的局限性，发现当数据中主要由低效率轨迹组成时，现有的离线RL算法难以超越原始轨迹的平均回报。该工作提出了一个采样策略，使得政策仅受“好数据”的约束，而不是整个数据集。这一改进在72个不平衡数据集、D4RL数据集和三个不同离线RL算法上表现出显著的性能提高。
@@ -596,6 +641,11 @@ works:
     summary_zh: 研究表明，即使使用小型语言模型（0.3B参数），它们也可以通过“编程每个例子”（ProX）框架有效地改善数据质量，超过人类专家和其他选择方法。实验结果显示，预训练于ProX优化的数据下，模型的性能大幅提高。
     model: llama3.2
     generated_at: '2026-07-28'
+  sjtu-mifa:2:
+    abstract_sha256: e4fa157116f76ce77bf565c8884ac41daea8bcf082633aed75d896f2b6e91877
+    summary_zh: 研究者提出了一个称为RCAL的方法，旨在解决 noisy labels 和长尾数据的问题。该方法通过使用自主对比学习提取表示，并假设正确标签下的表示遵循多变量高斯分布，从而恢复受污染的表示并增加样本数量。实验结果表明RCAL方法可以有效改善分类器性能。
+    model: llama3.2
+    generated_at: '2026-07-30'
   sjtu-mint:2:
     abstract_sha256: 5d57a38d4272d53e6edf7318a41fd45148c794ccfd1f2706cf8896f610d6237a
     summary_zh: 该研究提出了一种轻量化的Vision-Language-Action（VLA）模型Evo-1，通过减少计算成本和提高部署效率，实现了强大的性能。Evo-1结合了多模态视觉语言模型和跨模态diffusion变换器，采用两阶段训练方法来优化表示。该模型在Meta-World和RoboTwin等suite上取得了state-of-the-art结果，并在实际应用中表现出高成功率和低内存占用。
@@ -617,10 +667,10 @@ works:
     model: llama3.2
     generated_at: '2026-07-28'
   stanford-iliad:2:
-    abstract_sha256: 488e22ecef86e9ade5c338e4a3a78618c93f706352e5f2ae79d3fbd8ea2bb35f
-    summary_zh: 研究者开发了Z-COACH方法，利用共享自主性框架来提供个人化的运动技能教育。该方法通过分析学生在自动化辅助下行为改善的方式，确定哪些子技能是最适合的学习目标。这项研究在一项用户实验中证明了Z-COACH的有效性，可以提高驾驶时间、行为和平滑度。
+    abstract_sha256: c7d24e9a7bef5ba4125bc8056e8726032c8eec3d1f12b6108286a749afb18a8a
+    summary_zh: 研究探讨了如何使用人机共主的方法来提供个性化的运动技能教育。该方法通过分析学生在自主机器辅助下行为改进的方式，确定哪些技能是最容易学习的。这项研究表明，该方法可以帮助学生提高驾驶速度、行为和平滑度。
     model: llama3.2
-    generated_at: '2026-07-28'
+    generated_at: '2026-07-30'
   stanford-nlp:1:
     abstract_sha256: d75dadea5bc816f666f5cd939cdcaaf75f5b10990c88c66db90676f4e043cace
     summary_zh: 研究人员开发了一个名为pyvene的开源Python库，用于在多个AI领域中进行模型内部状态的干预。该库支持自定义干预方案，并且可以包含静态或可训练的参数。通过pyvene，可以实现对神经网络模型的统一和扩展性干预，共享干预结果并进行解释分析。
@@ -732,10 +782,10 @@ works:
     model: llama3.2
     generated_at: '2026-07-28'
   ustc-mei-lab:2:
-    abstract_sha256: 6992ac5762462c159b103adcce5a8d83f2ff819220a148a4bd5c34345278c4a0
-    summary_zh: 该研究探讨了视频生成任务，旨在合并异步自动回归模型和 diffusión 模型的优势。他们提出了 Auto-Regressive 扩散（AR-扩散）模型，该模型通过逐渐污染视频帧来解决异步生成中的不一致性问题。该模型结合了非递减约束和时间序列注意力，实现了可变长度视频的生成，同时保留时间连贯性。实验结果表明该方法在四个挑战性基准上取得了竞争性和领先性的成果。
+    abstract_sha256: e5fd81ced10bbb9364f9085b1f7498aebdcfe8eb70fbc1f9a119689f9e712c9a
+    summary_zh: 该研究提出了一种称为Auto-Regressive 扩散（AR-扩散）的新模型，旨在解决视频生成任务中的两个主要问题：异步模型的不一致性和同步模型的序列长度限制。通过结合自动回归和 diffusión 模型，AR-扩散可以实现 flexible、异步视频生成，并且能够保持时间连贯性。实验结果表明，该方法在四个挑战性benchmark上取得了竞争性和领先性的成果。
     model: llama3.2
-    generated_at: '2026-07-28'
+    generated_at: '2026-07-30'
   xiaohongshu-firered:0:
     abstract_sha256: 601aac431d7c73e77425359914d59422d11a0a676156bc346bcfb6a48a2567bb
     summary_zh: 研究者提出了InstanceAssemble模型，利用instance-assembling attention来控制图像的布局和多模态内容。该模型通过轻量化LoRA模块适应现有DiT-based T2I模型，并引入Layout 对齐 Score（LGS）评估指标。实验结果显示，该模型在复杂布局条件下实现了state-of-the-art性能，兼容多种样式的LoRA模块。

@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-last_updated: '2026-07-28'
+last_updated: '2026-07-30'
 notes:
 - Recent work is selected independently for every team from its three curated representative entries.
 - Resolved papers take precedence and are ordered by publication year; GitHub pushed_at is used only when a team has no resolved paper.
@@ -17,7 +17,7 @@ teams:
     work_index: 0
     title: Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025).
     url: https://github.com/modelscope/ms-swift
-    recent_at: '2026-07-28'
+    recent_at: '2026-07-30'
     recency_source: github_pushed_at
     selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
   alibaba-nlp:
@@ -52,7 +52,7 @@ teams:
     work_index: 0
     title: The RL Bridge for LLM-based Agent Applications. Made Simple & Flexible.
     url: https://github.com/areal-project/AReaL
-    recent_at: '2026-07-28'
+    recent_at: '2026-07-30'
     recency_source: github_pushed_at
     selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
   ant-inclusion-ai:
@@ -115,7 +115,7 @@ teams:
     work_index: 0
     title: 'MLX: An array framework for Apple silicon'
     url: https://github.com/ml-explore/mlx
-    recent_at: '2026-07-27'
+    recent_at: '2026-07-30'
     recency_source: github_pushed_at
     selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
   baidu-ernie:
@@ -129,7 +129,7 @@ teams:
     work_index: 2
     title: 'PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）'
     url: https://github.com/PaddlePaddle/Paddle
-    recent_at: '2026-07-28'
+    recent_at: '2026-07-30'
     recency_source: github_pushed_at
     selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
   berkeley-bair:
@@ -163,13 +163,47 @@ teams:
     work_index: 0
     title: The AI Compute Platform for frontier teams. SkyPilot turns fragmented AI compute into one AI supercomputer, so frontier AI teams build custom intelligence faster.
     url: https://github.com/skypilot-org/skypilot
-    recent_at: '2026-07-28'
+    recent_at: '2026-07-30'
     recency_source: github_pushed_at
     selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
   bytedance-seed:
     work_index: 2
     title: "[ICLR 2026] DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle"
     url: https://github.com/ByteDance-Seed/DAComp
+    recent_at: '2025'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  cas-ai-innovation-academy:
+    work_index: 0
+    title: Chinese Academy of Sciences Artificial Intelligence Innovation Academy
+    url: https://www.bjb.cas.cn/xtdw2016/sljg2016/201612/t20161208_4718524.html
+    recency_source: catalog_fallback
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  casia-ai-ethics-governance:
+    work_index: 1
+    title: 'Ethics and Governance of Artificial Intelligence: Evidence from a Survey of Machine Learning Researchers'
+    url: https://arxiv.org/abs/2105.02117
+    recent_at: '2021'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  casia-brain-ai:
+    work_index: 2
+    title: A Neural Network for Modeling Human Concept Formation, Understanding and Communication
+    url: https://ia.cas.cn/rcdw/yjy/202404/t20240422_7130909.html
+    recent_at: '2026'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  casia-multimodal-ai-systems:
+    work_index: 2
+    title: 'Partial FC: Training 10 Million Identities on a Single Machine'
+    url: https://arxiv.org/abs/2010.05222
+    recent_at: '2020'
+    recency_source: paper_year
+    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
+  casia-taichu:
+    work_index: 0
+    title: Steering LVLMs via Sparse Autoencoder for Hallucination Mitigation
+    url: https://arxiv.org/abs/2505.16146
     recent_at: '2025'
     recency_source: paper_year
     selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
@@ -270,7 +304,7 @@ teams:
     work_index: 2
     title: Tooling for agile modeling on large machine perception embedding databases.
     url: https://github.com/google-research/perch-hoplite
-    recent_at: '2026-07-27'
+    recent_at: '2026-07-29'
     recency_source: github_pushed_at
     selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
   hit-robotics-systems:
@@ -495,10 +529,10 @@ teams:
     recency_source: catalog_fallback
     selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
   mit-embodied-intelligence:
-    work_index: 2
-    title: Long-Horizon Manipulation of Unknown Objects via Task and Motion Planning with Estimated Affordances
-    url: https://arxiv.org/abs/2108.04145
-    recent_at: '2022'
+    work_index: 0
+    title: Emergent Discrete Communication in Semantic Spaces
+    url: https://arxiv.org/abs/2108.01828
+    recent_at: '2021'
     recency_source: paper_year
     selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
   mit-improbable-ai:
@@ -512,7 +546,7 @@ teams:
     work_index: 2
     title: Kimi Code CLI  —  The Starting Point for Next-Gen Agents
     url: https://github.com/MoonshotAI/kimi-code
-    recent_at: '2026-07-28'
+    recent_at: '2026-07-30'
     recency_source: github_pushed_at
     selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
   nju-lamda:
@@ -707,10 +741,11 @@ teams:
     recency_source: paper_year
     selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
   sjtu-mifa:
-    work_index: 0
-    title: Shanghai Jiao Tong University
-    url: https://www.sjtu.edu.cn/
-    recency_source: catalog_fallback
+    work_index: 2
+    title: When Noisy Labels Meet Long Tail Dilemmas
+    url: https://arxiv.org/pdf/2211.10955
+    recent_at: '2022'
+    recency_source: paper_year
     selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
   sjtu-mint:
     work_index: 2
@@ -925,7 +960,7 @@ teams:
     work_index: 2
     title: UWRobotics competition repository for our season 2026 competition rover Sparky.
     url: https://github.com/uwrobotics/Sparky-CIRC-2026
-    recent_at: '2026-07-27'
+    recent_at: '2026-07-30'
     recency_source: github_pushed_at
     selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
   uw-wail:

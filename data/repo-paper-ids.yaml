@@ -1,8 +1,8 @@
 ---
 schema_version: 1
-last_updated: '2026-07-28'
+last_updated: '2026-07-30'
 notes:
-- Scholarly identifiers were extracted from each representative GitHub repository README.
+- Scholarly identifiers were extracted from representative GitHub repository READMEs and direct arXiv/DOI catalog URLs.
 - Multiple identifiers are retained because a repository can cover several papers; the metadata resolver validates title similarity before choosing one.
 works:
   alibaba-damo-academy:0:
@@ -334,6 +334,18 @@ works:
     readme_status: read
     arxiv_ids: []
     dois: []
+  berkeley-bair:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  berkeley-bair:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  berkeley-bair:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
   berkeley-chai:0:
     repository: https://github.com/HumanCompatibleAI/overcooked_ai
     readme_status: read
@@ -433,6 +445,73 @@ works:
     arxiv_ids:
     - '2512.04324'
     dois: []
+  cas-ai-innovation-academy:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  cas-ai-innovation-academy:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  cas-ai-innovation-academy:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  casia-ai-ethics-governance:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  casia-ai-ethics-governance:1:
+    readme_status: direct_catalog_url
+    arxiv_ids:
+    - '2105.02117'
+    dois: []
+  casia-ai-ethics-governance:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  casia-brain-ai:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois:
+    - 10.1093/cercor/bhw157
+  casia-brain-ai:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois:
+    - 10.1109/TPAMI.2023.3263181
+  casia-brain-ai:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  casia-multimodal-ai-systems:0:
+    readme_status: direct_catalog_url
+    arxiv_ids:
+    - '1801.07698'
+    dois: []
+  casia-multimodal-ai-systems:1:
+    readme_status: direct_catalog_url
+    arxiv_ids:
+    - '1908.10654'
+    dois: []
+  casia-multimodal-ai-systems:2:
+    readme_status: direct_catalog_url
+    arxiv_ids:
+    - '2010.05222'
+    dois: []
+  casia-taichu:0:
+    readme_status: direct_catalog_url
+    arxiv_ids:
+    - '2505.16146'
+    dois: []
+  casia-taichu:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  casia-taichu:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
   cmu-auton-lab:0:
     repository: https://github.com/autonlab/auton-survival
     readme_status: read
@@ -454,6 +533,30 @@ works:
     arxiv_ids:
     - '2403.10506'
     dois: []
+  cmu-generative-intelligence-lab:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  cmu-generative-intelligence-lab:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  cmu-generative-intelligence-lab:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  cmu-language-technologies-institute:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  cmu-language-technologies-institute:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  cmu-language-technologies-institute:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
   cmu-machine-learning-department:0:
     repository: https://github.com/cmu-mlsp/interview_humanssum
     readme_status: read
@@ -467,6 +570,42 @@ works:
   cmu-machine-learning-department:2:
     repository: https://github.com/cmu-mlsp/learning_from_weak_labels
     readme_status: read
+    arxiv_ids: []
+    dois: []
+  cmu-robotics-institute:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  cmu-robotics-institute:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  cmu-robotics-institute:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  cuhk-language-processing-lab:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  cuhk-language-processing-lab:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  cuhk-language-processing-lab:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  cuhk-legged-robot-lab:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  cuhk-legged-robot-lab:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  cuhk-legged-robot-lab:2:
+    readme_status: direct_catalog_url
     arxiv_ids: []
     dois: []
   cuhk-mmlab:0:
@@ -486,6 +625,18 @@ works:
     readme_status: read
     arxiv_ids:
     - '2406.18958'
+    dois: []
+  cuhk-t-stone-robotics:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  cuhk-t-stone-robotics:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  cuhk-t-stone-robotics:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
     dois: []
   deepseek-research:0:
     repository: https://github.com/deepseek-ai/DreamCraft3D
@@ -507,6 +658,18 @@ works:
     arxiv_ids:
     - '2405.04434'
     - '2311.18743'
+    dois: []
+  fudan-data-intelligence-lab:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  fudan-data-intelligence-lab:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  fudan-data-intelligence-lab:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
     dois: []
   fudan-disc:0:
     repository: https://github.com/FudanDISC/J1Bench
@@ -579,6 +742,18 @@ works:
     arxiv_ids:
     - '2505.03071'
     dois: []
+  hit-robotics-systems:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hit-robotics-systems:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hit-robotics-systems:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
   hit-scir:0:
     repository: https://github.com/HIT-SCIR/ltp
     readme_status: read
@@ -614,6 +789,18 @@ works:
     arxiv_ids:
     - '2310.13023'
     dois: []
+  hku-intelligent-cybersecurity:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hku-intelligent-cybersecurity:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hku-intelligent-cybersecurity:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
   hku-sail:0:
     repository: https://github.com/hkust-vgd/CoralSCOP
     readme_status: read
@@ -648,9 +835,101 @@ works:
     arxiv_ids:
     - '2307.11653'
     dois: []
+  hkust-caire:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-caire:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-caire:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-dv-lab:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-dv-lab:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-dv-lab:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
   hkust-gz-dsail:0:
     repository: https://github.com/DSAILatHKUST/DSAILatHKUST
     readme_status: read
+    arxiv_ids: []
+    dois: []
+  hkust-gz-dsail:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-gz-dsail:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-gz-envision:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-gz-envision:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-gz-envision:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-gz-hpml:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-gz-hpml:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-gz-hpml:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-gz-mdi:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-gz-mdi:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-gz-mdi:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-gz-precognition:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-gz-precognition:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-gz-precognition:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-mevita-robotics:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-mevita-robotics:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  hkust-mevita-robotics:2:
+    readme_status: direct_catalog_url
     arxiv_ids: []
     dois: []
   huawei-noahs-ark-lab:0:
@@ -952,6 +1231,45 @@ works:
     readme_status: read
     arxiv_ids: []
     dois: []
+  mit-cbmm:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  mit-cbmm:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  mit-cbmm:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  mit-csail:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  mit-csail:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  mit-csail:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  mit-embodied-intelligence:0:
+    readme_status: direct_catalog_url
+    arxiv_ids:
+    - '2108.01828'
+    dois: []
+  mit-embodied-intelligence:1:
+    readme_status: direct_catalog_url
+    arxiv_ids:
+    - '2106.05963'
+    dois: []
+  mit-embodied-intelligence:2:
+    readme_status: direct_catalog_url
+    arxiv_ids:
+    - '2108.04145'
+    dois: []
   mit-improbable-ai:0:
     repository: https://github.com/Improbable-AI/curiosity_redteam
     readme_status: read
@@ -1015,6 +1333,14 @@ works:
     arxiv_ids:
     - '1702.08835'
     dois: []
+  nju-lamda:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  nju-lamda:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
   ntu-declare:0:
     repository: https://github.com/declare-lab/TangoFlux
     readme_status: read
@@ -1033,6 +1359,78 @@ works:
     arxiv_ids:
     - '2509.26495'
     dois: []
+  ntu-grail:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ntu-grail:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ntu-grail:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ntu-mmlab:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ntu-mmlab:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ntu-mmlab:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ntu-nlp:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ntu-nlp:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ntu-nlp:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ntu-s-lab:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ntu-s-lab:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ntu-s-lab:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  nus-ai-institute:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  nus-ai-institute:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  nus-ai-institute:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  nus-ai-lab:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  nus-ai-lab:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  nus-ai-lab:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
   nus-cvml:0:
     repository: https://github.com/nus-cvml/awesome-temporal-action-segmentation
     readme_status: read
@@ -1045,6 +1443,14 @@ works:
     dois:
     - 10.1145/2493432.2493482
     - 10.1109/CVPR.2016.495
+  nus-cvml:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  nus-cvml:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
   nus-nlp:0:
     repository: https://github.com/nusnlp/SlideTailor
     readme_status: read
@@ -1170,6 +1576,30 @@ works:
     arxiv_ids:
     - '2307.07176'
     dois: []
+  pku-camera-intelligence:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  pku-camera-intelligence:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  pku-camera-intelligence:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  pku-core:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  pku-core:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  pku-core:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
   pku-dair:0:
     repository: https://github.com/PKU-DAIR/SGL
     readme_status: read
@@ -1196,9 +1626,21 @@ works:
     arxiv_ids:
     - '2605.07122'
     dois: []
+  pku-wu-lab:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  pku-wu-lab:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
   rednote-hi-lab:0:
     repository: https://github.com/rednote-hilab/dots.vlm1
     readme_status: read
+    arxiv_ids: []
+    dois: []
+  rednote-hi-lab:1:
+    readme_status: direct_catalog_url
     arxiv_ids: []
     dois: []
   rednote-hi-lab:2:
@@ -1328,6 +1770,19 @@ works:
     - '2502.05171'
     - '2504.11393'
     dois: []
+  sjtu-mifa:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  sjtu-mifa:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  sjtu-mifa:2:
+    readme_status: direct_catalog_url
+    arxiv_ids:
+    - '2211.10955'
+    dois: []
   sjtu-mint:0:
     repository: https://github.com/MINT-SJTU/Evo-RL
     readme_status: read
@@ -1343,6 +1798,18 @@ works:
     readme_status: read
     arxiv_ids:
     - '2511.04555'
+    dois: []
+  sjtu-rl2:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  sjtu-rl2:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  sjtu-rl2:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
     dois: []
   stanford-crfm:0:
     repository: https://github.com/stanford-crfm/air-bench-2024
@@ -1396,6 +1863,18 @@ works:
   stanford-nlp:2:
     repository: https://github.com/stanfordnlp/stanford-nlp-history
     readme_status: read
+    arxiv_ids: []
+    dois: []
+  stanford-sail:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  stanford-sail:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  stanford-sail:2:
+    readme_status: direct_catalog_url
     arxiv_ids: []
     dois: []
   stanford-svl:0:
@@ -1484,6 +1963,18 @@ works:
     readme_status: read
     arxiv_ids: []
     dois: []
+  tsinghua-air:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  tsinghua-air:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  tsinghua-air:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
   tsinghua-coai:0:
     repository: https://github.com/thu-coai/SafetyBench
     readme_status: read
@@ -1540,6 +2031,31 @@ works:
     arxiv_ids:
     - '2410.06581'
     dois: []
+  ucsd-contextual-robotics:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ucsd-contextual-robotics:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ucsd-contextual-robotics:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ucsd-cvrr-lisa:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois:
+    - 10.1109/JSTSP.2012.2196975
+  ucsd-cvrr-lisa:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ucsd-cvrr-lisa:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
   ucsd-existential-robotics:0:
     repository: https://github.com/ExistentialRobotics/SBP
     readme_status: read
@@ -1558,6 +2074,54 @@ works:
     readme_status: read
     arxiv_ids:
     - '2504.19104'
+    dois: []
+  ucsd-hdsi-ai-ml:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ucsd-hdsi-ai-ml:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ucsd-hdsi-ai-ml:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  uiuc-blender-lab:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  uiuc-blender-lab:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  uiuc-blender-lab:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  uiuc-dais:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  uiuc-dais:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  uiuc-dais:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  uiuc-nlp:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  uiuc-nlp:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  uiuc-nlp:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
     dois: []
   uiuc-secure-learning-lab:0:
     repository: https://github.com/AI-secure/AgentPoison
@@ -1581,9 +2145,113 @@ works:
     arxiv_ids:
     - '2503.01908'
     dois: []
+  umd-clip:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  umd-clip:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  umd-clip:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  umd-gamma:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  umd-gamma:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  umd-gamma:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  umd-maryland-robotics-center:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  umd-maryland-robotics-center:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  umd-maryland-robotics-center:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
   umd-umiacs:0:
     repository: https://github.com/UMIACS/rgwadmin
     readme_status: read
+    arxiv_ids: []
+    dois: []
+  umd-umiacs:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  umd-umiacs:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ustc-alpha-lab:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ustc-alpha-lab:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ustc-alpha-lab:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ustc-ivc:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ustc-ivc:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ustc-ivc:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ustc-mei-lab:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ustc-mei-lab:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ustc-mei-lab:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ustc-vim:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ustc-vim:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  ustc-vim:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  uw-nlp:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  uw-nlp:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  uw-nlp:2:
+    readme_status: direct_catalog_url
     arxiv_ids: []
     dois: []
   uw-robotics:0:
@@ -1599,6 +2267,30 @@ works:
   uw-robotics:2:
     repository: https://github.com/uwrobotics/Sparky-CIRC-2026
     readme_status: read
+    arxiv_ids: []
+    dois: []
+  uw-wail:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  uw-wail:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  uw-wail:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  uw-weird-lab:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  uw-weird-lab:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  uw-weird-lab:2:
+    readme_status: direct_catalog_url
     arxiv_ids: []
     dois: []
   xiaohongshu-firered:0:
@@ -1652,6 +2344,31 @@ works:
     readme_status: read
     arxiv_ids:
     - '2601.02780'
+    dois: []
+  xjtu-ai-sec:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  xjtu-ai-sec:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  xjtu-ai-sec:2:
+    readme_status: direct_catalog_url
+    arxiv_ids:
+    - '2402.19150'
+    dois: []
+  xjtu-robotics-institute:0:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  xjtu-robotics-institute:1:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
+    dois: []
+  xjtu-robotics-institute:2:
+    readme_status: direct_catalog_url
+    arxiv_ids: []
     dois: []
   zhipu-glm:0:
     repository: https://github.com/zai-org/CogVideo

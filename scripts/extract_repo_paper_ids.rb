@@ -42,16 +42,33 @@ def extract_ids(readme)
   }
 end
 
+def extract_ids_from_url(url)
+  {
+    "arxiv_ids" => url.scan(%r{arxiv\.org/(?:abs|pdf|html)/([0-9]{4}\.[0-9]{4,5})(?:v\d+)?}i).flatten.uniq,
+    "dois" => url.scan(%r{doi\.org/(10\.\d{4,9}/[-._;()/:a-z0-9]+)}i).flatten.map { |doi| doi.sub(/[).,;]+\z/, "") }.uniq
+  }
+end
+
 catalog = YAML.load_file(WORKS_PATH)
 jobs = Queue.new
+results = {}
 catalog.fetch("teams").each do |team_id, works|
   works.each_with_index do |work, index|
     repo = github_repo(work.fetch("url"))
-    jobs << [team_id, index, work, repo] if repo
+    if repo
+      jobs << [team_id, index, work, repo]
+    else
+      direct = extract_ids_from_url(work.fetch("url"))
+      results["#{team_id}:#{index}"] = {
+        "repository" => nil,
+        "readme_status" => "direct_catalog_url",
+        "arxiv_ids" => direct.fetch("arxiv_ids"),
+        "dois" => direct.fetch("dois")
+      }.compact
+    end
   end
 end
 
-results = {}
 mutex = Mutex.new
 completed = 0
 total = jobs.size
@@ -84,7 +101,7 @@ payload = {
   "schema_version" => 1,
   "last_updated" => Time.now.strftime("%Y-%m-%d"),
   "notes" => [
-    "Scholarly identifiers were extracted from each representative GitHub repository README.",
+    "Scholarly identifiers were extracted from representative GitHub repository READMEs and direct arXiv/DOI catalog URLs.",
     "Multiple identifiers are retained because a repository can cover several papers; the metadata resolver validates title similarity before choosing one."
   ],
   "works" => results.sort.to_h

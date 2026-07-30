@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-last_updated: '2026-07-28'
+last_updated: '2026-07-30'
 provider:
   name: Crossref REST API
   url: https://www.crossref.org/documentation/retrieve-metadata/rest-api/
@@ -798,6 +798,211 @@ works:
     - Yuqing Yang
     - Kan Ren
     checked_at: '2026-07-28'
+  cas-ai-innovation-academy:0:
+    status: not_a_paper
+    checked_at: '2026-07-30'
+  cas-ai-innovation-academy:1:
+    status: not_a_paper
+    checked_at: '2026-07-30'
+  cas-ai-innovation-academy:2:
+    status: not_a_paper
+    checked_at: '2026-07-30'
+  casia-ai-ethics-governance:0:
+    status: resolved
+    query: Linking Artificial Intelligence Principles
+    match_confidence: 1.0
+    title: Principles of artificial intelligence
+    doi: 10.1016/0004-3702(80)90026-0
+    url: https://doi.org/10.1016/0004-3702(80)90026-0
+    year: 1980
+    venue: Artificial Intelligence
+    citation_count: 1
+    authors:
+    - John McDermott
+    checked_at: '2026-07-30'
+  casia-ai-ethics-governance:1:
+    status: resolved
+    query: 'Ethics and Governance of Artificial Intelligence: Evidence from a Survey of Machine Learning Researchers'
+    match_confidence: 1.0
+    title: 'Ethics and Governance of Artificial Intelligence: Evidence from a Survey of Machine Learning Researchers'
+    doi: 10.1613/jair.1.12895
+    url: https://doi.org/10.1613/jair.1.12895
+    year: 2021
+    venue: Journal of Artificial Intelligence Research
+    citation_count: 66
+    abstract: Machine learning (ML) and artificial intelligence (AI) researchers play an important role in the ethics and governance of AI, including through their work, advocacy, and choice of employment. Nevertheless, this influential group's attitudes are not well understood, undermining our ability to discern consensuses or disagreements between AI/ML researchers. To examine these researchers' views, we conducted a survey of those who published in two top AI/ML conferences (N = 524). We compare these results with those from a 2016 survey of AI/ML researchers (Grace et al., 2018) and a 2018 survey of the US public (Zhang & Dafoe, 2020). We find that AI/ML researchers place high levels of trust in international organizations and scientific organizations to shape the development and use of AI in the public interest; moderate trust in most Western tech companies; and low trust in national militaries, Chinese tech companies, and Facebook. While the respondents were overwhelmingly opposed to AI/ML researchers working on lethal autonomous weapons, they are less opposed to researchers working on other military applications of AI, particularly logistics algorithms. A strong majority of respondents think that AI safety research should be prioritized and that ML institutions should conduct pre-publication review to assess potential harms. Being closer to the technology itself, AI/ML researchers are well placed to highlight new risks and develop technical solutions, so this novel attempt to measure their attitudes has broad relevance. The findings should help to improve how researchers, private sector executives, and policymakers think about regulations, governance frameworks, guiding principles, and national and international governance strategies for AI. This article appears in the special track on AI & Society.
+    authors:
+    - Baobao Zhang
+    - Markus Anderljung
+    - Lauren Kahn
+    - Noemi Dreksler
+    - Michael C. Horowitz
+    - Allan Dafoe
+    checked_at: '2026-07-30'
+  casia-ai-ethics-governance:2:
+    status: resolved
+    query: Ethical and Safety Observatory for Large Artificial Intelligence Models
+    match_confidence: 0.8
+    title: Large-Scale Artificial Intelligence Models
+    doi: 10.1109/mc.2022.3151419
+    url: https://doi.org/10.1109/mc.2022.3151419
+    year: 2022
+    venue: Computer
+    citation_count: 32
+    authors:
+    - Hsiao-Ying Lin
+    checked_at: '2026-07-30'
+  casia-brain-ai:0:
+    status: resolved
+    query: 'The Human Brainnetome Atlas: A New Brain Atlas Based on Connectional Architecture'
+    match_confidence: 1.0
+    title: 'The Human Brainnetome Atlas: A New Brain Atlas Based on Connectional Architecture'
+    doi: 10.1093/cercor/bhw157
+    url: https://doi.org/10.1093/cercor/bhw157
+    year: 2016
+    venue: Cerebral Cortex
+    citation_count: 3018
+    authors:
+    - Lingzhong Fan
+    - Hai Li
+    - Junjie Zhuo
+    - Yu Zhang
+    - Jiaojian Wang
+    - Liangfu Chen
+    - Zhengyi Yang
+    - Congying Chu
+    - Sangma Xie
+    - Angela R. Laird
+    checked_at: '2026-07-30'
+  casia-brain-ai:1:
+    status: resolved
+    query: Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features
+    match_confidence: 1.0
+    title: Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features
+    doi: 10.1109/tpami.2023.3263181
+    url: https://doi.org/10.1109/tpami.2023.3263181
+    year: 2023
+    venue: IEEE Transactions on Pattern Analysis and Machine Intelligence
+    citation_count: 129
+    authors:
+    - Changde Du
+    - Kaicheng Fu
+    - Jinpeng Li
+    - Huiguang He
+    checked_at: '2026-07-30'
+  casia-brain-ai:2:
+    status: resolved
+    query: A Neural Network for Modeling Human Concept Formation, Understanding and Communication
+    match_confidence: 1.0
+    title: A neural network for modeling human concept formation, understanding and communication
+    doi: 10.1038/s43588-026-00956-4
+    url: https://doi.org/10.1038/s43588-026-00956-4
+    year: 2026
+    venue: Nature Computational Science
+    citation_count: 2
+    abstract: Abstract A remarkable capability of the human brain is to form more abstract conceptual representations from sensorimotor experiences and flexibly apply them independent of direct sensory inputs. However, the computational mechanism underlying this ability remains poorly understood. Here we present a dual-module neural network framework, CATS Net, to bridge this gap. Our model consists of a concept-abstraction module that extracts low-dimensional conceptual representations, and a task-solving module that performs visual judgment tasks under the hierarchical gating control of the formed concepts. The system develops transferable semantic structure based on concept representations that enable cross-network knowledge transfer through conceptual communication. Model–brain fitting analyses reveal that these emergent concept spaces align with both neurocognitive semantic model and brain response structures in the human ventral occipitotemporal cortex, while the gating mechanisms mirror that in the semantic-control brain network. This work establishes a unified computational framework that can offer mechanistic insights for understanding human conceptual cognition and engineering artificial systems with human-like conceptual intelligence.
+    authors:
+    - Liangxuan Guo
+    - Haoyang Chen
+    - Yang Chen
+    - Yanchao Bi
+    - Shan Yu
+    checked_at: '2026-07-30'
+  casia-multimodal-ai-systems:0:
+    status: resolved
+    query: 'ArcFace: Additive Angular Margin Loss for Deep Face Recognition'
+    match_confidence: 1.0
+    title: 'ArcFace: Additive Angular Margin Loss for Deep Face Recognition'
+    doi: 10.1109/tpami.2021.3087709
+    url: https://doi.org/10.1109/tpami.2021.3087709
+    year: 2022
+    venue: IEEE Transactions on Pattern Analysis and Machine Intelligence
+    citation_count: 489
+    authors:
+    - Jiankang Deng
+    - Jia Guo
+    - Jing Yang
+    - Niannan Xue
+    - Irene Kotsia
+    - Stefanos Zafeiriou
+    checked_at: '2026-07-30'
+  casia-multimodal-ai-systems:1:
+    status: resolved
+    query: 'CASIA-SURF: A Large-scale Multi-modal Benchmark for Face Anti-spoofing'
+    match_confidence: 1.0
+    title: 'CASIA-SURF: A Large-Scale Multi-Modal Benchmark for Face Anti-Spoofing'
+    doi: 10.1109/tbiom.2020.2973001
+    url: https://doi.org/10.1109/tbiom.2020.2973001
+    year: 2020
+    venue: IEEE Transactions on Biometrics, Behavior, and Identity Science
+    citation_count: 190
+    authors:
+    - Shifeng Zhang
+    - Ajian Liu
+    - Jun Wan
+    - Yanyan Liang
+    - Guodong Guo
+    - Sergio Escalera
+    - Hugo Jair Escalante
+    - Stan Z. Li
+    checked_at: '2026-07-30'
+  casia-multimodal-ai-systems:2:
+    status: resolved
+    query: 'Partial FC: Training 10 Million Identities on a Single Machine'
+    match_confidence: 1.0
+    title: 'Partial FC: Training 10 Million Identities on a Single Machine'
+    doi: 10.1109/iccvw54120.2021.00166
+    url: https://doi.org/10.1109/iccvw54120.2021.00166
+    year: 2021
+    venue: 2021 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)
+    citation_count: 165
+    authors:
+    - Xiang An
+    - Xuhan Zhu
+    - Yuan Gao
+    - Yang Xiao
+    - Yongle Zhao
+    - Ziyong Feng
+    - Lan Wu
+    - Bin Qin
+    - Ming Zhang
+    - Debing Zhang
+    checked_at: '2026-07-30'
+  casia-taichu:0:
+    status: resolved
+    query: Steering LVLMs via Sparse Autoencoder for Hallucination Mitigation
+    match_confidence: 1.0
+    title: Steering LVLMs via Sparse Autoencoder for Hallucination Mitigation
+    doi: 10.18653/v1/2025.findings-emnlp.572
+    url: https://doi.org/10.18653/v1/2025.findings-emnlp.572
+    year: 2025
+    venue: 'Findings of the Association for Computational Linguistics: EMNLP 2025'
+    citation_count: 1
+    authors:
+    - Zhenglin Hua
+    - Jinghan He
+    - Zijun Yao
+    - Tianxu Han
+    - Haiyun Guo
+    - Yuheng Jia
+    - Junfeng Fang
+    checked_at: '2026-07-30'
+  casia-taichu:1:
+    status: resolved
+    query: Zidong Taichu Cross-modal General Artificial Intelligence Platform
+    match_confidence: 1.0
+    title: Artificial General Intelligence
+    doi: 10.1007/978-3-642-35506-6
+    url: https://doi.org/10.1007/978-3-642-35506-6
+    year: 2012
+    venue: Lecture Notes in Computer Science
+    citation_count: 4
+    authors: []
+    checked_at: '2026-07-30'
+  casia-taichu:2:
+    status: unresolved
+    query: Zidong Taichu Omnimodal Cognitive Foundation Model
+    checked_at: '2026-07-30'
   cmu-auton-lab:0:
     status: resolved
     query: Auton Survival - an open source package for Regression, Counterfactual Estimation, Evaluation and Phenotyping with Censored Time-to-Events
@@ -1027,13 +1232,13 @@ works:
     checked_at: '2026-07-28'
   cuhk-legged-robot-lab:0:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   cuhk-legged-robot-lab:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   cuhk-legged-robot-lab:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   cuhk-mmlab:0:
     status: unresolved
     query: PowerPaint, a versatile image inpainting model that supports text-guided object inpainting, object removal, image outpainting and shape-guided object inpainting with only a single model. 一个高质量多功能的图像修补模型，可以同时支持插入物体、移除物体、图像扩展、形状可控的物体生成，只需要一个模
@@ -1048,13 +1253,13 @@ works:
     checked_at: '2026-07-28'
   cuhk-t-stone-robotics:0:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   cuhk-t-stone-robotics:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   cuhk-t-stone-robotics:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   deepseek-research:0:
     status: unresolved
     query: 'Official implementation of DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior'
@@ -1253,13 +1458,13 @@ works:
     checked_at: '2026-07-28'
   hit-robotics-systems:0:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   hit-robotics-systems:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   hit-robotics-systems:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   hit-scir:0:
     status: resolved
     query: Language Technology Platform
@@ -1501,19 +1706,19 @@ works:
     checked_at: '2026-07-28'
   hkust-caire:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   hkust-caire:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   hkust-dv-lab:0:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   hkust-dv-lab:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   hkust-dv-lab:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   hkust-gz-dsail:0:
     status: resolved
     query: Config files for my GitHub profile.
@@ -1529,10 +1734,10 @@ works:
     checked_at: '2026-07-28'
   hkust-gz-dsail:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   hkust-gz-dsail:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   hkust-gz-envision:0:
     status: resolved
     query: ENVISION Lab @ HKUST(GZ)
@@ -1546,10 +1751,10 @@ works:
     checked_at: '2026-07-28'
   hkust-gz-envision:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   hkust-gz-envision:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   hkust-gz-hpml:0:
     status: resolved
     query: HKUST(GZ) X Program
@@ -2700,10 +2905,10 @@ works:
     checked_at: '2026-07-28'
   nju-lamda:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   nju-lamda:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   ntu-declare:0:
     status: resolved
     query: 'TangoFlux: Super Fast and Faithful Text to Audio Generation with Flow Matching'
@@ -2824,13 +3029,13 @@ works:
     checked_at: '2026-07-28'
   ntu-nlp:0:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   ntu-nlp:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   ntu-nlp:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   ntu-s-lab:0:
     status: resolved
     query: Show me more results >
@@ -2877,13 +3082,13 @@ works:
     checked_at: '2026-07-28'
   nus-ai-institute:0:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   nus-ai-institute:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   nus-ai-institute:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   nus-ai-lab:0:
     status: resolved
     query: 'Handling Missing Values in Information Systems Research: A Review of Methods and Assumptions'
@@ -2918,17 +3123,17 @@ works:
     checked_at: '2026-07-28'
   nus-ai-lab:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   nus-cvml:0:
     status: unresolved
     query: A curated list of awesome temporal action segmentation resources.
     checked_at: '2026-07-28'
   nus-cvml:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   nus-cvml:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   nus-nlp:0:
     status: resolved
     query: 'SlideTailor: Personalized Presentation Slide Generation for Scientific Papers'
@@ -3428,19 +3633,224 @@ works:
     checked_at: '2026-07-28'
   pku-wu-lab:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   pku-wu-lab:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   rednote-hi-lab:0:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   rednote-hi-lab:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   rednote-hi-lab:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-internlm:0:
+    status: resolved
+    query: 'Intern-S1: A Scientific Multimodal Foundation Model'
+    match_confidence: 0.667
+    title: A Multimodal PDE Foundation Model for Prediction and Scientific Text Descriptions
+    doi: 10.4208/jml.250214
+    url: https://doi.org/10.4208/jml.250214
+    year: 2025
+    venue: Journal of Machine Learning
+    citation_count: 2
+    authors: []
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-internlm:1:
+    status: resolved
+    query: 'Visual Self-Refine: A Pixel-Guided Paradigm for Accurate Chart Parsing'
+    match_confidence: 1.0
+    title: Chart Parsing
+    doi: 10.1007/978-3-642-96868-6_30
+    url: https://doi.org/10.1007/978-3-642-96868-6_30
+    year: 1984
+    venue: Catalogue of Artificial Intelligence Tools
+    citation_count: 0
+    authors:
+    - Alan Bundy
+    - Lincoln Wallen
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-internlm:2:
+    status: resolved
+    query: 'EndoCoT: Scaling Endogenous Chain-of-Thought Reasoning in Diffusion Models'
+    match_confidence: 0.833
+    title: 'Diffusion of Thought: Chain-of-Thought Reasoning in Diffusion Language Models'
+    doi: 10.52202/079017-3343
+    url: https://doi.org/10.52202/079017-3343
+    year: 2024
+    venue: Advances in Neural Information Processing Systems 37
+    citation_count: 1
+    authors:
+    - Jiacheng Ye
+    - Shansan Gong
+    - Liheng Chen
+    - Lin Zheng
+    - Jiahui Gao
+    - Han Shi
+    - Chuan Wu
+    - Xin Jiang
+    - Zhenguo Li
+    - Wei Bi
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-internscience:0:
+    status: unresolved
+    query: 'ResearchClawBench: Evaluating AI Agents for Automated Research from Re-Discovery to New-Discovery'
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-internscience:1:
+    status: resolved
+    query: 'Agents-A1: Scaling the Horizon, Not the Parameters'
+    match_confidence: 0.667
+    title: Scaling the Blockchain Horizon
+    doi: 10.1201/9781003540328-2
+    url: https://doi.org/10.1201/9781003540328-2
+    year: 2026
+    venue: New Trends in Blockchain
+    citation_count: 0
+    authors:
+    - Sivapriya Venkateswarar
+    - U. Padmavathi
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-internscience:2:
+    status: resolved
+    query: 'InternAgent-1.5: A Unified Agentic Framework for Long-Horizon Autonomous Scientific Discovery'
+    match_confidence: 0.714
+    title: An agentic framework for autonomous scientific discovery in cancer pathology
+    doi: 10.1038/s41591-026-04357-y
+    url: https://doi.org/10.1038/s41591-026-04357-y
+    year: 2026
+    venue: Nature Medicine
+    citation_count: 5
+    abstract: Abstract Artificial intelligence has advanced cancer pathology, but many systems still depend on hand-crafted features, are hard to explain and rely on fragmented workflows. We introduce SPARK (System of Pathology Agents for Research and Knowledge), a foundational agentic artificial intelligence approach that uses language as a universal interface to autonomously generate biologically driven concepts for tumor analysis. SPARK turns biological ideas into analytical tools and works directly with complex pathology data without extra model training. We evaluated SPARK across 18 patient cohorts spanning five cancer types (lung adenocarcinoma, lung squamous cell carcinoma, colorectal cancer, breast cancer and oropharyngeal squamous cell carcinoma) and more than 5,400 patients with available histopathology images and clinical/follow-up information, in both prognostic and predictive settings and on a well characterized spatial biology breast cancer dataset (patient n  = 625). We found that SPARK produced clinically and biologically relevant concepts correlated with prognosis, known pathological variables and predictive biomarkers, including patterns of tumor progression and temporal change inferred from static images. A dedicated module allows for human interaction with SPARK. Further prospective validation is needed to evaluate the clinical utility of the tools created by SPARK. All code, parameters and results are openly released to help researchers and clinicians improve diagnostic precision and deepen tumor biology insights.
+    authors:
+    - Florian Trost
+    - Bide Zhang
+    - Ines Aring
+    - Marcus Bauer
+    - Lennert Glamann
+    - Michael Wessolly
+    - Kyra Johnson
+    - Heike Göbel
+    - Tristan Lerbs
+    - Taban Sangenne
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-opendatalab:0:
+    status: resolved
+    query: 'OmniDocBench: A Comprehensive Benchmark for Document Parsing and Evaluation'
+    match_confidence: 0.667
+    title: 'OmniDocBench: Benchmarking Diverse PDF Document Parsing with Comprehensive Annotations'
+    doi: 10.1109/cvpr52734.2025.02313
+    url: https://doi.org/10.1109/cvpr52734.2025.02313
+    year: 2025
+    venue: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+    citation_count: 14
+    authors:
+    - Linke Ouyang
+    - Yuan Qu
+    - Hongbin Zhou
+    - Jiawei Zhu
+    - Rui Zhang
+    - Qunshu Lin
+    - Bin Wang
+    - Zhiyuan Zhao
+    - Man Jiang
+    - Xiaomeng Zhao
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-opendatalab:1:
+    status: resolved
+    query: 'TRivia: Self-supervised Fine-tuning of Vision-Language Models for Table Recognition'
+    match_confidence: 0.714
+    title: Semi-supervised Fine-tuning for Large Language Models
+    doi: 10.18653/v1/2025.findings-naacl.151
+    url: https://doi.org/10.18653/v1/2025.findings-naacl.151
+    year: 2025
+    venue: 'Findings of the Association for Computational Linguistics: NAACL 2025'
+    citation_count: 2
+    authors:
+    - Junyu Luo
+    - Xiao Luo
+    - Xiusi Chen
+    - Zhiping Xiao
+    - Wei Ju
+    - Ming Zhang
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-opendatalab:2:
+    status: unresolved
+    query: 'MinerU-Diffusion: Parallel Diffusion Decoding for Document OCR'
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-opendrivelab:0:
+    status: resolved
+    query: 'SimScale: Learning to Drive via Real-World Simulation at Scale'
+    match_confidence: 0.8
+    title: 'Introduction: The Real World Via Simulation'
+    doi: 10.5465/amle.8.4.zqr558
+    url: https://doi.org/10.5465/amle.8.4.zqr558
+    year: 2009
+    venue: Academy of Management Learning &amp; Education
+    citation_count: 1
+    authors:
+    - Jonathan P. Doh
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-opendrivelab:1:
+    status: resolved
+    query: 'WorldEngine: Towards the Era of Post-Training for Autonomous Driving'
+    match_confidence: 1.0
+    title: Towards Autonomous Driving
+    doi: 10.1145/3539597.3572331
+    url: https://doi.org/10.1145/3539597.3572331
+    year: 2023
+    venue: Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining
+    citation_count: 1
+    authors:
+    - Ya-Qin Zhang
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-opendrivelab:2:
+    status: resolved
+    query: 'RISE: Self-Improving Robot Policy with Compositional World Model'
+    match_confidence: 0.75
+    title: The Oxford Robot World Model
+    doi: 10.1007/978-3-642-76465-3_16
+    url: https://doi.org/10.1007/978-3-642-76465-3_16
+    year: 1991
+    venue: Expert Systems and Robotics
+    citation_count: 2
+    authors:
+    - Bill Triggs
+    - Stephen Cameron
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-opengvlab:0:
+    status: resolved
+    query: 'VideoChat-Flash: Hierarchical Compression for Long-Context Video Modeling'
+    match_confidence: 0.667
+    title: Hierarchical Context Modeling for Video Event Recognition
+    doi: 10.1109/tpami.2016.2616308
+    url: https://doi.org/10.1109/tpami.2016.2616308
+    year: 2017
+    venue: IEEE Transactions on Pattern Analysis and Machine Intelligence
+    citation_count: 37
+    authors:
+    - Xiaoyang Wang
+    - Qiang Ji
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-opengvlab:1:
+    status: unresolved
+    query: Learning Goal-Oriented Language-Guided Navigation with Self-Improving Demonstrations at Scale
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-opengvlab:2:
+    status: resolved
+    query: 'GenExam: A Multidisciplinary Text-to-Image Exam'
+    match_confidence: 1.0
+    title: Image/Text::Text/Image
+    doi: 10.1215/10679847-2870510
+    url: https://doi.org/10.1215/10679847-2870510
+    year: 2015
+    venue: 'positions: asia critique'
+    citation_count: 0
+    abstract: The Visualizing Culture controversy demonstrated the ongoing struggle in East Asia over the meaning of the twentieth-century conflicts between Japan and neighboring countries. Critics demanded that the images of Japanese and Qing soldiers required narrative context, but narratives differ substantially in Japan as opposed to its former colonies. The controversy also points to the explosion in publications and on the Web of visual imagery from the nineteenth and twentieth centuries. The ability to publish photographs at low cost means that those who do so should recognize that the image is not neutral; images have a malleable rhetorical force that defies reduction to a stable meaning.
+    authors:
+    - James L. Hevia
+    checked_at: '2026-07-30'
   sjtu-gair-nlp:0:
     status: resolved
     query: 'LIMO: Less is More for Reasoning'
@@ -3758,13 +4168,13 @@ works:
     checked_at: '2026-07-28'
   stanford-sail:0:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   stanford-sail:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   stanford-sail:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   stanford-svl:0:
     status: resolved
     query: 'Gibson Environments: Real-World Perception for Embodied Agents'
@@ -4186,7 +4596,7 @@ works:
     checked_at: '2026-07-28'
   ucsd-cvrr-lisa:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   ucsd-existential-robotics:0:
     status: resolved
     query: 'Code release for Seeing the Bigger Picture: 3D Latent Mapping for Mobile Manipulation Policy Learning (ICRA 2026)'
@@ -4270,13 +4680,13 @@ works:
     checked_at: '2026-07-28'
   uiuc-blender-lab:0:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   uiuc-blender-lab:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   uiuc-blender-lab:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   uiuc-dais:0:
     status: resolved
     query: CS 277 – Algorithms and Data Structures for Data Science
@@ -4291,10 +4701,10 @@ works:
     checked_at: '2026-07-28'
   uiuc-dais:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   uiuc-dais:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   uiuc-nlp:0:
     status: resolved
     query: Siebel School of Computing and Data Science
@@ -4321,7 +4731,7 @@ works:
     checked_at: '2026-07-28'
   uiuc-nlp:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   uiuc-secure-learning-lab:0:
     status: resolved
     query: 'AgentPoison: Red-teaming LLM Agents via Memory or Knowledge Base Backdoor Poisoning'
@@ -4484,10 +4894,10 @@ works:
     checked_at: '2026-07-28'
   umd-umiacs:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   umd-umiacs:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   ustc-alpha-lab:0:
     status: resolved
     query: 'MemOCR: Layout-Aware Visual Memory for Efficient Long-Horizon Reasoning'
@@ -4533,13 +4943,13 @@ works:
     checked_at: '2026-07-28'
   ustc-ivc:0:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   ustc-ivc:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   ustc-ivc:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   ustc-mei-lab:0:
     status: resolved
     query: Bayesian Window Transformer for Image Restoration
@@ -4635,7 +5045,7 @@ works:
     checked_at: '2026-07-28'
   uw-nlp:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   uw-robotics:0:
     status: unresolved
     query: UWRT_Controller_StateMachine
@@ -4671,10 +5081,10 @@ works:
     checked_at: '2026-07-28'
   uw-wail:1:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   uw-wail:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   uw-weird-lab:0:
     status: resolved
     query: Paul G. Allen School for Computer Science and Engineering
@@ -4705,7 +5115,7 @@ works:
     checked_at: '2026-07-28'
   uw-weird-lab:2:
     status: not_a_paper
-    checked_at: '2026-07-28'
+    checked_at: '2026-07-30'
   xiaohongshu-firered:0:
     status: unresolved
     query: 'InstanceAssemble: Layout-Aware Image Generation via Instance Assembling Attention'

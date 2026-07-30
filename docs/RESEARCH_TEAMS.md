@@ -2,9 +2,9 @@
 
 > GitHub 内可直接浏览的基础资料版。更适合筛选和阅读图表的版本见 [在线目录](https://goya4140.github.io/awesome-team/)。
 
-更新日期：**2026-07-28** · 引用入口：[Google Scholar](https://scholar.google.com/)
+更新日期：**2026-07-30** · 引用入口：[Google Scholar](https://scholar.google.com/)
 
-当前收录 **148** 个团队（127 verified / 21 provisional），共 **444** 项代表成果；其中 **166** 项已匹配论文元数据，**117** 项带原文图表。
+当前收录 **153** 个团队（132 verified / 21 provisional），共 **459** 项代表成果；其中 **176** 项已匹配论文元数据，**125** 项带原文图表。
 
 Google Scholar 没有官方公开结构化 API；未逐篇核验的数字不缓存，改为提供精确标题检索入口。`research_index` 是官方研究入口，不冒充单篇论文。
 
@@ -33,7 +33,7 @@ ByteDance Seed 隶属于 ByteDance，是一支主要关注基础模型、多模�
 
 - **所属：** ByteDance
 - **主要方向：** 基础模型、多模态学习、视频生成、AI 系统
-- **负责人：** [负责人/成员页](https://seed.bytedance.com/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Bingyi Kang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Bingyi+Kang)（Senior Researcher / Representative-work Author） · [Yan Gao](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yan+Gao)（Senior Researcher / Representative-work Author） · [C. J. Tang](https://scholar.google.com/citations?view_op=search_authors&mauthors=C.+J.+Tang)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://seed.bytedance.com/) · [GitHub](https://github.com/ByteDance-Seed)
 
 #### 最近工作 · 2025
@@ -126,7 +126,7 @@ Qwen Team 隶属于 Alibaba，是一支主要关注大语言模型、多模态�
 
 - **所属：** Alibaba
 - **主要方向：** 大语言模型、多模态学习、智能体、语音技术
-- **负责人：** [负责人/成员页](https://qwenlm.github.io/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Junyang Lin](https://scholar.google.com/citations?view_op=search_authors&mauthors=Junyang+Lin)（Senior Researcher / Representative-work Author） · [Jian-Yong wu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jian-Yong+wu)（Senior Researcher / Representative-work Author） · [Jingren Zhou](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jingren+Zhou)（Senior Researcher / Representative-work Author）
 - **官方入口：** [GitHub](https://github.com/QwenLM) · [官网](https://qwenlm.github.io/)
 
 #### 最近工作 · 2025
@@ -196,7 +196,7 @@ DAMO Academy 隶属于 Alibaba，是一支主要关注计算机视觉、语言�
 
 - **所属：** Alibaba
 - **主要方向：** 计算机视觉、语言智能、多模态学习、AI for Science
-- **负责人：** [负责人/成员页](https://damo.alibaba.com/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Yanwei Fu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yanwei+Fu)（Senior Researcher / Representative-work Author） · [Mingxiu Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Mingxiu+Chen)（Senior Researcher / Representative-work Author） · [Xiangyang Xue](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xiangyang+Xue)（Senior Researcher / Representative-work Author）
 - **官方入口：** [GitHub](https://github.com/alibaba-damo-academy) · [官网](https://damo.alibaba.com/)
 
 #### 最近工作 · 2025
@@ -287,7 +287,7 @@ Alibaba NLP 隶属于 Alibaba，是一支主要关注自然语言处理、信息
 
 - **所属：** Alibaba
 - **主要方向：** 自然语言处理、信息检索、智能体
-- **负责人：** [负责人/成员页](https://github.com/Alibaba-NLP) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Feng Zhao](https://scholar.google.com/citations?view_op=search_authors&mauthors=Feng+Zhao)（Senior Researcher / Representative-work Author） · [H. Vicky Zhao](https://scholar.google.com/citations?view_op=search_authors&mauthors=H.+Vicky+Zhao)（Senior Researcher / Representative-work Author） · [Kewei Tu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Kewei+Tu)（Senior Researcher / Representative-work Author）
 - **官方入口：** [GitHub](https://github.com/Alibaba-NLP)
 
 #### 最近工作 · 2025
@@ -378,10 +378,10 @@ ModelScope 隶属于 Alibaba，是一支主要关注开放模型、多模态学�
 
 - **所属：** Alibaba
 - **主要方向：** 开放模型、多模态学习、模型评测、AI 系统
-- **负责人：** [负责人/成员页](https://modelscope.cn/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Jingren Zhou](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jingren+Zhou)（Founder / Research Leader） · [Junyang Lin](https://scholar.google.com/citations?view_op=search_authors&mauthors=Junyang+Lin)（Senior Researcher） · [Jian-Yong wu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jian-Yong+wu)（Senior Researcher）
 - **官方入口：** [官网](https://modelscope.cn/) · [GitHub](https://github.com/modelscope)
 
-#### 最近工作 · 2026-07-28
+#### 最近工作 · 2026-07-30
 
 <details>
 <summary><strong>1. Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025).</strong></summary>
@@ -450,7 +450,7 @@ Tencent Hunyuan 隶属于 Tencent，是一支主要关注大语言模型、多�
 
 - **所属：** Tencent
 - **主要方向：** 大语言模型、多模态学习、图像生成、视频生成
-- **负责人：** [负责人/成员页](https://hunyuan.tencent.com/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Shiyu Tang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Shiyu+Tang)（Senior Researcher / Representative-work Author） · [Chengfei Cai](https://scholar.google.com/citations?view_op=search_authors&mauthors=Chengfei+Cai)（Senior Researcher / Representative-work Author） · [Junwei Zhu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Junwei+Zhu)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://hunyuan.tencent.com/) · [GitHub](https://github.com/Tencent-Hunyuan)
 
 #### 最近工作 · 2025
@@ -520,7 +520,7 @@ Tencent AI Lab 隶属于 Tencent，是一支主要关注机器学习、自然语
 
 - **所属：** Tencent
 - **主要方向：** 机器学习、自然语言处理、计算机视觉、AI for Science
-- **负责人：** [负责人/成员页](https://ailab.tencent.com/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Dong Yu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Dong+Yu)（Senior Researcher / Representative-work Author） · [Wei Yang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Wei+Yang)（Senior Researcher / Representative-work Author） · [Wenlin Yao](https://scholar.google.com/citations?view_op=search_authors&mauthors=Wenlin+Yao)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://ailab.tencent.com/) · [GitHub](https://github.com/tencent-ailab)
 
 #### 最近工作 · 2023
@@ -604,7 +604,7 @@ Tencent ARC Lab 隶属于 Tencent，是一支主要关注计算机视觉、计�
 
 - **所属：** Tencent
 - **主要方向：** 计算机视觉、计算机图形学、多模态学习、游戏 AI
-- **负责人：** [负责人/成员页](https://arc.tencent.com/research) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Shi-Min Hu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Shi-Min+Hu)（Senior Researcher / Representative-work Author） · [Qiang Xu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Qiang+Xu)（Senior Researcher / Representative-work Author） · [Ying Shan](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ying+Shan)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://arc.tencent.com/research) · [GitHub](https://github.com/TencentARC)
 
 #### 最近工作 · 2026
@@ -695,7 +695,7 @@ Tencent Youtu Lab 隶属于 Tencent，是一支主要关注计算机视觉、多
 
 - **所属：** Tencent
 - **主要方向：** 计算机视觉、多模态学习、生成式 AI
-- **负责人：** [负责人/成员页](https://open.youtu.qq.com/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Ying Shan](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ying+Shan)（Senior Researcher / Representative-work Author） · [Long Quan](https://scholar.google.com/citations?view_op=search_authors&mauthors=Long+Quan)（Senior Researcher / Representative-work Author） · [Yong Zhang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yong+Zhang)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://open.youtu.qq.com/) · [GitHub](https://github.com/Tencent)
 
 #### 最近工作 · 2024
@@ -781,7 +781,7 @@ Huawei Noah's Ark Lab 隶属于 Huawei，是一支主要关注基础模型、机
 
 - **所属：** Huawei
 - **主要方向：** 基础模型、机器学习、决策学习、AI 系统
-- **负责人：** [负责人/成员页](https://www.noahlab.com.hk/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Zhenguo Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Zhenguo+Li)（Senior Research Leader） · [Yinchuan Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yinchuan+Li)（Senior Researcher） · [Jian Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jian+Li)（Senior Researcher）
 - **官方入口：** [官网](https://www.noahlab.com.hk/) · [GitHub](https://github.com/huawei-noah)
 
 #### 最近工作 · 2026-06-01
@@ -853,7 +853,7 @@ ERNIE Team 隶属于 Baidu，是一支主要关注大语言模型、多模态学
 
 - **所属：** Baidu
 - **主要方向：** 大语言模型、多模态学习、知识增强学习
-- **负责人：** [负责人/成员页](https://ernie.baidu.com/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Haifeng Wang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Haifeng+Wang)（Research Leader） · [Houwen Peng](https://scholar.google.com/citations?view_op=search_authors&mauthors=Houwen+Peng)（Senior Researcher） · [Jing Liu](https://ia.cas.cn/rcdw/yxqnjj/202404/t20240422_7129861.html)（Senior Researcher）
 - **官方入口：** [官网](https://ernie.baidu.com/) · [GitHub](https://github.com/PaddlePaddle/ERNIE)
 
 #### 最近工作 · 2026-07-24
@@ -923,10 +923,10 @@ PaddlePaddle 隶属于 Baidu，是一支主要关注深度学习框架、基础�
 
 - **所属：** Baidu
 - **主要方向：** 深度学习框架、基础模型、计算机视觉、AI 系统
-- **负责人：** [负责人/成员页](https://www.paddlepaddle.org.cn/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Haifeng Wang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Haifeng+Wang)（Research Leader） · [Yanjun Ma](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yanjun+Ma)（Senior Researcher） · [Yi Ren](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yi+Ren)（Senior Researcher）
 - **官方入口：** [官网](https://www.paddlepaddle.org.cn/) · [GitHub](https://github.com/PaddlePaddle)
 
-#### 最近工作 · 2026-07-28
+#### 最近工作 · 2026-07-30
 
 <details>
 <summary><strong>3. PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&amp;机器学习高性能单机、分布式训练和跨平台部署）</strong></summary>
@@ -995,7 +995,7 @@ Kling AI Research 隶属于 Kuaishou，是一支主要关注视频生成、图�
 
 - **所属：** Kuaishou
 - **主要方向：** 视频生成、图像生成、计算机视觉
-- **负责人：** [负责人/成员页](https://klingai.com/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Xihui Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xihui+Liu)（Senior Researcher / Representative-work Author） · [Xintao Wang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xintao+Wang)（Senior Researcher / Representative-work Author） · [Di Zhang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Di+Zhang)（Senior Researcher / Representative-work Author）
 - **官方入口：** [GitHub](https://github.com/KlingAIResearch) · [官网](https://klingai.com/)
 
 #### 最近工作 · 2025
@@ -1086,7 +1086,7 @@ Kuaishou Kolors Team 隶属于 Kuaishou，是一支主要关注图像生成、�
 
 - **所属：** Kuaishou
 - **主要方向：** 图像生成、可控生成
-- **负责人：** [负责人/成员页](https://github.com/Kwai-Kolors) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Zhan Ma](https://scholar.google.com/citations?view_op=search_authors&mauthors=Zhan+Ma)（Senior Researcher / Representative-work Author） · [Guoliang Kang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Guoliang+Kang)（Senior Researcher / Representative-work Author） · [Ming Lu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ming+Lu)（Senior Researcher / Representative-work Author）
 - **官方入口：** [GitHub](https://github.com/Kwai-Kolors)
 
 #### 最近工作 · 2026
@@ -1179,7 +1179,7 @@ Meituan LongCat Team 隶属于 Meituan，是一支主要关注大语言模型、
 
 - **所属：** Meituan
 - **主要方向：** 大语言模型、智能体、多模态学习
-- **负责人：** [负责人/成员页](https://longcat.chat/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Cai, Xunliang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Cai%2C+Xunliang)（Senior Researcher / Representative-work Author） · [Wang, Wei](https://scholar.google.com/citations?view_op=search_authors&mauthors=Wang%2C+Wei)（Senior Researcher / Representative-work Author） · [Xuezhi Cao](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xuezhi+Cao)（Senior Researcher / Representative-work Author）
 - **官方入口：** [GitHub](https://github.com/meituan-longcat) · [官网](https://longcat.chat/)
 
 #### 最近工作 · 2025
@@ -1265,7 +1265,7 @@ JD Explore Academy — Multimodal LLM 隶属于 JD.com，是一支主要关注�
 
 - **所属：** JD.com
 - **主要方向：** 大语言模型、多模态学习、图像生成
-- **负责人：** [负责人/成员页](https://research.joyai.com/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Ai Han](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ai+Han)（Senior Researcher / Representative-work Author） · [Lei Yu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Lei+Yu)（Senior Researcher / Representative-work Author） · [Tianlong Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Tianlong+Li)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://research.joyai.com/) · [GitHub](https://github.com/jd-opensource)
 
 #### 最近工作 · 2026
@@ -1349,7 +1349,7 @@ JD Explore Academy — Speech & Acoustics 隶属于 JD.com，是一支主要关�
 
 - **所属：** JD.com
 - **主要方向：** 语音技术、音频生成、多模态学习
-- **负责人：** [负责人/成员页](https://research.joyai.com/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Ai Han](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ai+Han)（Senior Researcher / Representative-work Author） · [Lei Yu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Lei+Yu)（Senior Researcher / Representative-work Author） · [Tianlong Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Tianlong+Li)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://research.joyai.com/) · [GitHub](https://github.com/jd-opensource)
 
 #### 最近工作 · 2026
@@ -1433,7 +1433,7 @@ JD Explore Academy — Multimodal Interaction & World Model 隶属于 JD.com，�
 
 - **所属：** JD.com
 - **主要方向：** 多模态学习、世界模型、交互式智能体
-- **负责人：** [负责人/成员页](https://research.joyai.com/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Ai Han](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ai+Han)（Senior Researcher / Representative-work Author） · [Lei Yu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Lei+Yu)（Senior Researcher / Representative-work Author） · [Tianlong Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Tianlong+Li)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://research.joyai.com/) · [GitHub](https://github.com/jd-opensource)
 
 #### 最近工作 · 2026
@@ -1517,7 +1517,7 @@ JD Explore Academy — Embodied AI 隶属于 JD.com，是一支主要关注具�
 
 - **所属：** JD.com
 - **主要方向：** 具身智能、机器人、世界模型
-- **负责人：** [负责人/成员页](https://research.joyai.com/team/embodied-ai) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Ai Han](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ai+Han)（Senior Researcher / Representative-work Author） · [Lei Yu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Lei+Yu)（Senior Researcher / Representative-work Author） · [Tianlong Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Tianlong+Li)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://research.joyai.com/team/embodied-ai) · [GitHub](https://github.com/jd-opensource)
 
 #### 最近工作 · 2026
@@ -1601,7 +1601,7 @@ JD Explore Academy — Infrastructures 隶属于 JD.com，是一支主要关注A
 
 - **所属：** JD.com
 - **主要方向：** AI 系统、分布式训练、模型推理
-- **负责人：** [负责人/成员页](https://research.joyai.com/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Ai Han](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ai+Han)（Senior Researcher / Representative-work Author） · [Lei Yu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Lei+Yu)（Senior Researcher / Representative-work Author） · [Tianlong Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Tianlong+Li)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://research.joyai.com/) · [GitHub](https://github.com/jd-opensource)
 
 #### 最近工作 · 2026
@@ -1687,7 +1687,7 @@ Ant Research — Interactive Artificial Intelligence Lab 隶属于 Ant Group，�
 
 - **所属：** Ant Group
 - **主要方向：** 计算机视觉、多模态学习、内容生成、数字人
-- **负责人：** [负责人/成员页](https://www.antresearch.com/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Yujun Shen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yujun+Shen)（Senior Researcher / Representative-work Author） · [Qifeng Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Qifeng+Chen)（Senior Researcher / Representative-work Author） · [Nan Xue](https://scholar.google.com/citations?view_op=search_authors&mauthors=Nan+Xue)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://www.antresearch.com/) · [GitHub](https://github.com/ant-research)
 
 #### 最近工作 · 2025
@@ -1771,7 +1771,7 @@ InclusionAI 隶属于 Ant Group，是一支主要关注基础模型、机器推�
 
 - **所属：** Ant Group
 - **主要方向：** 基础模型、机器推理、智能体、多模态学习
-- **负责人：** [负责人/成员页](https://www.inclusion-ai.org/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Tao Lin](https://scholar.google.com/citations?view_op=search_authors&mauthors=Tao+Lin)（Senior Researcher / Representative-work Author） · [Jianguo Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jianguo+Li)（Senior Researcher / Representative-work Author） · [Peng Sun](https://scholar.google.com/citations?view_op=search_authors&mauthors=Peng+Sun)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://www.inclusion-ai.org/) · [GitHub](https://github.com/inclusionAI)
 
 #### 最近工作 · 2025
@@ -1855,10 +1855,10 @@ AReaL Team 隶属于 Ant Group，是一支主要关注强化学习、大模型�
 
 - **所属：** Ant Group
 - **主要方向：** 强化学习、大模型训练、智能体、AI 系统
-- **负责人：** [负责人/成员页](https://github.com/areal-project/AReaL) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Zhiyu Mei](https://scholar.google.com/citations?view_op=search_authors&mauthors=Zhiyu+Mei)（Lead Author / Senior Researcher） · [Wei Fu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Wei+Fu)（Lead Author / Senior Researcher） · [Yi Wu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yi+Wu)（Senior Author / Research Leader）
 - **官方入口：** [GitHub](https://github.com/areal-project/AReaL)
 
-#### 最近工作 · 2026-07-28
+#### 最近工作 · 2026-07-30
 
 <details>
 <summary><strong>1. The RL Bridge for LLM-based Agent Applications. Made Simple &amp; Flexible.</strong></summary>
@@ -1927,7 +1927,7 @@ Xiaomi MiMo / LLM-Core Team 隶属于 Xiaomi，是一支主要关注大语言模
 
 - **所属：** Xiaomi
 - **主要方向：** 大语言模型、多模态学习、机器推理
-- **负责人：** [负责人/成员页](https://github.com/XiaomiMiMo) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Huaqiu Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Huaqiu+Liu)（Senior Researcher / Representative-work Author） · [Hailin Zhang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Hailin+Zhang)（Senior Researcher / Representative-work Author） · [Gang Wang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Gang+Wang)（Senior Researcher / Representative-work Author）
 - **官方入口：** [GitHub](https://github.com/XiaomiMiMo)
 
 #### 最近工作 · 2025
@@ -2011,7 +2011,7 @@ Xiaomi Embodied Intelligence Team 隶属于 Xiaomi，是一支主要关注具身
 
 - **所属：** Xiaomi
 - **主要方向：** 具身智能、机器人、视觉—语言—动作模型
-- **负责人：** [负责人/成员页](https://github.com/XiaomiMiMo/MiMo-Embodied) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Huaqiu Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Huaqiu+Liu)（Senior Researcher / Representative-work Author） · [Hailin Zhang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Hailin+Zhang)（Senior Researcher / Representative-work Author） · [Gang Wang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Gang+Wang)（Senior Researcher / Representative-work Author）
 - **官方入口：** [GitHub](https://github.com/XiaomiMiMo/MiMo-Embodied)
 
 #### 最近工作 · 2025
@@ -2097,7 +2097,7 @@ RedNote Hi Lab 隶属于 Xiaohongshu，是一支主要关注大语言模型、�
 
 - **所属：** Xiaohongshu
 - **主要方向：** 大语言模型、机器推理、智能体
-- **负责人：** [负责人/成员页](https://github.com/rednote-hilab/dots.vlm1) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Weijian Luo](https://scholar.google.com/citations?view_op=search_authors&mauthors=Weijian+Luo)（Senior Research Scientist） · [Debing Zhang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Debing+Zhang)（AGI Team Director） · [Xiao Wang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xiao+Wang)（Senior Researcher）
 - **官方入口：** [GitHub](https://github.com/rednote-hilab/dots.vlm1)
 
 #### 最近工作 · 2025-09-26
@@ -2163,7 +2163,7 @@ FireRed Team 隶属于 Xiaohongshu，是一支主要关注语音技术、多模�
 
 - **所属：** Xiaohongshu
 - **主要方向：** 语音技术、多模态学习、图像生成、视频生成
-- **负责人：** [负责人/成员页](https://fireredteam.github.io/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Junping Zhang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Junping+Zhang)（Senior Researcher / Representative-work Author） · [Henderson, Paul](https://scholar.google.com/citations?view_op=search_authors&mauthors=Henderson%2C+Paul)（Senior Researcher / Representative-work Author） · [Yao Hu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yao+Hu)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://fireredteam.github.io/) · [GitHub](https://github.com/FireRedTeam)
 
 #### 最近工作 · 2025
@@ -2247,6 +2247,389 @@ ReMatch是一种框架，利用MLLM的生成能力进行多模态检索。它通
 
 ## 中国前沿 AI 公司与研究机构
 
+### Chinese Academy of Sciences（1）
+
+<details>
+<summary><img src="https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.bjb.cas.cn&amp;sz=128" width="32" height="32" alt="CAS Artificial Intelligence Innovation Academy logo"> &nbsp;<strong>CAS Artificial Intelligence Innovation Academy</strong> · <code>verified</code></summary>
+
+<br>
+
+CAS Artificial Intelligence Innovation Academy 隶属于 Chinese Academy of Sciences，是一支主要关注人工智能、多模态学习、决策学习等方向的研究平台。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+
+- **所属：** Chinese Academy of Sciences
+- **主要方向：** 人工智能、多模态学习、决策学习、AI for Science
+- **负责人：** [Bo Xu](https://ia.cas.cn/rcdw/yjy/202404/t20240425_7131767.html)（Overall Lead and CASIA Director） · [Hong Qiao](https://ia.cas.cn/rcdw/yjy/202404/t20240425_7131821.html)（National Key Laboratory Director） · [Chenglin Liu](https://ia.cas.cn/rcdw/jcqn/202404/t20240425_7131770.html)（CASIA Deputy Director and Senior PI）
+- **官方入口：** [官网](https://www.bjb.cas.cn/xtdw2016/sljg2016/201612/t20161208_4718524.html) · [官网](https://ia.cas.cn/gkjj/yjsjj/)
+
+#### 最近工作 · 日期待核验
+
+<details>
+<summary><strong>1. Chinese Academy of Sciences Artificial Intelligence Innovation Academy</strong></summary>
+
+- 引用量：非论文条目或尚未可靠匹配
+- [论文 / 项目原始入口](https://www.bjb.cas.cn/xtdw2016/sljg2016/201612/t20161208_4718524.html)
+
+**摘要 / 项目说明**
+
+这是团队的官方研究入口，可继续访问其研究方向、项目或论文列表；该条目不是单篇论文，因此不展示论文引用量。
+
+</details>
+
+#### 代表作
+
+<details>
+<summary><strong>1. Chinese Academy of Sciences Artificial Intelligence Innovation Academy</strong></summary>
+
+- 引用量：非论文条目或尚未可靠匹配
+- [论文 / 项目原始入口](https://www.bjb.cas.cn/xtdw2016/sljg2016/201612/t20161208_4718524.html)
+
+**摘要 / 项目说明**
+
+这是团队的官方研究入口，可继续访问其研究方向、项目或论文列表；该条目不是单篇论文，因此不展示论文引用量。
+
+</details>
+
+<details>
+<summary><strong>2. CAS Intelligent Decision Forum</strong></summary>
+
+- 引用量：非论文条目或尚未可靠匹配
+- [论文 / 项目原始入口](https://www.cas.cn/yx/202404/t20240419_5011963.shtml)
+
+**摘要 / 项目说明**
+
+这是团队的官方研究入口，可继续访问其研究方向、项目或论文列表；该条目不是单篇论文，因此不展示论文引用量。
+
+</details>
+
+<details>
+<summary><strong>3. CAS Artificial Intelligence Industry–Academia–Research Innovation Alliance</strong></summary>
+
+- 引用量：非论文条目或尚未可靠匹配
+- [论文 / 项目原始入口](http://www.casisd.cas.cn/ttxw1/zlyjytt/202212/t20221219_6585872.html)
+
+**摘要 / 项目说明**
+
+这是团队的官方研究入口，可继续访问其研究方向、项目或论文列表；该条目不是单篇论文，因此不展示论文引用量。
+
+</details>
+
+</details>
+
+### Institute of Automation（4）
+
+<details>
+<summary><img src="https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.ia.cas.cn&amp;sz=128" width="32" height="32" alt="CASIA National Key Laboratory of Multimodal Artificial Intelligence Systems logo"> &nbsp;<strong>CASIA National Key Laboratory of Multimodal Artificial Intelligence Systems</strong> · <code>verified</code></summary>
+
+<br>
+
+CASIA National Key Laboratory of Multimodal Artificial Intelligence Systems 隶属于 Institute of Automation，是一支主要关注多模态学习、计算机视觉、机器人等方向的前沿 AI 研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+
+- **所属：** Institute of Automation
+- **主要方向：** 多模态学习、计算机视觉、机器人、具身智能
+- **负责人：** [Hong Qiao](https://ia.cas.cn/rcdw/yjy/202404/t20240425_7131821.html)（Director） · [Tieniu Tan](https://ia.cas.cn/rcdw/jcqn/202404/t20240422_7129881.html)（Academic Committee Chair） · [Chenglin Liu](https://ia.cas.cn/rcdw/jcqn/202404/t20240425_7131770.html)（Senior Principal Investigator）
+- **官方入口：** [官网](https://www.ia.cas.cn/jgsz/kyxt/dmtrgzn/)
+
+#### 最近工作 · 2020
+
+<details>
+<summary><strong>3. Partial FC: Training 10 Million Identities on a Single Machine</strong> · arXiv (Cornell University) · 2020</summary>
+
+- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Partial+FC%3A+Training+10+Million+Identities+on+a+Single+Machine%22)（未缓存未经核验的数字）
+- [论文 / 项目原始入口](https://arxiv.org/abs/2010.05222)
+
+**基于 Abstract 的 TL;DR**
+
+研究人员探讨了softmax-based损失函数在面部识别中的优化目标和难题。他们发现，负类别在softmax函数中对面部表示学习的重要性不如之前认为的那么高。实验结果表明，只使用10%随机采样类别的softmax损失函数可以保持准确率，与使用全部类别的状态-of-the-art模型相比没有差异。
+
+**原文关键流程 / 方法图**
+
+<a href="https://arxiv.org/abs/2010.05222"><img src="https://ar5iv.labs.arxiv.org/html/2010.05222/assets/x7.png" alt="Figure 4: The structure of distributed implementation of our method. k 𝑘 k means the number of GPUs. Allgather: Gather data from all GPUs and distribute the combined data to all GPUs. Allreduce: Sum up the data and distribute the results to all GPUs." width="720"></a>
+
+> Figure 4: The structure of distributed implementation of our method. k 𝑘 k means the number of GPUs. Allgather: Gather data from all GPUs and distribute the combined data to all GPUs. Allreduce: Sum up the data and distribute the results to all GPUs.
+> 来源：[原论文](https://arxiv.org/abs/2010.05222)
+
+</details>
+
+#### 代表作
+
+<details>
+<summary><strong>1. ArcFace: Additive Angular Margin Loss for Deep Face Recognition</strong></summary>
+
+- 引用量：非论文条目或尚未可靠匹配
+- [论文 / 项目原始入口](https://arxiv.org/abs/1801.07698)
+
+**摘要 / 项目说明**
+
+这是团队公开的代表性研究成果。目录中的公开说明为：ArcFace: Additive Angular Margin Loss for Deep Face Recognition 可通过原始链接查看完整项目、论文或数据说明。
+
+</details>
+
+<details>
+<summary><strong>2. CASIA-SURF: A Large-scale Multi-modal Benchmark for Face Anti-spoofing</strong> · arXiv (Cornell University) · 2019</summary>
+
+- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22CASIA-SURF%3A+A+Large-scale+Multi-modal+Benchmark+for+Face+Anti-spoofing%22)（未缓存未经核验的数字）
+- [论文 / 项目原始入口](https://arxiv.org/abs/1908.10654)
+
+**基于 Abstract 的 TL;DR**
+
+面部反欺骗技术对于防止面部识别系统受到安全侵害至关重要。近年来，面部反欺骗benchmark数据集的可用性取得了显著进展。但是，现有的面部反欺骗benchmark数据集的主体人数和模态数量有限（人数不超过170人，模态不超过2），限制了学术界进一步发展的能力。为了促进面部反欺骗研究，我们推出了一大规模多模态数据集，称为CASIA-SURF，是目前公众可用的面部反欺骗数据集中最大的，包含1000名主体，21,000个视频，每个样本都有3种模态（即RGB、深度和IR）。我们还提供了全面评估指标、多种评估协议、训练/验证/测试子集以及测量工具，建立了一项新的面部反欺骗benchmark。另外
+
+**原文关键流程 / 方法图**
+
+<a href="https://arxiv.org/abs/1908.10654"><img src="https://ar5iv.labs.arxiv.org/html/1908.10654/assets/sample_final.png" alt="Figure 1: The CASIA-SURF dataset. It is a large-scale and multi-modal dataset for face anti-spoofing, consisting of 492 , 522 492 522 492,522 images with 3 3 3 modalities ( i.e. , RGB, Depth and IR)." width="720"></a>
+
+> Figure 1: The CASIA-SURF dataset. It is a large-scale and multi-modal dataset for face anti-spoofing, consisting of 492 , 522 492 522 492,522 images with 3 3 3 modalities ( i.e. , RGB, Depth and IR).
+> 来源：[原论文](https://arxiv.org/abs/1908.10654)
+
+</details>
+
+<details>
+<summary><strong>3. Partial FC: Training 10 Million Identities on a Single Machine</strong> · arXiv (Cornell University) · 2020</summary>
+
+- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Partial+FC%3A+Training+10+Million+Identities+on+a+Single+Machine%22)（未缓存未经核验的数字）
+- [论文 / 项目原始入口](https://arxiv.org/abs/2010.05222)
+
+**基于 Abstract 的 TL;DR**
+
+研究人员探讨了softmax-based损失函数在面部识别中的优化目标和难题。他们发现，负类别在softmax函数中对面部表示学习的重要性不如之前认为的那么高。实验结果表明，只使用10%随机采样类别的softmax损失函数可以保持准确率，与使用全部类别的状态-of-the-art模型相比没有差异。
+
+**原文关键流程 / 方法图**
+
+<a href="https://arxiv.org/abs/2010.05222"><img src="https://ar5iv.labs.arxiv.org/html/2010.05222/assets/x7.png" alt="Figure 4: The structure of distributed implementation of our method. k 𝑘 k means the number of GPUs. Allgather: Gather data from all GPUs and distribute the combined data to all GPUs. Allreduce: Sum up the data and distribute the results to all GPUs." width="720"></a>
+
+> Figure 4: The structure of distributed implementation of our method. k 𝑘 k means the number of GPUs. Allgather: Gather data from all GPUs and distribute the combined data to all GPUs. Allreduce: Sum up the data and distribute the results to all GPUs.
+> 来源：[原论文](https://arxiv.org/abs/2010.05222)
+
+</details>
+
+</details>
+
+<details>
+<summary><img src="https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fia.cas.cn&amp;sz=128" width="32" height="32" alt="CASIA Zidong Taichu Large Model Research Center logo"> &nbsp;<strong>CASIA Zidong Taichu Large Model Research Center</strong> · <code>verified</code></summary>
+
+<br>
+
+CASIA Zidong Taichu Large Model Research Center 隶属于 Institute of Automation，是一支主要关注基础模型、多模态学习、大语言模型等方向的基础模型团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+
+- **所属：** Institute of Automation
+- **主要方向：** 基础模型、多模态学习、大语言模型、计算机视觉
+- **负责人：** [Jinqiao Wang](https://ia.cas.cn/rcdw/yjy/202404/t20240422_7129874.html)（Executive Deputy Director） · [Jing Liu](https://ia.cas.cn/rcdw/yxqnjj/202404/t20240422_7129861.html)（Researcher and Doctoral Supervisor） · [Jiajun Zhang](https://ia.cas.cn/rcdw/yjy/202404/t20240422_7129862.html)（Researcher and Doctoral Supervisor）
+- **官方入口：** [官网](https://ia.cas.cn/jgsz/kyxt/zztc/) · [官网](http://taichu.ia.ac.cn/)
+
+#### 最近工作 · 2025
+
+<details>
+<summary><strong>1. Steering LVLMs via Sparse Autoencoder for Hallucination Mitigation</strong> · arXiv (Cornell University) · 2025</summary>
+
+- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Steering+LVLMs+via+Sparse+Autoencoder+for+Hallucination+Mitigation%22)（未缓存未经核验的数字）
+- [论文 / 项目原始入口](https://arxiv.org/abs/2505.16146)
+
+**基于 Abstract 的 TL;DR**
+
+研究者探索了如何有效地减少大型视觉语言模型（LVLM）的幻想现象。他们发现使用稀疏自动编码器（SAE）来识别相关的语义方向，可以有效地减少幻想现象并且不需要额外的计算资源。
+
+**原文关键流程 / 方法图**
+
+<a href="https://arxiv.org/abs/2505.16146"><img src="https://ar5iv.labs.arxiv.org/html/2505.16146/assets/x4.png" alt="Figure 3: Overview of the proposed SSL approach leveraging SAE to identify semantically aligned directions and mitigate hallucination in LVLMs. We use SAE to identify latent directions within the internal representation space of LVLMs that are associated with hallucinatory and faithful semantics, denoted as d hall d_{\text{hall}} and d faithful d_{\text{faithful}} , respectively. These semantic directions are then used to modulate the residual stream at the l l -th layer, steering the generation process toward greater factual consistency." width="720"></a>
+
+> Figure 3: Overview of the proposed SSL approach leveraging SAE to identify semantically aligned directions and mitigate hallucination in LVLMs. We use SAE to identify latent directions within the internal representation space of LVLMs that are associated with hallucinatory and faithful semantics, denoted as d hall d_{\text{hall}} and d faithful d_{\text{faithful}} , respectively. These semantic directions are then used to modulate the residual stream at the l l -th layer, steering the generation process toward greater factual consistency.
+> 来源：[原论文](https://arxiv.org/abs/2505.16146)
+
+</details>
+
+#### 代表作
+
+<details>
+<summary><strong>1. Steering LVLMs via Sparse Autoencoder for Hallucination Mitigation</strong> · arXiv (Cornell University) · 2025</summary>
+
+- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Steering+LVLMs+via+Sparse+Autoencoder+for+Hallucination+Mitigation%22)（未缓存未经核验的数字）
+- [论文 / 项目原始入口](https://arxiv.org/abs/2505.16146)
+
+**基于 Abstract 的 TL;DR**
+
+研究者探索了如何有效地减少大型视觉语言模型（LVLM）的幻想现象。他们发现使用稀疏自动编码器（SAE）来识别相关的语义方向，可以有效地减少幻想现象并且不需要额外的计算资源。
+
+**原文关键流程 / 方法图**
+
+<a href="https://arxiv.org/abs/2505.16146"><img src="https://ar5iv.labs.arxiv.org/html/2505.16146/assets/x4.png" alt="Figure 3: Overview of the proposed SSL approach leveraging SAE to identify semantically aligned directions and mitigate hallucination in LVLMs. We use SAE to identify latent directions within the internal representation space of LVLMs that are associated with hallucinatory and faithful semantics, denoted as d hall d_{\text{hall}} and d faithful d_{\text{faithful}} , respectively. These semantic directions are then used to modulate the residual stream at the l l -th layer, steering the generation process toward greater factual consistency." width="720"></a>
+
+> Figure 3: Overview of the proposed SSL approach leveraging SAE to identify semantically aligned directions and mitigate hallucination in LVLMs. We use SAE to identify latent directions within the internal representation space of LVLMs that are associated with hallucinatory and faithful semantics, denoted as d hall d_{\text{hall}} and d faithful d_{\text{faithful}} , respectively. These semantic directions are then used to modulate the residual stream at the l l -th layer, steering the generation process toward greater factual consistency.
+> 来源：[原论文](https://arxiv.org/abs/2505.16146)
+
+</details>
+
+<details>
+<summary><strong>2. Zidong Taichu Cross-modal General Artificial Intelligence Platform</strong></summary>
+
+- 引用量：非论文条目或尚未可靠匹配
+- [论文 / 项目原始入口](https://ia.cas.cn/xwzx/ttxw/202107/t20210709_6130180.html)
+
+**摘要 / 项目说明**
+
+这是团队公开的代表性研究成果。目录中的公开说明为：Zidong Taichu Cross-modal General Artificial Intelligence Platform 可通过原始链接查看完整项目、论文或数据说明。
+
+</details>
+
+<details>
+<summary><strong>3. Zidong Taichu Omnimodal Cognitive Foundation Model</strong></summary>
+
+- 引用量：非论文条目或尚未可靠匹配
+- [论文 / 项目原始入口](https://www.ia.cas.cn/xwzx/ttxw/202306/t20230616_6779379.html)
+
+**摘要 / 项目说明**
+
+这是团队公开的代表性研究成果。目录中的公开说明为：Zidong Taichu Omnimodal Cognitive Foundation Model 可通过原始链接查看完整项目、论文或数据说明。
+
+</details>
+
+</details>
+
+<details>
+<summary><img src="https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.ia.cas.cn&amp;sz=128" width="32" height="32" alt="CASIA Brain Atlas and Brain-inspired Intelligence Laboratory logo"> &nbsp;<strong>CASIA Brain Atlas and Brain-inspired Intelligence Laboratory</strong> · <code>verified</code></summary>
+
+<br>
+
+CASIA Brain Atlas and Brain-inspired Intelligence Laboratory 隶属于 Institute of Automation，是一支主要关注计算神经科学、类脑智能、脑机接口等方向的前沿 AI 研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+
+- **所属：** Institute of Automation
+- **主要方向：** 计算神经科学、类脑智能、脑机接口、多模态学习
+- **负责人：** [Shan Yu](https://ia.cas.cn/rcdw/yjy/202404/t20240422_7130909.html)（Director） · [Tianzi Jiang](https://ia.cas.cn/rcdw/jcqn/202404/t20240425_7131774.html)（Senior Principal Investigator） · [Huiguang He](https://ia.cas.cn/rcdw/yjy/202404/t20240422_7130925.html)（Senior Principal Investigator）
+- **官方入口：** [官网](https://www.ia.cas.cn/jgsz/kyxt/brain/) · [官网](http://brain-ai.ia.ac.cn/)
+
+#### 最近工作 · 2026
+
+<details>
+<summary><strong>3. A neural network for modeling human concept formation, understanding and communication</strong> · Nature Computational Science · 2026</summary>
+
+- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22A+neural+network+for+modeling+human+concept+formation%2C+understanding+and+communication%22)（未缓存未经核验的数字）
+- [论文 / 项目原始入口](https://doi.org/10.1038/s43588-026-00956-4)
+
+**基于 Abstract 的 TL;DR**
+
+研究问题：人脑如何形成抽象概念并在感官输入下灵活应用。 核心方法：CATS Net（概念抽象网络），一个双模块网络框架，包括概念抽象模块和任务解决模块。该系统通过概念表示的跨网络知识转移实现了跨网络的概念通信。 主要实验结论：研究表明，CATS Net中的概念空间与人脑中涉及语义理解的神经元结构相符，而控制机制也与语义控制脑网的机制一致。
+
+</details>
+
+#### 代表作
+
+<details>
+<summary><strong>1. The Human Brainnetome Atlas: A New Brain Atlas Based on Connectional Architecture</strong> · Cerebral Cortex · 2016</summary>
+
+- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22The+Human+Brainnetome+Atlas%3A+A+New+Brain+Atlas+Based+on+Connectional+Architecture%22)（未缓存未经核验的数字）
+- [论文 / 项目原始入口](https://doi.org/10.1093/cercor/bhw157)
+
+**基于 Abstract 的 TL;DR**
+
+研究者开发了一种基于连接性的分区框架，利用非侵入性多模态神经影像技术，创建了一个包含210个皮层和36个下丘脑区域的全脑分区图。该图提供了精细的、可验证的分区，并包含了解剖结构和功能连接信息。此外，它将分区结构与心理过程进行了对应，提供了一个稳定的起点来探索结构-连接-功能之间复杂关系，从而改善了解人类脑部如何工作。
+
+</details>
+
+<details>
+<summary><strong>2. Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features</strong> · IEEE Transactions on Pattern Analysis and Machine Intelligence · 2023</summary>
+
+- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Decoding+Visual+Neural+Representations+by+Multimodal+Learning+of+Brain-Visual-Linguistic+Features%22)（未缓存未经核验的数字）
+- [论文 / 项目原始入口](https://doi.org/10.1109/tpami.2023.3263181)
+
+**基于 Abstract 的 TL;DR**
+
+该研究旨在开发一种能够解码人类视觉神经表示的通用方法，称为BraVL。该方法利用多模态学习来结合脑、视觉和语言特征。通过使用混合-of-product-of-experts公式，BraVL模型可以推导出一个共享的隐式代码，使其能够生成所有三个模态的合一表示。实验结果表明，解码新类别的视觉活动是可行的，并且使用多模态特征的模型比单模态特征的模型更准确。
+
+</details>
+
+<details>
+<summary><strong>3. A neural network for modeling human concept formation, understanding and communication</strong> · Nature Computational Science · 2026</summary>
+
+- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22A+neural+network+for+modeling+human+concept+formation%2C+understanding+and+communication%22)（未缓存未经核验的数字）
+- [论文 / 项目原始入口](https://doi.org/10.1038/s43588-026-00956-4)
+
+**基于 Abstract 的 TL;DR**
+
+研究问题：人脑如何形成抽象概念并在感官输入下灵活应用。 核心方法：CATS Net（概念抽象网络），一个双模块网络框架，包括概念抽象模块和任务解决模块。该系统通过概念表示的跨网络知识转移实现了跨网络的概念通信。 主要实验结论：研究表明，CATS Net中的概念空间与人脑中涉及语义理解的神经元结构相符，而控制机制也与语义控制脑网的机制一致。
+
+</details>
+
+</details>
+
+<details>
+<summary><img src="https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.ia.cas.cn&amp;sz=128" width="32" height="32" alt="CASIA Research Center for AI Ethics and Governance logo"> &nbsp;<strong>CASIA Research Center for AI Ethics and Governance</strong> · <code>verified</code></summary>
+
+<br>
+
+CASIA Research Center for AI Ethics and Governance 隶属于 Institute of Automation，是一支主要关注负责任 AI、AI 安全与对齐、AI 社会影响等方向的前沿 AI 研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
+
+- **所属：** Institute of Automation
+- **主要方向：** 负责任 AI、AI 安全与对齐、AI 社会影响、AI 治理
+- **负责人：** [Yi Zeng](https://www.braincog.ai/people/yi-zeng/)（Founding Director） · [Dongcheng Zhao](https://scholar.google.com/scholar?hl=en&q=%22Dongcheng+Zhao%22+CASIA)（Research Fellow and Assistant Professor） · [Kang Sun](https://scholar.google.com/scholar?hl=en&q=%22Kang+Sun%22+%22Institute+of+Automation%22+AI+ethics)（Research Fellow and Assistant Professor）
+- **官方入口：** [官网](https://www.ia.cas.cn/jgsz/kyxt/llyzl/) · [官网](https://www.ai-ethics-and-governance.institute/)
+
+#### 最近工作 · 2021
+
+<details>
+<summary><strong>2. Ethics and Governance of Artificial Intelligence: Evidence from a Survey of Machine Learning Researchers</strong> · arXiv (Cornell University) · 2021</summary>
+
+- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Ethics+and+Governance+of+Artificial+Intelligence%3A+Evidence+from+a+Survey+of+Machine+Learning+Researchers%22)（未缓存未经核验的数字）
+- [论文 / 项目原始入口](https://arxiv.org/abs/2105.02117)
+
+**基于 Abstract 的 TL;DR**
+
+研究人员通过调查AI/ML领域的顶级会议发表者（N=524人）来了解他们对AI使用的态度。结果显示，AI/ML研究人员高度信任国际组织和科学组织，中等信任西方技术公司，但低信任国家军事、中国技术公司和Facebook。调查结果表明，AI/ML研究人员大多数不支持 lethal autonomous weapons，但对其他军事应用的AI持更积极态度。此外，大多数人认为AI安全研究应优先，并支持ML机构进行预发表审查，以评估潜在危害。
+
+**原文关键流程 / 方法图**
+
+<a href="https://arxiv.org/abs/2105.02117"><img src="https://ar5iv.labs.arxiv.org/html/2105.02117/assets/x1.png" alt="Figure 1: Perceived issue importance of AI governance challenges (comparing AI/ML researchers’ and the US public’s responses). Each respondent was presented with 5 AI governance challenges randomly selected from a list of 13. Respondents were asked to evaluate the importance of each governance challenge using a four-point scale (the slider scale allows respondents to input values to the tenth decimal point): 0 = not important, 1 = not too important, 2 = somewhat important, 3 = very important. We present the mean responses for each governance challenge (by respondent type) along with the corresponding 95% confidence intervals." width="720"></a>
+
+> Figure 1: Perceived issue importance of AI governance challenges (comparing AI/ML researchers’ and the US public’s responses). Each respondent was presented with 5 AI governance challenges randomly selected from a list of 13. Respondents were asked to evaluate the importance of each governance challenge using a four-point scale (the slider scale allows respondents to input values to the tenth decimal point): 0 = not important, 1 = not too important, 2 = somewhat important, 3 = very important. We present the mean responses for each governance challenge (by respondent type) along with the corresponding 95% confidence intervals.
+> 来源：[原论文](https://arxiv.org/abs/2105.02117)
+
+</details>
+
+#### 代表作
+
+<details>
+<summary><strong>1. Linking Artificial Intelligence Principles</strong></summary>
+
+- 引用量：非论文条目或尚未可靠匹配
+- [论文 / 项目原始入口](https://www.linking-ai-principles.org/)
+
+**摘要 / 项目说明**
+
+这是团队公开的代表性研究成果。目录中的公开说明为：Linking Artificial Intelligence Principles 可通过原始链接查看完整项目、论文或数据说明。
+
+</details>
+
+<details>
+<summary><strong>2. Ethics and Governance of Artificial Intelligence: Evidence from a Survey of Machine Learning Researchers</strong> · arXiv (Cornell University) · 2021</summary>
+
+- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Ethics+and+Governance+of+Artificial+Intelligence%3A+Evidence+from+a+Survey+of+Machine+Learning+Researchers%22)（未缓存未经核验的数字）
+- [论文 / 项目原始入口](https://arxiv.org/abs/2105.02117)
+
+**基于 Abstract 的 TL;DR**
+
+研究人员通过调查AI/ML领域的顶级会议发表者（N=524人）来了解他们对AI使用的态度。结果显示，AI/ML研究人员高度信任国际组织和科学组织，中等信任西方技术公司，但低信任国家军事、中国技术公司和Facebook。调查结果表明，AI/ML研究人员大多数不支持 lethal autonomous weapons，但对其他军事应用的AI持更积极态度。此外，大多数人认为AI安全研究应优先，并支持ML机构进行预发表审查，以评估潜在危害。
+
+**原文关键流程 / 方法图**
+
+<a href="https://arxiv.org/abs/2105.02117"><img src="https://ar5iv.labs.arxiv.org/html/2105.02117/assets/x1.png" alt="Figure 1: Perceived issue importance of AI governance challenges (comparing AI/ML researchers’ and the US public’s responses). Each respondent was presented with 5 AI governance challenges randomly selected from a list of 13. Respondents were asked to evaluate the importance of each governance challenge using a four-point scale (the slider scale allows respondents to input values to the tenth decimal point): 0 = not important, 1 = not too important, 2 = somewhat important, 3 = very important. We present the mean responses for each governance challenge (by respondent type) along with the corresponding 95% confidence intervals." width="720"></a>
+
+> Figure 1: Perceived issue importance of AI governance challenges (comparing AI/ML researchers’ and the US public’s responses). Each respondent was presented with 5 AI governance challenges randomly selected from a list of 13. Respondents were asked to evaluate the importance of each governance challenge using a four-point scale (the slider scale allows respondents to input values to the tenth decimal point): 0 = not important, 1 = not too important, 2 = somewhat important, 3 = very important. We present the mean responses for each governance challenge (by respondent type) along with the corresponding 95% confidence intervals.
+> 来源：[原论文](https://arxiv.org/abs/2105.02117)
+
+</details>
+
+<details>
+<summary><strong>3. Ethical and Safety Observatory for Large Artificial Intelligence Models</strong></summary>
+
+- 引用量：非论文条目或尚未可靠匹配
+- [论文 / 项目原始入口](https://for-good.ai/large-ai-investigator)
+
+**摘要 / 项目说明**
+
+这是团队公开的代表性研究成果。目录中的公开说明为：Ethical and Safety Observatory for Large Artificial Intelligence Models 可通过原始链接查看完整项目、论文或数据说明。
+
+</details>
+
+</details>
+
 ### Shanghai Artificial Intelligence Laboratory（5）
 
 <details>
@@ -2258,7 +2641,7 @@ InternLM 隶属于 Shanghai Artificial Intelligence Laboratory，是一支主要
 
 - **所属：** Shanghai Artificial Intelligence Laboratory
 - **主要方向：** 大语言模型、多模态学习、AI 系统、模型服务
-- **负责人：** [负责人/成员页](https://internlm.intern-ai.org.cn/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Yuhao Zhou](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yuhao+Zhou)（Senior Researcher / Representative-work Author） · [Dahua Lin](https://scholar.google.com/citations?view_op=search_authors&mauthors=Dahua+Lin)（Senior Researcher / Representative-work Author） · [Yuhang Zang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yuhang+Zang)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://internlm.intern-ai.org.cn/) · [GitHub](https://github.com/InternLM)
 
 #### 最近工作 · 2026
@@ -2356,7 +2739,7 @@ OpenGVLab 隶属于 Shanghai Artificial Intelligence Laboratory，是一支主�
 
 - **所属：** Shanghai Artificial Intelligence Laboratory
 - **主要方向：** 计算机视觉、多模态学习、视觉语言模型、视频理解
-- **负责人：** [负责人/成员页](https://github.com/OpenGVLab) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Wang, Chenting](https://scholar.google.com/citations?view_op=search_authors&mauthors=Wang%2C+Chenting)（Senior Researcher / Representative-work Author） · [Yinan He](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yinan+He)（Senior Researcher / Representative-work Author） · [Kaizhun Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Kaizhun+Li)（Senior Researcher / Representative-work Author）
 - **官方入口：** [GitHub](https://github.com/OpenGVLab) · [Hugging Face](https://huggingface.co/OpenGVLab)
 
 #### 最近工作 · 2024
@@ -2440,7 +2823,7 @@ InternScience 隶属于 Shanghai Artificial Intelligence Laboratory，是一支�
 
 - **所属：** Shanghai Artificial Intelligence Laboratory
 - **主要方向：** AI for Science、智能体、自主科学发现、大语言模型
-- **负责人：** [负责人/成员页](https://discovery.intern-ai.org.cn/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Jiakang Yuan](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jiakang+Yuan)（Senior Researcher / Representative-work Author） · [Tianshuo Peng](https://scholar.google.com/citations?view_op=search_authors&mauthors=Tianshuo+Peng)（Senior Researcher / Representative-work Author） · [Zongsheng Cao](https://scholar.google.com/citations?view_op=search_authors&mauthors=Zongsheng+Cao)（Senior Researcher / Representative-work Author）
 - **官方入口：** [GitHub](https://github.com/InternScience) · [官网](https://discovery.intern-ai.org.cn/)
 
 #### 最近工作 · 2026
@@ -2524,7 +2907,7 @@ OpenDataLab 隶属于 Shanghai Artificial Intelligence Laboratory，是一支主
 
 - **所属：** Shanghai Artificial Intelligence Laboratory
 - **主要方向：** 数据中心 AI、多模态学习、文档智能、AI for Science
-- **负责人：** [负责人/成员页](https://opendatalab.github.io/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Xiaomeng Zhao](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xiaomeng+Zhao)（Senior Researcher / Representative-work Author） · [Ziling Wang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ziling+Wang)（Senior Researcher / Representative-work Author） · [Conghui He](https://scholar.google.com/citations?view_op=search_authors&mauthors=Conghui+He)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://opendatalab.github.io/) · [GitHub](https://github.com/opendatalab)
 
 #### 最近工作 · 2026
@@ -2622,7 +3005,7 @@ OpenDriveLab 隶属于 Shanghai Artificial Intelligence Laboratory，是一支�
 
 - **所属：** Shanghai Artificial Intelligence Laboratory
 - **主要方向：** 自动驾驶、具身智能、世界模型、机器人
-- **负责人：** [负责人/成员页](https://opendrivelab.com/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Liang Wang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Liang+Wang)（Senior Researcher / Representative-work Author） · [Yufei Wang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yufei+Wang)（Senior Researcher / Representative-work Author） · [Li Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Li+Chen)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://opendrivelab.com/) · [GitHub](https://github.com/OpenDriveLab)
 
 #### 最近工作 · 2026
@@ -2715,7 +3098,7 @@ DeepSeek AI Research 隶属于 DeepSeek，是一支主要关注大语言模型�
 
 - **所属：** DeepSeek
 - **主要方向：** 大语言模型、机器推理、AI 系统、多模态学习
-- **负责人：** [负责人/成员页](https://www.deepseek.com/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Yebin Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yebin+Liu)（Senior Researcher / Representative-work Author） · [Dai, Damai](https://scholar.google.com/citations?view_op=search_authors&mauthors=Dai%2C+Damai)（Senior Researcher / Representative-work Author） · [Zhenda Xie](https://scholar.google.com/citations?view_op=search_authors&mauthors=Zhenda+Xie)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://www.deepseek.com/) · [GitHub](https://github.com/deepseek-ai)
 
 #### 最近工作 · 2024
@@ -2808,7 +3191,7 @@ Z.ai / GLM Team 隶属于 Zhipu AI，是一支主要关注大语言模型、多�
 
 - **所属：** Zhipu AI
 - **主要方向：** 大语言模型、多模态学习、智能体、机器推理
-- **负责人：** [负责人/成员页](https://z.ai/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Jie Tang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jie+Tang)（Senior Researcher / Representative-work Author） · [Yong‐Jin Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yong%E2%80%90Jin+Liu)（Senior Researcher / Representative-work Author） · [Xiaotao Gu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xiaotao+Gu)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://z.ai/) · [GitHub](https://github.com/zai-org)
 
 #### 最近工作 · 2025
@@ -2894,10 +3277,10 @@ Moonshot AI / Kimi Research 隶属于 Moonshot AI，是一支主要关注大语�
 
 - **所属：** Moonshot AI
 - **主要方向：** 大语言模型、智能体、多模态学习、AI 系统
-- **负责人：** [负责人/成员页](https://www.moonshot.cn/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Zhilin Yang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Zhilin+Yang)（Co-Founder / Research Leader） · [Yuxin Wu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yuxin+Wu)（Co-Founder / Research Leader） · [Xinyu Zhou](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xinyu+Zhou)（Co-Founder / Research Leader）
 - **官方入口：** [官网](https://www.moonshot.cn/) · [GitHub](https://github.com/MoonshotAI)
 
-#### 最近工作 · 2026-07-28
+#### 最近工作 · 2026-07-30
 
 <details>
 <summary><strong>3. Kimi Code CLI  —  The Starting Point for Next-Gen Agents</strong></summary>
@@ -2966,7 +3349,7 @@ MiniMax Research 隶属于 MiniMax，是一支主要关注大语言模型、语�
 
 - **所属：** MiniMax
 - **主要方向：** 大语言模型、语音技术、多模态学习、视频生成
-- **负责人：** [负责人/成员页](https://www.minimaxi.com/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Xinggang Wang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xinggang+Wang)（Senior Researcher / Representative-work Author） · [Shiqi Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Shiqi+Chen)（Senior Researcher / Representative-work Author） · [Yucong Zhou](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yucong+Zhou)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://www.minimaxi.com/) · [GitHub](https://github.com/MiniMax-AI)
 
 #### 最近工作 · 2025
@@ -3061,7 +3444,7 @@ Google DeepMind 隶属于 Alphabet，是一支主要关注基础模型、强化�
 
 - **所属：** Alphabet
 - **主要方向：** 基础模型、强化学习、多模态学习、AI for Science
-- **负责人：** [负责人/成员页](https://deepmind.google/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Yue Zhao](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yue+Zhao)（Senior Researcher / Representative-work Author） · [Sebastian Riedel](https://scholar.google.com/citations?view_op=search_authors&mauthors=Sebastian+Riedel)（Senior Researcher / Representative-work Author） · [Tobias Weyand](https://scholar.google.com/citations?view_op=search_authors&mauthors=Tobias+Weyand)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://deepmind.google/) · [GitHub](https://github.com/google-deepmind)
 
 #### 最近工作 · 2024
@@ -3152,10 +3535,10 @@ Google Research 隶属于 Alphabet，是一支主要关注机器学习、自然�
 
 - **所属：** Alphabet
 - **主要方向：** 机器学习、自然语言处理、计算机视觉、AI 系统
-- **负责人：** [负责人/成员页](https://research.google/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Jeff Dean](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jeff+Dean)（Chief Scientist） · [Yossi Matias](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yossi+Matias)（Research Leader） · [Blaise Agüera y Arcas](https://scholar.google.com/citations?view_op=search_authors&mauthors=Blaise+Ag%C3%BCera+y+Arcas)（Research Leader）
 - **官方入口：** [官网](https://research.google/) · [GitHub](https://github.com/google-research)
 
-#### 最近工作 · 2026-07-27
+#### 最近工作 · 2026-07-29
 
 <details>
 <summary><strong>3. Tooling for agile modeling on large machine perception embedding databases.</strong></summary>
@@ -3224,7 +3607,7 @@ Fundamental AI Research (FAIR) 隶属于 Meta，是一支主要关注基础模�
 
 - **所属：** Meta
 - **主要方向：** 基础模型、多模态学习、计算机视觉、AI for Science
-- **负责人：** [负责人/成员页](https://ai.meta.com/research/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [David Novotný](https://scholar.google.com/citations?view_op=search_authors&mauthors=David+Novotn%C3%BD)（Senior Researcher / Representative-work Author） · [Yann LeCun](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yann+LeCun)（Senior Researcher / Representative-work Author） · [Christian Rupprecht](https://scholar.google.com/citations?view_op=search_authors&mauthors=Christian+Rupprecht)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://ai.meta.com/research/) · [GitHub](https://github.com/facebookresearch)
 
 #### 最近工作 · 2025
@@ -3315,7 +3698,7 @@ Meta Reality Labs Research 隶属于 Meta，是一支主要关注增强现实、
 
 - **所属：** Meta
 - **主要方向：** 增强现实、计算机视觉、具身智能、人机交互
-- **负责人：** [负责人/成员页](https://about.meta.com/realitylabs/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [David Novotný](https://scholar.google.com/citations?view_op=search_authors&mauthors=David+Novotn%C3%BD)（Senior Researcher / Representative-work Author） · [Yann LeCun](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yann+LeCun)（Senior Researcher / Representative-work Author） · [Christian Rupprecht](https://scholar.google.com/citations?view_op=search_authors&mauthors=Christian+Rupprecht)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://about.meta.com/realitylabs/) · [GitHub](https://github.com/facebookresearch)
 
 #### 最近工作 · 2025
@@ -3408,7 +3791,7 @@ Microsoft Research AI Frontiers 隶属于 Microsoft，是一支主要关注基�
 
 - **所属：** Microsoft
 - **主要方向：** 基础模型、智能体、机器推理、模型评估
-- **负责人：** [负责人/成员页](https://www.microsoft.com/en-us/research/project/ai-frontiers-explorations/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Shenghua Xu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Shenghua+Xu)（Senior Researcher / Representative-work Author） · [Jiaolong Yang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jiaolong+Yang)（Senior Researcher / Representative-work Author） · [Huizhi Liang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Huizhi+Liang)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://www.microsoft.com/en-us/research/project/ai-frontiers-explorations/) · [GitHub](https://github.com/microsoft)
 
 #### 最近工作 · 2025
@@ -3499,7 +3882,7 @@ Microsoft Research Asia — General Artificial Intelligence 隶属于 Microsoft�
 
 - **所属：** Microsoft
 - **主要方向：** 基础模型、自然语言处理、语音技术、多模态学习
-- **负责人：** [负责人/成员页](https://www.microsoft.com/en-us/research/group/general-artificial-intelligence/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Shenghua Xu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Shenghua+Xu)（Senior Researcher / Representative-work Author） · [Jiaolong Yang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jiaolong+Yang)（Senior Researcher / Representative-work Author） · [Huizhi Liang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Huizhi+Liang)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://www.microsoft.com/en-us/research/group/general-artificial-intelligence/) · [GitHub](https://github.com/microsoft/unilm)
 
 #### 最近工作 · 2025
@@ -3590,7 +3973,7 @@ Microsoft Research AI for Science 隶属于 Microsoft，是一支主要关注AI 
 
 - **所属：** Microsoft
 - **主要方向：** AI for Science、基础模型、计算化学、计算生物学
-- **负责人：** [负责人/成员页](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai-for-science/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Shenghua Xu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Shenghua+Xu)（Senior Researcher / Representative-work Author） · [Jiaolong Yang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jiaolong+Yang)（Senior Researcher / Representative-work Author） · [Huizhi Liang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Huizhi+Liang)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai-for-science/) · [GitHub](https://github.com/microsoft)
 
 #### 最近工作 · 2025
@@ -3681,7 +4064,7 @@ Microsoft Research — Machine Learning Area 隶属于 Microsoft，是一支主�
 
 - **所属：** Microsoft
 - **主要方向：** 机器学习、强化学习、因果学习、优化方法
-- **负责人：** [负责人/成员页](https://www.microsoft.com/en-us/research/group/machine-learning-research-group/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Shenghua Xu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Shenghua+Xu)（Senior Researcher / Representative-work Author） · [Jiaolong Yang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jiaolong+Yang)（Senior Researcher / Representative-work Author） · [Huizhi Liang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Huizhi+Liang)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://www.microsoft.com/en-us/research/group/machine-learning-research-group/) · [GitHub](https://github.com/microsoft)
 
 #### 最近工作 · 2025
@@ -3772,7 +4155,7 @@ Microsoft Research — Computer Vision Group 隶属于 Microsoft，是一支主�
 
 - **所属：** Microsoft
 - **主要方向：** 计算机视觉、多模态学习、图像生成、视频理解
-- **负责人：** [负责人/成员页](https://www.microsoft.com/en-us/research/group/vision/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Shenghua Xu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Shenghua+Xu)（Senior Researcher / Representative-work Author） · [Jiaolong Yang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jiaolong+Yang)（Senior Researcher / Representative-work Author） · [Huizhi Liang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Huizhi+Liang)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://www.microsoft.com/en-us/research/group/vision/) · [GitHub](https://github.com/microsoft)
 
 #### 最近工作 · 2025
@@ -3865,7 +4248,7 @@ NVIDIA Cosmos Lab 隶属于 NVIDIA，是一支主要关注世界模型、物理�
 
 - **所属：** NVIDIA
 - **主要方向：** 世界模型、物理世界 AI、视频生成、具身智能
-- **负责人：** [负责人/成员页](https://research.nvidia.com/labs/dir/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Stan Birchfield](https://scholar.google.com/citations?view_op=search_authors&mauthors=Stan+Birchfield)（Senior Researcher / Representative-work Author） · [Jan Kautz](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jan+Kautz)（Senior Researcher / Representative-work Author） · [Orazio Gallo](https://scholar.google.com/citations?view_op=search_authors&mauthors=Orazio+Gallo)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://research.nvidia.com/labs/dir/) · [GitHub](https://github.com/NVlabs)
 
 #### 最近工作 · 2025
@@ -3956,7 +4339,7 @@ NVIDIA GEAR 隶属于 NVIDIA，是一支主要关注具身智能、机器人、�
 
 - **所属：** NVIDIA
 - **主要方向：** 具身智能、机器人、基础模型、仿真
-- **负责人：** [负责人/成员页](https://research.nvidia.com/labs/gear/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Stan Birchfield](https://scholar.google.com/citations?view_op=search_authors&mauthors=Stan+Birchfield)（Senior Researcher / Representative-work Author） · [Jan Kautz](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jan+Kautz)（Senior Researcher / Representative-work Author） · [Orazio Gallo](https://scholar.google.com/citations?view_op=search_authors&mauthors=Orazio+Gallo)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://research.nvidia.com/labs/gear/) · [GitHub](https://github.com/NVlabs)
 
 #### 最近工作 · 2025
@@ -4047,7 +4430,7 @@ NVIDIA Data-Driven AI for Robotics (DAIR) 隶属于 NVIDIA，是一支主要关�
 
 - **所属：** NVIDIA
 - **主要方向：** 机器人、具身智能、人体运动建模、计算机视觉
-- **负责人：** [负责人/成员页](https://research.nvidia.com/labs/dair/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Stan Birchfield](https://scholar.google.com/citations?view_op=search_authors&mauthors=Stan+Birchfield)（Senior Researcher / Representative-work Author） · [Jan Kautz](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jan+Kautz)（Senior Researcher / Representative-work Author） · [Orazio Gallo](https://scholar.google.com/citations?view_op=search_authors&mauthors=Orazio+Gallo)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://research.nvidia.com/labs/dair/) · [GitHub](https://github.com/NVlabs)
 
 #### 最近工作 · 2025
@@ -4138,7 +4521,7 @@ NVIDIA Efficient AI Lab 隶属于 NVIDIA，是一支主要关注高效 AI、模�
 
 - **所属：** NVIDIA
 - **主要方向：** 高效 AI、模型压缩、模型推理、生成式 AI
-- **负责人：** [负责人/成员页](https://research.nvidia.com/labs/eai/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Stan Birchfield](https://scholar.google.com/citations?view_op=search_authors&mauthors=Stan+Birchfield)（Senior Researcher / Representative-work Author） · [Jan Kautz](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jan+Kautz)（Senior Researcher / Representative-work Author） · [Orazio Gallo](https://scholar.google.com/citations?view_op=search_authors&mauthors=Orazio+Gallo)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://research.nvidia.com/labs/eai/) · [GitHub](https://github.com/NVlabs)
 
 #### 最近工作 · 2025
@@ -4231,7 +4614,7 @@ Amazon AGI Lab 隶属于 Amazon，是一支主要关注智能体、强化学习�
 
 - **所属：** Amazon
 - **主要方向：** 智能体、强化学习、多模态学习、人机交互
-- **负责人：** [负责人/成员页](https://labs.amazon.science/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Bing Xiang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Bing+Xiang)（Senior Researcher / Representative-work Author） · [Laurent Callot](https://scholar.google.com/citations?view_op=search_authors&mauthors=Laurent+Callot)（Senior Researcher / Representative-work Author） · [Adrià de Gispert](https://scholar.google.com/citations?view_op=search_authors&mauthors=Adri%C3%A0+de+Gispert)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://labs.amazon.science/) · [GitHub](https://github.com/amazon-science)
 
 #### 最近工作 · 2025
@@ -4329,7 +4712,7 @@ Amazon Science 隶属于 Amazon，是一支主要关注机器学习、自然语�
 
 - **所属：** Amazon
 - **主要方向：** 机器学习、自然语言处理、机器人、推荐系统
-- **负责人：** [负责人/成员页](https://www.amazon.science/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Bing Xiang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Bing+Xiang)（Senior Researcher / Representative-work Author） · [Laurent Callot](https://scholar.google.com/citations?view_op=search_authors&mauthors=Laurent+Callot)（Senior Researcher / Representative-work Author） · [Adrià de Gispert](https://scholar.google.com/citations?view_op=search_authors&mauthors=Adri%C3%A0+de+Gispert)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://www.amazon.science/) · [GitHub](https://github.com/amazon-science)
 
 #### 最近工作 · 2025
@@ -4429,7 +4812,7 @@ Apple Machine Learning Research 隶属于 Apple，是一支主要关注机器学
 
 - **所属：** Apple
 - **主要方向：** 机器学习、计算机视觉、语音技术、负责任 AI
-- **负责人：** [负责人/成员页](https://machinelearning.apple.com/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Oncel Tuzel](https://scholar.google.com/citations?view_op=search_authors&mauthors=Oncel+Tuzel)（Senior Researcher / Representative-work Author） · [Peter Grasch](https://scholar.google.com/citations?view_op=search_authors&mauthors=Peter+Grasch)（Senior Researcher / Representative-work Author） · [Dorian Chan](https://scholar.google.com/citations?view_op=search_authors&mauthors=Dorian+Chan)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://machinelearning.apple.com/) · [GitHub](https://github.com/apple)
 
 #### 最近工作 · 2026
@@ -4520,10 +4903,10 @@ Apple MLX Research Team 隶属于 Apple，是一支主要关注机器学习框�
 
 - **所属：** Apple
 - **主要方向：** 机器学习框架、高效 AI、端侧 AI
-- **负责人：** [负责人/成员页](https://ml-explore.github.io/mlx/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Awni Hannun](https://scholar.google.com/citations?view_op=search_authors&mauthors=Awni+Hannun)（Founding Contributor / Research Scientist） · [Jagrit Digani](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jagrit+Digani)（Founding Contributor / Research Scientist） · [Angelos Katharopoulos](https://scholar.google.com/citations?view_op=search_authors&mauthors=Angelos+Katharopoulos)（Founding Contributor / Research Scientist）
 - **官方入口：** [官网](https://ml-explore.github.io/mlx/) · [GitHub](https://github.com/ml-explore)
 
-#### 最近工作 · 2026-07-27
+#### 最近工作 · 2026-07-30
 
 <details>
 <summary><strong>1. MLX: An array framework for Apple silicon</strong></summary>
@@ -4594,7 +4977,7 @@ OpenAI Research 隶属于 OpenAI，是一支主要关注基础模型、机器推
 
 - **所属：** OpenAI
 - **主要方向：** 基础模型、机器推理、多模态学习、AI 安全
-- **负责人：** [负责人/成员页](https://openai.com/research/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Jeff Clune](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jeff+Clune)（Senior Researcher / Representative-work Author） · [Tejal Patwardhan](https://scholar.google.com/citations?view_op=search_authors&mauthors=Tejal+Patwardhan)（Senior Researcher / Representative-work Author） · [Raul Sampedro](https://scholar.google.com/citations?view_op=search_authors&mauthors=Raul+Sampedro)（Senior Researcher / Representative-work Author）
 - **官方入口：** [官网](https://openai.com/research/) · [GitHub](https://github.com/openai)
 
 #### 最近工作 · 2024
@@ -4666,7 +5049,7 @@ Anthropic Alignment 隶属于 Anthropic，是一支主要关注AI 对齐、模�
 
 - **所属：** Anthropic
 - **主要方向：** AI 对齐、模型行为、AI 安全与对齐
-- **负责人：** [负责人/成员页](https://www.anthropic.com/research) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Amanda Askell](https://scholar.google.com/citations?view_op=search_authors&mauthors=Amanda+Askell)（Alignment Researcher） · [Jan Leike](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jan+Leike)（Alignment Research Leader） · [Evan Hubinger](https://scholar.google.com/citations?view_op=search_authors&mauthors=Evan+Hubinger)（Alignment Researcher）
 - **官方入口：** [官网](https://www.anthropic.com/research) · [GitHub](https://github.com/anthropics)
 
 #### 最近工作 · 2026-07-16
@@ -4736,7 +5119,7 @@ Anthropic Interpretability 隶属于 Anthropic，是一支主要关注机制可�
 
 - **所属：** Anthropic
 - **主要方向：** 机制可解释性、AI 安全与对齐、模型分析
-- **负责人：** [负责人/成员页](https://www.anthropic.com/research) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Chris Olah](https://scholar.google.com/citations?view_op=search_authors&mauthors=Chris+Olah)（Interpretability Research Leader） · [Nicholas Schiefer](https://scholar.google.com/citations?view_op=search_authors&mauthors=Nicholas+Schiefer)（Interpretability Researcher） · [Trenton Bricken](https://scholar.google.com/citations?view_op=search_authors&mauthors=Trenton+Bricken)（Interpretability Researcher）
 - **官方入口：** [官网](https://www.anthropic.com/research) · [GitHub](https://github.com/anthropics)
 
 #### 最近工作 · 2026-07-16
@@ -4806,7 +5189,7 @@ Anthropic Frontier Red Team 隶属于 Anthropic，是一支主要关注红队评
 
 - **所属：** Anthropic
 - **主要方向：** 红队评测、网络安全、生物安全、自主系统
-- **负责人：** [负责人/成员页](https://www.anthropic.com/research) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Logan Graham](https://scholar.google.com/citations?view_op=search_authors&mauthors=Logan+Graham)（Frontier Red Team Researcher） · [Kyla Guru](https://scholar.google.com/citations?view_op=search_authors&mauthors=Kyla+Guru)（Frontier Red Team Researcher） · [Alex Moix](https://scholar.google.com/citations?view_op=search_authors&mauthors=Alex+Moix)（Frontier Red Team Researcher）
 - **官方入口：** [官网](https://www.anthropic.com/research) · [GitHub](https://github.com/anthropics)
 
 #### 最近工作 · 2026-07-16
@@ -4876,7 +5259,7 @@ Anthropic Societal Impacts 隶属于 Anthropic，是一支主要关注AI 社会�
 
 - **所属：** Anthropic
 - **主要方向：** AI 社会影响、模型评测、负责任 AI
-- **负责人：** [负责人/成员页](https://www.anthropic.com/research) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Deep Ganguli](https://scholar.google.com/citations?view_op=search_authors&mauthors=Deep+Ganguli)（Societal Impacts Researcher） · [Alex Tamkin](https://scholar.google.com/citations?view_op=search_authors&mauthors=Alex+Tamkin)（Societal Impacts Researcher） · [Hannah Rose Kirk](https://scholar.google.com/citations?view_op=search_authors&mauthors=Hannah+Rose+Kirk)（Societal Impacts Researcher）
 - **官方入口：** [官网](https://www.anthropic.com/research) · [GitHub](https://github.com/anthropics)
 
 #### 最近工作 · 2026-07-16
@@ -4946,7 +5329,7 @@ Anthropic Economic Research 隶属于 Anthropic，是一支主要关注AI 经济
 
 - **所属：** Anthropic
 - **主要方向：** AI 经济学、AI 与劳动力、AI 应用与采用、AI 社会影响
-- **负责人：** [负责人/成员页](https://www.anthropic.com/research) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Maxim Massenkoff](https://scholar.google.com/citations?view_op=search_authors&mauthors=Maxim+Massenkoff)（Economic Researcher） · [Eva Lyubich](https://scholar.google.com/citations?view_op=search_authors&mauthors=Eva+Lyubich)（Economic Researcher） · [Szymon Sacher](https://scholar.google.com/citations?view_op=search_authors&mauthors=Szymon+Sacher)（Economic Researcher）
 - **官方入口：** [官网](https://www.anthropic.com/research) · [GitHub](https://github.com/anthropics)
 
 #### 最近工作 · 2026-07-16
@@ -5020,7 +5403,7 @@ Tsinghua Natural Language Processing Lab (THUNLP) 隶属于 Tsinghua University�
 
 - **所属：** Tsinghua University
 - **主要方向：** 自然语言处理、大语言模型、知识图谱、智能体
-- **负责人：** [负责人/成员页](https://nlp.csai.tsinghua.edu.cn/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Maosong Sun](https://scholar.google.com/citations?view_op=search_authors&mauthors=Maosong+Sun)（Professor / Research Leader） · [Zhiyuan Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Zhiyuan+Liu)（Professor / Core Faculty） · [Lei Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Lei+Li)（Professor / Core Faculty）
 - **官方入口：** [官网](https://nlp.csai.tsinghua.edu.cn/) · [GitHub](https://github.com/thunlp)
 
 #### 最近工作 · 2025
@@ -5111,7 +5494,7 @@ Tsinghua Knowledge Engineering Group / THUDM 隶属于 Tsinghua University，是
 
 - **所属：** Tsinghua University
 - **主要方向：** 基础模型、知识图谱、多模态学习、智能体
-- **负责人：** [负责人/成员页](https://keg.cs.tsinghua.edu.cn/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Jie Tang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jie+Tang)（Professor / Research Leader） · [Juanzi Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Juanzi+Li)（Professor / Core Faculty） · [Zhiyuan Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Zhiyuan+Liu)（Professor / Core Faculty）
 - **官方入口：** [官网](https://keg.cs.tsinghua.edu.cn/) · [GitHub](https://github.com/THUDM)
 
 #### 最近工作 · 2024
@@ -5188,7 +5571,7 @@ Tsinghua Conversational AI Group (CoAI) 隶属于 Tsinghua University，是一�
 
 - **所属：** Tsinghua University
 - **主要方向：** 对话智能、自然语言处理、大语言模型、AI 对齐
-- **负责人：** [负责人/成员页](https://github.com/thu-coai) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Minlie Huang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Minlie+Huang)（Professor / Research Leader） · [Zhifang Sui](https://scholar.google.com/citations?view_op=search_authors&mauthors=Zhifang+Sui)（Professor / Research Leader） · [Yang Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yang+Liu)（Professor / Research Leader）
 - **官方入口：** [GitHub](https://github.com/thu-coai)
 
 #### 最近工作 · 2024
@@ -5272,7 +5655,7 @@ Institute for AI Industry Research (AIR), Tsinghua University 隶属于 Tsinghua
 
 - **所属：** Tsinghua University
 - **主要方向：** 大语言模型、AI 系统、机器人、AI for Science
-- **负责人：** [负责人/成员页](https://air.tsinghua.edu.cn/en/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Ya-Qin Zhang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ya-Qin+Zhang)（Founding Dean） · [Yang Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yang+Liu)（Dean / Professor） · [Wei-Ying Ma](https://scholar.google.com/citations?view_op=search_authors&mauthors=Wei-Ying+Ma)（Chief Scientist）
 - **官方入口：** [官网](https://air.tsinghua.edu.cn/en/)
 
 #### 最近工作 · 日期待核验
@@ -5340,7 +5723,7 @@ PKU Alignment 隶属于 Peking University，是一支主要关注AI 对齐、强
 
 - **所属：** Peking University
 - **主要方向：** AI 对齐、强化学习、多模态学习、AI 安全与对齐
-- **负责人：** [负责人/成员页](https://github.com/PKU-Alignment) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Yaodong Yang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yaodong+Yang)（Principal Investigator） · [Zongqing Lu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Zongqing+Lu)（Influential Affiliated Faculty） · [Jun Wang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jun+Wang)（Influential Research Collaborator）
 - **官方入口：** [GitHub](https://github.com/PKU-Alignment)
 
 #### 最近工作 · 2025
@@ -5438,7 +5821,7 @@ PKU Data and Intelligence Research Lab (DAIR) 隶属于 Peking University，是�
 
 - **所属：** Peking University
 - **主要方向：** AI 系统、分布式训练、数据库、机器学习
-- **负责人：** [负责人/成员页](https://github.com/PKU-DAIR) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Bin Cui](https://scholar.google.com/citations?view_op=search_authors&mauthors=Bin+Cui)（Professor / Research Leader） · [Xiaoyong Du](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xiaoyong+Du)（Professor / Research Leader） · [Lei Zou](https://scholar.google.com/citations?view_op=search_authors&mauthors=Lei+Zou)（Professor / Research Leader）
 - **官方入口：** [GitHub](https://github.com/PKU-DAIR)
 
 #### 最近工作 · 2025
@@ -5508,7 +5891,7 @@ PKU Cognitive Reasoning Lab (CoRe) 隶属于 Peking University，是一支主要
 
 - **所属：** Peking University
 - **主要方向：** 认知推理、计算机视觉、具身智能、机器人
-- **负责人：** [负责人/成员页](https://pku.ai/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Song-Chun Zhu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Song-Chun+Zhu)（Professor / Research Leader） · [Yanchao Bi](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yanchao+Bi)（Professor / Research Leader） · [Qining Wang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Qining+Wang)（Professor / Research Leader）
 - **官方入口：** [官网](https://pku.ai/)
 
 #### 最近工作 · 2026
@@ -5574,7 +5957,7 @@ PKU Camera Intelligence Lab 隶属于 Peking University，是一支主要关注�
 
 - **所属：** Peking University
 - **主要方向：** 计算机视觉、计算摄影、视频生成、多模态学习
-- **负责人：** [Boxin Shi](https://camera.pku.edu.cn/team)（Principal Investigator）
+- **负责人：** [Boxin Shi](https://camera.pku.edu.cn/team)（Principal Investigator） · [Yizhou Wang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yizhou+Wang)（Influential Affiliated Faculty） · [Song-Chun Zhu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Song-Chun+Zhu)（Influential Affiliated Faculty）
 - **官方入口：** [官网](https://camera.pku.edu.cn/)
 
 #### 最近工作 · 2025
@@ -5640,7 +6023,7 @@ PKU Institute of Computational Linguistics — Wu Lab 隶属于 Peking Universit
 
 - **所属：** Peking University
 - **主要方向：** 自然语言处理、机器翻译、多模态推理、模型融合
-- **负责人：** [负责人/成员页](https://github.com/PKU-Wu-Lab) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Yunfang Wu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yunfang+Wu)（Lab Lead / Professor） · [Xiaojun Wan](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xiaojun+Wan)（Influential Affiliated Faculty） · [Xinyu Dai](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xinyu+Dai)（Influential Affiliated Faculty）
 - **官方入口：** [GitHub](https://github.com/PKU-Wu-Lab) · [Hugging Face](https://huggingface.co/PKU-Wu-Lab)
 
 #### 最近工作 · 2026-07-09
@@ -5710,7 +6093,7 @@ Zhejiang University NLP & Knowledge Graph Group 隶属于 Zhejiang University，
 
 - **所属：** Zhejiang University
 - **主要方向：** 自然语言处理、知识图谱、智能体、模型编辑
-- **负责人：** [负责人/成员页](https://zjunlp.github.io/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Huajun Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Huajun+Chen)（Professor / Research Leader） · [Ningyu Zhang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ningyu+Zhang)（Professor / Core Faculty） · [Yixin Cao](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yixin+Cao)（Professor / Core Faculty）
 - **官方入口：** [官网](https://zjunlp.github.io/) · [GitHub](https://github.com/zjunlp)
 
 #### 最近工作 · 2025
@@ -5794,7 +6177,7 @@ ZJU Reasoning, Evaluation and Agents Lab (REAL) 隶属于 Zhejiang University，
 
 - **所属：** Zhejiang University
 - **主要方向：** 大语言模型、机器推理、智能体、多模态学习
-- **负责人：** [负责人/成员页](https://github.com/ZJU-REAL) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Weiming Lu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Weiming+Lu)（Professor / Research Leader） · [Yueting Zhuang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yueting+Zhuang)（Professor / Research Leader） · [Jiajun Bu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jiajun+Bu)（Professor / Research Leader）
 - **官方入口：** [GitHub](https://github.com/ZJU-REAL)
 
 #### 最近工作 · 2025
@@ -5892,7 +6275,7 @@ ZJU 3D Vision Group 隶属于 Zhejiang University，是一支主要关注三维�
 
 - **所属：** Zhejiang University
 - **主要方向：** 三维视觉、计算机视觉、自动驾驶、具身智能
-- **负责人：** [负责人/成员页](https://github.com/zju3dv) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Xiaowei Zhou](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xiaowei+Zhou)（Professor / Research Leader） · [Hujun Bao](https://scholar.google.com/citations?view_op=search_authors&mauthors=Hujun+Bao)（Professor / Research Leader） · [Guofeng Zhang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Guofeng+Zhang)（Professor / Research Leader）
 - **官方入口：** [GitHub](https://github.com/zju3dv)
 
 #### 最近工作 · 2024
@@ -5978,7 +6361,7 @@ SJTU Machine Intelligence and Interaction Lab (MINT) 隶属于 Shanghai Jiao Ton
 
 - **所属：** Shanghai Jiao Tong University
 - **主要方向：** 具身智能、机器人、多模态学习、智能体
-- **负责人：** [负责人/成员页](https://mint-sjtu.github.io/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Yanwen Zou](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yanwen+Zou)（Faculty Lead） · [Weiyao Lin](https://scholar.google.com/citations?view_op=search_authors&mauthors=Weiyao+Lin)（Influential Affiliated Faculty） · [Junchi Yan](https://scholar.google.com/citations?view_op=search_authors&mauthors=Junchi+Yan)（Influential Affiliated Faculty）
 - **官方入口：** [官网](https://mint-sjtu.github.io/) · [GitHub](https://github.com/MINT-SJTU)
 
 #### 最近工作 · 2025
@@ -6062,7 +6445,7 @@ SJTU Generative AI Research Lab (GAIR-NLP) 隶属于 Shanghai Jiao Tong Universi
 
 - **所属：** Shanghai Jiao Tong University
 - **主要方向：** 大语言模型、智能体、AI 对齐、AI for Science
-- **负责人：** [负责人/成员页](https://github.com/GAIR-NLP) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Pengfei Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Pengfei+Liu)（Faculty Lead） · [Lu Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Lu+Chen)（Influential Affiliated Faculty） · [Kai Yu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Kai+Yu)（Influential Affiliated Faculty）
 - **官方入口：** [GitHub](https://github.com/GAIR-NLP)
 
 #### 最近工作 · 2025
@@ -6160,20 +6543,27 @@ SJTU Machine Intelligence Foundations and Applications Lab (MIFA) 隶属于 Shan
 
 - **所属：** Shanghai Jiao Tong University
 - **主要方向：** 基础模型、持续学习、多模态学习、数据高效学习
-- **负责人：** [负责人/成员页](https://mifa.sjtu.edu.cn/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Weiran Huang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Weiran+Huang)（Principal Investigator） · [Junchi Yan](https://scholar.google.com/citations?view_op=search_authors&mauthors=Junchi+Yan)（Influential Affiliated Faculty） · [Yao Xie](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yao+Xie)（Influential Research Collaborator）
 - **官方入口：** [官网](https://mifa.sjtu.edu.cn/)
 
-#### 最近工作 · 日期待核验
+#### 最近工作 · 2022
 
 <details>
-<summary><strong>1. Shanghai Jiao Tong University</strong></summary>
+<summary><strong>3. When Noisy Labels Meet Long Tail Dilemmas: A Representation Calibration Method</strong> · arXiv (Cornell University) · 2022</summary>
 
-- 引用量：非论文条目或尚未可靠匹配
-- [论文 / 项目原始入口](https://www.sjtu.edu.cn/)
+- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22When+Noisy+Labels+Meet+Long+Tail+Dilemmas%3A+A+Representation+Calibration+Method%22)（未缓存未经核验的数字）
+- [论文 / 项目原始入口](https://arxiv.org/abs/2211.10955)
 
-**摘要 / 项目说明**
+**基于 Abstract 的 TL;DR**
 
-这是团队公开的代表性研究成果。目录中的公开说明为：Shanghai Jiao Tong University 可通过原始链接查看完整项目、论文或数据说明。
+研究者提出了一个称为RCAL的方法，旨在解决 noisy labels 和长尾数据的问题。该方法通过使用自主对比学习提取表示，并假设正确标签下的表示遵循多变量高斯分布，从而恢复受污染的表示并增加样本数量。实验结果表明RCAL方法可以有效改善分类器性能。
+
+**原文关键流程 / 方法图**
+
+<a href="https://arxiv.org/abs/2211.10955"><img src="https://ar5iv.labs.arxiv.org/html/2211.10955/assets/figs/overview2.png" alt="Figure 2 : The illustration of the proposed method, uses the representations achieved by contrastive learning for follow-up distributional and individual representation calibrations." width="720"></a>
+
+> Figure 2 : The illustration of the proposed method, uses the representations achieved by contrastive learning for follow-up distributional and individual representation calibrations.
+> 来源：[原论文](https://arxiv.org/abs/2211.10955)
 
 </details>
 
@@ -6204,14 +6594,21 @@ SJTU Machine Intelligence Foundations and Applications Lab (MIFA) 隶属于 Shan
 </details>
 
 <details>
-<summary><strong>3. When Noisy Labels Meet Long Tail Dilemmas</strong></summary>
+<summary><strong>3. When Noisy Labels Meet Long Tail Dilemmas: A Representation Calibration Method</strong> · arXiv (Cornell University) · 2022</summary>
 
-- 引用量：非论文条目或尚未可靠匹配
-- [论文 / 项目原始入口](https://arxiv.org/pdf/2211.10955)
+- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22When+Noisy+Labels+Meet+Long+Tail+Dilemmas%3A+A+Representation+Calibration+Method%22)（未缓存未经核验的数字）
+- [论文 / 项目原始入口](https://arxiv.org/abs/2211.10955)
 
-**摘要 / 项目说明**
+**基于 Abstract 的 TL;DR**
 
-这是团队公开的代表性研究成果。目录中的公开说明为：When Noisy Labels Meet Long Tail Dilemmas 可通过原始链接查看完整项目、论文或数据说明。
+研究者提出了一个称为RCAL的方法，旨在解决 noisy labels 和长尾数据的问题。该方法通过使用自主对比学习提取表示，并假设正确标签下的表示遵循多变量高斯分布，从而恢复受污染的表示并增加样本数量。实验结果表明RCAL方法可以有效改善分类器性能。
+
+**原文关键流程 / 方法图**
+
+<a href="https://arxiv.org/abs/2211.10955"><img src="https://ar5iv.labs.arxiv.org/html/2211.10955/assets/figs/overview2.png" alt="Figure 2 : The illustration of the proposed method, uses the representations achieved by contrastive learning for follow-up distributional and individual representation calibrations." width="720"></a>
+
+> Figure 2 : The illustration of the proposed method, uses the representations achieved by contrastive learning for follow-up distributional and individual representation calibrations.
+> 来源：[原论文](https://arxiv.org/abs/2211.10955)
 
 </details>
 
@@ -6226,7 +6623,7 @@ SJTU Robot Learning and Representation Learning Lab (RL2) 隶属于 Shanghai Jia
 
 - **所属：** Shanghai Jiao Tong University
 - **主要方向：** 机器人学习、具身智能、视觉—语言—动作模型、机器人导航
-- **负责人：** [负责人/成员页](https://gaoyue.sjtu.edu.cn/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Yue Gao](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yue+Gao)（Faculty Lead） · [Junchi Yan](https://scholar.google.com/citations?view_op=search_authors&mauthors=Junchi+Yan)（Influential Affiliated Faculty） · [Yao Xie](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yao+Xie)（Influential Research Collaborator）
 - **官方入口：** [官网](https://gaoyue.sjtu.edu.cn/)
 
 #### 最近工作 · 2024
@@ -6294,7 +6691,7 @@ Fudan NLP Group 隶属于 Fudan University，是一支主要关注自然语言�
 
 - **所属：** Fudan University
 - **主要方向：** 自然语言处理、大语言模型、信息抽取
-- **负责人：** [负责人/成员页](https://github.com/FudanNLP) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Xuanjing Huang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xuanjing+Huang)（Professor / Research Leader） · [Xipeng Qiu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xipeng+Qiu)（Professor / Research Leader） · [Qi Zhang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Qi+Zhang)（Professor / Research Leader）
 - **官方入口：** [GitHub](https://github.com/FudanNLP)
 
 #### 最近工作 · 2026-05-27
@@ -6364,7 +6761,7 @@ Fudan Data Intelligence and Social Computing Lab (DISC) 隶属于 Fudan Universi
 
 - **所属：** Fudan University
 - **主要方向：** 大语言模型、数据挖掘、社会计算、智能体
-- **负责人：** [负责人/成员页](https://github.com/FudanDISC) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Xuanjing Huang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xuanjing+Huang)（Professor / Research Leader） · [Xipeng Qiu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xipeng+Qiu)（Professor / Research Leader） · [Qi Zhang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Qi+Zhang)（Professor / Research Leader）
 - **官方入口：** [GitHub](https://github.com/FudanDISC)
 
 #### 最近工作 · 2023
@@ -6448,7 +6845,7 @@ Fudan Data Intelligence Lab 隶属于 Fudan University，是一支主要关注�
 
 - **所属：** Fudan University
 - **主要方向：** 机器学习、基础模型、可信 AI、计算机视觉
-- **负责人：** [负责人/成员页](https://dil.fudan.edu.cn/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Dejing Dou](https://scholar.google.com/citations?view_op=search_authors&mauthors=Dejing+Dou)（Principal Investigator） · [Yang Zhou](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yang+Zhou)（Professor / Core Faculty） · [Keping Yang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Keping+Yang)（Influential Research Collaborator）
 - **官方入口：** [官网](https://dil.fudan.edu.cn/)
 
 #### 最近工作 · 2024
@@ -6516,7 +6913,7 @@ USTC Vision and Multimedia Research Group (VIM) 隶属于 University of Science 
 
 - **所属：** University of Science and Technology of China
 - **主要方向：** 计算机视觉、多模态学习、深度学习、AI 系统
-- **负责人：** [负责人/成员页](https://vim.ustc.edu.cn/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Zilei Wang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Zilei+Wang)（Principal Investigator） · [Houqiang Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Houqiang+Li)（Influential Affiliated Faculty） · [Zheng-Jun Zha](https://scholar.google.com/citations?view_op=search_authors&mauthors=Zheng-Jun+Zha)（Influential Affiliated Faculty）
 - **官方入口：** [官网](https://vim.ustc.edu.cn/)
 
 #### 最近工作 · 日期待核验
@@ -6582,7 +6979,7 @@ USTC Intelligent Visual Data Coding Lab (iVC) 隶属于 University of Science an
 
 - **所属：** University of Science and Technology of China
 - **主要方向：** 计算机视觉、视觉压缩、多模态学习、高效 AI
-- **负责人：** [负责人/成员页](https://ustc-ivclab.github.io/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Feng Wu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Feng+Wu)（Professor / Research Leader） · [Houqiang Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Houqiang+Li)（Professor / Research Leader） · [Dong Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Dong+Liu)（Professor / Research Leader）
 - **官方入口：** [官网](https://ustc-ivclab.github.io/) · [GitHub](https://github.com/ustc-ivclab)
 
 #### 最近工作 · 日期待核验
@@ -6648,7 +7045,7 @@ AlphaLab @ USTC 隶属于 University of Science and Technology of China，是一
 
 - **所属：** University of Science and Technology of China
 - **主要方向：** 大语言模型、多模态学习、推荐系统、可信 AI
-- **负责人：** [负责人/成员页](https://alphalab-ustc.github.io/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [An Zhang](https://scholar.google.com/citations?view_op=search_authors&mauthors=An+Zhang)（Principal Investigator） · [Qi Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Qi+Liu)（Influential Affiliated Faculty） · [Enhong Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Enhong+Chen)（Influential Affiliated Faculty）
 - **官方入口：** [官网](https://alphalab-ustc.github.io/)
 
 #### 最近工作 · 日期待核验
@@ -6714,7 +7111,7 @@ USTC Multimodal Embodied Intelligence Lab (MEI) 隶属于 University of Science 
 
 - **所属：** University of Science and Technology of China
 - **主要方向：** 多模态学习、具身智能、生成式 AI、信息检索
-- **负责人：** [负责人/成员页](https://ustc-milab.work/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Zheng-Jun Zha](https://scholar.google.com/citations?view_op=search_authors&mauthors=Zheng-Jun+Zha)（Professor / Research Leader） · [Houqiang Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Houqiang+Li)（Influential Affiliated Faculty） · [Qi Tian](https://scholar.google.com/citations?view_op=search_authors&mauthors=Qi+Tian)（Influential Research Collaborator）
 - **官方入口：** [官网](https://ustc-milab.work/)
 
 #### 最近工作 · 2025
@@ -6765,7 +7162,7 @@ USTC Multimodal Embodied Intelligence Lab (MEI) 隶属于 University of Science 
 
 **基于 Abstract 的 TL;DR**
 
-该研究探讨了视频生成任务，旨在合并异步自动回归模型和 diffusión 模型的优势。他们提出了 Auto-Regressive 扩散（AR-扩散）模型，该模型通过逐渐污染视频帧来解决异步生成中的不一致性问题。该模型结合了非递减约束和时间序列注意力，实现了可变长度视频的生成，同时保留时间连贯性。实验结果表明该方法在四个挑战性基准上取得了竞争性和领先性的成果。
+该研究提出了一种称为Auto-Regressive 扩散（AR-扩散）的新模型，旨在解决视频生成任务中的两个主要问题：异步模型的不一致性和同步模型的序列长度限制。通过结合自动回归和 diffusión 模型，AR-扩散可以实现 flexible、异步视频生成，并且能够保持时间连贯性。实验结果表明，该方法在四个挑战性benchmark上取得了竞争性和领先性的成果。
 
 </details>
 
@@ -6782,7 +7179,7 @@ NJU Learning and Mining from Data Group (LAMDA) 隶属于 Nanjing University，�
 
 - **所属：** Nanjing University
 - **主要方向：** 机器学习、数据挖掘、进化计算、计算机视觉
-- **负责人：** [Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/)（Head of LAMDA）
+- **负责人：** [Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/)（Head of LAMDA） · [De‐Chuan Zhan](https://scholar.google.com/citations?view_op=search_authors&mauthors=De%E2%80%90Chuan+Zhan)（Professor / Core Faculty） · [Yuan Jiang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yuan+Jiang)（Professor / Core Faculty）
 - **官方入口：** [官网](https://www.lamda.nju.edu.cn/) · [GitHub](https://github.com/lamda-nju)
 
 #### 最近工作 · 2026-05-18
@@ -6850,7 +7247,7 @@ LAMDA Continual Learning Lab 隶属于 Nanjing University，是一支主要关�
 
 - **所属：** Nanjing University
 - **主要方向：** 持续学习、终身学习、视觉语言模型
-- **负责人：** [负责人/成员页](https://github.com/LAMDA-CL) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [De‐Chuan Zhan](https://scholar.google.com/citations?view_op=search_authors&mauthors=De%E2%80%90Chuan+Zhan)（Professor / Research Leader） · [Lijun Zhang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Lijun+Zhang)（Professor / Research Leader） · [Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/)（Professor / Research Leader）
 - **官方入口：** [GitHub](https://github.com/LAMDA-CL)
 
 #### 最近工作 · 2025
@@ -6936,7 +7333,7 @@ HIT Research Center for Social Computing and Information Retrieval (SCIR) 隶属
 
 - **所属：** Harbin Institute of Technology
 - **主要方向：** 自然语言处理、信息检索、知识图谱、社会计算
-- **负责人：** [负责人/成员页](https://ir.hit.edu.cn/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Ting Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ting+Liu)（Professor / Research Leader） · [Qin Bing](https://scholar.google.com/citations?view_op=search_authors&mauthors=Qin+Bing)（Director） · [Wanxiang Che](https://scholar.google.com/citations?view_op=search_authors&mauthors=Wanxiang+Che)（Deputy Director）
 - **官方入口：** [官网](https://ir.hit.edu.cn/) · [GitHub](https://github.com/HIT-SCIR)
 
 #### 最近工作 · 2026-03-11
@@ -7006,7 +7403,7 @@ HIT State Key Laboratory of Robotics and Systems 隶属于 Harbin Institute of T
 
 - **所属：** Harbin Institute of Technology
 - **主要方向：** 机器人、具身智能、控制理论、智能系统
-- **负责人：** [负责人/成员页](http://robot.hit.edu.cn/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Hong Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Hong+Liu)（Director） · [Jingdong Zhao](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jingdong+Zhao)（Executive Director） · [Jie Zhao](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jie+Zhao)（Professor / Research Leader）
 - **官方入口：** [官网](http://robot.hit.edu.cn/)
 
 #### 最近工作 · 日期待核验
@@ -7074,7 +7471,7 @@ Xi'an Jiaotong University AI Security Lab (AI-SEC) 隶属于 Xi'an Jiaotong Univ
 
 - **所属：** Xi'an Jiaotong University
 - **主要方向：** 可信 AI、AI 安全与对齐、多模态学习、高效 AI
-- **负责人：** [负责人/成员页](https://gr.xjtu.edu.cn/en/web/cshen) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Xiaohong Guan](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xiaohong+Guan)（Faculty Lead） · [Chao Shen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Chao+Shen)（Faculty Lead） · [Le Yang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Le+Yang)（Professor / Core Faculty）
 - **官方入口：** [官网](https://gr.xjtu.edu.cn/en/web/cshen)
 
 #### 最近工作 · 日期待核验
@@ -7140,7 +7537,7 @@ Xi'an Jiaotong University Robotics Research Institute 隶属于 Xi'an Jiaotong U
 
 - **所属：** Xi'an Jiaotong University
 - **主要方向：** 机器人、具身智能、机器感知、控制理论
-- **负责人：** [负责人/成员页](https://en.xjtu.edu.cn/2025-08/22/c_1118744.htm) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Xuesong Mei](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xuesong+Mei)（Director） · [Shitao Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Shitao+Chen)（Professor / Core Faculty） · [Yangmin Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yangmin+Li)（Influential Affiliated Faculty）
 - **官方入口：** [官网](https://en.xjtu.edu.cn/2025-08/22/c_1118744.htm)
 
 #### 最近工作 · 日期待核验
@@ -7210,7 +7607,7 @@ Precognition Lab 隶属于 The Hong Kong University of Science and Technology (G
 
 - **所属：** The Hong Kong University of Science and Technology (Guangzhou)
 - **主要方向：** 具身智能、计算机视觉、机器人、多模态学习
-- **负责人：** [负责人/成员页](https://precognition.team/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Junwei Liang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Junwei+Liang)（Director） · [Changhao Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Changhao+Chen)（Influential Affiliated Faculty） · [Hao Zhao](https://scholar.google.com/citations?view_op=search_authors&mauthors=Hao+Zhao)（Influential Research Collaborator）
 - **官方入口：** [官网](https://precognition.team/)
 
 #### 最近工作 · 日期待核验
@@ -7276,7 +7673,7 @@ ENVISION Lab 隶属于 The Hong Kong University of Science and Technology (Guang
 
 - **所属：** The Hong Kong University of Science and Technology (Guangzhou)
 - **主要方向：** 生成式 AI、视频生成、三维生成、计算机视觉
-- **负责人：** [负责人/成员页](https://envision-research.hkust-gz.edu.cn/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Ying-Cong Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ying-Cong+Chen)（Director） · [Qifeng Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Qifeng+Chen)（Influential Research Collaborator） · [Xihui Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xihui+Liu)（Influential Research Collaborator）
 - **官方入口：** [官网](https://envision-research.hkust-gz.edu.cn/)
 
 #### 最近工作 · 日期待核验
@@ -7342,7 +7739,7 @@ HKUST(GZ) Data Science & Artificial Intelligence Lab (DSAIL) 隶属于 The Hong 
 
 - **所属：** The Hong Kong University of Science and Technology (Guangzhou)
 - **主要方向：** 大语言模型、AI for Science、图学习、智能体
-- **负责人：** [负责人/成员页](https://github.com/DSAILatHKUST) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Lei Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Lei+Chen)（Professor / Research Leader） · [Hui Xiong](https://scholar.google.com/citations?view_op=search_authors&mauthors=Hui+Xiong)（Professor / Research Leader） · [Cun-Hui Zhang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Cun-Hui+Zhang)（Professor / Research Leader）
 - **官方入口：** [GitHub](https://github.com/DSAILatHKUST) · [Hugging Face](https://huggingface.co/HKUST-DSAIL)
 
 #### 最近工作 · 2024-06-29
@@ -7410,7 +7807,7 @@ HKUST(GZ) Medical Data Intelligence Lab 隶属于 The Hong Kong University of Sc
 
 - **所属：** The Hong Kong University of Science and Technology (Guangzhou)
 - **主要方向：** 医疗 AI、计算病理、多模态学习、数据挖掘
-- **负责人：** [负责人/成员页](https://mdi.hkust-gz.edu.cn/en/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Lei Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Lei+Chen)（Principal Investigator） · [Libin Zheng](https://scholar.google.com/citations?view_op=search_authors&mauthors=Libin+Zheng)（Faculty Collaborator） · [Hui Xiong](https://scholar.google.com/citations?view_op=search_authors&mauthors=Hui+Xiong)（Influential Affiliated Faculty）
 - **官方入口：** [官网](https://mdi.hkust-gz.edu.cn/en/)
 
 #### 最近工作 · 日期待核验
@@ -7476,7 +7873,7 @@ HKUST(GZ) High-Performance Machine Learning Lab 隶属于 The Hong Kong Universi
 
 - **所属：** The Hong Kong University of Science and Technology (Guangzhou)
 - **主要方向：** 机器学习、AI 系统、分布式训练、优化方法
-- **负责人：** [负责人/成员页](https://dsa.hkust-gz.edu.cn/research/labs-institutes/high-performance-machine-learning-laboratory/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Xiaowen Chu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xiaowen+Chu)（Lab Director） · [Qiong Luo](https://scholar.google.com/citations?view_op=search_authors&mauthors=Qiong+Luo)（Lab Director） · [Zeyi Wen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Zeyi+Wen)（Lab Director）
 - **官方入口：** [官网](https://dsa.hkust-gz.edu.cn/research/labs-institutes/high-performance-machine-learning-laboratory/)
 
 #### 最近工作 · 日期待核验
@@ -7546,7 +7943,7 @@ HKU Data Intelligence Lab (HKUDS) 隶属于 The University of Hong Kong，是一
 
 - **所属：** The University of Hong Kong
 - **主要方向：** 大语言模型、检索增强生成、智能体、推荐系统
-- **负责人：** [负责人/成员页](https://github.com/HKUDS) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Chao Huang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Chao+Huang)（Principal Investigator） · [Dawei Yin](https://scholar.google.com/citations?view_op=search_authors&mauthors=Dawei+Yin)（Influential Research Collaborator） · [Reynold Cheng](https://scholar.google.com/citations?view_op=search_authors&mauthors=Reynold+Cheng)（Influential Affiliated Faculty）
 - **官方入口：** [GitHub](https://github.com/HKUDS)
 
 #### 最近工作 · 2026
@@ -7623,7 +8020,7 @@ HKU Super Artificial Intelligence Lab (SAIL) 隶属于 The University of Hong Ko
 
 - **所属：** The University of Hong Kong
 - **主要方向：** 生成式 AI、具身智能、多模态学习、空间智能
-- **负责人：** [负责人/成员页](https://sail.ai.hku.hk/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Sai-Kit Yeung](https://scholar.google.com/citations?view_op=search_authors&mauthors=Sai-Kit+Yeung)（Faculty Lead） · [Ping Luo](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ping+Luo)（Influential Affiliated Faculty） · [Wenping Wang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Wenping+Wang)（Influential Affiliated Faculty）
 - **官方入口：** [官网](https://sail.ai.hku.hk/) · [GitHub](https://github.com/hkust-vgd)
 
 #### 最近工作 · 2025
@@ -7700,7 +8097,7 @@ HKU JC STEM Lab of Intelligent Cybersecurity 隶属于 The University of Hong Ko
 
 - **所属：** The University of Hong Kong
 - **主要方向：** AI 安全、代码生成、可信 AI、智能体安全
-- **负责人：** [负责人/成员页](https://sec.hku.hk/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Hao Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Hao+Chen)（Faculty Lead） · [Kui Ren](https://scholar.google.com/citations?view_op=search_authors&mauthors=Kui+Ren)（Influential Affiliated Faculty） · [Guoliang Xing](https://scholar.google.com/citations?view_op=search_authors&mauthors=Guoliang+Xing)（Influential Affiliated Faculty）
 - **官方入口：** [官网](https://sec.hku.hk/)
 
 #### 最近工作 · 2025
@@ -7768,7 +8165,7 @@ CUHK Multimedia Laboratory (MMLab) 隶属于 The Chinese University of Hong Kong
 
 - **所属：** The Chinese University of Hong Kong
 - **主要方向：** 计算机视觉、多模态学习、生成式 AI、视频理解
-- **负责人：** [负责人/成员页](https://mmlab.ie.cuhk.edu.hk/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Xiaogang Wang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xiaogang+Wang)（Professor / Research Leader） · [Dahua Lin](https://scholar.google.com/citations?view_op=search_authors&mauthors=Dahua+Lin)（Professor / Research Leader） · [Wanli Ouyang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Wanli+Ouyang)（Professor / Research Leader）
 - **官方入口：** [官网](https://mmlab.ie.cuhk.edu.hk/) · [GitHub](https://github.com/open-mmlab)
 
 #### 最近工作 · 2025-12-20
@@ -7838,7 +8235,7 @@ CUHK T Stone Robotics Institute 隶属于 The Chinese University of Hong Kong，
 
 - **所属：** The Chinese University of Hong Kong
 - **主要方向：** 机器人、手术机器人、具身智能、计算机视觉
-- **负责人：** [负责人/成员页](https://www.cuhk.edu.hk/ri/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Yunhui Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yunhui+Liu)（Director） · [Ben M. Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ben+M.+Chen)（Professor / Research Leader） · [Samuel Au](https://scholar.google.com/citations?view_op=search_authors&mauthors=Samuel+Au)（Professor / Research Leader）
 - **官方入口：** [官网](https://www.cuhk.edu.hk/ri/)
 
 #### 最近工作 · 日期待核验
@@ -7904,7 +8301,7 @@ CUHK Legged Robot Lab 隶属于 The Chinese University of Hong Kong，是一支�
 
 - **所属：** The Chinese University of Hong Kong
 - **主要方向：** 足式机器人、具身智能、控制理论、机器感知
-- **负责人：** [负责人/成员页](https://cuhkleggedrobotlab.github.io/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Yunhui Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yunhui+Liu)（Faculty Lead） · [Wai Lun Chan](https://scholar.google.com/citations?view_op=search_authors&mauthors=Wai+Lun+Chan)（Influential Faculty Collaborator） · [Wei-Hsin Liao](https://scholar.google.com/citations?view_op=search_authors&mauthors=Wei-Hsin+Liao)（Influential Faculty Collaborator）
 - **官方入口：** [官网](https://cuhkleggedrobotlab.github.io/)
 
 #### 最近工作 · 日期待核验
@@ -7970,7 +8367,7 @@ CUHK Language Processing Lab 隶属于 The Chinese University of Hong Kong，是
 
 - **所属：** The Chinese University of Hong Kong
 - **主要方向：** 自然语言处理、心理语言学、可解释 AI、模型行为
-- **负责人：** [Zhenguang Cai](https://cuhklpl.github.io/)（Lab Director）
+- **负责人：** [Zhenguang Cai](https://cuhklpl.github.io/)（Lab Director） · [Kam-Fai Wong](https://scholar.google.com/citations?view_op=search_authors&mauthors=Kam-Fai+Wong)（Influential Affiliated Faculty） · [John Lee](https://scholar.google.com/citations?view_op=search_authors&mauthors=John+Lee)（Influential Affiliated Faculty）
 - **官方入口：** [官网](https://cuhklpl.github.io/)
 
 #### 最近工作 · 2024
@@ -8038,7 +8435,7 @@ HKUST Deep Vision Lab (DV Lab) 隶属于 The Hong Kong University of Science and
 
 - **所属：** The Hong Kong University of Science and Technology
 - **主要方向：** 计算机视觉、多模态学习、生成式 AI、自动驾驶
-- **负责人：** [负责人/成员页](https://www.dvlab.ai/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Jiaya Jia](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jiaya+Jia)（Principal Investigator） · [Qifeng Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Qifeng+Chen)（Influential Affiliated Faculty） · [Long Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Long+Chen)（Influential Research Collaborator）
 - **官方入口：** [官网](https://www.dvlab.ai/) · [GitHub](https://github.com/DVLab)
 
 #### 最近工作 · 日期待核验
@@ -8104,7 +8501,7 @@ HKUST Centre for Artificial Intelligence Research (CAiRE) 隶属于 The Hong Kon
 
 - **所属：** The Hong Kong University of Science and Technology
 - **主要方向：** 自然语言处理、对话智能、多模态学习、负责任 AI
-- **负责人：** [负责人/成员页](https://caire.hkust.edu.hk/about/about-caire) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Pascale Fung](https://scholar.google.com/citations?view_op=search_authors&mauthors=Pascale+Fung)（Director） · [Dekai Wu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Dekai+Wu)（Influential Affiliated Faculty） · [Helen Meng](https://scholar.google.com/citations?view_op=search_authors&mauthors=Helen+Meng)（Influential Affiliated Faculty）
 - **官方入口：** [官网](https://caire.hkust.edu.hk/about/about-caire)
 
 #### 最近工作 · 日期待核验
@@ -8170,7 +8567,7 @@ HKUST Aerial Robotics Group 隶属于 The Hong Kong University of Science and Te
 
 - **所属：** The Hong Kong University of Science and Technology
 - **主要方向：** 空中机器人、同步定位与建图、具身智能、自主系统
-- **负责人：** [负责人/成员页](https://github.com/HKUST-Aerial-Robotics) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Shaojie Shen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Shaojie+Shen)（Faculty Lead） · [Ming Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ming+Liu)（Influential Robotics Faculty） · [Qifeng Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Qifeng+Chen)（Influential Robotics Faculty）
 - **官方入口：** [GitHub](https://github.com/HKUST-Aerial-Robotics)
 
 #### 最近工作 · 2024
@@ -8261,7 +8658,7 @@ HKUST Mevita Robotics Lab 隶属于 The Hong Kong University of Science and Tech
 
 - **所属：** The Hong Kong University of Science and Technology
 - **主要方向：** 机器人、触觉感知、灵巧操作、物理智能
-- **负责人：** [负责人/成员页](https://mrl.hkust.edu.hk/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Yajing Shen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yajing+Shen)（Principal Investigator） · [Ming Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ming+Liu)（Influential Robotics Faculty） · [Qifeng Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Qifeng+Chen)（Influential Robotics Faculty）
 - **官方入口：** [官网](https://mrl.hkust.edu.hk/)
 
 #### 最近工作 · 日期待核验
@@ -8331,7 +8728,7 @@ NUS Artificial Intelligence Institute 隶属于 National University of Singapore
 
 - **所属：** National University of Singapore
 - **主要方向：** 基础模型、可信 AI、AI for Science、AI 公益
-- **负责人：** [负责人/成员页](https://ai.nus.edu.sg/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [David Hsu](https://scholar.google.com/citations?view_op=search_authors&mauthors=David+Hsu)（Director / Professor） · [Wee Sun Lee](https://scholar.google.com/citations?view_op=search_authors&mauthors=Wee+Sun+Lee)（Professor / Research Leader） · [Min‐Yen Kan](https://scholar.google.com/citations?view_op=search_authors&mauthors=Min%E2%80%90Yen+Kan)（Professor / Research Leader）
 - **官方入口：** [官网](https://ai.nus.edu.sg/)
 
 #### 最近工作 · 日期待核验
@@ -8397,7 +8794,7 @@ NUS Natural Language Processing Group 隶属于 National University of Singapore
 
 - **所属：** National University of Singapore
 - **主要方向：** 自然语言处理、大语言模型、多语言 AI、视频语言学习
-- **负责人：** [负责人/成员页](https://github.com/nusnlp) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Hwee Tou Ng](https://scholar.google.com/citations?view_op=search_authors&mauthors=Hwee+Tou+Ng)（Professor / Research Leader） · [Min‐Yen Kan](https://scholar.google.com/citations?view_op=search_authors&mauthors=Min%E2%80%90Yen+Kan)（Professor / Research Leader） · [Nancy Chen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Nancy+Chen)（Influential Affiliated Faculty）
 - **官方入口：** [GitHub](https://github.com/nusnlp)
 
 #### 最近工作 · 2025
@@ -8488,7 +8885,7 @@ NUS AI Lab 隶属于 National University of Singapore，是一支主要关注具
 
 - **所属：** National University of Singapore
 - **主要方向：** 具身智能、规划与决策、多智能体系统、机器人
-- **负责人：** [负责人/成员页](https://nusail.comp.nus.edu.sg/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [David Hsu](https://scholar.google.com/citations?view_op=search_authors&mauthors=David+Hsu)（Professor / Research Leader） · [Wee Sun Lee](https://scholar.google.com/citations?view_op=search_authors&mauthors=Wee+Sun+Lee)（Professor / Research Leader） · [Leong Tze Yun](https://scholar.google.com/citations?view_op=search_authors&mauthors=Leong+Tze+Yun)（Professor / Research Leader）
 - **官方入口：** [官网](https://nusail.comp.nus.edu.sg/)
 
 #### 最近工作 · 2022
@@ -8554,7 +8951,7 @@ NUS Computer Vision and Machine Learning Group 隶属于 National University of 
 
 - **所属：** National University of Singapore
 - **主要方向：** 计算机视觉、机器学习、多模态学习、生成式 AI
-- **负责人：** [负责人/成员页](https://cvml.comp.nus.edu.sg/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Tat-Seng Chua](https://scholar.google.com/citations?view_op=search_authors&mauthors=Tat-Seng+Chua)（Professor / Research Leader） · [Jiashi Feng](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jiashi+Feng)（Professor / Research Leader） · [Mike Zheng Shou](https://scholar.google.com/citations?view_op=search_authors&mauthors=Mike+Zheng+Shou)（Professor / Research Leader）
 - **官方入口：** [官网](https://cvml.comp.nus.edu.sg/) · [GitHub](https://github.com/nus-cvml)
 
 #### 最近工作 · 2024-04-04
@@ -8624,7 +9021,7 @@ NTU Generative AI Lab (GrAIL) 隶属于 Nanyang Technological University，是�
 
 - **所属：** Nanyang Technological University
 - **主要方向：** 生成式 AI、多模态学习、计算机视觉、AI for Science
-- **负责人：** [负责人/成员页](https://www.ntu.edu.sg/computing/research/institutes-centres/grail) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Bo An](https://scholar.google.com/citations?view_op=search_authors&mauthors=Bo+An)（Professor / Research Leader） · [Hanwang Zhang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Hanwang+Zhang)（Professor / Research Leader） · [Ziwei Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ziwei+Liu)（Professor / Research Leader）
 - **官方入口：** [官网](https://www.ntu.edu.sg/computing/research/institutes-centres/grail)
 
 #### 最近工作 · 日期待核验
@@ -8690,7 +9087,7 @@ MMLab@NTU 隶属于 Nanyang Technological University，是一支主要关注计�
 
 - **所属：** Nanyang Technological University
 - **主要方向：** 计算机视觉、多模态学习、生成式 AI、具身智能
-- **负责人：** [负责人/成员页](https://www.mmlab-ntu.com/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Chen Change Loy](https://scholar.google.com/citations?view_op=search_authors&mauthors=Chen+Change+Loy)（Director / Professor） · [Ziwei Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ziwei+Liu)（Professor / Core Faculty） · [Xingang Pan](https://scholar.google.com/citations?view_op=search_authors&mauthors=Xingang+Pan)（Professor / Core Faculty）
 - **官方入口：** [官网](https://www.mmlab-ntu.com/)
 
 #### 最近工作 · 日期待核验
@@ -8756,7 +9153,7 @@ NTU Natural Language Processing Group 隶属于 Nanyang Technological University
 
 - **所属：** Nanyang Technological University
 - **主要方向：** 自然语言处理、多语言 AI、多模态学习、医疗自然语言处理
-- **负责人：** [负责人/成员页](https://ntunlpsg.github.io/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Erik Cambria](https://scholar.google.com/citations?view_op=search_authors&mauthors=Erik+Cambria)（Professor / Research Leader） · [Francis Bond](https://scholar.google.com/citations?view_op=search_authors&mauthors=Francis+Bond)（Professor / Research Leader） · [Yang Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yang+Liu)（Professor / Research Leader）
 - **官方入口：** [官网](https://ntunlpsg.github.io/) · [GitHub](https://github.com/ntunlpsg)
 
 #### 最近工作 · 日期待核验
@@ -8822,7 +9219,7 @@ NTU Deep Cognition and Language Research Lab (DeCLaRe) 隶属于 Nanyang Technol
 
 - **所属：** Nanyang Technological University
 - **主要方向：** AI 安全与对齐、可信 AI、多模态学习、具身智能
-- **负责人：** [负责人/成员页](https://declare-lab.github.io/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Soujanya Poria](https://scholar.google.com/citations?view_op=search_authors&mauthors=Soujanya+Poria)（Principal Investigator） · [Erik Cambria](https://scholar.google.com/citations?view_op=search_authors&mauthors=Erik+Cambria)（Influential Affiliated Faculty） · [Sinno Jialin Pan](https://scholar.google.com/citations?view_op=search_authors&mauthors=Sinno+Jialin+Pan)（Influential Affiliated Faculty）
 - **官方入口：** [官网](https://declare-lab.github.io/) · [GitHub](https://github.com/declare-lab)
 
 #### 最近工作 · 2024
@@ -8913,7 +9310,7 @@ NTU S-Lab for Advanced Intelligence 隶属于 Nanyang Technological University�
 
 - **所属：** Nanyang Technological University
 - **主要方向：** 计算机视觉、自然语言处理、强化学习、分布式智能
-- **负责人：** [负责人/成员页](https://www.ntu.edu.sg/s-lab) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Chen Change Loy](https://scholar.google.com/citations?view_op=search_authors&mauthors=Chen+Change+Loy)（Professor / Research Leader） · [Ziwei Liu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ziwei+Liu)（Professor / Research Leader） · [Bo An](https://scholar.google.com/citations?view_op=search_authors&mauthors=Bo+An)（Professor / Research Leader）
 - **官方入口：** [官网](https://www.ntu.edu.sg/s-lab)
 
 #### 最近工作 · 日期待核验
@@ -8983,7 +9380,7 @@ CMU Language Technologies Institute (LTI) 隶属于 Carnegie Mellon University�
 
 - **所属：** Carnegie Mellon University
 - **主要方向：** 自然语言处理、语音技术、信息检索、大语言模型
-- **负责人：** [负责人/成员页](https://www.lti.cs.cmu.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Graham Neubig](https://scholar.google.com/citations?view_op=search_authors&mauthors=Graham+Neubig)（Professor / Research Leader） · [Yiming Yang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Yiming+Yang)（Professor / Research Leader） · [Alan W. Black](https://scholar.google.com/citations?view_op=search_authors&mauthors=Alan+W.+Black)（Professor / Research Leader）
 - **官方入口：** [官网](https://www.lti.cs.cmu.edu/)
 
 #### 最近工作 · 日期待核验
@@ -9049,7 +9446,7 @@ CMU Machine Learning Department 隶属于 Carnegie Mellon University，是一支
 
 - **所属：** Carnegie Mellon University
 - **主要方向：** 机器学习、统计学习、强化学习、AI for Science
-- **负责人：** [负责人/成员页](https://www.ml.cmu.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Bhiksha Raj](https://scholar.google.com/citations?view_op=search_authors&mauthors=Bhiksha+Raj)（Professor / Research Leader） · [Aarti Singh](https://scholar.google.com/citations?view_op=search_authors&mauthors=Aarti+Singh)（Professor / Research Leader） · [Ruslan Salakhutdinov](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ruslan+Salakhutdinov)（Professor / Research Leader）
 - **官方入口：** [官网](https://www.ml.cmu.edu/) · [GitHub](https://github.com/cmu-mlsp)
 
 #### 最近工作 · 2024
@@ -9119,7 +9516,7 @@ CMU Robotics Institute 隶属于 Carnegie Mellon University，是一支主要关
 
 - **所属：** Carnegie Mellon University
 - **主要方向：** 机器人、具身智能、计算机视觉、自主系统
-- **负责人：** [负责人/成员页](https://www.ri.cmu.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Matthew Johnson-Roberson](https://scholar.google.com/citations?view_op=search_authors&mauthors=Matthew+Johnson-Roberson)（Director） · [Martial Hebert](https://scholar.google.com/citations?view_op=search_authors&mauthors=Martial+Hebert)（Professor / Research Leader） · [Christopher Atkeson](https://scholar.google.com/citations?view_op=search_authors&mauthors=Christopher+Atkeson)（Professor / Research Leader）
 - **官方入口：** [官网](https://www.ri.cmu.edu/) · [GitHub](https://github.com/cmu-robotics)
 
 #### 最近工作 · 日期待核验
@@ -9185,7 +9582,7 @@ CMU Auton Lab 隶属于 Carnegie Mellon University，是一支主要关注机器
 
 - **所属：** Carnegie Mellon University
 - **主要方向：** 机器学习、数据挖掘、自主科学发现、AI for Science
-- **负责人：** [负责人/成员页](https://www.autonlab.org/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Artur Dubrawski](https://scholar.google.com/citations?view_op=search_authors&mauthors=Artur+Dubrawski)（Faculty Lead） · [Jeff Schneider](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jeff+Schneider)（Professor / Research Leader） · [Barnabás Póczos](https://scholar.google.com/citations?view_op=search_authors&mauthors=Barnab%C3%A1s+P%C3%B3czos)（Professor / Research Leader）
 - **官方入口：** [官网](https://www.autonlab.org/) · [GitHub](https://github.com/autonlab)
 
 #### 最近工作 · 2025
@@ -9276,7 +9673,7 @@ CMU Generative Intelligence Lab 隶属于 Carnegie Mellon University，是一支
 
 - **所属：** Carnegie Mellon University
 - **主要方向：** 生成式 AI、计算机视觉、人机协作、机器人
-- **负责人：** [负责人/成员页](https://www.ri.cmu.edu/robotics-groups/generative-intelligence-lab/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Ruslan Salakhutdinov](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ruslan+Salakhutdinov)（Faculty Lead） · [Deepak Pathak](https://scholar.google.com/citations?view_op=search_authors&mauthors=Deepak+Pathak)（Professor / Core Faculty） · [Shubham Tulsiani](https://scholar.google.com/citations?view_op=search_authors&mauthors=Shubham+Tulsiani)（Professor / Core Faculty）
 - **官方入口：** [官网](https://www.ri.cmu.edu/robotics-groups/generative-intelligence-lab/)
 
 #### 最近工作 · 日期待核验
@@ -9344,7 +9741,7 @@ MIT Computer Science and Artificial Intelligence Laboratory (CSAIL) 隶属于 Ma
 
 - **所属：** Massachusetts Institute of Technology
 - **主要方向：** 机器学习、自然语言处理、计算机视觉、机器人
-- **负责人：** [Daniela Rus](https://www.csail.mit.edu/person/daniela-rus)（Director）
+- **负责人：** [Daniela Rus](https://www.csail.mit.edu/person/daniela-rus)（Director） · [Antonio Torralba](https://scholar.google.com/citations?view_op=search_authors&mauthors=Antonio+Torralba)（Professor / Research Leader） · [Armando Solar-Lezama](https://scholar.google.com/citations?view_op=search_authors&mauthors=Armando+Solar-Lezama)（Professor / Research Leader）
 - **官方入口：** [官网](https://www.csail.mit.edu/)
 
 #### 最近工作 · 日期待核验
@@ -9410,7 +9807,7 @@ MIT Center for Brains, Minds and Machines (CBMM) 隶属于 Massachusetts Institu
 
 - **所属：** Massachusetts Institute of Technology
 - **主要方向：** 学习理论、计算神经科学、计算机视觉、认知智能
-- **负责人：** [Tomaso Poggio](https://cbmm.mit.edu/about/people/poggio)（Co-Director）
+- **负责人：** [Tomaso Poggio](https://cbmm.mit.edu/about/people/poggio)（Co-Director） · [Gabriel Kreiman](https://scholar.google.com/citations?view_op=search_authors&mauthors=Gabriel+Kreiman)（Professor / Research Leader） · [James DiCarlo](https://scholar.google.com/citations?view_op=search_authors&mauthors=James+DiCarlo)（Professor / Research Leader）
 - **官方入口：** [官网](https://cbmm.mit.edu/) · [GitHub](https://github.com/CBMM)
 
 #### 最近工作 · 日期待核验
@@ -9476,7 +9873,7 @@ MIT Improbable AI Lab 隶属于 Massachusetts Institute of Technology，是一�
 
 - **所属：** Massachusetts Institute of Technology
 - **主要方向：** 机器人、具身智能、强化学习、机器人运动
-- **负责人：** [负责人/成员页](https://improbable-ai.github.io/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Pulkit Agrawal](https://scholar.google.com/citations?view_op=search_authors&mauthors=Pulkit+Agrawal)（Principal Investigator） · [Leslie Pack Kaelbling](https://scholar.google.com/citations?view_op=search_authors&mauthors=Leslie+Pack+Kaelbling)（Influential Robotics Faculty） · [Russ Tedrake](https://scholar.google.com/citations?view_op=search_authors&mauthors=Russ+Tedrake)（Influential Robotics Faculty）
 - **官方入口：** [官网](https://improbable-ai.github.io/) · [GitHub](https://github.com/Improbable-AI)
 
 #### 最近工作 · 2023
@@ -9560,58 +9957,86 @@ MIT Embodied Intelligence Group 隶属于 Massachusetts Institute of Technology�
 
 - **所属：** Massachusetts Institute of Technology
 - **主要方向：** 具身智能、机器人、计算机视觉、表征学习
-- **负责人：** [负责人/成员页](https://ei.csail.mit.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Leslie Pack Kaelbling](https://scholar.google.com/citations?view_op=search_authors&mauthors=Leslie+Pack+Kaelbling)（Faculty Lead） · [Tomas Lozano-Pérez](https://scholar.google.com/citations?view_op=search_authors&mauthors=Tomas+Lozano-P%C3%A9rez)（Professor / Research Leader） · [Russ Tedrake](https://scholar.google.com/citations?view_op=search_authors&mauthors=Russ+Tedrake)（Influential Robotics Faculty）
 - **官方入口：** [官网](https://ei.csail.mit.edu/)
 
-#### 最近工作 · 2022
+#### 最近工作 · 2021
 
 <details>
-<summary><strong>3. Long-Horizon Manipulation of Unknown Objects via Task and Motion Planning with Estimated Affordances</strong> · 2022 International Conference on Robotics and Automation (ICRA) · 2022</summary>
+<summary><strong>1. Emergent Discrete Communication in Semantic Spaces</strong> · arXiv (Cornell University) · 2021</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Long-Horizon+Manipulation+of+Unknown+Objects+via+Task+and+Motion+Planning+with+Estimated+Affordances%22)（未缓存未经核验的数字）
-- [论文 / 项目原始入口](https://doi.org/10.1109/icra46639.2022.9812057)
+- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Emergent+Discrete+Communication+in+Semantic+Spaces%22)（未缓存未经核验的数字）
+- [论文 / 项目原始入口](https://arxiv.org/abs/2108.01828)
 
 **基于 Abstract 的 TL;DR**
 
-该研究提出一种设计和构建广泛适用机器人操纵系统的策略，使用任务和运动规划器结合工程化和学习模块来估计未知物体的属性和 affordances。该策略使得机器人在没有先验知识的情况下表现出智能行为，并且可以 flexibly 组合 robot-centric primitives 使用 PDDLStream 框架。
+研究者提出一种新型的神经网络模型，利用学习的连续空间生成离散通信token，从而实现零-shot理解和在 noisy 环境中有效通信。实验结果表明，这种方法优于传统的使用一-hot token的方法，并且可以让机器人有效地应对人类的新型通信和理解未标记的机器人通信。
+
+**原文关键流程 / 方法图**
+
+<a href="https://arxiv.org/abs/2108.01828"><img src="https://ar5iv.labs.arxiv.org/html/2108.01828/assets/x1.png" alt="Figure 3 : Tracing seeker paths (black lines) and final locations (red dots) revealed the discretization imposed by prototypes." width="720"></a>
+
+> Figure 3 : Tracing seeker paths (black lines) and final locations (red dots) revealed the discretization imposed by prototypes.
+> 来源：[原论文](https://arxiv.org/abs/2108.01828)
 
 </details>
 
 #### 代表作
 
 <details>
-<summary><strong>1. Emergent Discrete Communication in Semantic Spaces</strong></summary>
+<summary><strong>1. Emergent Discrete Communication in Semantic Spaces</strong> · arXiv (Cornell University) · 2021</summary>
 
-- 引用量：非论文条目或尚未可靠匹配
+- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Emergent+Discrete+Communication+in+Semantic+Spaces%22)（未缓存未经核验的数字）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2108.01828)
-
-**摘要 / 项目说明**
-
-这是团队公开的代表性研究成果。目录中的公开说明为：Emergent Discrete Communication in Semantic Spaces 可通过原始链接查看完整项目、论文或数据说明。
-
-</details>
-
-<details>
-<summary><strong>2. Learning to See by Looking at Noise</strong></summary>
-
-- 引用量：非论文条目或尚未可靠匹配
-- [论文 / 项目原始入口](https://arxiv.org/abs/2106.05963)
-
-**摘要 / 项目说明**
-
-这是团队公开的代表性研究成果。目录中的公开说明为：Learning to See by Looking at Noise 可通过原始链接查看完整项目、论文或数据说明。
-
-</details>
-
-<details>
-<summary><strong>3. Long-Horizon Manipulation of Unknown Objects via Task and Motion Planning with Estimated Affordances</strong> · 2022 International Conference on Robotics and Automation (ICRA) · 2022</summary>
-
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Long-Horizon+Manipulation+of+Unknown+Objects+via+Task+and+Motion+Planning+with+Estimated+Affordances%22)（未缓存未经核验的数字）
-- [论文 / 项目原始入口](https://doi.org/10.1109/icra46639.2022.9812057)
 
 **基于 Abstract 的 TL;DR**
 
-该研究提出一种设计和构建广泛适用机器人操纵系统的策略，使用任务和运动规划器结合工程化和学习模块来估计未知物体的属性和 affordances。该策略使得机器人在没有先验知识的情况下表现出智能行为，并且可以 flexibly 组合 robot-centric primitives 使用 PDDLStream 框架。
+研究者提出一种新型的神经网络模型，利用学习的连续空间生成离散通信token，从而实现零-shot理解和在 noisy 环境中有效通信。实验结果表明，这种方法优于传统的使用一-hot token的方法，并且可以让机器人有效地应对人类的新型通信和理解未标记的机器人通信。
+
+**原文关键流程 / 方法图**
+
+<a href="https://arxiv.org/abs/2108.01828"><img src="https://ar5iv.labs.arxiv.org/html/2108.01828/assets/x1.png" alt="Figure 3 : Tracing seeker paths (black lines) and final locations (red dots) revealed the discretization imposed by prototypes." width="720"></a>
+
+> Figure 3 : Tracing seeker paths (black lines) and final locations (red dots) revealed the discretization imposed by prototypes.
+> 来源：[原论文](https://arxiv.org/abs/2108.01828)
+
+</details>
+
+<details>
+<summary><strong>2. Learning to See by Looking at Noise</strong> · arXiv (Cornell University) · 2021</summary>
+
+- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Learning+to+See+by+Looking+at+Noise%22)（未缓存未经核验的数字）
+- [论文 / 项目原始入口](https://arxiv.org/abs/2106.05963)
+
+**基于 Abstract 的 TL;DR**
+
+该研究探讨了使用无标签图像数据和噪声过程来训练视觉表示学习模型。研究人员使用不同类型的噪声过程（统计图像模型和深度生成模型）作为训练数据，结合对比损失来学习视觉表示。结果表明，噪声过程中需要捕捉真实数据的结构性特征，但即使使用不太接近现实的过程也可以获得良好的表现。此外，研究发现多样性是学习良好表示的关键属性。
+
+**原文关键流程 / 方法图**
+
+<a href="https://arxiv.org/abs/2106.05963"><img src="https://ar5iv.labs.arxiv.org/html/2106.05963/assets/sup_figures/samples_per_eval_dataset/imagenet100.png" alt="Table 2 : Imagenet100 and VTAB linear evaluation results for Natural tasks (columns) after contrastive training on each of the datasets (rows). From left to right the columns correspond to the tasks: Imagenet100, CIFAR-100, Oxford Flowers102, Oxford IIIT Pets, SVHN, Caltech101, DTD and Sun397. In bold, best synthetic dataset, underlined when it also outperforms training with real images." width="720"></a>
+
+> Table 2 : Imagenet100 and VTAB linear evaluation results for Natural tasks (columns) after contrastive training on each of the datasets (rows). From left to right the columns correspond to the tasks: Imagenet100, CIFAR-100, Oxford Flowers102, Oxford IIIT Pets, SVHN, Caltech101, DTD and Sun397. In bold, best synthetic dataset, underlined when it also outperforms training with real images.
+> 来源：[原论文](https://arxiv.org/abs/2106.05963)
+
+</details>
+
+<details>
+<summary><strong>3. Long-Horizon Manipulation of Unknown Objects via Task and Motion Planning with Estimated Affordances</strong> · arXiv (Cornell University) · 2021</summary>
+
+- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Long-Horizon+Manipulation+of+Unknown+Objects+via+Task+and+Motion+Planning+with+Estimated+Affordances%22)（未缓存未经核验的数字）
+- [论文 / 项目原始入口](https://arxiv.org/abs/2108.04145)
+
+**基于 Abstract 的 TL;DR**
+
+该研究探讨了如何设计和构建能够在未知物体上执行多步操作的 robots 系统。该系统通过结合一般性任务和运动规划器与工程化和学习性的感知模块来实现。感知模块可以估计物体的属性和可用性，形成闭环策略，从图像、深度图和机器人关节编码测量到机器人关节位置指令。研究表明，这种策略可以在没有先验知识的情况下使用任务和运动规划器来计划智能行为。
+
+**原文关键流程 / 方法图**
+
+<a href="https://arxiv.org/abs/2108.04145"><img src="https://ar5iv.labs.arxiv.org/html/2108.04145/assets/figures/logs/run_21-04-16_17-30-18/0_observations_segmented.png" alt="Figure 5: Three segmentation masks predicted by uois -net-3 d during the system’s execution in Figure  14 . White pixels correspond to the table, chromatically-colored pixels correspond to object instances, and grey pixels are unassigned. Our system does not track objects over time, so each object instance is independently and arbitrarily assigned a color. Left : the initial segmentation mask. Middle : an intermediate segmentation mask after picking and placing two objects. Right : the final segmentation mask in a goal state." width="720"></a>
+
+> Figure 5: Three segmentation masks predicted by uois -net-3 d during the system’s execution in Figure  14 . White pixels correspond to the table, chromatically-colored pixels correspond to object instances, and grey pixels are unassigned. Our system does not track objects over time, so each object instance is independently and arbitrarily assigned a color. Left : the initial segmentation mask. Middle : an intermediate segmentation mask after picking and placing two objects. Right : the final segmentation mask in a goal state.
+> 来源：[原论文](https://arxiv.org/abs/2108.04145)
 
 </details>
 
@@ -9628,7 +10053,7 @@ Stanford Artificial Intelligence Laboratory (SAIL) 隶属于 Stanford University
 
 - **所属：** Stanford University
 - **主要方向：** 机器学习、自然语言处理、计算机视觉、机器人
-- **负责人：** [负责人/成员页](https://ai.stanford.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Christopher Manning](https://scholar.google.com/citations?view_op=search_authors&mauthors=Christopher+Manning)（Director / Professor） · [Fei-Fei Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Fei-Fei+Li)（Professor / Research Leader） · [Chelsea Finn](https://scholar.google.com/citations?view_op=search_authors&mauthors=Chelsea+Finn)（Professor / Research Leader）
 - **官方入口：** [官网](https://ai.stanford.edu/) · [GitHub](https://github.com/stanfordai)
 
 #### 最近工作 · 日期待核验
@@ -9694,7 +10119,7 @@ Stanford Center for Research on Foundation Models (CRFM) 隶属于 Stanford Univ
 
 - **所属：** Stanford University
 - **主要方向：** 基础模型、模型评估、AI 透明度、负责任 AI
-- **负责人：** [Percy Liang](https://cs.stanford.edu/~pliang/)（Director）
+- **负责人：** [Percy Liang](https://cs.stanford.edu/~pliang/)（Director） · [Tatsunori Hashimoto](https://scholar.google.com/citations?view_op=search_authors&mauthors=Tatsunori+Hashimoto)（Professor / Core Faculty） · [Sanmi Koyejo](https://scholar.google.com/citations?view_op=search_authors&mauthors=Sanmi+Koyejo)（Professor / Core Faculty）
 - **官方入口：** [官网](https://crfm.stanford.edu/) · [GitHub](https://github.com/stanford-crfm)
 
 #### 最近工作 · 2026-07-01
@@ -9764,7 +10189,7 @@ Stanford Natural Language Processing Group 隶属于 Stanford University，是�
 
 - **所属：** Stanford University
 - **主要方向：** 自然语言处理、大语言模型、智能体、模型评估
-- **负责人：** [负责人/成员页](https://nlp.stanford.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Christopher D. Manning](https://scholar.google.com/citations?view_op=search_authors&mauthors=Christopher+D.+Manning)（Professor / Research Leader） · [Christopher Potts](https://scholar.google.com/citations?view_op=search_authors&mauthors=Christopher+Potts)（Professor / Research Leader） · [Dan Jurafsky](https://scholar.google.com/citations?view_op=search_authors&mauthors=Dan+Jurafsky)（Professor / Research Leader）
 - **官方入口：** [官网](https://nlp.stanford.edu/) · [GitHub](https://github.com/stanfordnlp)
 
 #### 最近工作 · 2024
@@ -9848,7 +10273,7 @@ Stanford Vision and Learning Lab (SVL) 隶属于 Stanford University，是一支
 
 - **所属：** Stanford University
 - **主要方向：** 计算机视觉、自动驾驶、机器人、多模态学习
-- **负责人：** [负责人/成员页](https://svl.stanford.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Fei-Fei Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Fei-Fei+Li)（Professor / Research Leader） · [Jiajun Wu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jiajun+Wu)（Professor / Core Faculty） · [Silvio Savarese](https://scholar.google.com/citations?view_op=search_authors&mauthors=Silvio+Savarese)（Influential Faculty Collaborator）
 - **官方入口：** [官网](https://svl.stanford.edu/) · [GitHub](https://github.com/StanfordVL)
 
 #### 最近工作 · 2022
@@ -9932,7 +10357,7 @@ Stanford Intelligent and Interactive Autonomous Systems Group (ILIAD) 隶属于 
 
 - **所属：** Stanford University
 - **主要方向：** 机器人、人机交互与协作、强化学习、具身智能
-- **负责人：** [Dorsa Sadigh](https://dorsa.fyi/)（Faculty Lead）
+- **负责人：** [Dorsa Sadigh](https://dorsa.fyi/)（Faculty Lead） · [Mykel J. Kochenderfer](https://scholar.google.com/citations?view_op=search_authors&mauthors=Mykel+J.+Kochenderfer)（Faculty Collaborator） · [Sanmi Koyejo](https://scholar.google.com/citations?view_op=search_authors&mauthors=Sanmi+Koyejo)（Faculty Collaborator）
 - **官方入口：** [官网](https://iliad.stanford.edu/) · [GitHub](https://github.com/Stanford-ILIAD)
 
 #### 最近工作 · 2025
@@ -9946,7 +10371,7 @@ Stanford Intelligent and Interactive Autonomous Systems Group (ILIAD) 隶属于 
 
 **基于 Abstract 的 TL;DR**
 
-研究者开发了Z-COACH方法，利用共享自主性框架来提供个人化的运动技能教育。该方法通过分析学生在自动化辅助下行为改善的方式，确定哪些子技能是最适合的学习目标。这项研究在一项用户实验中证明了Z-COACH的有效性，可以提高驾驶时间、行为和平滑度。
+研究探讨了如何使用人机共主的方法来提供个性化的运动技能教育。该方法通过分析学生在自主机器辅助下行为改进的方式，确定哪些技能是最容易学习的。这项研究表明，该方法可以帮助学生提高驾驶速度、行为和平滑度。
 
 </details>
 
@@ -9987,7 +10412,7 @@ Stanford Intelligent and Interactive Autonomous Systems Group (ILIAD) 隶属于 
 
 **基于 Abstract 的 TL;DR**
 
-研究者开发了Z-COACH方法，利用共享自主性框架来提供个人化的运动技能教育。该方法通过分析学生在自动化辅助下行为改善的方式，确定哪些子技能是最适合的学习目标。这项研究在一项用户实验中证明了Z-COACH的有效性，可以提高驾驶时间、行为和平滑度。
+研究探讨了如何使用人机共主的方法来提供个性化的运动技能教育。该方法通过分析学生在自主机器辅助下行为改进的方式，确定哪些技能是最容易学习的。这项研究表明，该方法可以帮助学生提高驾驶速度、行为和平滑度。
 
 </details>
 
@@ -10004,7 +10429,7 @@ Berkeley Artificial Intelligence Research (BAIR) 隶属于 University of Califor
 
 - **所属：** University of California, Berkeley
 - **主要方向：** 机器学习、计算机视觉、自然语言处理、机器人
-- **负责人：** [负责人/成员页](https://bair.berkeley.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Pieter Abbeel](https://scholar.google.com/citations?view_op=search_authors&mauthors=Pieter+Abbeel)（Professor / Research Leader） · [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/)（Professor / Research Leader） · [Dawn Song](https://scholar.google.com/citations?view_op=search_authors&mauthors=Dawn+Song)（Professor / Research Leader）
 - **官方入口：** [官网](https://bair.berkeley.edu/)
 
 #### 最近工作 · 日期待核验
@@ -10070,7 +10495,7 @@ Berkeley Center for Human-Compatible AI (CHAI) 隶属于 University of Californi
 
 - **所属：** University of California, Berkeley
 - **主要方向：** AI 安全与对齐、AI 对齐、强化学习、人类兼容 AI
-- **负责人：** [Stuart Russell](https://people.eecs.berkeley.edu/~russell/)（Founder and Faculty Director）
+- **负责人：** [Stuart Russell](https://people.eecs.berkeley.edu/~russell/)（Founder and Faculty Director） · [Anca Dragan](https://scholar.google.com/citations?view_op=search_authors&mauthors=Anca+Dragan)（Professor / Core Faculty） · [Jacob Steinhardt](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jacob+Steinhardt)（Professor / Core Faculty）
 - **官方入口：** [官网](https://humancompatible.ai/) · [GitHub](https://github.com/HumanCompatibleAI)
 
 #### 最近工作 · 2025-03-22
@@ -10140,7 +10565,7 @@ Berkeley Robotic AI & Learning Lab (RAIL) 隶属于 University of California, Be
 
 - **所属：** University of California, Berkeley
 - **主要方向：** 机器人、强化学习、计算机视觉、具身智能
-- **负责人：** [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/)（Faculty Lead）
+- **负责人：** [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/)（Faculty Lead） · [Pieter Abbeel](https://scholar.google.com/citations?view_op=search_authors&mauthors=Pieter+Abbeel)（Influential Robotics Faculty） · [Anca Dragan](https://scholar.google.com/citations?view_op=search_authors&mauthors=Anca+Dragan)（Influential Robotics Faculty）
 - **官方入口：** [官网](https://rail.eecs.berkeley.edu/) · [GitHub](https://github.com/rail-berkeley)
 
 #### 最近工作 · 2024
@@ -10217,7 +10642,7 @@ Berkeley Natural Language Processing Group 隶属于 University of California, B
 
 - **所属：** University of California, Berkeley
 - **主要方向：** 自然语言处理、大语言模型、信息检索、模型评估
-- **负责人：** [负责人/成员页](https://nlp.berkeley.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Dan Klein](https://scholar.google.com/citations?view_op=search_authors&mauthors=Dan+Klein)（Professor / Research Leader） · [David Bamman](https://scholar.google.com/citations?view_op=search_authors&mauthors=David+Bamman)（Professor / Research Leader） · [Marti Hearst](https://scholar.google.com/citations?view_op=search_authors&mauthors=Marti+Hearst)（Professor / Research Leader）
 - **官方入口：** [官网](https://nlp.berkeley.edu/) · [GitHub](https://github.com/Berkeley-NLP)
 
 #### 最近工作 · 2025
@@ -10315,10 +10740,10 @@ Berkeley Sky Computing Lab 隶属于 University of California, Berkeley，是一
 
 - **所属：** University of California, Berkeley
 - **主要方向：** AI 系统、分布式计算、模型服务、云计算
-- **负责人：** [负责人/成员页](https://sky.cs.berkeley.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Ion Stoica](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ion+Stoica)（Director / Professor） · [Joseph E. Gonzalez](https://scholar.google.com/citations?view_op=search_authors&mauthors=Joseph+E.+Gonzalez)（Professor / Research Leader） · [Matei Zaharia](https://scholar.google.com/citations?view_op=search_authors&mauthors=Matei+Zaharia)（Professor / Research Leader）
 - **官方入口：** [官网](https://sky.cs.berkeley.edu/) · [GitHub](https://github.com/skypilot-org)
 
-#### 最近工作 · 2026-07-28
+#### 最近工作 · 2026-07-30
 
 <details>
 <summary><strong>1. The AI Compute Platform for frontier teams. SkyPilot turns fragmented AI compute into one AI supercomputer, so frontier AI teams build custom intelligence faster.</strong></summary>
@@ -10387,7 +10812,7 @@ University of Maryland Institute for Advanced Computer Studies (UMIACS) 隶属�
 
 - **所属：** University of Maryland, College Park
 - **主要方向：** 人工智能、自然语言处理、计算机视觉、机器人
-- **负责人：** [负责人/成员页](https://www.umiacs.umd.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Dinesh Manocha](https://www.cs.umd.edu/people/dmanocha)（Professor / Research Leader） · [Jordan Boyd-Graber](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jordan+Boyd-Graber)（Professor / Research Leader） · [Rama Chellappa](https://scholar.google.com/citations?view_op=search_authors&mauthors=Rama+Chellappa)（Professor / Research Leader）
 - **官方入口：** [官网](https://www.umiacs.umd.edu/) · [GitHub](https://github.com/UMIACS)
 
 #### 最近工作 · 2024-02-13
@@ -10455,7 +10880,7 @@ UMD Computational Linguistics and Information Processing Lab (CLIP) 隶属于 Un
 
 - **所属：** University of Maryland, College Park
 - **主要方向：** 自然语言处理、信息检索、机器翻译、大语言模型
-- **负责人：** [负责人/成员页](https://wiki.umiacs.umd.edu/clip/index.php/Main_Page) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Philip Resnik](https://scholar.google.com/citations?view_op=search_authors&mauthors=Philip+Resnik)（Professor / Research Leader） · [Jordan Boyd-Graber](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jordan+Boyd-Graber)（Professor / Research Leader） · [Marine Carpuat](https://scholar.google.com/citations?view_op=search_authors&mauthors=Marine+Carpuat)（Professor / Research Leader）
 - **官方入口：** [官网](https://wiki.umiacs.umd.edu/clip/index.php/Main_Page)
 
 #### 最近工作 · 日期待核验
@@ -10521,7 +10946,7 @@ Maryland Robotics Center 隶属于 University of Maryland, College Park，是一
 
 - **所属：** University of Maryland, College Park
 - **主要方向：** 机器人、具身智能、自主系统、计算机视觉
-- **负责人：** [负责人/成员页](https://robotics.umd.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Dinesh Manocha](https://www.cs.umd.edu/people/dmanocha)（Professor / Research Leader） · [Nikhil Chopra](https://scholar.google.com/citations?view_op=search_authors&mauthors=Nikhil+Chopra)（Professor / Research Leader） · [J. Sean Humbert](https://scholar.google.com/citations?view_op=search_authors&mauthors=J.+Sean+Humbert)（Professor / Research Leader）
 - **官方入口：** [官网](https://robotics.umd.edu/)
 
 #### 最近工作 · 日期待核验
@@ -10587,7 +11012,7 @@ UMD GAMMA Research Group 隶属于 University of Maryland, College Park，是一
 
 - **所属：** University of Maryland, College Park
 - **主要方向：** 计算机视觉、机器人、仿真、生成式 AI
-- **负责人：** [Dinesh Manocha](https://www.cs.umd.edu/people/dmanocha)（Director）
+- **负责人：** [Dinesh Manocha](https://www.cs.umd.edu/people/dmanocha)（Director） · [Ming C. Lin](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ming+C.+Lin)（Professor / Core Faculty） · [Qi Sun](https://scholar.google.com/citations?view_op=search_authors&mauthors=Qi+Sun)（Professor / Core Faculty）
 - **官方入口：** [官网](https://gamma.umd.edu/)
 
 #### 最近工作 · 日期待核验
@@ -10655,7 +11080,7 @@ UC San Diego HDSI — Artificial Intelligence and Machine Learning 隶属于 Uni
 
 - **所属：** University of California, San Diego
 - **主要方向：** 机器学习、计算机视觉、机器人、数据科学
-- **负责人：** [负责人/成员页](https://datascience.ucsd.edu/research/artificial-intelligence-and-machine-learning/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Rose Yu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Rose+Yu)（Professor / Research Leader） · [Julian McAuley](https://scholar.google.com/citations?view_op=search_authors&mauthors=Julian+McAuley)（Professor / Research Leader） · [Kamalika Chaudhuri](https://scholar.google.com/citations?view_op=search_authors&mauthors=Kamalika+Chaudhuri)（Professor / Research Leader）
 - **官方入口：** [官网](https://datascience.ucsd.edu/research/artificial-intelligence-and-machine-learning/)
 
 #### 最近工作 · 日期待核验
@@ -10721,7 +11146,7 @@ UC San Diego Contextual Robotics Institute 隶属于 University of California, S
 
 - **所属：** University of California, San Diego
 - **主要方向：** 机器人、自主系统、计算机视觉、人机交互与协作
-- **负责人：** [负责人/成员页](https://contextualrobotics.ucsd.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Henrik Christensen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Henrik+Christensen)（Director / Professor） · [Nikolay Atanasov](https://scholar.google.com/citations?view_op=search_authors&mauthors=Nikolay+Atanasov)（Professor / Research Leader） · [Laurel Riek](https://scholar.google.com/citations?view_op=search_authors&mauthors=Laurel+Riek)（Professor / Research Leader）
 - **官方入口：** [官网](https://contextualrobotics.ucsd.edu/)
 
 #### 最近工作 · 日期待核验
@@ -10787,7 +11212,7 @@ UC San Diego Existential Robotics Lab 隶属于 University of California, San Di
 
 - **所属：** University of California, San Diego
 - **主要方向：** 机器人、强化学习、同步定位与建图、安全自主系统
-- **负责人：** [负责人/成员页](https://erl.ucsd.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Nikolay Atanasov](https://scholar.google.com/citations?view_op=search_authors&mauthors=Nikolay+Atanasov)（Faculty Lead） · [Henrik Christensen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Henrik+Christensen)（Influential Robotics Faculty） · [Laurel Riek](https://scholar.google.com/citations?view_op=search_authors&mauthors=Laurel+Riek)（Influential Robotics Faculty）
 - **官方入口：** [官网](https://erl.ucsd.edu/) · [GitHub](https://github.com/ExistentialRobotics)
 
 #### 最近工作 · 2025
@@ -10885,7 +11310,7 @@ UC San Diego Computer Vision & Robotics Research / LISA Lab 隶属于 University
 
 - **所属：** University of California, San Diego
 - **主要方向：** 计算机视觉、自动驾驶、多模态感知、机器人
-- **负责人：** [负责人/成员页](https://cvrr.ucsd.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Mohan Trivedi](https://scholar.google.com/citations?view_op=search_authors&mauthors=Mohan+Trivedi)（Director / Professor） · [Nuno Vasconcelos](https://scholar.google.com/citations?view_op=search_authors&mauthors=Nuno+Vasconcelos)（Professor / Research Leader） · [Truong Nguyen](https://scholar.google.com/citations?view_op=search_authors&mauthors=Truong+Nguyen)（Professor / Research Leader）
 - **官方入口：** [官网](https://cvrr.ucsd.edu/)
 
 #### 最近工作 · 日期待核验
@@ -10953,7 +11378,7 @@ Washington AI Lab (WAIL) 隶属于 University of Washington，是一支主要关
 
 - **所属：** University of Washington
 - **主要方向：** 人工智能、自然语言处理、计算机视觉、可信 AI
-- **负责人：** [负责人/成员页](https://wail.uw.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Hannaneh Hajishirzi](https://scholar.google.com/citations?view_op=search_authors&mauthors=Hannaneh+Hajishirzi)（Professor / Research Leader） · [Ali Farhadi](https://scholar.google.com/citations?view_op=search_authors&mauthors=Ali+Farhadi)（Professor / Research Leader） · [Dieter Fox](https://scholar.google.com/citations?view_op=search_authors&mauthors=Dieter+Fox)（Professor / Research Leader）
 - **官方入口：** [官网](https://wail.uw.edu/)
 
 #### 最近工作 · 日期待核验
@@ -11019,10 +11444,10 @@ UW Robotics 隶属于 University of Washington，是一支主要关注机器人�
 
 - **所属：** University of Washington
 - **主要方向：** 机器人、具身智能、计算机视觉、人机交互与协作
-- **负责人：** [负责人/成员页](https://robotics.cs.washington.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Dieter Fox](https://scholar.google.com/citations?view_op=search_authors&mauthors=Dieter+Fox)（Professor / Research Leader） · [Siddhartha Srinivasa](https://scholar.google.com/citations?view_op=search_authors&mauthors=Siddhartha+Srinivasa)（Professor / Research Leader） · [Byron Boots](https://scholar.google.com/citations?view_op=search_authors&mauthors=Byron+Boots)（Professor / Research Leader）
 - **官方入口：** [官网](https://robotics.cs.washington.edu/) · [GitHub](https://github.com/uwrobotics)
 
-#### 最近工作 · 2026-07-27
+#### 最近工作 · 2026-07-30
 
 <details>
 <summary><strong>3. UWRobotics competition repository for our season 2026 competition rover Sparky.</strong></summary>
@@ -11089,7 +11514,7 @@ UW Natural Language Processing Group 隶属于 University of Washington，是一
 
 - **所属：** University of Washington
 - **主要方向：** 自然语言处理、大语言模型、多语言 AI、负责任 AI
-- **负责人：** [负责人/成员页](https://nlp.cs.washington.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Noah A. Smith](https://scholar.google.com/citations?view_op=search_authors&mauthors=Noah+A.+Smith)（Professor / Research Leader） · [Hannaneh Hajishirzi](https://scholar.google.com/citations?view_op=search_authors&mauthors=Hannaneh+Hajishirzi)（Professor / Research Leader） · [Luke Zettlemoyer](https://scholar.google.com/citations?view_op=search_authors&mauthors=Luke+Zettlemoyer)（Professor / Research Leader）
 - **官方入口：** [官网](https://nlp.cs.washington.edu/)
 
 #### 最近工作 · 日期待核验
@@ -11155,7 +11580,7 @@ UW Washington Embodied Intelligence and Robotics Development Lab (WEIRD) 隶属�
 
 - **所属：** University of Washington
 - **主要方向：** 具身智能、机器人学习、计算机视觉、强化学习
-- **负责人：** [负责人/成员页](https://weirdlab.cs.washington.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Abhishek Gupta](https://scholar.google.com/citations?view_op=search_authors&mauthors=Abhishek+Gupta)（Principal Investigator） · [Dieter Fox](https://scholar.google.com/citations?view_op=search_authors&mauthors=Dieter+Fox)（Influential Affiliated Faculty） · [Byron Boots](https://scholar.google.com/citations?view_op=search_authors&mauthors=Byron+Boots)（Influential Affiliated Faculty）
 - **官方入口：** [官网](https://weirdlab.cs.washington.edu/)
 
 #### 最近工作 · 日期待核验
@@ -11223,7 +11648,7 @@ NLP @ UIUC 隶属于 University of Illinois Urbana-Champaign，是一支主要�
 
 - **所属：** University of Illinois Urbana-Champaign
 - **主要方向：** 自然语言处理、大语言模型、语音技术、多模态学习
-- **负责人：** [负责人/成员页](https://nlp.cs.illinois.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Dan Roth](https://scholar.google.com/citations?view_op=search_authors&mauthors=Dan+Roth)（Professor / Research Leader） · [Heng Ji](https://blender.cs.illinois.edu/)（Professor / Research Leader） · [Julia Hockenmaier](https://scholar.google.com/citations?view_op=search_authors&mauthors=Julia+Hockenmaier)（Professor / Research Leader）
 - **官方入口：** [官网](https://nlp.cs.illinois.edu/)
 
 #### 最近工作 · 日期待核验
@@ -11289,7 +11714,7 @@ UIUC BLENDER Lab 隶属于 University of Illinois Urbana-Champaign，是一支�
 
 - **所属：** University of Illinois Urbana-Champaign
 - **主要方向：** 自然语言处理、信息抽取、知识推理、大语言模型
-- **负责人：** [Heng Ji](https://blender.cs.illinois.edu/)（Director）
+- **负责人：** [Heng Ji](https://blender.cs.illinois.edu/)（Director） · [Dan Roth](https://scholar.google.com/citations?view_op=search_authors&mauthors=Dan+Roth)（Influential Affiliated Faculty） · [Julia Hockenmaier](https://scholar.google.com/citations?view_op=search_authors&mauthors=Julia+Hockenmaier)（Influential Affiliated Faculty）
 - **官方入口：** [官网](https://blender.cs.illinois.edu/)
 
 #### 最近工作 · 日期待核验
@@ -11355,7 +11780,7 @@ UIUC Data and Intelligent Systems (DAIS) 隶属于 University of Illinois Urbana
 
 - **所属：** University of Illinois Urbana-Champaign
 - **主要方向：** 数据挖掘、自然语言处理、机器学习、信息检索
-- **负责人：** [负责人/成员页](https://dais.cs.illinois.edu/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Jiawei Han](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jiawei+Han)（Professor / Research Leader） · [Kevin Chang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Kevin+Chang)（Professor / Research Leader） · [Aditya Parameswaran](https://scholar.google.com/citations?view_op=search_authors&mauthors=Aditya+Parameswaran)（Professor / Research Leader）
 - **官方入口：** [官网](https://dais.cs.illinois.edu/)
 
 #### 最近工作 · 日期待核验
@@ -11421,7 +11846,7 @@ UIUC Secure Learning Lab 隶属于 University of Illinois Urbana-Champaign，是
 
 - **所属：** University of Illinois Urbana-Champaign
 - **主要方向：** 可信 AI、对抗机器学习、隐私保护、大语言模型
-- **负责人：** [负责人/成员页](https://aisecure.github.io/) — 官方公开页面未明确单一负责人；请通过团队主页查看研究负责人或成员列表。
+- **负责人：** [Bo Li](https://scholar.google.com/citations?view_op=search_authors&mauthors=Bo+Li)（Principal Investigator） · [David Forsyth](https://scholar.google.com/citations?view_op=search_authors&mauthors=David+Forsyth)（Influential Affiliated Faculty） · [Jian Huang](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jian+Huang)（Influential Affiliated Faculty）
 - **官方入口：** [官网](https://aisecure.github.io/) · [GitHub](https://github.com/AI-secure)
 
 #### 最近工作 · 2025

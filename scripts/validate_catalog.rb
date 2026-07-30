@@ -8,6 +8,7 @@ parents_data = YAML.load_file(File.join(ROOT, "data", "seed-parents.yaml"))
 catalog = YAML.load_file(File.join(ROOT, "data", "research-teams.yaml"))
 works_catalog = YAML.load_file(File.join(ROOT, "data", "representative-works.yaml"))
 profiles_catalog = YAML.load_file(File.join(ROOT, "data", "team-profiles.yaml"))
+leaders_catalog = YAML.load_file(File.join(ROOT, "data", "team-leaders.yaml"))
 metadata_catalog = YAML.load_file(File.join(ROOT, "data", "work-metadata.yaml"))
 recent_catalog = YAML.load_file(File.join(ROOT, "data", "recent-works.yaml"))
 
@@ -19,7 +20,7 @@ teams = catalog.fetch("teams")
 coverage = catalog.fetch("coverage")
 errors = []
 
-errors << "expected 47 parents, found #{parent_ids.size}" unless parent_ids.size == 47
+errors << "expected 49 parents, found #{parent_ids.size}" unless parent_ids.size == 49
 errors << "duplicate parent ids" unless parent_ids.uniq.size == parent_ids.size
 
 team_ids = teams.map { |team| team["id"] }
@@ -89,11 +90,32 @@ profiles_by_team.each do |team_id, profile|
   errors << "#{team_id}: missing logo" unless profile.dig("logo", "url").is_a?(String)
   leaders = profile["leaders"]
   errors << "#{team_id}: leaders must be an array" unless leaders.is_a?(Array)
-  if leaders.is_a?(Array) && leaders.empty?
-    errors << "#{team_id}: missing leadership note" unless profile["leadership_note"].is_a?(String)
-  end
+  errors << "#{team_id}: expected exactly 3 leaders, found #{Array(leaders).size}" unless leaders.is_a?(Array) && leaders.size == 3
+  errors << "#{team_id}: leader names must be unique" unless Array(leaders).map { |leader| leader["name"] }.uniq.size == Array(leaders).size
   Array(leaders).each do |leader|
-    %w[name role url].each { |field| errors << "#{team_id}: leader missing #{field}" unless leader[field].is_a?(String) && !leader[field].empty? }
+    %w[name role url profile_kind evidence_url selection_basis].each do |field|
+      errors << "#{team_id}: leader missing #{field}" unless leader[field].is_a?(String) && !leader[field].empty?
+    end
+  end
+end
+
+people_by_id = leaders_catalog.fetch("people")
+source_leaders_by_team = leaders_catalog.fetch("teams")
+errors << "team leader source must cover every team exactly once" unless source_leaders_by_team.keys.sort == team_ids.sort
+source_leaders_by_team.each do |team_id, memberships|
+  errors << "#{team_id}: source roster must contain exactly 3 leaders" unless memberships.is_a?(Array) && memberships.size == 3
+  errors << "#{team_id}: source roster contains duplicate people" unless Array(memberships).map { |membership| membership["person"] }.uniq.size == Array(memberships).size
+  Array(memberships).each do |membership|
+    person_id = membership["person"]
+    errors << "#{team_id}: unknown leader person #{person_id}" unless people_by_id.key?(person_id)
+    %w[role evidence_url selection_basis].each do |field|
+      errors << "#{team_id}: source leader missing #{field}" unless membership[field].is_a?(String) && !membership[field].empty?
+    end
+  end
+end
+people_by_id.each do |person_id, person|
+  %w[name profile_url profile_kind].each do |field|
+    errors << "#{person_id}: person missing #{field}" unless person[field].is_a?(String) && !person[field].empty?
   end
 end
 
