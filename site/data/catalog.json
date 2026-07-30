@@ -5,13 +5,13 @@
     "activity_window": "2024-07-30/2026-07-30",
     "counts": {
       "parents": 49,
-      "teams": 153,
-      "verified": 132,
-      "works": 459,
-      "resolved_papers": 176,
-      "works_with_figures": 125,
-      "scholar_links": 176,
-      "semantic_scholar_counts": 164
+      "teams": 158,
+      "verified": 137,
+      "works": 474,
+      "resolved_papers": 184,
+      "works_with_figures": 127,
+      "scholar_links": 184,
+      "semantic_scholar_counts": 171
     }
   },
   "parents": [
@@ -2292,7 +2292,7 @@
             "summary": "该研究探讨了如何将预训练的文本到图像diffusion模型转换为图像提示能力。研究人员提出了IP-Adapter，一个轻量化的适配器，可以在不需要大量计算资源的情况下实现图像提示功能。通过使用分离的交叉注意机制，IP-Adapter可以有效地将预训练的diffusion模型转换为图像提示能力，并且可以与其他基准模型、文本提示和结构控制相兼容。",
             "citation": {
               "source": "Semantic Scholar",
-              "count": 1701,
+              "count": 1702,
               "influential_count": 320,
               "source_url": "https://www.semanticscholar.org/paper/2854e5bab8e6f36e54c64456628a9559bf67019e?utm_source=api",
               "checked_at": "2026-07-30",
@@ -2376,7 +2376,7 @@
           "summary": "该研究探讨了如何将预训练的文本到图像diffusion模型转换为图像提示能力。研究人员提出了IP-Adapter，一个轻量化的适配器，可以在不需要大量计算资源的情况下实现图像提示功能。通过使用分离的交叉注意机制，IP-Adapter可以有效地将预训练的diffusion模型转换为图像提示能力，并且可以与其他基准模型、文本提示和结构控制相兼容。",
           "citation": {
             "source": "Semantic Scholar",
-            "count": 1701,
+            "count": 1702,
             "influential_count": 320,
             "source_url": "https://www.semanticscholar.org/paper/2854e5bab8e6f36e54c64456628a9559bf67019e?utm_source=api",
             "checked_at": "2026-07-30",
@@ -2614,7 +2614,7 @@
             "summary": "研究问题是如何改善图像填充模型的性能。该研究提出了一种新颖的方法，即将掩盖图像特征和噪声latent分离为两个独立支线，减少模型的学习负担。这导致了更细致入微地包含必要的掩盖图像信息。在本文中，提出了BrushNet模型，该模型可以在任何预训练的DM中嵌入pixel级掩盖图像特征，从而实现更加一致和高质量的图像填充结果。",
             "citation": {
               "source": "Semantic Scholar",
-              "count": 247,
+              "count": 248,
               "influential_count": 48,
               "source_url": "https://www.semanticscholar.org/paper/90c428ba9488c60bd860344d5a1299f01810ae51?utm_source=api",
               "checked_at": "2026-07-30",
@@ -2971,6 +2971,1201 @@
           "title": "[CVPR 2025 Highlight] DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos",
           "url": "https://github.com/Tencent/DepthCrafter",
           "recent_at": "2024",
+          "recency_source": "paper_year",
+          "selection_note": "从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。"
+        }
+      }
+    },
+    {
+      "id": "tencent-wechat-ai",
+      "name": "WeChat AI",
+      "parent_id": "tencent",
+      "team_type": "corporate_research_team",
+      "focus": [
+        "large-language-models",
+        "natural-language-processing",
+        "machine-translation",
+        "ai-systems"
+      ],
+      "homepages": [
+        {
+          "kind": "github",
+          "url": "https://github.com/Tencent/Wechat-YATT"
+        }
+      ],
+      "evidence": {
+        "affiliation": [
+          "https://github.com/Tencent/Wechat-YATT",
+          "https://proceedings.iclr.cc/paper_files/paper/2025/file/6fa4d985e7c434002fb6289ab9b2d654-Paper-Conference.pdf"
+        ],
+        "recent_activity": [
+          "https://github.com/Tencent/Wechat-YATT",
+          "https://arxiv.org/abs/2501.06062"
+        ]
+      },
+      "status": "verified",
+      "notes": "公开研究常以 Pattern Recognition Center, WeChat AI, Tencent Inc. 署名；代码主要发布在 Tencent 总组织。",
+      "parent": {
+        "id": "tencent",
+        "name": "Tencent",
+        "region": "CN-mainland",
+        "priority": "P0",
+        "entity_type": "company",
+        "collection": "companies",
+        "organization_class": "industry"
+      },
+      "profile": {
+        "logo": {
+          "url": "https://github.com/Tencent.png?size=160",
+          "kind": "github_avatar",
+          "source_url": "https://github.com/Tencent/Wechat-YATT"
+        },
+        "introduction": "WeChat AI 隶属于 Tencent，是一支主要关注大语言模型、自然语言处理、机器翻译等方向的企业研究团队。本目录依据其官方主页、近期论文或研究型开源活动持续核验。",
+        "directions_zh": [
+          "大语言模型",
+          "自然语言处理",
+          "机器翻译",
+          "AI 系统"
+        ],
+        "leaders": [
+          {
+            "name": "Jie Zhou",
+            "role": "Senior Researcher / Representative-work Author",
+            "url": "https://scholar.google.com/scholar?hl=en&q=%22Jie+Zhou%22+%22WeChat+AI%22",
+            "profile_kind": "google_scholar_search",
+            "evidence_url": "https://arxiv.org/abs/2407.12665",
+            "selection_basis": "Selected from the senior-author positions of multiple recent WeChat AI papers; the publications provide the team affiliation and research-influence evidence."
+          },
+          {
+            "name": "Fandong Meng",
+            "role": "Senior Researcher / Representative-work Author",
+            "url": "https://fandongmeng.github.io/",
+            "profile_kind": "personal_homepage",
+            "evidence_url": "https://arxiv.org/abs/2501.06062",
+            "selection_basis": "Selected for sustained senior-author contributions to WeChat AI research on language models, translation, and personalization."
+          },
+          {
+            "name": "Chenze Shao",
+            "role": "Researcher / Representative-work Author",
+            "url": "https://scholar.google.com/scholar?hl=en&q=%22Chenze+Shao%22+%22WeChat+AI%22",
+            "profile_kind": "google_scholar_search",
+            "evidence_url": "https://arxiv.org/abs/2407.12665",
+            "selection_basis": "Selected as the lead author of a recent ICLR paper carrying an explicit Pattern Recognition Center, WeChat AI affiliation."
+          }
+        ],
+        "leadership_source": "https://github.com/Tencent/Wechat-YATT"
+      },
+      "representative_works": [
+        {
+          "title": "WeChat-YATT: A Simple, Scalable and Balanced RLHF Trainer",
+          "url": "https://github.com/Tencent/Wechat-YATT",
+          "kind": "open_source",
+          "source": "github",
+          "stars": 77,
+          "metadata": {
+            "team_id": "tencent-wechat-ai",
+            "work_index": 0,
+            "catalog_title": "WeChat-YATT: A Simple, Scalable and Balanced RLHF Trainer",
+            "catalog_url": "https://github.com/Tencent/Wechat-YATT",
+            "kind": "open_source",
+            "summary": "这是团队公开的开源研究成果。目录中的公开说明为：WeChat-YATT: A Simple, Scalable and Balanced RLHF Trainer 可通过原始链接查看完整项目、论文或数据说明。",
+            "citation": {
+            },
+            "code_impact": {
+              "github_stars": 77,
+              "checked_at": "2026-07-30"
+            },
+            "resolution_status": "unresolved"
+          }
+        },
+        {
+          "title": "Beyond Next Token Prediction: Patch-Level Training for Large Language Models",
+          "url": "https://arxiv.org/abs/2407.12665",
+          "kind": "paper",
+          "source": "arxiv",
+          "metadata": {
+            "team_id": "tencent-wechat-ai",
+            "work_index": 1,
+            "catalog_title": "Beyond Next Token Prediction: Patch-Level Training for Large Language Models",
+            "catalog_url": "https://arxiv.org/abs/2407.12665",
+            "kind": "paper",
+            "summary": "这是团队公开的代表性研究成果。目录中的公开说明为：Beyond Next Token Prediction: Patch-Level Training for Large Language Models 可通过原始链接查看完整项目、论文或数据说明。",
+            "citation": {
+            },
+            "resolution_status": "unresolved"
+          }
+        },
+        {
+          "title": "Personalized Language Model Learning on Text Data Without User Identifiers",
+          "url": "https://arxiv.org/abs/2501.06062",
+          "kind": "paper",
+          "source": "arxiv",
+          "metadata": {
+            "team_id": "tencent-wechat-ai",
+            "work_index": 2,
+            "catalog_title": "Personalized Language Model Learning on Text Data Without User Identifiers",
+            "catalog_url": "https://arxiv.org/abs/2501.06062",
+            "kind": "paper",
+            "paper": {
+              "title": "Personalized Language Model Learning on Text Data Without User Identifiers",
+              "url": "https://arxiv.org/abs/2501.06062",
+              "year": 2025,
+              "venue": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.1",
+              "authors": [
+                "Yucheng Ding",
+                "Yangwenjian Tan",
+                "Xiangyu Liu",
+                "Chaoyue Niu",
+                "Fandong Meng",
+                "Jie Zhou",
+                "Ning Liu",
+                "Fan Wu",
+                "Guihai Chen"
+              ],
+              "external_ids": {
+                "ArXiv": "2501.06062",
+                "DOI": "10.1145/3690624.3709211"
+              }
+            },
+            "summary": "已匹配论文《Personalized Language Model Learning on Text Data Without User Identifiers》，但开放元数据暂未提供 Abstract；请通过论文原文查看方法与结论。",
+            "citation": {
+              "source": "Semantic Scholar",
+              "count": 3,
+              "influential_count": 0,
+              "source_url": "https://www.semanticscholar.org/paper/c14c3dacb7d03b9581871affe9fb1779f2ef4a28?utm_source=api",
+              "checked_at": "2026-07-30",
+              "verification_status": "verified_external_identifier",
+              "semantic_scholar_paper_id": "c14c3dacb7d03b9581871affe9fb1779f2ef4a28",
+              "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22Personalized+Language+Model+Learning+on+Text+Data+Without+User+Identifiers%22"
+            },
+            "metadata_provenance": {
+              "identity_and_abstract": "Crossref",
+              "crossref_url": "https://doi.org/10.1145/3690624.3709211"
+            },
+            "resolution_status": "resolved",
+            "figure": {
+              "image_url": "https://ar5iv.labs.arxiv.org/html/2501.06062/assets/x1.png",
+              "caption": "(a) On-Device Training of Embedding Distribution Parameters",
+              "source_page": "https://arxiv.org/abs/2501.06062",
+              "source_kind": "原论文流程 / 方法图（通过 ar5iv 渲染）",
+              "selection_score": 3
+            }
+          }
+        }
+      ],
+      "recent_work": {
+        "title": "Personalized Language Model Learning on Text Data Without User Identifiers",
+        "url": "https://arxiv.org/abs/2501.06062",
+        "kind": "paper",
+        "source": "arxiv",
+        "metadata": {
+          "team_id": "tencent-wechat-ai",
+          "work_index": 2,
+          "catalog_title": "Personalized Language Model Learning on Text Data Without User Identifiers",
+          "catalog_url": "https://arxiv.org/abs/2501.06062",
+          "kind": "paper",
+          "paper": {
+            "title": "Personalized Language Model Learning on Text Data Without User Identifiers",
+            "url": "https://arxiv.org/abs/2501.06062",
+            "year": 2025,
+            "venue": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.1",
+            "authors": [
+              "Yucheng Ding",
+              "Yangwenjian Tan",
+              "Xiangyu Liu",
+              "Chaoyue Niu",
+              "Fandong Meng",
+              "Jie Zhou",
+              "Ning Liu",
+              "Fan Wu",
+              "Guihai Chen"
+            ],
+            "external_ids": {
+              "ArXiv": "2501.06062",
+              "DOI": "10.1145/3690624.3709211"
+            }
+          },
+          "summary": "已匹配论文《Personalized Language Model Learning on Text Data Without User Identifiers》，但开放元数据暂未提供 Abstract；请通过论文原文查看方法与结论。",
+          "citation": {
+            "source": "Semantic Scholar",
+            "count": 3,
+            "influential_count": 0,
+            "source_url": "https://www.semanticscholar.org/paper/c14c3dacb7d03b9581871affe9fb1779f2ef4a28?utm_source=api",
+            "checked_at": "2026-07-30",
+            "verification_status": "verified_external_identifier",
+            "semantic_scholar_paper_id": "c14c3dacb7d03b9581871affe9fb1779f2ef4a28",
+            "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22Personalized+Language+Model+Learning+on+Text+Data+Without+User+Identifiers%22"
+          },
+          "metadata_provenance": {
+            "identity_and_abstract": "Crossref",
+            "crossref_url": "https://doi.org/10.1145/3690624.3709211"
+          },
+          "resolution_status": "resolved",
+          "figure": {
+            "image_url": "https://ar5iv.labs.arxiv.org/html/2501.06062/assets/x1.png",
+            "caption": "(a) On-Device Training of Embedding Distribution Parameters",
+            "source_page": "https://arxiv.org/abs/2501.06062",
+            "source_kind": "原论文流程 / 方法图（通过 ar5iv 渲染）",
+            "selection_score": 3
+          }
+        },
+        "recency": {
+          "work_index": 2,
+          "title": "Personalized Language Model Learning on Text Data Without User Identifiers",
+          "url": "https://arxiv.org/abs/2501.06062",
+          "recent_at": "2025",
+          "recency_source": "paper_year",
+          "selection_note": "从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。"
+        }
+      }
+    },
+    {
+      "id": "tencent-robotics-x",
+      "name": "Tencent Robotics X",
+      "parent_id": "tencent",
+      "team_type": "corporate_research_lab",
+      "focus": [
+        "robotics",
+        "embodied-ai",
+        "vision-language-action",
+        "robot-learning"
+      ],
+      "homepages": [
+        {
+          "kind": "official",
+          "url": "https://tairos.tencent.com/"
+        },
+        {
+          "kind": "github",
+          "url": "https://github.com/Tencent-Hunyuan/HY-Embodied"
+        }
+      ],
+      "evidence": {
+        "affiliation": [
+          "https://static.www.tencent.com/attachments/ssv/2025/tencent-ssv-report-2024.pdf",
+          "https://tairos.tencent.com/"
+        ],
+        "recent_activity": [
+          "https://github.com/Tencent-Hunyuan/HY-Embodied",
+          "https://cdn.tairos.tencent-cloud.com/downloads/tools/pdf/tairos.pdf"
+        ]
+      },
+      "status": "verified",
+      "notes": "HY-Embodied 由 Tencent Robotics X 与 HY Vision Team 联合发布；其 GitHub 入口并非 Robotics X 的独立组织账号。",
+      "parent": {
+        "id": "tencent",
+        "name": "Tencent",
+        "region": "CN-mainland",
+        "priority": "P0",
+        "entity_type": "company",
+        "collection": "companies",
+        "organization_class": "industry"
+      },
+      "profile": {
+        "logo": {
+          "url": "https://github.com/Tencent-Hunyuan.png?size=160",
+          "kind": "github_avatar",
+          "source_url": "https://github.com/Tencent-Hunyuan/HY-Embodied"
+        },
+        "introduction": "Tencent Robotics X 隶属于 Tencent，是一支主要关注机器人、具身智能、视觉—语言—动作模型等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。",
+        "directions_zh": [
+          "机器人",
+          "具身智能",
+          "视觉—语言—动作模型",
+          "机器人学习"
+        ],
+        "leaders": [
+          {
+            "name": "Zhengyou Zhang",
+            "role": "Research Leader / Senior Author",
+            "url": "https://scholar.google.com/citations?user=1I-DKy8AAAAJ",
+            "profile_kind": "google_scholar_profile",
+            "evidence_url": "https://github.com/Tencent-Hunyuan/HY-Embodied",
+            "selection_basis": "Selected as a senior author of the team's current embodied foundation-model release and for his publicly documented leadership of Robotics X."
+          },
+          {
+            "name": "Yonggen Ling",
+            "role": "Senior Researcher",
+            "url": "https://ygling2008.github.io/",
+            "profile_kind": "personal_homepage",
+            "evidence_url": "https://ygling2008.github.io/",
+            "selection_basis": "Selected for sustained Robotics X research contributions in embodied perception, navigation, and robot learning."
+          },
+          {
+            "name": "Haitao Lin",
+            "role": "Senior Researcher / Representative-work Author",
+            "url": "https://hetolin.github.io/",
+            "profile_kind": "personal_homepage",
+            "evidence_url": "https://github.com/Tencent-Hunyuan/HY-Embodied",
+            "selection_basis": "Selected as a current Robotics X researcher and author of the team's HY-Embodied and TAIROS work."
+          }
+        ],
+        "leadership_source": "https://tairos.tencent.com/"
+      },
+      "representative_works": [
+        {
+          "title": "HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents",
+          "url": "https://github.com/Tencent-Hunyuan/HY-Embodied",
+          "kind": "open_source",
+          "source": "github",
+          "stars": 840,
+          "metadata": {
+            "team_id": "tencent-robotics-x",
+            "work_index": 0,
+            "catalog_title": "HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents",
+            "catalog_url": "https://github.com/Tencent-Hunyuan/HY-Embodied",
+            "kind": "open_source",
+            "summary": "这是团队公开的开源研究成果。目录中的公开说明为：HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents 可通过原始链接查看完整项目、论文或数据说明。",
+            "citation": {
+            },
+            "code_impact": {
+              "github_stars": 840,
+              "checked_at": "2026-07-30"
+            },
+            "resolution_status": "unresolved"
+          }
+        },
+        {
+          "title": "TAIROS: An Embodied AI Platform for Robotics Applications",
+          "url": "https://cdn.tairos.tencent-cloud.com/downloads/tools/pdf/tairos.pdf",
+          "kind": "paper_or_project",
+          "source": "official",
+          "metadata": {
+            "team_id": "tencent-robotics-x",
+            "work_index": 1,
+            "catalog_title": "TAIROS: An Embodied AI Platform for Robotics Applications",
+            "catalog_url": "https://cdn.tairos.tencent-cloud.com/downloads/tools/pdf/tairos.pdf",
+            "kind": "paper_or_project",
+            "summary": "这是团队公开的代表性研究成果。目录中的公开说明为：TAIROS: An Embodied AI Platform for Robotics Applications 可通过原始链接查看完整项目、论文或数据说明。",
+            "citation": {
+            },
+            "resolution_status": "unresolved"
+          }
+        },
+        {
+          "title": "Constraint-Aware Zero-Shot Vision-Language Navigation in Continuous Environments",
+          "url": "https://arxiv.org/abs/2412.10137",
+          "kind": "paper",
+          "source": "arxiv",
+          "metadata": {
+            "team_id": "tencent-robotics-x",
+            "work_index": 2,
+            "catalog_title": "Constraint-Aware Zero-Shot Vision-Language Navigation in Continuous Environments",
+            "catalog_url": "https://arxiv.org/abs/2412.10137",
+            "kind": "paper",
+            "paper": {
+              "title": "Constraint-Aware Zero-Shot Vision-Language Navigation in Continuous Environments",
+              "url": "https://arxiv.org/abs/2412.10137",
+              "year": 2025,
+              "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+              "authors": [
+                "Kehan Chen",
+                "Dong An",
+                "Yan Huang",
+                "Rongtao Xu",
+                "Yifei Su",
+                "Yonggen Ling",
+                "Ian Reid",
+                "Liang Wang"
+              ],
+              "external_ids": {
+                "ArXiv": "2412.10137",
+                "DOI": "10.1109/tpami.2025.3594204"
+              }
+            },
+            "summary": "已匹配论文《Constraint-Aware Zero-Shot Vision-Language Navigation in Continuous Environments》，但开放元数据暂未提供 Abstract；请通过论文原文查看方法与结论。",
+            "citation": {
+              "source": "Semantic Scholar",
+              "count": 53,
+              "influential_count": 4,
+              "source_url": "https://www.semanticscholar.org/paper/4d27c0905b46d06507ed1701a4baacc6c075be9b?utm_source=api",
+              "checked_at": "2026-07-30",
+              "verification_status": "verified_external_identifier",
+              "semantic_scholar_paper_id": "4d27c0905b46d06507ed1701a4baacc6c075be9b",
+              "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22Constraint-Aware+Zero-Shot+Vision-Language+Navigation+in+Continuous+Environments%22"
+            },
+            "metadata_provenance": {
+              "identity_and_abstract": "Crossref",
+              "crossref_url": "https://doi.org/10.1109/tpami.2025.3594204"
+            },
+            "resolution_status": "resolved",
+            "figure": {
+              "image_url": "https://ar5iv.labs.arxiv.org/html/2412.10137/assets/x2.png",
+              "caption": "Figure 2: Illustration of the proposed CA-Nav. (a) The Constraint-aware Sub-instruction Manager decomposes the instruction into a sequence of sub-instructions and identifies object constraints , location constraints and direction constraints for each of them. (b) During navigation, a Constraint-aware Value Mapper builds a value map based on the landmark prompt provided by CSM and uses the superpixel clustering method to segment it into regions. It switches sub-instructions in a constraint-aware manner and chooses the most promising region’s geometric center as waypoints.",
+              "source_page": "https://arxiv.org/abs/2412.10137",
+              "source_kind": "原论文流程 / 方法图（通过 ar5iv 渲染）",
+              "selection_score": 6
+            }
+          }
+        }
+      ],
+      "recent_work": {
+        "title": "Constraint-Aware Zero-Shot Vision-Language Navigation in Continuous Environments",
+        "url": "https://arxiv.org/abs/2412.10137",
+        "kind": "paper",
+        "source": "arxiv",
+        "metadata": {
+          "team_id": "tencent-robotics-x",
+          "work_index": 2,
+          "catalog_title": "Constraint-Aware Zero-Shot Vision-Language Navigation in Continuous Environments",
+          "catalog_url": "https://arxiv.org/abs/2412.10137",
+          "kind": "paper",
+          "paper": {
+            "title": "Constraint-Aware Zero-Shot Vision-Language Navigation in Continuous Environments",
+            "url": "https://arxiv.org/abs/2412.10137",
+            "year": 2025,
+            "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+            "authors": [
+              "Kehan Chen",
+              "Dong An",
+              "Yan Huang",
+              "Rongtao Xu",
+              "Yifei Su",
+              "Yonggen Ling",
+              "Ian Reid",
+              "Liang Wang"
+            ],
+            "external_ids": {
+              "ArXiv": "2412.10137",
+              "DOI": "10.1109/tpami.2025.3594204"
+            }
+          },
+          "summary": "已匹配论文《Constraint-Aware Zero-Shot Vision-Language Navigation in Continuous Environments》，但开放元数据暂未提供 Abstract；请通过论文原文查看方法与结论。",
+          "citation": {
+            "source": "Semantic Scholar",
+            "count": 53,
+            "influential_count": 4,
+            "source_url": "https://www.semanticscholar.org/paper/4d27c0905b46d06507ed1701a4baacc6c075be9b?utm_source=api",
+            "checked_at": "2026-07-30",
+            "verification_status": "verified_external_identifier",
+            "semantic_scholar_paper_id": "4d27c0905b46d06507ed1701a4baacc6c075be9b",
+            "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22Constraint-Aware+Zero-Shot+Vision-Language+Navigation+in+Continuous+Environments%22"
+          },
+          "metadata_provenance": {
+            "identity_and_abstract": "Crossref",
+            "crossref_url": "https://doi.org/10.1109/tpami.2025.3594204"
+          },
+          "resolution_status": "resolved",
+          "figure": {
+            "image_url": "https://ar5iv.labs.arxiv.org/html/2412.10137/assets/x2.png",
+            "caption": "Figure 2: Illustration of the proposed CA-Nav. (a) The Constraint-aware Sub-instruction Manager decomposes the instruction into a sequence of sub-instructions and identifies object constraints , location constraints and direction constraints for each of them. (b) During navigation, a Constraint-aware Value Mapper builds a value map based on the landmark prompt provided by CSM and uses the superpixel clustering method to segment it into regions. It switches sub-instructions in a constraint-aware manner and chooses the most promising region’s geometric center as waypoints.",
+            "source_page": "https://arxiv.org/abs/2412.10137",
+            "source_kind": "原论文流程 / 方法图（通过 ar5iv 渲染）",
+            "selection_score": 6
+          }
+        },
+        "recency": {
+          "work_index": 2,
+          "title": "Constraint-Aware Zero-Shot Vision-Language Navigation in Continuous Environments",
+          "url": "https://arxiv.org/abs/2412.10137",
+          "recent_at": "2025",
+          "recency_source": "paper_year",
+          "selection_note": "从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。"
+        }
+      }
+    },
+    {
+      "id": "tencent-media-lab",
+      "name": "Tencent Media Lab",
+      "parent_id": "tencent",
+      "team_type": "corporate_research_lab",
+      "focus": [
+        "computer-vision",
+        "visual-compression",
+        "3d-vision",
+        "ai-systems"
+      ],
+      "homepages": [
+        {
+          "kind": "official",
+          "url": "https://multimedia.tencent.com/en/about/"
+        }
+      ],
+      "evidence": {
+        "affiliation": [
+          "https://www.tencent.com/zh-cn/products/tencent-media-lab/"
+        ],
+        "recent_activity": [
+          "https://multimedia.tencent.com/en/publications",
+          "https://multimedia.tencent.com/en/news/"
+        ]
+      },
+      "status": "verified",
+      "parent": {
+        "id": "tencent",
+        "name": "Tencent",
+        "region": "CN-mainland",
+        "priority": "P0",
+        "entity_type": "company",
+        "collection": "companies",
+        "organization_class": "industry"
+      },
+      "profile": {
+        "logo": {
+          "url": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fmultimedia.tencent.com&sz=128",
+          "kind": "official_site_icon",
+          "source_url": "https://multimedia.tencent.com/en/about/"
+        },
+        "introduction": "Tencent Media Lab 隶属于 Tencent，是一支主要关注计算机视觉、视觉压缩、三维视觉等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。",
+        "directions_zh": [
+          "计算机视觉",
+          "视觉压缩",
+          "三维视觉",
+          "AI 系统"
+        ],
+        "leaders": [
+          {
+            "name": "Shan Liu",
+            "role": "General Manager / Distinguished Scientist",
+            "url": "https://multimedia.tencent.com/en/about/",
+            "profile_kind": "official_team_page",
+            "evidence_url": "https://multimedia.tencent.com/en/about/",
+            "selection_basis": "Selected from the official team page, which documents responsibility for Tencent Media Lab and sustained research leadership."
+          },
+          {
+            "name": "Xiaozhong Xu",
+            "role": "Senior Researcher / Representative-work Author",
+            "url": "https://scholar.google.com/scholar?hl=en&q=%22Xiaozhong+Xu%22+%22Tencent+Media+Lab%22",
+            "profile_kind": "google_scholar_search",
+            "evidence_url": "https://doi.org/10.1109/TVCG.2024.3451526",
+            "selection_basis": "Selected for sustained senior-author contributions to the lab's multimedia compression and 3D quality-assessment research."
+          },
+          {
+            "name": "Liqiang Wang",
+            "role": "Researcher / Representative-work Author",
+            "url": "https://scholar.google.com/scholar?hl=en&q=%22Liqiang+Wang%22+%22Tencent+Media+Lab%22",
+            "profile_kind": "google_scholar_search",
+            "evidence_url": "https://doi.org/10.1109/ICIP55913.2025.11084415",
+            "selection_basis": "Selected as an author of the lab's recent AI-assisted video compression work at ICIP 2025."
+          }
+        ],
+        "leadership_source": "https://multimedia.tencent.com/en/about/"
+      },
+      "representative_works": [
+        {
+          "title": "GOP-Level Adaptive Resampling with CNN-Based Super Resolution",
+          "url": "https://doi.org/10.1109/ICIP55913.2025.11084415",
+          "kind": "paper",
+          "source": "doi",
+          "metadata": {
+            "team_id": "tencent-media-lab",
+            "work_index": 0,
+            "catalog_title": "GOP-Level Adaptive Resampling with CNN-Based Super Resolution",
+            "catalog_url": "https://doi.org/10.1109/ICIP55913.2025.11084415",
+            "kind": "paper",
+            "paper": {
+              "title": "Gop-Level Adaptive Resampling with CNN-based Super Resolution",
+              "url": "https://doi.org/10.1109/icip55913.2025.11084415",
+              "year": 2025,
+              "venue": "2025 IEEE International Conference on Image Processing (ICIP)",
+              "authors": [
+                "Renjie Chang",
+                "Liqiang Wang",
+                "Xiaozhong Xu",
+                "Shan Liu"
+              ],
+              "external_ids": {
+                "DOI": "10.1109/icip55913.2025.11084415"
+              }
+            },
+            "summary": "已匹配论文《Gop-Level Adaptive Resampling with CNN-based Super Resolution》，但开放元数据暂未提供 Abstract；请通过论文原文查看方法与结论。",
+            "citation": {
+              "source": "Semantic Scholar",
+              "count": 0,
+              "influential_count": 0,
+              "source_url": "https://www.semanticscholar.org/paper/b77d0a0e0610d32102a84e57d2ec0f155b26b7c5?utm_source=api",
+              "checked_at": "2026-07-30",
+              "verification_status": "verified_external_identifier",
+              "semantic_scholar_paper_id": "b77d0a0e0610d32102a84e57d2ec0f155b26b7c5",
+              "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22Gop-Level+Adaptive+Resampling+with+CNN-based+Super+Resolution%22"
+            },
+            "metadata_provenance": {
+              "identity_and_abstract": "Crossref",
+              "crossref_url": "https://doi.org/10.1109/icip55913.2025.11084415"
+            },
+            "resolution_status": "resolved"
+          }
+        },
+        {
+          "title": "TDMD: A Database for Dynamic Color Mesh Quality Assessment Study",
+          "url": "https://doi.org/10.1109/TVCG.2024.3451526",
+          "kind": "paper",
+          "source": "doi",
+          "metadata": {
+            "team_id": "tencent-media-lab",
+            "work_index": 1,
+            "catalog_title": "TDMD: A Database for Dynamic Color Mesh Quality Assessment Study",
+            "catalog_url": "https://doi.org/10.1109/TVCG.2024.3451526",
+            "kind": "paper",
+            "paper": {
+              "title": "TDMD: A Database for Dynamic Color Mesh Quality Assessment Study",
+              "url": "https://doi.org/10.1109/tvcg.2024.3451526",
+              "year": 2025,
+              "venue": "IEEE Transactions on Visualization and Computer Graphics",
+              "authors": [
+                "Qi Yang",
+                "Joel Jung",
+                "Timon Deschamps",
+                "Xiaozhong Xu",
+                "Shan Liu"
+              ],
+              "external_ids": {
+                "DOI": "10.1109/tvcg.2024.3451526"
+              }
+            },
+            "summary": "已匹配论文《TDMD: A Database for Dynamic Color Mesh Quality Assessment Study》，但开放元数据暂未提供 Abstract；请通过论文原文查看方法与结论。",
+            "citation": {
+              "source": "Semantic Scholar",
+              "count": 6,
+              "influential_count": 1,
+              "source_url": "https://www.semanticscholar.org/paper/240e2ce83af2c274975cf2a934ca620711e82708?utm_source=api",
+              "checked_at": "2026-07-30",
+              "verification_status": "verified_external_identifier",
+              "semantic_scholar_paper_id": "240e2ce83af2c274975cf2a934ca620711e82708",
+              "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22TDMD%3A+A+Database+for+Dynamic+Color+Mesh+Quality+Assessment+Study%22"
+            },
+            "metadata_provenance": {
+              "identity_and_abstract": "Crossref",
+              "crossref_url": "https://doi.org/10.1109/tvcg.2024.3451526"
+            },
+            "resolution_status": "resolved"
+          }
+        },
+        {
+          "title": "GeodesicPSIM: Predicting the Quality of Static Mesh With Texture Map via Geodesic Patch Similarity",
+          "url": "https://doi.org/10.1109/TIP.2024.3501074",
+          "kind": "paper",
+          "source": "doi",
+          "metadata": {
+            "team_id": "tencent-media-lab",
+            "work_index": 2,
+            "catalog_title": "GeodesicPSIM: Predicting the Quality of Static Mesh With Texture Map via Geodesic Patch Similarity",
+            "catalog_url": "https://doi.org/10.1109/TIP.2024.3501074",
+            "kind": "paper",
+            "paper": {
+              "title": "GeodesicPSIM: Predicting the Quality of Static Mesh With Texture Map via Geodesic Patch Similarity",
+              "url": "https://doi.org/10.1109/tip.2024.3501074",
+              "year": 2025,
+              "venue": "IEEE Transactions on Image Processing",
+              "authors": [
+                "Qi Yang",
+                "Joel Jung",
+                "Xiaozhong Xu",
+                "Shan Liu"
+              ],
+              "external_ids": {
+                "DOI": "10.1109/tip.2024.3501074"
+              }
+            },
+            "summary": "已匹配论文《GeodesicPSIM: Predicting the Quality of Static Mesh With Texture Map via Geodesic Patch Similarity》，但开放元数据暂未提供 Abstract；请通过论文原文查看方法与结论。",
+            "citation": {
+              "source": "Semantic Scholar",
+              "count": 6,
+              "influential_count": 1,
+              "source_url": "https://www.semanticscholar.org/paper/1fe5f5d16a53cf4de64abfb2ce093cb1bb2a87ff?utm_source=api",
+              "checked_at": "2026-07-30",
+              "verification_status": "verified_external_identifier",
+              "semantic_scholar_paper_id": "1fe5f5d16a53cf4de64abfb2ce093cb1bb2a87ff",
+              "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22GeodesicPSIM%3A+Predicting+the+Quality+of+Static+Mesh+With+Texture+Map+via+Geodesic+Patch+Similarity%22"
+            },
+            "metadata_provenance": {
+              "identity_and_abstract": "Crossref",
+              "crossref_url": "https://doi.org/10.1109/tip.2024.3501074"
+            },
+            "resolution_status": "resolved"
+          }
+        }
+      ],
+      "recent_work": {
+        "title": "GOP-Level Adaptive Resampling with CNN-Based Super Resolution",
+        "url": "https://doi.org/10.1109/ICIP55913.2025.11084415",
+        "kind": "paper",
+        "source": "doi",
+        "metadata": {
+          "team_id": "tencent-media-lab",
+          "work_index": 0,
+          "catalog_title": "GOP-Level Adaptive Resampling with CNN-Based Super Resolution",
+          "catalog_url": "https://doi.org/10.1109/ICIP55913.2025.11084415",
+          "kind": "paper",
+          "paper": {
+            "title": "Gop-Level Adaptive Resampling with CNN-based Super Resolution",
+            "url": "https://doi.org/10.1109/icip55913.2025.11084415",
+            "year": 2025,
+            "venue": "2025 IEEE International Conference on Image Processing (ICIP)",
+            "authors": [
+              "Renjie Chang",
+              "Liqiang Wang",
+              "Xiaozhong Xu",
+              "Shan Liu"
+            ],
+            "external_ids": {
+              "DOI": "10.1109/icip55913.2025.11084415"
+            }
+          },
+          "summary": "已匹配论文《Gop-Level Adaptive Resampling with CNN-based Super Resolution》，但开放元数据暂未提供 Abstract；请通过论文原文查看方法与结论。",
+          "citation": {
+            "source": "Semantic Scholar",
+            "count": 0,
+            "influential_count": 0,
+            "source_url": "https://www.semanticscholar.org/paper/b77d0a0e0610d32102a84e57d2ec0f155b26b7c5?utm_source=api",
+            "checked_at": "2026-07-30",
+            "verification_status": "verified_external_identifier",
+            "semantic_scholar_paper_id": "b77d0a0e0610d32102a84e57d2ec0f155b26b7c5",
+            "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22Gop-Level+Adaptive+Resampling+with+CNN-based+Super+Resolution%22"
+          },
+          "metadata_provenance": {
+            "identity_and_abstract": "Crossref",
+            "crossref_url": "https://doi.org/10.1109/icip55913.2025.11084415"
+          },
+          "resolution_status": "resolved"
+        },
+        "recency": {
+          "work_index": 0,
+          "title": "GOP-Level Adaptive Resampling with CNN-Based Super Resolution",
+          "url": "https://doi.org/10.1109/ICIP55913.2025.11084415",
+          "recent_at": "2025",
+          "recency_source": "paper_year",
+          "selection_note": "从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。"
+        }
+      }
+    },
+    {
+      "id": "tencent-zhuque-lab",
+      "name": "Tencent Zhuque Lab",
+      "parent_id": "tencent",
+      "team_type": "corporate_research_lab",
+      "focus": [
+        "ai-security",
+        "agent-security",
+        "model-evaluation",
+        "generative-ai"
+      ],
+      "homepages": [
+        {
+          "kind": "official",
+          "url": "https://matrix.tencent.com/zh/about"
+        },
+        {
+          "kind": "github",
+          "url": "https://github.com/Tencent/AI-Infra-Guard"
+        }
+      ],
+      "evidence": {
+        "affiliation": [
+          "https://matrix.tencent.com/zh/about",
+          "https://github.com/Tencent/AI-Infra-Guard"
+        ],
+        "recent_activity": [
+          "https://github.com/Tencent/AI-Infra-Guard",
+          "https://matrix.tencent.com/skilltrustbench/"
+        ]
+      },
+      "status": "verified",
+      "parent": {
+        "id": "tencent",
+        "name": "Tencent",
+        "region": "CN-mainland",
+        "priority": "P0",
+        "entity_type": "company",
+        "collection": "companies",
+        "organization_class": "industry"
+      },
+      "profile": {
+        "logo": {
+          "url": "https://github.com/Tencent.png?size=160",
+          "kind": "github_avatar",
+          "source_url": "https://github.com/Tencent/AI-Infra-Guard"
+        },
+        "introduction": "Tencent Zhuque Lab 隶属于 Tencent，是一支主要关注AI 安全、智能体安全、模型评测等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。",
+        "directions_zh": [
+          "AI 安全",
+          "智能体安全",
+          "模型评测",
+          "生成式 AI"
+        ],
+        "leaders": [
+          {
+            "name": "Xing Zheng",
+            "role": "Head of Tencent Zhuque Lab",
+            "url": "https://matrix.tencent.com/zh/about",
+            "profile_kind": "official_team_page",
+            "evidence_url": "https://github.com/Tencent/AI-Infra-Guard",
+            "selection_basis": "Selected from the official project roster, which explicitly identifies the head of Tencent Zhuque Lab."
+          },
+          {
+            "name": "Nicky",
+            "role": "Project Lead",
+            "url": "https://github.com/Tencent/AI-Infra-Guard",
+            "profile_kind": "official_team_page",
+            "evidence_url": "https://github.com/Tencent/AI-Infra-Guard",
+            "selection_basis": "Selected from the official A.I.G project roster for leadership of frontier security research and product planning."
+          },
+          {
+            "name": "Yong Yang",
+            "role": "Head of Tencent Security Platform Department",
+            "url": "https://github.com/Tencent/AI-Infra-Guard",
+            "profile_kind": "official_team_page",
+            "evidence_url": "https://github.com/Tencent/AI-Infra-Guard",
+            "selection_basis": "Selected from the official A.I.G project roster as the documented department-level research sponsor and initiator."
+          }
+        ],
+        "leadership_source": "https://matrix.tencent.com/zh/about"
+      },
+      "representative_works": [
+        {
+          "title": "A.I.G (AI-Infra-Guard) AI Red Teaming Platform",
+          "url": "https://github.com/Tencent/AI-Infra-Guard",
+          "kind": "open_source",
+          "source": "github",
+          "stars": 4330,
+          "metadata": {
+            "team_id": "tencent-zhuque-lab",
+            "work_index": 0,
+            "catalog_title": "A.I.G (AI-Infra-Guard) AI Red Teaming Platform",
+            "catalog_url": "https://github.com/Tencent/AI-Infra-Guard",
+            "kind": "open_source",
+            "summary": "这是团队公开的开源研究成果。目录中的公开说明为：A.I.G (AI-Infra-Guard) AI Red Teaming Platform 可通过原始链接查看完整项目、论文或数据说明。",
+            "citation": {
+            },
+            "code_impact": {
+              "github_stars": 4330,
+              "checked_at": "2026-07-30"
+            },
+            "resolution_status": "unresolved"
+          }
+        },
+        {
+          "title": "SecBench Cybersecurity Large-Language-Model Benchmark",
+          "url": "https://secbench.org/",
+          "kind": "paper_or_project",
+          "source": "official",
+          "metadata": {
+            "team_id": "tencent-zhuque-lab",
+            "work_index": 1,
+            "catalog_title": "SecBench Cybersecurity Large-Language-Model Benchmark",
+            "catalog_url": "https://secbench.org/",
+            "kind": "paper_or_project",
+            "summary": "这是团队公开的代表性研究成果。目录中的公开说明为：SecBench Cybersecurity Large-Language-Model Benchmark 可通过原始链接查看完整项目、论文或数据说明。",
+            "citation": {
+            },
+            "resolution_status": "unresolved"
+          }
+        },
+        {
+          "title": "SkillTrustBench for AI Agent Skill Security Scanners",
+          "url": "https://matrix.tencent.com/skilltrustbench/",
+          "kind": "paper_or_project",
+          "source": "official",
+          "metadata": {
+            "team_id": "tencent-zhuque-lab",
+            "work_index": 2,
+            "catalog_title": "SkillTrustBench for AI Agent Skill Security Scanners",
+            "catalog_url": "https://matrix.tencent.com/skilltrustbench/",
+            "kind": "paper_or_project",
+            "summary": "这是团队公开的代表性研究成果。目录中的公开说明为：SkillTrustBench for AI Agent Skill Security Scanners 可通过原始链接查看完整项目、论文或数据说明。",
+            "citation": {
+            },
+            "resolution_status": "unresolved"
+          }
+        }
+      ],
+      "recent_work": {
+        "title": "A.I.G (AI-Infra-Guard) AI Red Teaming Platform",
+        "url": "https://github.com/Tencent/AI-Infra-Guard",
+        "kind": "open_source",
+        "source": "github",
+        "stars": 4330,
+        "metadata": {
+          "team_id": "tencent-zhuque-lab",
+          "work_index": 0,
+          "catalog_title": "A.I.G (AI-Infra-Guard) AI Red Teaming Platform",
+          "catalog_url": "https://github.com/Tencent/AI-Infra-Guard",
+          "kind": "open_source",
+          "summary": "这是团队公开的开源研究成果。目录中的公开说明为：A.I.G (AI-Infra-Guard) AI Red Teaming Platform 可通过原始链接查看完整项目、论文或数据说明。",
+          "citation": {
+          },
+          "code_impact": {
+            "github_stars": 4330,
+            "checked_at": "2026-07-30"
+          },
+          "resolution_status": "unresolved"
+        },
+        "recency": {
+          "work_index": 0,
+          "title": "A.I.G (AI-Infra-Guard) AI Red Teaming Platform",
+          "url": "https://github.com/Tencent/AI-Infra-Guard",
+          "recent_at": "2026-07-30",
+          "recency_source": "github_pushed_at",
+          "selection_note": "从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。"
+        }
+      }
+    },
+    {
+      "id": "tencent-ethereal-audio-lab",
+      "name": "Tencent Ethereal Audio Lab",
+      "parent_id": "tencent",
+      "team_type": "corporate_research_lab",
+      "focus": [
+        "speech",
+        "audio-generation",
+        "machine-learning",
+        "ai-for-public-good"
+      ],
+      "homepages": [
+        {
+          "kind": "official",
+          "url": "https://www.tencent.com/zh-cn/products/tencent-ethereal-lab/"
+        }
+      ],
+      "evidence": {
+        "affiliation": [
+          "https://www.tencent.com/zh-cn/products/tencent-ethereal-lab/",
+          "https://www.tencent.com/en-us/articles/2201982.html"
+        ],
+        "recent_activity": [
+          "https://openreview.net/forum?id=qDSfOQBrOD",
+          "https://doi.org/10.1109/TMM.2025.3543107"
+        ]
+      },
+      "status": "verified",
+      "parent": {
+        "id": "tencent",
+        "name": "Tencent",
+        "region": "CN-mainland",
+        "priority": "P0",
+        "entity_type": "company",
+        "collection": "companies",
+        "organization_class": "industry"
+      },
+      "profile": {
+        "logo": {
+          "url": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.tencent.com&sz=128",
+          "kind": "official_site_icon",
+          "source_url": "https://www.tencent.com/zh-cn/products/tencent-ethereal-lab/"
+        },
+        "introduction": "Tencent Ethereal Audio Lab 隶属于 Tencent，是一支主要关注语音技术、音频生成、机器学习等方向的企业研究实验室。本目录依据其官方主页、近期论文或研究型开源活动持续核验。",
+        "directions_zh": [
+          "语音技术",
+          "音频生成",
+          "机器学习",
+          "AI 公益"
+        ],
+        "leaders": [
+          {
+            "name": "Shidong Shang",
+            "role": "Head of Tencent Ethereal Audio Lab",
+            "url": "https://www.tencent.com/en-us/articles/2201245.html",
+            "profile_kind": "official_team_page",
+            "evidence_url": "https://www.tencent.com/en-us/articles/2201245.html",
+            "selection_basis": "Selected from Tencent's official profile, which documents leadership of the lab and its real-time audio research program."
+          },
+          {
+            "name": "Wei Xiao",
+            "role": "Principal Researcher",
+            "url": "https://openreview.net/profile?id=~Wei_Xiao3",
+            "profile_kind": "official_personal_page",
+            "evidence_url": "https://openreview.net/profile?id=~Wei_Xiao3",
+            "selection_basis": "Selected from the researcher's verified OpenReview profile and recent neural speech codec work affiliated with the lab."
+          },
+          {
+            "name": "Wei Rao",
+            "role": "Senior Researcher / Representative-work Author",
+            "url": "https://scholar.google.com/scholar?hl=en&q=%22Wei+Rao%22+%22Tencent+Ethereal+Audio+Lab%22",
+            "profile_kind": "google_scholar_search",
+            "evidence_url": "https://doi.org/10.1109/TMM.2025.3543107",
+            "selection_basis": "Selected as the Tencent Ethereal Audio Lab author of a recent IEEE Transactions on Multimedia paper."
+          }
+        ],
+        "leadership_source": "https://www.tencent.com/zh-cn/products/tencent-ethereal-lab/"
+      },
+      "representative_works": [
+        {
+          "title": "VChangeCodec: An Ultra Low-Complexity Neural Speech Codec with Built-In Voice Changer for Customized Real-Time Communication",
+          "url": "https://doi.org/10.1109/ICASSP55912.2026.11461501",
+          "kind": "paper",
+          "source": "doi",
+          "metadata": {
+            "team_id": "tencent-ethereal-audio-lab",
+            "work_index": 0,
+            "catalog_title": "VChangeCodec: An Ultra Low-Complexity Neural Speech Codec with Built-In Voice Changer for Customized Real-Time Communication",
+            "catalog_url": "https://doi.org/10.1109/ICASSP55912.2026.11461501",
+            "kind": "paper",
+            "paper": {
+              "title": "VChangeCodec: An Ultra Low-Complexity Neural Speech Codec with Built-In Voice Changer for Customized Real-Time Communication",
+              "url": "https://doi.org/10.1109/icassp55912.2026.11461501",
+              "year": 2026,
+              "venue": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+              "authors": [
+                "Xusheng Yang",
+                "Wei Xiao",
+                "Bang Yang",
+                "Shidong Shang",
+                "Yuexian Zou"
+              ],
+              "external_ids": {
+                "DOI": "10.1109/icassp55912.2026.11461501"
+              }
+            },
+            "summary": "已匹配论文《VChangeCodec: An Ultra Low-Complexity Neural Speech Codec with Built-In Voice Changer for Customized Real-Time Communication》，但开放元数据暂未提供 Abstract；请通过论文原文查看方法与结论。",
+            "citation": {
+              "source": "Semantic Scholar",
+              "count": 0,
+              "influential_count": 0,
+              "source_url": "https://www.semanticscholar.org/paper/b249b7629840361195fcb2c79dc1a8bca3a51add?utm_source=api",
+              "checked_at": "2026-07-30",
+              "verification_status": "verified_external_identifier",
+              "semantic_scholar_paper_id": "b249b7629840361195fcb2c79dc1a8bca3a51add",
+              "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22VChangeCodec%3A+An+Ultra+Low-Complexity+Neural+Speech+Codec+with+Built-In+Voice+Changer+for+Customized+Real-Time+Communication%22"
+            },
+            "metadata_provenance": {
+              "identity_and_abstract": "Crossref",
+              "crossref_url": "https://doi.org/10.1109/icassp55912.2026.11461501"
+            },
+            "resolution_status": "resolved"
+          }
+        },
+        {
+          "title": "A Robust Coverless Audio Steganography Based on Differential Privacy Clustering",
+          "url": "https://doi.org/10.1109/TMM.2025.3543107",
+          "kind": "paper",
+          "source": "doi",
+          "metadata": {
+            "team_id": "tencent-ethereal-audio-lab",
+            "work_index": 1,
+            "catalog_title": "A Robust Coverless Audio Steganography Based on Differential Privacy Clustering",
+            "catalog_url": "https://doi.org/10.1109/TMM.2025.3543107",
+            "kind": "paper",
+            "paper": {
+              "title": "A Robust Coverless Audio Steganography Based on Differential Privacy Clustering",
+              "url": "https://doi.org/10.1109/tmm.2025.3543107",
+              "year": 2025,
+              "venue": "IEEE Transactions on Multimedia",
+              "authors": [
+                "Yan Feng",
+                "Longting Xu",
+                "Xiaochen Lu",
+                "Guanglin Zhang",
+                "Wei Rao"
+              ],
+              "external_ids": {
+                "DOI": "10.1109/tmm.2025.3543107"
+              }
+            },
+            "summary": "已匹配论文《A Robust Coverless Audio Steganography Based on Differential Privacy Clustering》，但开放元数据暂未提供 Abstract；请通过论文原文查看方法与结论。",
+            "citation": {
+              "source": "Semantic Scholar",
+              "count": 4,
+              "influential_count": 0,
+              "source_url": "https://www.semanticscholar.org/paper/70e76d0c23616df0e46daf466c5b0c807c3d81ba?utm_source=api",
+              "checked_at": "2026-07-30",
+              "verification_status": "verified_external_identifier",
+              "semantic_scholar_paper_id": "70e76d0c23616df0e46daf466c5b0c807c3d81ba",
+              "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22A+Robust+Coverless+Audio+Steganography+Based+on+Differential+Privacy+Clustering%22"
+            },
+            "metadata_provenance": {
+              "identity_and_abstract": "Crossref",
+              "crossref_url": "https://doi.org/10.1109/tmm.2025.3543107"
+            },
+            "resolution_status": "resolved"
+          }
+        },
+        {
+          "title": "Advancing Speaker Embedding Learning: WeSpeaker Toolkit for Research and Production",
+          "url": "https://doi.org/10.1016/j.specom.2024.103104",
+          "kind": "paper",
+          "source": "doi",
+          "metadata": {
+            "team_id": "tencent-ethereal-audio-lab",
+            "work_index": 2,
+            "catalog_title": "Advancing Speaker Embedding Learning: WeSpeaker Toolkit for Research and Production",
+            "catalog_url": "https://doi.org/10.1016/j.specom.2024.103104",
+            "kind": "paper",
+            "paper": {
+              "title": "Advancing Speaker Embedding Learning: Wespeaker Toolkit for Research and Production",
+              "url": "https://doi.org/10.2139/ssrn.4748855",
+              "year": 2024,
+              "authors": [
+                "Shuai Wang",
+                "Zhengyang Chen",
+                "Bing Han",
+                "Hongji Wang",
+                "Chengdong Liang",
+                "Binbin Zhang",
+                "Xu Xiang",
+                "Wen Ding",
+                "Johan Rohdin",
+                "Anna Silnova"
+              ],
+              "external_ids": {
+                "DOI": "10.2139/ssrn.4748855"
+              }
+            },
+            "summary": "已匹配论文《Advancing Speaker Embedding Learning: Wespeaker Toolkit for Research and Production》，但开放元数据暂未提供 Abstract；请通过论文原文查看方法与结论。",
+            "citation": {
+              "source": "Google Scholar",
+              "source_url": "https://scholar.google.com/scholar?hl=en&q=%22Advancing+Speaker+Embedding+Learning%3A+Wespeaker+Toolkit+for+Research+and+Production%22",
+              "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22Advancing+Speaker+Embedding+Learning%3A+Wespeaker+Toolkit+for+Research+and+Production%22",
+              "verification_status": "search_link_only",
+              "semantic_scholar_status": "not_found",
+              "checked_at": "2026-07-30"
+            },
+            "metadata_provenance": {
+              "identity_and_abstract": "Crossref",
+              "crossref_url": "https://doi.org/10.2139/ssrn.4748855"
+            },
+            "resolution_status": "resolved"
+          }
+        }
+      ],
+      "recent_work": {
+        "title": "VChangeCodec: An Ultra Low-Complexity Neural Speech Codec with Built-In Voice Changer for Customized Real-Time Communication",
+        "url": "https://doi.org/10.1109/ICASSP55912.2026.11461501",
+        "kind": "paper",
+        "source": "doi",
+        "metadata": {
+          "team_id": "tencent-ethereal-audio-lab",
+          "work_index": 0,
+          "catalog_title": "VChangeCodec: An Ultra Low-Complexity Neural Speech Codec with Built-In Voice Changer for Customized Real-Time Communication",
+          "catalog_url": "https://doi.org/10.1109/ICASSP55912.2026.11461501",
+          "kind": "paper",
+          "paper": {
+            "title": "VChangeCodec: An Ultra Low-Complexity Neural Speech Codec with Built-In Voice Changer for Customized Real-Time Communication",
+            "url": "https://doi.org/10.1109/icassp55912.2026.11461501",
+            "year": 2026,
+            "venue": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+            "authors": [
+              "Xusheng Yang",
+              "Wei Xiao",
+              "Bang Yang",
+              "Shidong Shang",
+              "Yuexian Zou"
+            ],
+            "external_ids": {
+              "DOI": "10.1109/icassp55912.2026.11461501"
+            }
+          },
+          "summary": "已匹配论文《VChangeCodec: An Ultra Low-Complexity Neural Speech Codec with Built-In Voice Changer for Customized Real-Time Communication》，但开放元数据暂未提供 Abstract；请通过论文原文查看方法与结论。",
+          "citation": {
+            "source": "Semantic Scholar",
+            "count": 0,
+            "influential_count": 0,
+            "source_url": "https://www.semanticscholar.org/paper/b249b7629840361195fcb2c79dc1a8bca3a51add?utm_source=api",
+            "checked_at": "2026-07-30",
+            "verification_status": "verified_external_identifier",
+            "semantic_scholar_paper_id": "b249b7629840361195fcb2c79dc1a8bca3a51add",
+            "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22VChangeCodec%3A+An+Ultra+Low-Complexity+Neural+Speech+Codec+with+Built-In+Voice+Changer+for+Customized+Real-Time+Communication%22"
+          },
+          "metadata_provenance": {
+            "identity_and_abstract": "Crossref",
+            "crossref_url": "https://doi.org/10.1109/icassp55912.2026.11461501"
+          },
+          "resolution_status": "resolved"
+        },
+        "recency": {
+          "work_index": 0,
+          "title": "VChangeCodec: An Ultra Low-Complexity Neural Speech Codec with Built-In Voice Changer for Customized Real-Time Communication",
+          "url": "https://doi.org/10.1109/ICASSP55912.2026.11461501",
+          "recent_at": "2026",
           "recency_source": "paper_year",
           "selection_note": "从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。"
         }
@@ -3650,7 +4845,7 @@
             "summary": "该研究提出GameFactory框架，用于生成动态控制的场景通用游戏视频。通过引入GF-Minecraft数据集和精确控制模块，GameFactory解决了动作控制的关键问题，并实现了无限长度的自回归生成。该框架利用预训练视频 diffuser 模型的开放域先验，推广了场景通用动作控制，实现了游戏生成的重要突破。",
             "citation": {
               "source": "Semantic Scholar",
-              "count": 111,
+              "count": 112,
               "influential_count": 7,
               "source_url": "https://www.semanticscholar.org/paper/1994f886b74aff3ef31802769f2c502dbe0b25aa?utm_source=api",
               "checked_at": "2026-07-30",
@@ -3716,7 +4911,7 @@
             "summary": "该研究旨在解决视频生成中不平滑运动和视频与指示的不匹配问题。通过构建大规模的人类偏好数据集和引入VideoReward模型，研究人员开发了一种系统 pipelines， harnessing human feedback 来优化视频生成模型。实验结果表明，VideoReward显著高于现有奖励模型，而Flow-DPO在训练时间策略中表现出更好的性能。",
             "citation": {
               "source": "Semantic Scholar",
-              "count": 228,
+              "count": 229,
               "influential_count": 43,
               "source_url": "https://www.semanticscholar.org/paper/2bb2f4e3a55c19c66875ea0a84d409b6a2e16fce?utm_source=api",
               "checked_at": "2026-07-30",
@@ -3783,7 +4978,7 @@
           "summary": "该研究旨在解决视频生成中不平滑运动和视频与指示的不匹配问题。通过构建大规模的人类偏好数据集和引入VideoReward模型，研究人员开发了一种系统 pipelines， harnessing human feedback 来优化视频生成模型。实验结果表明，VideoReward显著高于现有奖励模型，而Flow-DPO在训练时间策略中表现出更好的性能。",
           "citation": {
             "source": "Semantic Scholar",
-            "count": 228,
+            "count": 229,
             "influential_count": 43,
             "source_url": "https://www.semanticscholar.org/paper/2bb2f4e3a55c19c66875ea0a84d409b6a2e16fce?utm_source=api",
             "checked_at": "2026-07-30",
@@ -7731,7 +8926,7 @@
             "citation": {
               "source": "Semantic Scholar",
               "count": 1334,
-              "influential_count": 127,
+              "influential_count": 126,
               "source_url": "https://www.semanticscholar.org/paper/53a803388e83ae89261624099d7be4287ace67cb?utm_source=api",
               "checked_at": "2026-07-30",
               "verification_status": "verified_external_identifier",
@@ -7798,7 +8993,7 @@
           "citation": {
             "source": "Semantic Scholar",
             "count": 1334,
-            "influential_count": 127,
+            "influential_count": 126,
             "source_url": "https://www.semanticscholar.org/paper/53a803388e83ae89261624099d7be4287ace67cb?utm_source=api",
             "checked_at": "2026-07-30",
             "verification_status": "verified_external_identifier",
@@ -9032,31 +10227,31 @@
         }
       ],
       "recent_work": {
-        "title": "Tooling for agile modeling on large machine perception embedding databases.",
-        "url": "https://github.com/google-research/perch-hoplite",
+        "title": "Google Research",
+        "url": "https://github.com/google-research/google-research",
         "kind": "open_source",
         "source": "github",
-        "stars": 120,
+        "stars": 38436,
         "metadata": {
           "team_id": "google-research",
-          "work_index": 2,
-          "catalog_title": "Tooling for agile modeling on large machine perception embedding databases.",
-          "catalog_url": "https://github.com/google-research/perch-hoplite",
+          "work_index": 0,
+          "catalog_title": "Google Research",
+          "catalog_url": "https://github.com/google-research/google-research",
           "kind": "open_source",
-          "summary": "这是团队公开的开源研究成果。目录中的公开说明为：Tooling for agile modeling on large machine perception embedding databases. 可通过原始链接查看完整项目、论文或数据说明。",
+          "summary": "这是团队公开的开源研究成果。目录中的公开说明为：Google Research 可通过原始链接查看完整项目、论文或数据说明。",
           "citation": {
           },
           "code_impact": {
-            "github_stars": 120,
+            "github_stars": 38436,
             "checked_at": "2026-07-30"
           },
           "resolution_status": "unresolved"
         },
         "recency": {
-          "work_index": 2,
-          "title": "Tooling for agile modeling on large machine perception embedding databases.",
-          "url": "https://github.com/google-research/perch-hoplite",
-          "recent_at": "2026-07-29",
+          "work_index": 0,
+          "title": "Google Research",
+          "url": "https://github.com/google-research/google-research",
+          "recent_at": "2026-07-30",
           "recency_source": "github_pushed_at",
           "selection_note": "从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。"
         }
@@ -9180,8 +10375,8 @@
             "summary": "VGGT是一种能够直接从视图中推导场景的3D属性，包括相机参数、点云、深度图和3D点轨迹。该方法在多个3D任务上取得了state-of-the-art结果，并且具有简单高效的特性，可以在一秒内重构图像。",
             "citation": {
               "source": "Semantic Scholar",
-              "count": 1547,
-              "influential_count": 423,
+              "count": 1550,
+              "influential_count": 424,
               "source_url": "https://www.semanticscholar.org/paper/4356b46e5dd1a4ebd579b1cd6eb3eeedddd5a65c?utm_source=api",
               "checked_at": "2026-07-30",
               "verification_status": "verified_external_identifier",
@@ -9263,7 +10458,7 @@
             "summary": "以下是简要的 TL;DR : 该研究引入了 Navigation World Model（NWM），一种可以预测未来视觉观察结果的可控制视频生成模型。NWM使用Conditional 扩散 Transformer（CDiT）来捕捉复杂环境动态，通过模拟和评估导航轨迹来规划导航轨迹。在实验中，NWM证明了在熟悉环境中有效地规划导航轨迹，并且可以动态 incorporate约束。",
             "citation": {
               "source": "Semantic Scholar",
-              "count": 282,
+              "count": 283,
               "influential_count": 32,
               "source_url": "https://www.semanticscholar.org/paper/9ca72cef4487494cd835e7abca65794407db62ee?utm_source=api",
               "checked_at": "2026-07-30",
@@ -9326,8 +10521,8 @@
           "summary": "VGGT是一种能够直接从视图中推导场景的3D属性，包括相机参数、点云、深度图和3D点轨迹。该方法在多个3D任务上取得了state-of-the-art结果，并且具有简单高效的特性，可以在一秒内重构图像。",
           "citation": {
             "source": "Semantic Scholar",
-            "count": 1547,
-            "influential_count": 423,
+            "count": 1550,
+            "influential_count": 424,
             "source_url": "https://www.semanticscholar.org/paper/4356b46e5dd1a4ebd579b1cd6eb3eeedddd5a65c?utm_source=api",
             "checked_at": "2026-07-30",
             "verification_status": "verified_external_identifier",
@@ -9479,8 +10674,8 @@
             "summary": "研究者提出了VGGT，一个能够直接从单个视图或多个视图中推导场景的3D属性，包括相机参数、点云、深度图和3D点轨迹。该方法在多个3D任务上取得了state-of-the-art结果，并且具有简单高效的特性，可以在一秒内重建图像。",
             "citation": {
               "source": "Semantic Scholar",
-              "count": 1547,
-              "influential_count": 423,
+              "count": 1550,
+              "influential_count": 424,
               "source_url": "https://www.semanticscholar.org/paper/4356b46e5dd1a4ebd579b1cd6eb3eeedddd5a65c?utm_source=api",
               "checked_at": "2026-07-30",
               "verification_status": "verified_external_identifier",
@@ -9562,7 +10757,7 @@
             "summary": "该研究引入了Navigation World Model（NWM），一种可控制的视频生成模型，能够预测未来视觉观察值基于过去观察值和导航行为。NWM使用条件分辉Transformer（CDiT）来捕捉复杂环境动态，利用人机双方的多样化视频数据，并将参数规模扩大到1亿。实验结果表明，在熟悉环境中，NWM可以通过模拟导航轨迹并评估是否达到目标来规划导航轨迹。与固定行为的监督导航策略不同，NWM可以在规划过程中动态包含约束。",
             "citation": {
               "source": "Semantic Scholar",
-              "count": 282,
+              "count": 283,
               "influential_count": 32,
               "source_url": "https://www.semanticscholar.org/paper/9ca72cef4487494cd835e7abca65794407db62ee?utm_source=api",
               "checked_at": "2026-07-30",
@@ -9625,8 +10820,8 @@
           "summary": "研究者提出了VGGT，一个能够直接从单个视图或多个视图中推导场景的3D属性，包括相机参数、点云、深度图和3D点轨迹。该方法在多个3D任务上取得了state-of-the-art结果，并且具有简单高效的特性，可以在一秒内重建图像。",
           "citation": {
             "source": "Semantic Scholar",
-            "count": 1547,
-            "influential_count": 423,
+            "count": 1550,
+            "influential_count": 424,
             "source_url": "https://www.semanticscholar.org/paper/4356b46e5dd1a4ebd579b1cd6eb3eeedddd5a65c?utm_source=api",
             "checked_at": "2026-07-30",
             "verification_status": "verified_external_identifier",
@@ -11379,8 +12574,8 @@
             "summary": "研究者开发了基础Stereo模型，旨在实现强大的零shot泛化能力。该模型通过构建大规模的合成数据集和自适应的优化管道来获得强大的鲁棒性和精度。结果表明，该模型在不同域上表现出强大的零shot泛化能力，建立了新标准。",
             "citation": {
               "source": "Semantic Scholar",
-              "count": 246,
-              "influential_count": 39,
+              "count": 248,
+              "influential_count": 40,
               "source_url": "https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api",
               "checked_at": "2026-07-30",
               "verification_status": "verified_external_identifier",
@@ -11500,8 +12695,8 @@
           "summary": "研究者开发了基础Stereo模型，旨在实现强大的零shot泛化能力。该模型通过构建大规模的合成数据集和自适应的优化管道来获得强大的鲁棒性和精度。结果表明，该模型在不同域上表现出强大的零shot泛化能力，建立了新标准。",
           "citation": {
             "source": "Semantic Scholar",
-            "count": 246,
-            "influential_count": 39,
+            "count": 248,
+            "influential_count": 40,
             "source_url": "https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api",
             "checked_at": "2026-07-30",
             "verification_status": "verified_external_identifier",
@@ -11704,8 +12899,8 @@
             "summary": "研究者开发了基础Stereo模型，旨在实现强大的零-shot通用性。该模型通过构建大规模的合成数据集和自适应的优化管道来获得强大的泛化能力，并且采用多种网络组件来增强可扩性和鲁棒性。",
             "citation": {
               "source": "Semantic Scholar",
-              "count": 246,
-              "influential_count": 39,
+              "count": 248,
+              "influential_count": 40,
               "source_url": "https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api",
               "checked_at": "2026-07-30",
               "verification_status": "verified_external_identifier",
@@ -11825,8 +13020,8 @@
           "summary": "研究者开发了基础Stereo模型，旨在实现强大的零-shot通用性。该模型通过构建大规模的合成数据集和自适应的优化管道来获得强大的泛化能力，并且采用多种网络组件来增强可扩性和鲁棒性。",
           "citation": {
             "source": "Semantic Scholar",
-            "count": 246,
-            "influential_count": 39,
+            "count": 248,
+            "influential_count": 40,
             "source_url": "https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api",
             "checked_at": "2026-07-30",
             "verification_status": "verified_external_identifier",
@@ -12029,8 +13224,8 @@
             "summary": "研究者开发了基础Stereo模型，旨在实现强大的零shot泛化能力。该模型通过构建大规模的合成数据集和自 curated 的数据处理 pipeline，结合多个网络组件来提高模型的可靠性和精度。",
             "citation": {
               "source": "Semantic Scholar",
-              "count": 246,
-              "influential_count": 39,
+              "count": 248,
+              "influential_count": 40,
               "source_url": "https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api",
               "checked_at": "2026-07-30",
               "verification_status": "verified_external_identifier",
@@ -12150,8 +13345,8 @@
           "summary": "研究者开发了基础Stereo模型，旨在实现强大的零shot泛化能力。该模型通过构建大规模的合成数据集和自 curated 的数据处理 pipeline，结合多个网络组件来提高模型的可靠性和精度。",
           "citation": {
             "source": "Semantic Scholar",
-            "count": 246,
-            "influential_count": 39,
+            "count": 248,
+            "influential_count": 40,
             "source_url": "https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api",
             "checked_at": "2026-07-30",
             "verification_status": "verified_external_identifier",
@@ -12354,8 +13549,8 @@
             "summary": "研究者开发了基础Stereo模型，旨在实现强大的零-shot通用性。该模型通过构建大规模的合成数据集和自适应的优化管道来获得强大的泛化能力，并且采用多个网络组件来增强可扩性和鲁棒性。",
             "citation": {
               "source": "Semantic Scholar",
-              "count": 246,
-              "influential_count": 39,
+              "count": 248,
+              "influential_count": 40,
               "source_url": "https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api",
               "checked_at": "2026-07-30",
               "verification_status": "verified_external_identifier",
@@ -12475,8 +13670,8 @@
           "summary": "研究者开发了基础Stereo模型，旨在实现强大的零-shot通用性。该模型通过构建大规模的合成数据集和自适应的优化管道来获得强大的泛化能力，并且采用多个网络组件来增强可扩性和鲁棒性。",
           "citation": {
             "source": "Semantic Scholar",
-            "count": 246,
-            "influential_count": 39,
+            "count": 248,
+            "influential_count": 40,
             "source_url": "https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api",
             "checked_at": "2026-07-30",
             "verification_status": "verified_external_identifier",
@@ -13858,8 +15053,8 @@
             "summary": "该研究探讨了长时间运行的智能代理在有限活动环境下如何保持稳定性。研究重点不仅是模型质量，还是在中间层次上研究如何让代理维持、退役、替换、压缩、分支和重置竞争性的假设或路线总结。该框架将搜索状态表示为一个被分成粗糙家族的活跃假设组合，各个项目都包含了承诺、验证延迟、保留成本、老化、重叠负担和 inertia。研究的关键贡献是建立了一种适当性语义：在每个鉴别窗口中，系统与一个非空随机集合相关联，这个集合由现实初始信息状态和下游随机性的实现所诞生。成功定义为在第一阶段强烈鉴别的验证阶段中至少保留一个适当家族的recoverability，避免依赖于选择器定义的伪真。研究",
             "citation": {
               "source": "Semantic Scholar",
-              "count": 312,
-              "influential_count": 40,
+              "count": 315,
+              "influential_count": 39,
               "source_url": "https://www.semanticscholar.org/paper/7c44b7fdcec2e517799f6c54f6ba42bf1a89d2e6?utm_source=api",
               "checked_at": "2026-07-30",
               "verification_status": "verified_external_identifier",
@@ -13919,8 +15114,8 @@
           "summary": "该研究探讨了长时间运行的智能代理在有限活动环境下如何保持稳定性。研究重点不仅是模型质量，还是在中间层次上研究如何让代理维持、退役、替换、压缩、分支和重置竞争性的假设或路线总结。该框架将搜索状态表示为一个被分成粗糙家族的活跃假设组合，各个项目都包含了承诺、验证延迟、保留成本、老化、重叠负担和 inertia。研究的关键贡献是建立了一种适当性语义：在每个鉴别窗口中，系统与一个非空随机集合相关联，这个集合由现实初始信息状态和下游随机性的实现所诞生。成功定义为在第一阶段强烈鉴别的验证阶段中至少保留一个适当家族的recoverability，避免依赖于选择器定义的伪真。研究",
           "citation": {
             "source": "Semantic Scholar",
-            "count": 312,
-            "influential_count": 40,
+            "count": 315,
+            "influential_count": 39,
             "source_url": "https://www.semanticscholar.org/paper/7c44b7fdcec2e517799f6c54f6ba42bf1a89d2e6?utm_source=api",
             "checked_at": "2026-07-30",
             "verification_status": "verified_external_identifier",
@@ -18353,7 +19548,7 @@
             "summary": "该研究提出了一种轻量化的Vision-Language-Action（VLA）模型Evo-1，通过减少计算成本和提高部署效率，实现了强大的性能。Evo-1结合了多模态视觉语言模型和跨模态diffusion变换器，采用两阶段训练方法来优化表示。该模型在Meta-World和RoboTwin等suite上取得了state-of-the-art结果，并在实际应用中表现出高成功率和低内存占用。",
             "citation": {
               "source": "Semantic Scholar",
-              "count": 32,
+              "count": 34,
               "influential_count": 2,
               "source_url": "https://www.semanticscholar.org/paper/2073b51ba5c2976373244eb4dd6ffcbea9d15954?utm_source=api",
               "checked_at": "2026-07-30",
@@ -18420,7 +19615,7 @@
           "summary": "该研究提出了一种轻量化的Vision-Language-Action（VLA）模型Evo-1，通过减少计算成本和提高部署效率，实现了强大的性能。Evo-1结合了多模态视觉语言模型和跨模态diffusion变换器，采用两阶段训练方法来优化表示。该模型在Meta-World和RoboTwin等suite上取得了state-of-the-art结果，并在实际应用中表现出高成功率和低内存占用。",
           "citation": {
             "source": "Semantic Scholar",
-            "count": 32,
+            "count": 34,
             "influential_count": 2,
             "source_url": "https://www.semanticscholar.org/paper/2073b51ba5c2976373244eb4dd6ffcbea9d15954?utm_source=api",
             "checked_at": "2026-07-30",
@@ -18568,7 +19763,7 @@
             "summary": "研究表明，复杂推理在大语言模型中不一定需要大量的训练数据。通过简单的监督 fine-tuning，LIMO模型可以获得63.3%的准确率和95.6%的准确率，并且在出于分布中的一般化方面表现出强大的能力。研究结果支持“Less-Is-More Reasoning Hypothesis”，即当基础模型中已有充分的知识编码时，通过少量但策略性的示例来引导推理可以获得复杂的推理。",
             "citation": {
               "source": "Semantic Scholar",
-              "count": 491,
+              "count": 492,
               "influential_count": 70,
               "source_url": "https://www.semanticscholar.org/paper/b62d0605137463ea591a0619840305cb98f6958f?utm_source=api",
               "checked_at": "2026-07-30",
@@ -18752,7 +19947,7 @@
           "summary": "研究表明，复杂推理在大语言模型中不一定需要大量的训练数据。通过简单的监督 fine-tuning，LIMO模型可以获得63.3%的准确率和95.6%的准确率，并且在出于分布中的一般化方面表现出强大的能力。研究结果支持“Less-Is-More Reasoning Hypothesis”，即当基础模型中已有充分的知识编码时，通过少量但策略性的示例来引导推理可以获得复杂的推理。",
           "citation": {
             "source": "Semantic Scholar",
-            "count": 491,
+            "count": 492,
             "influential_count": 70,
             "source_url": "https://www.semanticscholar.org/paper/b62d0605137463ea591a0619840305cb98f6958f?utm_source=api",
             "checked_at": "2026-07-30",
@@ -30252,8 +31447,8 @@
             "summary": "研究人员开发了一种开源深度学习库，旨在解决机器人强化学习的实施难题。实验结果表明，该方法可以在短时间内有效地学习和实现复杂任务，如板式组装、线路布局和物体移动，表现出极高的成功率和对扰动的鲁棒性。",
             "citation": {
               "source": "Semantic Scholar",
-              "count": 163,
-              "influential_count": 8,
+              "count": 164,
+              "influential_count": 9,
               "source_url": "https://www.semanticscholar.org/paper/fc4d4a25aac973b516c0bf890e36660fe228e79a?utm_source=api",
               "checked_at": "2026-07-30",
               "verification_status": "verified_external_identifier",
@@ -30311,8 +31506,8 @@
           "summary": "研究人员开发了一种开源深度学习库，旨在解决机器人强化学习的实施难题。实验结果表明，该方法可以在短时间内有效地学习和实现复杂任务，如板式组装、线路布局和物体移动，表现出极高的成功率和对扰动的鲁棒性。",
           "citation": {
             "source": "Semantic Scholar",
-            "count": 163,
-            "influential_count": 8,
+            "count": 164,
+            "influential_count": 9,
             "source_url": "https://www.semanticscholar.org/paper/fc4d4a25aac973b516c0bf890e36660fe228e79a?utm_source=api",
             "checked_at": "2026-07-30",
             "verification_status": "verified_external_identifier",
@@ -33505,7 +34700,7 @@
             "summary": "该研究提出了AgentPoison，一个针对LLM agents的红队攻击方法，通过污染其长期记忆或知识库来实现安全性和可信度的侵蚀。实验结果表明，AgentPoison在攻击三个现实世界的LLM agent中成功率高达80%以上，并且对正常性能的影响较小。",
             "citation": {
               "source": "Semantic Scholar",
-              "count": 394,
+              "count": 395,
               "influential_count": 47,
               "source_url": "https://www.semanticscholar.org/paper/b6948a9e8b3eec5a56a80c69727154fcd7ececce?utm_source=api",
               "checked_at": "2026-07-30",
