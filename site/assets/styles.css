@@ -423,6 +423,15 @@ footer {
 .footer-brand { margin-bottom: 12px; }
 .footer-links { display: flex; gap: 16px; }
 .footer-links a { color: var(--slate-700); text-decoration: none; }
+.semantic-scholar-credit {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  color: var(--slate-500);
+  text-decoration: none;
+}
+.semantic-scholar-credit img { width: 112px; height: auto; }
 
 @media (max-width: 900px) {
   .stats { grid-template-columns: repeat(2, 1fr); }

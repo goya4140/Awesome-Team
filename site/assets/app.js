@@ -1,4 +1,4 @@
-const CATALOG_VERSION = "20260730-leaders-v2";
+const CATALOG_VERSION = "20260730-citations-v1";
 
 const state = {
   data: null,
@@ -67,7 +67,7 @@ function setup(data) {
   document.querySelector("#parent-count").textContent = formatNumber(meta.counts.parents);
   document.querySelector("#paper-count").textContent = formatNumber(meta.counts.resolved_papers);
   document.querySelector("#figure-count").textContent = formatNumber(meta.counts.works_with_figures);
-  document.querySelector("#scholar-count").textContent = formatNumber(meta.counts.scholar_links);
+  document.querySelector("#scholar-count").textContent = formatNumber(meta.counts.semantic_scholar_counts);
   document.querySelector("#last-updated").textContent = meta.last_updated;
 
   addOptions(elements.region, [...new Set(data.parents.map((parent) => parent.region))], (value) => labels[value] || value);
@@ -129,7 +129,10 @@ function workMarkup(work) {
   const title = paper.title || work.title;
   const subline = [paper.venue, paper.year, labels[work.kind]].filter(Boolean).join(" · ");
   const citationKnown = citation.count !== null && citation.count !== undefined;
-  const scholarAvailable = citation.source === "Google Scholar" && citation.source_url;
+  const googleScholarUrl = citation.google_scholar_url ||
+    (citation.source === "Google Scholar" ? citation.source_url : null);
+  const influentialKnown = Number.isInteger(citation.influential_count) &&
+    citation.influential_count > 0;
   const stars = metadata.code_impact?.github_stars;
   const paperUrl = paper.url || work.url;
 
@@ -141,21 +144,24 @@ function workMarkup(work) {
           <span class="work-subline">${escapeHtml(subline)}</span>
         </span>
         <span class="citation-badge ${citationKnown ? "" : "unknown"}">
-          ${citationKnown ? `引用 ${formatNumber(citation.count)}` : scholarAvailable ? "Google Scholar ↗" : "非论文条目"}
+          ${citationKnown ? `引用 ${formatNumber(citation.count)}` : googleScholarUrl ? "Google Scholar ↗" : "非论文条目"}
         </span>
       </summary>
       <div class="work-detail">
         <h4>${metadata.abstract ? "基于 Abstract 的 TL;DR" : "摘要 / 项目说明"}</h4>
         <p>${escapeHtml(metadata.summary)}</p>
         <div class="impact-row">
-          ${citationKnown ? `<span class="impact-chip">引用量：${formatNumber(citation.count)} · ${escapeHtml(citation.source)} · ${escapeHtml(citation.checked_at)}</span>` : scholarAvailable ? `<a class="impact-chip scholar-chip" href="${escapeHtml(citation.source_url)}" target="_blank" rel="noreferrer">在 Google Scholar 查看引用量 ↗</a>` : ""}
+          ${citationKnown ? `<span class="impact-chip">引用量：${formatNumber(citation.count)} · ${escapeHtml(citation.source)} · ${escapeHtml(citation.checked_at)}</span>` : ""}
+          ${influentialKnown ? `<span class="impact-chip">高影响引用：${formatNumber(citation.influential_count)} · Semantic Scholar</span>` : ""}
+          ${!citationKnown && googleScholarUrl ? `<a class="impact-chip scholar-chip" href="${escapeHtml(googleScholarUrl)}" target="_blank" rel="noreferrer">在 Google Scholar 检索 ↗</a>` : ""}
           ${stars !== undefined ? `<span class="impact-chip">GitHub Stars：${formatNumber(stars)} · 与引用量分开统计</span>` : ""}
           <span class="impact-chip">匹配状态：${escapeHtml(metadata.resolution_status)}</span>
         </div>
         <div class="work-links">
           <a href="${escapeHtml(paperUrl)}" target="_blank" rel="noreferrer">论文 / 项目 ↗</a>
           ${work.url !== paperUrl ? `<a href="${escapeHtml(work.url)}" target="_blank" rel="noreferrer">代码 / 原始入口 ↗</a>` : ""}
-          ${citation.source_url ? `<a href="${escapeHtml(citation.source_url)}" target="_blank" rel="noreferrer">引用数据源 ↗</a>` : ""}
+          ${citation.source_url && citation.source === "Semantic Scholar" ? `<a href="${escapeHtml(citation.source_url)}" target="_blank" rel="noreferrer">Semantic Scholar ↗</a>` : ""}
+          ${googleScholarUrl ? `<a href="${escapeHtml(googleScholarUrl)}" target="_blank" rel="noreferrer">Google Scholar ↗</a>` : ""}
         </div>
         ${figure ? `
           <figure class="paper-figure">

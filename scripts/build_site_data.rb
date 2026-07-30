@@ -51,7 +51,8 @@ payload = {
       "works" => all_works.length,
       "resolved_papers" => all_works.count { |work| work.dig("metadata", "resolution_status") == "resolved" },
       "works_with_figures" => all_works.count { |work| work.dig("metadata", "figure", "image_url") },
-      "scholar_links" => all_works.count { |work| work.dig("metadata", "citation", "source") == "Google Scholar" }
+      "scholar_links" => all_works.count { |work| work.dig("metadata", "citation", "google_scholar_url") || work.dig("metadata", "citation", "source") == "Google Scholar" },
+      "semantic_scholar_counts" => all_works.count { |work| work.dig("metadata", "citation", "source") == "Semantic Scholar" }
     }
   },
   "parents" => parents,

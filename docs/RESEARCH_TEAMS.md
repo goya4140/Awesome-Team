@@ -2,11 +2,13 @@
 
 > GitHub 内可直接浏览的基础资料版。更适合筛选和阅读图表的版本见 [在线目录](https://goya4140.github.io/awesome-team/)。
 
-更新日期：**2026-07-30** · 引用入口：[Google Scholar](https://scholar.google.com/)
+更新日期：**2026-07-30** · 引用量：[Semantic Scholar](https://www.semanticscholar.org/?utm_source=api) · 检索入口：[Google Scholar](https://scholar.google.com/)
 
-当前收录 **153** 个团队（132 verified / 21 provisional），共 **459** 项代表成果；其中 **176** 项已匹配论文元数据，**125** 项带原文图表。
+<a href="https://www.semanticscholar.org/?utm_source=api"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Semantic_Scholar_logo.svg" width="160" alt="Semantic Scholar"></a>
 
-Google Scholar 没有官方公开结构化 API；未逐篇核验的数字不缓存，改为提供精确标题检索入口。`research_index` 是官方研究入口，不冒充单篇论文。
+当前收录 **153** 个团队（132 verified / 21 provisional），共 **459** 项代表成果；其中 **176** 项已匹配论文元数据，**164** 项带 Semantic Scholar 引用量，**125** 项带原文图表。
+
+Semantic Scholar 引用量通过 arXiv / DOI 标识符核验并带检查日期；Google Scholar 保留为精确标题检索入口。两个索引的数字不混用。`research_index` 是官方研究入口，不冒充单篇论文。
 
 ## 快速导航
 
@@ -41,7 +43,7 @@ ByteDance Seed 隶属于 ByteDance，是一支主要关注基础模型、多模�
 <details>
 <summary><strong>3. DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22DAComp%3A+Benchmarking+Data+Agents+across+the+Full+Data+Intelligence+Lifecycle%22)（未缓存未经核验的数字）
+- 引用量：**11**（[Semantic Scholar](https://www.semanticscholar.org/paper/3225bcfaed8f408d32912f1bf143bbb7fb238f3e?utm_source=api)，2026-07-30 · 高影响引用 **1**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22DAComp%3A+Benchmarking+Data+Agents+across+the+Full+Data+Intelligence+Lifecycle%22)
 - GitHub Stars：**433**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2512.04324)
 
@@ -76,7 +78,7 @@ ByteDance Seed 隶属于 ByteDance，是一支主要关注基础模型、多模�
 <details>
 <summary><strong>2. Trace Anything: Representing Any Video in 4D via Trajectory Fields</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Trace+Anything%3A+Representing+Any+Video+in+4D+via+Trajectory+Fields%22)（未缓存未经核验的数字）
+- 引用量：**28**（[Semantic Scholar](https://www.semanticscholar.org/paper/2caa9d99d51b61b845e27f751ce4873c3dbf05d6?utm_source=api)，2026-07-30 · 高影响引用 **2**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Trace+Anything%3A+Representing+Any+Video+in+4D+via+Trajectory+Fields%22)
 - GitHub Stars：**543**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.13802)
 
@@ -96,7 +98,7 @@ ByteDance Seed 隶属于 ByteDance，是一支主要关注基础模型、多模�
 <details>
 <summary><strong>3. DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22DAComp%3A+Benchmarking+Data+Agents+across+the+Full+Data+Intelligence+Lifecycle%22)（未缓存未经核验的数字）
+- 引用量：**11**（[Semantic Scholar](https://www.semanticscholar.org/paper/3225bcfaed8f408d32912f1bf143bbb7fb238f3e?utm_source=api)，2026-07-30 · 高影响引用 **1**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22DAComp%3A+Benchmarking+Data+Agents+across+the+Full+Data+Intelligence+Lifecycle%22)
 - GitHub Stars：**433**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2512.04324)
 
@@ -134,7 +136,7 @@ Qwen Team 隶属于 Alibaba，是一支主要关注大语言模型、多模态�
 <details>
 <summary><strong>2. PolyMath: Evaluating Mathematical Reasoning in Multilingual Contexts</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22PolyMath%3A+Evaluating+Mathematical+Reasoning+in+Multilingual+Contexts%22)（未缓存未经核验的数字）
+- 引用量：**52**（[Semantic Scholar](https://www.semanticscholar.org/paper/9b53d41c4bc710493cc8ec88716ae87e0eab75f8?utm_source=api)，2026-07-30 · 高影响引用 **8**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22PolyMath%3A+Evaluating+Mathematical+Reasoning+in+Multilingual+Contexts%22)
 - GitHub Stars：**43**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2504.18428)
 
@@ -149,7 +151,7 @@ Qwen Team 隶属于 Alibaba，是一支主要关注大语言模型、多模态�
 <details>
 <summary><strong>1. ProcessBench: Identifying Process Errors in Mathematical Reasoning</strong> · Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22ProcessBench%3A+Identifying+Process+Errors+in+Mathematical+Reasoning%22)（未缓存未经核验的数字）
+- 引用量：Semantic Scholar 暂未收录 · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22ProcessBench%3A+Identifying+Process+Errors+in+Mathematical+Reasoning%22)
 - GitHub Stars：**190**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.18653/v1/2025.acl-long.50)
 
@@ -162,7 +164,7 @@ Qwen Team 隶属于 Alibaba，是一支主要关注大语言模型、多模态�
 <details>
 <summary><strong>2. PolyMath: Evaluating Mathematical Reasoning in Multilingual Contexts</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22PolyMath%3A+Evaluating+Mathematical+Reasoning+in+Multilingual+Contexts%22)（未缓存未经核验的数字）
+- 引用量：**52**（[Semantic Scholar](https://www.semanticscholar.org/paper/9b53d41c4bc710493cc8ec88716ae87e0eab75f8?utm_source=api)，2026-07-30 · 高影响引用 **8**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22PolyMath%3A+Evaluating+Mathematical+Reasoning+in+Multilingual+Contexts%22)
 - GitHub Stars：**43**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2504.18428)
 
@@ -204,7 +206,7 @@ DAMO Academy 隶属于 Alibaba，是一支主要关注计算机视觉、语言�
 <details>
 <summary><strong>2. RynnVLA-001: Using Human Demonstrations to Improve Robot Manipulation</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22RynnVLA-001%3A+Using+Human+Demonstrations+to+Improve+Robot+Manipulation%22)（未缓存未经核验的数字）
+- 引用量：**22**（[Semantic Scholar](https://www.semanticscholar.org/paper/b90611582652cc0c652a5a39354aaa6751aea3ff?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22RynnVLA-001%3A+Using+Human+Demonstrations+to+Improve+Robot+Manipulation%22)
 - GitHub Stars：**303**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2509.15212)
 
@@ -226,7 +228,7 @@ DAMO Academy 隶属于 Alibaba，是一支主要关注计算机视觉、语言�
 <details>
 <summary><strong>1. Uni3C: Unifying Precisely 3D-Enhanced Camera and Human Motion Controls for Video Generation</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Uni3C%3A+Unifying+Precisely+3D-Enhanced+Camera+and+Human+Motion+Controls+for+Video+Generation%22)（未缓存未经核验的数字）
+- 引用量：**73**（[Semantic Scholar](https://www.semanticscholar.org/paper/d1aa3b3dde62530aea15355a5fb58259665ca325?utm_source=api)，2026-07-30 · 高影响引用 **14**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Uni3C%3A+Unifying+Precisely+3D-Enhanced+Camera+and+Human+Motion+Controls+for+Video+Generation%22)
 - GitHub Stars：**560**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2504.14899)
 
@@ -246,7 +248,7 @@ Uni3C是一种统一的3D增强框架，旨在精确控制视频生成中的相�
 <details>
 <summary><strong>2. RynnVLA-001: Using Human Demonstrations to Improve Robot Manipulation</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22RynnVLA-001%3A+Using+Human+Demonstrations+to+Improve+Robot+Manipulation%22)（未缓存未经核验的数字）
+- 引用量：**22**（[Semantic Scholar](https://www.semanticscholar.org/paper/b90611582652cc0c652a5a39354aaa6751aea3ff?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22RynnVLA-001%3A+Using+Human+Demonstrations+to+Improve+Robot+Manipulation%22)
 - GitHub Stars：**303**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2509.15212)
 
@@ -295,7 +297,7 @@ Alibaba NLP 隶属于 Alibaba，是一支主要关注自然语言处理、信息
 <details>
 <summary><strong>3. Detecting Knowledge Boundary of Vision Large Language Models by Sampling-Based Inference</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Detecting+Knowledge+Boundary+of+Vision+Large+Language+Models+by+Sampling-Based+Inference%22)（未缓存未经核验的数字）
+- 引用量：**8**（[Semantic Scholar](https://www.semanticscholar.org/paper/7b35905fc8b54fd298edc6d10cb855e87629e1bc?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Detecting+Knowledge+Boundary+of+Vision+Large+Language+Models+by+Sampling-Based+Inference%22)
 - GitHub Stars：**2**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2502.18023)
 
@@ -317,7 +319,7 @@ Alibaba NLP 隶属于 Alibaba，是一支主要关注自然语言处理、信息
 <details>
 <summary><strong>1. ViDoRAG: Visual Document Retrieval-Augmented Generation via Dynamic Iterative Reasoning Agents</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22ViDoRAG%3A+Visual+Document+Retrieval-Augmented+Generation+via+Dynamic+Iterative+Reasoning+Agents%22)（未缓存未经核验的数字）
+- 引用量：**64**（[Semantic Scholar](https://www.semanticscholar.org/paper/afa3685b3a2bd6986346330c9dc990b64407e4ca?utm_source=api)，2026-07-30 · 高影响引用 **9**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22ViDoRAG%3A+Visual+Document+Retrieval-Augmented+Generation+via+Dynamic+Iterative+Reasoning+Agents%22)
 - GitHub Stars：**669**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2502.18017)
 
@@ -330,7 +332,7 @@ Alibaba NLP 隶属于 Alibaba，是一支主要关注自然语言处理、信息
 <details>
 <summary><strong>2. Unfolding the Headline: Iterative Self-Questioning for News Retrieval and Timeline Summarization</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Unfolding+the+Headline%3A+Iterative+Self-Questioning+for+News+Retrieval+and+Timeline+Summarization%22)（未缓存未经核验的数字）
+- 引用量：**20**（[Semantic Scholar](https://www.semanticscholar.org/paper/136acb324f4c6e0d371bb57c1e25ba4e18adc2ce?utm_source=api)，2026-07-30 · 高影响引用 **3**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Unfolding+the+Headline%3A+Iterative+Self-Questioning+for+News+Retrieval+and+Timeline+Summarization%22)
 - GitHub Stars：**297**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2501.00888)
 
@@ -350,7 +352,7 @@ Alibaba NLP 隶属于 Alibaba，是一支主要关注自然语言处理、信息
 <details>
 <summary><strong>3. Detecting Knowledge Boundary of Vision Large Language Models by Sampling-Based Inference</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Detecting+Knowledge+Boundary+of+Vision+Large+Language+Models+by+Sampling-Based+Inference%22)（未缓存未经核验的数字）
+- 引用量：**8**（[Semantic Scholar](https://www.semanticscholar.org/paper/7b35905fc8b54fd298edc6d10cb855e87629e1bc?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Detecting+Knowledge+Boundary+of+Vision+Large+Language+Models+by+Sampling-Based+Inference%22)
 - GitHub Stars：**2**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2502.18023)
 
@@ -458,7 +460,7 @@ Tencent Hunyuan 隶属于 Tencent，是一支主要关注大语言模型、多�
 <details>
 <summary><strong>3. HunyuanPortrait: Implicit Condition Control for Enhanced Portrait Animation</strong> · 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22HunyuanPortrait%3A+Implicit+Condition+Control+for+Enhanced+Portrait+Animation%22)（未缓存未经核验的数字）
+- 引用量：**59**（[Semantic Scholar](https://www.semanticscholar.org/paper/6709758f9e00a785cae5ec95b6b37719f8deb4ae?utm_source=api)，2026-07-30 · 高影响引用 **8**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22HunyuanPortrait%3A+Implicit+Condition+Control+for+Enhanced+Portrait+Animation%22)
 - GitHub Stars：**345**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/cvpr52734.2025.01483)
 
@@ -499,7 +501,7 @@ HunyuanPortrait是一种基于diffusion的条件控制方法，能够实现高�
 <details>
 <summary><strong>3. HunyuanPortrait: Implicit Condition Control for Enhanced Portrait Animation</strong> · 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22HunyuanPortrait%3A+Implicit+Condition+Control+for+Enhanced+Portrait+Animation%22)（未缓存未经核验的数字）
+- 引用量：**59**（[Semantic Scholar](https://www.semanticscholar.org/paper/6709758f9e00a785cae5ec95b6b37719f8deb4ae?utm_source=api)，2026-07-30 · 高影响引用 **8**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22HunyuanPortrait%3A+Implicit+Condition+Control+for+Enhanced+Portrait+Animation%22)
 - GitHub Stars：**345**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/cvpr52734.2025.01483)
 
@@ -528,7 +530,7 @@ Tencent AI Lab 隶属于 Tencent，是一支主要关注机器学习、自然语
 <details>
 <summary><strong>2. IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models</strong> · arXiv (Cornell University) · 2023</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22IP-Adapter%3A+Text+Compatible+Image+Prompt+Adapter+for+Text-to-Image+Diffusion+Models%22)（未缓存未经核验的数字）
+- 引用量：**1701**（[Semantic Scholar](https://www.semanticscholar.org/paper/2854e5bab8e6f36e54c64456628a9559bf67019e?utm_source=api)，2026-07-30 · 高影响引用 **320**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22IP-Adapter%3A+Text+Compatible+Image+Prompt+Adapter+for+Text-to-Image+Diffusion+Models%22)
 - GitHub Stars：**6644**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2308.06721)
 
@@ -550,7 +552,7 @@ Tencent AI Lab 隶属于 Tencent，是一支主要关注机器学习、自然语
 <details>
 <summary><strong>1. Efficient Zero-shot Event Extraction with Context-Definition Alignment</strong> · Findings of the Association for Computational Linguistics: EMNLP 2022 · 2022</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Efficient+Zero-shot+Event+Extraction+with+Context-Definition+Alignment%22)（未缓存未经核验的数字）
+- 引用量：Semantic Scholar 暂未收录 · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Efficient+Zero-shot+Event+Extraction+with+Context-Definition+Alignment%22)
 - GitHub Stars：**11**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.18653/v1/2022.findings-emnlp.531)
 
@@ -563,7 +565,7 @@ Tencent AI Lab 隶属于 Tencent，是一支主要关注机器学习、自然语
 <details>
 <summary><strong>2. IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models</strong> · arXiv (Cornell University) · 2023</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22IP-Adapter%3A+Text+Compatible+Image+Prompt+Adapter+for+Text-to-Image+Diffusion+Models%22)（未缓存未经核验的数字）
+- 引用量：**1701**（[Semantic Scholar](https://www.semanticscholar.org/paper/2854e5bab8e6f36e54c64456628a9559bf67019e?utm_source=api)，2026-07-30 · 高影响引用 **320**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22IP-Adapter%3A+Text+Compatible+Image+Prompt+Adapter+for+Text-to-Image+Diffusion+Models%22)
 - GitHub Stars：**6644**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2308.06721)
 
@@ -612,7 +614,7 @@ Tencent ARC Lab 隶属于 Tencent，是一支主要关注计算机视觉、计�
 <details>
 <summary><strong>2. Pixal3D: Pixel-Aligned 3D Generation from Images</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Pixal3D%3A+Pixel-Aligned+3D+Generation+from+Images%22)（未缓存未经核验的数字）
+- 引用量：**4**（[Semantic Scholar](https://www.semanticscholar.org/paper/f6942b91a072028b07981dc843c8ccda9e06a094?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Pixal3D%3A+Pixel-Aligned+3D+Generation+from+Images%22)
 - GitHub Stars：**2041**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2605.10922)
 
@@ -647,7 +649,7 @@ Tencent ARC Lab 隶属于 Tencent，是一支主要关注计算机视觉、计�
 <details>
 <summary><strong>2. Pixal3D: Pixel-Aligned 3D Generation from Images</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Pixal3D%3A+Pixel-Aligned+3D+Generation+from+Images%22)（未缓存未经核验的数字）
+- 引用量：**4**（[Semantic Scholar](https://www.semanticscholar.org/paper/f6942b91a072028b07981dc843c8ccda9e06a094?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Pixal3D%3A+Pixel-Aligned+3D+Generation+from+Images%22)
 - GitHub Stars：**2041**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2605.10922)
 
@@ -667,7 +669,7 @@ Tencent ARC Lab 隶属于 Tencent，是一支主要关注计算机视觉、计�
 <details>
 <summary><strong>3. BrushNet: A Plug-and-Play Image Inpainting Model with Decomposed Dual-Branch Diffusion</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22BrushNet%3A+A+Plug-and-Play+Image+Inpainting+Model+with+Decomposed+Dual-Branch+Diffusion%22)（未缓存未经核验的数字）
+- 引用量：**247**（[Semantic Scholar](https://www.semanticscholar.org/paper/90c428ba9488c60bd860344d5a1299f01810ae51?utm_source=api)，2026-07-30 · 高影响引用 **48**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22BrushNet%3A+A+Plug-and-Play+Image+Inpainting+Model+with+Decomposed+Dual-Branch+Diffusion%22)
 - GitHub Stars：**1737**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2403.06976)
 
@@ -703,7 +705,7 @@ Tencent Youtu Lab 隶属于 Tencent，是一支主要关注计算机视觉、多
 <details>
 <summary><strong>1. DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22DepthCrafter%3A+Generating+Consistent+Long+Depth+Sequences+for+Open-world+Videos%22)（未缓存未经核验的数字）
+- 引用量：**221**（[Semantic Scholar](https://www.semanticscholar.org/paper/830af4785ac62dbc4679ad98f09f4751a76992a6?utm_source=api)，2026-07-30 · 高影响引用 **40**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22DepthCrafter%3A+Generating+Consistent+Long+Depth+Sequences+for+Open-world+Videos%22)
 - GitHub Stars：**1568**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2409.02095)
 
@@ -725,7 +727,7 @@ DepthCrafter是一种能够生成高详细度长深图序列的方法，适用�
 <details>
 <summary><strong>1. DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22DepthCrafter%3A+Generating+Consistent+Long+Depth+Sequences+for+Open-world+Videos%22)（未缓存未经核验的数字）
+- 引用量：**221**（[Semantic Scholar](https://www.semanticscholar.org/paper/830af4785ac62dbc4679ad98f09f4751a76992a6?utm_source=api)，2026-07-30 · 高影响引用 **40**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22DepthCrafter%3A+Generating+Consistent+Long+Depth+Sequences+for+Open-world+Videos%22)
 - GitHub Stars：**1568**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2409.02095)
 
@@ -1003,7 +1005,7 @@ Kling AI Research 隶属于 Kuaishou，是一支主要关注视频生成、图�
 <details>
 <summary><strong>3. Improving Video Generation with Human Feedback</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Improving+Video+Generation+with+Human+Feedback%22)（未缓存未经核验的数字）
+- 引用量：**228**（[Semantic Scholar](https://www.semanticscholar.org/paper/2bb2f4e3a55c19c66875ea0a84d409b6a2e16fce?utm_source=api)，2026-07-30 · 高影响引用 **43**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Improving+Video+Generation+with+Human+Feedback%22)
 - GitHub Stars：**488**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2501.13918)
 
@@ -1038,7 +1040,7 @@ Kling AI Research 隶属于 Kuaishou，是一支主要关注视频生成、图�
 <details>
 <summary><strong>2. GameFactory: Creating New Games with Generative Interactive Videos</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22GameFactory%3A+Creating+New+Games+with+Generative+Interactive+Videos%22)（未缓存未经核验的数字）
+- 引用量：**111**（[Semantic Scholar](https://www.semanticscholar.org/paper/1994f886b74aff3ef31802769f2c502dbe0b25aa?utm_source=api)，2026-07-30 · 高影响引用 **7**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22GameFactory%3A+Creating+New+Games+with+Generative+Interactive+Videos%22)
 - GitHub Stars：**493**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2501.08325)
 
@@ -1058,7 +1060,7 @@ Kling AI Research 隶属于 Kuaishou，是一支主要关注视频生成、图�
 <details>
 <summary><strong>3. Improving Video Generation with Human Feedback</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Improving+Video+Generation+with+Human+Feedback%22)（未缓存未经核验的数字）
+- 引用量：**228**（[Semantic Scholar](https://www.semanticscholar.org/paper/2bb2f4e3a55c19c66875ea0a84d409b6a2e16fce?utm_source=api)，2026-07-30 · 高影响引用 **43**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Improving+Video+Generation+with+Human+Feedback%22)
 - GitHub Stars：**488**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2501.13918)
 
@@ -1094,7 +1096,7 @@ Kuaishou Kolors Team 隶属于 Kuaishou，是一支主要关注图像生成、�
 <details>
 <summary><strong>1. ResTok: Learning Hierarchical Residuals in 1D Visual Tokenizers for Autoregressive Image Generation</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22ResTok%3A+Learning+Hierarchical+Residuals+in+1D+Visual+Tokenizers+for+Autoregressive+Image+Generation%22)（未缓存未经核验的数字）
+- 引用量：**4**（[Semantic Scholar](https://www.semanticscholar.org/paper/52b985d1923ac9bd8be2ab4c58d0f18b61afbd94?utm_source=api)，2026-07-30 · 高影响引用 **1**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22ResTok%3A+Learning+Hierarchical+Residuals+in+1D+Visual+Tokenizers+for+Autoregressive+Image+Generation%22)
 - GitHub Stars：**6**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2601.03955)
 
@@ -1116,7 +1118,7 @@ Kuaishou Kolors Team 隶属于 Kuaishou，是一支主要关注图像生成、�
 <details>
 <summary><strong>1. ResTok: Learning Hierarchical Residuals in 1D Visual Tokenizers for Autoregressive Image Generation</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22ResTok%3A+Learning+Hierarchical+Residuals+in+1D+Visual+Tokenizers+for+Autoregressive+Image+Generation%22)（未缓存未经核验的数字）
+- 引用量：**4**（[Semantic Scholar](https://www.semanticscholar.org/paper/52b985d1923ac9bd8be2ab4c58d0f18b61afbd94?utm_source=api)，2026-07-30 · 高影响引用 **1**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22ResTok%3A+Learning+Hierarchical+Residuals+in+1D+Visual+Tokenizers+for+Autoregressive+Image+Generation%22)
 - GitHub Stars：**6**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2601.03955)
 
@@ -1149,7 +1151,7 @@ Kuaishou Kolors Team 隶属于 Kuaishou，是一支主要关注图像生成、�
 <details>
 <summary><strong>3. A Style is Worth One Code: Unlocking Code-to-Style Image Generation with Discrete Style Space</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22A+Style+is+Worth+One+Code%3A+Unlocking+Code-to-Style+Image+Generation+with+Discrete+Style+Space%22)（未缓存未经核验的数字）
+- 引用量：**0**（[Semantic Scholar](https://www.semanticscholar.org/paper/b73957bca960ec65e00ca3607cbe171b2c9e4b5c?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22A+Style+is+Worth+One+Code%3A+Unlocking+Code-to-Style+Image+Generation+with+Discrete+Style+Space%22)
 - GitHub Stars：**221**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2511.10555)
 
@@ -1187,7 +1189,7 @@ Meituan LongCat Team 隶属于 Meituan，是一支主要关注大语言模型、
 <details>
 <summary><strong>3. R-Horizon: How Far Can Your Large Reasoning Model Really Go in Breadth and Depth?</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22R-Horizon%3A+How+Far+Can+Your+Large+Reasoning+Model+Really+Go+in+Breadth+and+Depth%3F%22)（未缓存未经核验的数字）
+- 引用量：**6**（[Semantic Scholar](https://www.semanticscholar.org/paper/bdde8c8a3d1b6f9f89ad0a1c4b3175ddfa160fb8?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22R-Horizon%3A+How+Far+Can+Your+Large+Reasoning+Model+Really+Go+in+Breadth+and+Depth%3F%22)
 - GitHub Stars：**27**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.08189)
 
@@ -1235,7 +1237,7 @@ Meituan LongCat Team 隶属于 Meituan，是一支主要关注大语言模型、
 <details>
 <summary><strong>3. R-Horizon: How Far Can Your Large Reasoning Model Really Go in Breadth and Depth?</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22R-Horizon%3A+How+Far+Can+Your+Large+Reasoning+Model+Really+Go+in+Breadth+and+Depth%3F%22)（未缓存未经核验的数字）
+- 引用量：**6**（[Semantic Scholar](https://www.semanticscholar.org/paper/bdde8c8a3d1b6f9f89ad0a1c4b3175ddfa160fb8?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22R-Horizon%3A+How+Far+Can+Your+Large+Reasoning+Model+Really+Go+in+Breadth+and+Depth%3F%22)
 - GitHub Stars：**27**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.08189)
 
@@ -1273,7 +1275,7 @@ JD Explore Academy — Multimodal LLM 隶属于 JD.com，是一支主要关注�
 <details>
 <summary><strong>1. OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)（未缓存未经核验的数字）
+- 引用量：**0**（[Semantic Scholar](https://www.semanticscholar.org/paper/b08a7e8628f138a0191944e90b56a746b0028f93?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)
 - GitHub Stars：**2022**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2604.25602)
 
@@ -1295,7 +1297,7 @@ JD Explore Academy — Multimodal LLM 隶属于 JD.com，是一支主要关注�
 <details>
 <summary><strong>1. OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)（未缓存未经核验的数字）
+- 引用量：**0**（[Semantic Scholar](https://www.semanticscholar.org/paper/b08a7e8628f138a0191944e90b56a746b0028f93?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)
 - GitHub Stars：**2022**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2604.25602)
 
@@ -1315,7 +1317,7 @@ JD Explore Academy — Multimodal LLM 隶属于 JD.com，是一支主要关注�
 <details>
 <summary><strong>2. OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction</strong> · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)（未缓存未经核验的数字）
+- 引用量：Semantic Scholar 暂未收录 · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)
 - GitHub Stars：**105**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.18653/v1/2026.acl-demo.58)
 
@@ -1357,7 +1359,7 @@ JD Explore Academy — Speech & Acoustics 隶属于 JD.com，是一支主要关�
 <details>
 <summary><strong>1. OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)（未缓存未经核验的数字）
+- 引用量：**0**（[Semantic Scholar](https://www.semanticscholar.org/paper/b08a7e8628f138a0191944e90b56a746b0028f93?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)
 - GitHub Stars：**2022**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2604.25602)
 
@@ -1379,7 +1381,7 @@ JD Explore Academy — Speech & Acoustics 隶属于 JD.com，是一支主要关�
 <details>
 <summary><strong>1. OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)（未缓存未经核验的数字）
+- 引用量：**0**（[Semantic Scholar](https://www.semanticscholar.org/paper/b08a7e8628f138a0191944e90b56a746b0028f93?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)
 - GitHub Stars：**2022**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2604.25602)
 
@@ -1399,7 +1401,7 @@ JD Explore Academy — Speech & Acoustics 隶属于 JD.com，是一支主要关�
 <details>
 <summary><strong>2. OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction</strong> · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)（未缓存未经核验的数字）
+- 引用量：Semantic Scholar 暂未收录 · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)
 - GitHub Stars：**105**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.18653/v1/2026.acl-demo.58)
 
@@ -1441,7 +1443,7 @@ JD Explore Academy — Multimodal Interaction & World Model 隶属于 JD.com，�
 <details>
 <summary><strong>1. OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)（未缓存未经核验的数字）
+- 引用量：**0**（[Semantic Scholar](https://www.semanticscholar.org/paper/b08a7e8628f138a0191944e90b56a746b0028f93?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)
 - GitHub Stars：**2022**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2604.25602)
 
@@ -1463,7 +1465,7 @@ JD Explore Academy — Multimodal Interaction & World Model 隶属于 JD.com，�
 <details>
 <summary><strong>1. OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)（未缓存未经核验的数字）
+- 引用量：**0**（[Semantic Scholar](https://www.semanticscholar.org/paper/b08a7e8628f138a0191944e90b56a746b0028f93?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)
 - GitHub Stars：**2022**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2604.25602)
 
@@ -1483,7 +1485,7 @@ JD Explore Academy — Multimodal Interaction & World Model 隶属于 JD.com，�
 <details>
 <summary><strong>2. OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction</strong> · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)（未缓存未经核验的数字）
+- 引用量：Semantic Scholar 暂未收录 · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)
 - GitHub Stars：**105**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.18653/v1/2026.acl-demo.58)
 
@@ -1525,7 +1527,7 @@ JD Explore Academy — Embodied AI 隶属于 JD.com，是一支主要关注具�
 <details>
 <summary><strong>1. OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)（未缓存未经核验的数字）
+- 引用量：**0**（[Semantic Scholar](https://www.semanticscholar.org/paper/b08a7e8628f138a0191944e90b56a746b0028f93?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)
 - GitHub Stars：**2022**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2604.25602)
 
@@ -1547,7 +1549,7 @@ JD Explore Academy — Embodied AI 隶属于 JD.com，是一支主要关注具�
 <details>
 <summary><strong>1. OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)（未缓存未经核验的数字）
+- 引用量：**0**（[Semantic Scholar](https://www.semanticscholar.org/paper/b08a7e8628f138a0191944e90b56a746b0028f93?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)
 - GitHub Stars：**2022**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2604.25602)
 
@@ -1567,7 +1569,7 @@ JD Explore Academy — Embodied AI 隶属于 JD.com，是一支主要关注具�
 <details>
 <summary><strong>2. OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction</strong> · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)（未缓存未经核验的数字）
+- 引用量：Semantic Scholar 暂未收录 · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)
 - GitHub Stars：**105**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.18653/v1/2026.acl-demo.58)
 
@@ -1609,7 +1611,7 @@ JD Explore Academy — Infrastructures 隶属于 JD.com，是一支主要关注A
 <details>
 <summary><strong>1. OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)（未缓存未经核验的数字）
+- 引用量：**0**（[Semantic Scholar](https://www.semanticscholar.org/paper/b08a7e8628f138a0191944e90b56a746b0028f93?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)
 - GitHub Stars：**2022**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2604.25602)
 
@@ -1631,7 +1633,7 @@ JD Explore Academy — Infrastructures 隶属于 JD.com，是一支主要关注A
 <details>
 <summary><strong>1. OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)（未缓存未经核验的数字）
+- 引用量：**0**（[Semantic Scholar](https://www.semanticscholar.org/paper/b08a7e8628f138a0191944e90b56a746b0028f93?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)
 - GitHub Stars：**2022**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2604.25602)
 
@@ -1651,7 +1653,7 @@ JD Explore Academy — Infrastructures 隶属于 JD.com，是一支主要关注A
 <details>
 <summary><strong>2. OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction</strong> · Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)（未缓存未经核验的数字）
+- 引用量：Semantic Scholar 暂未收录 · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OxyGent%3A+Making+Multi-Agent+Systems+Modular%2C+Observable%2C+and+Evolvable+via+Oxy+Abstraction%22)
 - GitHub Stars：**105**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.18653/v1/2026.acl-demo.58)
 
@@ -1695,7 +1697,7 @@ Ant Research — Interactive Artificial Intelligence Lab 隶属于 Ant Group，�
 <details>
 <summary><strong>2. Edicho: Consistent Image Editing in the Wild</strong> · 2025 IEEE/CVF International Conference on Computer Vision (ICCV) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Edicho%3A+Consistent+Image+Editing+in+the+Wild%22)（未缓存未经核验的数字）
+- 引用量：**10**（[Semantic Scholar](https://www.semanticscholar.org/paper/048d9914b7cb847ee242873f7656be4345881642?utm_source=api)，2026-07-30 · 高影响引用 **3**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Edicho%3A+Consistent+Image+Editing+in+the+Wild%22)
 - GitHub Stars：**128**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/iccv51701.2025.01417)
 
@@ -1710,7 +1712,7 @@ Ant Research — Interactive Artificial Intelligence Lab 隶属于 Ant Group，�
 <details>
 <summary><strong>1. DreamLIP: Language-Image Pre-training with Long Captions</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22DreamLIP%3A+Language-Image+Pre-training+with+Long+Captions%22)（未缓存未经核验的数字）
+- 引用量：**89**（[Semantic Scholar](https://www.semanticscholar.org/paper/0f284b2fdf001ced671ef87bea3435849c1e8059?utm_source=api)，2026-07-30 · 高影响引用 **14**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22DreamLIP%3A+Language-Image+Pre-training+with+Long+Captions%22)
 - GitHub Stars：**138**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2403.17007)
 
@@ -1730,7 +1732,7 @@ Ant Research — Interactive Artificial Intelligence Lab 隶属于 Ant Group，�
 <details>
 <summary><strong>2. Edicho: Consistent Image Editing in the Wild</strong> · 2025 IEEE/CVF International Conference on Computer Vision (ICCV) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Edicho%3A+Consistent+Image+Editing+in+the+Wild%22)（未缓存未经核验的数字）
+- 引用量：**10**（[Semantic Scholar](https://www.semanticscholar.org/paper/048d9914b7cb847ee242873f7656be4345881642?utm_source=api)，2026-07-30 · 高影响引用 **3**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Edicho%3A+Consistent+Image+Editing+in+the+Wild%22)
 - GitHub Stars：**128**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/iccv51701.2025.01417)
 
@@ -1743,7 +1745,7 @@ Ant Research — Interactive Artificial Intelligence Lab 隶属于 Ant Group，�
 <details>
 <summary><strong>3. PlanarSplatting: Accurate Planar Surface Reconstruction in 3 Minutes</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22PlanarSplatting%3A+Accurate+Planar+Surface+Reconstruction+in+3+Minutes%22)（未缓存未经核验的数字）
+- 引用量：**15**（[Semantic Scholar](https://www.semanticscholar.org/paper/e1b8aaa676000d6f1b4b76c346aa53c2bb50192a?utm_source=api)，2026-07-30 · 高影响引用 **2**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22PlanarSplatting%3A+Accurate+Planar+Surface+Reconstruction+in+3+Minutes%22)
 - GitHub Stars：**81**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2412.03451)
 
@@ -1779,7 +1781,7 @@ InclusionAI 隶属于 Ant Group，是一支主要关注基础模型、机器推�
 <details>
 <summary><strong>1. TwinFlow: Realizing One-step Generation on Large Models with Self-adversarial Flows</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22TwinFlow%3A+Realizing+One-step+Generation+on+Large+Models+with+Self-adversarial+Flows%22)（未缓存未经核验的数字）
+- 引用量：**16**（[Semantic Scholar](https://www.semanticscholar.org/paper/8abdbee2ad1aa5ac8a4e09eebb9f52259cd002fd?utm_source=api)，2026-07-30 · 高影响引用 **1**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22TwinFlow%3A+Realizing+One-step+Generation+on+Large+Models+with+Self-adversarial+Flows%22)
 - GitHub Stars：**537**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2512.05150)
 
@@ -1801,7 +1803,7 @@ InclusionAI 隶属于 Ant Group，是一支主要关注基础模型、机器推�
 <details>
 <summary><strong>1. TwinFlow: Realizing One-step Generation on Large Models with Self-adversarial Flows</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22TwinFlow%3A+Realizing+One-step+Generation+on+Large+Models+with+Self-adversarial+Flows%22)（未缓存未经核验的数字）
+- 引用量：**16**（[Semantic Scholar](https://www.semanticscholar.org/paper/8abdbee2ad1aa5ac8a4e09eebb9f52259cd002fd?utm_source=api)，2026-07-30 · 高影响引用 **1**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22TwinFlow%3A+Realizing+One-step+Generation+on+Large+Models+with+Self-adversarial+Flows%22)
 - GitHub Stars：**537**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2512.05150)
 
@@ -1935,7 +1937,7 @@ Xiaomi MiMo / LLM-Core Team 隶属于 Xiaomi，是一支主要关注大语言模
 <details>
 <summary><strong>2. MiMo: Unlocking the Reasoning Potential of Language Model -- From Pretraining to Posttraining</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22MiMo%3A+Unlocking+the+Reasoning+Potential+of+Language+Model+--+From+Pretraining+to+Posttraining%22)（未缓存未经核验的数字）
+- 引用量：**96**（[Semantic Scholar](https://www.semanticscholar.org/paper/97e0a3548a6f0818262b4f86e4180f256e2f0128?utm_source=api)，2026-07-30 · 高影响引用 **7**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22MiMo%3A+Unlocking+the+Reasoning+Potential+of+Language+Model+--+From+Pretraining+to+Posttraining%22)
 - GitHub Stars：**2288**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2505.07608)
 
@@ -1970,7 +1972,7 @@ Xiaomi MiMo / LLM-Core Team 隶属于 Xiaomi，是一支主要关注大语言模
 <details>
 <summary><strong>2. MiMo: Unlocking the Reasoning Potential of Language Model -- From Pretraining to Posttraining</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22MiMo%3A+Unlocking+the+Reasoning+Potential+of+Language+Model+--+From+Pretraining+to+Posttraining%22)（未缓存未经核验的数字）
+- 引用量：**96**（[Semantic Scholar](https://www.semanticscholar.org/paper/97e0a3548a6f0818262b4f86e4180f256e2f0128?utm_source=api)，2026-07-30 · 高影响引用 **7**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22MiMo%3A+Unlocking+the+Reasoning+Potential+of+Language+Model+--+From+Pretraining+to+Posttraining%22)
 - GitHub Stars：**2288**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2505.07608)
 
@@ -2019,7 +2021,7 @@ Xiaomi Embodied Intelligence Team 隶属于 Xiaomi，是一支主要关注具身
 <details>
 <summary><strong>3. MiMo: Unlocking the Reasoning Potential of Language Model -- From Pretraining to Posttraining</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22MiMo%3A+Unlocking+the+Reasoning+Potential+of+Language+Model+--+From+Pretraining+to+Posttraining%22)（未缓存未经核验的数字）
+- 引用量：**96**（[Semantic Scholar](https://www.semanticscholar.org/paper/97e0a3548a6f0818262b4f86e4180f256e2f0128?utm_source=api)，2026-07-30 · 高影响引用 **7**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22MiMo%3A+Unlocking+the+Reasoning+Potential+of+Language+Model+--+From+Pretraining+to+Posttraining%22)
 - GitHub Stars：**2288**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2505.07608)
 
@@ -2067,7 +2069,7 @@ Xiaomi Embodied Intelligence Team 隶属于 Xiaomi，是一支主要关注具身
 <details>
 <summary><strong>3. MiMo: Unlocking the Reasoning Potential of Language Model -- From Pretraining to Posttraining</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22MiMo%3A+Unlocking+the+Reasoning+Potential+of+Language+Model+--+From+Pretraining+to+Posttraining%22)（未缓存未经核验的数字）
+- 引用量：**96**（[Semantic Scholar](https://www.semanticscholar.org/paper/97e0a3548a6f0818262b4f86e4180f256e2f0128?utm_source=api)，2026-07-30 · 高影响引用 **7**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22MiMo%3A+Unlocking+the+Reasoning+Potential+of+Language+Model+--+From+Pretraining+to+Posttraining%22)
 - GitHub Stars：**2288**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2505.07608)
 
@@ -2171,7 +2173,7 @@ FireRed Team 隶属于 Xiaohongshu，是一支主要关注语音技术、多模�
 <details>
 <summary><strong>2. ReMatch: Boosting Representation through Matching for Multimodal Retrieval</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22ReMatch%3A+Boosting+Representation+through+Matching+for+Multimodal+Retrieval%22)（未缓存未经核验的数字）
+- 引用量：**5**（[Semantic Scholar](https://www.semanticscholar.org/paper/056c7d30a6171ec45cddc25e63087b9c06bca1cb?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22ReMatch%3A+Boosting+Representation+through+Matching+for+Multimodal+Retrieval%22)
 - GitHub Stars：**6**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2511.19278)
 
@@ -2193,7 +2195,7 @@ ReMatch是一种框架，利用MLLM的生成能力进行多模态检索。它通
 <details>
 <summary><strong>1. InstanceAssemble: Layout-Aware Image Generation via Instance Assembling Attention</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22InstanceAssemble%3A+Layout-Aware+Image+Generation+via+Instance+Assembling+Attention%22)（未缓存未经核验的数字）
+- 引用量：**6**（[Semantic Scholar](https://www.semanticscholar.org/paper/999b7a036f2bbbc43ad01c3db5a048457ba0bca0?utm_source=api)，2026-07-30 · 高影响引用 **1**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22InstanceAssemble%3A+Layout-Aware+Image+Generation+via+Instance+Assembling+Attention%22)
 - GitHub Stars：**45**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2509.16691)
 
@@ -2213,7 +2215,7 @@ ReMatch是一种框架，利用MLLM的生成能力进行多模态检索。它通
 <details>
 <summary><strong>2. ReMatch: Boosting Representation through Matching for Multimodal Retrieval</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22ReMatch%3A+Boosting+Representation+through+Matching+for+Multimodal+Retrieval%22)（未缓存未经核验的数字）
+- 引用量：**5**（[Semantic Scholar](https://www.semanticscholar.org/paper/056c7d30a6171ec45cddc25e63087b9c06bca1cb?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22ReMatch%3A+Boosting+Representation+through+Matching+for+Multimodal+Retrieval%22)
 - GitHub Stars：**6**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2511.19278)
 
@@ -2334,7 +2336,7 @@ CASIA National Key Laboratory of Multimodal Artificial Intelligence Systems 隶�
 <details>
 <summary><strong>3. Partial FC: Training 10 Million Identities on a Single Machine</strong> · arXiv (Cornell University) · 2020</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Partial+FC%3A+Training+10+Million+Identities+on+a+Single+Machine%22)（未缓存未经核验的数字）
+- 引用量：**287**（[Semantic Scholar](https://www.semanticscholar.org/paper/54881bf440dfe611a20f7ef1bcc4c83f985aad69?utm_source=api)，2026-07-30 · 高影响引用 **47**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Partial+FC%3A+Training+10+Million+Identities+on+a+Single+Machine%22)
 - [论文 / 项目原始入口](https://arxiv.org/abs/2010.05222)
 
 **基于 Abstract 的 TL;DR**
@@ -2367,7 +2369,7 @@ CASIA National Key Laboratory of Multimodal Artificial Intelligence Systems 隶�
 <details>
 <summary><strong>2. CASIA-SURF: A Large-scale Multi-modal Benchmark for Face Anti-spoofing</strong> · arXiv (Cornell University) · 2019</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22CASIA-SURF%3A+A+Large-scale+Multi-modal+Benchmark+for+Face+Anti-spoofing%22)（未缓存未经核验的数字）
+- 引用量：**204**（[Semantic Scholar](https://www.semanticscholar.org/paper/4e489453d57fd4746214668286d9005916a973bc?utm_source=api)，2026-07-30 · 高影响引用 **22**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22CASIA-SURF%3A+A+Large-scale+Multi-modal+Benchmark+for+Face+Anti-spoofing%22)
 - [论文 / 项目原始入口](https://arxiv.org/abs/1908.10654)
 
 **基于 Abstract 的 TL;DR**
@@ -2386,7 +2388,7 @@ CASIA National Key Laboratory of Multimodal Artificial Intelligence Systems 隶�
 <details>
 <summary><strong>3. Partial FC: Training 10 Million Identities on a Single Machine</strong> · arXiv (Cornell University) · 2020</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Partial+FC%3A+Training+10+Million+Identities+on+a+Single+Machine%22)（未缓存未经核验的数字）
+- 引用量：**287**（[Semantic Scholar](https://www.semanticscholar.org/paper/54881bf440dfe611a20f7ef1bcc4c83f985aad69?utm_source=api)，2026-07-30 · 高影响引用 **47**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Partial+FC%3A+Training+10+Million+Identities+on+a+Single+Machine%22)
 - [论文 / 项目原始入口](https://arxiv.org/abs/2010.05222)
 
 **基于 Abstract 的 TL;DR**
@@ -2421,7 +2423,7 @@ CASIA Zidong Taichu Large Model Research Center 隶属于 Institute of Automatio
 <details>
 <summary><strong>1. Steering LVLMs via Sparse Autoencoder for Hallucination Mitigation</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Steering+LVLMs+via+Sparse+Autoencoder+for+Hallucination+Mitigation%22)（未缓存未经核验的数字）
+- 引用量：**3**（[Semantic Scholar](https://www.semanticscholar.org/paper/5464c3cb5412d93ef5b1f6c6b5107b079df28625?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Steering+LVLMs+via+Sparse+Autoencoder+for+Hallucination+Mitigation%22)
 - [论文 / 项目原始入口](https://arxiv.org/abs/2505.16146)
 
 **基于 Abstract 的 TL;DR**
@@ -2442,7 +2444,7 @@ CASIA Zidong Taichu Large Model Research Center 隶属于 Institute of Automatio
 <details>
 <summary><strong>1. Steering LVLMs via Sparse Autoencoder for Hallucination Mitigation</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Steering+LVLMs+via+Sparse+Autoencoder+for+Hallucination+Mitigation%22)（未缓存未经核验的数字）
+- 引用量：**3**（[Semantic Scholar](https://www.semanticscholar.org/paper/5464c3cb5412d93ef5b1f6c6b5107b079df28625?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Steering+LVLMs+via+Sparse+Autoencoder+for+Hallucination+Mitigation%22)
 - [论文 / 项目原始入口](https://arxiv.org/abs/2505.16146)
 
 **基于 Abstract 的 TL;DR**
@@ -2501,7 +2503,7 @@ CASIA Brain Atlas and Brain-inspired Intelligence Laboratory 隶属于 Institute
 <details>
 <summary><strong>3. A neural network for modeling human concept formation, understanding and communication</strong> · Nature Computational Science · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22A+neural+network+for+modeling+human+concept+formation%2C+understanding+and+communication%22)（未缓存未经核验的数字）
+- 引用量：**4**（[Semantic Scholar](https://www.semanticscholar.org/paper/8215b64e34d3986e8f21b3b07cdd99f893af8eac?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22A+neural+network+for+modeling+human+concept+formation%2C+understanding+and+communication%22)
 - [论文 / 项目原始入口](https://doi.org/10.1038/s43588-026-00956-4)
 
 **基于 Abstract 的 TL;DR**
@@ -2515,7 +2517,7 @@ CASIA Brain Atlas and Brain-inspired Intelligence Laboratory 隶属于 Institute
 <details>
 <summary><strong>1. The Human Brainnetome Atlas: A New Brain Atlas Based on Connectional Architecture</strong> · Cerebral Cortex · 2016</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22The+Human+Brainnetome+Atlas%3A+A+New+Brain+Atlas+Based+on+Connectional+Architecture%22)（未缓存未经核验的数字）
+- 引用量：**1834**（[Semantic Scholar](https://www.semanticscholar.org/paper/c3d29e7f18e6ba080693c1de4ce890aac62a88ab?utm_source=api)，2026-07-30 · 高影响引用 **147**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22The+Human+Brainnetome+Atlas%3A+A+New+Brain+Atlas+Based+on+Connectional+Architecture%22)
 - [论文 / 项目原始入口](https://doi.org/10.1093/cercor/bhw157)
 
 **基于 Abstract 的 TL;DR**
@@ -2527,7 +2529,7 @@ CASIA Brain Atlas and Brain-inspired Intelligence Laboratory 隶属于 Institute
 <details>
 <summary><strong>2. Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features</strong> · IEEE Transactions on Pattern Analysis and Machine Intelligence · 2023</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Decoding+Visual+Neural+Representations+by+Multimodal+Learning+of+Brain-Visual-Linguistic+Features%22)（未缓存未经核验的数字）
+- 引用量：**184**（[Semantic Scholar](https://www.semanticscholar.org/paper/419eb47fea3931c4098232f44ccbc216275d3f56?utm_source=api)，2026-07-30 · 高影响引用 **16**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Decoding+Visual+Neural+Representations+by+Multimodal+Learning+of+Brain-Visual-Linguistic+Features%22)
 - [论文 / 项目原始入口](https://doi.org/10.1109/tpami.2023.3263181)
 
 **基于 Abstract 的 TL;DR**
@@ -2539,7 +2541,7 @@ CASIA Brain Atlas and Brain-inspired Intelligence Laboratory 隶属于 Institute
 <details>
 <summary><strong>3. A neural network for modeling human concept formation, understanding and communication</strong> · Nature Computational Science · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22A+neural+network+for+modeling+human+concept+formation%2C+understanding+and+communication%22)（未缓存未经核验的数字）
+- 引用量：**4**（[Semantic Scholar](https://www.semanticscholar.org/paper/8215b64e34d3986e8f21b3b07cdd99f893af8eac?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22A+neural+network+for+modeling+human+concept+formation%2C+understanding+and+communication%22)
 - [论文 / 项目原始入口](https://doi.org/10.1038/s43588-026-00956-4)
 
 **基于 Abstract 的 TL;DR**
@@ -2567,7 +2569,7 @@ CASIA Research Center for AI Ethics and Governance 隶属于 Institute of Automa
 <details>
 <summary><strong>2. Ethics and Governance of Artificial Intelligence: Evidence from a Survey of Machine Learning Researchers</strong> · arXiv (Cornell University) · 2021</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Ethics+and+Governance+of+Artificial+Intelligence%3A+Evidence+from+a+Survey+of+Machine+Learning+Researchers%22)（未缓存未经核验的数字）
+- 引用量：**81**（[Semantic Scholar](https://www.semanticscholar.org/paper/cd2b2bbb13f37b2bff8826a5a7614b1f897e2db2?utm_source=api)，2026-07-30 · 高影响引用 **6**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Ethics+and+Governance+of+Artificial+Intelligence%3A+Evidence+from+a+Survey+of+Machine+Learning+Researchers%22)
 - [论文 / 项目原始入口](https://arxiv.org/abs/2105.02117)
 
 **基于 Abstract 的 TL;DR**
@@ -2600,7 +2602,7 @@ CASIA Research Center for AI Ethics and Governance 隶属于 Institute of Automa
 <details>
 <summary><strong>2. Ethics and Governance of Artificial Intelligence: Evidence from a Survey of Machine Learning Researchers</strong> · arXiv (Cornell University) · 2021</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Ethics+and+Governance+of+Artificial+Intelligence%3A+Evidence+from+a+Survey+of+Machine+Learning+Researchers%22)（未缓存未经核验的数字）
+- 引用量：**81**（[Semantic Scholar](https://www.semanticscholar.org/paper/cd2b2bbb13f37b2bff8826a5a7614b1f897e2db2?utm_source=api)，2026-07-30 · 高影响引用 **6**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Ethics+and+Governance+of+Artificial+Intelligence%3A+Evidence+from+a+Survey+of+Machine+Learning+Researchers%22)
 - [论文 / 项目原始入口](https://arxiv.org/abs/2105.02117)
 
 **基于 Abstract 的 TL;DR**
@@ -2649,7 +2651,7 @@ InternLM 隶属于 Shanghai Artificial Intelligence Laboratory，是一支主要
 <details>
 <summary><strong>1. Intern-S1-Pro: Scientific Multimodal Foundation Model at Trillion Scale</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Intern-S1-Pro%3A+Scientific+Multimodal+Foundation+Model+at+Trillion+Scale%22)（未缓存未经核验的数字）
+- 引用量：**13**（[Semantic Scholar](https://www.semanticscholar.org/paper/55a46f5195850c1440b3eb441ea8055091783985?utm_source=api)，2026-07-30 · 高影响引用 **1**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Intern-S1-Pro%3A+Scientific+Multimodal+Foundation+Model+at+Trillion+Scale%22)
 - GitHub Stars：**842**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2603.25040)
 
@@ -2671,7 +2673,7 @@ InternLM 隶属于 Shanghai Artificial Intelligence Laboratory，是一支主要
 <details>
 <summary><strong>1. Intern-S1-Pro: Scientific Multimodal Foundation Model at Trillion Scale</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Intern-S1-Pro%3A+Scientific+Multimodal+Foundation+Model+at+Trillion+Scale%22)（未缓存未经核验的数字）
+- 引用量：**13**（[Semantic Scholar](https://www.semanticscholar.org/paper/55a46f5195850c1440b3eb441ea8055091783985?utm_source=api)，2026-07-30 · 高影响引用 **1**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Intern-S1-Pro%3A+Scientific+Multimodal+Foundation+Model+at+Trillion+Scale%22)
 - GitHub Stars：**842**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2603.25040)
 
@@ -2691,7 +2693,7 @@ InternLM 隶属于 Shanghai Artificial Intelligence Laboratory，是一支主要
 <details>
 <summary><strong>2. Visual Self-Refine: A Pixel-Guided Paradigm for Accurate Chart Parsing</strong> · Open MIND · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Visual+Self-Refine%3A+A+Pixel-Guided+Paradigm+for+Accurate+Chart+Parsing%22)（未缓存未经核验的数字）
+- 引用量：**5**（[Semantic Scholar](https://www.semanticscholar.org/paper/b720deda002f5476136b663716cb3ca78fc34cfd?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Visual+Self-Refine%3A+A+Pixel-Guided+Paradigm+for+Accurate+Chart+Parsing%22)
 - GitHub Stars：**34**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2602.16455)
 
@@ -2711,7 +2713,7 @@ InternLM 隶属于 Shanghai Artificial Intelligence Laboratory，是一支主要
 <details>
 <summary><strong>3. EndoCoT: Scaling Endogenous Chain-of-Thought Reasoning in Diffusion Models</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22EndoCoT%3A+Scaling+Endogenous+Chain-of-Thought+Reasoning+in+Diffusion+Models%22)（未缓存未经核验的数字）
+- 引用量：**3**（[Semantic Scholar](https://www.semanticscholar.org/paper/91f8a941df3914a6bfbf3ce6a86c058fe94d7be0?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22EndoCoT%3A+Scaling+Endogenous+Chain-of-Thought+Reasoning+in+Diffusion+Models%22)
 - GitHub Stars：**43**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2603.12252)
 
@@ -2747,7 +2749,7 @@ OpenGVLab 隶属于 Shanghai Artificial Intelligence Laboratory，是一支主�
 <details>
 <summary><strong>1. VideoChat-Flash: Hierarchical Compression for Long-Context Video Modeling</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22VideoChat-Flash%3A+Hierarchical+Compression+for+Long-Context+Video+Modeling%22)（未缓存未经核验的数字）
+- 引用量：**195**（[Semantic Scholar](https://www.semanticscholar.org/paper/566d2d1733799e1ae871fb9b1ddd9ac86e50ea69?utm_source=api)，2026-07-30 · 高影响引用 **24**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22VideoChat-Flash%3A+Hierarchical+Compression+for+Long-Context+Video+Modeling%22)
 - GitHub Stars：**527**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2501.00574)
 
@@ -2769,7 +2771,7 @@ OpenGVLab 隶属于 Shanghai Artificial Intelligence Laboratory，是一支主�
 <details>
 <summary><strong>1. VideoChat-Flash: Hierarchical Compression for Long-Context Video Modeling</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22VideoChat-Flash%3A+Hierarchical+Compression+for+Long-Context+Video+Modeling%22)（未缓存未经核验的数字）
+- 引用量：**195**（[Semantic Scholar](https://www.semanticscholar.org/paper/566d2d1733799e1ae871fb9b1ddd9ac86e50ea69?utm_source=api)，2026-07-30 · 高影响引用 **24**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22VideoChat-Flash%3A+Hierarchical+Compression+for+Long-Context+Video+Modeling%22)
 - GitHub Stars：**527**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2501.00574)
 
@@ -2831,7 +2833,7 @@ InternScience 隶属于 Shanghai Artificial Intelligence Laboratory，是一支�
 <details>
 <summary><strong>3. InternAgent-1.5: A Unified Agentic Framework for Long-Horizon Autonomous Scientific Discovery</strong> · Open MIND · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22InternAgent-1.5%3A+A+Unified+Agentic+Framework+for+Long-Horizon+Autonomous+Scientific+Discovery%22)（未缓存未经核验的数字）
+- 引用量：**19**（[Semantic Scholar](https://www.semanticscholar.org/paper/79c1e1d6e6c36193f13bf2f1bd8379cf79f1d5ce?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22InternAgent-1.5%3A+A+Unified+Agentic+Framework+for+Long-Horizon+Autonomous+Scientific+Discovery%22)
 - GitHub Stars：**1388**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2602.08990)
 
@@ -2879,7 +2881,7 @@ InternAgent-1.5是一种统一的系统，旨在实现从头到尾的科学探�
 <details>
 <summary><strong>3. InternAgent-1.5: A Unified Agentic Framework for Long-Horizon Autonomous Scientific Discovery</strong> · Open MIND · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22InternAgent-1.5%3A+A+Unified+Agentic+Framework+for+Long-Horizon+Autonomous+Scientific+Discovery%22)（未缓存未经核验的数字）
+- 引用量：**19**（[Semantic Scholar](https://www.semanticscholar.org/paper/79c1e1d6e6c36193f13bf2f1bd8379cf79f1d5ce?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22InternAgent-1.5%3A+A+Unified+Agentic+Framework+for+Long-Horizon+Autonomous+Scientific+Discovery%22)
 - GitHub Stars：**1388**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2602.08990)
 
@@ -2915,7 +2917,7 @@ OpenDataLab 隶属于 Shanghai Artificial Intelligence Laboratory，是一支主
 <details>
 <summary><strong>3. MinerU-Diffusion: Rethinking Document OCR as Inverse Rendering via Diffusion Decoding</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22MinerU-Diffusion%3A+Rethinking+Document+OCR+as+Inverse+Rendering+via+Diffusion+Decoding%22)（未缓存未经核验的数字）
+- 引用量：**7**（[Semantic Scholar](https://www.semanticscholar.org/paper/d0aeb281148679385218212c5124e5fb2844b4db?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22MinerU-Diffusion%3A+Rethinking+Document+OCR+as+Inverse+Rendering+via+Diffusion+Decoding%22)
 - GitHub Stars：**626**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2603.22458)
 
@@ -2937,7 +2939,7 @@ OpenDataLab 隶属于 Shanghai Artificial Intelligence Laboratory，是一支主
 <details>
 <summary><strong>1. OmniDocBench: Benchmarking Diverse PDF Document Parsing with Comprehensive Annotations</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OmniDocBench%3A+Benchmarking+Diverse+PDF+Document+Parsing+with+Comprehensive+Annotations%22)（未缓存未经核验的数字）
+- 引用量：**130**（[Semantic Scholar](https://www.semanticscholar.org/paper/1b92abe5af5879004399998ab18d70c9a3d50987?utm_source=api)，2026-07-30 · 高影响引用 **37**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OmniDocBench%3A+Benchmarking+Diverse+PDF+Document+Parsing+with+Comprehensive+Annotations%22)
 - GitHub Stars：**1921**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2412.07626)
 
@@ -2957,7 +2959,7 @@ OpenDataLab 隶属于 Shanghai Artificial Intelligence Laboratory，是一支主
 <details>
 <summary><strong>2. TRivia: Self-supervised Fine-tuning of Vision-Language Models for Table Recognition</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22TRivia%3A+Self-supervised+Fine-tuning+of+Vision-Language+Models+for+Table+Recognition%22)（未缓存未经核验的数字）
+- 引用量：**5**（[Semantic Scholar](https://www.semanticscholar.org/paper/1af9dbe904d81a036f0102a84f2b52f05fd9e086?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22TRivia%3A+Self-supervised+Fine-tuning+of+Vision-Language+Models+for+Table+Recognition%22)
 - GitHub Stars：**35**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2512.01248)
 
@@ -2977,7 +2979,7 @@ OpenDataLab 隶属于 Shanghai Artificial Intelligence Laboratory，是一支主
 <details>
 <summary><strong>3. MinerU-Diffusion: Rethinking Document OCR as Inverse Rendering via Diffusion Decoding</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22MinerU-Diffusion%3A+Rethinking+Document+OCR+as+Inverse+Rendering+via+Diffusion+Decoding%22)（未缓存未经核验的数字）
+- 引用量：**7**（[Semantic Scholar](https://www.semanticscholar.org/paper/d0aeb281148679385218212c5124e5fb2844b4db?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22MinerU-Diffusion%3A+Rethinking+Document+OCR+as+Inverse+Rendering+via+Diffusion+Decoding%22)
 - GitHub Stars：**626**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2603.22458)
 
@@ -3013,7 +3015,7 @@ OpenDriveLab 隶属于 Shanghai Artificial Intelligence Laboratory，是一支�
 <details>
 <summary><strong>2. World Engine: Towards the Era of Post-Training for Autonomous Driving</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22World+Engine%3A+Towards+the+Era+of+Post-Training+for+Autonomous+Driving%22)（未缓存未经核验的数字）
+- 引用量：**1**（[Semantic Scholar](https://www.semanticscholar.org/paper/7e77b7f90e61be8a72f10d550a234544fc866fc8?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22World+Engine%3A+Towards+the+Era+of+Post-Training+for+Autonomous+Driving%22)
 - GitHub Stars：**477**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2606.19836)
 
@@ -3035,7 +3037,7 @@ OpenDriveLab 隶属于 Shanghai Artificial Intelligence Laboratory，是一支�
 <details>
 <summary><strong>1. SimScale: Learning to Drive via Real-World Simulation at Scale</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22SimScale%3A+Learning+to+Drive+via+Real-World+Simulation+at+Scale%22)（未缓存未经核验的数字）
+- 引用量：**31**（[Semantic Scholar](https://www.semanticscholar.org/paper/038334bbcc1b60a745bd834e4ed003d890a82291?utm_source=api)，2026-07-30 · 高影响引用 **2**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22SimScale%3A+Learning+to+Drive+via+Real-World+Simulation+at+Scale%22)
 - GitHub Stars：**311**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2511.23369)
 
@@ -3048,7 +3050,7 @@ OpenDriveLab 隶属于 Shanghai Artificial Intelligence Laboratory，是一支�
 <details>
 <summary><strong>2. World Engine: Towards the Era of Post-Training for Autonomous Driving</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22World+Engine%3A+Towards+the+Era+of+Post-Training+for+Autonomous+Driving%22)（未缓存未经核验的数字）
+- 引用量：**1**（[Semantic Scholar](https://www.semanticscholar.org/paper/7e77b7f90e61be8a72f10d550a234544fc866fc8?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22World+Engine%3A+Towards+the+Era+of+Post-Training+for+Autonomous+Driving%22)
 - GitHub Stars：**477**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2606.19836)
 
@@ -3068,7 +3070,7 @@ OpenDriveLab 隶属于 Shanghai Artificial Intelligence Laboratory，是一支�
 <details>
 <summary><strong>3. RISE: Self-Improving Robot Policy with Compositional World Model</strong> · Open MIND · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22RISE%3A+Self-Improving+Robot+Policy+with+Compositional+World+Model%22)（未缓存未经核验的数字）
+- 引用量：**28**（[Semantic Scholar](https://www.semanticscholar.org/paper/64604f8fe171472d66bb7c7fb29ad42414c5925a?utm_source=api)，2026-07-30 · 高影响引用 **3**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22RISE%3A+Self-Improving+Robot+Policy+with+Compositional+World+Model%22)
 - GitHub Stars：**329**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2602.11075)
 
@@ -3106,7 +3108,7 @@ DeepSeek AI Research 隶属于 DeepSeek，是一支主要关注大语言模型�
 <details>
 <summary><strong>3. DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22DeepSeek-V2%3A+A+Strong%2C+Economical%2C+and+Efficient+Mixture-of-Experts+Language+Model%22)（未缓存未经核验的数字）
+- 引用量：**1334**（[Semantic Scholar](https://www.semanticscholar.org/paper/53a803388e83ae89261624099d7be4287ace67cb?utm_source=api)，2026-07-30 · 高影响引用 **127**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22DeepSeek-V2%3A+A+Strong%2C+Economical%2C+and+Efficient+Mixture-of-Experts+Language+Model%22)
 - GitHub Stars：**5021**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2405.04434)
 
@@ -3128,7 +3130,7 @@ DeepSeek-V2是一种强大的混合专家语言模型，采用多头隐息注意
 <details>
 <summary><strong>1. DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior</strong> · arXiv (Cornell University) · 2023</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22DreamCraft3D%3A+Hierarchical+3D+Generation+with+Bootstrapped+Diffusion+Prior%22)（未缓存未经核验的数字）
+- 引用量：**190**（[Semantic Scholar](https://www.semanticscholar.org/paper/82696e14076d2d92d3d7452bf67c5d924bf1e101?utm_source=api)，2026-07-30 · 高影响引用 **21**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22DreamCraft3D%3A+Hierarchical+3D+Generation+with+Bootstrapped+Diffusion+Prior%22)
 - GitHub Stars：**3014**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2310.16818)
 
@@ -3161,7 +3163,7 @@ DreamCraft3D是一种高效的3D内容生成方法，利用2D参考图来指导�
 <details>
 <summary><strong>3. DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22DeepSeek-V2%3A+A+Strong%2C+Economical%2C+and+Efficient+Mixture-of-Experts+Language+Model%22)（未缓存未经核验的数字）
+- 引用量：**1334**（[Semantic Scholar](https://www.semanticscholar.org/paper/53a803388e83ae89261624099d7be4287ace67cb?utm_source=api)，2026-07-30 · 高影响引用 **127**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22DeepSeek-V2%3A+A+Strong%2C+Economical%2C+and+Efficient+Mixture-of-Experts+Language+Model%22)
 - GitHub Stars：**5021**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2405.04434)
 
@@ -3199,7 +3201,7 @@ Z.ai / GLM Team 隶属于 Zhipu AI，是一支主要关注大语言模型、多�
 <details>
 <summary><strong>3. SCAIL: Towards Studio-Grade Character Animation via In-Context Learning of 3D-Consistent Pose Representations</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22SCAIL%3A+Towards+Studio-Grade+Character+Animation+via+In-Context+Learning+of+3D-Consistent+Pose+Representations%22)（未缓存未经核验的数字）
+- 引用量：**8**（[Semantic Scholar](https://www.semanticscholar.org/paper/4bb2cf57d126a0ddf011437b8f87a42e743a6bb6?utm_source=api)，2026-07-30 · 高影响引用 **1**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22SCAIL%3A+Towards+Studio-Grade+Character+Animation+via+In-Context+Learning+of+3D-Consistent+Pose+Representations%22)
 - GitHub Stars：**1024**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2512.05905)
 
@@ -3247,7 +3249,7 @@ Z.ai / GLM Team 隶属于 Zhipu AI，是一支主要关注大语言模型、多�
 <details>
 <summary><strong>3. SCAIL: Towards Studio-Grade Character Animation via In-Context Learning of 3D-Consistent Pose Representations</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22SCAIL%3A+Towards+Studio-Grade+Character+Animation+via+In-Context+Learning+of+3D-Consistent+Pose+Representations%22)（未缓存未经核验的数字）
+- 引用量：**8**（[Semantic Scholar](https://www.semanticscholar.org/paper/4bb2cf57d126a0ddf011437b8f87a42e743a6bb6?utm_source=api)，2026-07-30 · 高影响引用 **1**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22SCAIL%3A+Towards+Studio-Grade+Character+Animation+via+In-Context+Learning+of+3D-Consistent+Pose+Representations%22)
 - GitHub Stars：**1024**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2512.05905)
 
@@ -3357,7 +3359,7 @@ MiniMax Research 隶属于 MiniMax，是一支主要关注大语言模型、语�
 <details>
 <summary><strong>1. Towards Scalable Pre-training of Visual Tokenizers for Generation</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Towards+Scalable+Pre-training+of+Visual+Tokenizers+for+Generation%22)（未缓存未经核验的数字）
+- 引用量：**23**（[Semantic Scholar](https://www.semanticscholar.org/paper/ae6d213335ab27d55c659ce8fd189006d42887cb?utm_source=api)，2026-07-30 · 高影响引用 **1**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Towards+Scalable+Pre-training+of+Visual+Tokenizers+for+Generation%22)
 - GitHub Stars：**495**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2512.13687)
 
@@ -3379,7 +3381,7 @@ MiniMax Research 隶属于 MiniMax，是一支主要关注大语言模型、语�
 <details>
 <summary><strong>1. Towards Scalable Pre-training of Visual Tokenizers for Generation</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Towards+Scalable+Pre-training+of+Visual+Tokenizers+for+Generation%22)（未缓存未经核验的数字）
+- 引用量：**23**（[Semantic Scholar](https://www.semanticscholar.org/paper/ae6d213335ab27d55c659ce8fd189006d42887cb?utm_source=api)，2026-07-30 · 高影响引用 **1**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Towards+Scalable+Pre-training+of+Visual+Tokenizers+for+Generation%22)
 - GitHub Stars：**495**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2512.13687)
 
@@ -3399,7 +3401,7 @@ MiniMax Research 隶属于 MiniMax，是一支主要关注大语言模型、语�
 <details>
 <summary><strong>2. SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22SynLogic%3A+Synthesizing+Verifiable+Reasoning+Data+at+Scale+for+Learning+Logical+Reasoning+and+Beyond%22)（未缓存未经核验的数字）
+- 引用量：**40**（[Semantic Scholar](https://www.semanticscholar.org/paper/c4b20ea0556444a870e94ad58076ced9e21d57de?utm_source=api)，2026-07-30 · 高影响引用 **3**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22SynLogic%3A+Synthesizing+Verifiable+Reasoning+Data+at+Scale+for+Learning+Logical+Reasoning+and+Beyond%22)
 - GitHub Stars：**203**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2505.19641)
 
@@ -3452,7 +3454,7 @@ Google DeepMind 隶属于 Alphabet，是一支主要关注基础模型、强化�
 <details>
 <summary><strong>1. VideoPrism: A Foundational Visual Encoder for Video Understanding</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22VideoPrism%3A+A+Foundational+Visual+Encoder+for+Video+Understanding%22)（未缓存未经核验的数字）
+- 引用量：**109**（[Semantic Scholar](https://www.semanticscholar.org/paper/271f08345dab179670da94ea67f1e0862db2dac1?utm_source=api)，2026-07-30 · 高影响引用 **11**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22VideoPrism%3A+A+Foundational+Visual+Encoder+for+Video+Understanding%22)
 - GitHub Stars：**388**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2402.13217)
 
@@ -3474,7 +3476,7 @@ VideoPrism是一种通用视频编码器，使用单个冻结模型解决多种�
 <details>
 <summary><strong>1. VideoPrism: A Foundational Visual Encoder for Video Understanding</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22VideoPrism%3A+A+Foundational+Visual+Encoder+for+Video+Understanding%22)（未缓存未经核验的数字）
+- 引用量：**109**（[Semantic Scholar](https://www.semanticscholar.org/paper/271f08345dab179670da94ea67f1e0862db2dac1?utm_source=api)，2026-07-30 · 高影响引用 **11**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22VideoPrism%3A+A+Foundational+Visual+Encoder+for+Video+Understanding%22)
 - GitHub Stars：**388**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2402.13217)
 
@@ -3494,7 +3496,7 @@ VideoPrism是一种通用视频编码器，使用单个冻结模型解决多种�
 <details>
 <summary><strong>2. Do Large Language Models Latently Perform Multi-Hop Reasoning?</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Do+Large+Language+Models+Latently+Perform+Multi-Hop+Reasoning%3F%22)（未缓存未经核验的数字）
+- 引用量：**208**（[Semantic Scholar](https://www.semanticscholar.org/paper/c36f638781953f995eb3079f882174846b9ac16a?utm_source=api)，2026-07-30 · 高影响引用 **14**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Do+Large+Language+Models+Latently+Perform+Multi-Hop+Reasoning%3F%22)
 - GitHub Stars：**93**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2402.16837)
 
@@ -3615,7 +3617,7 @@ Fundamental AI Research (FAIR) 隶属于 Meta，是一支主要关注基础模�
 <details>
 <summary><strong>1. VGGT: Visual Geometry Grounded Transformer</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22VGGT%3A+Visual+Geometry+Grounded+Transformer%22)（未缓存未经核验的数字）
+- 引用量：**1547**（[Semantic Scholar](https://www.semanticscholar.org/paper/4356b46e5dd1a4ebd579b1cd6eb3eeedddd5a65c?utm_source=api)，2026-07-30 · 高影响引用 **423**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22VGGT%3A+Visual+Geometry+Grounded+Transformer%22)
 - GitHub Stars：**14046**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2503.11651)
 
@@ -3637,7 +3639,7 @@ VGGT是一种能够直接从视图中推导场景的3D属性，包括相机参�
 <details>
 <summary><strong>1. VGGT: Visual Geometry Grounded Transformer</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22VGGT%3A+Visual+Geometry+Grounded+Transformer%22)（未缓存未经核验的数字）
+- 引用量：**1547**（[Semantic Scholar](https://www.semanticscholar.org/paper/4356b46e5dd1a4ebd579b1cd6eb3eeedddd5a65c?utm_source=api)，2026-07-30 · 高影响引用 **423**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22VGGT%3A+Visual+Geometry+Grounded+Transformer%22)
 - GitHub Stars：**14046**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2503.11651)
 
@@ -3670,7 +3672,7 @@ VGGT是一种能够直接从视图中推导场景的3D属性，包括相机参�
 <details>
 <summary><strong>3. Navigation World Models</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Navigation+World+Models%22)（未缓存未经核验的数字）
+- 引用量：**282**（[Semantic Scholar](https://www.semanticscholar.org/paper/9ca72cef4487494cd835e7abca65794407db62ee?utm_source=api)，2026-07-30 · 高影响引用 **32**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Navigation+World+Models%22)
 - GitHub Stars：**658**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2412.03572)
 
@@ -3706,7 +3708,7 @@ Meta Reality Labs Research 隶属于 Meta，是一支主要关注增强现实、
 <details>
 <summary><strong>1. VGGT: Visual Geometry Grounded Transformer</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22VGGT%3A+Visual+Geometry+Grounded+Transformer%22)（未缓存未经核验的数字）
+- 引用量：**1547**（[Semantic Scholar](https://www.semanticscholar.org/paper/4356b46e5dd1a4ebd579b1cd6eb3eeedddd5a65c?utm_source=api)，2026-07-30 · 高影响引用 **423**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22VGGT%3A+Visual+Geometry+Grounded+Transformer%22)
 - GitHub Stars：**14046**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2503.11651)
 
@@ -3728,7 +3730,7 @@ Meta Reality Labs Research 隶属于 Meta，是一支主要关注增强现实、
 <details>
 <summary><strong>1. VGGT: Visual Geometry Grounded Transformer</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22VGGT%3A+Visual+Geometry+Grounded+Transformer%22)（未缓存未经核验的数字）
+- 引用量：**1547**（[Semantic Scholar](https://www.semanticscholar.org/paper/4356b46e5dd1a4ebd579b1cd6eb3eeedddd5a65c?utm_source=api)，2026-07-30 · 高影响引用 **423**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22VGGT%3A+Visual+Geometry+Grounded+Transformer%22)
 - GitHub Stars：**14046**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2503.11651)
 
@@ -3761,7 +3763,7 @@ Meta Reality Labs Research 隶属于 Meta，是一支主要关注增强现实、
 <details>
 <summary><strong>3. Navigation World Models</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Navigation+World+Models%22)（未缓存未经核验的数字）
+- 引用量：**282**（[Semantic Scholar](https://www.semanticscholar.org/paper/9ca72cef4487494cd835e7abca65794407db62ee?utm_source=api)，2026-07-30 · 高影响引用 **32**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Navigation+World+Models%22)
 - GitHub Stars：**658**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2412.03572)
 
@@ -3799,7 +3801,7 @@ Microsoft Research AI Frontiers 隶属于 Microsoft，是一支主要关注基�
 <details>
 <summary><strong>1. Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)（未缓存未经核验的数字）
+- 引用量：**52**（[Semantic Scholar](https://www.semanticscholar.org/paper/2c0b76b8cb9d702fc81444006623859bc65f2810?utm_source=api)，2026-07-30 · 高影响引用 **7**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)
 - GitHub Stars：**454**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.21571)
 
@@ -3821,7 +3823,7 @@ Microsoft Research AI Frontiers 隶属于 Microsoft，是一支主要关注基�
 <details>
 <summary><strong>1. Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)（未缓存未经核验的数字）
+- 引用量：**52**（[Semantic Scholar](https://www.semanticscholar.org/paper/2c0b76b8cb9d702fc81444006623859bc65f2810?utm_source=api)，2026-07-30 · 高影响引用 **7**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)
 - GitHub Stars：**454**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.21571)
 
@@ -3841,7 +3843,7 @@ Microsoft Research AI Frontiers 隶属于 Microsoft，是一支主要关注基�
 <details>
 <summary><strong>2. Structured 3D Latents for Scalable and Versatile 3D Generation</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Structured+3D+Latents+for+Scalable+and+Versatile+3D+Generation%22)（未缓存未经核验的数字）
+- 引用量：**821**（[Semantic Scholar](https://www.semanticscholar.org/paper/5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8?utm_source=api)，2026-07-30 · 高影响引用 **223**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Structured+3D+Latents+for+Scalable+and+Versatile+3D+Generation%22)
 - GitHub Stars：**13317**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2412.01506)
 
@@ -3890,7 +3892,7 @@ Microsoft Research Asia — General Artificial Intelligence 隶属于 Microsoft�
 <details>
 <summary><strong>1. Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)（未缓存未经核验的数字）
+- 引用量：**52**（[Semantic Scholar](https://www.semanticscholar.org/paper/2c0b76b8cb9d702fc81444006623859bc65f2810?utm_source=api)，2026-07-30 · 高影响引用 **7**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)
 - GitHub Stars：**454**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.21571)
 
@@ -3912,7 +3914,7 @@ Microsoft Research Asia — General Artificial Intelligence 隶属于 Microsoft�
 <details>
 <summary><strong>1. Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)（未缓存未经核验的数字）
+- 引用量：**52**（[Semantic Scholar](https://www.semanticscholar.org/paper/2c0b76b8cb9d702fc81444006623859bc65f2810?utm_source=api)，2026-07-30 · 高影响引用 **7**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)
 - GitHub Stars：**454**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.21571)
 
@@ -3932,7 +3934,7 @@ Microsoft Research Asia — General Artificial Intelligence 隶属于 Microsoft�
 <details>
 <summary><strong>2. Structured 3D Latents for Scalable and Versatile 3D Generation</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Structured+3D+Latents+for+Scalable+and+Versatile+3D+Generation%22)（未缓存未经核验的数字）
+- 引用量：**821**（[Semantic Scholar](https://www.semanticscholar.org/paper/5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8?utm_source=api)，2026-07-30 · 高影响引用 **223**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Structured+3D+Latents+for+Scalable+and+Versatile+3D+Generation%22)
 - GitHub Stars：**13317**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2412.01506)
 
@@ -3981,7 +3983,7 @@ Microsoft Research AI for Science 隶属于 Microsoft，是一支主要关注AI 
 <details>
 <summary><strong>1. Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)（未缓存未经核验的数字）
+- 引用量：**52**（[Semantic Scholar](https://www.semanticscholar.org/paper/2c0b76b8cb9d702fc81444006623859bc65f2810?utm_source=api)，2026-07-30 · 高影响引用 **7**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)
 - GitHub Stars：**454**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.21571)
 
@@ -4003,7 +4005,7 @@ Microsoft Research AI for Science 隶属于 Microsoft，是一支主要关注AI 
 <details>
 <summary><strong>1. Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)（未缓存未经核验的数字）
+- 引用量：**52**（[Semantic Scholar](https://www.semanticscholar.org/paper/2c0b76b8cb9d702fc81444006623859bc65f2810?utm_source=api)，2026-07-30 · 高影响引用 **7**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)
 - GitHub Stars：**454**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.21571)
 
@@ -4023,7 +4025,7 @@ Microsoft Research AI for Science 隶属于 Microsoft，是一支主要关注AI 
 <details>
 <summary><strong>2. Structured 3D Latents for Scalable and Versatile 3D Generation</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Structured+3D+Latents+for+Scalable+and+Versatile+3D+Generation%22)（未缓存未经核验的数字）
+- 引用量：**821**（[Semantic Scholar](https://www.semanticscholar.org/paper/5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8?utm_source=api)，2026-07-30 · 高影响引用 **223**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Structured+3D+Latents+for+Scalable+and+Versatile+3D+Generation%22)
 - GitHub Stars：**13317**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2412.01506)
 
@@ -4072,7 +4074,7 @@ Microsoft Research — Machine Learning Area 隶属于 Microsoft，是一支主�
 <details>
 <summary><strong>1. Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)（未缓存未经核验的数字）
+- 引用量：**52**（[Semantic Scholar](https://www.semanticscholar.org/paper/2c0b76b8cb9d702fc81444006623859bc65f2810?utm_source=api)，2026-07-30 · 高影响引用 **7**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)
 - GitHub Stars：**454**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.21571)
 
@@ -4094,7 +4096,7 @@ Microsoft Research — Machine Learning Area 隶属于 Microsoft，是一支主�
 <details>
 <summary><strong>1. Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)（未缓存未经核验的数字）
+- 引用量：**52**（[Semantic Scholar](https://www.semanticscholar.org/paper/2c0b76b8cb9d702fc81444006623859bc65f2810?utm_source=api)，2026-07-30 · 高影响引用 **7**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)
 - GitHub Stars：**454**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.21571)
 
@@ -4114,7 +4116,7 @@ Microsoft Research — Machine Learning Area 隶属于 Microsoft，是一支主�
 <details>
 <summary><strong>2. Structured 3D Latents for Scalable and Versatile 3D Generation</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Structured+3D+Latents+for+Scalable+and+Versatile+3D+Generation%22)（未缓存未经核验的数字）
+- 引用量：**821**（[Semantic Scholar](https://www.semanticscholar.org/paper/5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8?utm_source=api)，2026-07-30 · 高影响引用 **223**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Structured+3D+Latents+for+Scalable+and+Versatile+3D+Generation%22)
 - GitHub Stars：**13317**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2412.01506)
 
@@ -4163,7 +4165,7 @@ Microsoft Research — Computer Vision Group 隶属于 Microsoft，是一支主�
 <details>
 <summary><strong>1. Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)（未缓存未经核验的数字）
+- 引用量：**52**（[Semantic Scholar](https://www.semanticscholar.org/paper/2c0b76b8cb9d702fc81444006623859bc65f2810?utm_source=api)，2026-07-30 · 高影响引用 **7**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)
 - GitHub Stars：**454**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.21571)
 
@@ -4185,7 +4187,7 @@ Microsoft Research — Computer Vision Group 隶属于 Microsoft，是一支主�
 <details>
 <summary><strong>1. Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)（未缓存未经核验的数字）
+- 引用量：**52**（[Semantic Scholar](https://www.semanticscholar.org/paper/2c0b76b8cb9d702fc81444006623859bc65f2810?utm_source=api)，2026-07-30 · 高影响引用 **7**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Scalable+Vision-Language-Action+Model+Pretraining+for+Robotic+Manipulation+with+Real-Life+Human+Activity+Videos%22)
 - GitHub Stars：**454**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.21571)
 
@@ -4205,7 +4207,7 @@ Microsoft Research — Computer Vision Group 隶属于 Microsoft，是一支主�
 <details>
 <summary><strong>2. Structured 3D Latents for Scalable and Versatile 3D Generation</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Structured+3D+Latents+for+Scalable+and+Versatile+3D+Generation%22)（未缓存未经核验的数字）
+- 引用量：**821**（[Semantic Scholar](https://www.semanticscholar.org/paper/5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8?utm_source=api)，2026-07-30 · 高影响引用 **223**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Structured+3D+Latents+for+Scalable+and+Versatile+3D+Generation%22)
 - GitHub Stars：**13317**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2412.01506)
 
@@ -4256,7 +4258,7 @@ NVIDIA Cosmos Lab 隶属于 NVIDIA，是一支主要关注世界模型、物理�
 <details>
 <summary><strong>2. FoundationStereo: Zero-Shot Stereo Matching</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22FoundationStereo%3A+Zero-Shot+Stereo+Matching%22)（未缓存未经核验的数字）
+- 引用量：**246**（[Semantic Scholar](https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api)，2026-07-30 · 高影响引用 **39**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22FoundationStereo%3A+Zero-Shot+Stereo+Matching%22)
 - GitHub Stars：**2839**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2501.09898)
 
@@ -4278,7 +4280,7 @@ NVIDIA Cosmos Lab 隶属于 NVIDIA，是一支主要关注世界模型、物理�
 <details>
 <summary><strong>1. FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects</strong> · 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22FoundationPose%3A+Unified+6D+Pose+Estimation+and+Tracking+of+Novel+Objects%22)（未缓存未经核验的数字）
+- 引用量：**693**（[Semantic Scholar](https://www.semanticscholar.org/paper/dc4c9ae8c0cfc08ff6392aff69b0fd170da398a4?utm_source=api)，2026-07-30 · 高影响引用 **117**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22FoundationPose%3A+Unified+6D+Pose+Estimation+and+Tracking+of+Novel+Objects%22)
 - GitHub Stars：**3453**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/cvpr52733.2024.01692)
 
@@ -4291,7 +4293,7 @@ NVIDIA Cosmos Lab 隶属于 NVIDIA，是一支主要关注世界模型、物理�
 <details>
 <summary><strong>2. FoundationStereo: Zero-Shot Stereo Matching</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22FoundationStereo%3A+Zero-Shot+Stereo+Matching%22)（未缓存未经核验的数字）
+- 引用量：**246**（[Semantic Scholar](https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api)，2026-07-30 · 高影响引用 **39**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22FoundationStereo%3A+Zero-Shot+Stereo+Matching%22)
 - GitHub Stars：**2839**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2501.09898)
 
@@ -4311,7 +4313,7 @@ NVIDIA Cosmos Lab 隶属于 NVIDIA，是一支主要关注世界模型、物理�
 <details>
 <summary><strong>3. MambaVision: A Hybrid Mamba-Transformer Vision Backbone</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22MambaVision%3A+A+Hybrid+Mamba-Transformer+Vision+Backbone%22)（未缓存未经核验的数字）
+- 引用量：**465**（[Semantic Scholar](https://www.semanticscholar.org/paper/e8dceb26166721014b8ecbd11fd212739c18d315?utm_source=api)，2026-07-30 · 高影响引用 **39**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22MambaVision%3A+A+Hybrid+Mamba-Transformer+Vision+Backbone%22)
 - GitHub Stars：**2210**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2407.08083)
 
@@ -4347,7 +4349,7 @@ NVIDIA GEAR 隶属于 NVIDIA，是一支主要关注具身智能、机器人、�
 <details>
 <summary><strong>2. FoundationStereo: Zero-Shot Stereo Matching</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22FoundationStereo%3A+Zero-Shot+Stereo+Matching%22)（未缓存未经核验的数字）
+- 引用量：**246**（[Semantic Scholar](https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api)，2026-07-30 · 高影响引用 **39**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22FoundationStereo%3A+Zero-Shot+Stereo+Matching%22)
 - GitHub Stars：**2839**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2501.09898)
 
@@ -4369,7 +4371,7 @@ NVIDIA GEAR 隶属于 NVIDIA，是一支主要关注具身智能、机器人、�
 <details>
 <summary><strong>1. FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects</strong> · 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22FoundationPose%3A+Unified+6D+Pose+Estimation+and+Tracking+of+Novel+Objects%22)（未缓存未经核验的数字）
+- 引用量：**693**（[Semantic Scholar](https://www.semanticscholar.org/paper/dc4c9ae8c0cfc08ff6392aff69b0fd170da398a4?utm_source=api)，2026-07-30 · 高影响引用 **117**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22FoundationPose%3A+Unified+6D+Pose+Estimation+and+Tracking+of+Novel+Objects%22)
 - GitHub Stars：**3453**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/cvpr52733.2024.01692)
 
@@ -4382,7 +4384,7 @@ NVIDIA GEAR 隶属于 NVIDIA，是一支主要关注具身智能、机器人、�
 <details>
 <summary><strong>2. FoundationStereo: Zero-Shot Stereo Matching</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22FoundationStereo%3A+Zero-Shot+Stereo+Matching%22)（未缓存未经核验的数字）
+- 引用量：**246**（[Semantic Scholar](https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api)，2026-07-30 · 高影响引用 **39**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22FoundationStereo%3A+Zero-Shot+Stereo+Matching%22)
 - GitHub Stars：**2839**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2501.09898)
 
@@ -4402,7 +4404,7 @@ NVIDIA GEAR 隶属于 NVIDIA，是一支主要关注具身智能、机器人、�
 <details>
 <summary><strong>3. MambaVision: A Hybrid Mamba-Transformer Vision Backbone</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22MambaVision%3A+A+Hybrid+Mamba-Transformer+Vision+Backbone%22)（未缓存未经核验的数字）
+- 引用量：**465**（[Semantic Scholar](https://www.semanticscholar.org/paper/e8dceb26166721014b8ecbd11fd212739c18d315?utm_source=api)，2026-07-30 · 高影响引用 **39**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22MambaVision%3A+A+Hybrid+Mamba-Transformer+Vision+Backbone%22)
 - GitHub Stars：**2210**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2407.08083)
 
@@ -4438,7 +4440,7 @@ NVIDIA Data-Driven AI for Robotics (DAIR) 隶属于 NVIDIA，是一支主要关�
 <details>
 <summary><strong>2. FoundationStereo: Zero-Shot Stereo Matching</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22FoundationStereo%3A+Zero-Shot+Stereo+Matching%22)（未缓存未经核验的数字）
+- 引用量：**246**（[Semantic Scholar](https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api)，2026-07-30 · 高影响引用 **39**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22FoundationStereo%3A+Zero-Shot+Stereo+Matching%22)
 - GitHub Stars：**2839**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2501.09898)
 
@@ -4460,7 +4462,7 @@ NVIDIA Data-Driven AI for Robotics (DAIR) 隶属于 NVIDIA，是一支主要关�
 <details>
 <summary><strong>1. FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects</strong> · 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22FoundationPose%3A+Unified+6D+Pose+Estimation+and+Tracking+of+Novel+Objects%22)（未缓存未经核验的数字）
+- 引用量：**693**（[Semantic Scholar](https://www.semanticscholar.org/paper/dc4c9ae8c0cfc08ff6392aff69b0fd170da398a4?utm_source=api)，2026-07-30 · 高影响引用 **117**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22FoundationPose%3A+Unified+6D+Pose+Estimation+and+Tracking+of+Novel+Objects%22)
 - GitHub Stars：**3453**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/cvpr52733.2024.01692)
 
@@ -4473,7 +4475,7 @@ NVIDIA Data-Driven AI for Robotics (DAIR) 隶属于 NVIDIA，是一支主要关�
 <details>
 <summary><strong>2. FoundationStereo: Zero-Shot Stereo Matching</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22FoundationStereo%3A+Zero-Shot+Stereo+Matching%22)（未缓存未经核验的数字）
+- 引用量：**246**（[Semantic Scholar](https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api)，2026-07-30 · 高影响引用 **39**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22FoundationStereo%3A+Zero-Shot+Stereo+Matching%22)
 - GitHub Stars：**2839**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2501.09898)
 
@@ -4493,7 +4495,7 @@ NVIDIA Data-Driven AI for Robotics (DAIR) 隶属于 NVIDIA，是一支主要关�
 <details>
 <summary><strong>3. MambaVision: A Hybrid Mamba-Transformer Vision Backbone</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22MambaVision%3A+A+Hybrid+Mamba-Transformer+Vision+Backbone%22)（未缓存未经核验的数字）
+- 引用量：**465**（[Semantic Scholar](https://www.semanticscholar.org/paper/e8dceb26166721014b8ecbd11fd212739c18d315?utm_source=api)，2026-07-30 · 高影响引用 **39**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22MambaVision%3A+A+Hybrid+Mamba-Transformer+Vision+Backbone%22)
 - GitHub Stars：**2210**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2407.08083)
 
@@ -4529,7 +4531,7 @@ NVIDIA Efficient AI Lab 隶属于 NVIDIA，是一支主要关注高效 AI、模�
 <details>
 <summary><strong>2. FoundationStereo: Zero-Shot Stereo Matching</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22FoundationStereo%3A+Zero-Shot+Stereo+Matching%22)（未缓存未经核验的数字）
+- 引用量：**246**（[Semantic Scholar](https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api)，2026-07-30 · 高影响引用 **39**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22FoundationStereo%3A+Zero-Shot+Stereo+Matching%22)
 - GitHub Stars：**2839**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2501.09898)
 
@@ -4551,7 +4553,7 @@ NVIDIA Efficient AI Lab 隶属于 NVIDIA，是一支主要关注高效 AI、模�
 <details>
 <summary><strong>1. FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects</strong> · 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22FoundationPose%3A+Unified+6D+Pose+Estimation+and+Tracking+of+Novel+Objects%22)（未缓存未经核验的数字）
+- 引用量：**693**（[Semantic Scholar](https://www.semanticscholar.org/paper/dc4c9ae8c0cfc08ff6392aff69b0fd170da398a4?utm_source=api)，2026-07-30 · 高影响引用 **117**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22FoundationPose%3A+Unified+6D+Pose+Estimation+and+Tracking+of+Novel+Objects%22)
 - GitHub Stars：**3453**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/cvpr52733.2024.01692)
 
@@ -4564,7 +4566,7 @@ NVIDIA Efficient AI Lab 隶属于 NVIDIA，是一支主要关注高效 AI、模�
 <details>
 <summary><strong>2. FoundationStereo: Zero-Shot Stereo Matching</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22FoundationStereo%3A+Zero-Shot+Stereo+Matching%22)（未缓存未经核验的数字）
+- 引用量：**246**（[Semantic Scholar](https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api)，2026-07-30 · 高影响引用 **39**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22FoundationStereo%3A+Zero-Shot+Stereo+Matching%22)
 - GitHub Stars：**2839**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2501.09898)
 
@@ -4584,7 +4586,7 @@ NVIDIA Efficient AI Lab 隶属于 NVIDIA，是一支主要关注高效 AI、模�
 <details>
 <summary><strong>3. MambaVision: A Hybrid Mamba-Transformer Vision Backbone</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22MambaVision%3A+A+Hybrid+Mamba-Transformer+Vision+Backbone%22)（未缓存未经核验的数字）
+- 引用量：**465**（[Semantic Scholar](https://www.semanticscholar.org/paper/e8dceb26166721014b8ecbd11fd212739c18d315?utm_source=api)，2026-07-30 · 高影响引用 **39**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22MambaVision%3A+A+Hybrid+Mamba-Transformer+Vision+Backbone%22)
 - GitHub Stars：**2210**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2407.08083)
 
@@ -4622,7 +4624,7 @@ Amazon AGI Lab 隶属于 Amazon，是一支主要关注智能体、强化学习�
 <details>
 <summary><strong>3. Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Learning+to+Reason+Over+Time%3A+Timeline+Self-Reflection+for+Improved+Temporal+Reasoning+in+Language+Models%22)（未缓存未经核验的数字）
+- 引用量：**9**（[Semantic Scholar](https://www.semanticscholar.org/paper/612de42e996f52b5f1b44900c509a70cff733f2d?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Learning+to+Reason+Over+Time%3A+Timeline+Self-Reflection+for+Improved+Temporal+Reasoning+in+Language+Models%22)
 - GitHub Stars：**14**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2504.05258)
 
@@ -4644,7 +4646,7 @@ Amazon AGI Lab 隶属于 Amazon，是一支主要关注智能体、强化学习�
 <details>
 <summary><strong>1. Code Representation Learning At Scale</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Code+Representation+Learning+At+Scale%22)（未缓存未经核验的数字）
+- 引用量：**35**（[Semantic Scholar](https://www.semanticscholar.org/paper/4bf6ef9498c981ab411b4266aba9a9e19cc1df57?utm_source=api)，2026-07-30 · 高影响引用 **3**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Code+Representation+Learning+At+Scale%22)
 - GitHub Stars：**122**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2402.01935)
 
@@ -4664,7 +4666,7 @@ Amazon AGI Lab 隶属于 Amazon，是一支主要关注智能体、强化学习�
 <details>
 <summary><strong>2. Automated Evaluation of Retrieval-Augmented Language Models with Task-Specific Exam Generation</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Automated+Evaluation+of+Retrieval-Augmented+Language+Models+with+Task-Specific+Exam+Generation%22)（未缓存未经核验的数字）
+- 引用量：**42**（[Semantic Scholar](https://www.semanticscholar.org/paper/55c3095681acc82780508b0e484dba0c30cf1caa?utm_source=api)，2026-07-30 · 高影响引用 **4**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Automated+Evaluation+of+Retrieval-Augmented+Language+Models+with+Task-Specific+Exam+Generation%22)
 - GitHub Stars：**88**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2405.13622)
 
@@ -4684,7 +4686,7 @@ Amazon AGI Lab 隶属于 Amazon，是一支主要关注智能体、强化学习�
 <details>
 <summary><strong>3. Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Learning+to+Reason+Over+Time%3A+Timeline+Self-Reflection+for+Improved+Temporal+Reasoning+in+Language+Models%22)（未缓存未经核验的数字）
+- 引用量：**9**（[Semantic Scholar](https://www.semanticscholar.org/paper/612de42e996f52b5f1b44900c509a70cff733f2d?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Learning+to+Reason+Over+Time%3A+Timeline+Self-Reflection+for+Improved+Temporal+Reasoning+in+Language+Models%22)
 - GitHub Stars：**14**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2504.05258)
 
@@ -4720,7 +4722,7 @@ Amazon Science 隶属于 Amazon，是一支主要关注机器学习、自然语�
 <details>
 <summary><strong>3. Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Learning+to+Reason+Over+Time%3A+Timeline+Self-Reflection+for+Improved+Temporal+Reasoning+in+Language+Models%22)（未缓存未经核验的数字）
+- 引用量：**9**（[Semantic Scholar](https://www.semanticscholar.org/paper/612de42e996f52b5f1b44900c509a70cff733f2d?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Learning+to+Reason+Over+Time%3A+Timeline+Self-Reflection+for+Improved+Temporal+Reasoning+in+Language+Models%22)
 - GitHub Stars：**14**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2504.05258)
 
@@ -4742,7 +4744,7 @@ Amazon Science 隶属于 Amazon，是一支主要关注机器学习、自然语�
 <details>
 <summary><strong>1. Code Representation Learning At Scale</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Code+Representation+Learning+At+Scale%22)（未缓存未经核验的数字）
+- 引用量：**35**（[Semantic Scholar](https://www.semanticscholar.org/paper/4bf6ef9498c981ab411b4266aba9a9e19cc1df57?utm_source=api)，2026-07-30 · 高影响引用 **3**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Code+Representation+Learning+At+Scale%22)
 - GitHub Stars：**122**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2402.01935)
 
@@ -4762,7 +4764,7 @@ Amazon Science 隶属于 Amazon，是一支主要关注机器学习、自然语�
 <details>
 <summary><strong>2. Automated Evaluation of Retrieval-Augmented Language Models with Task-Specific Exam Generation</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Automated+Evaluation+of+Retrieval-Augmented+Language+Models+with+Task-Specific+Exam+Generation%22)（未缓存未经核验的数字）
+- 引用量：**42**（[Semantic Scholar](https://www.semanticscholar.org/paper/55c3095681acc82780508b0e484dba0c30cf1caa?utm_source=api)，2026-07-30 · 高影响引用 **4**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Automated+Evaluation+of+Retrieval-Augmented+Language+Models+with+Task-Specific+Exam+Generation%22)
 - GitHub Stars：**88**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2405.13622)
 
@@ -4782,7 +4784,7 @@ Amazon Science 隶属于 Amazon，是一支主要关注机器学习、自然语�
 <details>
 <summary><strong>3. Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Learning+to+Reason+Over+Time%3A+Timeline+Self-Reflection+for+Improved+Temporal+Reasoning+in+Language+Models%22)（未缓存未经核验的数字）
+- 引用量：**9**（[Semantic Scholar](https://www.semanticscholar.org/paper/612de42e996f52b5f1b44900c509a70cff733f2d?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Learning+to+Reason+Over+Time%3A+Timeline+Self-Reflection+for+Improved+Temporal+Reasoning+in+Language+Models%22)
 - GitHub Stars：**14**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2504.05258)
 
@@ -4820,7 +4822,7 @@ Apple Machine Learning Research 隶属于 Apple，是一支主要关注机器学
 <details>
 <summary><strong>3. LiTo: Surface Light Field Tokenization</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22LiTo%3A+Surface+Light+Field+Tokenization%22)（未缓存未经核验的数字）
+- 引用量：**1**（[Semantic Scholar](https://www.semanticscholar.org/paper/a0940b3ff1e70e72e02a9d6cd074f96a0404ff42?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22LiTo%3A+Surface+Light+Field+Tokenization%22)
 - GitHub Stars：**459**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2603.11047)
 
@@ -4842,7 +4844,7 @@ Apple Machine Learning Research 隶属于 Apple，是一支主要关注机器学
 <details>
 <summary><strong>1. FastVLM: Efficient Vision Encoding for Vision Language Models</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22FastVLM%3A+Efficient+Vision+Encoding+for+Vision+Language+Models%22)（未缓存未经核验的数字）
+- 引用量：**85**（[Semantic Scholar](https://www.semanticscholar.org/paper/947a12e4f09ecc8d2abfe577bbdf978d79b2c556?utm_source=api)，2026-07-30 · 高影响引用 **6**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22FastVLM%3A+Efficient+Vision+Encoding+for+Vision+Language+Models%22)
 - GitHub Stars：**7389**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2412.13303)
 
@@ -4875,7 +4877,7 @@ Apple Machine Learning Research 隶属于 Apple，是一支主要关注机器学
 <details>
 <summary><strong>3. LiTo: Surface Light Field Tokenization</strong> · arXiv (Cornell University) · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22LiTo%3A+Surface+Light+Field+Tokenization%22)（未缓存未经核验的数字）
+- 引用量：**1**（[Semantic Scholar](https://www.semanticscholar.org/paper/a0940b3ff1e70e72e02a9d6cd074f96a0404ff42?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22LiTo%3A+Surface+Light+Field+Tokenization%22)
 - GitHub Stars：**459**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2603.11047)
 
@@ -4985,7 +4987,7 @@ OpenAI Research 隶属于 OpenAI，是一支主要关注基础模型、机器推
 <details>
 <summary><strong>3. MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22MLE-bench%3A+Evaluating+Machine+Learning+Agents+on+Machine+Learning+Engineering%22)（未缓存未经核验的数字）
+- 引用量：**312**（[Semantic Scholar](https://www.semanticscholar.org/paper/7c44b7fdcec2e517799f6c54f6ba42bf1a89d2e6?utm_source=api)，2026-07-30 · 高影响引用 **40**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22MLE-bench%3A+Evaluating+Machine+Learning+Agents+on+Machine+Learning+Engineering%22)
 - GitHub Stars：**1658**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2410.07095)
 
@@ -5013,7 +5015,7 @@ OpenAI Research 隶属于 OpenAI，是一支主要关注基础模型、机器推
 <details>
 <summary><strong>2. Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos</strong> · Advances in Neural Information Processing Systems 35 · 2022</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Video+PreTraining+%28VPT%29%3A+Learning+to+Act+by+Watching+Unlabeled+Online+Videos%22)（未缓存未经核验的数字）
+- 引用量：Semantic Scholar 暂未收录 · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Video+PreTraining+%28VPT%29%3A+Learning+to+Act+by+Watching+Unlabeled+Online+Videos%22)
 - GitHub Stars：**1720**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.52202/068431-1789)
 
@@ -5026,7 +5028,7 @@ OpenAI Research 隶属于 OpenAI，是一支主要关注基础模型、机器推
 <details>
 <summary><strong>3. MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22MLE-bench%3A+Evaluating+Machine+Learning+Agents+on+Machine+Learning+Engineering%22)（未缓存未经核验的数字）
+- 引用量：**312**（[Semantic Scholar](https://www.semanticscholar.org/paper/7c44b7fdcec2e517799f6c54f6ba42bf1a89d2e6?utm_source=api)，2026-07-30 · 高影响引用 **40**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22MLE-bench%3A+Evaluating+Machine+Learning+Agents+on+Machine+Learning+Engineering%22)
 - GitHub Stars：**1658**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2410.07095)
 
@@ -5411,7 +5413,7 @@ Tsinghua Natural Language Processing Lab (THUNLP) 隶属于 Tsinghua University�
 <details>
 <summary><strong>1. JustRL: Scaling a 1.5B LLM with a Simple RL Recipe</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22JustRL%3A+Scaling+a+1.5B+LLM+with+a+Simple+RL+Recipe%22)（未缓存未经核验的数字）
+- 引用量：**29**（[Semantic Scholar](https://www.semanticscholar.org/paper/a66078c542dbe8a6145b206f103bf53124ee4a46?utm_source=api)，2026-07-30 · 高影响引用 **5**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22JustRL%3A+Scaling+a+1.5B+LLM+with+a+Simple+RL+Recipe%22)
 - GitHub Stars：**292**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2512.16649)
 
@@ -5433,7 +5435,7 @@ Tsinghua Natural Language Processing Lab (THUNLP) 隶属于 Tsinghua University�
 <details>
 <summary><strong>1. JustRL: Scaling a 1.5B LLM with a Simple RL Recipe</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22JustRL%3A+Scaling+a+1.5B+LLM+with+a+Simple+RL+Recipe%22)（未缓存未经核验的数字）
+- 引用量：**29**（[Semantic Scholar](https://www.semanticscholar.org/paper/a66078c542dbe8a6145b206f103bf53124ee4a46?utm_source=api)，2026-07-30 · 高影响引用 **5**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22JustRL%3A+Scaling+a+1.5B+LLM+with+a+Simple+RL+Recipe%22)
 - GitHub Stars：**292**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2512.16649)
 
@@ -5466,7 +5468,7 @@ Tsinghua Natural Language Processing Lab (THUNLP) 隶属于 Tsinghua University�
 <details>
 <summary><strong>3. Enhancing Legal Case Retrieval via Scaling High-quality Synthetic Query-Candidate Pairs</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Enhancing+Legal+Case+Retrieval+via+Scaling+High-quality+Synthetic+Query-Candidate+Pairs%22)（未缓存未经核验的数字）
+- 引用量：**17**（[Semantic Scholar](https://www.semanticscholar.org/paper/bdf2e3ea5a69a0fb1a4d8d1f08ac3df5191e022c?utm_source=api)，2026-07-30 · 高影响引用 **1**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Enhancing+Legal+Case+Retrieval+via+Scaling+High-quality+Synthetic+Query-Candidate+Pairs%22)
 - GitHub Stars：**17**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2410.06581)
 
@@ -5502,7 +5504,7 @@ Tsinghua Knowledge Engineering Group / THUDM 隶属于 Tsinghua University，是
 <details>
 <summary><strong>1. LongWriter: Unleashing 10,000+ Word Generation from Long Context LLMs</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22LongWriter%3A+Unleashing+10%2C000%2B+Word+Generation+from+Long+Context+LLMs%22)（未缓存未经核验的数字）
+- 引用量：**152**（[Semantic Scholar](https://www.semanticscholar.org/paper/14ba95d4344aea719be0425f4b214d5bd42aabfb?utm_source=api)，2026-07-30 · 高影响引用 **33**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22LongWriter%3A+Unleashing+10%2C000%2B+Word+Generation+from+Long+Context+LLMs%22)
 - GitHub Stars：**1868**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2408.07055)
 
@@ -5517,7 +5519,7 @@ Tsinghua Knowledge Engineering Group / THUDM 隶属于 Tsinghua University，是
 <details>
 <summary><strong>1. LongWriter: Unleashing 10,000+ Word Generation from Long Context LLMs</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22LongWriter%3A+Unleashing+10%2C000%2B+Word+Generation+from+Long+Context+LLMs%22)（未缓存未经核验的数字）
+- 引用量：**152**（[Semantic Scholar](https://www.semanticscholar.org/paper/14ba95d4344aea719be0425f4b214d5bd42aabfb?utm_source=api)，2026-07-30 · 高影响引用 **33**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22LongWriter%3A+Unleashing+10%2C000%2B+Word+Generation+from+Long+Context+LLMs%22)
 - GitHub Stars：**1868**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2408.07055)
 
@@ -5530,7 +5532,7 @@ Tsinghua Knowledge Engineering Group / THUDM 隶属于 Tsinghua University，是
 <details>
 <summary><strong>2. ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22ReST-MCTS*%3A+LLM+Self-Training+via+Process+Reward+Guided+Tree+Search%22)（未缓存未经核验的数字）
+- 引用量：**495**（[Semantic Scholar](https://www.semanticscholar.org/paper/cd27f45bc760447fb4de3209e2381ea3493bbd57?utm_source=api)，2026-07-30 · 高影响引用 **22**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22ReST-MCTS*%3A+LLM+Self-Training+via+Process+Reward+Guided+Tree+Search%22)
 - GitHub Stars：**710**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2406.03816)
 
@@ -5550,7 +5552,7 @@ Tsinghua Knowledge Engineering Group / THUDM 隶属于 Tsinghua University，是
 <details>
 <summary><strong>3. LongAlign: A Recipe for Long Context Alignment of Large Language Models</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22LongAlign%3A+A+Recipe+for+Long+Context+Alignment+of+Large+Language+Models%22)（未缓存未经核验的数字）
+- 引用量：**113**（[Semantic Scholar](https://www.semanticscholar.org/paper/ec9203f6c25a353325dd23ed38e5036b79d9e79b?utm_source=api)，2026-07-30 · 高影响引用 **25**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22LongAlign%3A+A+Recipe+for+Long+Context+Alignment+of+Large+Language+Models%22)
 - GitHub Stars：**262**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2401.18058)
 
@@ -5579,7 +5581,7 @@ Tsinghua Conversational AI Group (CoAI) 隶属于 Tsinghua University，是一�
 <details>
 <summary><strong>3. Benchmarking Complex Instruction-Following with Multiple Constraints Composition</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Benchmarking+Complex+Instruction-Following+with+Multiple+Constraints+Composition%22)（未缓存未经核验的数字）
+- 引用量：**152**（[Semantic Scholar](https://www.semanticscholar.org/paper/abaaa617151b99f2febf94d1aa2ec9fc6aa65f5b?utm_source=api)，2026-07-30 · 高影响引用 **39**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Benchmarking+Complex+Instruction-Following+with+Multiple+Constraints+Composition%22)
 - GitHub Stars：**102**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2407.03978)
 
@@ -5614,7 +5616,7 @@ Tsinghua Conversational AI Group (CoAI) 隶属于 Tsinghua University，是一�
 <details>
 <summary><strong>2. ShieldLM: Empowering LLMs as Aligned, Customizable and Explainable Safety Detectors</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22ShieldLM%3A+Empowering+LLMs+as+Aligned%2C+Customizable+and+Explainable+Safety+Detectors%22)（未缓存未经核验的数字）
+- 引用量：**65**（[Semantic Scholar](https://www.semanticscholar.org/paper/a4fe9129afaf2ce1876057d0f33314a82a6731a4?utm_source=api)，2026-07-30 · 高影响引用 **8**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22ShieldLM%3A+Empowering+LLMs+as+Aligned%2C+Customizable+and+Explainable+Safety+Detectors%22)
 - GitHub Stars：**231**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2402.16444)
 
@@ -5627,7 +5629,7 @@ Tsinghua Conversational AI Group (CoAI) 隶属于 Tsinghua University，是一�
 <details>
 <summary><strong>3. Benchmarking Complex Instruction-Following with Multiple Constraints Composition</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Benchmarking+Complex+Instruction-Following+with+Multiple+Constraints+Composition%22)（未缓存未经核验的数字）
+- 引用量：**152**（[Semantic Scholar](https://www.semanticscholar.org/paper/abaaa617151b99f2febf94d1aa2ec9fc6aa65f5b?utm_source=api)，2026-07-30 · 高影响引用 **39**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Benchmarking+Complex+Instruction-Following+with+Multiple+Constraints+Composition%22)
 - GitHub Stars：**102**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2407.03978)
 
@@ -5731,7 +5733,7 @@ PKU Alignment 隶属于 Peking University，是一支主要关注AI 对齐、强
 <details>
 <summary><strong>2. SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22SafeVLA%3A+Towards+Safety+Alignment+of+Vision-Language-Action+Model+via+Constrained+Learning%22)（未缓存未经核验的数字）
+- 引用量：**52**（[Semantic Scholar](https://www.semanticscholar.org/paper/4c1b7cf0550130a2aca6215b759cb09c76b19978?utm_source=api)，2026-07-30 · 高影响引用 **2**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22SafeVLA%3A+Towards+Safety+Alignment+of+Vision-Language-Action+Model+via+Constrained+Learning%22)
 - GitHub Stars：**154**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2503.03480)
 
@@ -5753,7 +5755,7 @@ PKU Alignment 隶属于 Peking University，是一支主要关注AI 对齐、强
 <details>
 <summary><strong>1. Aligner: Efficient Alignment by Learning to Correct</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Aligner%3A+Efficient+Alignment+by+Learning+to+Correct%22)（未缓存未经核验的数字）
+- 引用量：**104**（[Semantic Scholar](https://www.semanticscholar.org/paper/4c2d8df556589ff4fbb5ee68c1f45bff3786624f?utm_source=api)，2026-07-30 · 高影响引用 **14**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Aligner%3A+Efficient+Alignment+by+Learning+to+Correct%22)
 - GitHub Stars：**194**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2402.02416)
 
@@ -5773,7 +5775,7 @@ PKU Alignment 隶属于 Peking University，是一支主要关注AI 对齐、强
 <details>
 <summary><strong>2. SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22SafeVLA%3A+Towards+Safety+Alignment+of+Vision-Language-Action+Model+via+Constrained+Learning%22)（未缓存未经核验的数字）
+- 引用量：**52**（[Semantic Scholar](https://www.semanticscholar.org/paper/4c1b7cf0550130a2aca6215b759cb09c76b19978?utm_source=api)，2026-07-30 · 高影响引用 **2**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22SafeVLA%3A+Towards+Safety+Alignment+of+Vision-Language-Action+Model+via+Constrained+Learning%22)
 - GitHub Stars：**154**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2503.03480)
 
@@ -5793,7 +5795,7 @@ PKU Alignment 隶属于 Peking University，是一支主要关注AI 对齐、强
 <details>
 <summary><strong>3. SafeDreamer: Safe Reinforcement Learning with World Models</strong> · arXiv (Cornell University) · 2023</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22SafeDreamer%3A+Safe+Reinforcement+Learning+with+World+Models%22)（未缓存未经核验的数字）
+- 引用量：**62**（[Semantic Scholar](https://www.semanticscholar.org/paper/067239c3a60c8649db4ab2791a8bbddb7b4c7c99?utm_source=api)，2026-07-30 · 高影响引用 **7**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22SafeDreamer%3A+Safe+Reinforcement+Learning+with+World+Models%22)
 - GitHub Stars：**105**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2307.07176)
 
@@ -5829,7 +5831,7 @@ PKU Data and Intelligence Research Lab (DAIR) 隶属于 Peking University，是�
 <details>
 <summary><strong>2. A-Tune-Online: Efficient and QoS-Aware Online Configuration Tuning for Dynamic Workloads</strong> · 2025 IEEE 41st International Conference on Data Engineering (ICDE) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22A-Tune-Online%3A+Efficient+and+QoS-Aware+Online+Configuration+Tuning+for+Dynamic+Workloads%22)（未缓存未经核验的数字）
+- 引用量：**1**（[Semantic Scholar](https://www.semanticscholar.org/paper/041c034df861d347b20f2730f3d621964c57128e?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22A-Tune-Online%3A+Efficient+and+QoS-Aware+Online+Configuration+Tuning+for+Dynamic+Workloads%22)
 - GitHub Stars：**1**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/icde65448.2025.00164)
 
@@ -5857,7 +5859,7 @@ PKU Data and Intelligence Research Lab (DAIR) 隶属于 Peking University，是�
 <details>
 <summary><strong>2. A-Tune-Online: Efficient and QoS-Aware Online Configuration Tuning for Dynamic Workloads</strong> · 2025 IEEE 41st International Conference on Data Engineering (ICDE) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22A-Tune-Online%3A+Efficient+and+QoS-Aware+Online+Configuration+Tuning+for+Dynamic+Workloads%22)（未缓存未经核验的数字）
+- 引用量：**1**（[Semantic Scholar](https://www.semanticscholar.org/paper/041c034df861d347b20f2730f3d621964c57128e?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22A-Tune-Online%3A+Efficient+and+QoS-Aware+Online+Configuration+Tuning+for+Dynamic+Workloads%22)
 - GitHub Stars：**1**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/icde65448.2025.00164)
 
@@ -5899,7 +5901,7 @@ PKU Cognitive Reasoning Lab (CoRe) 隶属于 Peking University，是一支主要
 <details>
 <summary><strong>1. Proposing and solving olympiad geometry with guided tree search</strong> · Nature Machine Intelligence · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Proposing+and+solving+olympiad+geometry+with+guided+tree+search%22)（未缓存未经核验的数字）
+- 引用量：**19**（[Semantic Scholar](https://www.semanticscholar.org/paper/a89fe3c6749c79354b30a154c6298a7ff2bec9d6?utm_source=api)，2026-07-30 · 高影响引用 **5**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Proposing+and+solving+olympiad+geometry+with+guided+tree+search%22)
 - [论文 / 项目原始入口](https://doi.org/10.1038/s42256-025-01164-x)
 
 **基于 Abstract 的 TL;DR**
@@ -5913,7 +5915,7 @@ PKU Cognitive Reasoning Lab (CoRe) 隶属于 Peking University，是一支主要
 <details>
 <summary><strong>1. Proposing and solving olympiad geometry with guided tree search</strong> · Nature Machine Intelligence · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Proposing+and+solving+olympiad+geometry+with+guided+tree+search%22)（未缓存未经核验的数字）
+- 引用量：**19**（[Semantic Scholar](https://www.semanticscholar.org/paper/a89fe3c6749c79354b30a154c6298a7ff2bec9d6?utm_source=api)，2026-07-30 · 高影响引用 **5**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Proposing+and+solving+olympiad+geometry+with+guided+tree+search%22)
 - [论文 / 项目原始入口](https://doi.org/10.1038/s42256-025-01164-x)
 
 **基于 Abstract 的 TL;DR**
@@ -5925,7 +5927,7 @@ PKU Cognitive Reasoning Lab (CoRe) 隶属于 Peking University，是一支主要
 <details>
 <summary><strong>2. Combined evidence from artificial neural networks and human brain-lesion models reveals that language modulates vision in human perception</strong> · Nature Human Behaviour · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Combined+evidence+from+artificial+neural+networks+and+human+brain-lesion+models+reveals+that+language+modulates+vision+in+human+perception%22)（未缓存未经核验的数字）
+- 引用量：**6**（[Semantic Scholar](https://www.semanticscholar.org/paper/62a34a7f6108f6d62f29a369be2f04b8a11568dc?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Combined+evidence+from+artificial+neural+networks+and+human+brain-lesion+models+reveals+that+language+modulates+vision+in+human+perception%22)
 - [论文 / 项目原始入口](https://doi.org/10.1038/s41562-025-02357-5)
 
 **摘要 / 项目说明**
@@ -5937,7 +5939,7 @@ PKU Cognitive Reasoning Lab (CoRe) 隶属于 Peking University，是一支主要
 <details>
 <summary><strong>3. Embedding high-resolution touch across robotic hands enables adaptive human-like grasping</strong> · Research Square · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Embedding+high-resolution+touch+across+robotic+hands+enables+adaptive+human-like+grasping%22)（未缓存未经核验的数字）
+- 引用量：Semantic Scholar 暂未收录 · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Embedding+high-resolution+touch+across+robotic+hands+enables+adaptive+human-like+grasping%22)
 - [论文 / 项目原始入口](https://doi.org/10.21203/rs.3.rs-5666566/v1)
 
 **摘要 / 项目说明**
@@ -5965,7 +5967,7 @@ PKU Camera Intelligence Lab 隶属于 Peking University，是一支主要关注�
 <details>
 <summary><strong>3. EventAid: Benchmarking Event-Aided Image/Video Enhancement Algorithms With Real-Captured Hybrid Dataset</strong> · IEEE Transactions on Pattern Analysis and Machine Intelligence · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22EventAid%3A+Benchmarking+Event-Aided+Image%2FVideo+Enhancement+Algorithms+With+Real-Captured+Hybrid+Dataset%22)（未缓存未经核验的数字）
+- 引用量：**2**（[Semantic Scholar](https://www.semanticscholar.org/paper/20bcb8c66af25ce81d17a60f45da3d9539c51fdd?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22EventAid%3A+Benchmarking+Event-Aided+Image%2FVideo+Enhancement+Algorithms+With+Real-Captured+Hybrid+Dataset%22)
 - [论文 / 项目原始入口](https://doi.org/10.1109/tpami.2025.3568333)
 
 **基于 Abstract 的 TL;DR**
@@ -6003,7 +6005,7 @@ PKU Camera Intelligence Lab 隶属于 Peking University，是一支主要关注�
 <details>
 <summary><strong>3. EventAid: Benchmarking Event-Aided Image/Video Enhancement Algorithms With Real-Captured Hybrid Dataset</strong> · IEEE Transactions on Pattern Analysis and Machine Intelligence · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22EventAid%3A+Benchmarking+Event-Aided+Image%2FVideo+Enhancement+Algorithms+With+Real-Captured+Hybrid+Dataset%22)（未缓存未经核验的数字）
+- 引用量：**2**（[Semantic Scholar](https://www.semanticscholar.org/paper/20bcb8c66af25ce81d17a60f45da3d9539c51fdd?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22EventAid%3A+Benchmarking+Event-Aided+Image%2FVideo+Enhancement+Algorithms+With+Real-Captured+Hybrid+Dataset%22)
 - [论文 / 项目原始入口](https://doi.org/10.1109/tpami.2025.3568333)
 
 **基于 Abstract 的 TL;DR**
@@ -6101,7 +6103,7 @@ Zhejiang University NLP & Knowledge Graph Group 隶属于 Zhejiang University，
 <details>
 <summary><strong>2. LightMem: Lightweight and Efficient Memory-Augmented Generation</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22LightMem%3A+Lightweight+and+Efficient+Memory-Augmented+Generation%22)（未缓存未经核验的数字）
+- 引用量：**107**（[Semantic Scholar](https://www.semanticscholar.org/paper/5e86097153a19e5656ab6a310e6f36b2679b70e8?utm_source=api)，2026-07-30 · 高影响引用 **34**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22LightMem%3A+Lightweight+and+Efficient+Memory-Augmented+Generation%22)
 - GitHub Stars：**1036**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.18866)
 
@@ -6136,7 +6138,7 @@ Zhejiang University NLP & Knowledge Graph Group 隶属于 Zhejiang University，
 <details>
 <summary><strong>2. LightMem: Lightweight and Efficient Memory-Augmented Generation</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22LightMem%3A+Lightweight+and+Efficient+Memory-Augmented+Generation%22)（未缓存未经核验的数字）
+- 引用量：**107**（[Semantic Scholar](https://www.semanticscholar.org/paper/5e86097153a19e5656ab6a310e6f36b2679b70e8?utm_source=api)，2026-07-30 · 高影响引用 **34**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22LightMem%3A+Lightweight+and+Efficient+Memory-Augmented+Generation%22)
 - GitHub Stars：**1036**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.18866)
 
@@ -6156,7 +6158,7 @@ Zhejiang University NLP & Knowledge Graph Group 隶属于 Zhejiang University，
 <details>
 <summary><strong>3. OmniThink: Expanding Knowledge Boundaries in Machine Writing through Thinking</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OmniThink%3A+Expanding+Knowledge+Boundaries+in+Machine+Writing+through+Thinking%22)（未缓存未经核验的数字）
+- 引用量：**25**（[Semantic Scholar](https://www.semanticscholar.org/paper/613912aa7c10372e95ec43dea4b80d41d47002ee?utm_source=api)，2026-07-30 · 高影响引用 **4**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OmniThink%3A+Expanding+Knowledge+Boundaries+in+Machine+Writing+through+Thinking%22)
 - GitHub Stars：**487**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2501.09751)
 
@@ -6185,7 +6187,7 @@ ZJU Reasoning, Evaluation and Agents Lab (REAL) 隶属于 Zhejiang University，
 <details>
 <summary><strong>2. SpatialLadder: Progressive Training for Spatial Reasoning in Vision-Language Models</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22SpatialLadder%3A+Progressive+Training+for+Spatial+Reasoning+in+Vision-Language+Models%22)（未缓存未经核验的数字）
+- 引用量：**59**（[Semantic Scholar](https://www.semanticscholar.org/paper/d06e9888daa3f5c59d4fd49d58b53487e538e274?utm_source=api)，2026-07-30 · 高影响引用 **10**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22SpatialLadder%3A+Progressive+Training+for+Spatial+Reasoning+in+Vision-Language+Models%22)
 - GitHub Stars：**99**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.08531)
 
@@ -6207,7 +6209,7 @@ ZJU Reasoning, Evaluation and Agents Lab (REAL) 隶属于 Zhejiang University，
 <details>
 <summary><strong>1. GUI-G$^2$: Gaussian Reward Modeling for GUI Grounding</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22GUI-G%24%5E2%24%3A+Gaussian+Reward+Modeling+for+GUI+Grounding%22)（未缓存未经核验的数字）
+- 引用量：**57**（[Semantic Scholar](https://www.semanticscholar.org/paper/2cd9023631d8eeb7115687fa5863a38544cfabea?utm_source=api)，2026-07-30 · 高影响引用 **5**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22GUI-G%24%5E2%24%3A+Gaussian+Reward+Modeling+for+GUI+Grounding%22)
 - GitHub Stars：**310**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2507.15846)
 
@@ -6227,7 +6229,7 @@ ZJU Reasoning, Evaluation and Agents Lab (REAL) 隶属于 Zhejiang University，
 <details>
 <summary><strong>2. SpatialLadder: Progressive Training for Spatial Reasoning in Vision-Language Models</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22SpatialLadder%3A+Progressive+Training+for+Spatial+Reasoning+in+Vision-Language+Models%22)（未缓存未经核验的数字）
+- 引用量：**59**（[Semantic Scholar](https://www.semanticscholar.org/paper/d06e9888daa3f5c59d4fd49d58b53487e538e274?utm_source=api)，2026-07-30 · 高影响引用 **10**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22SpatialLadder%3A+Progressive+Training+for+Spatial+Reasoning+in+Vision-Language+Models%22)
 - GitHub Stars：**99**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.08531)
 
@@ -6247,7 +6249,7 @@ ZJU Reasoning, Evaluation and Agents Lab (REAL) 隶属于 Zhejiang University，
 <details>
 <summary><strong>3. ViewSpatial-Bench: Evaluating Multi-perspective Spatial Localization in Vision-Language Models</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22ViewSpatial-Bench%3A+Evaluating+Multi-perspective+Spatial+Localization+in+Vision-Language+Models%22)（未缓存未经核验的数字）
+- 引用量：**77**（[Semantic Scholar](https://www.semanticscholar.org/paper/af5d02a5dcacb9bb5af1ec17006fee93aa3a062f?utm_source=api)，2026-07-30 · 高影响引用 **15**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22ViewSpatial-Bench%3A+Evaluating+Multi-perspective+Spatial+Localization+in+Vision-Language+Models%22)
 - GitHub Stars：**82**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2505.21500)
 
@@ -6283,7 +6285,7 @@ ZJU 3D Vision Group 隶属于 Zhejiang University，是一支主要关注三维�
 <details>
 <summary><strong>2. World-Grounded Human Motion Recovery via Gravity-View Coordinates</strong> · SIGGRAPH Asia 2024 Conference Papers · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22World-Grounded+Human+Motion+Recovery+via+Gravity-View+Coordinates%22)（未缓存未经核验的数字）
+- 引用量：**165**（[Semantic Scholar](https://www.semanticscholar.org/paper/21edc150681aeacbc74114257a138b16b0cdedb1?utm_source=api)，2026-07-30 · 高影响引用 **34**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22World-Grounded+Human+Motion+Recovery+via+Gravity-View+Coordinates%22)
 - GitHub Stars：**1800**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1145/3680528.3687565)
 
@@ -6298,7 +6300,7 @@ ZJU 3D Vision Group 隶属于 Zhejiang University，是一支主要关注三维�
 <details>
 <summary><strong>1. 4K4D: Real-Time 4D View Synthesis at 4K Resolution</strong> · arXiv (Cornell University) · 2023</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%224K4D%3A+Real-Time+4D+View+Synthesis+at+4K+Resolution%22)（未缓存未经核验的数字）
+- 引用量：**125**（[Semantic Scholar](https://www.semanticscholar.org/paper/756a7acc5487a301e3b01fa6e4418bf33e3c9801?utm_source=api)，2026-07-30 · 高影响引用 **4**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%224K4D%3A+Real-Time+4D+View+Synthesis+at+4K+Resolution%22)
 - GitHub Stars：**1805**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2310.11448)
 
@@ -6318,7 +6320,7 @@ ZJU 3D Vision Group 隶属于 Zhejiang University，是一支主要关注三维�
 <details>
 <summary><strong>2. World-Grounded Human Motion Recovery via Gravity-View Coordinates</strong> · SIGGRAPH Asia 2024 Conference Papers · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22World-Grounded+Human+Motion+Recovery+via+Gravity-View+Coordinates%22)（未缓存未经核验的数字）
+- 引用量：**165**（[Semantic Scholar](https://www.semanticscholar.org/paper/21edc150681aeacbc74114257a138b16b0cdedb1?utm_source=api)，2026-07-30 · 高影响引用 **34**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22World-Grounded+Human+Motion+Recovery+via+Gravity-View+Coordinates%22)
 - GitHub Stars：**1800**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1145/3680528.3687565)
 
@@ -6331,7 +6333,7 @@ ZJU 3D Vision Group 隶属于 Zhejiang University，是一支主要关注三维�
 <details>
 <summary><strong>3. Street Gaussians: Modeling Dynamic Urban Scenes with Gaussian Splatting</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Street+Gaussians%3A+Modeling+Dynamic+Urban+Scenes+with+Gaussian+Splatting%22)（未缓存未经核验的数字）
+- 引用量：**256**（[Semantic Scholar](https://www.semanticscholar.org/paper/90fa2eb2b62959183181e5fce44421fc6f7f69f5?utm_source=api)，2026-07-30 · 高影响引用 **46**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Street+Gaussians%3A+Modeling+Dynamic+Urban+Scenes+with+Gaussian+Splatting%22)
 - GitHub Stars：**1373**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2401.01339)
 
@@ -6369,7 +6371,7 @@ SJTU Machine Intelligence and Interaction Lab (MINT) 隶属于 Shanghai Jiao Ton
 <details>
 <summary><strong>3. Evo-1: Lightweight Vision-Language-Action Model with Preserved Semantic Alignment</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Evo-1%3A+Lightweight+Vision-Language-Action+Model+with+Preserved+Semantic+Alignment%22)（未缓存未经核验的数字）
+- 引用量：**32**（[Semantic Scholar](https://www.semanticscholar.org/paper/2073b51ba5c2976373244eb4dd6ffcbea9d15954?utm_source=api)，2026-07-30 · 高影响引用 **2**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Evo-1%3A+Lightweight+Vision-Language-Action+Model+with+Preserved+Semantic+Alignment%22)
 - GitHub Stars：**342**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2511.04555)
 
@@ -6417,7 +6419,7 @@ SJTU Machine Intelligence and Interaction Lab (MINT) 隶属于 Shanghai Jiao Ton
 <details>
 <summary><strong>3. Evo-1: Lightweight Vision-Language-Action Model with Preserved Semantic Alignment</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Evo-1%3A+Lightweight+Vision-Language-Action+Model+with+Preserved+Semantic+Alignment%22)（未缓存未经核验的数字）
+- 引用量：**32**（[Semantic Scholar](https://www.semanticscholar.org/paper/2073b51ba5c2976373244eb4dd6ffcbea9d15954?utm_source=api)，2026-07-30 · 高影响引用 **2**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Evo-1%3A+Lightweight+Vision-Language-Action+Model+with+Preserved+Semantic+Alignment%22)
 - GitHub Stars：**342**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2511.04555)
 
@@ -6453,7 +6455,7 @@ SJTU Generative AI Research Lab (GAIR-NLP) 隶属于 Shanghai Jiao Tong Universi
 <details>
 <summary><strong>1. LIMO: Less is More for Reasoning</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22LIMO%3A+Less+is+More+for+Reasoning%22)（未缓存未经核验的数字）
+- 引用量：**491**（[Semantic Scholar](https://www.semanticscholar.org/paper/b62d0605137463ea591a0619840305cb98f6958f?utm_source=api)，2026-07-30 · 高影响引用 **70**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22LIMO%3A+Less+is+More+for+Reasoning%22)
 - GitHub Stars：**1080**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2502.03387)
 
@@ -6475,7 +6477,7 @@ SJTU Generative AI Research Lab (GAIR-NLP) 隶属于 Shanghai Jiao Tong Universi
 <details>
 <summary><strong>1. LIMO: Less is More for Reasoning</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22LIMO%3A+Less+is+More+for+Reasoning%22)（未缓存未经核验的数字）
+- 引用量：**491**（[Semantic Scholar](https://www.semanticscholar.org/paper/b62d0605137463ea591a0619840305cb98f6958f?utm_source=api)，2026-07-30 · 高影响引用 **70**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22LIMO%3A+Less+is+More+for+Reasoning%22)
 - GitHub Stars：**1080**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2502.03387)
 
@@ -6495,7 +6497,7 @@ SJTU Generative AI Research Lab (GAIR-NLP) 隶属于 Shanghai Jiao Tong Universi
 <details>
 <summary><strong>2. ANOLE: An Open, Autoregressive, Native Large Multimodal Models for Interleaved Image-Text Generation</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22ANOLE%3A+An+Open%2C+Autoregressive%2C+Native+Large+Multimodal+Models+for+Interleaved+Image-Text+Generation%22)（未缓存未经核验的数字）
+- 引用量：**110**（[Semantic Scholar](https://www.semanticscholar.org/paper/fe2be36e51b96320786854a0513e18a9da3a8804?utm_source=api)，2026-07-30 · 高影响引用 **19**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22ANOLE%3A+An+Open%2C+Autoregressive%2C+Native+Large+Multimodal+Models+for+Interleaved+Image-Text+Generation%22)
 - GitHub Stars：**842**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2407.06135)
 
@@ -6515,7 +6517,7 @@ SJTU Generative AI Research Lab (GAIR-NLP) 隶属于 Shanghai Jiao Tong Universi
 <details>
 <summary><strong>3. Programming Every Example: Lifting Pre-training Data Quality Like Experts at Scale</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Programming+Every+Example%3A+Lifting+Pre-training+Data+Quality+Like+Experts+at+Scale%22)（未缓存未经核验的数字）
+- 引用量：**38**（[Semantic Scholar](https://www.semanticscholar.org/paper/b256751e6abcc595f7500f3cc0e8c1f225af7837?utm_source=api)，2026-07-30 · 高影响引用 **5**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Programming+Every+Example%3A+Lifting+Pre-training+Data+Quality+Like+Experts+at+Scale%22)
 - GitHub Stars：**272**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2409.17115)
 
@@ -6551,7 +6553,7 @@ SJTU Machine Intelligence Foundations and Applications Lab (MIFA) 隶属于 Shan
 <details>
 <summary><strong>3. When Noisy Labels Meet Long Tail Dilemmas: A Representation Calibration Method</strong> · arXiv (Cornell University) · 2022</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22When+Noisy+Labels+Meet+Long+Tail+Dilemmas%3A+A+Representation+Calibration+Method%22)（未缓存未经核验的数字）
+- 引用量：**43**（[Semantic Scholar](https://www.semanticscholar.org/paper/e1f8f55a371d565343e38750bebe53e0899a83fb?utm_source=api)，2026-07-30 · 高影响引用 **5**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22When+Noisy+Labels+Meet+Long+Tail+Dilemmas%3A+A+Representation+Calibration+Method%22)
 - [论文 / 项目原始入口](https://arxiv.org/abs/2211.10955)
 
 **基于 Abstract 的 TL;DR**
@@ -6596,7 +6598,7 @@ SJTU Machine Intelligence Foundations and Applications Lab (MIFA) 隶属于 Shan
 <details>
 <summary><strong>3. When Noisy Labels Meet Long Tail Dilemmas: A Representation Calibration Method</strong> · arXiv (Cornell University) · 2022</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22When+Noisy+Labels+Meet+Long+Tail+Dilemmas%3A+A+Representation+Calibration+Method%22)（未缓存未经核验的数字）
+- 引用量：**43**（[Semantic Scholar](https://www.semanticscholar.org/paper/e1f8f55a371d565343e38750bebe53e0899a83fb?utm_source=api)，2026-07-30 · 高影响引用 **5**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22When+Noisy+Labels+Meet+Long+Tail+Dilemmas%3A+A+Representation+Calibration+Method%22)
 - [论文 / 项目原始入口](https://arxiv.org/abs/2211.10955)
 
 **基于 Abstract 的 TL;DR**
@@ -6631,7 +6633,7 @@ SJTU Robot Learning and Representation Learning Lab (RL2) 隶属于 Shanghai Jia
 <details>
 <summary><strong>3. Constrained Dirichlet Distribution Policy: Guarantee Zero Constraint Violation Reinforcement Learning for Continuous Robotic Control</strong> · IEEE Robotics and Automation Letters · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Constrained+Dirichlet+Distribution+Policy%3A+Guarantee+Zero+Constraint+Violation+Reinforcement+Learning+for+Continuous+Robotic+Control%22)（未缓存未经核验的数字）
+- 引用量：**5**（[Semantic Scholar](https://www.semanticscholar.org/paper/ac317878f7aa888664e59979af5945cd932d1aae?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Constrained+Dirichlet+Distribution+Policy%3A+Guarantee+Zero+Constraint+Violation+Reinforcement+Learning+for+Continuous+Robotic+Control%22)
 - [论文 / 项目原始入口](https://doi.org/10.1109/lra.2024.3490392)
 
 **基于 Abstract 的 TL;DR**
@@ -6669,7 +6671,7 @@ SJTU Robot Learning and Representation Learning Lab (RL2) 隶属于 Shanghai Jia
 <details>
 <summary><strong>3. Constrained Dirichlet Distribution Policy: Guarantee Zero Constraint Violation Reinforcement Learning for Continuous Robotic Control</strong> · IEEE Robotics and Automation Letters · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Constrained+Dirichlet+Distribution+Policy%3A+Guarantee+Zero+Constraint+Violation+Reinforcement+Learning+for+Continuous+Robotic+Control%22)（未缓存未经核验的数字）
+- 引用量：**5**（[Semantic Scholar](https://www.semanticscholar.org/paper/ac317878f7aa888664e59979af5945cd932d1aae?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Constrained+Dirichlet+Distribution+Policy%3A+Guarantee+Zero+Constraint+Violation+Reinforcement+Learning+for+Continuous+Robotic+Control%22)
 - [论文 / 项目原始入口](https://doi.org/10.1109/lra.2024.3490392)
 
 **基于 Abstract 的 TL;DR**
@@ -6769,7 +6771,7 @@ Fudan Data Intelligence and Social Computing Lab (DISC) 隶属于 Fudan Universi
 <details>
 <summary><strong>3. DISC-LawLLM: Fine-tuning Large Language Models for Intelligent Legal Services</strong> · arXiv (Cornell University) · 2023</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22DISC-LawLLM%3A+Fine-tuning+Large+Language+Models+for+Intelligent+Legal+Services%22)（未缓存未经核验的数字）
+- 引用量：**167**（[Semantic Scholar](https://www.semanticscholar.org/paper/6806ecad90a778aaa7f6a3cd3a539582d823066c?utm_source=api)，2026-07-30 · 高影响引用 **14**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22DISC-LawLLM%3A+Fine-tuning+Large+Language+Models+for+Intelligent+Legal+Services%22)
 - GitHub Stars：**945**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2309.11325)
 
@@ -6817,7 +6819,7 @@ Fudan Data Intelligence and Social Computing Lab (DISC) 隶属于 Fudan Universi
 <details>
 <summary><strong>3. DISC-LawLLM: Fine-tuning Large Language Models for Intelligent Legal Services</strong> · arXiv (Cornell University) · 2023</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22DISC-LawLLM%3A+Fine-tuning+Large+Language+Models+for+Intelligent+Legal+Services%22)（未缓存未经核验的数字）
+- 引用量：**167**（[Semantic Scholar](https://www.semanticscholar.org/paper/6806ecad90a778aaa7f6a3cd3a539582d823066c?utm_source=api)，2026-07-30 · 高影响引用 **14**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22DISC-LawLLM%3A+Fine-tuning+Large+Language+Models+for+Intelligent+Legal+Services%22)
 - GitHub Stars：**945**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2309.11325)
 
@@ -6853,7 +6855,7 @@ Fudan Data Intelligence Lab 隶属于 Fudan University，是一支主要关注�
 <details>
 <summary><strong>3. FedASMU: Efficient Asynchronous Federated Learning with Dynamic Staleness-Aware Model Update</strong> · Proceedings of the AAAI Conference on Artificial Intelligence · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22FedASMU%3A+Efficient+Asynchronous+Federated+Learning+with+Dynamic+Staleness-Aware+Model+Update%22)（未缓存未经核验的数字）
+- 引用量：Semantic Scholar 暂未收录 · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22FedASMU%3A+Efficient+Asynchronous+Federated+Learning+with+Dynamic+Staleness-Aware+Model+Update%22)
 - [论文 / 项目原始入口](https://doi.org/10.1609/aaai.v38i12.29297)
 
 **基于 Abstract 的 TL;DR**
@@ -6891,7 +6893,7 @@ Fudan Data Intelligence Lab 隶属于 Fudan University，是一支主要关注�
 <details>
 <summary><strong>3. FedASMU: Efficient Asynchronous Federated Learning with Dynamic Staleness-Aware Model Update</strong> · Proceedings of the AAAI Conference on Artificial Intelligence · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22FedASMU%3A+Efficient+Asynchronous+Federated+Learning+with+Dynamic+Staleness-Aware+Model+Update%22)（未缓存未经核验的数字）
+- 引用量：Semantic Scholar 暂未收录 · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22FedASMU%3A+Efficient+Asynchronous+Federated+Learning+with+Dynamic+Staleness-Aware+Model+Update%22)
 - [论文 / 项目原始入口](https://doi.org/10.1609/aaai.v38i12.29297)
 
 **基于 Abstract 的 TL;DR**
@@ -7119,7 +7121,7 @@ USTC Multimodal Embodied Intelligence Lab (MEI) 隶属于 University of Science 
 <details>
 <summary><strong>1. Bayesian Window Transformer for Image Restoration</strong> · IEEE Transactions on Pattern Analysis and Machine Intelligence · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Bayesian+Window+Transformer+for+Image+Restoration%22)（未缓存未经核验的数字）
+- 引用量：**10**（[Semantic Scholar](https://www.semanticscholar.org/paper/eb1847de0c533007724e76e16c90060ebb4c3ef6?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Bayesian+Window+Transformer+for+Image+Restoration%22)
 - [论文 / 项目原始入口](https://doi.org/10.1109/tpami.2025.3626947)
 
 **基于 Abstract 的 TL;DR**
@@ -7133,7 +7135,7 @@ USTC Multimodal Embodied Intelligence Lab (MEI) 隶属于 University of Science 
 <details>
 <summary><strong>1. Bayesian Window Transformer for Image Restoration</strong> · IEEE Transactions on Pattern Analysis and Machine Intelligence · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Bayesian+Window+Transformer+for+Image+Restoration%22)（未缓存未经核验的数字）
+- 引用量：**10**（[Semantic Scholar](https://www.semanticscholar.org/paper/eb1847de0c533007724e76e16c90060ebb4c3ef6?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Bayesian+Window+Transformer+for+Image+Restoration%22)
 - [论文 / 项目原始入口](https://doi.org/10.1109/tpami.2025.3626947)
 
 **基于 Abstract 的 TL;DR**
@@ -7145,7 +7147,7 @@ USTC Multimodal Embodied Intelligence Lab (MEI) 隶属于 University of Science 
 <details>
 <summary><strong>2. Mamba-Driven Comprehensive Context Learning for Zero-Shot HOI Detection</strong> · International Journal of Computer Vision · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Mamba-Driven+Comprehensive+Context+Learning+for+Zero-Shot+HOI+Detection%22)（未缓存未经核验的数字）
+- 引用量：**0**（[Semantic Scholar](https://www.semanticscholar.org/paper/970f5b9959fa162f8422ed0f6608f080c9c60201?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Mamba-Driven+Comprehensive+Context+Learning+for+Zero-Shot+HOI+Detection%22)
 - [论文 / 项目原始入口](https://doi.org/10.1007/s11263-025-02616-y)
 
 **摘要 / 项目说明**
@@ -7157,7 +7159,7 @@ USTC Multimodal Embodied Intelligence Lab (MEI) 隶属于 University of Science 
 <details>
 <summary><strong>3. AR-Diffusion: Asynchronous Video Generation with Auto-Regressive Diffusion</strong> · 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22AR-Diffusion%3A+Asynchronous+Video+Generation+with+Auto-Regressive+Diffusion%22)（未缓存未经核验的数字）
+- 引用量：**49**（[Semantic Scholar](https://www.semanticscholar.org/paper/4b6a567736fbf0e38f088806af06fba4a59f79e2?utm_source=api)，2026-07-30 · 高影响引用 **4**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22AR-Diffusion%3A+Asynchronous+Video+Generation+with+Auto-Regressive+Diffusion%22)
 - [论文 / 项目原始入口](https://doi.org/10.1109/cvpr52734.2025.00690)
 
 **基于 Abstract 的 TL;DR**
@@ -7255,7 +7257,7 @@ LAMDA Continual Learning Lab 隶属于 Nanjing University，是一支主要关�
 <details>
 <summary><strong>3. External Knowledge Injection for CLIP-Based Class-Incremental Learning</strong> · 2025 IEEE/CVF International Conference on Computer Vision (ICCV) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22External+Knowledge+Injection+for+CLIP-Based+Class-Incremental+Learning%22)（未缓存未经核验的数字）
+- 引用量：**18**（[Semantic Scholar](https://www.semanticscholar.org/paper/9bcf83bd3ea91ef92a77cfce98c87f5fa1c6755f?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22External+Knowledge+Injection+for+CLIP-Based+Class-Incremental+Learning%22)
 - GitHub Stars：**59**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/iccv51701.2025.00317)
 
@@ -7270,7 +7272,7 @@ LAMDA Continual Learning Lab 隶属于 Nanjing University，是一支主要关�
 <details>
 <summary><strong>1. Class-Incremental Learning: A Survey</strong> · arXiv (Cornell University) · 2023</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Class-Incremental+Learning%3A+A+Survey%22)（未缓存未经核验的数字）
+- 引用量：**383**（[Semantic Scholar](https://www.semanticscholar.org/paper/bc11657741a61bd77c58da4c0e7cc52aed22b73f?utm_source=api)，2026-07-30 · 高影响引用 **21**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Class-Incremental+Learning%3A+A+Survey%22)
 - GitHub Stars：**285**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2302.03648)
 
@@ -7290,7 +7292,7 @@ LAMDA Continual Learning Lab 隶属于 Nanjing University，是一支主要关�
 <details>
 <summary><strong>2. Learning without Forgetting for Vision-Language Models</strong> · arXiv (Cornell University) · 2023</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Learning+without+Forgetting+for+Vision-Language+Models%22)（未缓存未经核验的数字）
+- 引用量：**114**（[Semantic Scholar](https://www.semanticscholar.org/paper/fd928577d67dd01048d13f284a6256164bbcf2f0?utm_source=api)，2026-07-30 · 高影响引用 **8**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Learning+without+Forgetting+for+Vision-Language+Models%22)
 - GitHub Stars：**65**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2305.19270)
 
@@ -7310,7 +7312,7 @@ LAMDA Continual Learning Lab 隶属于 Nanjing University，是一支主要关�
 <details>
 <summary><strong>3. External Knowledge Injection for CLIP-Based Class-Incremental Learning</strong> · 2025 IEEE/CVF International Conference on Computer Vision (ICCV) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22External+Knowledge+Injection+for+CLIP-Based+Class-Incremental+Learning%22)（未缓存未经核验的数字）
+- 引用量：**18**（[Semantic Scholar](https://www.semanticscholar.org/paper/9bcf83bd3ea91ef92a77cfce98c87f5fa1c6755f?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22External+Knowledge+Injection+for+CLIP-Based+Class-Incremental+Learning%22)
 - GitHub Stars：**59**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/iccv51701.2025.00317)
 
@@ -7951,7 +7953,7 @@ HKU Data Intelligence Lab (HKUDS) 隶属于 The University of Hong Kong，是一
 <details>
 <summary><strong>2. OpenPhone: Mobile Agentic Foundation Models</strong> · Findings of the Association for Computational Linguistics: ACL 2026 · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OpenPhone%3A+Mobile+Agentic+Foundation+Models%22)（未缓存未经核验的数字）
+- 引用量：**1**（[Semantic Scholar](https://www.semanticscholar.org/paper/b016d838c818bc116852e08e85a2ed309994bbc0?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OpenPhone%3A+Mobile+Agentic+Foundation+Models%22)
 - GitHub Stars：**932**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.18653/v1/2026.findings-acl.1518)
 
@@ -7979,7 +7981,7 @@ HKU Data Intelligence Lab (HKUDS) 隶属于 The University of Hong Kong，是一
 <details>
 <summary><strong>2. OpenPhone: Mobile Agentic Foundation Models</strong> · Findings of the Association for Computational Linguistics: ACL 2026 · 2026</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OpenPhone%3A+Mobile+Agentic+Foundation+Models%22)（未缓存未经核验的数字）
+- 引用量：**1**（[Semantic Scholar](https://www.semanticscholar.org/paper/b016d838c818bc116852e08e85a2ed309994bbc0?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OpenPhone%3A+Mobile+Agentic+Foundation+Models%22)
 - GitHub Stars：**932**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.18653/v1/2026.findings-acl.1518)
 
@@ -7992,7 +7994,7 @@ HKU Data Intelligence Lab (HKUDS) 隶属于 The University of Hong Kong，是一
 <details>
 <summary><strong>3. GraphGPT: Graph Instruction Tuning for Large Language Models</strong> · arXiv (Cornell University) · 2023</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22GraphGPT%3A+Graph+Instruction+Tuning+for+Large+Language+Models%22)（未缓存未经核验的数字）
+- 引用量：**367**（[Semantic Scholar](https://www.semanticscholar.org/paper/45872b94798c3125abfb185b7926689c5e767763?utm_source=api)，2026-07-30 · 高影响引用 **34**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22GraphGPT%3A+Graph+Instruction+Tuning+for+Large+Language+Models%22)
 - GitHub Stars：**834**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2310.13023)
 
@@ -8028,7 +8030,7 @@ HKU Super Artificial Intelligence Lab (SAIL) 隶属于 The University of Hong Ko
 <details>
 <summary><strong>2. CoraLSRT: Revisiting Coral Reef Semantic Segmentation by Feature Rectification via Self-Supervised Guidance</strong> · 2025 IEEE/CVF International Conference on Computer Vision (ICCV) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22CoraLSRT%3A+Revisiting+Coral+Reef+Semantic+Segmentation+by+Feature+Rectification+via+Self-Supervised+Guidance%22)（未缓存未经核验的数字）
+- 引用量：**2**（[Semantic Scholar](https://www.semanticscholar.org/paper/66c9c3b9fd1022606261943bb7c0213bfdd8df8f?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22CoraLSRT%3A+Revisiting+Coral+Reef+Semantic+Segmentation+by+Feature+Rectification+via+Self-Supervised+Guidance%22)
 - GitHub Stars：**0**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/iccv51701.2025.01857)
 
@@ -8043,7 +8045,7 @@ HKU Super Artificial Intelligence Lab (SAIL) 隶属于 The University of Hong Ko
 <details>
 <summary><strong>1. CoralSCOP: Segment any COral Image on this Planet</strong> · 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22CoralSCOP%3A+Segment+any+COral+Image+on+this+Planet%22)（未缓存未经核验的数字）
+- 引用量：**48**（[Semantic Scholar](https://www.semanticscholar.org/paper/49a0106329d2cd917d43978c373ed4633a5ed52d?utm_source=api)，2026-07-30 · 高影响引用 **2**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22CoralSCOP%3A+Segment+any+COral+Image+on+this+Planet%22)
 - GitHub Stars：**2**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/cvpr52733.2024.02661)
 
@@ -8056,7 +8058,7 @@ HKU Super Artificial Intelligence Lab (SAIL) 隶属于 The University of Hong Ko
 <details>
 <summary><strong>2. CoraLSRT: Revisiting Coral Reef Semantic Segmentation by Feature Rectification via Self-Supervised Guidance</strong> · 2025 IEEE/CVF International Conference on Computer Vision (ICCV) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22CoraLSRT%3A+Revisiting+Coral+Reef+Semantic+Segmentation+by+Feature+Rectification+via+Self-Supervised+Guidance%22)（未缓存未经核验的数字）
+- 引用量：**2**（[Semantic Scholar](https://www.semanticscholar.org/paper/66c9c3b9fd1022606261943bb7c0213bfdd8df8f?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22CoraLSRT%3A+Revisiting+Coral+Reef+Semantic+Segmentation+by+Feature+Rectification+via+Self-Supervised+Guidance%22)
 - GitHub Stars：**0**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/iccv51701.2025.01857)
 
@@ -8069,7 +8071,7 @@ HKU Super Artificial Intelligence Lab (SAIL) 隶属于 The University of Hong Ko
 <details>
 <summary><strong>3. Time-of-Day Neural Style Transfer for Architectural Photographs</strong> · arXiv (Cornell University) · 2022</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Time-of-Day+Neural+Style+Transfer+for+Architectural+Photographs%22)（未缓存未经核验的数字）
+- 引用量：**7**（[Semantic Scholar](https://www.semanticscholar.org/paper/810f0bef14f437e04e48d1cb743e8b72f38282da?utm_source=api)，2026-07-30 · 高影响引用 **3**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Time-of-Day+Neural+Style+Transfer+for+Architectural+Photographs%22)
 - GitHub Stars：**43**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2209.05800)
 
@@ -8105,7 +8107,7 @@ HKU JC STEM Lab of Intelligent Cybersecurity 隶属于 The University of Hong Ko
 <details>
 <summary><strong>2. FuzzAug: Data Augmentation by Coverage-guided Fuzzing for Neural Test Generation</strong> · Findings of the Association for Computational Linguistics: EMNLP 2025 · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22FuzzAug%3A+Data+Augmentation+by+Coverage-guided+Fuzzing+for+Neural+Test+Generation%22)（未缓存未经核验的数字）
+- 引用量：**6**（[Semantic Scholar](https://www.semanticscholar.org/paper/b3e23f274f285080d9489de7c99cc39768872a49?utm_source=api)，2026-07-30 · 高影响引用 **2**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22FuzzAug%3A+Data+Augmentation+by+Coverage-guided+Fuzzing+for+Neural+Test+Generation%22)
 - [论文 / 项目原始入口](https://doi.org/10.18653/v1/2025.findings-emnlp.847)
 
 **基于 Abstract 的 TL;DR**
@@ -8131,7 +8133,7 @@ HKU JC STEM Lab of Intelligent Cybersecurity 隶属于 The University of Hong Ko
 <details>
 <summary><strong>2. FuzzAug: Data Augmentation by Coverage-guided Fuzzing for Neural Test Generation</strong> · Findings of the Association for Computational Linguistics: EMNLP 2025 · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22FuzzAug%3A+Data+Augmentation+by+Coverage-guided+Fuzzing+for+Neural+Test+Generation%22)（未缓存未经核验的数字）
+- 引用量：**6**（[Semantic Scholar](https://www.semanticscholar.org/paper/b3e23f274f285080d9489de7c99cc39768872a49?utm_source=api)，2026-07-30 · 高影响引用 **2**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22FuzzAug%3A+Data+Augmentation+by+Coverage-guided+Fuzzing+for+Neural+Test+Generation%22)
 - [论文 / 项目原始入口](https://doi.org/10.18653/v1/2025.findings-emnlp.847)
 
 **基于 Abstract 的 TL;DR**
@@ -8375,7 +8377,7 @@ CUHK Language Processing Lab 隶属于 The Chinese University of Hong Kong，是
 <details>
 <summary><strong>3. Evaluating Grammatical Well-Formedness in Large Language Models: A Comparative Study with Human Judgments</strong> · Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Evaluating+Grammatical+Well-Formedness+in+Large+Language+Models%3A+A+Comparative+Study+with+Human+Judgments%22)（未缓存未经核验的数字）
+- 引用量：**10**（[Semantic Scholar](https://www.semanticscholar.org/paper/155e3694e7413177d75a25774454c1ff571c0943?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Evaluating+Grammatical+Well-Formedness+in+Large+Language+Models%3A+A+Comparative+Study+with+Human+Judgments%22)
 - [论文 / 项目原始入口](https://doi.org/10.18653/v1/2024.cmcl-1.16)
 
 **基于 Abstract 的 TL;DR**
@@ -8413,7 +8415,7 @@ CUHK Language Processing Lab 隶属于 The Chinese University of Hong Kong，是
 <details>
 <summary><strong>3. Evaluating Grammatical Well-Formedness in Large Language Models: A Comparative Study with Human Judgments</strong> · Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Evaluating+Grammatical+Well-Formedness+in+Large+Language+Models%3A+A+Comparative+Study+with+Human+Judgments%22)（未缓存未经核验的数字）
+- 引用量：**10**（[Semantic Scholar](https://www.semanticscholar.org/paper/155e3694e7413177d75a25774454c1ff571c0943?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Evaluating+Grammatical+Well-Formedness+in+Large+Language+Models%3A+A+Comparative+Study+with+Human+Judgments%22)
 - [论文 / 项目原始入口](https://doi.org/10.18653/v1/2024.cmcl-1.16)
 
 **基于 Abstract 的 TL;DR**
@@ -8575,7 +8577,7 @@ HKUST Aerial Robotics Group 隶属于 The Hong Kong University of Science and Te
 <details>
 <summary><strong>1. VINS-Multi: A Robust Asynchronous Multi-camera-IMU State Estimator</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22VINS-Multi%3A+A+Robust+Asynchronous+Multi-camera-IMU+State+Estimator%22)（未缓存未经核验的数字）
+- 引用量：**3**（[Semantic Scholar](https://www.semanticscholar.org/paper/bf4493c405027f967277469a97099ff0706aa742?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22VINS-Multi%3A+A+Robust+Asynchronous+Multi-camera-IMU+State+Estimator%22)
 - GitHub Stars：**135**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2405.14539)
 
@@ -8597,7 +8599,7 @@ HKUST Aerial Robotics Group 隶属于 The Hong Kong University of Science and Te
 <details>
 <summary><strong>1. VINS-Multi: A Robust Asynchronous Multi-camera-IMU State Estimator</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22VINS-Multi%3A+A+Robust+Asynchronous+Multi-camera-IMU+State+Estimator%22)（未缓存未经核验的数字）
+- 引用量：**3**（[Semantic Scholar](https://www.semanticscholar.org/paper/bf4493c405027f967277469a97099ff0706aa742?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22VINS-Multi%3A+A+Robust+Asynchronous+Multi-camera-IMU+State+Estimator%22)
 - GitHub Stars：**135**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2405.14539)
 
@@ -8617,7 +8619,7 @@ HKUST Aerial Robotics Group 隶属于 The Hong Kong University of Science and Te
 <details>
 <summary><strong>2. OmniNxt: A Fully Open-source and Compact Aerial Robot with Omnidirectional Visual Perception</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22OmniNxt%3A+A+Fully+Open-source+and+Compact+Aerial+Robot+with+Omnidirectional+Visual+Perception%22)（未缓存未经核验的数字）
+- 引用量：**25**（[Semantic Scholar](https://www.semanticscholar.org/paper/346d7de32b356f940a40911f2b79ef163e41645f?utm_source=api)，2026-07-30 · 高影响引用 **4**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22OmniNxt%3A+A+Fully+Open-source+and+Compact+Aerial+Robot+with+Omnidirectional+Visual+Perception%22)
 - GitHub Stars：**546**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2403.20085)
 
@@ -8637,7 +8639,7 @@ HKUST Aerial Robotics Group 隶属于 The Hong Kong University of Science and Te
 <details>
 <summary><strong>3. Online Monocular Lane Mapping Using Catmull-Rom Spline</strong> · arXiv (Cornell University) · 2023</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Online+Monocular+Lane+Mapping+Using+Catmull-Rom+Spline%22)（未缓存未经核验的数字）
+- 引用量：**18**（[Semantic Scholar](https://www.semanticscholar.org/paper/6ed5bc8570f4aa00342481948f47e0f7d47b8d10?utm_source=api)，2026-07-30 · 高影响引用 **3**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Online+Monocular+Lane+Mapping+Using+Catmull-Rom+Spline%22)
 - GitHub Stars：**437**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2307.11653)
 
@@ -8802,7 +8804,7 @@ NUS Natural Language Processing Group 隶属于 National University of Singapore
 <details>
 <summary><strong>2. Factorized Learning for Temporally Grounded Video-Language Models</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Factorized+Learning+for+Temporally+Grounded+Video-Language+Models%22)（未缓存未经核验的数字）
+- 引用量：**5**（[Semantic Scholar](https://www.semanticscholar.org/paper/9e108ca4f4159adfb95d63286813df62e855633a?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Factorized+Learning+for+Temporally+Grounded+Video-Language+Models%22)
 - GitHub Stars：**24**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2512.24097)
 
@@ -8824,7 +8826,7 @@ NUS Natural Language Processing Group 隶属于 National University of Singapore
 <details>
 <summary><strong>1. SlideTailor: Personalized Presentation Slide Generation for Scientific Papers</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22SlideTailor%3A+Personalized+Presentation+Slide+Generation+for+Scientific+Papers%22)（未缓存未经核验的数字）
+- 引用量：**6**（[Semantic Scholar](https://www.semanticscholar.org/paper/d09817aff905c82e4eb6b457987f761eebb46fec?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22SlideTailor%3A+Personalized+Presentation+Slide+Generation+for+Scientific+Papers%22)
 - GitHub Stars：**57**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2512.20292)
 
@@ -8844,7 +8846,7 @@ NUS Natural Language Processing Group 隶属于 National University of Singapore
 <details>
 <summary><strong>2. Factorized Learning for Temporally Grounded Video-Language Models</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Factorized+Learning+for+Temporally+Grounded+Video-Language+Models%22)（未缓存未经核验的数字）
+- 引用量：**5**（[Semantic Scholar](https://www.semanticscholar.org/paper/9e108ca4f4159adfb95d63286813df62e855633a?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Factorized+Learning+for+Temporally+Grounded+Video-Language+Models%22)
 - GitHub Stars：**24**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2512.24097)
 
@@ -8864,7 +8866,7 @@ NUS Natural Language Processing Group 隶属于 National University of Singapore
 <details>
 <summary><strong>3. System Combination via Quality Estimation for Grammatical Error Correction</strong> · Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing · 2023</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22System+Combination+via+Quality+Estimation+for+Grammatical+Error+Correction%22)（未缓存未经核验的数字）
+- 引用量：Semantic Scholar 暂未收录 · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22System+Combination+via+Quality+Estimation+for+Grammatical+Error+Correction%22)
 - GitHub Stars：**16**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.18653/v1/2023.emnlp-main.785)
 
@@ -8893,7 +8895,7 @@ NUS AI Lab 隶属于 National University of Singapore，是一支主要关注具
 <details>
 <summary><strong>1. Handling Missing Values in Information Systems Research: A Review of Methods and Assumptions</strong> · Information Systems Research · 2022</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Handling+Missing+Values+in+Information+Systems+Research%3A+A+Review+of+Methods+and+Assumptions%22)（未缓存未经核验的数字）
+- 引用量：**8**（[Semantic Scholar](https://www.semanticscholar.org/paper/55cbe8205772d9e988942d28f5173c2033bc79e9?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Handling+Missing+Values+in+Information+Systems+Research%3A+A+Review+of+Methods+and+Assumptions%22)
 - [论文 / 项目原始入口](https://doi.org/10.1287/isre.2022.1104)
 
 **基于 Abstract 的 TL;DR**
@@ -8907,7 +8909,7 @@ NUS AI Lab 隶属于 National University of Singapore，是一支主要关注具
 <details>
 <summary><strong>1. Handling Missing Values in Information Systems Research: A Review of Methods and Assumptions</strong> · Information Systems Research · 2022</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Handling+Missing+Values+in+Information+Systems+Research%3A+A+Review+of+Methods+and+Assumptions%22)（未缓存未经核验的数字）
+- 引用量：**8**（[Semantic Scholar](https://www.semanticscholar.org/paper/55cbe8205772d9e988942d28f5173c2033bc79e9?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Handling+Missing+Values+in+Information+Systems+Research%3A+A+Review+of+Methods+and+Assumptions%22)
 - [论文 / 项目原始入口](https://doi.org/10.1287/isre.2022.1104)
 
 **基于 Abstract 的 TL;DR**
@@ -9227,7 +9229,7 @@ NTU Deep Cognition and Language Research Lab (DeCLaRe) 隶属于 Nanyang Technol
 <details>
 <summary><strong>1. TangoFlux: Super Fast and Faithful Text to Audio Generation with Flow Matching and Clap-Ranked Preference Optimization</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22TangoFlux%3A+Super+Fast+and+Faithful+Text+to+Audio+Generation+with+Flow+Matching+and+Clap-Ranked+Preference+Optimization%22)（未缓存未经核验的数字）
+- 引用量：**83**（[Semantic Scholar](https://www.semanticscholar.org/paper/fb59ade3eea4cef206284f693938bb32cdae296b?utm_source=api)，2026-07-30 · 高影响引用 **15**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22TangoFlux%3A+Super+Fast+and+Faithful+Text+to+Audio+Generation+with+Flow+Matching+and+Clap-Ranked+Preference+Optimization%22)
 - GitHub Stars：**878**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2412.21037)
 
@@ -9249,7 +9251,7 @@ NTU Deep Cognition and Language Research Lab (DeCLaRe) 隶属于 Nanyang Technol
 <details>
 <summary><strong>1. TangoFlux: Super Fast and Faithful Text to Audio Generation with Flow Matching and Clap-Ranked Preference Optimization</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22TangoFlux%3A+Super+Fast+and+Faithful+Text+to+Audio+Generation+with+Flow+Matching+and+Clap-Ranked+Preference+Optimization%22)（未缓存未经核验的数字）
+- 引用量：**83**（[Semantic Scholar](https://www.semanticscholar.org/paper/fb59ade3eea4cef206284f693938bb32cdae296b?utm_source=api)，2026-07-30 · 高影响引用 **15**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22TangoFlux%3A+Super+Fast+and+Faithful+Text+to+Audio+Generation+with+Flow+Matching+and+Clap-Ranked+Preference+Optimization%22)
 - GitHub Stars：**878**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2412.21037)
 
@@ -9269,7 +9271,7 @@ NTU Deep Cognition and Language Research Lab (DeCLaRe) 隶属于 Nanyang Technol
 <details>
 <summary><strong>2. Self-Adaptive Sampling for Efficient Video Question-Answering on Image--Text Models</strong> · arXiv (Cornell University) · 2023</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Self-Adaptive+Sampling+for+Efficient+Video+Question-Answering+on+Image--Text+Models%22)（未缓存未经核验的数字）
+- 引用量：**4**（[Semantic Scholar](https://www.semanticscholar.org/paper/b73e0434e5ff5a2cedea37dc17bb965331983ef2?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Self-Adaptive+Sampling+for+Efficient+Video+Question-Answering+on+Image--Text+Models%22)
 - GitHub Stars：**12**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2307.04192)
 
@@ -9454,7 +9456,7 @@ CMU Machine Learning Department 隶属于 Carnegie Mellon University，是一支
 <details>
 <summary><strong>1. Speech vs. Transcript: Does It Matter for Human Annotators in Speech Summarization?</strong> · Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Speech+vs.+Transcript%3A+Does+It+Matter+for+Human+Annotators+in+Speech+Summarization%3F%22)（未缓存未经核验的数字）
+- 引用量：**5**（[Semantic Scholar](https://www.semanticscholar.org/paper/3336d0787146eb5ef3caedc48f76c3bfe3025ee3?utm_source=api)，2026-07-30 · 高影响引用 **2**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Speech+vs.+Transcript%3A+Does+It+Matter+for+Human+Annotators+in+Speech+Summarization%3F%22)
 - GitHub Stars：**4**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.18653/v1/2024.acl-long.790)
 
@@ -9469,7 +9471,7 @@ CMU Machine Learning Department 隶属于 Carnegie Mellon University，是一支
 <details>
 <summary><strong>1. Speech vs. Transcript: Does It Matter for Human Annotators in Speech Summarization?</strong> · Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Speech+vs.+Transcript%3A+Does+It+Matter+for+Human+Annotators+in+Speech+Summarization%3F%22)（未缓存未经核验的数字）
+- 引用量：**5**（[Semantic Scholar](https://www.semanticscholar.org/paper/3336d0787146eb5ef3caedc48f76c3bfe3025ee3?utm_source=api)，2026-07-30 · 高影响引用 **2**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Speech+vs.+Transcript%3A+Does+It+Matter+for+Human+Annotators+in+Speech+Summarization%3F%22)
 - GitHub Stars：**4**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.18653/v1/2024.acl-long.790)
 
@@ -9482,7 +9484,7 @@ CMU Machine Learning Department 隶属于 Carnegie Mellon University，是一支
 <details>
 <summary><strong>2. Machine Learning for Signal Processing</strong> · Neurocomputing · 2008</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Machine+Learning+for+Signal+Processing%22)（未缓存未经核验的数字）
+- 引用量：**23**（[Semantic Scholar](https://www.semanticscholar.org/paper/a76d84b33bf00016da69c042097a670b7a77d77c?utm_source=api)，2026-07-30 · 高影响引用 **2**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Machine+Learning+for+Signal+Processing%22)
 - GitHub Stars：**1**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1016/j.neucom.2008.08.004)
 
@@ -9590,7 +9592,7 @@ CMU Auton Lab 隶属于 Carnegie Mellon University，是一支主要关注机器
 <details>
 <summary><strong>2. STAMP: Spatial-Temporal Adapter with Multi-Head Pooling</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22STAMP%3A+Spatial-Temporal+Adapter+with+Multi-Head+Pooling%22)（未缓存未经核验的数字）
+- 引用量：**1**（[Semantic Scholar](https://www.semanticscholar.org/paper/6aadfe14610f5669bda349d73a852c4aad5e6c59?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22STAMP%3A+Spatial-Temporal+Adapter+with+Multi-Head+Pooling%22)
 - GitHub Stars：**6**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2511.10848)
 
@@ -9612,7 +9614,7 @@ CMU Auton Lab 隶属于 Carnegie Mellon University，是一支主要关注机器
 <details>
 <summary><strong>1. auton-survival: an Open-Source Package for Regression, Counterfactual Estimation, Evaluation and Phenotyping with Censored Time-to-Event Data</strong> · arXiv (Cornell University) · 2022</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22auton-survival%3A+an+Open-Source+Package+for+Regression%2C+Counterfactual+Estimation%2C+Evaluation+and+Phenotyping+with+Censored+Time-to-Event+Data%22)（未缓存未经核验的数字）
+- 引用量：**34**（[Semantic Scholar](https://www.semanticscholar.org/paper/e5052f4a944189c8f15215830eda09b9a0dfe0b1?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22auton-survival%3A+an+Open-Source+Package+for+Regression%2C+Counterfactual+Estimation%2C+Evaluation+and+Phenotyping+with+Censored+Time-to-Event+Data%22)
 - GitHub Stars：**370**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2204.07276)
 
@@ -9632,7 +9634,7 @@ CMU Auton Lab 隶属于 Carnegie Mellon University，是一支主要关注机器
 <details>
 <summary><strong>2. STAMP: Spatial-Temporal Adapter with Multi-Head Pooling</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22STAMP%3A+Spatial-Temporal+Adapter+with+Multi-Head+Pooling%22)（未缓存未经核验的数字）
+- 引用量：**1**（[Semantic Scholar](https://www.semanticscholar.org/paper/6aadfe14610f5669bda349d73a852c4aad5e6c59?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22STAMP%3A+Spatial-Temporal+Adapter+with+Multi-Head+Pooling%22)
 - GitHub Stars：**6**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2511.10848)
 
@@ -9881,7 +9883,7 @@ MIT Improbable AI Lab 隶属于 Massachusetts Institute of Technology，是一�
 <details>
 <summary><strong>2. Beyond Uniform Sampling: Offline Reinforcement Learning with Imbalanced Datasets</strong> · arXiv (Cornell University) · 2023</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Beyond+Uniform+Sampling%3A+Offline+Reinforcement+Learning+with+Imbalanced+Datasets%22)（未缓存未经核验的数字）
+- 引用量：**33**（[Semantic Scholar](https://www.semanticscholar.org/paper/4ff5aa25088ad899a23e6ec0385ff5bd0e5efc68?utm_source=api)，2026-07-30 · 高影响引用 **6**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Beyond+Uniform+Sampling%3A+Offline+Reinforcement+Learning+with+Imbalanced+Datasets%22)
 - GitHub Stars：**25**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2310.04413)
 
@@ -9916,7 +9918,7 @@ MIT Improbable AI Lab 隶属于 Massachusetts Institute of Technology，是一�
 <details>
 <summary><strong>2. Beyond Uniform Sampling: Offline Reinforcement Learning with Imbalanced Datasets</strong> · arXiv (Cornell University) · 2023</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Beyond+Uniform+Sampling%3A+Offline+Reinforcement+Learning+with+Imbalanced+Datasets%22)（未缓存未经核验的数字）
+- 引用量：**33**（[Semantic Scholar](https://www.semanticscholar.org/paper/4ff5aa25088ad899a23e6ec0385ff5bd0e5efc68?utm_source=api)，2026-07-30 · 高影响引用 **6**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Beyond+Uniform+Sampling%3A+Offline+Reinforcement+Learning+with+Imbalanced+Datasets%22)
 - GitHub Stars：**25**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2310.04413)
 
@@ -9965,7 +9967,7 @@ MIT Embodied Intelligence Group 隶属于 Massachusetts Institute of Technology�
 <details>
 <summary><strong>1. Emergent Discrete Communication in Semantic Spaces</strong> · arXiv (Cornell University) · 2021</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Emergent+Discrete+Communication+in+Semantic+Spaces%22)（未缓存未经核验的数字）
+- 引用量：**32**（[Semantic Scholar](https://www.semanticscholar.org/paper/570641cc1a6badc78fcb736a23cd4cc757add6ee?utm_source=api)，2026-07-30 · 高影响引用 **5**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Emergent+Discrete+Communication+in+Semantic+Spaces%22)
 - [论文 / 项目原始入口](https://arxiv.org/abs/2108.01828)
 
 **基于 Abstract 的 TL;DR**
@@ -9986,7 +9988,7 @@ MIT Embodied Intelligence Group 隶属于 Massachusetts Institute of Technology�
 <details>
 <summary><strong>1. Emergent Discrete Communication in Semantic Spaces</strong> · arXiv (Cornell University) · 2021</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Emergent+Discrete+Communication+in+Semantic+Spaces%22)（未缓存未经核验的数字）
+- 引用量：**32**（[Semantic Scholar](https://www.semanticscholar.org/paper/570641cc1a6badc78fcb736a23cd4cc757add6ee?utm_source=api)，2026-07-30 · 高影响引用 **5**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Emergent+Discrete+Communication+in+Semantic+Spaces%22)
 - [论文 / 项目原始入口](https://arxiv.org/abs/2108.01828)
 
 **基于 Abstract 的 TL;DR**
@@ -10005,7 +10007,7 @@ MIT Embodied Intelligence Group 隶属于 Massachusetts Institute of Technology�
 <details>
 <summary><strong>2. Learning to See by Looking at Noise</strong> · arXiv (Cornell University) · 2021</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Learning+to+See+by+Looking+at+Noise%22)（未缓存未经核验的数字）
+- 引用量：**122**（[Semantic Scholar](https://www.semanticscholar.org/paper/69bf5d3012c33c18e156aa654f4a6b5ec43b1e0b?utm_source=api)，2026-07-30 · 高影响引用 **19**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Learning+to+See+by+Looking+at+Noise%22)
 - [论文 / 项目原始入口](https://arxiv.org/abs/2106.05963)
 
 **基于 Abstract 的 TL;DR**
@@ -10024,7 +10026,7 @@ MIT Embodied Intelligence Group 隶属于 Massachusetts Institute of Technology�
 <details>
 <summary><strong>3. Long-Horizon Manipulation of Unknown Objects via Task and Motion Planning with Estimated Affordances</strong> · arXiv (Cornell University) · 2021</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Long-Horizon+Manipulation+of+Unknown+Objects+via+Task+and+Motion+Planning+with+Estimated+Affordances%22)（未缓存未经核验的数字）
+- 引用量：**77**（[Semantic Scholar](https://www.semanticscholar.org/paper/8a90fd6370c6a6f5aa997bc0cdf183c6cacd980c?utm_source=api)，2026-07-30 · 高影响引用 **3**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Long-Horizon+Manipulation+of+Unknown+Objects+via+Task+and+Motion+Planning+with+Estimated+Affordances%22)
 - [论文 / 项目原始入口](https://arxiv.org/abs/2108.04145)
 
 **基于 Abstract 的 TL;DR**
@@ -10197,7 +10199,7 @@ Stanford Natural Language Processing Group 隶属于 Stanford University，是�
 <details>
 <summary><strong>2. pyvene: A Library for Understanding and Improving PyTorch Models via Interventions</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22pyvene%3A+A+Library+for+Understanding+and+Improving+PyTorch+Models+via+Interventions%22)（未缓存未经核验的数字）
+- 引用量：**61**（[Semantic Scholar](https://www.semanticscholar.org/paper/d5946d10348f2c716d29e47692477a3febf9d5a2?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22pyvene%3A+A+Library+for+Understanding+and+Improving+PyTorch+Models+via+Interventions%22)
 - GitHub Stars：**893**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2403.07809)
 
@@ -10232,7 +10234,7 @@ Stanford Natural Language Processing Group 隶属于 Stanford University，是�
 <details>
 <summary><strong>2. pyvene: A Library for Understanding and Improving PyTorch Models via Interventions</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22pyvene%3A+A+Library+for+Understanding+and+Improving+PyTorch+Models+via+Interventions%22)（未缓存未经核验的数字）
+- 引用量：**61**（[Semantic Scholar](https://www.semanticscholar.org/paper/d5946d10348f2c716d29e47692477a3febf9d5a2?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22pyvene%3A+A+Library+for+Understanding+and+Improving+PyTorch+Models+via+Interventions%22)
 - GitHub Stars：**893**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2403.07809)
 
@@ -10281,7 +10283,7 @@ Stanford Vision and Learning Lab (SVL) 隶属于 Stanford University，是一支
 <details>
 <summary><strong>2. Revisiting the &quot;Video&quot; in Video-Language Understanding</strong> · arXiv (Cornell University) · 2022</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Revisiting+the+%22Video%22+in+Video-Language+Understanding%22)（未缓存未经核验的数字）
+- 引用量：**232**（[Semantic Scholar](https://www.semanticscholar.org/paper/809822d59203a462bc9f2e0f0e9a8314d6d469d4?utm_source=api)，2026-07-30 · 高影响引用 **24**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Revisiting+the+%22Video%22+in+Video-Language+Understanding%22)
 - GitHub Stars：**51**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2206.01720)
 
@@ -10316,7 +10318,7 @@ Stanford Vision and Learning Lab (SVL) 隶属于 Stanford University，是一支
 <details>
 <summary><strong>2. Revisiting the &quot;Video&quot; in Video-Language Understanding</strong> · arXiv (Cornell University) · 2022</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Revisiting+the+%22Video%22+in+Video-Language+Understanding%22)（未缓存未经核验的数字）
+- 引用量：**232**（[Semantic Scholar](https://www.semanticscholar.org/paper/809822d59203a462bc9f2e0f0e9a8314d6d469d4?utm_source=api)，2026-07-30 · 高影响引用 **24**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Revisiting+the+%22Video%22+in+Video-Language+Understanding%22)
 - GitHub Stars：**51**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2206.01720)
 
@@ -10365,7 +10367,7 @@ Stanford Intelligent and Interactive Autonomous Systems Group (ILIAD) 隶属于 
 <details>
 <summary><strong>3. Shared Autonomy for Proximal Teaching</strong> · 2025 20th ACM/IEEE International Conference on Human-Robot Interaction (HRI) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Shared+Autonomy+for+Proximal+Teaching%22)（未缓存未经核验的数字）
+- 引用量：**9**（[Semantic Scholar](https://www.semanticscholar.org/paper/9b9f1082c8b29909d5f76dcc9914f45a99ff4532?utm_source=api)，2026-07-30 · 高影响引用 **1**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Shared+Autonomy+for+Proximal+Teaching%22)
 - GitHub Stars：**4**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/hri61500.2025.10973807)
 
@@ -10380,7 +10382,7 @@ Stanford Intelligent and Interactive Autonomous Systems Group (ILIAD) 隶属于 
 <details>
 <summary><strong>1. Active Preference-Based Gaussian Process Regression for Reward Learning</strong> · Robotics: Science and Systems XVI · 2020</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Active+Preference-Based+Gaussian+Process+Regression+for+Reward+Learning%22)（未缓存未经核验的数字）
+- 引用量：Semantic Scholar 暂未收录 · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Active+Preference-Based+Gaussian+Process+Regression+for+Reward+Learning%22)
 - GitHub Stars：**39**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.15607/rss.2020.xvi.041)
 
@@ -10393,7 +10395,7 @@ Stanford Intelligent and Interactive Autonomous Systems Group (ILIAD) 隶属于 
 <details>
 <summary><strong>2. Emergent Prosociality in Multi-Agent Games Through Gifting</strong> · Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence · 2021</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Emergent+Prosociality+in+Multi-Agent+Games+Through+Gifting%22)（未缓存未经核验的数字）
+- 引用量：**27**（[Semantic Scholar](https://www.semanticscholar.org/paper/343bbb9ed4d97d9829d7d658837d3730c21091f9?utm_source=api)，2026-07-30 · 高影响引用 **1**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Emergent+Prosociality+in+Multi-Agent+Games+Through+Gifting%22)
 - GitHub Stars：**6**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.24963/ijcai.2021/61)
 
@@ -10406,7 +10408,7 @@ Stanford Intelligent and Interactive Autonomous Systems Group (ILIAD) 隶属于 
 <details>
 <summary><strong>3. Shared Autonomy for Proximal Teaching</strong> · 2025 20th ACM/IEEE International Conference on Human-Robot Interaction (HRI) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Shared+Autonomy+for+Proximal+Teaching%22)（未缓存未经核验的数字）
+- 引用量：**9**（[Semantic Scholar](https://www.semanticscholar.org/paper/9b9f1082c8b29909d5f76dcc9914f45a99ff4532?utm_source=api)，2026-07-30 · 高影响引用 **1**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Shared+Autonomy+for+Proximal+Teaching%22)
 - GitHub Stars：**4**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/hri61500.2025.10973807)
 
@@ -10573,7 +10575,7 @@ Berkeley Robotic AI & Learning Lab (RAIL) 隶属于 University of California, Be
 <details>
 <summary><strong>3. SERL: A Software Suite for Sample-Efficient Robotic Reinforcement Learning</strong> · 2024 IEEE International Conference on Robotics and Automation (ICRA) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22SERL%3A+A+Software+Suite+for+Sample-Efficient+Robotic+Reinforcement+Learning%22)（未缓存未经核验的数字）
+- 引用量：**163**（[Semantic Scholar](https://www.semanticscholar.org/paper/fc4d4a25aac973b516c0bf890e36660fe228e79a?utm_source=api)，2026-07-30 · 高影响引用 **8**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22SERL%3A+A+Software+Suite+for+Sample-Efficient+Robotic+Reinforcement+Learning%22)
 - GitHub Stars：**846**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/icra57147.2024.10610040)
 
@@ -10588,7 +10590,7 @@ Berkeley Robotic AI & Learning Lab (RAIL) 隶属于 University of California, Be
 <details>
 <summary><strong>1. Autonomous Improvement of Instruction Following Skills via Foundation Models</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Autonomous+Improvement+of+Instruction+Following+Skills+via+Foundation+Models%22)（未缓存未经核验的数字）
+- 引用量：**35**（[Semantic Scholar](https://www.semanticscholar.org/paper/91a6ea33890fb96f6a82d20551b4bd71e807b7e4?utm_source=api)，2026-07-30 · 高影响引用 **3**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Autonomous+Improvement+of+Instruction+Following+Skills+via+Foundation+Models%22)
 - GitHub Stars：**77**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2407.20635)
 
@@ -10621,7 +10623,7 @@ Berkeley Robotic AI & Learning Lab (RAIL) 隶属于 University of California, Be
 <details>
 <summary><strong>3. SERL: A Software Suite for Sample-Efficient Robotic Reinforcement Learning</strong> · 2024 IEEE International Conference on Robotics and Automation (ICRA) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22SERL%3A+A+Software+Suite+for+Sample-Efficient+Robotic+Reinforcement+Learning%22)（未缓存未经核验的数字）
+- 引用量：**163**（[Semantic Scholar](https://www.semanticscholar.org/paper/fc4d4a25aac973b516c0bf890e36660fe228e79a?utm_source=api)，2026-07-30 · 高影响引用 **8**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22SERL%3A+A+Software+Suite+for+Sample-Efficient+Robotic+Reinforcement+Learning%22)
 - GitHub Stars：**846**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://doi.org/10.1109/icra57147.2024.10610040)
 
@@ -10650,7 +10652,7 @@ Berkeley Natural Language Processing Group 隶属于 University of California, B
 <details>
 <summary><strong>3. Long Chain-of-Thought Reasoning Across Languages</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Long+Chain-of-Thought+Reasoning+Across+Languages%22)（未缓存未经核验的数字）
+- 引用量：**15**（[Semantic Scholar](https://www.semanticscholar.org/paper/a8c156f15b5eb1fb8a117cfcf773423346b9840a?utm_source=api)，2026-07-30 · 高影响引用 **3**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Long+Chain-of-Thought+Reasoning+Across+Languages%22)
 - GitHub Stars：**1**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2508.14828)
 
@@ -10672,7 +10674,7 @@ Berkeley Natural Language Processing Group 隶属于 University of California, B
 <details>
 <summary><strong>1. Autonomous Evaluation and Refinement of Digital Agents</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Autonomous+Evaluation+and+Refinement+of+Digital+Agents%22)（未缓存未经核验的数字）
+- 引用量：**136**（[Semantic Scholar](https://www.semanticscholar.org/paper/aed8f01122d1a89c43900e995c80bfda7936568e?utm_source=api)，2026-07-30 · 高影响引用 **15**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Autonomous+Evaluation+and+Refinement+of+Digital+Agents%22)
 - GitHub Stars：**149**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2404.06474)
 
@@ -10692,7 +10694,7 @@ Berkeley Natural Language Processing Group 隶属于 University of California, B
 <details>
 <summary><strong>2. Using Language Models to Disambiguate Lexical Choices in Translation</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Using+Language+Models+to+Disambiguate+Lexical+Choices+in+Translation%22)（未缓存未经核验的数字）
+- 引用量：**3**（[Semantic Scholar](https://www.semanticscholar.org/paper/c5f5d92e20fec8f95f2ad394fdeaf87c0e26dc32?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Using+Language+Models+to+Disambiguate+Lexical+Choices+in+Translation%22)
 - GitHub Stars：**6**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2411.05781)
 
@@ -10712,7 +10714,7 @@ Berkeley Natural Language Processing Group 隶属于 University of California, B
 <details>
 <summary><strong>3. Long Chain-of-Thought Reasoning Across Languages</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Long+Chain-of-Thought+Reasoning+Across+Languages%22)（未缓存未经核验的数字）
+- 引用量：**15**（[Semantic Scholar](https://www.semanticscholar.org/paper/a8c156f15b5eb1fb8a117cfcf773423346b9840a?utm_source=api)，2026-07-30 · 高影响引用 **3**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Long+Chain-of-Thought+Reasoning+Across+Languages%22)
 - GitHub Stars：**1**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2508.14828)
 
@@ -11220,7 +11222,7 @@ UC San Diego Existential Robotics Lab 隶属于 University of California, San Di
 <details>
 <summary><strong>1. Seeing the Bigger Picture: 3D Latent Mapping for Mobile Manipulation Policy Learning</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Seeing+the+Bigger+Picture%3A+3D+Latent+Mapping+for+Mobile+Manipulation+Policy+Learning%22)（未缓存未经核验的数字）
+- 引用量：**2**（[Semantic Scholar](https://www.semanticscholar.org/paper/d254456b675d2b80a011d79dac0425b1d7bdae97?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Seeing+the+Bigger+Picture%3A+3D+Latent+Mapping+for+Mobile+Manipulation+Policy+Learning%22)
 - GitHub Stars：**9**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.03885)
 
@@ -11242,7 +11244,7 @@ UC San Diego Existential Robotics Lab 隶属于 University of California, San Di
 <details>
 <summary><strong>1. Seeing the Bigger Picture: 3D Latent Mapping for Mobile Manipulation Policy Learning</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Seeing+the+Bigger+Picture%3A+3D+Latent+Mapping+for+Mobile+Manipulation+Policy+Learning%22)（未缓存未经核验的数字）
+- 引用量：**2**（[Semantic Scholar](https://www.semanticscholar.org/paper/d254456b675d2b80a011d79dac0425b1d7bdae97?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Seeing+the+Bigger+Picture%3A+3D+Latent+Mapping+for+Mobile+Manipulation+Policy+Learning%22)
 - GitHub Stars：**9**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2510.03885)
 
@@ -11262,7 +11264,7 @@ UC San Diego Existential Robotics Lab 隶属于 University of California, San Di
 <details>
 <summary><strong>2. Generalizable Motion Planning via Operator Learning</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Generalizable+Motion+Planning+via+Operator+Learning%22)（未缓存未经核验的数字）
+- 引用量：**7**（[Semantic Scholar](https://www.semanticscholar.org/paper/8325b4761dc062a4ff382253e9864333237913db?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Generalizable+Motion+Planning+via+Operator+Learning%22)
 - GitHub Stars：**8**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2410.17547)
 
@@ -11282,7 +11284,7 @@ UC San Diego Existential Robotics Lab 隶属于 University of California, San Di
 <details>
 <summary><strong>3. MISO: Multiresolution Submap Optimization for Efficient Globally Consistent Neural Implicit Reconstruction</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22MISO%3A+Multiresolution+Submap+Optimization+for+Efficient+Globally+Consistent+Neural+Implicit+Reconstruction%22)（未缓存未经核验的数字）
+- 引用量：**5**（[Semantic Scholar](https://www.semanticscholar.org/paper/59974864507bf2128417207d79756bce1ecf7e77?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22MISO%3A+Multiresolution+Submap+Optimization+for+Efficient+Globally+Consistent+Neural+Implicit+Reconstruction%22)
 - GitHub Stars：**47**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2504.19104)
 
@@ -11854,7 +11856,7 @@ UIUC Secure Learning Lab 隶属于 University of Illinois Urbana-Champaign，是
 <details>
 <summary><strong>3. UDora: A Unified Red Teaming Framework against LLM Agents by Dynamically Hijacking Their Own Reasoning</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22UDora%3A+A+Unified+Red+Teaming+Framework+against+LLM+Agents+by+Dynamically+Hijacking+Their+Own+Reasoning%22)（未缓存未经核验的数字）
+- 引用量：**16**（[Semantic Scholar](https://www.semanticscholar.org/paper/d7615286b342dd800881a3a6c9ce70397a0012bd?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22UDora%3A+A+Unified+Red+Teaming+Framework+against+LLM+Agents+by+Dynamically+Hijacking+Their+Own+Reasoning%22)
 - GitHub Stars：**38**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2503.01908)
 
@@ -11876,7 +11878,7 @@ UIUC Secure Learning Lab 隶属于 University of Illinois Urbana-Champaign，是
 <details>
 <summary><strong>1. AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22AgentPoison%3A+Red-teaming+LLM+Agents+via+Poisoning+Memory+or+Knowledge+Bases%22)（未缓存未经核验的数字）
+- 引用量：**394**（[Semantic Scholar](https://www.semanticscholar.org/paper/b6948a9e8b3eec5a56a80c69727154fcd7ececce?utm_source=api)，2026-07-30 · 高影响引用 **47**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22AgentPoison%3A+Red-teaming+LLM+Agents+via+Poisoning+Memory+or+Knowledge+Bases%22)
 - GitHub Stars：**231**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2407.12784)
 
@@ -11896,7 +11898,7 @@ UIUC Secure Learning Lab 隶属于 University of Illinois Urbana-Champaign，是
 <details>
 <summary><strong>2. Differentially Private Synthetic Data via Foundation Model APIs 2: Text</strong> · arXiv (Cornell University) · 2024</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22Differentially+Private+Synthetic+Data+via+Foundation+Model+APIs+2%3A+Text%22)（未缓存未经核验的数字）
+- 引用量：**84**（[Semantic Scholar](https://www.semanticscholar.org/paper/a27d2f743dab4ae009beec52f2d61e0be885a7bd?utm_source=api)，2026-07-30 · 高影响引用 **17**） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22Differentially+Private+Synthetic+Data+via+Foundation+Model+APIs+2%3A+Text%22)
 - GitHub Stars：**61**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2403.01749)
 
@@ -11916,7 +11918,7 @@ UIUC Secure Learning Lab 隶属于 University of Illinois Urbana-Champaign，是
 <details>
 <summary><strong>3. UDora: A Unified Red Teaming Framework against LLM Agents by Dynamically Hijacking Their Own Reasoning</strong> · arXiv (Cornell University) · 2025</summary>
 
-- 引用量：[在 Google Scholar 查看](https://scholar.google.com/scholar?hl=en&q=%22UDora%3A+A+Unified+Red+Teaming+Framework+against+LLM+Agents+by+Dynamically+Hijacking+Their+Own+Reasoning%22)（未缓存未经核验的数字）
+- 引用量：**16**（[Semantic Scholar](https://www.semanticscholar.org/paper/d7615286b342dd800881a3a6c9ce70397a0012bd?utm_source=api)，2026-07-30） · [Google Scholar 检索](https://scholar.google.com/scholar?hl=en&q=%22UDora%3A+A+Unified+Red+Teaming+Framework+against+LLM+Agents+by+Dynamically+Hijacking+Their+Own+Reasoning%22)
 - GitHub Stars：**38**（与论文引用量分开统计）
 - [论文 / 项目原始入口](https://arxiv.org/abs/2503.01908)
 

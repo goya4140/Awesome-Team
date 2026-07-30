@@ -63,12 +63,17 @@ def work_block(work, metadata, index)
   figure = metadata["figure"]
   title = paper["title"] || work.fetch("title")
   venue = [paper["venue"], paper["year"]].compact.join(" · ")
-  citation_text = if citation["count"].nil? && citation["source"] == "Google Scholar"
-                    "引用量：[在 Google Scholar 查看](#{citation.fetch("source_url")})（未缓存未经核验的数字）"
+  google_scholar_url = citation["google_scholar_url"] ||
+                       (citation["source"] == "Google Scholar" ? citation["source_url"] : nil)
+  citation_text = if citation["count"].nil? && google_scholar_url
+                    "引用量：Semantic Scholar 暂未收录 · [Google Scholar 检索](#{google_scholar_url})"
                   elsif citation["count"].nil?
                     "引用量：非论文条目或尚未可靠匹配"
                   else
-                    "引用量：**#{citation.fetch("count")}**（[#{citation.fetch("source")}](#{citation.fetch("source_url")})，#{citation.fetch("checked_at")}）"
+                    influential = citation.fetch("influential_count", 0)
+                    influential_text = influential.positive? ? " · 高影响引用 **#{influential}**" : ""
+                    scholar_text = google_scholar_url ? " · [Google Scholar 检索](#{google_scholar_url})" : ""
+                    "引用量：**#{citation.fetch("count")}**（[Semantic Scholar](#{citation.fetch("source_url")})，#{citation.fetch("checked_at")}#{influential_text}）#{scholar_text}"
                   end
   impact = metadata.dig("code_impact", "github_stars")
 
@@ -102,11 +107,13 @@ lines << "# Awesome Team · AI 科研团队目录"
 lines << ""
 lines << "> GitHub 内可直接浏览的基础资料版。更适合筛选和阅读图表的版本见 [在线目录](https://goya4140.github.io/awesome-team/)。"
 lines << ""
-lines << "更新日期：**#{teams_data.fetch("last_updated")}** · 引用入口：[Google Scholar](https://scholar.google.com/)"
+lines << "更新日期：**#{teams_data.fetch("last_updated")}** · 引用量：[Semantic Scholar](https://www.semanticscholar.org/?utm_source=api) · 检索入口：[Google Scholar](https://scholar.google.com/)"
 lines << ""
-lines << "当前收录 **#{teams_data.fetch("teams").size}** 个团队（#{status_counts.fetch("verified", 0)} verified / #{status_counts.fetch("provisional", 0)} provisional），共 **#{all_metadata.size}** 项代表成果；其中 **#{all_metadata.count { |item| item["resolution_status"] == "resolved" }}** 项已匹配论文元数据，**#{all_metadata.count { |item| item.dig("figure", "image_url") }}** 项带原文图表。"
+lines << "<a href=\"https://www.semanticscholar.org/?utm_source=api\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/b/bb/Semantic_Scholar_logo.svg\" width=\"160\" alt=\"Semantic Scholar\"></a>"
 lines << ""
-lines << "Google Scholar 没有官方公开结构化 API；未逐篇核验的数字不缓存，改为提供精确标题检索入口。`research_index` 是官方研究入口，不冒充单篇论文。"
+lines << "当前收录 **#{teams_data.fetch("teams").size}** 个团队（#{status_counts.fetch("verified", 0)} verified / #{status_counts.fetch("provisional", 0)} provisional），共 **#{all_metadata.size}** 项代表成果；其中 **#{all_metadata.count { |item| item["resolution_status"] == "resolved" }}** 项已匹配论文元数据，**#{all_metadata.count { |item| item.dig("citation", "source") == "Semantic Scholar" }}** 项带 Semantic Scholar 引用量，**#{all_metadata.count { |item| item.dig("figure", "image_url") }}** 项带原文图表。"
+lines << ""
+lines << "Semantic Scholar 引用量通过 arXiv / DOI 标识符核验并带检查日期；Google Scholar 保留为精确标题检索入口。两个索引的数字不混用。`research_index` 是官方研究入口，不冒充单篇论文。"
 lines << ""
 lines << "## 快速导航"
 lines << ""

@@ -10,6 +10,7 @@
 [![Institutions](https://img.shields.io/badge/institutions-49-2563eb?style=flat-square)](docs/SEED_LIST.md)
 [![Verified](https://img.shields.io/badge/verified-132-2563eb?style=flat-square)](docs/TEAM_COLLECTION_METHOD.md)
 [![Resolved papers](https://img.shields.io/badge/resolved_papers-176-2563eb?style=flat-square)](docs/RESEARCH_TEAMS.md)
+[![Citation counts](https://img.shields.io/badge/Semantic_Scholar-164-2563eb?style=flat-square)](data/semantic-scholar-citations.yaml)
 [![Method figures](https://img.shields.io/badge/method_figures-125-2563eb?style=flat-square)](docs/RESEARCH_TEAMS.md)
 
 [**Explore the visual directory →**](https://goya4140.github.io/awesome-team/) ·
@@ -42,12 +43,14 @@
 - **团队画像：** 简介、所属机构、研究方向、核验状态。
 - **负责人 / 教师：** 每队三位。正式职务只在官方来源明确支持时使用；其余明确标注为核心教师、关联教师、重要合作者或企业资深研究员，不把影响力入选误写成组织管理关系。
 - **最近工作：** 每队单列一项，优先选择最新论文；无已匹配论文时，再按 GitHub 最近推送日期择新。
-- **代表成果：** 每队三项，可折叠查看基于 Abstract 的 TL;DR、Google Scholar 引用入口、GitHub Stars 和原文方法图。
+- **代表成果：** 每队三项，可折叠查看基于 Abstract 的 TL;DR、Semantic Scholar 引用量、Google Scholar 检索入口、GitHub Stars 和原文方法图。
 - **双视图：** [GitHub Markdown 完整目录](docs/RESEARCH_TEAMS.md) 与 [白蓝简约网页](https://goya4140.github.io/awesome-team/)。
 
 > `research_index` 表示已核验的官方研究入口，但尚未细化为单篇作品。它不是论文，欢迎通过 PR 补充更精确的论文或项目链接。
 
-> 引用入口使用 Google Scholar。由于 Google Scholar 没有官方公开结构化 API，未经逐篇核验的数字不会被缓存或伪造；OpenAlex 仅用于论文身份、书目信息与 Abstract。GitHub Stars 与学术引用分开展示。
+> 引用数字来自 Semantic Scholar Academic Graph API，并通过 arXiv / DOI 稳定标识符匹配；Google Scholar 继续作为逐篇检索入口。两个索引的覆盖范围不同，引用数字不应混用。OpenAlex 用于论文身份、书目信息与 Abstract，GitHub Stars 与学术引用分开展示。
+
+公开展示遵循 [Semantic Scholar API License](https://api.semanticscholar.org/license/)：数据链接带 `utm_source=api`，网页保留 Semantic Scholar 名称与标识。
 
 ## Data
 
@@ -59,6 +62,7 @@
 | [`data/team-leaders.yaml`](data/team-leaders.yaml) | 每队三位负责人 / 教师、人物链接、角色证据与入选依据 |
 | [`data/representative-works.yaml`](data/representative-works.yaml) | 每队三项精选条目 |
 | [`data/work-metadata.yaml`](data/work-metadata.yaml) | 论文匹配、Abstract、Scholar 入口与原文方法图 |
+| [`data/semantic-scholar-citations.yaml`](data/semantic-scholar-citations.yaml) | Semantic Scholar 引用量、匹配标识符与核验时间 |
 | [`data/abstract-summaries-zh.yaml`](data/abstract-summaries-zh.yaml) | 基于 Abstract 的中文 TL;DR 缓存 |
 | [`data/recent-works.yaml`](data/recent-works.yaml) | 每个团队的最近工作及择新依据 |
 | [`site/data/catalog.json`](site/data/catalog.json) | 由 YAML 生成的网页数据 |
@@ -73,6 +77,7 @@ ruby scripts/resolve_crossref_metadata.rb
 ruby scripts/build_work_metadata.rb
 ruby scripts/summarize_abstracts_zh.rb
 ruby scripts/build_work_metadata.rb
+ruby scripts/sync_semantic_scholar_citations.rb
 ruby scripts/build_recent_works.rb
 ruby scripts/render_research_teams.rb
 ruby scripts/validate_catalog.rb
@@ -80,7 +85,7 @@ ruby scripts/build_site_data.rb > site/data/catalog.json
 node --check site/assets/app.js
 ```
 
-这些元数据命令会访问 GitHub、Crossref、OpenAlex 与 arXiv/ar5iv；中文摘要由本地 Ollama 模型生成，Scholar 仅提供逐篇检索入口。
+这些元数据命令会访问 GitHub、Crossref、OpenAlex、Semantic Scholar 与 arXiv/ar5iv；中文摘要由本地 Ollama 模型生成。建议为定期引用量同步设置 `SEMANTIC_SCHOLAR_API_KEY`，匿名请求可能受到共享限流。
 
 详细筛选标准见 [`docs/TEAM_COLLECTION_METHOD.md`](docs/TEAM_COLLECTION_METHOD.md)。新增或修订条目前，请阅读 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
 
