@@ -15,6 +15,9 @@ const elements = {
   list: document.querySelector("#team-list"),
   empty: document.querySelector("#empty-state"),
   resultCount: document.querySelector("#result-count"),
+  signalStream: document.querySelector("#signal-stream"),
+  signalProgress: document.querySelector("#signal-progress"),
+  directionTrack: document.querySelector("#direction-track"),
   search: document.querySelector("#search"),
   region: document.querySelector("#region-filter"),
   entity: document.querySelector("#entity-filter"),
@@ -74,6 +77,76 @@ function setup(data) {
   addOptions(elements.parent, [...data.parents].sort((a, b) => a.name.localeCompare(b.name)), (parent) => parent.name);
   const directions = [...new Set(data.teams.flatMap((team) => team.profile.directions_zh))].sort((a, b) => a.localeCompare(b, "zh-CN"));
   addOptions(elements.focus, directions);
+  setupSignalStream(data.teams);
+  setupDirectionBoard(data.teams);
+}
+
+function paperSignal(team, work) {
+  const paper = work.metadata?.paper || {};
+  if (!paper.title) return null;
+  return {
+    title: paper.title,
+    team: team.name,
+    parent: team.parent?.name,
+    year: paper.year,
+    venue: paper.venue,
+    citations: work.metadata?.citation?.count,
+  };
+}
+
+function setupSignalStream(teams) {
+  const signals = teams
+    .flatMap((team) => team.representative_works.map((work) => paperSignal(team, work)))
+    .filter(Boolean)
+    .sort((a, b) => (b.year || 0) - (a.year || 0) || (b.citations || 0) - (a.citations || 0))
+    .slice(0, 18);
+
+  if (!signals.length) return;
+
+  let offset = 0;
+  const renderSignals = () => {
+    const visible = Array.from({ length: 3 }, (_, index) => signals[(offset + index) % signals.length]);
+    elements.signalStream.innerHTML = visible.map((signal, index) => `
+      <article class="signal-item" style="animation-delay:${index * 80}ms">
+        <span class="signal-index">${String(offset + index + 1).padStart(2, "0")}</span>
+        <div>
+          <h3>${escapeHtml(signal.title)}</h3>
+          <p class="signal-meta">${escapeHtml([
+            signal.team,
+            signal.venue,
+            signal.year,
+            Number.isInteger(signal.citations) ? `引用 ${formatNumber(signal.citations)}` : null,
+          ].filter(Boolean).join(" · "))}</p>
+        </div>
+      </article>
+    `).join("");
+    elements.signalProgress.textContent = `${String(offset + 1).padStart(2, "0")} / ${String(signals.length).padStart(2, "0")}`;
+  };
+
+  renderSignals();
+  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches && signals.length > 3) {
+    window.setInterval(() => {
+      offset = (offset + 1) % signals.length;
+      renderSignals();
+    }, 4200);
+  }
+}
+
+function setupDirectionBoard(teams) {
+  const counts = new Map();
+  teams.forEach((team) => {
+    team.profile.directions_zh.forEach((direction) => {
+      counts.set(direction, (counts.get(direction) || 0) + 1);
+    });
+  });
+
+  const directions = [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-CN"))
+    .slice(0, 8);
+  const rows = directions
+    .map(([direction, count]) => `<span data-count="${formatNumber(count)} TEAMS">${escapeHtml(direction)}</span>`)
+    .join("");
+  elements.directionTrack.innerHTML = rows + rows;
 }
 
 function searchableText(team) {

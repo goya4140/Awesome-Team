@@ -3,64 +3,177 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Awesome Team：中美顶尖 AI 研究团队、最近工作、Abstract 摘要、Semantic Scholar 引用量与原文流程图目录。">
-    <meta name="theme-color" content="#ffffff">
-    <title>Awesome Team — AI Research Teams</title>
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232563eb'/%3E%3Cpath d='M18 45 29 17h6l11 28h-7l-2-7H27l-2 7Zm11-13h6l-3-9Z' fill='white'/%3E%3C/svg%3E">
-    <link rel="stylesheet" href="assets/styles.css?v=20260730-citations-v1">
-    <script defer src="assets/app.js?v=20260730-citations-v1"></script>
+    <meta name="description" content="Awesome Team：从持续产出高质量工作的 AI 科研团队出发，发现值得长期关注的论文、代表作与研究方向。">
+    <meta name="theme-color" content="#091827">
+    <title>Awesome Team — 在论文洪流里，找到值得关注的团队</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23091827'/%3E%3Cpath d='M18 45 29 17h6l11 28h-7l-2-7H27l-2 7Zm11-13h6l-3-9Z' fill='%23c7f36b'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="assets/styles.css?v=20260730-home-v2">
+    <script defer src="assets/app.js?v=20260730-home-v2"></script>
   </head>
   <body>
     <header class="site-header">
       <div class="header-inner">
         <a class="brand" href="#top" aria-label="Awesome Team 首页">
           <span class="brand-mark">A</span>
-          <span>Awesome Team</span>
+          <span class="brand-name">Awesome Team</span>
+          <span class="brand-note">OPEN RESEARCH INDEX</span>
         </a>
         <nav aria-label="主导航">
-          <a href="#directory">团队目录</a>
-          <a href="https://github.com/goya4140/awesome-team/blob/main/docs/RESEARCH_TEAMS.md">Markdown 版</a>
-          <a class="github-button" href="https://github.com/goya4140/awesome-team">GitHub ↗</a>
+          <a href="#why">为什么做</a>
+          <a href="#directory">发现团队</a>
+          <a href="#contribute">参与共建</a>
+          <a class="github-button" href="https://github.com/goya4140/awesome-team">GitHub <span aria-hidden="true">↗</span></a>
         </nav>
       </div>
     </header>
 
     <main id="top">
       <section class="hero">
-        <p class="kicker">OPEN AI RESEARCH DIRECTORY</p>
-        <h1>追踪团队，而不只是论文榜单。</h1>
-        <p class="hero-copy">
-          收录中美顶尖 AI 公司与高校中持续公开研究成果的团队。每个条目包含团队标识、研究介绍、
-          所属机构、公开负责人、最近工作、代表论文、基于 Abstract 的摘要、Semantic Scholar 引用量与原文流程图。
-        </p>
-        <div class="hero-links">
-          <a class="primary-button" href="#directory">浏览团队</a>
-          <a class="text-link" href="https://github.com/goya4140/awesome-team/blob/main/CONTRIBUTING.md">提交或修订资料 →</a>
+        <div class="hero-grid">
+          <div class="hero-content">
+            <p class="kicker light">CURATED BY TEAMS · UPDATED WITH THE FIELD</p>
+            <h1>穿过论文洪流，<br><em>找到值得读的工作。</em></h1>
+            <p class="hero-copy">
+              AI 生产力正在高速增长，论文数量与顶会收录规模也随之激增。信息更多了，
+              但研究者识别高质量工作、持续关注一个方向，反而变得更难。
+            </p>
+            <p class="hero-belief">
+              我们相信，持续产出优秀工作的科研团队，是穿越噪声、更具解释力的研究信号。
+            </p>
+            <div class="hero-links">
+              <a class="primary-button" href="#directory">开始发现团队 <span aria-hidden="true">↓</span></a>
+              <a class="text-link light-link" href="https://github.com/goya4140/awesome-team/issues/new">推荐团队或论文 <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+
+          <aside class="signal-panel" aria-label="近期研究动态">
+            <div class="signal-heading">
+              <div>
+                <p>RESEARCH SIGNAL</p>
+                <h2>近期研究脉搏</h2>
+              </div>
+              <span class="live-state"><i aria-hidden="true"></i> LIVE</span>
+            </div>
+            <div id="signal-stream" class="signal-stream" aria-live="off">
+              <div class="signal-placeholder">
+                <span>正在读取目录</span>
+                <strong>连接近期公开研究工作…</strong>
+              </div>
+            </div>
+            <div class="signal-footer">
+              <span>基于目录内团队的最近公开工作</span>
+              <span id="signal-progress">01 / —</span>
+            </div>
+          </aside>
+        </div>
+
+        <div class="stats" aria-label="目录实时统计">
+          <p class="stats-intro">一个持续生长的<br><strong>开放研究索引</strong></p>
+          <article><strong id="team-count">—</strong><span>研究团队</span></article>
+          <article><strong id="parent-count">—</strong><span>母体机构</span></article>
+          <article><strong id="paper-count">—</strong><span>已匹配论文</span></article>
+          <article><strong id="figure-count">—</strong><span>原文图表</span></article>
+          <article><strong id="scholar-count">—</strong><span>引用量覆盖</span></article>
         </div>
       </section>
 
-      <section class="stats" aria-label="目录统计">
-        <article><strong id="team-count">—</strong><span>研究团队</span></article>
-        <article><strong id="parent-count">—</strong><span>母体机构</span></article>
-        <article><strong id="paper-count">—</strong><span>已匹配论文</span></article>
-        <article><strong id="figure-count">—</strong><span>原文图表</span></article>
-        <article><strong id="scholar-count">—</strong><span>引用量覆盖</span></article>
+      <section class="manifesto" id="why">
+        <div class="section-label">
+          <span>01</span>
+          <p>WHY AWESOME TEAM</p>
+        </div>
+        <div class="manifesto-heading">
+          <h2>从“今年又有多少篇”，<br>回到“哪些工作值得读”。</h2>
+          <p>
+            Awesome Team 不是另一个论文数量榜单。我们从持续活跃的优秀团队出发，
+            整理近期工作与代表作，帮助研究者更快建立领域地图，也让真正有价值的工作被更多人看见。
+          </p>
+        </div>
+
+        <div class="principle-grid">
+          <article class="principle">
+            <span class="principle-number">01 / SIGNAL</span>
+            <h3>论文激增，注意力却更稀缺</h3>
+            <p>AI 辅助研究加速了产出，也放大了质量差异。仅靠标题、会议信息或收录数量，越来越难判断一项工作是否值得投入时间。</p>
+          </article>
+          <article class="principle featured">
+            <span class="principle-number">02 / TEAM</span>
+            <h3>用团队，建立长期研究坐标</h3>
+            <p>有稳定研究积累、持续公开成果的优秀团队，往往能提供更具影响力的工作。我们因此将团队作为组织论文与研究方向的核心线索。</p>
+          </article>
+          <article class="principle">
+            <span class="principle-number">03 / COMMUNITY</span>
+            <h3>让好工作被理解、被讨论</h3>
+            <p>目录会持续更新，也欢迎社区提交 Issue，对已发表论文做深度解读、对比与传播，而不是让它们淹没在信息流里。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="team-thesis">
+        <div class="team-thesis-copy">
+          <p class="kicker light">OUR BELIEF</p>
+          <blockquote>
+            “科研影响力不是一次录用，<br>
+            而是一群人持续提出好问题、<br>
+            交付好工作的轨迹。”
+          </blockquote>
+        </div>
+        <div class="direction-board">
+          <div class="direction-heading">
+            <span>目录中的活跃研究方向</span>
+            <span>持续更新</span>
+          </div>
+          <div class="direction-window" aria-label="研究方向">
+            <div id="direction-track" class="direction-track">
+              <span>机器学习</span><span>大语言模型</span><span>计算机视觉</span><span>具身智能</span>
+            </div>
+          </div>
+          <p>研究方向来自团队公开资料，并随目录数据同步变化。</p>
+        </div>
+      </section>
+
+      <section class="contribute" id="contribute">
+        <div class="section-label">
+          <span>02</span>
+          <p>BUILD IT TOGETHER</p>
+        </div>
+        <div class="contribute-heading">
+          <h2>让优秀团队与优秀工作，<br>更容易被看见。</h2>
+          <p>无论你是团队成员，还是愿意认真解读论文的研究者，都可以参与这个开放目录。</p>
+        </div>
+        <div class="contribute-grid">
+          <article>
+            <p class="card-kicker">FOR RESEARCH TEAMS</p>
+            <h3>推荐你们的近期工作与代表作</h3>
+            <p>欢迎优秀科研团队通过 Issue 提交主页、研究方向、近期论文与代表性成果。我们会核验并将它们整理进目录，帮助更多同行发现你们。</p>
+            <a href="https://github.com/goya4140/awesome-team/issues/new">提交团队信息 <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="dark-card">
+            <p class="card-kicker">FOR THE COMMUNITY</p>
+            <h3>发起论文深度解读与传播</h3>
+            <p>发现值得更多人关注的论文？欢迎提供 Issue，提出解读、横向对比或宣传建议，与社区一起补全作品背后的方法与影响。</p>
+            <a href="https://github.com/goya4140/awesome-team/issues">参与论文讨论 <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
       </section>
 
       <section class="directory" id="directory">
+        <div class="section-label directory-label">
+          <span>03</span>
+          <p>EXPLORE THE DIRECTORY</p>
+        </div>
         <div class="section-heading">
           <div>
-            <p class="kicker">DIRECTORY</p>
-            <h2>AI 研究团队</h2>
+            <h2>从团队出发，<br>发现下一篇值得读的论文。</h2>
           </div>
-          <p>引用量来自 Semantic Scholar，并以 arXiv / DOI 标识符核验；同时保留 Google Scholar 精确标题入口。</p>
+          <p>每个条目包含团队介绍、研究方向、近期工作、代表作、Abstract 摘要、引用信息与原文图表。</p>
         </div>
 
         <div class="controls">
           <label class="search">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+            <span class="search-label">搜索</span>
             <span class="sr-only">搜索团队</span>
-            <input id="search" type="search" placeholder="搜索团队、机构、负责人或研究方向…" autocomplete="off">
+            <input id="search" type="search" placeholder="团队、机构、负责人或研究方向…" autocomplete="off">
             <kbd>/</kbd>
           </label>
           <div class="filters">
@@ -69,12 +182,12 @@
             <label><span>机构</span><select id="parent-filter"><option value="">全部机构</option></select></label>
             <label><span>方向</span><select id="focus-filter"><option value="">全部方向</option></select></label>
             <label><span>状态</span><select id="status-filter"><option value="">全部状态</option><option value="verified">已核验</option><option value="provisional">待完善</option></select></label>
-            <button id="clear-filters" type="button">重置</button>
+            <button id="clear-filters" type="button">重置筛选</button>
           </div>
         </div>
 
         <div class="result-line">
-          <p>显示 <strong id="result-count">0</strong> 个团队</p>
+          <p>当前显示 <strong id="result-count">0</strong> 个团队</p>
           <label class="citation-toggle">
             <input id="figures-only" type="checkbox">
             <span>仅看带原文图表</span>
@@ -83,28 +196,29 @@
 
         <div id="team-list" class="team-list" aria-live="polite"></div>
         <div id="empty-state" class="empty-state" hidden>
-          <h3>没有匹配结果</h3>
-          <p>请减少筛选条件，或在 GitHub 提交新团队。</p>
+          <h3>暂时没有匹配结果</h3>
+          <p>可以减少筛选条件，或在 GitHub 推荐一个新团队。</p>
         </div>
       </section>
     </main>
 
     <footer>
-      <div>
+      <div class="footer-lead">
         <a class="brand footer-brand" href="#top"><span class="brand-mark">A</span><span>Awesome Team</span></a>
-        <p>Evidence-first AI research team directory.</p>
+        <p>Follow the teams shaping AI,<br>not just the paper count.</p>
       </div>
-      <div>
-        <p>数据更新：<span id="last-updated">—</span></p>
-        <p>引用量：Semantic Scholar · 检索入口：Google Scholar · 论文身份与 Abstract：OpenAlex / Crossref</p>
+      <div class="footer-meta">
+        <p>目录数据更新于 <span id="last-updated">—</span></p>
+        <p>引用量：Semantic Scholar · 论文身份与 Abstract：OpenAlex / Crossref</p>
         <a class="semantic-scholar-credit" href="https://www.semanticscholar.org/?utm_source=api" target="_blank" rel="noreferrer">
           <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Semantic_Scholar_logo.svg" alt="Semantic Scholar">
           <span>引用数据由 Semantic Scholar 提供</span>
         </a>
       </div>
       <div class="footer-links">
-        <a href="https://github.com/goya4140/awesome-team">Source</a>
+        <a href="https://github.com/goya4140/awesome-team">GitHub</a>
         <a href="https://github.com/goya4140/awesome-team/issues">Issues</a>
+        <a href="https://github.com/goya4140/awesome-team/blob/main/CONTRIBUTING.md">参与共建</a>
         <a href="https://github.com/goya4140/awesome-team/blob/main/LICENSE">MIT License</a>
       </div>
     </footer>
