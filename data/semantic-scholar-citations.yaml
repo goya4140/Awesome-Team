@@ -1,0 +1,2511 @@
+---
+schema_version: 1
+last_updated: '2026-07-30'
+provider: Semantic Scholar Academic Graph API
+notes:
+- Citation counts are retrieved by stable arXiv or DOI identifiers, never by title-only search.
+- Records are accepted only when the returned title has a Jaccard token similarity of at least 0.55.
+- citation_count and influential_citation_count are Semantic Scholar metrics and may differ from Google Scholar.
+- Set SEMANTIC_SCHOLAR_API_KEY for reliable scheduled refreshes; anonymous requests may be rate-limited.
+works:
+  alibaba-damo-academy:0:
+    status: matched
+    query_id: ARXIV:2504.14899
+    paper_id: d1aa3b3dde62530aea15355a5fb58259665ca325
+    title: 'Uni3C: Unifying Precisely 3D-Enhanced Camera and Human Motion Controls for Video Generation'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/d1aa3b3dde62530aea15355a5fb58259665ca325?utm_source=api
+    citation_count: 73
+    influential_citation_count: 14
+    external_ids:
+      DBLP: journals/corr/abs-2504-14899
+      ArXiv: '2504.14899'
+      DOI: 10.1145/3757377.3763842
+      CorpusId: 277955145
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  alibaba-damo-academy:1:
+    status: matched
+    query_id: ARXIV:2509.15212
+    paper_id: b90611582652cc0c652a5a39354aaa6751aea3ff
+    title: 'RynnVLA-001: Using Human Demonstrations to Improve Robot Manipulation'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/b90611582652cc0c652a5a39354aaa6751aea3ff?utm_source=api
+    citation_count: 22
+    influential_citation_count: 0
+    external_ids:
+      DBLP: journals/corr/abs-2509-15212
+      ArXiv: '2509.15212'
+      DOI: 10.48550/arXiv.2509.15212
+      CorpusId: 281394237
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  alibaba-nlp:0:
+    status: matched
+    query_id: ARXIV:2502.18017
+    paper_id: afa3685b3a2bd6986346330c9dc990b64407e4ca
+    title: 'ViDoRAG: Visual Document Retrieval-Augmented Generation via Dynamic Iterative Reasoning Agents'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/afa3685b3a2bd6986346330c9dc990b64407e4ca?utm_source=api
+    citation_count: 64
+    influential_citation_count: 9
+    external_ids:
+      ArXiv: '2502.18017'
+      DBLP: conf/emnlp/WangDCWWXZ25
+      DOI: 10.48550/arXiv.2502.18017
+      CorpusId: 276580230
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  alibaba-nlp:1:
+    status: matched
+    query_id: ARXIV:2501.00888
+    paper_id: 136acb324f4c6e0d371bb57c1e25ba4e18adc2ce
+    title: 'Unfolding the Headline: Iterative Self-Questioning for News Retrieval and Timeline Summarization'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/136acb324f4c6e0d371bb57c1e25ba4e18adc2ce?utm_source=api
+    citation_count: 20
+    influential_citation_count: 3
+    external_ids:
+      DBLP: journals/corr/abs-2501-00888
+      ArXiv: '2501.00888'
+      DOI: 10.48550/arXiv.2501.00888
+      CorpusId: 275212360
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  alibaba-nlp:2:
+    status: matched
+    query_id: ARXIV:2502.18023
+    paper_id: 7b35905fc8b54fd298edc6d10cb855e87629e1bc
+    title: Detecting Knowledge Boundary of Vision Large Language Models by Sampling-Based Inference
+    semantic_scholar_url: https://www.semanticscholar.org/paper/7b35905fc8b54fd298edc6d10cb855e87629e1bc?utm_source=api
+    citation_count: 8
+    influential_citation_count: 0
+    external_ids:
+      DBLP: conf/emnlp/ChenWJZGXHT25
+      ArXiv: '2502.18023'
+      DOI: 10.48550/arXiv.2502.18023
+      CorpusId: 276580937
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  alibaba-qwen:0:
+    status: not_found
+    query_id: DOI:10.18653/v1/2025.acl-long.50
+    checked_at: '2026-07-30'
+  alibaba-qwen:1:
+    status: matched
+    query_id: ARXIV:2504.18428
+    paper_id: 9b53d41c4bc710493cc8ec88716ae87e0eab75f8
+    title: 'PolyMath: Evaluating Mathematical Reasoning in Multilingual Contexts'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/9b53d41c4bc710493cc8ec88716ae87e0eab75f8?utm_source=api
+    citation_count: 52
+    influential_citation_count: 8
+    external_ids:
+      ArXiv: '2504.18428'
+      DBLP: journals/corr/abs-2504-18428
+      DOI: 10.48550/arXiv.2504.18428
+      CorpusId: 278129969
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  amazon-agi-lab:0:
+    status: matched
+    query_id: ARXIV:2402.01935
+    paper_id: 4bf6ef9498c981ab411b4266aba9a9e19cc1df57
+    title: Code Representation Learning At Scale
+    semantic_scholar_url: https://www.semanticscholar.org/paper/4bf6ef9498c981ab411b4266aba9a9e19cc1df57?utm_source=api
+    citation_count: 35
+    influential_citation_count: 3
+    external_ids:
+      ArXiv: '2402.01935'
+      DBLP: conf/iclr/ZhangATDNR0X24
+      DOI: 10.48550/arXiv.2402.01935
+      CorpusId: 267411870
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  amazon-agi-lab:1:
+    status: matched
+    query_id: ARXIV:2405.13622
+    paper_id: 55c3095681acc82780508b0e484dba0c30cf1caa
+    title: Automated Evaluation of Retrieval-Augmented Language Models with Task-Specific Exam Generation
+    semantic_scholar_url: https://www.semanticscholar.org/paper/55c3095681acc82780508b0e484dba0c30cf1caa?utm_source=api
+    citation_count: 42
+    influential_citation_count: 4
+    external_ids:
+      DBLP: conf/icml/GuinetODC24
+      ArXiv: '2405.13622'
+      DOI: 10.48550/arXiv.2405.13622
+      CorpusId: 269983057
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  amazon-agi-lab:2:
+    status: matched
+    query_id: ARXIV:2504.05258
+    paper_id: 612de42e996f52b5f1b44900c509a70cff733f2d
+    title: 'Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/612de42e996f52b5f1b44900c509a70cff733f2d?utm_source=api
+    citation_count: 9
+    influential_citation_count: 0
+    external_ids:
+      DBLP: conf/acl/BazagaBBG25
+      ArXiv: '2504.05258'
+      DOI: 10.48550/arXiv.2504.05258
+      CorpusId: 277627905
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  amazon-science:0:
+    status: matched
+    query_id: ARXIV:2402.01935
+    paper_id: 4bf6ef9498c981ab411b4266aba9a9e19cc1df57
+    title: Code Representation Learning At Scale
+    semantic_scholar_url: https://www.semanticscholar.org/paper/4bf6ef9498c981ab411b4266aba9a9e19cc1df57?utm_source=api
+    citation_count: 35
+    influential_citation_count: 3
+    external_ids:
+      ArXiv: '2402.01935'
+      DBLP: conf/iclr/ZhangATDNR0X24
+      DOI: 10.48550/arXiv.2402.01935
+      CorpusId: 267411870
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  amazon-science:1:
+    status: matched
+    query_id: ARXIV:2405.13622
+    paper_id: 55c3095681acc82780508b0e484dba0c30cf1caa
+    title: Automated Evaluation of Retrieval-Augmented Language Models with Task-Specific Exam Generation
+    semantic_scholar_url: https://www.semanticscholar.org/paper/55c3095681acc82780508b0e484dba0c30cf1caa?utm_source=api
+    citation_count: 42
+    influential_citation_count: 4
+    external_ids:
+      DBLP: conf/icml/GuinetODC24
+      ArXiv: '2405.13622'
+      DOI: 10.48550/arXiv.2405.13622
+      CorpusId: 269983057
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  amazon-science:2:
+    status: matched
+    query_id: ARXIV:2504.05258
+    paper_id: 612de42e996f52b5f1b44900c509a70cff733f2d
+    title: 'Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/612de42e996f52b5f1b44900c509a70cff733f2d?utm_source=api
+    citation_count: 9
+    influential_citation_count: 0
+    external_ids:
+      DBLP: conf/acl/BazagaBBG25
+      ArXiv: '2504.05258'
+      DOI: 10.48550/arXiv.2504.05258
+      CorpusId: 277627905
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  ant-inclusion-ai:0:
+    status: matched
+    query_id: ARXIV:2512.05150
+    paper_id: 8abdbee2ad1aa5ac8a4e09eebb9f52259cd002fd
+    title: 'TwinFlow: Realizing One-step Generation on Large Models with Self-adversarial Flows'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/8abdbee2ad1aa5ac8a4e09eebb9f52259cd002fd?utm_source=api
+    citation_count: 16
+    influential_citation_count: 1
+    external_ids:
+      DBLP: journals/corr/abs-2512-05150
+      ArXiv: '2512.05150'
+      DOI: 10.48550/arXiv.2512.05150
+      CorpusId: 283671930
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  ant-interactive-ai-lab:0:
+    status: matched
+    query_id: ARXIV:2403.17007
+    paper_id: 0f284b2fdf001ced671ef87bea3435849c1e8059
+    title: 'DreamLIP: Language-Image Pre-training with Long Captions'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/0f284b2fdf001ced671ef87bea3435849c1e8059?utm_source=api
+    citation_count: 89
+    influential_citation_count: 14
+    external_ids:
+      DBLP: conf/eccv/ZhengZWLMJCS24
+      ArXiv: '2403.17007'
+      DOI: 10.48550/arXiv.2403.17007
+      CorpusId: 268681239
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  ant-interactive-ai-lab:1:
+    status: matched
+    query_id: DOI:10.1109/iccv51701.2025.01417
+    paper_id: '048d9914b7cb847ee242873f7656be4345881642'
+    title: 'Edicho: Consistent Image Editing in the Wild'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/048d9914b7cb847ee242873f7656be4345881642?utm_source=api
+    citation_count: 10
+    influential_citation_count: 3
+    external_ids:
+      DBLP: journals/corr/abs-2412-21079
+      ArXiv: '2412.21079'
+      DOI: 10.1109/ICCV51701.2025.01417
+      CorpusId: 275133243
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  ant-interactive-ai-lab:2:
+    status: matched
+    query_id: ARXIV:2412.03451
+    paper_id: e1b8aaa676000d6f1b4b76c346aa53c2bb50192a
+    title: 'PlanarSplatting: Accurate Planar Surface Reconstruction in 3 Minutes'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/e1b8aaa676000d6f1b4b76c346aa53c2bb50192a?utm_source=api
+    citation_count: 15
+    influential_citation_count: 2
+    external_ids:
+      DBLP: journals/corr/abs-2412-03451
+      ArXiv: '2412.03451'
+      DOI: 10.1109/CVPR52734.2025.00119
+      CorpusId: 274464799
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  apple-machine-learning-research:0:
+    status: matched
+    query_id: ARXIV:2412.13303
+    paper_id: 947a12e4f09ecc8d2abfe577bbdf978d79b2c556
+    title: 'FastVLM: Efficient Vision Encoding for Vision Language Models'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/947a12e4f09ecc8d2abfe577bbdf978d79b2c556?utm_source=api
+    citation_count: 85
+    influential_citation_count: 6
+    external_ids:
+      DBLP: conf/cvpr/VasuFLKTASGGTP25
+      ArXiv: '2412.13303'
+      DOI: 10.1109/CVPR52734.2025.01841
+      CorpusId: 274822212
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  apple-machine-learning-research:2:
+    status: matched
+    query_id: ARXIV:2603.11047
+    paper_id: a0940b3ff1e70e72e02a9d6cd074f96a0404ff42
+    title: 'LiTo: Surface Light Field Tokenization'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/a0940b3ff1e70e72e02a9d6cd074f96a0404ff42?utm_source=api
+    citation_count: 1
+    influential_citation_count: 0
+    external_ids:
+      ArXiv: '2603.11047'
+      DBLP: journals/corr/abs-2603-11047
+      DOI: 10.48550/arXiv.2603.11047
+      CorpusId: 286462359
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  berkeley-nlp:0:
+    status: matched
+    query_id: ARXIV:2404.06474
+    paper_id: aed8f01122d1a89c43900e995c80bfda7936568e
+    title: Autonomous Evaluation and Refinement of Digital Agents
+    semantic_scholar_url: https://www.semanticscholar.org/paper/aed8f01122d1a89c43900e995c80bfda7936568e?utm_source=api
+    citation_count: 136
+    influential_citation_count: 15
+    external_ids:
+      ArXiv: '2404.06474'
+      DBLP: journals/corr/abs-2404-06474
+      DOI: 10.48550/arXiv.2404.06474
+      CorpusId: 269009430
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  berkeley-nlp:1:
+    status: matched
+    query_id: ARXIV:2411.05781
+    paper_id: c5f5d92e20fec8f95f2ad394fdeaf87c0e26dc32
+    title: Using Language Models to Disambiguate Lexical Choices in Translation
+    semantic_scholar_url: https://www.semanticscholar.org/paper/c5f5d92e20fec8f95f2ad394fdeaf87c0e26dc32?utm_source=api
+    citation_count: 3
+    influential_citation_count: 0
+    external_ids:
+      DBLP: conf/emnlp/BaruaSYS24
+      ACL: 2024.emnlp-main.278
+      ArXiv: '2411.05781'
+      DOI: 10.18653/v1/2024.emnlp-main.278
+      CorpusId: 273901504
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  berkeley-nlp:2:
+    status: matched
+    query_id: ARXIV:2508.14828
+    paper_id: a8c156f15b5eb1fb8a117cfcf773423346b9840a
+    title: Long Chain-of-Thought Reasoning Across Languages
+    semantic_scholar_url: https://www.semanticscholar.org/paper/a8c156f15b5eb1fb8a117cfcf773423346b9840a?utm_source=api
+    citation_count: 15
+    influential_citation_count: 3
+    external_ids:
+      ArXiv: '2508.14828'
+      DBLP: journals/corr/abs-2508-14828
+      DOI: 10.48550/arXiv.2508.14828
+      CorpusId: 280691925
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  berkeley-rail:0:
+    status: matched
+    query_id: ARXIV:2407.20635
+    paper_id: 91a6ea33890fb96f6a82d20551b4bd71e807b7e4
+    title: Autonomous Improvement of Instruction Following Skills via Foundation Models
+    semantic_scholar_url: https://www.semanticscholar.org/paper/91a6ea33890fb96f6a82d20551b4bd71e807b7e4?utm_source=api
+    citation_count: 35
+    influential_citation_count: 3
+    external_ids:
+      DBLP: conf/corl/ZhouALWML24
+      ArXiv: '2407.20635'
+      DOI: 10.48550/arXiv.2407.20635
+      CorpusId: 271543929
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  berkeley-rail:2:
+    status: matched
+    query_id: DOI:10.1109/icra57147.2024.10610040
+    paper_id: fc4d4a25aac973b516c0bf890e36660fe228e79a
+    title: 'SERL: A Software Suite for Sample-Efficient Robotic Reinforcement Learning'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/fc4d4a25aac973b516c0bf890e36660fe228e79a?utm_source=api
+    citation_count: 163
+    influential_citation_count: 8
+    external_ids:
+      ArXiv: '2401.16013'
+      DBLP: conf/icra/LuoH0TBSSF0L24
+      DOI: 10.1109/ICRA57147.2024.10610040
+      CorpusId: 267311834
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  bytedance-seed:1:
+    status: matched
+    query_id: ARXIV:2510.13802
+    paper_id: 2caa9d99d51b61b845e27f751ce4873c3dbf05d6
+    title: 'Trace Anything: Representing Any Video in 4D via Trajectory Fields'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/2caa9d99d51b61b845e27f751ce4873c3dbf05d6?utm_source=api
+    citation_count: 28
+    influential_citation_count: 2
+    external_ids:
+      ArXiv: '2510.13802'
+      DBLP: journals/corr/abs-2510-13802
+      DOI: 10.48550/arXiv.2510.13802
+      CorpusId: 282102981
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  bytedance-seed:2:
+    status: matched
+    query_id: ARXIV:2512.04324
+    paper_id: 3225bcfaed8f408d32912f1bf143bbb7fb238f3e
+    title: 'DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/3225bcfaed8f408d32912f1bf143bbb7fb238f3e?utm_source=api
+    citation_count: 11
+    influential_citation_count: 1
+    external_ids:
+      DBLP: journals/corr/abs-2512-04324
+      ArXiv: '2512.04324'
+      DOI: 10.48550/arXiv.2512.04324
+      CorpusId: 283557673
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  casia-ai-ethics-governance:1:
+    status: matched
+    query_id: ARXIV:2105.02117
+    paper_id: cd2b2bbb13f37b2bff8826a5a7614b1f897e2db2
+    title: 'Ethics and Governance of Artificial Intelligence: Evidence from a Survey of Machine Learning Researchers'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/cd2b2bbb13f37b2bff8826a5a7614b1f897e2db2?utm_source=api
+    citation_count: 81
+    influential_citation_count: 6
+    external_ids:
+      ArXiv: '2105.02117'
+      DBLP: journals/corr/abs-2105-02117
+      DOI: 10.1613/jair.1.12895
+      CorpusId: 233740003
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  casia-brain-ai:0:
+    status: matched
+    query_id: DOI:10.1093/cercor/bhw157
+    paper_id: c3d29e7f18e6ba080693c1de4ce890aac62a88ab
+    title: 'The Human Brainnetome Atlas: A New Brain Atlas Based on Connectional Architecture'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/c3d29e7f18e6ba080693c1de4ce890aac62a88ab?utm_source=api
+    citation_count: 1834
+    influential_citation_count: 147
+    external_ids:
+      PubMedCentral: '4961028'
+      MAG: '2402346616'
+      DOI: 10.1093/cercor/bhw157
+      CorpusId: 21767790
+      PubMed: '27230218'
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  casia-brain-ai:1:
+    status: matched
+    query_id: DOI:10.1109/tpami.2023.3263181
+    paper_id: 419eb47fea3931c4098232f44ccbc216275d3f56
+    title: Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features
+    semantic_scholar_url: https://www.semanticscholar.org/paper/419eb47fea3931c4098232f44ccbc216275d3f56?utm_source=api
+    citation_count: 184
+    influential_citation_count: 16
+    external_ids:
+      DBLP: journals/pami/DuFLH23
+      ArXiv: '2210.06756'
+      DOI: 10.1109/TPAMI.2023.3263181
+      CorpusId: 252873127
+      PubMed: '37030711'
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  casia-brain-ai:2:
+    status: matched
+    query_id: DOI:10.1038/s43588-026-00956-4
+    paper_id: 8215b64e34d3986e8f21b3b07cdd99f893af8eac
+    title: A neural network for modeling human concept formation, understanding and communication
+    semantic_scholar_url: https://www.semanticscholar.org/paper/8215b64e34d3986e8f21b3b07cdd99f893af8eac?utm_source=api
+    citation_count: 4
+    influential_citation_count: 0
+    external_ids:
+      DBLP: journals/ncs/GuoCCBY26
+      PubMedCentral: '13216063'
+      ArXiv: '2601.02010'
+      DOI: 10.1038/s43588-026-00956-4
+      CorpusId: 284487086
+      PubMed: '41714449'
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  casia-multimodal-ai-systems:1:
+    status: matched
+    query_id: ARXIV:1908.10654
+    paper_id: 4e489453d57fd4746214668286d9005916a973bc
+    title: 'CASIA-SURF: A Large-Scale Multi-Modal Benchmark for Face Anti-Spoofing'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/4e489453d57fd4746214668286d9005916a973bc?utm_source=api
+    citation_count: 204
+    influential_citation_count: 22
+    external_ids:
+      DBLP: journals/tbbis/ZhangLWLGEEL20
+      MAG: '3006377070'
+      ArXiv: '1908.10654'
+      DOI: 10.1109/TBIOM.2020.2973001
+      CorpusId: 201653476
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  casia-multimodal-ai-systems:2:
+    status: matched
+    query_id: ARXIV:2010.05222
+    paper_id: 54881bf440dfe611a20f7ef1bcc4c83f985aad69
+    title: 'Partial FC: Training 10 Million Identities on a Single Machine'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/54881bf440dfe611a20f7ef1bcc4c83f985aad69?utm_source=api
+    citation_count: 287
+    influential_citation_count: 47
+    external_ids:
+      ArXiv: '2010.05222'
+      DBLP: journals/corr/abs-2010-05222
+      MAG: '3092005893'
+      DOI: 10.1109/ICCVW54120.2021.00166
+      CorpusId: 222291700
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  casia-taichu:0:
+    status: matched
+    query_id: ARXIV:2505.16146
+    paper_id: 5464c3cb5412d93ef5b1f6c6b5107b079df28625
+    title: Steering LVLMs via Sparse Autoencoder for Hallucination Mitigation
+    semantic_scholar_url: https://www.semanticscholar.org/paper/5464c3cb5412d93ef5b1f6c6b5107b079df28625?utm_source=api
+    citation_count: 3
+    influential_citation_count: 0
+    external_ids:
+      DBLP: conf/emnlp/HuaHYHGJF25
+      ArXiv: '2505.16146'
+      DOI: 10.48550/arXiv.2505.16146
+      CorpusId: 278789405
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  cmu-auton-lab:0:
+    status: matched
+    query_id: ARXIV:2204.07276
+    paper_id: e5052f4a944189c8f15215830eda09b9a0dfe0b1
+    title: 'auton-survival: an Open-Source Package for Regression, Counterfactual Estimation, Evaluation and Phenotyping with Censored Time-to-Event Data'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/e5052f4a944189c8f15215830eda09b9a0dfe0b1?utm_source=api
+    citation_count: 34
+    influential_citation_count: 0
+    external_ids:
+      DBLP: journals/corr/abs-2204-07276
+      ArXiv: '2204.07276'
+      DOI: 10.48550/arXiv.2204.07276
+      CorpusId: 248218594
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  cmu-auton-lab:1:
+    status: matched
+    query_id: ARXIV:2511.10848
+    paper_id: 6aadfe14610f5669bda349d73a852c4aad5e6c59
+    title: 'STAMP: Spatial-Temporal Adapter with Multi-Head Pooling'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/6aadfe14610f5669bda349d73a852c4aad5e6c59?utm_source=api
+    citation_count: 1
+    influential_citation_count: 0
+    external_ids:
+      ArXiv: '2511.10848'
+      DBLP: journals/corr/abs-2511-10848
+      DOI: 10.48550/arXiv.2511.10848
+      CorpusId: 283055465
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  cmu-machine-learning-department:0:
+    status: matched
+    query_id: DOI:10.18653/v1/2024.acl-long.790
+    paper_id: 3336d0787146eb5ef3caedc48f76c3bfe3025ee3
+    title: 'Speech vs. Transcript: Does It Matter for Human Annotators in Speech Summarization?'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/3336d0787146eb5ef3caedc48f76c3bfe3025ee3?utm_source=api
+    citation_count: 5
+    influential_citation_count: 2
+    external_ids:
+      DBLP: conf/acl/0001SLDR24
+      ArXiv: '2408.07277'
+      DOI: 10.18653/v1/2024.acl-long.790
+      CorpusId: 271865624
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  cmu-machine-learning-department:1:
+    status: matched
+    query_id: DOI:10.1016/j.neucom.2008.08.004
+    paper_id: a76d84b33bf00016da69c042097a670b7a77d77c
+    title: Machine Learning for Signal Processing
+    semantic_scholar_url: https://www.semanticscholar.org/paper/a76d84b33bf00016da69c042097a670b7a77d77c?utm_source=api
+    citation_count: 23
+    influential_citation_count: 2
+    external_ids:
+      MAG: '2203226646'
+      DBLP: journals/ijon/HulleL08
+      DOI: 10.1016/J.NEUCOM.2008.08.004
+      CorpusId: 31946273
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  cuhk-language-processing-lab:2:
+    status: matched
+    query_id: DOI:10.18653/v1/2024.cmcl-1.16
+    paper_id: 155e3694e7413177d75a25774454c1ff571c0943
+    title: 'Evaluating Grammatical Well-Formedness in Large Language Models: A Comparative Study with Human Judgments'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/155e3694e7413177d75a25774454c1ff571c0943?utm_source=api
+    citation_count: 10
+    influential_citation_count: 0
+    external_ids:
+      ACL: 2024.cmcl-1.16
+      DOI: 10.18653/v1/2024.cmcl-1.16
+      CorpusId: 271769651
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  deepseek-research:0:
+    status: matched
+    query_id: ARXIV:2310.16818
+    paper_id: 82696e14076d2d92d3d7452bf67c5d924bf1e101
+    title: 'DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/82696e14076d2d92d3d7452bf67c5d924bf1e101?utm_source=api
+    citation_count: 190
+    influential_citation_count: 21
+    external_ids:
+      ArXiv: '2310.16818'
+      DBLP: conf/iclr/SunZS0LXL24
+      DOI: 10.48550/arXiv.2310.16818
+      CorpusId: 264452015
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  deepseek-research:2:
+    status: matched
+    query_id: ARXIV:2405.04434
+    paper_id: 53a803388e83ae89261624099d7be4287ace67cb
+    title: 'DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/53a803388e83ae89261624099d7be4287ace67cb?utm_source=api
+    citation_count: 1334
+    influential_citation_count: 127
+    external_ids:
+      ArXiv: '2405.04434'
+      DBLP: journals/corr/abs-2405-04434
+      DOI: 10.48550/arXiv.2405.04434
+      CorpusId: 269613809
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  fudan-data-intelligence-lab:2:
+    status: not_found
+    query_id: DOI:10.1609/aaai.v38i12.29297
+    checked_at: '2026-07-30'
+  fudan-disc:2:
+    status: matched
+    query_id: ARXIV:2309.11325
+    paper_id: 6806ecad90a778aaa7f6a3cd3a539582d823066c
+    title: 'DISC-LawLLM: Fine-tuning Large Language Models for Intelligent Legal Services'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/6806ecad90a778aaa7f6a3cd3a539582d823066c?utm_source=api
+    citation_count: 167
+    influential_citation_count: 14
+    external_ids:
+      DBLP: journals/corr/abs-2309-11325
+      ArXiv: '2309.11325'
+      DOI: 10.48550/arXiv.2309.11325
+      CorpusId: 262064568
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  google-deepmind:0:
+    status: matched
+    query_id: ARXIV:2402.13217
+    paper_id: 271f08345dab179670da94ea67f1e0862db2dac1
+    title: 'VideoPrism: A Foundational Visual Encoder for Video Understanding'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/271f08345dab179670da94ea67f1e0862db2dac1?utm_source=api
+    citation_count: 109
+    influential_citation_count: 11
+    external_ids:
+      DBLP: conf/icml/0003GYZYSFQW0HS24
+      ArXiv: '2402.13217'
+      DOI: 10.48550/arXiv.2402.13217
+      CorpusId: 267760035
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  google-deepmind:1:
+    status: matched
+    query_id: ARXIV:2402.16837
+    paper_id: c36f638781953f995eb3079f882174846b9ac16a
+    title: Do Large Language Models Latently Perform Multi-Hop Reasoning?
+    semantic_scholar_url: https://www.semanticscholar.org/paper/c36f638781953f995eb3079f882174846b9ac16a?utm_source=api
+    citation_count: 208
+    influential_citation_count: 14
+    external_ids:
+      ArXiv: '2402.16837'
+      DBLP: conf/acl/YangGKG024
+      DOI: 10.48550/arXiv.2402.16837
+      CorpusId: 268032051
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  hku-data-intelligence-lab:1:
+    status: matched
+    query_id: DOI:10.18653/v1/2026.findings-acl.1518
+    paper_id: b016d838c818bc116852e08e85a2ed309994bbc0
+    title: 'OpenPhone: Mobile Agentic Foundation Models'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/b016d838c818bc116852e08e85a2ed309994bbc0?utm_source=api
+    citation_count: 1
+    influential_citation_count: 0
+    external_ids:
+      ArXiv: '2510.22009'
+      DOI: 10.18653/v1/2026.findings-acl.1518
+      CorpusId: 282388636
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  hku-data-intelligence-lab:2:
+    status: matched
+    query_id: ARXIV:2310.13023
+    paper_id: 45872b94798c3125abfb185b7926689c5e767763
+    title: 'GraphGPT: Graph Instruction Tuning for Large Language Models'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/45872b94798c3125abfb185b7926689c5e767763?utm_source=api
+    citation_count: 367
+    influential_citation_count: 34
+    external_ids:
+      DBLP: conf/sigir/Tang00SSCY024
+      ArXiv: '2310.13023'
+      DOI: 10.1145/3626772.3657775
+      CorpusId: 264405943
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  hku-intelligent-cybersecurity:1:
+    status: matched
+    query_id: DOI:10.18653/v1/2025.findings-emnlp.847
+    paper_id: b3e23f274f285080d9489de7c99cc39768872a49
+    title: 'FuzzAug: Data Augmentation by Coverage-guided Fuzzing for Neural Test Generation'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/b3e23f274f285080d9489de7c99cc39768872a49?utm_source=api
+    citation_count: 6
+    influential_citation_count: 2
+    external_ids:
+      ArXiv: '2406.08665'
+      DBLP: conf/emnlp/HeWRC25
+      DOI: 10.18653/v1/2025.findings-emnlp.847
+      CorpusId: 270440945
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  hku-sail:0:
+    status: matched
+    query_id: DOI:10.1109/cvpr52733.2024.02661
+    paper_id: 49a0106329d2cd917d43978c373ed4633a5ed52d
+    title: 'CoralSCOP: Segment any COral Image on this Planet'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/49a0106329d2cd917d43978c373ed4633a5ed52d?utm_source=api
+    citation_count: 48
+    influential_citation_count: 2
+    external_ids:
+      DBLP: conf/cvpr/ZhengLHWACY24
+      DOI: 10.1109/CVPR52733.2024.02661
+      CorpusId: 272714021
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  hku-sail:1:
+    status: matched
+    query_id: DOI:10.1109/iccv51701.2025.01857
+    paper_id: 66c9c3b9fd1022606261943bb7c0213bfdd8df8f
+    title: 'CoraLSRT: Revisiting Coral Reef Semantic Segmentation by Feature Rectification via Self-Supervised Guidance'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/66c9c3b9fd1022606261943bb7c0213bfdd8df8f?utm_source=api
+    citation_count: 2
+    influential_citation_count: 0
+    external_ids:
+      DBLP: conf/iccv/ZhengWHSY25
+      DOI: 10.1109/ICCV51701.2025.01857
+      CorpusId: 284588640
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  hku-sail:2:
+    status: matched
+    query_id: ARXIV:2209.05800
+    paper_id: 810f0bef14f437e04e48d1cb743e8b72f38282da
+    title: Time-of-Day Neural Style Transfer for Architectural Photographs
+    semantic_scholar_url: https://www.semanticscholar.org/paper/810f0bef14f437e04e48d1cb743e8b72f38282da?utm_source=api
+    citation_count: 7
+    influential_citation_count: 3
+    external_ids:
+      ArXiv: '2209.05800'
+      DBLP: conf/iccp/ChenVSYH22
+      DOI: 10.1109/ICCP54855.2022.9887763
+      CorpusId: 252211830
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  hkust-aerial-robotics:0:
+    status: matched
+    query_id: ARXIV:2405.14539
+    paper_id: bf4493c405027f967277469a97099ff0706aa742
+    title: 'VINS-Multi: A Robust Asynchronous Multi-camera-IMU State Estimator'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/bf4493c405027f967277469a97099ff0706aa742?utm_source=api
+    citation_count: 3
+    influential_citation_count: 0
+    external_ids:
+      ArXiv: '2405.14539'
+      DBLP: journals/corr/abs-2405-14539
+      DOI: 10.48550/arXiv.2405.14539
+      CorpusId: 269983580
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  hkust-aerial-robotics:1:
+    status: matched
+    query_id: ARXIV:2403.20085
+    paper_id: 346d7de32b356f940a40911f2b79ef163e41645f
+    title: 'OmniNxt: A Fully Open-source and Compact Aerial Robot with Omnidirectional Visual Perception'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/346d7de32b356f940a40911f2b79ef163e41645f?utm_source=api
+    citation_count: 25
+    influential_citation_count: 4
+    external_ids:
+      ArXiv: '2403.20085'
+      DBLP: conf/iros/Liu0XNXS24
+      DOI: 10.1109/IROS58592.2024.10802134
+      CorpusId: 268793582
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  hkust-aerial-robotics:2:
+    status: matched
+    query_id: ARXIV:2307.11653
+    paper_id: 6ed5bc8570f4aa00342481948f47e0f7d47b8d10
+    title: Online Monocular Lane Mapping Using Catmull-Rom Spline
+    semantic_scholar_url: https://www.semanticscholar.org/paper/6ed5bc8570f4aa00342481948f47e0f7d47b8d10?utm_source=api
+    citation_count: 18
+    influential_citation_count: 3
+    external_ids:
+      DBLP: conf/iros/QiaoYYS23
+      ArXiv: '2307.11653'
+      DOI: 10.1109/IROS55552.2023.10341707
+      CorpusId: 260091775
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  jd-ai-infrastructures:0:
+    status: matched
+    query_id: ARXIV:2604.25602
+    paper_id: b08a7e8628f138a0191944e90b56a746b0028f93
+    title: 'OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/b08a7e8628f138a0191944e90b56a746b0028f93?utm_source=api
+    citation_count: 0
+    influential_citation_count: 0
+    external_ids:
+      DBLP: journals/corr/abs-2604-25602
+      ArXiv: '2604.25602'
+      DOI: 10.48550/arXiv.2604.25602
+      CorpusId: 287834182
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  jd-ai-infrastructures:1:
+    status: not_found
+    query_id: DOI:10.18653/v1/2026.acl-demo.58
+    checked_at: '2026-07-30'
+  jd-embodied-ai:0:
+    status: matched
+    query_id: ARXIV:2604.25602
+    paper_id: b08a7e8628f138a0191944e90b56a746b0028f93
+    title: 'OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/b08a7e8628f138a0191944e90b56a746b0028f93?utm_source=api
+    citation_count: 0
+    influential_citation_count: 0
+    external_ids:
+      DBLP: journals/corr/abs-2604-25602
+      ArXiv: '2604.25602'
+      DOI: 10.48550/arXiv.2604.25602
+      CorpusId: 287834182
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  jd-embodied-ai:1:
+    status: not_found
+    query_id: DOI:10.18653/v1/2026.acl-demo.58
+    checked_at: '2026-07-30'
+  jd-multimodal-interaction-world-model:0:
+    status: matched
+    query_id: ARXIV:2604.25602
+    paper_id: b08a7e8628f138a0191944e90b56a746b0028f93
+    title: 'OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/b08a7e8628f138a0191944e90b56a746b0028f93?utm_source=api
+    citation_count: 0
+    influential_citation_count: 0
+    external_ids:
+      DBLP: journals/corr/abs-2604-25602
+      ArXiv: '2604.25602'
+      DOI: 10.48550/arXiv.2604.25602
+      CorpusId: 287834182
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  jd-multimodal-interaction-world-model:1:
+    status: not_found
+    query_id: DOI:10.18653/v1/2026.acl-demo.58
+    checked_at: '2026-07-30'
+  jd-multimodal-llm:0:
+    status: matched
+    query_id: ARXIV:2604.25602
+    paper_id: b08a7e8628f138a0191944e90b56a746b0028f93
+    title: 'OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/b08a7e8628f138a0191944e90b56a746b0028f93?utm_source=api
+    citation_count: 0
+    influential_citation_count: 0
+    external_ids:
+      DBLP: journals/corr/abs-2604-25602
+      ArXiv: '2604.25602'
+      DOI: 10.48550/arXiv.2604.25602
+      CorpusId: 287834182
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  jd-multimodal-llm:1:
+    status: not_found
+    query_id: DOI:10.18653/v1/2026.acl-demo.58
+    checked_at: '2026-07-30'
+  jd-speech-acoustics:0:
+    status: matched
+    query_id: ARXIV:2604.25602
+    paper_id: b08a7e8628f138a0191944e90b56a746b0028f93
+    title: 'OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/b08a7e8628f138a0191944e90b56a746b0028f93?utm_source=api
+    citation_count: 0
+    influential_citation_count: 0
+    external_ids:
+      DBLP: journals/corr/abs-2604-25602
+      ArXiv: '2604.25602'
+      DOI: 10.48550/arXiv.2604.25602
+      CorpusId: 287834182
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  jd-speech-acoustics:1:
+    status: not_found
+    query_id: DOI:10.18653/v1/2026.acl-demo.58
+    checked_at: '2026-07-30'
+  kuaishou-kling-ai-research:1:
+    status: matched
+    query_id: ARXIV:2501.08325
+    paper_id: 1994f886b74aff3ef31802769f2c502dbe0b25aa
+    title: 'GameFactorly: Creating New Games with Generative Interactive Videos'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/1994f886b74aff3ef31802769f2c502dbe0b25aa?utm_source=api
+    citation_count: 111
+    influential_citation_count: 7
+    external_ids:
+      DBLP: journals/corr/abs-2501-08325
+      ArXiv: '2501.08325'
+      DOI: 10.1109/ICCV51701.2025.01078
+      CorpusId: 275515409
+    title_similarity: 0.75
+    checked_at: '2026-07-30'
+  kuaishou-kling-ai-research:2:
+    status: matched
+    query_id: ARXIV:2501.13918
+    paper_id: 2bb2f4e3a55c19c66875ea0a84d409b6a2e16fce
+    title: Improving Video Generation with Human Feedback
+    semantic_scholar_url: https://www.semanticscholar.org/paper/2bb2f4e3a55c19c66875ea0a84d409b6a2e16fce?utm_source=api
+    citation_count: 228
+    influential_citation_count: 43
+    external_ids:
+      DBLP: journals/corr/abs-2501-13918
+      ArXiv: '2501.13918'
+      DOI: 10.48550/arXiv.2501.13918
+      CorpusId: 275820437
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  kuaishou-kolors:0:
+    status: matched
+    query_id: ARXIV:2601.03955
+    paper_id: 52b985d1923ac9bd8be2ab4c58d0f18b61afbd94
+    title: 'ResTok: Learning Hierarchical Residuals in 1D Visual Tokenizers for Autoregressive Image Generation'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/52b985d1923ac9bd8be2ab4c58d0f18b61afbd94?utm_source=api
+    citation_count: 4
+    influential_citation_count: 1
+    external_ids:
+      DBLP: journals/corr/abs-2601-03955
+      ArXiv: '2601.03955'
+      DOI: 10.48550/arXiv.2601.03955
+      CorpusId: 284532414
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  kuaishou-kolors:2:
+    status: matched
+    query_id: ARXIV:2511.10555
+    paper_id: b73957bca960ec65e00ca3607cbe171b2c9e4b5c
+    title: 'A Style is Worth One Code: Unlocking Code-to-Style Image Generation with Discrete Style Space'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/b73957bca960ec65e00ca3607cbe171b2c9e4b5c?utm_source=api
+    citation_count: 0
+    influential_citation_count: 0
+    external_ids:
+      ArXiv: '2511.10555'
+      DBLP: journals/corr/abs-2511-10555
+      DOI: 10.48550/arXiv.2511.10555
+      CorpusId: 282992128
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  meituan-longcat:2:
+    status: matched
+    query_id: ARXIV:2510.08189
+    paper_id: bdde8c8a3d1b6f9f89ad0a1c4b3175ddfa160fb8
+    title: 'R-Horizon: How Far Can Your Large Reasoning Model Really Go in Breadth and Depth?'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/bdde8c8a3d1b6f9f89ad0a1c4b3175ddfa160fb8?utm_source=api
+    citation_count: 6
+    influential_citation_count: 0
+    external_ids:
+      ArXiv: '2510.08189'
+      DBLP: journals/corr/abs-2510-08189
+      DOI: 10.48550/arXiv.2510.08189
+      CorpusId: 281951557
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  meta-fair:0:
+    status: matched
+    query_id: ARXIV:2503.11651
+    paper_id: 4356b46e5dd1a4ebd579b1cd6eb3eeedddd5a65c
+    title: 'VGGT: Visual Geometry Grounded Transformer'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/4356b46e5dd1a4ebd579b1cd6eb3eeedddd5a65c?utm_source=api
+    citation_count: 1547
+    influential_citation_count: 423
+    external_ids:
+      ArXiv: '2503.11651'
+      DBLP: conf/cvpr/WangCKV0N25
+      DOI: 10.1109/CVPR52734.2025.00499
+      CorpusId: 277043968
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  meta-fair:2:
+    status: matched
+    query_id: ARXIV:2412.03572
+    paper_id: 9ca72cef4487494cd835e7abca65794407db62ee
+    title: Navigation World Models
+    semantic_scholar_url: https://www.semanticscholar.org/paper/9ca72cef4487494cd835e7abca65794407db62ee?utm_source=api
+    citation_count: 282
+    influential_citation_count: 32
+    external_ids:
+      DBLP: conf/cvpr/BarZTDL25
+      ArXiv: '2412.03572'
+      DOI: 10.1109/CVPR52734.2025.01472
+      CorpusId: 274465127
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  meta-reality-labs-research:0:
+    status: matched
+    query_id: ARXIV:2503.11651
+    paper_id: 4356b46e5dd1a4ebd579b1cd6eb3eeedddd5a65c
+    title: 'VGGT: Visual Geometry Grounded Transformer'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/4356b46e5dd1a4ebd579b1cd6eb3eeedddd5a65c?utm_source=api
+    citation_count: 1547
+    influential_citation_count: 423
+    external_ids:
+      ArXiv: '2503.11651'
+      DBLP: conf/cvpr/WangCKV0N25
+      DOI: 10.1109/CVPR52734.2025.00499
+      CorpusId: 277043968
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  meta-reality-labs-research:2:
+    status: matched
+    query_id: ARXIV:2412.03572
+    paper_id: 9ca72cef4487494cd835e7abca65794407db62ee
+    title: Navigation World Models
+    semantic_scholar_url: https://www.semanticscholar.org/paper/9ca72cef4487494cd835e7abca65794407db62ee?utm_source=api
+    citation_count: 282
+    influential_citation_count: 32
+    external_ids:
+      DBLP: conf/cvpr/BarZTDL25
+      ArXiv: '2412.03572'
+      DOI: 10.1109/CVPR52734.2025.01472
+      CorpusId: 274465127
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  microsoft-ai-for-science:0:
+    status: matched
+    query_id: ARXIV:2510.21571
+    paper_id: 2c0b76b8cb9d702fc81444006623859bc65f2810
+    title: Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos
+    semantic_scholar_url: https://www.semanticscholar.org/paper/2c0b76b8cb9d702fc81444006623859bc65f2810?utm_source=api
+    citation_count: 52
+    influential_citation_count: 7
+    external_ids:
+      DBLP: journals/corr/abs-2510-21571
+      ArXiv: '2510.21571'
+      DOI: 10.48550/arXiv.2510.21571
+      CorpusId: 282384634
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  microsoft-ai-for-science:1:
+    status: matched
+    query_id: ARXIV:2412.01506
+    paper_id: 5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8
+    title: Structured 3D Latents for Scalable and Versatile 3D Generation
+    semantic_scholar_url: https://www.semanticscholar.org/paper/5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8?utm_source=api
+    citation_count: 821
+    influential_citation_count: 223
+    external_ids:
+      DBLP: conf/cvpr/XiangLXDWZC0Y25
+      ArXiv: '2412.01506'
+      DOI: 10.1109/CVPR52734.2025.02000
+      CorpusId: 274436286
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  microsoft-ai-frontiers:0:
+    status: matched
+    query_id: ARXIV:2510.21571
+    paper_id: 2c0b76b8cb9d702fc81444006623859bc65f2810
+    title: Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos
+    semantic_scholar_url: https://www.semanticscholar.org/paper/2c0b76b8cb9d702fc81444006623859bc65f2810?utm_source=api
+    citation_count: 52
+    influential_citation_count: 7
+    external_ids:
+      DBLP: journals/corr/abs-2510-21571
+      ArXiv: '2510.21571'
+      DOI: 10.48550/arXiv.2510.21571
+      CorpusId: 282384634
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  microsoft-ai-frontiers:1:
+    status: matched
+    query_id: ARXIV:2412.01506
+    paper_id: 5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8
+    title: Structured 3D Latents for Scalable and Versatile 3D Generation
+    semantic_scholar_url: https://www.semanticscholar.org/paper/5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8?utm_source=api
+    citation_count: 821
+    influential_citation_count: 223
+    external_ids:
+      DBLP: conf/cvpr/XiangLXDWZC0Y25
+      ArXiv: '2412.01506'
+      DOI: 10.1109/CVPR52734.2025.02000
+      CorpusId: 274436286
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  microsoft-computer-vision:0:
+    status: matched
+    query_id: ARXIV:2510.21571
+    paper_id: 2c0b76b8cb9d702fc81444006623859bc65f2810
+    title: Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos
+    semantic_scholar_url: https://www.semanticscholar.org/paper/2c0b76b8cb9d702fc81444006623859bc65f2810?utm_source=api
+    citation_count: 52
+    influential_citation_count: 7
+    external_ids:
+      DBLP: journals/corr/abs-2510-21571
+      ArXiv: '2510.21571'
+      DOI: 10.48550/arXiv.2510.21571
+      CorpusId: 282384634
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  microsoft-computer-vision:1:
+    status: matched
+    query_id: ARXIV:2412.01506
+    paper_id: 5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8
+    title: Structured 3D Latents for Scalable and Versatile 3D Generation
+    semantic_scholar_url: https://www.semanticscholar.org/paper/5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8?utm_source=api
+    citation_count: 821
+    influential_citation_count: 223
+    external_ids:
+      DBLP: conf/cvpr/XiangLXDWZC0Y25
+      ArXiv: '2412.01506'
+      DOI: 10.1109/CVPR52734.2025.02000
+      CorpusId: 274436286
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  microsoft-general-ai:0:
+    status: matched
+    query_id: ARXIV:2510.21571
+    paper_id: 2c0b76b8cb9d702fc81444006623859bc65f2810
+    title: Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos
+    semantic_scholar_url: https://www.semanticscholar.org/paper/2c0b76b8cb9d702fc81444006623859bc65f2810?utm_source=api
+    citation_count: 52
+    influential_citation_count: 7
+    external_ids:
+      DBLP: journals/corr/abs-2510-21571
+      ArXiv: '2510.21571'
+      DOI: 10.48550/arXiv.2510.21571
+      CorpusId: 282384634
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  microsoft-general-ai:1:
+    status: matched
+    query_id: ARXIV:2412.01506
+    paper_id: 5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8
+    title: Structured 3D Latents for Scalable and Versatile 3D Generation
+    semantic_scholar_url: https://www.semanticscholar.org/paper/5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8?utm_source=api
+    citation_count: 821
+    influential_citation_count: 223
+    external_ids:
+      DBLP: conf/cvpr/XiangLXDWZC0Y25
+      ArXiv: '2412.01506'
+      DOI: 10.1109/CVPR52734.2025.02000
+      CorpusId: 274436286
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  microsoft-machine-learning-area:0:
+    status: matched
+    query_id: ARXIV:2510.21571
+    paper_id: 2c0b76b8cb9d702fc81444006623859bc65f2810
+    title: Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos
+    semantic_scholar_url: https://www.semanticscholar.org/paper/2c0b76b8cb9d702fc81444006623859bc65f2810?utm_source=api
+    citation_count: 52
+    influential_citation_count: 7
+    external_ids:
+      DBLP: journals/corr/abs-2510-21571
+      ArXiv: '2510.21571'
+      DOI: 10.48550/arXiv.2510.21571
+      CorpusId: 282384634
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  microsoft-machine-learning-area:1:
+    status: matched
+    query_id: ARXIV:2412.01506
+    paper_id: 5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8
+    title: Structured 3D Latents for Scalable and Versatile 3D Generation
+    semantic_scholar_url: https://www.semanticscholar.org/paper/5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8?utm_source=api
+    citation_count: 821
+    influential_citation_count: 223
+    external_ids:
+      DBLP: conf/cvpr/XiangLXDWZC0Y25
+      ArXiv: '2412.01506'
+      DOI: 10.1109/CVPR52734.2025.02000
+      CorpusId: 274436286
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  minimax-research:0:
+    status: matched
+    query_id: ARXIV:2512.13687
+    paper_id: ae6d213335ab27d55c659ce8fd189006d42887cb
+    title: Towards Scalable Pre-training of Visual Tokenizers for Generation
+    semantic_scholar_url: https://www.semanticscholar.org/paper/ae6d213335ab27d55c659ce8fd189006d42887cb?utm_source=api
+    citation_count: 23
+    influential_citation_count: 1
+    external_ids:
+      ArXiv: '2512.13687'
+      DBLP: journals/corr/abs-2512-13687
+      DOI: 10.48550/arXiv.2512.13687
+      CorpusId: 283895996
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  minimax-research:1:
+    status: matched
+    query_id: ARXIV:2505.19641
+    paper_id: c4b20ea0556444a870e94ad58076ced9e21d57de
+    title: 'SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/c4b20ea0556444a870e94ad58076ced9e21d57de?utm_source=api
+    citation_count: 40
+    influential_citation_count: 3
+    external_ids:
+      DBLP: journals/corr/abs-2505-19641
+      ArXiv: '2505.19641'
+      DOI: 10.48550/arXiv.2505.19641
+      CorpusId: 278905112
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  mit-embodied-intelligence:0:
+    status: matched
+    query_id: ARXIV:2108.01828
+    paper_id: 570641cc1a6badc78fcb736a23cd4cc757add6ee
+    title: Emergent Discrete Communication in Semantic Spaces
+    semantic_scholar_url: https://www.semanticscholar.org/paper/570641cc1a6badc78fcb736a23cd4cc757add6ee?utm_source=api
+    citation_count: 32
+    influential_citation_count: 5
+    external_ids:
+      DBLP: conf/nips/TuckerLAHSLS21
+      ArXiv: '2108.01828'
+      CorpusId: 236912932
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  mit-embodied-intelligence:1:
+    status: matched
+    query_id: ARXIV:2106.05963
+    paper_id: 69bf5d3012c33c18e156aa654f4a6b5ec43b1e0b
+    title: Learning to See by Looking at Noise
+    semantic_scholar_url: https://www.semanticscholar.org/paper/69bf5d3012c33c18e156aa654f4a6b5ec43b1e0b?utm_source=api
+    citation_count: 122
+    influential_citation_count: 19
+    external_ids:
+      DBLP: conf/nips/JurjoWWIT21
+      ArXiv: '2106.05963'
+      CorpusId: 235390848
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  mit-embodied-intelligence:2:
+    status: matched
+    query_id: ARXIV:2108.04145
+    paper_id: 8a90fd6370c6a6f5aa997bc0cdf183c6cacd980c
+    title: Long-Horizon Manipulation of Unknown Objects via Task and Motion Planning with Estimated Affordances
+    semantic_scholar_url: https://www.semanticscholar.org/paper/8a90fd6370c6a6f5aa997bc0cdf183c6cacd980c?utm_source=api
+    citation_count: 77
+    influential_citation_count: 3
+    external_ids:
+      DBLP: conf/icra/CurtisFKLG22
+      ArXiv: '2108.04145'
+      DOI: 10.1109/icra46639.2022.9812057
+      CorpusId: 236956974
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  mit-improbable-ai:1:
+    status: matched
+    query_id: ARXIV:2310.04413
+    paper_id: 4ff5aa25088ad899a23e6ec0385ff5bd0e5efc68
+    title: 'Beyond Uniform Sampling: Offline Reinforcement Learning with Imbalanced Datasets'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/4ff5aa25088ad899a23e6ec0385ff5bd0e5efc68?utm_source=api
+    citation_count: 33
+    influential_citation_count: 6
+    external_ids:
+      DBLP: journals/corr/abs-2310-04413
+      ArXiv: '2310.04413'
+      DOI: 10.48550/arXiv.2310.04413
+      CorpusId: 263829037
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  nju-lamda-cl:0:
+    status: matched
+    query_id: ARXIV:2302.03648
+    paper_id: bc11657741a61bd77c58da4c0e7cc52aed22b73f
+    title: 'Class-Incremental Learning: A Survey'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/bc11657741a61bd77c58da4c0e7cc52aed22b73f?utm_source=api
+    citation_count: 383
+    influential_citation_count: 21
+    external_ids:
+      DBLP: journals/pami/ZhouWQYZL24
+      ArXiv: '2302.03648'
+      DOI: 10.1109/TPAMI.2024.3429383
+      CorpusId: 256627357
+      PubMed: '39012754'
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  nju-lamda-cl:1:
+    status: matched
+    query_id: ARXIV:2305.19270
+    paper_id: fd928577d67dd01048d13f284a6256164bbcf2f0
+    title: Learning Without Forgetting for Vision-Language Models
+    semantic_scholar_url: https://www.semanticscholar.org/paper/fd928577d67dd01048d13f284a6256164bbcf2f0?utm_source=api
+    citation_count: 114
+    influential_citation_count: 8
+    external_ids:
+      DBLP: journals/pami/ZhouZWNYZL25
+      ArXiv: '2305.19270'
+      DOI: 10.1109/TPAMI.2025.3540889
+      CorpusId: 258967796
+      PubMed: '40184303'
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  nju-lamda-cl:2:
+    status: matched
+    query_id: DOI:10.1109/iccv51701.2025.00317
+    paper_id: 9bcf83bd3ea91ef92a77cfce98c87f5fa1c6755f
+    title: External Knowledge Injection for CLIP-Based Class-Incremental Learning
+    semantic_scholar_url: https://www.semanticscholar.org/paper/9bcf83bd3ea91ef92a77cfce98c87f5fa1c6755f?utm_source=api
+    citation_count: 18
+    influential_citation_count: 0
+    external_ids:
+      DBLP: journals/corr/abs-2503-08510
+      ArXiv: '2503.08510'
+      DOI: 10.1109/ICCV51701.2025.00317
+      CorpusId: 276929234
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  ntu-declare:0:
+    status: matched
+    query_id: ARXIV:2412.21037
+    paper_id: fb59ade3eea4cef206284f693938bb32cdae296b
+    title: 'TangoFlux: Super Fast and Faithful Text to Audio Generation with Flow Matching and Clap-Ranked Preference Optimization'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/fb59ade3eea4cef206284f693938bb32cdae296b?utm_source=api
+    citation_count: 83
+    influential_citation_count: 15
+    external_ids:
+      ArXiv: '2412.21037'
+      DBLP: journals/corr/abs-2412-21037
+      DOI: 10.48550/arXiv.2412.21037
+      CorpusId: 275134284
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  ntu-declare:1:
+    status: matched
+    query_id: ARXIV:2307.04192
+    paper_id: b73e0434e5ff5a2cedea37dc17bb965331983ef2
+    title: Self-Adaptive Sampling for Efficient Video Question-Answering on Image--Text Models
+    semantic_scholar_url: https://www.semanticscholar.org/paper/b73e0434e5ff5a2cedea37dc17bb965331983ef2?utm_source=api
+    citation_count: 4
+    influential_citation_count: 0
+    external_ids:
+      ArXiv: '2307.04192'
+      CorpusId: 259501609
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  nus-ai-lab:0:
+    status: matched
+    query_id: DOI:10.1287/isre.2022.1104
+    paper_id: 55cbe8205772d9e988942d28f5173c2033bc79e9
+    title: 'Handling Missing Values in Information Systems Research: A Review of Methods and Assumptions'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/55cbe8205772d9e988942d28f5173c2033bc79e9?utm_source=api
+    citation_count: 8
+    influential_citation_count: 0
+    external_ids:
+      DBLP: journals/isr/PengHH23
+      DOI: 10.1287/isre.2022.1104
+      CorpusId: 286164012
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  nus-nlp:0:
+    status: matched
+    query_id: ARXIV:2512.20292
+    paper_id: d09817aff905c82e4eb6b457987f761eebb46fec
+    title: 'SlideTailor: Personalized Presentation Slide Generation for Scientific Papers'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/d09817aff905c82e4eb6b457987f761eebb46fec?utm_source=api
+    citation_count: 6
+    influential_citation_count: 0
+    external_ids:
+      DBLP: conf/aaai/ZengOCN26
+      ArXiv: '2512.20292'
+      DOI: 10.48550/arXiv.2512.20292
+      CorpusId: 284132768
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  nus-nlp:1:
+    status: matched
+    query_id: ARXIV:2512.24097
+    paper_id: 9e108ca4f4159adfb95d63286813df62e855633a
+    title: Factorized Learning for Temporally Grounded Video-Language Models
+    semantic_scholar_url: https://www.semanticscholar.org/paper/9e108ca4f4159adfb95d63286813df62e855633a?utm_source=api
+    citation_count: 5
+    influential_citation_count: 0
+    external_ids:
+      ArXiv: '2512.24097'
+      DBLP: conf/iccv/ZengGSN25
+      DOI: 10.1109/ICCV51701.2025.01923
+      CorpusId: 284350431
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  nus-nlp:2:
+    status: not_found
+    query_id: DOI:10.18653/v1/2023.emnlp-main.785
+    checked_at: '2026-07-30'
+  nvidia-cosmos-lab:0:
+    status: matched
+    query_id: DOI:10.1109/cvpr52733.2024.01692
+    paper_id: dc4c9ae8c0cfc08ff6392aff69b0fd170da398a4
+    title: 'FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/dc4c9ae8c0cfc08ff6392aff69b0fd170da398a4?utm_source=api
+    citation_count: 693
+    influential_citation_count: 117
+    external_ids:
+      ArXiv: '2312.08344'
+      DBLP: journals/corr/abs-2312-08344
+      DOI: 10.1109/CVPR52733.2024.01692
+      CorpusId: 266191252
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  nvidia-cosmos-lab:1:
+    status: matched
+    query_id: ARXIV:2501.09898
+    paper_id: f2de9c75141114ed4fd7c26d5698375c3fa003af
+    title: 'FoundationStereo: Zero-Shot Stereo Matching'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api
+    citation_count: 246
+    influential_citation_count: 39
+    external_ids:
+      DBLP: conf/cvpr/WenTAKGB25
+      ArXiv: '2501.09898'
+      DOI: 10.1109/CVPR52734.2025.00495
+      CorpusId: 275606613
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  nvidia-cosmos-lab:2:
+    status: matched
+    query_id: ARXIV:2407.08083
+    paper_id: e8dceb26166721014b8ecbd11fd212739c18d315
+    title: 'MambaVision: A Hybrid Mamba-Transformer Vision Backbone'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/e8dceb26166721014b8ecbd11fd212739c18d315?utm_source=api
+    citation_count: 465
+    influential_citation_count: 39
+    external_ids:
+      ArXiv: '2407.08083'
+      DBLP: journals/corr/abs-2407-08083
+      DOI: 10.1109/CVPR52734.2025.02352
+      CorpusId: 271097462
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  nvidia-dair:0:
+    status: matched
+    query_id: DOI:10.1109/cvpr52733.2024.01692
+    paper_id: dc4c9ae8c0cfc08ff6392aff69b0fd170da398a4
+    title: 'FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/dc4c9ae8c0cfc08ff6392aff69b0fd170da398a4?utm_source=api
+    citation_count: 693
+    influential_citation_count: 117
+    external_ids:
+      ArXiv: '2312.08344'
+      DBLP: journals/corr/abs-2312-08344
+      DOI: 10.1109/CVPR52733.2024.01692
+      CorpusId: 266191252
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  nvidia-dair:1:
+    status: matched
+    query_id: ARXIV:2501.09898
+    paper_id: f2de9c75141114ed4fd7c26d5698375c3fa003af
+    title: 'FoundationStereo: Zero-Shot Stereo Matching'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api
+    citation_count: 246
+    influential_citation_count: 39
+    external_ids:
+      DBLP: conf/cvpr/WenTAKGB25
+      ArXiv: '2501.09898'
+      DOI: 10.1109/CVPR52734.2025.00495
+      CorpusId: 275606613
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  nvidia-dair:2:
+    status: matched
+    query_id: ARXIV:2407.08083
+    paper_id: e8dceb26166721014b8ecbd11fd212739c18d315
+    title: 'MambaVision: A Hybrid Mamba-Transformer Vision Backbone'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/e8dceb26166721014b8ecbd11fd212739c18d315?utm_source=api
+    citation_count: 465
+    influential_citation_count: 39
+    external_ids:
+      ArXiv: '2407.08083'
+      DBLP: journals/corr/abs-2407-08083
+      DOI: 10.1109/CVPR52734.2025.02352
+      CorpusId: 271097462
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  nvidia-efficient-ai:0:
+    status: matched
+    query_id: DOI:10.1109/cvpr52733.2024.01692
+    paper_id: dc4c9ae8c0cfc08ff6392aff69b0fd170da398a4
+    title: 'FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/dc4c9ae8c0cfc08ff6392aff69b0fd170da398a4?utm_source=api
+    citation_count: 693
+    influential_citation_count: 117
+    external_ids:
+      ArXiv: '2312.08344'
+      DBLP: journals/corr/abs-2312-08344
+      DOI: 10.1109/CVPR52733.2024.01692
+      CorpusId: 266191252
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  nvidia-efficient-ai:1:
+    status: matched
+    query_id: ARXIV:2501.09898
+    paper_id: f2de9c75141114ed4fd7c26d5698375c3fa003af
+    title: 'FoundationStereo: Zero-Shot Stereo Matching'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api
+    citation_count: 246
+    influential_citation_count: 39
+    external_ids:
+      DBLP: conf/cvpr/WenTAKGB25
+      ArXiv: '2501.09898'
+      DOI: 10.1109/CVPR52734.2025.00495
+      CorpusId: 275606613
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  nvidia-efficient-ai:2:
+    status: matched
+    query_id: ARXIV:2407.08083
+    paper_id: e8dceb26166721014b8ecbd11fd212739c18d315
+    title: 'MambaVision: A Hybrid Mamba-Transformer Vision Backbone'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/e8dceb26166721014b8ecbd11fd212739c18d315?utm_source=api
+    citation_count: 465
+    influential_citation_count: 39
+    external_ids:
+      ArXiv: '2407.08083'
+      DBLP: journals/corr/abs-2407-08083
+      DOI: 10.1109/CVPR52734.2025.02352
+      CorpusId: 271097462
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  nvidia-gear:0:
+    status: matched
+    query_id: DOI:10.1109/cvpr52733.2024.01692
+    paper_id: dc4c9ae8c0cfc08ff6392aff69b0fd170da398a4
+    title: 'FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/dc4c9ae8c0cfc08ff6392aff69b0fd170da398a4?utm_source=api
+    citation_count: 693
+    influential_citation_count: 117
+    external_ids:
+      ArXiv: '2312.08344'
+      DBLP: journals/corr/abs-2312-08344
+      DOI: 10.1109/CVPR52733.2024.01692
+      CorpusId: 266191252
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  nvidia-gear:1:
+    status: matched
+    query_id: ARXIV:2501.09898
+    paper_id: f2de9c75141114ed4fd7c26d5698375c3fa003af
+    title: 'FoundationStereo: Zero-Shot Stereo Matching'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/f2de9c75141114ed4fd7c26d5698375c3fa003af?utm_source=api
+    citation_count: 246
+    influential_citation_count: 39
+    external_ids:
+      DBLP: conf/cvpr/WenTAKGB25
+      ArXiv: '2501.09898'
+      DOI: 10.1109/CVPR52734.2025.00495
+      CorpusId: 275606613
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  nvidia-gear:2:
+    status: matched
+    query_id: ARXIV:2407.08083
+    paper_id: e8dceb26166721014b8ecbd11fd212739c18d315
+    title: 'MambaVision: A Hybrid Mamba-Transformer Vision Backbone'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/e8dceb26166721014b8ecbd11fd212739c18d315?utm_source=api
+    citation_count: 465
+    influential_citation_count: 39
+    external_ids:
+      ArXiv: '2407.08083'
+      DBLP: journals/corr/abs-2407-08083
+      DOI: 10.1109/CVPR52734.2025.02352
+      CorpusId: 271097462
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  openai-research:1:
+    status: not_found
+    query_id: DOI:10.52202/068431-1789
+    checked_at: '2026-07-30'
+  openai-research:2:
+    status: matched
+    query_id: ARXIV:2410.07095
+    paper_id: 7c44b7fdcec2e517799f6c54f6ba42bf1a89d2e6
+    title: 'MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/7c44b7fdcec2e517799f6c54f6ba42bf1a89d2e6?utm_source=api
+    citation_count: 312
+    influential_citation_count: 40
+    external_ids:
+      ArXiv: '2410.07095'
+      DBLP: journals/corr/abs-2410-07095
+      DOI: 10.48550/arXiv.2410.07095
+      CorpusId: 273233550
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  pku-alignment:0:
+    status: matched
+    query_id: ARXIV:2402.02416
+    paper_id: 4c2d8df556589ff4fbb5ee68c1f45bff3786624f
+    title: 'Aligner: Efficient Alignment by Learning to Correct'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/4c2d8df556589ff4fbb5ee68c1f45bff3786624f?utm_source=api
+    citation_count: 104
+    influential_citation_count: 14
+    external_ids:
+      DBLP: conf/nips/Ji0LHZPQD024
+      ArXiv: '2402.02416'
+      DOI: 10.52202/079017-2884
+      CorpusId: 267412276
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  pku-alignment:1:
+    status: matched
+    query_id: ARXIV:2503.03480
+    paper_id: 4c1b7cf0550130a2aca6215b759cb09c76b19978
+    title: 'SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/4c1b7cf0550130a2aca6215b759cb09c76b19978?utm_source=api
+    citation_count: 52
+    influential_citation_count: 2
+    external_ids:
+      ArXiv: '2503.03480'
+      DBLP: conf/nips/ZhangZJLDCY25
+      CorpusId: 279075816
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  pku-alignment:2:
+    status: matched
+    query_id: ARXIV:2307.07176
+    paper_id: '067239c3a60c8649db4ab2791a8bbddb7b4c7c99'
+    title: 'SafeDreamer: Safe Reinforcement Learning with World Models'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/067239c3a60c8649db4ab2791a8bbddb7b4c7c99?utm_source=api
+    citation_count: 62
+    influential_citation_count: 7
+    external_ids:
+      DBLP: conf/iclr/0008JXZ024
+      ArXiv: '2307.07176'
+      CorpusId: 259924554
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  pku-camera-intelligence:2:
+    status: matched
+    query_id: DOI:10.1109/tpami.2025.3568333
+    paper_id: 20bcb8c66af25ce81d17a60f45da3d9539c51fdd
+    title: 'EventAid: Benchmarking Event-Aided Image/Video Enhancement Algorithms With Real-Captured Hybrid Dataset'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/20bcb8c66af25ce81d17a60f45da3d9539c51fdd?utm_source=api
+    citation_count: 2
+    influential_citation_count: 0
+    external_ids:
+      DBLP: journals/pami/DuanLYLTZMS25
+      DOI: 10.1109/TPAMI.2025.3568333
+      CorpusId: 278463391
+      PubMed: '40343839'
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  pku-core:0:
+    status: matched
+    query_id: DOI:10.1038/s42256-025-01164-x
+    paper_id: a89fe3c6749c79354b30a154c6298a7ff2bec9d6
+    title: Proposing and solving olympiad geometry with guided tree search
+    semantic_scholar_url: https://www.semanticscholar.org/paper/a89fe3c6749c79354b30a154c6298a7ff2bec9d6?utm_source=api
+    citation_count: 19
+    influential_citation_count: 5
+    external_ids:
+      ArXiv: '2412.10673'
+      DBLP: journals/corr/abs-2412-10673
+      DOI: 10.1038/s42256-025-01164-x
+      CorpusId: 274776803
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  pku-core:1:
+    status: matched
+    query_id: DOI:10.1038/s41562-025-02357-5
+    paper_id: 62a34a7f6108f6d62f29a369be2f04b8a11568dc
+    title: Combined evidence from artificial neural networks and human brain-lesion models reveals that language modulates vision in human perception.
+    semantic_scholar_url: https://www.semanticscholar.org/paper/62a34a7f6108f6d62f29a369be2f04b8a11568dc?utm_source=api
+    citation_count: 6
+    influential_citation_count: 0
+    external_ids:
+      ArXiv: '2501.13628'
+      DOI: 10.1038/s41562-025-02357-5
+      CorpusId: 275820425
+      PubMed: '41398465'
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  pku-core:2:
+    status: not_found
+    query_id: DOI:10.21203/rs.3.rs-5666566/v1
+    checked_at: '2026-07-30'
+  pku-dair:1:
+    status: matched
+    query_id: DOI:10.1109/icde65448.2025.00164
+    paper_id: 041c034df861d347b20f2730f3d621964c57128e
+    title: 'A-Tune-Online: Efficient and QoS-Aware Online Configuration Tuning for Dynamic Workloads'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/041c034df861d347b20f2730f3d621964c57128e?utm_source=api
+    citation_count: 1
+    influential_citation_count: 0
+    external_ids:
+      DBLP: conf/icde/ShenXLCJXFZRJHC25
+      DOI: 10.1109/ICDE65448.2025.00164
+      CorpusId: 280693825
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-internlm:0:
+    status: matched
+    query_id: ARXIV:2603.25040
+    paper_id: 55a46f5195850c1440b3eb441ea8055091783985
+    title: 'Intern-S1-Pro: Scientific Multimodal Foundation Model at Trillion Scale'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/55a46f5195850c1440b3eb441ea8055091783985?utm_source=api
+    citation_count: 13
+    influential_citation_count: 1
+    external_ids:
+      DBLP: journals/corr/abs-2603-25040
+      ArXiv: '2603.25040'
+      DOI: 10.48550/arXiv.2603.25040
+      CorpusId: 286789848
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-internlm:1:
+    status: matched
+    query_id: ARXIV:2602.16455
+    paper_id: b720deda002f5476136b663716cb3ca78fc34cfd
+    title: 'Visual Self-Refine: A Pixel-Guided Paradigm for Accurate Chart Parsing'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/b720deda002f5476136b663716cb3ca78fc34cfd?utm_source=api
+    citation_count: 5
+    influential_citation_count: 0
+    external_ids:
+      DBLP: journals/corr/abs-2602-16455
+      ArXiv: '2602.16455'
+      DOI: 10.48550/arXiv.2602.16455
+      CorpusId: 285725756
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-internlm:2:
+    status: matched
+    query_id: ARXIV:2603.12252
+    paper_id: 91f8a941df3914a6bfbf3ce6a86c058fe94d7be0
+    title: 'EndoCoT: Scaling Endogenous Chain-of-Thought Reasoning in Diffusion Models'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/91f8a941df3914a6bfbf3ce6a86c058fe94d7be0?utm_source=api
+    citation_count: 3
+    influential_citation_count: 0
+    external_ids:
+      DBLP: journals/corr/abs-2603-12252
+      ArXiv: '2603.12252'
+      DOI: 10.48550/arXiv.2603.12252
+      CorpusId: 286493345
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-internscience:2:
+    status: matched
+    query_id: ARXIV:2602.08990
+    paper_id: 79c1e1d6e6c36193f13bf2f1bd8379cf79f1d5ce
+    title: 'InternAgent-1.5: A Unified Agentic Framework for Long-Horizon Autonomous Scientific Discovery'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/79c1e1d6e6c36193f13bf2f1bd8379cf79f1d5ce?utm_source=api
+    citation_count: 19
+    influential_citation_count: 0
+    external_ids:
+      ArXiv: '2602.08990'
+      CorpusId: 285451873
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-opendatalab:0:
+    status: matched
+    query_id: ARXIV:2412.07626
+    paper_id: 1b92abe5af5879004399998ab18d70c9a3d50987
+    title: 'OmniDocBench: Benchmarking Diverse PDF Document Parsing with Comprehensive Annotations'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/1b92abe5af5879004399998ab18d70c9a3d50987?utm_source=api
+    citation_count: 130
+    influential_citation_count: 37
+    external_ids:
+      DBLP: conf/cvpr/OuyangQZZZL0ZJ025
+      ArXiv: '2412.07626'
+      DOI: 10.1109/CVPR52734.2025.02313
+      CorpusId: 274609934
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-opendatalab:1:
+    status: matched
+    query_id: ARXIV:2512.01248
+    paper_id: 1af9dbe904d81a036f0102a84f2b52f05fd9e086
+    title: 'TRivia: Self-supervised Fine-tuning of Vision-Language Models for Table Recognition'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/1af9dbe904d81a036f0102a84f2b52f05fd9e086?utm_source=api
+    citation_count: 5
+    influential_citation_count: 0
+    external_ids:
+      ArXiv: '2512.01248'
+      DBLP: journals/corr/abs-2512-01248
+      DOI: 10.48550/arXiv.2512.01248
+      CorpusId: 283448989
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-opendatalab:2:
+    status: matched
+    query_id: ARXIV:2603.22458
+    paper_id: d0aeb281148679385218212c5124e5fb2844b4db
+    title: 'MinerU-Diffusion: Rethinking Document OCR as Inverse Rendering via Diffusion Decoding'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/d0aeb281148679385218212c5124e5fb2844b4db?utm_source=api
+    citation_count: 7
+    influential_citation_count: 0
+    external_ids:
+      ArXiv: '2603.22458'
+      DBLP: journals/corr/abs-2603-22458
+      DOI: 10.48550/arXiv.2603.22458
+      CorpusId: 286770473
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-opendrivelab:0:
+    status: matched
+    query_id: ARXIV:2511.23369
+    paper_id: '038334bbcc1b60a745bd834e4ed003d890a82291'
+    title: 'SimScale: Learning to Drive via Real-World Simulation at Scale'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/038334bbcc1b60a745bd834e4ed003d890a82291?utm_source=api
+    citation_count: 31
+    influential_citation_count: 2
+    external_ids:
+      ArXiv: '2511.23369'
+      DBLP: journals/corr/abs-2511-23369
+      DOI: 10.48550/arXiv.2511.23369
+      CorpusId: 283438200
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-opendrivelab:1:
+    status: matched
+    query_id: ARXIV:2606.19836
+    paper_id: 7e77b7f90e61be8a72f10d550a234544fc866fc8
+    title: 'World Engine: Towards the Era of Post-Training for Autonomous Driving'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/7e77b7f90e61be8a72f10d550a234544fc866fc8?utm_source=api
+    citation_count: 1
+    influential_citation_count: 0
+    external_ids:
+      ArXiv: '2606.19836'
+      CorpusId: 289622663
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-opendrivelab:2:
+    status: matched
+    query_id: ARXIV:2602.11075
+    paper_id: 64604f8fe171472d66bb7c7fb29ad42414c5925a
+    title: 'RISE: Self-Improving Robot Policy with Compositional World Model'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/64604f8fe171472d66bb7c7fb29ad42414c5925a?utm_source=api
+    citation_count: 28
+    influential_citation_count: 3
+    external_ids:
+      DBLP: journals/corr/abs-2602-11075
+      ArXiv: '2602.11075'
+      DOI: 10.48550/arXiv.2602.11075
+      CorpusId: 285470703
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  shanghai-ai-lab-opengvlab:0:
+    status: matched
+    query_id: ARXIV:2501.00574
+    paper_id: 566d2d1733799e1ae871fb9b1ddd9ac86e50ea69
+    title: 'VideoChat-Flash: Hierarchical Compression for Long-Context Video Modeling'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/566d2d1733799e1ae871fb9b1ddd9ac86e50ea69?utm_source=api
+    citation_count: 195
+    influential_citation_count: 24
+    external_ids:
+      ArXiv: '2501.00574'
+      DBLP: journals/corr/abs-2501-00574
+      DOI: 10.48550/arXiv.2501.00574
+      CorpusId: 275212875
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  sjtu-gair-nlp:0:
+    status: matched
+    query_id: ARXIV:2502.03387
+    paper_id: b62d0605137463ea591a0619840305cb98f6958f
+    title: 'LIMO: Less is More for Reasoning'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/b62d0605137463ea591a0619840305cb98f6958f?utm_source=api
+    citation_count: 491
+    influential_citation_count: 70
+    external_ids:
+      DBLP: journals/corr/abs-2502-03387
+      ArXiv: '2502.03387'
+      DOI: 10.48550/arXiv.2502.03387
+      CorpusId: 276116748
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  sjtu-gair-nlp:1:
+    status: matched
+    query_id: ARXIV:2407.06135
+    paper_id: fe2be36e51b96320786854a0513e18a9da3a8804
+    title: 'ANOLE: An Open, Autoregressive, Native Large Multimodal Models for Interleaved Image-Text Generation'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/fe2be36e51b96320786854a0513e18a9da3a8804?utm_source=api
+    citation_count: 110
+    influential_citation_count: 19
+    external_ids:
+      ArXiv: '2407.06135'
+      DBLP: journals/corr/abs-2407-06135
+      DOI: 10.48550/arXiv.2407.06135
+      CorpusId: 271050462
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  sjtu-gair-nlp:2:
+    status: matched
+    query_id: ARXIV:2409.17115
+    paper_id: b256751e6abcc595f7500f3cc0e8c1f225af7837
+    title: 'Programming Every Example: Lifting Pre-training Data Quality like Experts at Scale'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/b256751e6abcc595f7500f3cc0e8c1f225af7837?utm_source=api
+    citation_count: 38
+    influential_citation_count: 5
+    external_ids:
+      ArXiv: '2409.17115'
+      DBLP: conf/icml/ZhouWLL025
+      DOI: 10.48550/arXiv.2409.17115
+      CorpusId: 272881081
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  sjtu-mifa:2:
+    status: matched
+    query_id: ARXIV:2211.10955
+    paper_id: e1f8f55a371d565343e38750bebe53e0899a83fb
+    title: 'When Noisy Labels Meet Long Tail Dilemmas: A Representation Calibration Method'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/e1f8f55a371d565343e38750bebe53e0899a83fb?utm_source=api
+    citation_count: 43
+    influential_citation_count: 5
+    external_ids:
+      DBLP: conf/iccv/ZhangZYY023
+      ArXiv: '2211.10955'
+      DOI: 10.1109/ICCV51070.2023.01456
+      CorpusId: 253734447
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  sjtu-mint:2:
+    status: matched
+    query_id: ARXIV:2511.04555
+    paper_id: 2073b51ba5c2976373244eb4dd6ffcbea9d15954
+    title: 'Evo-1: Lightweight Vision-Language-Action Model with Preserved Semantic Alignment'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/2073b51ba5c2976373244eb4dd6ffcbea9d15954?utm_source=api
+    citation_count: 32
+    influential_citation_count: 2
+    external_ids:
+      DBLP: journals/corr/abs-2511-04555
+      ArXiv: '2511.04555'
+      DOI: 10.48550/arXiv.2511.04555
+      CorpusId: 282812748
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  sjtu-rl2:2:
+    status: matched
+    query_id: DOI:10.1109/lra.2024.3490392
+    paper_id: ac317878f7aa888664e59979af5945cd932d1aae
+    title: 'Constrained Dirichlet Distribution Policy: Guarantee Zero Constraint Violation Reinforcement Learning for Continuous Robotic Control'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/ac317878f7aa888664e59979af5945cd932d1aae?utm_source=api
+    citation_count: 5
+    influential_citation_count: 0
+    external_ids:
+      DBLP: journals/ral/MaCG24
+      DOI: 10.1109/LRA.2024.3490392
+      CorpusId: 273785550
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  stanford-iliad:0:
+    status: not_found
+    query_id: DOI:10.15607/rss.2020.xvi.041
+    checked_at: '2026-07-30'
+  stanford-iliad:1:
+    status: matched
+    query_id: DOI:10.24963/ijcai.2021/61
+    paper_id: 343bbb9ed4d97d9829d7d658837d3730c21091f9
+    title: Emergent Prosociality in Multi-Agent Games Through Gifting
+    semantic_scholar_url: https://www.semanticscholar.org/paper/343bbb9ed4d97d9829d7d658837d3730c21091f9?utm_source=api
+    citation_count: 27
+    influential_citation_count: 1
+    external_ids:
+      DBLP: conf/ijcai/WangBBLPS21
+      ArXiv: '2105.06593'
+      DOI: 10.24963/ijcai.2021/61
+      CorpusId: 234681239
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  stanford-iliad:2:
+    status: matched
+    query_id: DOI:10.1109/hri61500.2025.10973807
+    paper_id: 9b9f1082c8b29909d5f76dcc9914f45a99ff4532
+    title: Shared Autonomy for Proximal Teaching
+    semantic_scholar_url: https://www.semanticscholar.org/paper/9b9f1082c8b29909d5f76dcc9914f45a99ff4532?utm_source=api
+    citation_count: 9
+    influential_citation_count: 1
+    external_ids:
+      DBLP: journals/corr/abs-2502-19899
+      ArXiv: '2502.19899'
+      DOI: 10.1109/HRI61500.2025.10973807
+      CorpusId: 276647512
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  stanford-nlp:1:
+    status: matched
+    query_id: ARXIV:2403.07809
+    paper_id: d5946d10348f2c716d29e47692477a3febf9d5a2
+    title: 'pyvene: A Library for Understanding and Improving PyTorch Models via Interventions'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/d5946d10348f2c716d29e47692477a3febf9d5a2?utm_source=api
+    citation_count: 61
+    influential_citation_count: 0
+    external_ids:
+      ArXiv: '2403.07809'
+      DBLP: journals/corr/abs-2403-07809
+      ACL: 2024.naacl-demo.16
+      DOI: 10.48550/arXiv.2403.07809
+      CorpusId: 268363532
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  stanford-svl:1:
+    status: matched
+    query_id: ARXIV:2206.01720
+    paper_id: 809822d59203a462bc9f2e0f0e9a8314d6d469d4
+    title: Revisiting the “Video” in Video-Language Understanding
+    semantic_scholar_url: https://www.semanticscholar.org/paper/809822d59203a462bc9f2e0f0e9a8314d6d469d4?utm_source=api
+    citation_count: 232
+    influential_citation_count: 24
+    external_ids:
+      ArXiv: '2206.01720'
+      DBLP: conf/cvpr/BuchEG00N22
+      DOI: 10.1109/CVPR52688.2022.00293
+      CorpusId: 249375461
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  tencent-ai-lab:0:
+    status: not_found
+    query_id: DOI:10.18653/v1/2022.findings-emnlp.531
+    checked_at: '2026-07-30'
+  tencent-ai-lab:1:
+    status: matched
+    query_id: ARXIV:2308.06721
+    paper_id: 2854e5bab8e6f36e54c64456628a9559bf67019e
+    title: 'IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/2854e5bab8e6f36e54c64456628a9559bf67019e?utm_source=api
+    citation_count: 1701
+    influential_citation_count: 320
+    external_ids:
+      ArXiv: '2308.06721'
+      DBLP: journals/corr/abs-2308-06721
+      DOI: 10.48550/arXiv.2308.06721
+      CorpusId: 260886966
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  tencent-arc-lab:1:
+    status: matched
+    query_id: ARXIV:2605.10922
+    paper_id: f6942b91a072028b07981dc843c8ccda9e06a094
+    title: 'Pixal3D: Pixel-Aligned 3D Generation from Images'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/f6942b91a072028b07981dc843c8ccda9e06a094?utm_source=api
+    citation_count: 4
+    influential_citation_count: 0
+    external_ids:
+      DBLP: journals/corr/abs-2605-10922
+      ArXiv: '2605.10922'
+      DOI: 10.1145/3799902.3811175
+      CorpusId: 288255525
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  tencent-arc-lab:2:
+    status: matched
+    query_id: ARXIV:2403.06976
+    paper_id: 90c428ba9488c60bd860344d5a1299f01810ae51
+    title: 'BrushNet: A Plug-and-Play Image Inpainting Model with Decomposed Dual-Branch Diffusion'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/90c428ba9488c60bd860344d5a1299f01810ae51?utm_source=api
+    citation_count: 247
+    influential_citation_count: 48
+    external_ids:
+      DBLP: conf/eccv/JuLWBSX24
+      ArXiv: '2403.06976'
+      DOI: 10.48550/arXiv.2403.06976
+      CorpusId: 268363288
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  tencent-hunyuan:2:
+    status: matched
+    query_id: DOI:10.1109/cvpr52734.2025.01483
+    paper_id: 6709758f9e00a785cae5ec95b6b37719f8deb4ae
+    title: 'HunyuanPortrait: Implicit Condition Control for Enhanced Portrait Animation'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/6709758f9e00a785cae5ec95b6b37719f8deb4ae?utm_source=api
+    citation_count: 59
+    influential_citation_count: 8
+    external_ids:
+      DBLP: journals/corr/abs-2503-18860
+      ArXiv: '2503.18860'
+      DOI: 10.1109/CVPR52734.2025.01483
+      CorpusId: 277313594
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  tencent-youtu-lab:0:
+    status: matched
+    query_id: ARXIV:2409.02095
+    paper_id: 830af4785ac62dbc4679ad98f09f4751a76992a6
+    title: 'DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/830af4785ac62dbc4679ad98f09f4751a76992a6?utm_source=api
+    citation_count: 221
+    influential_citation_count: 40
+    external_ids:
+      DBLP: journals/corr/abs-2409-02095
+      ArXiv: '2409.02095'
+      DOI: 10.1109/CVPR52734.2025.00193
+      CorpusId: 272368291
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  tsinghua-coai:1:
+    status: matched
+    query_id: ARXIV:2402.16444
+    paper_id: a4fe9129afaf2ce1876057d0f33314a82a6731a4
+    title: 'ShieldLM: Empowering LLMs as Aligned, Customizable and Explainable Safety Detectors'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/a4fe9129afaf2ce1876057d0f33314a82a6731a4?utm_source=api
+    citation_count: 65
+    influential_citation_count: 8
+    external_ids:
+      DBLP: journals/corr/abs-2402-16444
+      ArXiv: '2402.16444'
+      DOI: 10.48550/arXiv.2402.16444
+      CorpusId: 268032681
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  tsinghua-coai:2:
+    status: matched
+    query_id: ARXIV:2407.03978
+    paper_id: abaaa617151b99f2febf94d1aa2ec9fc6aa65f5b
+    title: Benchmarking Complex Instruction-Following with Multiple Constraints Composition
+    semantic_scholar_url: https://www.semanticscholar.org/paper/abaaa617151b99f2febf94d1aa2ec9fc6aa65f5b?utm_source=api
+    citation_count: 152
+    influential_citation_count: 39
+    external_ids:
+      DBLP: journals/corr/abs-2407-03978
+      ArXiv: '2407.03978'
+      DOI: 10.48550/arXiv.2407.03978
+      CorpusId: 271039484
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  tsinghua-keg-thudm:0:
+    status: matched
+    query_id: ARXIV:2408.07055
+    paper_id: 14ba95d4344aea719be0425f4b214d5bd42aabfb
+    title: 'LongWriter: Unleashing 10,000+ Word Generation from Long Context LLMs'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/14ba95d4344aea719be0425f4b214d5bd42aabfb?utm_source=api
+    citation_count: 152
+    influential_citation_count: 33
+    external_ids:
+      DBLP: journals/corr/abs-2408-07055
+      ArXiv: '2408.07055'
+      DOI: 10.48550/arXiv.2408.07055
+      CorpusId: 271859903
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  tsinghua-keg-thudm:1:
+    status: matched
+    query_id: ARXIV:2406.03816
+    paper_id: cd27f45bc760447fb4de3209e2381ea3493bbd57
+    title: 'ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/cd27f45bc760447fb4de3209e2381ea3493bbd57?utm_source=api
+    citation_count: 495
+    influential_citation_count: 22
+    external_ids:
+      DBLP: conf/nips/ZhangZHYD024
+      ArXiv: '2406.03816'
+      DOI: 10.48550/arXiv.2406.03816
+      CorpusId: 270285630
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  tsinghua-keg-thudm:2:
+    status: matched
+    query_id: ARXIV:2401.18058
+    paper_id: ec9203f6c25a353325dd23ed38e5036b79d9e79b
+    title: 'LongAlign: A Recipe for Long Context Alignment of Large Language Models'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/ec9203f6c25a353325dd23ed38e5036b79d9e79b?utm_source=api
+    citation_count: 113
+    influential_citation_count: 25
+    external_ids:
+      ArXiv: '2401.18058'
+      DBLP: journals/corr/abs-2401-18058
+      DOI: 10.48550/arXiv.2401.18058
+      CorpusId: 267335080
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  tsinghua-thunlp:0:
+    status: matched
+    query_id: ARXIV:2512.16649
+    paper_id: a66078c542dbe8a6145b206f103bf53124ee4a46
+    title: 'JustRL: Scaling a 1.5B LLM with a Simple RL Recipe'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/a66078c542dbe8a6145b206f103bf53124ee4a46?utm_source=api
+    citation_count: 29
+    influential_citation_count: 5
+    external_ids:
+      DBLP: journals/corr/abs-2512-16649
+      ArXiv: '2512.16649'
+      DOI: 10.48550/arXiv.2512.16649
+      CorpusId: 283934068
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  tsinghua-thunlp:2:
+    status: matched
+    query_id: ARXIV:2410.06581
+    paper_id: bdf2e3ea5a69a0fb1a4d8d1f08ac3df5191e022c
+    title: Enhancing Legal Case Retrieval via Scaling High-quality Synthetic Query-Candidate Pairs
+    semantic_scholar_url: https://www.semanticscholar.org/paper/bdf2e3ea5a69a0fb1a4d8d1f08ac3df5191e022c?utm_source=api
+    citation_count: 17
+    influential_citation_count: 1
+    external_ids:
+      DBLP: conf/emnlp/GaoXLC0024
+      ACL: 2024.emnlp-main.402
+      ArXiv: '2410.06581'
+      DOI: 10.48550/arXiv.2410.06581
+      CorpusId: 273228028
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  ucsd-existential-robotics:0:
+    status: matched
+    query_id: ARXIV:2510.03885
+    paper_id: d254456b675d2b80a011d79dac0425b1d7bdae97
+    title: 'Seeing the Bigger Picture: 3D Latent Mapping for Mobile Manipulation Policy Learning'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/d254456b675d2b80a011d79dac0425b1d7bdae97?utm_source=api
+    citation_count: 2
+    influential_citation_count: 0
+    external_ids:
+      DBLP: journals/corr/abs-2510-03885
+      ArXiv: '2510.03885'
+      DOI: 10.48550/arXiv.2510.03885
+      CorpusId: 281842895
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  ucsd-existential-robotics:1:
+    status: matched
+    query_id: ARXIV:2410.17547
+    paper_id: 8325b4761dc062a4ff382253e9864333237913db
+    title: Generalizable Motion Planning via Operator Learning
+    semantic_scholar_url: https://www.semanticscholar.org/paper/8325b4761dc062a4ff382253e9864333237913db?utm_source=api
+    citation_count: 7
+    influential_citation_count: 0
+    external_ids:
+      ArXiv: '2410.17547'
+      DBLP: journals/corr/abs-2410-17547
+      DOI: 10.48550/arXiv.2410.17547
+      CorpusId: 273532641
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  ucsd-existential-robotics:2:
+    status: matched
+    query_id: ARXIV:2504.19104
+    paper_id: 59974864507bf2128417207d79756bce1ecf7e77
+    title: 'MISO: Multiresolution Submap Optimization for Efficient Globally Consistent Neural Implicit Reconstruction'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/59974864507bf2128417207d79756bce1ecf7e77?utm_source=api
+    citation_count: 5
+    influential_citation_count: 0
+    external_ids:
+      ArXiv: '2504.19104'
+      DBLP: journals/corr/abs-2504-19104
+      DOI: 10.48550/arXiv.2504.19104
+      CorpusId: 278165388
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  uiuc-secure-learning-lab:0:
+    status: matched
+    query_id: ARXIV:2407.12784
+    paper_id: b6948a9e8b3eec5a56a80c69727154fcd7ececce
+    title: 'AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/b6948a9e8b3eec5a56a80c69727154fcd7ececce?utm_source=api
+    citation_count: 394
+    influential_citation_count: 47
+    external_ids:
+      DBLP: conf/nips/ChenXXSL24
+      ArXiv: '2407.12784'
+      DOI: 10.48550/arXiv.2407.12784
+      CorpusId: 271244867
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  uiuc-secure-learning-lab:1:
+    status: matched
+    query_id: ARXIV:2403.01749
+    paper_id: a27d2f743dab4ae009beec52f2d61e0be885a7bd
+    title: 'Differentially Private Synthetic Data via Foundation Model APIs 2: Text'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/a27d2f743dab4ae009beec52f2d61e0be885a7bd?utm_source=api
+    citation_count: 84
+    influential_citation_count: 17
+    external_ids:
+      ArXiv: '2403.01749'
+      DBLP: conf/icml/Xie0BGYINJZL0Y24
+      DOI: 10.48550/arXiv.2403.01749
+      CorpusId: 268247683
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  uiuc-secure-learning-lab:2:
+    status: matched
+    query_id: ARXIV:2503.01908
+    paper_id: d7615286b342dd800881a3a6c9ce70397a0012bd
+    title: 'UDora: A Unified Red Teaming Framework against LLM Agents by Dynamically Hijacking Their Own Reasoning'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/d7615286b342dd800881a3a6c9ce70397a0012bd?utm_source=api
+    citation_count: 16
+    influential_citation_count: 0
+    external_ids:
+      DBLP: conf/icml/0002Y025
+      ArXiv: '2503.01908'
+      DOI: 10.48550/arXiv.2503.01908
+      CorpusId: 276772209
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  ustc-mei-lab:0:
+    status: matched
+    query_id: DOI:10.1109/tpami.2025.3626947
+    paper_id: eb1847de0c533007724e76e16c90060ebb4c3ef6
+    title: Bayesian Window Transformer for Image Restoration
+    semantic_scholar_url: https://www.semanticscholar.org/paper/eb1847de0c533007724e76e16c90060ebb4c3ef6?utm_source=api
+    citation_count: 10
+    influential_citation_count: 0
+    external_ids:
+      DBLP: journals/pami/XiaoFZZ26
+      DOI: 10.1109/TPAMI.2025.3626947
+      CorpusId: 282691663
+      PubMed: '41171659'
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  ustc-mei-lab:1:
+    status: matched
+    query_id: DOI:10.1007/s11263-025-02616-y
+    paper_id: 970f5b9959fa162f8422ed0f6608f080c9c60201
+    title: Mamba-Driven Comprehensive Context Learning for Zero-Shot HOI Detection
+    semantic_scholar_url: https://www.semanticscholar.org/paper/970f5b9959fa162f8422ed0f6608f080c9c60201?utm_source=api
+    citation_count: 0
+    influential_citation_count: 0
+    external_ids:
+      DBLP: journals/ijcv/LiuXTQZ26
+      DOI: 10.1007/s11263-025-02616-y
+      CorpusId: 284294461
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  ustc-mei-lab:2:
+    status: matched
+    query_id: DOI:10.1109/cvpr52734.2025.00690
+    paper_id: 4b6a567736fbf0e38f088806af06fba4a59f79e2
+    title: 'AR-Diffusion: Asynchronous Video Generation with Auto-Regressive Diffusion'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/4b6a567736fbf0e38f088806af06fba4a59f79e2?utm_source=api
+    citation_count: 49
+    influential_citation_count: 4
+    external_ids:
+      ArXiv: '2503.07418'
+      DBLP: journals/corr/abs-2503-07418
+      DOI: 10.1109/CVPR52734.2025.00690
+      CorpusId: 276928789
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  xiaohongshu-firered:0:
+    status: matched
+    query_id: ARXIV:2509.16691
+    paper_id: 999b7a036f2bbbc43ad01c3db5a048457ba0bca0
+    title: 'InstanceAssemble: Layout-Aware Image Generation via Instance Assembling Attention'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/999b7a036f2bbbc43ad01c3db5a048457ba0bca0?utm_source=api
+    citation_count: 6
+    influential_citation_count: 1
+    external_ids:
+      DBLP: journals/corr/abs-2509-16691
+      ArXiv: '2509.16691'
+      DOI: 10.48550/arXiv.2509.16691
+      CorpusId: 281421771
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  xiaohongshu-firered:1:
+    status: matched
+    query_id: ARXIV:2511.19278
+    paper_id: 056c7d30a6171ec45cddc25e63087b9c06bca1cb
+    title: 'ReMatch: Boosting Representation through Matching for Multimodal Retrieval'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/056c7d30a6171ec45cddc25e63087b9c06bca1cb?utm_source=api
+    citation_count: 5
+    influential_citation_count: 0
+    external_ids:
+      ArXiv: '2511.19278'
+      DBLP: journals/corr/abs-2511-19278
+      DOI: 10.48550/arXiv.2511.19278
+      CorpusId: 283244315
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  xiaomi-embodied-intelligence:2:
+    status: matched
+    query_id: ARXIV:2505.07608
+    paper_id: 97e0a3548a6f0818262b4f86e4180f256e2f0128
+    title: 'MiMo: Unlocking the Reasoning Potential of Language Model - From Pretraining to Posttraining'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/97e0a3548a6f0818262b4f86e4180f256e2f0128?utm_source=api
+    citation_count: 96
+    influential_citation_count: 7
+    external_ids:
+      DBLP: journals/corr/abs-2505-07608
+      ArXiv: '2505.07608'
+      DOI: 10.48550/arXiv.2505.07608
+      CorpusId: 278535411
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  xiaomi-mimo:1:
+    status: matched
+    query_id: ARXIV:2505.07608
+    paper_id: 97e0a3548a6f0818262b4f86e4180f256e2f0128
+    title: 'MiMo: Unlocking the Reasoning Potential of Language Model - From Pretraining to Posttraining'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/97e0a3548a6f0818262b4f86e4180f256e2f0128?utm_source=api
+    citation_count: 96
+    influential_citation_count: 7
+    external_ids:
+      DBLP: journals/corr/abs-2505-07608
+      ArXiv: '2505.07608'
+      DOI: 10.48550/arXiv.2505.07608
+      CorpusId: 278535411
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  zhipu-glm:2:
+    status: matched
+    query_id: ARXIV:2512.05905
+    paper_id: 4bb2cf57d126a0ddf011437b8f87a42e743a6bb6
+    title: 'SCAIL: Towards Studio-Grade Character Animation via In-Context Learning of 3D-Consistent Pose Representations'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/4bb2cf57d126a0ddf011437b8f87a42e743a6bb6?utm_source=api
+    citation_count: 8
+    influential_citation_count: 1
+    external_ids:
+      ArXiv: '2512.05905'
+      DBLP: journals/corr/abs-2512-05905
+      DOI: 10.48550/arXiv.2512.05905
+      CorpusId: 283672582
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  zju-3dv:0:
+    status: matched
+    query_id: ARXIV:2310.11448
+    paper_id: 756a7acc5487a301e3b01fa6e4418bf33e3c9801
+    title: '4K4D: Real-Time 4D View Synthesis at 4K Resolution'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/756a7acc5487a301e3b01fa6e4418bf33e3c9801?utm_source=api
+    citation_count: 125
+    influential_citation_count: 4
+    external_ids:
+      DBLP: journals/corr/abs-2310-11448
+      ArXiv: '2310.11448'
+      DOI: 10.1109/CVPR52733.2024.01893
+      CorpusId: 264172326
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  zju-3dv:1:
+    status: matched
+    query_id: DOI:10.1145/3680528.3687565
+    paper_id: 21edc150681aeacbc74114257a138b16b0cdedb1
+    title: World-Grounded Human Motion Recovery via Gravity-View Coordinates
+    semantic_scholar_url: https://www.semanticscholar.org/paper/21edc150681aeacbc74114257a138b16b0cdedb1?utm_source=api
+    citation_count: 165
+    influential_citation_count: 34
+    external_ids:
+      ArXiv: '2409.06662'
+      DBLP: conf/siggrapha/ShenPXCPHBHZ24
+      DOI: 10.1145/3680528.3687565
+      CorpusId: 272550947
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  zju-3dv:2:
+    status: matched
+    query_id: ARXIV:2401.01339
+    paper_id: 90fa2eb2b62959183181e5fce44421fc6f7f69f5
+    title: 'Street Gaussians: Modeling Dynamic Urban Scenes with Gaussian Splatting'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/90fa2eb2b62959183181e5fce44421fc6f7f69f5?utm_source=api
+    citation_count: 256
+    influential_citation_count: 46
+    external_ids:
+      ArXiv: '2401.01339'
+      DBLP: conf/eccv/YanLZWSZLZP24
+      DOI: 10.1007/978-3-031-73464-9_10
+      CorpusId: 266725323
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  zju-nlp-kg:1:
+    status: matched
+    query_id: ARXIV:2510.18866
+    paper_id: 5e86097153a19e5656ab6a310e6f36b2679b70e8
+    title: 'LightMem: Lightweight and Efficient Memory-Augmented Generation'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/5e86097153a19e5656ab6a310e6f36b2679b70e8?utm_source=api
+    citation_count: 107
+    influential_citation_count: 34
+    external_ids:
+      ArXiv: '2510.18866'
+      DBLP: journals/corr/abs-2510-18866
+      DOI: 10.48550/arXiv.2510.18866
+      CorpusId: 282245881
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  zju-nlp-kg:2:
+    status: matched
+    query_id: ARXIV:2501.09751
+    paper_id: 613912aa7c10372e95ec43dea4b80d41d47002ee
+    title: 'OmniThink: Expanding Knowledge Boundaries in Machine Writing through Thinking'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/613912aa7c10372e95ec43dea4b80d41d47002ee?utm_source=api
+    citation_count: 25
+    influential_citation_count: 4
+    external_ids:
+      DBLP: conf/emnlp/XiYFWFJXHCZ25
+      ArXiv: '2501.09751'
+      DOI: 10.48550/arXiv.2501.09751
+      CorpusId: 275570505
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  zju-real:0:
+    status: matched
+    query_id: ARXIV:2507.15846
+    paper_id: 2cd9023631d8eeb7115687fa5863a38544cfabea
+    title: 'GUI-G2: Gaussian Reward Modeling for GUI Grounding'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/2cd9023631d8eeb7115687fa5863a38544cfabea?utm_source=api
+    citation_count: 57
+    influential_citation_count: 5
+    external_ids:
+      DBLP: conf/aaai/TangGLLSMWZSLXZ26
+      ArXiv: '2507.15846'
+      DOI: 10.48550/arXiv.2507.15846
+      CorpusId: 280150796
+    title_similarity: 0.8333
+    checked_at: '2026-07-30'
+  zju-real:1:
+    status: matched
+    query_id: ARXIV:2510.08531
+    paper_id: d06e9888daa3f5c59d4fd49d58b53487e538e274
+    title: 'SpatialLadder: Progressive Training for Spatial Reasoning in Vision-Language Models'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/d06e9888daa3f5c59d4fd49d58b53487e538e274?utm_source=api
+    citation_count: 59
+    influential_citation_count: 10
+    external_ids:
+      ArXiv: '2510.08531'
+      DBLP: journals/corr/abs-2510-08531
+      DOI: 10.48550/arXiv.2510.08531
+      CorpusId: 281951172
+    title_similarity: 1.0
+    checked_at: '2026-07-30'
+  zju-real:2:
+    status: matched
+    query_id: ARXIV:2505.21500
+    paper_id: af5d02a5dcacb9bb5af1ec17006fee93aa3a062f
+    title: 'ViewSpatial-Bench: Evaluating Multi-perspective Spatial Localization in Vision-Language Models'
+    semantic_scholar_url: https://www.semanticscholar.org/paper/af5d02a5dcacb9bb5af1ec17006fee93aa3a062f?utm_source=api
+    citation_count: 77
+    influential_citation_count: 15
+    external_ids:
+      ArXiv: '2505.21500'
+      DBLP: journals/corr/abs-2505-21500
+      DOI: 10.48550/arXiv.2505.21500
+      CorpusId: 278911718
+    title_similarity: 1.0
+    checked_at: '2026-07-30'

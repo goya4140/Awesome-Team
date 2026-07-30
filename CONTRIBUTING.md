@@ -28,6 +28,7 @@
 2. 重新生成网页数据：
 
    ```bash
+   ruby scripts/sync_semantic_scholar_citations.rb
    ruby scripts/build_site_data.rb > site/data/catalog.json
    ```
 

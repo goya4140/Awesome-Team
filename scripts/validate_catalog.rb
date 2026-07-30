@@ -10,6 +10,9 @@ works_catalog = YAML.load_file(File.join(ROOT, "data", "representative-works.yam
 profiles_catalog = YAML.load_file(File.join(ROOT, "data", "team-profiles.yaml"))
 leaders_catalog = YAML.load_file(File.join(ROOT, "data", "team-leaders.yaml"))
 metadata_catalog = YAML.load_file(File.join(ROOT, "data", "work-metadata.yaml"))
+semantic_scholar_catalog = if File.exist?(File.join(ROOT, "data", "semantic-scholar-citations.yaml"))
+                             YAML.load_file(File.join(ROOT, "data", "semantic-scholar-citations.yaml"))
+                           end
 recent_catalog = YAML.load_file(File.join(ROOT, "data", "recent-works.yaml"))
 
 parents = parents_data.fetch("companies") +
@@ -131,14 +134,36 @@ metadata_by_work.each do |key, item|
   if item["resolution_status"] == "resolved"
     errors << "#{key}: resolved item missing paper" unless item["paper"].is_a?(Hash) && item.dig("paper", "title")
     errors << "#{key}: resolved item missing Abstract-derived summary" unless item["abstract"].is_a?(String) || item["summary"].include?("暂未提供 Abstract")
-    errors << "#{key}: resolved item must use Google Scholar as citation destination" unless item.dig("citation", "source") == "Google Scholar"
-    errors << "#{key}: resolved item missing Google Scholar URL" unless item.dig("citation", "source_url").to_s.start_with?("https://scholar.google.com/")
+    errors << "#{key}: resolved item has invalid citation source" unless %w[Google\ Scholar Semantic\ Scholar].include?(item.dig("citation", "source"))
+    scholar_url = item.dig("citation", "google_scholar_url") || (item.dig("citation", "source") == "Google Scholar" ? item.dig("citation", "source_url") : nil)
+    errors << "#{key}: resolved item missing Google Scholar URL" unless scholar_url.to_s.start_with?("https://scholar.google.com/")
     errors << "#{key}: resolved item has a negative citation count" if item.dig("citation", "count").is_a?(Integer) && item.dig("citation", "count").negative?
+    if item.dig("citation", "source") == "Semantic Scholar"
+      errors << "#{key}: Semantic Scholar count must be an integer" unless item.dig("citation", "count").is_a?(Integer)
+      errors << "#{key}: missing Semantic Scholar paper URL" unless item.dig("citation", "source_url").to_s.start_with?("https://www.semanticscholar.org/paper/")
+      errors << "#{key}: Semantic Scholar URL missing API attribution" unless item.dig("citation", "source_url").to_s.include?("utm_source=api")
+      errors << "#{key}: missing Semantic Scholar check date" unless item.dig("citation", "checked_at").is_a?(String)
+    end
   end
   if item["figure"]
     %w[image_url caption source_page source_kind].each do |field|
       errors << "#{key}: figure missing #{field}" unless item.dig("figure", field).is_a?(String) && !item.dig("figure", field).empty?
     end
+  end
+end
+
+if semantic_scholar_catalog
+  semantic_works = semantic_scholar_catalog.fetch("works")
+  unknown_semantic_keys = semantic_works.keys - expected_metadata_keys
+  errors << "Semantic Scholar cache has unknown work keys: #{unknown_semantic_keys.join(', ')}" unless unknown_semantic_keys.empty?
+  semantic_works.each do |key, citation|
+    errors << "#{key}: invalid Semantic Scholar cache status" unless %w[matched not_found title_mismatch].include?(citation["status"])
+    next unless citation["status"] == "matched"
+
+    errors << "#{key}: cached citation count must be a non-negative integer" unless citation["citation_count"].is_a?(Integer) && citation["citation_count"] >= 0
+    errors << "#{key}: cached influential count must be a non-negative integer" unless citation["influential_citation_count"].is_a?(Integer) && citation["influential_citation_count"] >= 0
+    errors << "#{key}: cached Semantic Scholar URL is invalid" unless citation["semantic_scholar_url"].to_s.start_with?("https://www.semanticscholar.org/paper/")
+    errors << "#{key}: cached Semantic Scholar URL missing API attribution" unless citation["semantic_scholar_url"].to_s.include?("utm_source=api")
   end
 end
 

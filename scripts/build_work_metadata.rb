@@ -16,6 +16,7 @@ REPO_IDS_PATH = File.join(ROOT, "data", "repo-paper-ids.yaml")
 CROSSREF_PATH = File.join(ROOT, "data", "crossref-metadata.yaml")
 OUTPUT_PATH = File.join(ROOT, "data", "work-metadata.yaml")
 SUMMARY_CACHE_PATH = File.join(ROOT, "data", "abstract-summaries-zh.yaml")
+SEMANTIC_SCHOLAR_PATH = File.join(ROOT, "data", "semantic-scholar-citations.yaml")
 CHECKED_AT = ENV.fetch("CHECKED_AT", Time.now.strftime("%Y-%m-%d"))
 FIGURE_THREADS = Integer(ENV.fetch("FIGURE_THREADS", "6"))
 
@@ -134,6 +135,32 @@ def google_scholar_url(title)
   "https://scholar.google.com/scholar?hl=en&q=#{URI.encode_www_form_component(%Q{\"#{title}\"})}"
 end
 
+def citation_metadata(key, title, semantic_scholar)
+  scholar_url = google_scholar_url(title)
+  record = semantic_scholar[key]
+  if record && record["status"] == "matched"
+    {
+      "source" => "Semantic Scholar",
+      "count" => record.fetch("citation_count"),
+      "influential_count" => record.fetch("influential_citation_count"),
+      "source_url" => record.fetch("semantic_scholar_url"),
+      "checked_at" => record.fetch("checked_at"),
+      "verification_status" => "verified_external_identifier",
+      "semantic_scholar_paper_id" => record.fetch("paper_id"),
+      "google_scholar_url" => scholar_url
+    }
+  else
+    {
+      "source" => "Google Scholar",
+      "source_url" => scholar_url,
+      "google_scholar_url" => scholar_url,
+      "verification_status" => "search_link_only",
+      "semantic_scholar_status" => record&.fetch("status", nil),
+      "checked_at" => record&.fetch("checked_at", nil)
+    }.compact
+  end
+end
+
 def record_to_paper(record, arxiv_id: nil)
   location = record["primary_location"] || {}
   doi = record["doi"].to_s.sub(%r{\Ahttps://doi\.org/}i, "")
@@ -190,6 +217,7 @@ catalog = YAML.load_file(WORKS_PATH)
 repo_ids = YAML.load_file(REPO_IDS_PATH).fetch("works")
 crossref = YAML.load_file(CROSSREF_PATH).fetch("works")
 summary_cache = File.exist?(SUMMARY_CACHE_PATH) ? YAML.load_file(SUMMARY_CACHE_PATH).fetch("works", {}) : {}
+semantic_scholar = File.exist?(SEMANTIC_SCHOLAR_PATH) ? YAML.load_file(SEMANTIC_SCHOLAR_PATH).fetch("works", {}) : {}
 
 all_arxiv_ids = repo_ids.values.flat_map { |entry| entry.fetch("arxiv_ids") }.uniq
 strict_crossref_dois = crossref.values.map do |entry|
@@ -251,16 +279,11 @@ catalog.fetch("teams").each do |team_id, works|
                 else
                   abstract_summary(abstract, paper.fetch("title"))
                 end
-      scholar_url = google_scholar_url(paper.fetch("title"))
       metadata[key] = base.merge(
         "paper" => paper,
         "abstract" => abstract,
         "summary" => summary,
-        "citation" => {
-          "source" => "Google Scholar",
-          "source_url" => scholar_url,
-          "verification_status" => "search_link_only"
-        },
+        "citation" => citation_metadata(key, paper.fetch("title"), semantic_scholar),
         "metadata_provenance" => {
           "identity_and_abstract" => "OpenAlex",
           "openalex_url" => record.fetch("id")
@@ -305,12 +328,14 @@ end
 workers.each(&:join)
 
 payload = {
-  "schema_version" => 2,
+  "schema_version" => 3,
   "last_updated" => CHECKED_AT,
-  "citation_provider" => "Google Scholar",
+  "citation_provider" => "Semantic Scholar counts + Google Scholar links",
   "notes" => [
-    "Google Scholar is the primary citation destination. Google Scholar does not provide an official public structured API, so unverified counts remain null and link to an exact-title Scholar search.",
-    "OpenAlex is used only for paper identity, bibliographic fields, and abstracts; OpenAlex citation counts are not relabeled as Google Scholar counts.",
+    "Citation counts come from the Semantic Scholar Academic Graph API and are matched by stable arXiv or DOI identifiers.",
+    "Google Scholar exact-title links are retained as a second citation-discovery destination.",
+    "Semantic Scholar and Google Scholar use different indexes, so their citation totals may differ.",
+    "OpenAlex is used for paper identity, bibliographic fields, and abstracts.",
     "GitHub stars measure code adoption and are deliberately shown separately from scholarly citations.",
     "Paper identity is resolved first from arXiv/DOI identifiers in the representative repository README, then from strict Crossref title matches.",
     "Figures are extracted from the original arXiv paper rendered by ar5iv. Captions are scored to prefer pipeline, architecture, framework, and method-overview figures."

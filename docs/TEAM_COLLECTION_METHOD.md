@@ -69,13 +69,15 @@
 
 1. 每个团队保留三项论文、研究型开源成果或官方研究入口；`research_index` 不视为单篇论文。
 2. 对 GitHub 代表作，先从仓库 README 抽取 arXiv / DOI 标识；直接的 arXiv / DOI 条目从目录 URL 解析；再使用严格标题匹配的 Crossref DOI 作为补充候选。
-3. Google Scholar 是论文引用量的主入口。由于它没有官方公开结构化 API，目录为已解析论文提供精确标题检索链接；只有经过逐篇核验并缓存的 Scholar 数字才允许直接显示。
-4. OpenAlex 仅用于论文身份、书目信息和 Abstract；不得把 OpenAlex 引用数字标成 Google Scholar。
-5. TL;DR 必须基于论文 Abstract，优先提炼研究问题、方法和实验结论；没有 Abstract 时明确说明。
-6. GitHub Stars 衡量代码采用度，与论文引用量分开展示。
-7. 原文图表仅从已匹配论文的 arXiv 原文中抽取，通过 ar5iv 渲染；按 caption 优先选择 pipeline、architecture、framework 和 method overview。
-8. “最近工作”从每队三项代表成果中，综合论文年份与 GitHub `pushed_at` 择新，它衡量新近程度而非重要性。
-9. 无法可靠匹配的成果保持 `unresolved`，仍展示公开项目说明，但不伪造论文、引用量或图表。
+3. 引用数字来自 Semantic Scholar Academic Graph API。同步时优先使用 arXiv ID，其次使用 DOI；返回记录还必须通过论文标题相似度阈值，未通过时不得展示数字。
+4. 每条 Semantic Scholar 数字同时记录论文 ID、普通引用量、高影响引用量、核验日期与带 `utm_source=api` 的来源页；公开页面保留 Semantic Scholar 名称与标识。
+5. Google Scholar 继续作为精确标题检索入口。Semantic Scholar 与 Google Scholar 的索引覆盖不同，数字不得互相替代或改标。
+6. OpenAlex 仅用于论文身份、书目信息和 Abstract；不得把 OpenAlex 引用数字标成 Semantic Scholar 或 Google Scholar。
+7. TL;DR 必须基于论文 Abstract，优先提炼研究问题、方法和实验结论；没有 Abstract 时明确说明。
+8. GitHub Stars 衡量代码采用度，与论文引用量分开展示。
+9. 原文图表仅从已匹配论文的 arXiv 原文中抽取，通过 ar5iv 渲染；按 caption 优先选择 pipeline、architecture、framework 和 method overview。
+10. “最近工作”从每队三项代表成果中，综合论文年份与 GitHub `pushed_at` 择新，它衡量新近程度而非重要性。
+11. 无法可靠匹配的成果保持 `unresolved`，仍展示公开项目说明，但不伪造论文、引用量或图表。
 
 ## 完成标准
 
