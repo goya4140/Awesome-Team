@@ -1,3 +1,5 @@
+const CATALOG_VERSION = "20260730-leaders-v2";
+
 const state = {
   data: null,
   query: "",
@@ -283,7 +285,7 @@ function bindEvents() {
 
 async function init() {
   try {
-    const response = await fetch("data/catalog.json");
+    const response = await fetch(`data/catalog.json?v=${CATALOG_VERSION}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.data = await response.json();
     setup(state.data);
