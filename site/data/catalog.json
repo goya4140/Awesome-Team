@@ -8,10 +8,10 @@
       "teams": 158,
       "verified": 137,
       "works": 474,
-      "resolved_papers": 184,
+      "resolved_papers": 187,
       "works_with_figures": 127,
-      "scholar_links": 184,
-      "semantic_scholar_counts": 171
+      "scholar_links": 187,
+      "semantic_scholar_counts": 174
     }
   },
   "parents": [
@@ -3068,14 +3068,52 @@
             "catalog_title": "WeChat-YATT: A Simple, Scalable and Balanced RLHF Trainer",
             "catalog_url": "https://github.com/Tencent/Wechat-YATT",
             "kind": "open_source",
-            "summary": "这是团队公开的开源研究成果。目录中的公开说明为：WeChat-YATT: A Simple, Scalable and Balanced RLHF Trainer 可通过原始链接查看完整项目、论文或数据说明。",
+            "paper": {
+              "title": "WeChat-YATT: A Scalable, Simple, Efficient, and Production Ready Training Library",
+              "url": "https://arxiv.org/abs/2508.07970",
+              "year": 2025,
+              "venue": "arXiv",
+              "authors": [
+                "Junyu Wu",
+                "Weiming Chang",
+                "Xiaotao Liu",
+                "Guanyou He",
+                "Tingfeng Xian",
+                "Haoqiang Hong",
+                "Boqi Chen",
+                "Hongtao Tian",
+                "Tao Yang",
+                "Yunsheng Shi",
+                "Feng Lin",
+                "Ting Yao",
+                "Jiatao Xu"
+              ],
+              "external_ids": {
+                "ArXiv": "2508.07970",
+                "DOI": "10.48550/arXiv.2508.07970"
+              }
+            },
+            "abstract": "WeChat-YATT is a scalable and balanced training framework for reinforcement learning from human feedback and multimodal workloads. Its parallel-controller programming model and dynamic placement schema reduce centralized-control bottlenecks, idle time and inefficient GPU use. The system improves training throughput over existing frameworks and has been deployed for model training in WeChat product features.",
+            "summary": "基于论文 Abstract：WeChat-YATT 面向大规模 RLHF 与多模态训练，采用并行控制器编程模型和动态资源放置机制，缓解集中式控制瓶颈并减少 GPU 空闲；实验显示其吞吐优于现有框架，且已用于微信实际产品模型训练。",
             "citation": {
+              "source": "Semantic Scholar",
+              "count": 2,
+              "influential_count": 0,
+              "source_url": "https://www.semanticscholar.org/paper/d72aa4d434454c73bf59d9ee9cc9ac033151829e?utm_source=api",
+              "checked_at": "2026-07-30",
+              "verification_status": "verified_external_identifier",
+              "semantic_scholar_paper_id": "d72aa4d434454c73bf59d9ee9cc9ac033151829e",
+              "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22WeChat-YATT%3A+A+Scalable%2C+Simple%2C+Efficient%2C+and+Production+Ready+Training+Library%22"
+            },
+            "metadata_provenance": {
+              "identity_and_abstract": "arXiv Atom API",
+              "source_url": "https://export.arxiv.org/api/query?id_list=2508.07970"
             },
             "code_impact": {
               "github_stars": 77,
               "checked_at": "2026-07-30"
             },
-            "resolution_status": "unresolved"
+            "resolution_status": "resolved"
           }
         },
         {
@@ -3089,10 +3127,38 @@
             "catalog_title": "Beyond Next Token Prediction: Patch-Level Training for Large Language Models",
             "catalog_url": "https://arxiv.org/abs/2407.12665",
             "kind": "paper",
-            "summary": "这是团队公开的代表性研究成果。目录中的公开说明为：Beyond Next Token Prediction: Patch-Level Training for Large Language Models 可通过原始链接查看完整项目、论文或数据说明。",
-            "citation": {
+            "paper": {
+              "title": "Beyond Next Token Prediction: Patch-Level Training for Large Language Models",
+              "url": "https://arxiv.org/abs/2407.12665",
+              "year": 2024,
+              "venue": "arXiv",
+              "authors": [
+                "Chenze Shao",
+                "Fandong Meng",
+                "Jie Zhou"
+              ],
+              "external_ids": {
+                "ArXiv": "2407.12665",
+                "DOI": "10.48550/arXiv.2407.12665"
+              }
             },
-            "resolution_status": "unresolved"
+            "abstract": "The work introduces patch-level training for large language models, grouping multiple tokens into information-dense patches so that most training uses shorter input sequences before switching back to token-level training. Experiments on models from 370M to 2.7B parameters show that overall training cost can be reduced to about 0.5 times without compromising performance.",
+            "summary": "基于论文 Abstract：该工作把多个 token 聚合为信息密度更高的 patch，在大部分训练阶段缩短输入序列，之后再切回 token 级训练；在 370M–2.7B 模型实验中，训练成本降至约 0.5×，性能未见损失。",
+            "citation": {
+              "source": "Semantic Scholar",
+              "count": 7,
+              "influential_count": 2,
+              "source_url": "https://www.semanticscholar.org/paper/3c9db3daabd0f44518d58f8aad2ba34d1059bc90?utm_source=api",
+              "checked_at": "2026-07-30",
+              "verification_status": "verified_external_identifier",
+              "semantic_scholar_paper_id": "3c9db3daabd0f44518d58f8aad2ba34d1059bc90",
+              "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22Beyond+Next+Token+Prediction%3A+Patch-Level+Training+for+Large+Language+Models%22"
+            },
+            "metadata_provenance": {
+              "identity_and_abstract": "arXiv Atom API",
+              "source_url": "https://export.arxiv.org/api/query?id_list=2407.12665"
+            },
+            "resolution_status": "resolved"
           }
         },
         {
@@ -3154,65 +3220,68 @@
         }
       ],
       "recent_work": {
-        "title": "Personalized Language Model Learning on Text Data Without User Identifiers",
-        "url": "https://arxiv.org/abs/2501.06062",
-        "kind": "paper",
-        "source": "arxiv",
+        "title": "WeChat-YATT: A Simple, Scalable and Balanced RLHF Trainer",
+        "url": "https://github.com/Tencent/Wechat-YATT",
+        "kind": "open_source",
+        "source": "github",
+        "stars": 77,
         "metadata": {
           "team_id": "tencent-wechat-ai",
-          "work_index": 2,
-          "catalog_title": "Personalized Language Model Learning on Text Data Without User Identifiers",
-          "catalog_url": "https://arxiv.org/abs/2501.06062",
-          "kind": "paper",
+          "work_index": 0,
+          "catalog_title": "WeChat-YATT: A Simple, Scalable and Balanced RLHF Trainer",
+          "catalog_url": "https://github.com/Tencent/Wechat-YATT",
+          "kind": "open_source",
           "paper": {
-            "title": "Personalized Language Model Learning on Text Data Without User Identifiers",
-            "url": "https://arxiv.org/abs/2501.06062",
+            "title": "WeChat-YATT: A Scalable, Simple, Efficient, and Production Ready Training Library",
+            "url": "https://arxiv.org/abs/2508.07970",
             "year": 2025,
-            "venue": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.1",
+            "venue": "arXiv",
             "authors": [
-              "Yucheng Ding",
-              "Yangwenjian Tan",
-              "Xiangyu Liu",
-              "Chaoyue Niu",
-              "Fandong Meng",
-              "Jie Zhou",
-              "Ning Liu",
-              "Fan Wu",
-              "Guihai Chen"
+              "Junyu Wu",
+              "Weiming Chang",
+              "Xiaotao Liu",
+              "Guanyou He",
+              "Tingfeng Xian",
+              "Haoqiang Hong",
+              "Boqi Chen",
+              "Hongtao Tian",
+              "Tao Yang",
+              "Yunsheng Shi",
+              "Feng Lin",
+              "Ting Yao",
+              "Jiatao Xu"
             ],
             "external_ids": {
-              "ArXiv": "2501.06062",
-              "DOI": "10.1145/3690624.3709211"
+              "ArXiv": "2508.07970",
+              "DOI": "10.48550/arXiv.2508.07970"
             }
           },
-          "summary": "已匹配论文《Personalized Language Model Learning on Text Data Without User Identifiers》，但开放元数据暂未提供 Abstract；请通过论文原文查看方法与结论。",
+          "abstract": "WeChat-YATT is a scalable and balanced training framework for reinforcement learning from human feedback and multimodal workloads. Its parallel-controller programming model and dynamic placement schema reduce centralized-control bottlenecks, idle time and inefficient GPU use. The system improves training throughput over existing frameworks and has been deployed for model training in WeChat product features.",
+          "summary": "基于论文 Abstract：WeChat-YATT 面向大规模 RLHF 与多模态训练，采用并行控制器编程模型和动态资源放置机制，缓解集中式控制瓶颈并减少 GPU 空闲；实验显示其吞吐优于现有框架，且已用于微信实际产品模型训练。",
           "citation": {
             "source": "Semantic Scholar",
-            "count": 3,
+            "count": 2,
             "influential_count": 0,
-            "source_url": "https://www.semanticscholar.org/paper/c14c3dacb7d03b9581871affe9fb1779f2ef4a28?utm_source=api",
+            "source_url": "https://www.semanticscholar.org/paper/d72aa4d434454c73bf59d9ee9cc9ac033151829e?utm_source=api",
             "checked_at": "2026-07-30",
             "verification_status": "verified_external_identifier",
-            "semantic_scholar_paper_id": "c14c3dacb7d03b9581871affe9fb1779f2ef4a28",
-            "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22Personalized+Language+Model+Learning+on+Text+Data+Without+User+Identifiers%22"
+            "semantic_scholar_paper_id": "d72aa4d434454c73bf59d9ee9cc9ac033151829e",
+            "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22WeChat-YATT%3A+A+Scalable%2C+Simple%2C+Efficient%2C+and+Production+Ready+Training+Library%22"
           },
           "metadata_provenance": {
-            "identity_and_abstract": "Crossref",
-            "crossref_url": "https://doi.org/10.1145/3690624.3709211"
+            "identity_and_abstract": "arXiv Atom API",
+            "source_url": "https://export.arxiv.org/api/query?id_list=2508.07970"
           },
-          "resolution_status": "resolved",
-          "figure": {
-            "image_url": "https://ar5iv.labs.arxiv.org/html/2501.06062/assets/x1.png",
-            "caption": "(a) On-Device Training of Embedding Distribution Parameters",
-            "source_page": "https://arxiv.org/abs/2501.06062",
-            "source_kind": "原论文流程 / 方法图（通过 ar5iv 渲染）",
-            "selection_score": 3
-          }
+          "code_impact": {
+            "github_stars": 77,
+            "checked_at": "2026-07-30"
+          },
+          "resolution_status": "resolved"
         },
         "recency": {
-          "work_index": 2,
-          "title": "Personalized Language Model Learning on Text Data Without User Identifiers",
-          "url": "https://arxiv.org/abs/2501.06062",
+          "work_index": 0,
+          "title": "WeChat-YATT: A Simple, Scalable and Balanced RLHF Trainer",
+          "url": "https://github.com/Tencent/Wechat-YATT",
           "recent_at": "2025",
           "recency_source": "paper_year",
           "selection_note": "从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。"
@@ -3315,14 +3384,61 @@
             "catalog_title": "HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents",
             "catalog_url": "https://github.com/Tencent-Hunyuan/HY-Embodied",
             "kind": "open_source",
-            "summary": "这是团队公开的开源研究成果。目录中的公开说明为：HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents 可通过原始链接查看完整项目、论文或数据说明。",
+            "paper": {
+              "title": "HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents",
+              "url": "https://arxiv.org/abs/2604.07430",
+              "year": 2026,
+              "venue": "arXiv",
+              "authors": [
+                "Tencent Robotics X",
+                "HY Vision Team",
+                "Xumin Yu",
+                "Zuyan Liu",
+                "Ziyi Wang",
+                "He Zhang",
+                "Yongming Rao",
+                "Fangfu Liu",
+                "Yani Zhang",
+                "Ruowen Zhao",
+                "Oran Wang",
+                "Yves Liang",
+                "Haitao Lin",
+                "Minghui Wang",
+                "Yubo Dong",
+                "Kevin Cheng",
+                "Bolin Ni",
+                "Rui Huang",
+                "Han Hu",
+                "Zhengyou Zhang",
+                "Linus",
+                "Shunyu Yao"
+              ],
+              "external_ids": {
+                "ArXiv": "2604.07430",
+                "DOI": "10.48550/arXiv.2604.07430"
+              }
+            },
+            "abstract": "HY-Embodied-0.5 is a family of foundation models for embodied agents operating in the real world. It includes a Mixture-of-Transformers architecture, a 2B active-parameter edge model and a 32B reasoning model, together with iterative self-evolving post-training and on-policy distillation. The models are evaluated across 22 benchmarks covering perception, spatial reasoning and embodied understanding, as well as real-world vision-language-action control.",
+            "summary": "基于论文 Abstract：HY-Embodied-0.5 面向真实世界具身智能，提供 2B 激活参数的端侧版本与 32B 推理版本，结合 MoT、迭代自进化后训练和 on-policy 蒸馏；研究在 22 项感知、空间推理与具身理解基准及真实机器人 VLA 控制中验证效果。",
             "citation": {
+              "source": "Semantic Scholar",
+              "count": 10,
+              "influential_count": 1,
+              "source_url": "https://www.semanticscholar.org/paper/56aa778441adfae8f139bf3ad0c82cf43bb0b7f2?utm_source=api",
+              "checked_at": "2026-07-30",
+              "verification_status": "verified_external_identifier",
+              "semantic_scholar_paper_id": "56aa778441adfae8f139bf3ad0c82cf43bb0b7f2",
+              "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22HY-Embodied-0.5%3A+Embodied+Foundation+Models+for+Real-World+Agents%22"
+            },
+            "metadata_provenance": {
+              "identity_and_abstract": "arXiv Atom API",
+              "source_url": "https://export.arxiv.org/api/query?id_list=2604.07430"
             },
             "code_impact": {
               "github_stars": 840,
               "checked_at": "2026-07-30"
             },
-            "resolution_status": "unresolved"
+            "resolution_status": "resolved"
           }
         },
         {
@@ -3400,65 +3516,78 @@
         }
       ],
       "recent_work": {
-        "title": "Constraint-Aware Zero-Shot Vision-Language Navigation in Continuous Environments",
-        "url": "https://arxiv.org/abs/2412.10137",
-        "kind": "paper",
-        "source": "arxiv",
+        "title": "HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents",
+        "url": "https://github.com/Tencent-Hunyuan/HY-Embodied",
+        "kind": "open_source",
+        "source": "github",
+        "stars": 840,
         "metadata": {
           "team_id": "tencent-robotics-x",
-          "work_index": 2,
-          "catalog_title": "Constraint-Aware Zero-Shot Vision-Language Navigation in Continuous Environments",
-          "catalog_url": "https://arxiv.org/abs/2412.10137",
-          "kind": "paper",
+          "work_index": 0,
+          "catalog_title": "HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents",
+          "catalog_url": "https://github.com/Tencent-Hunyuan/HY-Embodied",
+          "kind": "open_source",
           "paper": {
-            "title": "Constraint-Aware Zero-Shot Vision-Language Navigation in Continuous Environments",
-            "url": "https://arxiv.org/abs/2412.10137",
-            "year": 2025,
-            "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+            "title": "HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents",
+            "url": "https://arxiv.org/abs/2604.07430",
+            "year": 2026,
+            "venue": "arXiv",
             "authors": [
-              "Kehan Chen",
-              "Dong An",
-              "Yan Huang",
-              "Rongtao Xu",
-              "Yifei Su",
-              "Yonggen Ling",
-              "Ian Reid",
-              "Liang Wang"
+              "Tencent Robotics X",
+              "HY Vision Team",
+              "Xumin Yu",
+              "Zuyan Liu",
+              "Ziyi Wang",
+              "He Zhang",
+              "Yongming Rao",
+              "Fangfu Liu",
+              "Yani Zhang",
+              "Ruowen Zhao",
+              "Oran Wang",
+              "Yves Liang",
+              "Haitao Lin",
+              "Minghui Wang",
+              "Yubo Dong",
+              "Kevin Cheng",
+              "Bolin Ni",
+              "Rui Huang",
+              "Han Hu",
+              "Zhengyou Zhang",
+              "Linus",
+              "Shunyu Yao"
             ],
             "external_ids": {
-              "ArXiv": "2412.10137",
-              "DOI": "10.1109/tpami.2025.3594204"
+              "ArXiv": "2604.07430",
+              "DOI": "10.48550/arXiv.2604.07430"
             }
           },
-          "summary": "已匹配论文《Constraint-Aware Zero-Shot Vision-Language Navigation in Continuous Environments》，但开放元数据暂未提供 Abstract；请通过论文原文查看方法与结论。",
+          "abstract": "HY-Embodied-0.5 is a family of foundation models for embodied agents operating in the real world. It includes a Mixture-of-Transformers architecture, a 2B active-parameter edge model and a 32B reasoning model, together with iterative self-evolving post-training and on-policy distillation. The models are evaluated across 22 benchmarks covering perception, spatial reasoning and embodied understanding, as well as real-world vision-language-action control.",
+          "summary": "基于论文 Abstract：HY-Embodied-0.5 面向真实世界具身智能，提供 2B 激活参数的端侧版本与 32B 推理版本，结合 MoT、迭代自进化后训练和 on-policy 蒸馏；研究在 22 项感知、空间推理与具身理解基准及真实机器人 VLA 控制中验证效果。",
           "citation": {
             "source": "Semantic Scholar",
-            "count": 53,
-            "influential_count": 4,
-            "source_url": "https://www.semanticscholar.org/paper/4d27c0905b46d06507ed1701a4baacc6c075be9b?utm_source=api",
+            "count": 10,
+            "influential_count": 1,
+            "source_url": "https://www.semanticscholar.org/paper/56aa778441adfae8f139bf3ad0c82cf43bb0b7f2?utm_source=api",
             "checked_at": "2026-07-30",
             "verification_status": "verified_external_identifier",
-            "semantic_scholar_paper_id": "4d27c0905b46d06507ed1701a4baacc6c075be9b",
-            "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22Constraint-Aware+Zero-Shot+Vision-Language+Navigation+in+Continuous+Environments%22"
+            "semantic_scholar_paper_id": "56aa778441adfae8f139bf3ad0c82cf43bb0b7f2",
+            "google_scholar_url": "https://scholar.google.com/scholar?hl=en&q=%22HY-Embodied-0.5%3A+Embodied+Foundation+Models+for+Real-World+Agents%22"
           },
           "metadata_provenance": {
-            "identity_and_abstract": "Crossref",
-            "crossref_url": "https://doi.org/10.1109/tpami.2025.3594204"
+            "identity_and_abstract": "arXiv Atom API",
+            "source_url": "https://export.arxiv.org/api/query?id_list=2604.07430"
           },
-          "resolution_status": "resolved",
-          "figure": {
-            "image_url": "https://ar5iv.labs.arxiv.org/html/2412.10137/assets/x2.png",
-            "caption": "Figure 2: Illustration of the proposed CA-Nav. (a) The Constraint-aware Sub-instruction Manager decomposes the instruction into a sequence of sub-instructions and identifies object constraints , location constraints and direction constraints for each of them. (b) During navigation, a Constraint-aware Value Mapper builds a value map based on the landmark prompt provided by CSM and uses the superpixel clustering method to segment it into regions. It switches sub-instructions in a constraint-aware manner and chooses the most promising region’s geometric center as waypoints.",
-            "source_page": "https://arxiv.org/abs/2412.10137",
-            "source_kind": "原论文流程 / 方法图（通过 ar5iv 渲染）",
-            "selection_score": 6
-          }
+          "code_impact": {
+            "github_stars": 840,
+            "checked_at": "2026-07-30"
+          },
+          "resolution_status": "resolved"
         },
         "recency": {
-          "work_index": 2,
-          "title": "Constraint-Aware Zero-Shot Vision-Language Navigation in Continuous Environments",
-          "url": "https://arxiv.org/abs/2412.10137",
-          "recent_at": "2025",
+          "work_index": 0,
+          "title": "HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents",
+          "url": "https://github.com/Tencent-Hunyuan/HY-Embodied",
+          "recent_at": "2026",
           "recency_source": "paper_year",
           "selection_note": "从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。"
         }

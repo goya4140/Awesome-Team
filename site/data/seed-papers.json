@@ -1,10 +1,116 @@
 {
   "source": "https://seed.bytedance.com/zh/public_papers?view_from=research&order_desc=true&offset=0",
-  "retrieved_at": "2026-07-30T14:33:56+00:00",
+  "retrieved_at": "2026-07-30T14:41:34+00:00",
   "reported_total": 230,
   "retrieved_count": 212,
   "unexposed_count": 18,
-  "completeness_note": "Seed's public counter reports 230, while its public paginated payload currently emits 212 published records. No metadata was fabricated for the 18 counter-only records.",
+  "pagination_audit": [
+    {
+      "offset": 0,
+      "returned": 20,
+      "has_more": true,
+      "next_page_token": "20"
+    },
+    {
+      "offset": 20,
+      "returned": 19,
+      "has_more": true,
+      "next_page_token": "40"
+    },
+    {
+      "offset": 40,
+      "returned": 19,
+      "has_more": true,
+      "next_page_token": "60"
+    },
+    {
+      "offset": 60,
+      "returned": 18,
+      "has_more": true,
+      "next_page_token": "80"
+    },
+    {
+      "offset": 80,
+      "returned": 19,
+      "has_more": true,
+      "next_page_token": "100"
+    },
+    {
+      "offset": 100,
+      "returned": 19,
+      "has_more": true,
+      "next_page_token": "120"
+    },
+    {
+      "offset": 120,
+      "returned": 16,
+      "has_more": true,
+      "next_page_token": "140"
+    },
+    {
+      "offset": 140,
+      "returned": 18,
+      "has_more": true,
+      "next_page_token": "160"
+    },
+    {
+      "offset": 160,
+      "returned": 20,
+      "has_more": true,
+      "next_page_token": "180"
+    },
+    {
+      "offset": 180,
+      "returned": 17,
+      "has_more": true,
+      "next_page_token": "200"
+    },
+    {
+      "offset": 200,
+      "returned": 17,
+      "has_more": true,
+      "next_page_token": "220"
+    },
+    {
+      "offset": 220,
+      "returned": 10,
+      "has_more": false,
+      "next_page_token": ""
+    }
+  ],
+  "year_audit": [
+    {
+      "year": 2026,
+      "reported": 70,
+      "retrieved": 67
+    },
+    {
+      "year": 2025,
+      "reported": 94,
+      "retrieved": 85
+    },
+    {
+      "year": 2024,
+      "reported": 52,
+      "retrieved": 47
+    },
+    {
+      "year": 2023,
+      "reported": 12,
+      "retrieved": 11
+    },
+    {
+      "year": 2022,
+      "reported": 1,
+      "retrieved": 1
+    },
+    {
+      "year": 2021,
+      "reported": 1,
+      "retrieved": 1
+    }
+  ],
+  "completeness_note": "Seed's get_article_list_v2 API reports 230, while its public sub_article_list pages currently emit 212 published records. No metadata was fabricated for the 18 counter-only records.",
   "direct_arxiv_count": 202,
   "paper_figure_count": 192,
   "pdf_preview_count": 13,

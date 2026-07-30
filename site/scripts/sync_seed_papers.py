@@ -25,6 +25,7 @@ from urllib.request import Request, urlopen
 
 
 BASE_URL = "https://seed.bytedance.com/zh/public_papers"
+API_URL = "https://seed.bytedance.com/api/get_article_list_v2"
 PAGE_SIZE = 20
 USER_AGENT = "Mozilla/5.0 (compatible; AwesomeTeamSeedResearch/1.0)"
 ROUTER_DATA_RE = re.compile(
@@ -58,6 +59,18 @@ def fetch_text(url: str, timeout: int = 45) -> str:
         return response.read().decode("utf-8", "ignore")
 
 
+def fetch_seed_api(params: dict[str, Any], timeout: int = 45) -> dict[str, Any]:
+    request = Request(
+        API_URL + "?" + urlencode(params),
+        headers={
+            "User-Agent": USER_AGENT,
+            "x-tt-locale": "US",
+        },
+    )
+    with urlopen(request, timeout=timeout) as response:
+        return json.loads(response.read())
+
+
 def clean_text(value: str) -> str:
     value = TAG_RE.sub(" ", value)
     value = html.unescape(value)
@@ -65,23 +78,23 @@ def clean_text(value: str) -> str:
 
 
 def fetch_publication_page(offset: int) -> tuple[int, dict[str, Any]]:
-    query = urlencode(
+    payload = fetch_seed_api(
         {
-            "view_from": "research",
+            "article_type": 1,
+            "count": PAGE_SIZE,
             "order_desc": "true",
-            "offset": offset,
+            "page_token": offset,
         }
     )
-    source = fetch_text(f"{BASE_URL}?{query}")
-    match = ROUTER_DATA_RE.search(source)
-    if not match:
-        raise RuntimeError(f"Seed router data missing at offset {offset}")
-    payload = json.loads(match.group(1))
-    page = payload["loaderData"]["(locale$)/public_papers/page"]
-    return offset, page
+    return offset, {
+        "article_list": payload.get("sub_article_list", []),
+        "has_more": bool(payload.get("has_more")),
+        "total": int(payload.get("total") or 0),
+        "next_page_token": payload.get("next_page_token"),
+    }
 
 
-def crawl_publications() -> tuple[list[dict[str, Any]], int]:
+def crawl_publications() -> tuple[list[dict[str, Any]], int, list[dict[str, Any]]]:
     first_offset, first_page = fetch_publication_page(0)
     del first_offset
     reported_total = int(first_page["total"])
@@ -94,7 +107,16 @@ def crawl_publications() -> tuple[list[dict[str, Any]], int]:
             pages.append(future.result())
 
     records: dict[int, dict[str, Any]] = {}
-    for _, page in sorted(pages):
+    pagination_audit = []
+    for offset, page in sorted(pages):
+        pagination_audit.append(
+            {
+                "offset": offset,
+                "returned": len(page.get("article_list", [])),
+                "has_more": bool(page.get("has_more")),
+                "next_page_token": page.get("next_page_token"),
+            }
+        )
         for item in page.get("article_list", []):
             records[int(item["ArticleMeta"]["ID"])] = item
 
@@ -106,7 +128,29 @@ def crawl_publications() -> tuple[list[dict[str, Any]], int]:
         ),
         reverse=True,
     )
-    return items, reported_total
+    return items, reported_total, pagination_audit
+
+
+def fetch_year_totals(years: list[int]) -> dict[int, int]:
+    def fetch_year(year: int) -> tuple[int, int]:
+        payload = fetch_seed_api(
+            {
+                "article_type": 1,
+                "count": PAGE_SIZE,
+                "order_desc": "true",
+                "page_token": 0,
+                "publish_year": year,
+            }
+        )
+        return year, int(payload.get("total") or 0)
+
+    totals: dict[int, int] = {}
+    with ThreadPoolExecutor(max_workers=6) as executor:
+        futures = [executor.submit(fetch_year, year) for year in years]
+        for future in as_completed(futures):
+            year, total = future.result()
+            totals[year] = total
+    return totals
 
 
 def extract_arxiv_id(links: list[str]) -> str | None:
@@ -426,7 +470,7 @@ def main() -> int:
     args = parser.parse_args()
 
     print("Fetching Seed publication pages…", file=sys.stderr)
-    raw_items, reported_total = crawl_publications()
+    raw_items, reported_total, pagination_audit = crawl_publications()
     records = [normalize_record(item) for item in raw_items]
 
     previous_figures: dict[int, dict[str, str]] = {}
@@ -493,6 +537,16 @@ def main() -> int:
         record["figure"]["kind"] == "pdf-page" for record in records
     )
     direct_arxiv = sum(bool(record["arxiv_url"]) for record in records)
+    years = sorted({record["year"] for record in records}, reverse=True)
+    year_totals = fetch_year_totals(years)
+    year_audit = [
+        {
+            "year": year,
+            "reported": year_totals.get(year, 0),
+            "retrieved": sum(record["year"] == year for record in records),
+        }
+        for year in years
+    ]
     payload = {
         "source": BASE_URL
         + "?view_from=research&order_desc=true&offset=0",
@@ -500,9 +554,11 @@ def main() -> int:
         "reported_total": reported_total,
         "retrieved_count": retrieved_count,
         "unexposed_count": max(0, reported_total - retrieved_count),
+        "pagination_audit": pagination_audit,
+        "year_audit": year_audit,
         "completeness_note": (
-            "Seed's public counter reports "
-            f"{reported_total}, while its public paginated payload currently emits "
+            "Seed's get_article_list_v2 API reports "
+            f"{reported_total}, while its public sub_article_list pages currently emit "
             f"{retrieved_count} published records. No metadata was fabricated for "
             f"the {max(0, reported_total - retrieved_count)} counter-only records."
         ),

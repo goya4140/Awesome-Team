@@ -219,6 +219,12 @@ async function initialize() {
     document.querySelector("#hero-arxiv-total").textContent = payload.direct_arxiv_count;
     document.querySelector("#hero-figure-total").textContent = payload.paper_figure_count + payload.pdf_preview_count;
     document.querySelector("#retrieved-at").textContent = `数据同步时间：${payload.retrieved_at.slice(0, 10)} UTC`;
+    document.querySelector("#year-audit").innerHTML = payload.year_audit.map((item) => `
+      <div>
+        <b>${escapeHtml(item.year)}</b>
+        <span>${escapeHtml(item.retrieved)} / ${escapeHtml(item.reported)}</span>
+        <i style="width:${Math.round((item.retrieved / item.reported) * 100)}%" aria-hidden="true"></i>
+      </div>`).join("");
     state.filtered = [...state.papers];
     bindControls();
     render();
