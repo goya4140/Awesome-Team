@@ -1,5 +1,5 @@
 schema_version: 3
-last_updated: "2026-07-28"
+last_updated: "2026-07-30"
 scope:
   company_regions: [CN-mainland, US]
   university_groups: [C9, HKUST-GZ, HK3, SG2, US-AI-Core]
@@ -32,6 +32,8 @@ companies:
 
 frontier_ai_companies:
   # China
+  - { id: chinese-academy-sciences, name: Chinese Academy of Sciences, region: CN-mainland, priority: P0, entity_type: research_institute }
+  - { id: casia, name: Institute of Automation, Chinese Academy of Sciences, region: CN-mainland, priority: P0, entity_type: research_institute }
   - { id: shanghai-ai-lab, name: Shanghai Artificial Intelligence Laboratory, region: CN-mainland, priority: P0, entity_type: research_institute }
   - { id: deepseek, name: DeepSeek, region: CN-mainland, priority: P0, entity_type: frontier_ai_company }
   - { id: zhipu-ai, name: Zhipu AI, region: CN-mainland, priority: P0, entity_type: frontier_ai_company }

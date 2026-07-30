@@ -1,6 +1,6 @@
 ---
 schema_version: 2
-last_updated: '2026-07-28'
+last_updated: '2026-07-30'
 citation_provider: Google Scholar
 notes:
 - Google Scholar is the primary citation destination. Google Scholar does not provide an official public structured API, so unverified counts remain null and link to an exact-title Scholar search.
@@ -45,7 +45,7 @@ works:
       openalex_url: https://openalex.org/W4415249810
     code_impact:
       github_stars: 560
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2504.14899/assets/x2.png
@@ -91,7 +91,7 @@ works:
       openalex_url: https://openalex.org/W4417078015
     code_impact:
       github_stars: 303
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2509.15212/assets/x1.png
@@ -109,7 +109,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 161
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   alibaba-modelscope:0:
     team_id: alibaba-modelscope
@@ -121,7 +121,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 14973
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   alibaba-modelscope:1:
     team_id: alibaba-modelscope
@@ -133,7 +133,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 9059
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   alibaba-modelscope:2:
     team_id: alibaba-modelscope
@@ -145,7 +145,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 6072
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   alibaba-nlp:0:
     team_id: alibaba-nlp
@@ -182,7 +182,7 @@ works:
       openalex_url: https://openalex.org/W4415187502
     code_impact:
       github_stars: 669
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure: 
   alibaba-nlp:1:
@@ -219,7 +219,7 @@ works:
       openalex_url: https://openalex.org/W4406032715
     code_impact:
       github_stars: 297
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2501.00888/assets/x2.png
@@ -263,7 +263,7 @@ works:
       openalex_url: https://openalex.org/W4415187808
     code_impact:
       github_stars: 2
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2502.18023/assets/x2.png
@@ -307,7 +307,7 @@ works:
       openalex_url: https://openalex.org/W4412886965
     code_impact:
       github_stars: 190
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   alibaba-qwen:1:
     team_id: alibaba-qwen
@@ -347,7 +347,7 @@ works:
       openalex_url: https://openalex.org/W4417521208
     code_impact:
       github_stars: 43
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure: 
   alibaba-qwen:2:
@@ -360,7 +360,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 21492
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   amazon-agi-lab:0:
     team_id: amazon-agi-lab
@@ -398,7 +398,7 @@ works:
       openalex_url: https://openalex.org/W4391591817
     code_impact:
       github_stars: 122
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2402.01935/assets/figures/codesage_plus.png
@@ -438,7 +438,7 @@ works:
       openalex_url: https://openalex.org/W4398795761
     code_impact:
       github_stars: 88
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2405.13622/assets/img/radar_plot/newplot.png
@@ -478,7 +478,7 @@ works:
       openalex_url: https://openalex.org/W4414854543
     code_impact:
       github_stars: 14
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2504.05258/assets/x1.png
@@ -522,7 +522,7 @@ works:
       openalex_url: https://openalex.org/W4391591817
     code_impact:
       github_stars: 122
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2402.01935/assets/figures/codesage_plus.png
@@ -562,7 +562,7 @@ works:
       openalex_url: https://openalex.org/W4398795761
     code_impact:
       github_stars: 88
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2405.13622/assets/img/radar_plot/newplot.png
@@ -602,7 +602,7 @@ works:
       openalex_url: https://openalex.org/W4414854543
     code_impact:
       github_stars: 14
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2504.05258/assets/x1.png
@@ -620,7 +620,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 5611
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   ant-areal:1:
     team_id: ant-areal
@@ -632,7 +632,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 26
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   ant-areal:2:
     team_id: ant-areal
@@ -644,7 +644,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 4
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   ant-inclusion-ai:0:
     team_id: ant-inclusion-ai
@@ -678,7 +678,7 @@ works:
       openalex_url: https://openalex.org/W4417141653
     code_impact:
       github_stars: 537
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2512.05150/assets/x10.png
@@ -696,7 +696,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 177
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   ant-inclusion-ai:2:
     team_id: ant-inclusion-ai
@@ -708,7 +708,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 51
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   ant-interactive-ai-lab:0:
     team_id: ant-interactive-ai-lab
@@ -746,7 +746,7 @@ works:
       openalex_url: https://openalex.org/W4393213852
     code_impact:
       github_stars: 138
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2403.17007/assets/x1.png
@@ -789,7 +789,7 @@ works:
       openalex_url: https://openalex.org/W4405957683
     code_impact:
       github_stars: 128
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   ant-interactive-ai-lab:2:
     team_id: ant-interactive-ai-lab
@@ -823,7 +823,7 @@ works:
       openalex_url: https://openalex.org/W4405090369
     code_impact:
       github_stars: 81
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2412.03451/assets/pic/pic_splattingFunc2.png
@@ -841,7 +841,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 6860
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   anthropic-alignment:1:
     team_id: anthropic-alignment
@@ -853,7 +853,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 22465
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   anthropic-alignment:2:
     team_id: anthropic-alignment
@@ -865,7 +865,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 5665
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   anthropic-economic-research:0:
     team_id: anthropic-economic-research
@@ -877,7 +877,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 6860
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   anthropic-economic-research:1:
     team_id: anthropic-economic-research
@@ -889,7 +889,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 22465
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   anthropic-economic-research:2:
     team_id: anthropic-economic-research
@@ -901,7 +901,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 5665
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   anthropic-frontier-red-team:0:
     team_id: anthropic-frontier-red-team
@@ -913,7 +913,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 6860
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   anthropic-frontier-red-team:1:
     team_id: anthropic-frontier-red-team
@@ -925,7 +925,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 22465
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   anthropic-frontier-red-team:2:
     team_id: anthropic-frontier-red-team
@@ -937,7 +937,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 5665
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   anthropic-interpretability:0:
     team_id: anthropic-interpretability
@@ -949,7 +949,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 6860
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   anthropic-interpretability:1:
     team_id: anthropic-interpretability
@@ -961,7 +961,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 22465
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   anthropic-interpretability:2:
     team_id: anthropic-interpretability
@@ -973,7 +973,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 5665
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   anthropic-societal-impacts:0:
     team_id: anthropic-societal-impacts
@@ -985,7 +985,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 6860
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   anthropic-societal-impacts:1:
     team_id: anthropic-societal-impacts
@@ -997,7 +997,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 22465
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   anthropic-societal-impacts:2:
     team_id: anthropic-societal-impacts
@@ -1009,7 +1009,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 5665
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   apple-machine-learning-research:0:
     team_id: apple-machine-learning-research
@@ -1049,7 +1049,7 @@ works:
       openalex_url: https://openalex.org/W4405875854
     code_impact:
       github_stars: 7389
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2412.13303/assets/x3.png
@@ -1067,7 +1067,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 1602
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   apple-machine-learning-research:2:
     team_id: apple-machine-learning-research
@@ -1101,7 +1101,7 @@ works:
       openalex_url: https://openalex.org/W7135047180
     code_impact:
       github_stars: 459
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2603.11047/assets/x2.png
@@ -1119,7 +1119,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 27732
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   apple-mlx:1:
     team_id: apple-mlx
@@ -1131,7 +1131,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 8856
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   apple-mlx:2:
     team_id: apple-mlx
@@ -1143,7 +1143,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 6440
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   baidu-ernie:0:
     team_id: baidu-ernie
@@ -1155,7 +1155,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 7727
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   baidu-ernie:1:
     team_id: baidu-ernie
@@ -1167,7 +1167,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 12654
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   baidu-ernie:2:
     team_id: baidu-ernie
@@ -1179,7 +1179,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 86387
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   baidu-paddlepaddle:0:
     team_id: baidu-paddlepaddle
@@ -1191,7 +1191,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 12654
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   baidu-paddlepaddle:1:
     team_id: baidu-paddlepaddle
@@ -1203,7 +1203,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 86387
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   baidu-paddlepaddle:2:
     team_id: baidu-paddlepaddle
@@ -1215,7 +1215,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 24036
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   berkeley-bair:0:
     team_id: berkeley-bair
@@ -1254,7 +1254,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 988
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   berkeley-chai:1:
     team_id: berkeley-chai
@@ -1266,7 +1266,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 1773
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   berkeley-chai:2:
     team_id: berkeley-chai
@@ -1278,7 +1278,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 72
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   berkeley-nlp:0:
     team_id: berkeley-nlp
@@ -1314,7 +1314,7 @@ works:
       openalex_url: https://openalex.org/W4394776438
     code_impact:
       github_stars: 149
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2404.06474/assets/x1.png
@@ -1354,7 +1354,7 @@ works:
       openalex_url: https://openalex.org/W4404390294
     code_impact:
       github_stars: 6
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2411.05781/assets/x1.png
@@ -1394,7 +1394,7 @@ works:
       openalex_url: https://openalex.org/W4415241223
     code_impact:
       github_stars: 1
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2508.14828/assets/x1.png
@@ -1436,7 +1436,7 @@ works:
       openalex_url: https://openalex.org/W4401203092
     code_impact:
       github_stars: 77
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2407.20635/assets/x2.png
@@ -1454,7 +1454,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 2922
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   berkeley-rail:2:
     team_id: berkeley-rail
@@ -1493,7 +1493,7 @@ works:
       openalex_url: https://openalex.org/W4401416214
     code_impact:
       github_stars: 846
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   berkeley-sky-computing-lab:0:
     team_id: berkeley-sky-computing-lab
@@ -1505,7 +1505,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 10416
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   berkeley-sky-computing-lab:1:
     team_id: berkeley-sky-computing-lab
@@ -1517,7 +1517,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 60
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   berkeley-sky-computing-lab:2:
     team_id: berkeley-sky-computing-lab
@@ -1529,7 +1529,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 27
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   bytedance-seed:0:
     team_id: bytedance-seed
@@ -1541,7 +1541,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 793
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   bytedance-seed:1:
     team_id: bytedance-seed
@@ -1578,7 +1578,7 @@ works:
       openalex_url: https://openalex.org/W4415277446
     code_impact:
       github_stars: 543
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2510.13802/assets/x3.png
@@ -1624,7 +1624,7 @@ works:
       openalex_url: https://openalex.org/W4417086569
     code_impact:
       github_stars: 433
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2512.04324/assets/x5.png
@@ -1632,6 +1632,337 @@ works:
       source_page: https://arxiv.org/abs/2512.04324
       source_kind: 原论文流程 / 方法图（通过 ar5iv 渲染）
       selection_score: 3
+  cas-ai-innovation-academy:0:
+    team_id: cas-ai-innovation-academy
+    work_index: 0
+    catalog_title: Chinese Academy of Sciences Artificial Intelligence Innovation Academy
+    catalog_url: https://www.bjb.cas.cn/xtdw2016/sljg2016/201612/t20161208_4718524.html
+    kind: research_index
+    summary: 这是团队的官方研究入口，可继续访问其研究方向、项目或论文列表；该条目不是单篇论文，因此不展示论文引用量。
+    citation: {}
+    resolution_status: not_a_paper
+  cas-ai-innovation-academy:1:
+    team_id: cas-ai-innovation-academy
+    work_index: 1
+    catalog_title: CAS Intelligent Decision Forum
+    catalog_url: https://www.cas.cn/yx/202404/t20240419_5011963.shtml
+    kind: research_index
+    summary: 这是团队的官方研究入口，可继续访问其研究方向、项目或论文列表；该条目不是单篇论文，因此不展示论文引用量。
+    citation: {}
+    resolution_status: not_a_paper
+  cas-ai-innovation-academy:2:
+    team_id: cas-ai-innovation-academy
+    work_index: 2
+    catalog_title: CAS Artificial Intelligence Industry–Academia–Research Innovation Alliance
+    catalog_url: http://www.casisd.cas.cn/ttxw1/zlyjytt/202212/t20221219_6585872.html
+    kind: research_index
+    summary: 这是团队的官方研究入口，可继续访问其研究方向、项目或论文列表；该条目不是单篇论文，因此不展示论文引用量。
+    citation: {}
+    resolution_status: not_a_paper
+  casia-ai-ethics-governance:0:
+    team_id: casia-ai-ethics-governance
+    work_index: 0
+    catalog_title: Linking Artificial Intelligence Principles
+    catalog_url: https://www.linking-ai-principles.org/
+    kind: paper_or_project
+    summary: 这是团队公开的代表性研究成果。目录中的公开说明为：Linking Artificial Intelligence Principles 可通过原始链接查看完整项目、论文或数据说明。
+    citation: {}
+    resolution_status: unresolved
+  casia-ai-ethics-governance:1:
+    team_id: casia-ai-ethics-governance
+    work_index: 1
+    catalog_title: 'Ethics and Governance of Artificial Intelligence: Evidence from a Survey of Machine Learning Researchers'
+    catalog_url: https://arxiv.org/abs/2105.02117
+    kind: paper
+    paper:
+      title: 'Ethics and Governance of Artificial Intelligence: Evidence from a Survey of Machine Learning Researchers'
+      url: https://arxiv.org/abs/2105.02117
+      openalex_url: https://openalex.org/W3157537313
+      year: 2021
+      venue: arXiv (Cornell University)
+      authors:
+      - Baobao Zhang
+      - Markus Anderljung
+      - Lauren Kahn
+      - Noemi Dreksler
+      - Michael C. Horowitz
+      - Allan Dafoe
+      external_ids:
+        ArXiv: '2105.02117'
+        DOI: 10.48550/arxiv.2105.02117
+        OpenAlex: https://openalex.org/W3157537313
+    abstract: Machine learning (ML) and artificial intelligence (AI) researchers play an important role in the ethics and governance of AI, including taking action against what they perceive to be unethical uses of AI (Belfield, 2020; Van Noorden, 2020). Nevertheless, this influential group's attitudes are not well understood, which undermines our ability to discern consensuses or disagreements between AI/ML researchers. To examine these researchers' views, we conducted a survey of those who published in the top AI/ML conferences (N = 524). We compare these results with those from a 2016 survey of AI/ML researchers (Grace, Salvatier, Dafoe, Zhang, &amp; Evans, 2018) and a 2018 survey of the US public (Zhang &amp; Dafoe, 2020). We find that AI/ML researchers place high levels of trust in international organizations and scientific organizations to shape the development and use of AI in the public interest; moderate trust in most Western tech companies; and low trust in national militaries, Chinese tech companies, and Facebook. While the respondents were overwhelmingly opposed to AI/ML researchers working on lethal autonomous weapons, they are less opposed to researchers working on other military applications of AI, particularly logistics algorithms. A strong majority of respondents think that AI safety research should be prioritized and that ML institutions should conduct pre-publication review to assess potential harms. Being closer to the technology itself, AI/ML re-searchers are well placed to highlight new risks and develop technical solutions, so this novel attempt to measure their attitudes has broad relevance. The findings should help to improve how researchers, private sector executives, and policymakers think about regulations, governance frameworks, guiding principles, and national and international governance strategies for AI.
+    summary: 研究人员通过调查AI/ML领域的顶级会议发表者（N=524人）来了解他们对AI使用的态度。结果显示，AI/ML研究人员高度信任国际组织和科学组织，中等信任西方技术公司，但低信任国家军事、中国技术公司和Facebook。调查结果表明，AI/ML研究人员大多数不支持 lethal autonomous weapons，但对其他军事应用的AI持更积极态度。此外，大多数人认为AI安全研究应优先，并支持ML机构进行预发表审查，以评估潜在危害。
+    citation:
+      source: Google Scholar
+      source_url: https://scholar.google.com/scholar?hl=en&q=%22Ethics+and+Governance+of+Artificial+Intelligence%3A+Evidence+from+a+Survey+of+Machine+Learning+Researchers%22
+      verification_status: search_link_only
+    metadata_provenance:
+      identity_and_abstract: OpenAlex
+      openalex_url: https://openalex.org/W3157537313
+    resolution_status: resolved
+    figure:
+      image_url: https://ar5iv.labs.arxiv.org/html/2105.02117/assets/x1.png
+      caption: 'Figure 1: Perceived issue importance of AI governance challenges (comparing AI/ML researchers’ and the US public’s responses). Each respondent was presented with 5 AI governance challenges randomly selected from a list of 13. Respondents were asked to evaluate the importance of each governance challenge using a four-point scale (the slider scale allows respondents to input values to the tenth decimal point): 0 = not important, 1 = not too important, 2 = somewhat important, 3 = very important. We present the mean responses for each governance challenge (by respondent type) along with the corresponding 95% confidence intervals.'
+      source_page: https://arxiv.org/abs/2105.02117
+      source_kind: 原论文流程 / 方法图（通过 ar5iv 渲染）
+      selection_score: 2
+  casia-ai-ethics-governance:2:
+    team_id: casia-ai-ethics-governance
+    work_index: 2
+    catalog_title: Ethical and Safety Observatory for Large Artificial Intelligence Models
+    catalog_url: https://for-good.ai/large-ai-investigator
+    kind: paper_or_project
+    summary: 这是团队公开的代表性研究成果。目录中的公开说明为：Ethical and Safety Observatory for Large Artificial Intelligence Models 可通过原始链接查看完整项目、论文或数据说明。
+    citation: {}
+    resolution_status: unresolved
+  casia-brain-ai:0:
+    team_id: casia-brain-ai
+    work_index: 0
+    catalog_title: 'The Human Brainnetome Atlas: A New Brain Atlas Based on Connectional Architecture'
+    catalog_url: https://doi.org/10.1093/cercor/bhw157
+    kind: paper
+    paper:
+      title: 'The Human Brainnetome Atlas: A New Brain Atlas Based on Connectional Architecture'
+      url: https://doi.org/10.1093/cercor/bhw157
+      openalex_url: https://openalex.org/W2402346616
+      year: 2016
+      venue: Cerebral Cortex
+      authors:
+      - Lingzhong Fan
+      - Hai Li
+      - Junjie Zhuo
+      - Yu Zhang
+      - Jiaojian Wang
+      - Liangfu Chen
+      - Zhengyi Yang
+      - Congying Chu
+      - Sangma Xie
+      - Angela R. Laird
+      external_ids:
+        DOI: 10.1093/cercor/bhw157
+        OpenAlex: https://openalex.org/W2402346616
+    abstract: The human brain atlases that allow correlating brain anatomy with psychological and cognitive functions are in transition from ex vivo histology-based printed atlases to digital brain maps providing multimodal in vivo information. Many current human brain atlases cover only specific structures, lack fine-grained parcellations, and fail to provide functionally important connectivity information. Using noninvasive multimodal neuroimaging techniques, we designed a connectivity-based parcellation framework that identifies the subdivisions of the entire human brain, revealing the in vivo connectivity architecture. The resulting human Brainnetome Atlas, with 210 cortical and 36 subcortical subregions, provides a fine-grained, cross-validated atlas and contains information on both anatomical and functional connections. Additionally, we further mapped the delineated structures to mental processes by reference to the BrainMap database. It thus provides an objective and stable starting point from which to explore the complex relationships between structure, connectivity, and function, and eventually improves understanding of how the human brain works. The human Brainnetome Atlas will be made freely available for download at http://atlas.brainnetome.org, so that whole brain parcellations, connections, and functional data will be readily available for researchers to use in their investigations into healthy and pathological states.
+    summary: 研究者开发了一种基于连接性的分区框架，利用非侵入性多模态神经影像技术，创建了一个包含210个皮层和36个下丘脑区域的全脑分区图。该图提供了精细的、可验证的分区，并包含了解剖结构和功能连接信息。此外，它将分区结构与心理过程进行了对应，提供了一个稳定的起点来探索结构-连接-功能之间复杂关系，从而改善了解人类脑部如何工作。
+    citation:
+      source: Google Scholar
+      source_url: https://scholar.google.com/scholar?hl=en&q=%22The+Human+Brainnetome+Atlas%3A+A+New+Brain+Atlas+Based+on+Connectional+Architecture%22
+      verification_status: search_link_only
+    metadata_provenance:
+      identity_and_abstract: OpenAlex
+      openalex_url: https://openalex.org/W2402346616
+    resolution_status: resolved
+  casia-brain-ai:1:
+    team_id: casia-brain-ai
+    work_index: 1
+    catalog_title: Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features
+    catalog_url: https://doi.org/10.1109/TPAMI.2023.3263181
+    kind: paper
+    paper:
+      title: Decoding Visual Neural Representations by Multimodal Learning of Brain-Visual-Linguistic Features
+      url: https://doi.org/10.1109/tpami.2023.3263181
+      openalex_url: https://openalex.org/W4361855028
+      year: 2023
+      venue: IEEE Transactions on Pattern Analysis and Machine Intelligence
+      authors:
+      - Changde Du
+      - Kaicheng Fu
+      - Jinpeng Li
+      - Huiguang He
+      external_ids:
+        DOI: 10.1109/tpami.2023.3263181
+        OpenAlex: https://openalex.org/W4361855028
+    abstract: 'Decoding human visual neural representations is a challenging task with great scientific significance in revealing vision-processing mechanisms and developing brain-like intelligent machines. Most existing methods are difficult to generalize to novel categories that have no corresponding neural data for training. The two main reasons are 1) the under-exploitation of the multimodal semantic knowledge underlying the neural data and 2) the small number of paired (stimuli-responses) training data. To overcome these limitations, this paper presents a generic neural decoding method called BraVL that uses multimodal learning of brain-visual-linguistic features. We focus on modeling the relationships between brain, visual and linguistic features via multimodal deep generative models. Specifically, we leverage the mixture-of-product-of-experts formulation to infer a latent code that enables a coherent joint generation of all three modalities. To learn a more consistent joint representation and improve the data efficiency in the case of limited brain activity data, we exploit both intra- and inter-modality mutual information maximization regularization terms. In particular, our BraVL model can be trained under various semi-supervised scenarios to incorporate the visual and textual features obtained from the extra categories. Finally, we construct three trimodal matching datasets, and the extensive experiments lead to some interesting conclusions and cognitive insights: 1) decoding novel visual categories from human brain activity is practically possible with good accuracy; 2) decoding models using the combination of visual and linguistic features perform much better than those using either of them alone; 3) visual perception may be accompanied by linguistic influences to represent the semantics of visual stimuli.'
+    summary: 该研究旨在开发一种能够解码人类视觉神经表示的通用方法，称为BraVL。该方法利用多模态学习来结合脑、视觉和语言特征。通过使用混合-of-product-of-experts公式，BraVL模型可以推导出一个共享的隐式代码，使其能够生成所有三个模态的合一表示。实验结果表明，解码新类别的视觉活动是可行的，并且使用多模态特征的模型比单模态特征的模型更准确。
+    citation:
+      source: Google Scholar
+      source_url: https://scholar.google.com/scholar?hl=en&q=%22Decoding+Visual+Neural+Representations+by+Multimodal+Learning+of+Brain-Visual-Linguistic+Features%22
+      verification_status: search_link_only
+    metadata_provenance:
+      identity_and_abstract: OpenAlex
+      openalex_url: https://openalex.org/W4361855028
+    resolution_status: resolved
+  casia-brain-ai:2:
+    team_id: casia-brain-ai
+    work_index: 2
+    catalog_title: A Neural Network for Modeling Human Concept Formation, Understanding and Communication
+    catalog_url: https://ia.cas.cn/rcdw/yjy/202404/t20240422_7130909.html
+    kind: paper_or_project
+    paper:
+      title: A neural network for modeling human concept formation, understanding and communication
+      url: https://doi.org/10.1038/s43588-026-00956-4
+      openalex_url: https://openalex.org/W7130514941
+      year: 2026
+      venue: Nature Computational Science
+      authors:
+      - Liangxuan Guo
+      - Haoyang Chen
+      - Yang Chen
+      - Yanchao Bi
+      - Shan Yu
+      external_ids:
+        DOI: 10.1038/s43588-026-00956-4
+        OpenAlex: https://openalex.org/W7130514941
+    abstract: A remarkable capability of the human brain is to form more abstract conceptual representations from sensorimotor experiences and flexibly apply them independent of direct sensory inputs. However, the computational mechanism underlying this ability remains poorly understood. Here we present a dual-module neural network framework, CATS Net, to bridge this gap. Our model consists of a concept-abstraction module that extracts low-dimensional conceptual representations, and a task-solving module that performs visual judgment tasks under the hierarchical gating control of the formed concepts. The system develops transferable semantic structure based on concept representations that enable cross-network knowledge transfer through conceptual communication. Model-brain fitting analyses reveal that these emergent concept spaces align with both neurocognitive semantic model and brain response structures in the human ventral occipitotemporal cortex, while the gating mechanisms mirror that in the semantic-control brain network. This work establishes a unified computational framework that can offer mechanistic insights for understanding human conceptual cognition and engineering artificial systems with human-like conceptual intelligence.
+    summary: 研究问题：人脑如何形成抽象概念并在感官输入下灵活应用。 核心方法：CATS Net（概念抽象网络），一个双模块网络框架，包括概念抽象模块和任务解决模块。该系统通过概念表示的跨网络知识转移实现了跨网络的概念通信。 主要实验结论：研究表明，CATS Net中的概念空间与人脑中涉及语义理解的神经元结构相符，而控制机制也与语义控制脑网的机制一致。
+    citation:
+      source: Google Scholar
+      source_url: https://scholar.google.com/scholar?hl=en&q=%22A+neural+network+for+modeling+human+concept+formation%2C+understanding+and+communication%22
+      verification_status: search_link_only
+    metadata_provenance:
+      identity_and_abstract: OpenAlex
+      openalex_url: https://openalex.org/W7130514941
+    resolution_status: resolved
+  casia-multimodal-ai-systems:0:
+    team_id: casia-multimodal-ai-systems
+    work_index: 0
+    catalog_title: 'ArcFace: Additive Angular Margin Loss for Deep Face Recognition'
+    catalog_url: https://arxiv.org/abs/1801.07698
+    kind: paper
+    summary: '这是团队公开的代表性研究成果。目录中的公开说明为：ArcFace: Additive Angular Margin Loss for Deep Face Recognition 可通过原始链接查看完整项目、论文或数据说明。'
+    citation: {}
+    resolution_status: unresolved
+  casia-multimodal-ai-systems:1:
+    team_id: casia-multimodal-ai-systems
+    work_index: 1
+    catalog_title: 'CASIA-SURF: A Large-scale Multi-modal Benchmark for Face Anti-spoofing'
+    catalog_url: https://arxiv.org/abs/1908.10654
+    kind: paper
+    paper:
+      title: 'CASIA-SURF: A Large-scale Multi-modal Benchmark for Face Anti-spoofing'
+      url: https://arxiv.org/abs/1908.10654
+      openalex_url: https://openalex.org/W2970246034
+      year: 2019
+      venue: arXiv (Cornell University)
+      authors:
+      - Shifeng Zhang
+      - Ajian Liu
+      - Jun Wan
+      - Yanyan Liang
+      - Guogong Guo
+      - Sérgio Escalera
+      - Hugo Jair Escalante
+      - Stan Z. Li
+      external_ids:
+        ArXiv: '1908.10654'
+        DOI: 10.48550/arxiv.1908.10654
+        OpenAlex: https://openalex.org/W2970246034
+    abstract: Face anti-spoofing is essential to prevent face recognition systems from a security breach. Much of the progresses have been made by the availability of face anti-spoofing benchmark datasets in recent years. However, existing face anti-spoofing benchmarks have limited number of subjects ($\le\negmedspace170$) and modalities ($\leq\negmedspace2$), which hinder the further development of the academic community. To facilitate face anti-spoofing research, we introduce a large-scale multi-modal dataset, namely CASIA-SURF, which is the largest publicly available dataset for face anti-spoofing in terms of both subjects and modalities. Specifically, it consists of $1,000$ subjects with $21,000$ videos and each sample has $3$ modalities (i.e., RGB, Depth and IR). We also provide comprehensive evaluation metrics, diverse evaluation protocols, training/validation/testing subsets and a measurement tool, developing a new benchmark for face anti-spoofing. Moreover, we present a novel multi-modal multi-scale fusion method as a strong baseline, which performs feature re-weighting to select the more informative channel features while suppressing the less useful ones for each modality across different scales. Extensive experiments have been conducted on the proposed dataset to verify its significance and generalization capability. The dataset is available at https://sites.google.com/qq.com/face-anti-spoofing/welcome/challengecvpr2019?authuser=0
+    summary: 面部反欺骗技术对于防止面部识别系统受到安全侵害至关重要。近年来，面部反欺骗benchmark数据集的可用性取得了显著进展。但是，现有的面部反欺骗benchmark数据集的主体人数和模态数量有限（人数不超过170人，模态不超过2），限制了学术界进一步发展的能力。为了促进面部反欺骗研究，我们推出了一大规模多模态数据集，称为CASIA-SURF，是目前公众可用的面部反欺骗数据集中最大的，包含1000名主体，21,000个视频，每个样本都有3种模态（即RGB、深度和IR）。我们还提供了全面评估指标、多种评估协议、训练/验证/测试子集以及测量工具，建立了一项新的面部反欺骗benchmark。另外
+    citation:
+      source: Google Scholar
+      source_url: https://scholar.google.com/scholar?hl=en&q=%22CASIA-SURF%3A+A+Large-scale+Multi-modal+Benchmark+for+Face+Anti-spoofing%22
+      verification_status: search_link_only
+    metadata_provenance:
+      identity_and_abstract: OpenAlex
+      openalex_url: https://openalex.org/W2970246034
+    resolution_status: resolved
+    figure:
+      image_url: https://ar5iv.labs.arxiv.org/html/1908.10654/assets/sample_final.png
+      caption: 'Figure 1: The CASIA-SURF dataset. It is a large-scale and multi-modal dataset for face anti-spoofing, consisting of 492 , 522 492 522 492,522 images with 3 3 3 modalities ( i.e. , RGB, Depth and IR).'
+      source_page: https://arxiv.org/abs/1908.10654
+      source_kind: 原论文流程 / 方法图（通过 ar5iv 渲染）
+      selection_score: 2
+  casia-multimodal-ai-systems:2:
+    team_id: casia-multimodal-ai-systems
+    work_index: 2
+    catalog_title: 'Partial FC: Training 10 Million Identities on a Single Machine'
+    catalog_url: https://arxiv.org/abs/2010.05222
+    kind: paper
+    paper:
+      title: 'Partial FC: Training 10 Million Identities on a Single Machine'
+      url: https://arxiv.org/abs/2010.05222
+      openalex_url: https://openalex.org/W3092005893
+      year: 2020
+      venue: arXiv (Cornell University)
+      authors:
+      - Xiang An
+      - Xuhan Zhu
+      - Xiao Yang
+      - Lan Wu
+      - Ming Zhang
+      - Yuan Gao
+      - Bin Qin
+      - Debing Zhang
+      - Ying Fu
+      external_ids:
+        ArXiv: '2010.05222'
+        DOI: 10.48550/arxiv.2010.05222
+        OpenAlex: https://openalex.org/W3092005893
+    abstract: Face recognition has been an active and vital topic among computer vision community for a long time. Previous researches mainly focus on loss functions used for facial feature extraction network, among which the improvements of softmax-based loss functions greatly promote the performance of face recognition. However, the contradiction between the drastically increasing number of face identities and the shortage of GPU memories is gradually becoming irreconcilable. In this paper, we thoroughly analyze the optimization goal of softmax-based loss functions and the difficulty of training massive identities. We find that the importance of negative classes in softmax function in face representation learning is not as high as we previously thought. The experiment demonstrates no loss of accuracy when training with only 10\% randomly sampled classes for the softmax-based loss functions, compared with training with full classes using state-of-the-art models on mainstream benchmarks. We also implement a very efficient distributed sampling algorithm, taking into account model accuracy and training efficiency, which uses only eight NVIDIA RTX2080Ti to complete classification tasks with tens of millions of identities. The code of this paper has been made available https://github.com/deepinsight/insightface/tree/master/recognition/partial_fc.
+    summary: 研究人员探讨了softmax-based损失函数在面部识别中的优化目标和难题。他们发现，负类别在softmax函数中对面部表示学习的重要性不如之前认为的那么高。实验结果表明，只使用10%随机采样类别的softmax损失函数可以保持准确率，与使用全部类别的状态-of-the-art模型相比没有差异。
+    citation:
+      source: Google Scholar
+      source_url: https://scholar.google.com/scholar?hl=en&q=%22Partial+FC%3A+Training+10+Million+Identities+on+a+Single+Machine%22
+      verification_status: search_link_only
+    metadata_provenance:
+      identity_and_abstract: OpenAlex
+      openalex_url: https://openalex.org/W3092005893
+    resolution_status: resolved
+    figure:
+      image_url: https://ar5iv.labs.arxiv.org/html/2010.05222/assets/x7.png
+      caption: "Figure 4: The structure of distributed implementation of our method. k \U0001D458 k means the number of GPUs. Allgather: Gather data from all GPUs and distribute the combined data to all GPUs. Allreduce: Sum up the data and distribute the results to all GPUs."
+      source_page: https://arxiv.org/abs/2010.05222
+      source_kind: 原论文流程 / 方法图（通过 ar5iv 渲染）
+      selection_score: 3
+  casia-taichu:0:
+    team_id: casia-taichu
+    work_index: 0
+    catalog_title: Steering LVLMs via Sparse Autoencoder for Hallucination Mitigation
+    catalog_url: https://arxiv.org/abs/2505.16146
+    kind: paper
+    paper:
+      title: Steering LVLMs via Sparse Autoencoder for Hallucination Mitigation
+      url: https://arxiv.org/abs/2505.16146
+      openalex_url: https://openalex.org/W4416447764
+      year: 2025
+      venue: arXiv (Cornell University)
+      authors:
+      - Zhengli Hua
+      - Jinghan He
+      - Zijun Yao
+      - Han, Tianxu
+      - Haiyun Guo
+      - Yuheng Jia
+      - Junfeng Fang
+      external_ids:
+        ArXiv: '2505.16146'
+        DOI: 10.48550/arxiv.2505.16146
+        OpenAlex: https://openalex.org/W4416447764
+    abstract: Large vision-language models (LVLMs) have achieved remarkable performance on multimodal tasks. However, they still suffer from hallucinations, generating text inconsistent with visual input, posing significant risks in real-world applications. Existing approaches to address this issue focus on incorporating external knowledge bases, alignment training, or decoding strategies, all of which require substantial computational cost and time. Recent works try to explore more efficient alternatives by adjusting LVLMs' internal representations. Although promising, these methods may cause hallucinations to be insufficiently suppressed or lead to excessive interventions that negatively affect normal semantics. In this work, we leverage sparse autoencoders (SAEs) to identify semantic directions closely associated with faithfulness or hallucination, extracting more precise and disentangled hallucination-related representations. Our analysis demonstrates that interventions along the identified faithful direction can mitigate hallucinations, while those along the hallucinatory direction can exacerbate them. Building on these insights, we propose Steering LVLMs via SAE Latent Directions (SSL), a plug-and-play method based on SAE-derived latent directions to mitigate hallucinations in LVLMs. Extensive experiments demonstrate that SSL significantly outperforms existing decoding approaches in mitigating hallucinations, while maintaining transferability across different model architectures with negligible additional time overhead. The code is available at https://github.com/huazhenglin2003/SSL.
+    summary: 研究者探索了如何有效地减少大型视觉语言模型（LVLM）的幻想现象。他们发现使用稀疏自动编码器（SAE）来识别相关的语义方向，可以有效地减少幻想现象并且不需要额外的计算资源。
+    citation:
+      source: Google Scholar
+      source_url: https://scholar.google.com/scholar?hl=en&q=%22Steering+LVLMs+via+Sparse+Autoencoder+for+Hallucination+Mitigation%22
+      verification_status: search_link_only
+    metadata_provenance:
+      identity_and_abstract: OpenAlex
+      openalex_url: https://openalex.org/W4416447764
+    resolution_status: resolved
+    figure:
+      image_url: https://ar5iv.labs.arxiv.org/html/2505.16146/assets/x4.png
+      caption: 'Figure 3: Overview of the proposed SSL approach leveraging SAE to identify semantically aligned directions and mitigate hallucination in LVLMs. We use SAE to identify latent directions within the internal representation space of LVLMs that are associated with hallucinatory and faithful semantics, denoted as d hall d_{\text{hall}} and d faithful d_{\text{faithful}} , respectively. These semantic directions are then used to modulate the residual stream at the l l -th layer, steering the generation process toward greater factual consistency.'
+      source_page: https://arxiv.org/abs/2505.16146
+      source_kind: 原论文流程 / 方法图（通过 ar5iv 渲染）
+      selection_score: 9
+  casia-taichu:1:
+    team_id: casia-taichu
+    work_index: 1
+    catalog_title: Zidong Taichu Cross-modal General Artificial Intelligence Platform
+    catalog_url: https://ia.cas.cn/xwzx/ttxw/202107/t20210709_6130180.html
+    kind: paper_or_project
+    summary: 这是团队公开的代表性研究成果。目录中的公开说明为：Zidong Taichu Cross-modal General Artificial Intelligence Platform 可通过原始链接查看完整项目、论文或数据说明。
+    citation: {}
+    resolution_status: unresolved
+  casia-taichu:2:
+    team_id: casia-taichu
+    work_index: 2
+    catalog_title: Zidong Taichu Omnimodal Cognitive Foundation Model
+    catalog_url: https://www.ia.cas.cn/xwzx/ttxw/202306/t20230616_6779379.html
+    kind: paper_or_project
+    summary: 这是团队公开的代表性研究成果。目录中的公开说明为：Zidong Taichu Omnimodal Cognitive Foundation Model 可通过原始链接查看完整项目、论文或数据说明。
+    citation: {}
+    resolution_status: unresolved
   cmu-auton-lab:0:
     team_id: cmu-auton-lab
     work_index: 0
@@ -1663,7 +1994,7 @@ works:
       openalex_url: https://openalex.org/W4223947322
     code_impact:
       github_stars: 370
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2204.07276/assets/x8.png
@@ -1706,7 +2037,7 @@ works:
       openalex_url: https://openalex.org/W4416549830
     code_impact:
       github_stars: 6
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2511.10848/assets/images/adapter.png
@@ -1724,7 +2055,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 1
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   cmu-generative-intelligence-lab:0:
     team_id: cmu-generative-intelligence-lab
@@ -1811,7 +2142,7 @@ works:
       openalex_url: https://openalex.org/W4402671291
     code_impact:
       github_stars: 4
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   cmu-machine-learning-department:1:
     team_id: cmu-machine-learning-department
@@ -1841,7 +2172,7 @@ works:
       openalex_url: https://openalex.org/W2203226646
     code_impact:
       github_stars: 1
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   cmu-machine-learning-department:2:
     team_id: cmu-machine-learning-department
@@ -1853,7 +2184,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 9
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   cmu-robotics-institute:0:
     team_id: cmu-robotics-institute
@@ -1966,7 +2297,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 1095
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   cuhk-mmlab:1:
     team_id: cuhk-mmlab
@@ -1978,7 +2309,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 975
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   cuhk-mmlab:2:
     team_id: cuhk-mmlab
@@ -1990,7 +2321,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 132
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   cuhk-t-stone-robotics:0:
     team_id: cuhk-t-stone-robotics
@@ -2054,7 +2385,7 @@ works:
       openalex_url: https://openalex.org/W4387994852
     code_impact:
       github_stars: 3014
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2310.16818/assets/x10.png
@@ -2072,7 +2403,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 7161
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   deepseek-research:2:
     team_id: deepseek-research
@@ -2112,7 +2443,7 @@ works:
       openalex_url: https://openalex.org/W4396815229
     code_impact:
       github_stars: 5021
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2405.04434/assets/x3.png
@@ -2182,7 +2513,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 14
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   fudan-disc:1:
     team_id: fudan-disc
@@ -2194,7 +2525,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 8
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   fudan-disc:2:
     team_id: fudan-disc
@@ -2234,7 +2565,7 @@ works:
       openalex_url: https://openalex.org/W4386942328
     code_impact:
       github_stars: 945
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2309.11325/assets/x1.png
@@ -2252,7 +2583,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 1512
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   fudan-nlp:1:
     team_id: fudan-nlp
@@ -2264,7 +2595,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 33
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   fudan-nlp:2:
     team_id: fudan-nlp
@@ -2276,7 +2607,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 1
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   google-deepmind:0:
     team_id: google-deepmind
@@ -2316,7 +2647,7 @@ works:
       openalex_url: https://openalex.org/W4392019715
     code_impact:
       github_stars: 388
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2402.13217/assets/x2.png
@@ -2357,7 +2688,7 @@ works:
       openalex_url: https://openalex.org/W4392223229
     code_impact:
       github_stars: 93
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2402.16837/assets/x1.png
@@ -2375,7 +2706,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 9
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   google-research:0:
     team_id: google-research
@@ -2387,7 +2718,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 38436
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   google-research:1:
     team_id: google-research
@@ -2399,7 +2730,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 1789
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   google-research:2:
     team_id: google-research
@@ -2411,7 +2742,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 120
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   hit-robotics-systems:0:
     team_id: hit-robotics-systems
@@ -2450,7 +2781,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 5260
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   hit-scir:1:
     team_id: hit-scir
@@ -2462,7 +2793,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 651
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   hit-scir:2:
     team_id: hit-scir
@@ -2474,7 +2805,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 655
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   hku-data-intelligence-lab:0:
     team_id: hku-data-intelligence-lab
@@ -2486,7 +2817,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 3218
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   hku-data-intelligence-lab:1:
     team_id: hku-data-intelligence-lab
@@ -2517,7 +2848,7 @@ works:
       openalex_url: https://openalex.org/W7166866896
     code_impact:
       github_stars: 932
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   hku-data-intelligence-lab:2:
     team_id: hku-data-intelligence-lab
@@ -2555,7 +2886,7 @@ works:
       openalex_url: https://openalex.org/W4387891144
     code_impact:
       github_stars: 834
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2310.13023/assets/x2.png
@@ -2645,7 +2976,7 @@ works:
       openalex_url: https://openalex.org/W4402660125
     code_impact:
       github_stars: 2
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   hku-sail:1:
     team_id: hku-sail
@@ -2678,7 +3009,7 @@ works:
       openalex_url: https://openalex.org/W7160099322
     code_impact:
       github_stars: 0
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   hku-sail:2:
     team_id: hku-sail
@@ -2713,7 +3044,7 @@ works:
       openalex_url: https://openalex.org/W4297821813
     code_impact:
       github_stars: 43
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2209.05800/assets/figures/translation_framework_final_v2.png
@@ -2752,7 +3083,7 @@ works:
       openalex_url: https://openalex.org/W4398811243
     code_impact:
       github_stars: 135
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2405.14539/assets/figures/system.png
@@ -2794,7 +3125,7 @@ works:
       openalex_url: https://openalex.org/W4393399562
     code_impact:
       github_stars: 546
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2403.20085/assets/inferrence_speed.png
@@ -2834,7 +3165,7 @@ works:
       openalex_url: https://openalex.org/W4385227320
     code_impact:
       github_stars: 437
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure: 
   hkust-caire:0:
@@ -2901,7 +3232,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 1
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   hkust-gz-dsail:1:
     team_id: hkust-gz-dsail
@@ -3066,7 +3397,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 1127
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   huawei-noahs-ark-lab:1:
     team_id: huawei-noahs-ark-lab
@@ -3078,7 +3409,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 4417
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   huawei-noahs-ark-lab:2:
     team_id: huawei-noahs-ark-lab
@@ -3090,7 +3421,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 3163
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   jd-ai-infrastructures:0:
     team_id: jd-ai-infrastructures
@@ -3124,7 +3455,7 @@ works:
       openalex_url: https://openalex.org/W7157764945
     code_impact:
       github_stars: 2022
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2604.25602/assets/img/oxy_monitor.png
@@ -3163,7 +3494,7 @@ works:
       openalex_url: https://openalex.org/W7166889112
     code_impact:
       github_stars: 105
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   jd-ai-infrastructures:2:
     team_id: jd-ai-infrastructures
@@ -3175,7 +3506,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 312
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   jd-embodied-ai:0:
     team_id: jd-embodied-ai
@@ -3209,7 +3540,7 @@ works:
       openalex_url: https://openalex.org/W7157764945
     code_impact:
       github_stars: 2022
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2604.25602/assets/img/oxy_monitor.png
@@ -3248,7 +3579,7 @@ works:
       openalex_url: https://openalex.org/W7166889112
     code_impact:
       github_stars: 105
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   jd-embodied-ai:2:
     team_id: jd-embodied-ai
@@ -3260,7 +3591,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 312
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   jd-multimodal-interaction-world-model:0:
     team_id: jd-multimodal-interaction-world-model
@@ -3294,7 +3625,7 @@ works:
       openalex_url: https://openalex.org/W7157764945
     code_impact:
       github_stars: 2022
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2604.25602/assets/img/oxy_monitor.png
@@ -3333,7 +3664,7 @@ works:
       openalex_url: https://openalex.org/W7166889112
     code_impact:
       github_stars: 105
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   jd-multimodal-interaction-world-model:2:
     team_id: jd-multimodal-interaction-world-model
@@ -3345,7 +3676,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 312
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   jd-multimodal-llm:0:
     team_id: jd-multimodal-llm
@@ -3379,7 +3710,7 @@ works:
       openalex_url: https://openalex.org/W7157764945
     code_impact:
       github_stars: 2022
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2604.25602/assets/img/oxy_monitor.png
@@ -3418,7 +3749,7 @@ works:
       openalex_url: https://openalex.org/W7166889112
     code_impact:
       github_stars: 105
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   jd-multimodal-llm:2:
     team_id: jd-multimodal-llm
@@ -3430,7 +3761,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 312
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   jd-speech-acoustics:0:
     team_id: jd-speech-acoustics
@@ -3464,7 +3795,7 @@ works:
       openalex_url: https://openalex.org/W7157764945
     code_impact:
       github_stars: 2022
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2604.25602/assets/img/oxy_monitor.png
@@ -3503,7 +3834,7 @@ works:
       openalex_url: https://openalex.org/W7166889112
     code_impact:
       github_stars: 105
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   jd-speech-acoustics:2:
     team_id: jd-speech-acoustics
@@ -3515,7 +3846,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 312
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   kuaishou-kling-ai-research:0:
     team_id: kuaishou-kling-ai-research
@@ -3527,7 +3858,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 543
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   kuaishou-kling-ai-research:1:
     team_id: kuaishou-kling-ai-research
@@ -3563,7 +3894,7 @@ works:
       openalex_url: https://openalex.org/W4406457559
     code_impact:
       github_stars: 493
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2501.08325/assets/x6.png
@@ -3609,7 +3940,7 @@ works:
       openalex_url: https://openalex.org/W4406810917
     code_impact:
       github_stars: 488
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2501.13918/assets/x1.png
@@ -3651,7 +3982,7 @@ works:
       openalex_url: https://openalex.org/W7119511922
     code_impact:
       github_stars: 6
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2601.03955/assets/x3.png
@@ -3669,7 +4000,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 4609
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   kuaishou-kolors:2:
     team_id: kuaishou-kolors
@@ -3705,7 +4036,7 @@ works:
       openalex_url: https://openalex.org/W4416530238
     code_impact:
       github_stars: 221
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2511.10555/assets/x2.png
@@ -3723,7 +4054,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 161
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   meituan-longcat:1:
     team_id: meituan-longcat
@@ -3735,7 +4066,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 78
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   meituan-longcat:2:
     team_id: meituan-longcat
@@ -3775,7 +4106,7 @@ works:
       openalex_url: https://openalex.org/W4416383416
     code_impact:
       github_stars: 27
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2510.08189/assets/x11.png
@@ -3817,7 +4148,7 @@ works:
       openalex_url: https://openalex.org/W4417286487
     code_impact:
       github_stars: 14046
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2503.11651/assets/x2.png
@@ -3835,7 +4166,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 3717
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   meta-fair:2:
     team_id: meta-fair
@@ -3870,7 +4201,7 @@ works:
       openalex_url: https://openalex.org/W4405090828
     code_impact:
       github_stars: 658
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2412.03572/assets/x1.png
@@ -3912,7 +4243,7 @@ works:
       openalex_url: https://openalex.org/W4417286487
     code_impact:
       github_stars: 14046
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2503.11651/assets/x2.png
@@ -3930,7 +4261,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 3717
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   meta-reality-labs-research:2:
     team_id: meta-reality-labs-research
@@ -3965,7 +4296,7 @@ works:
       openalex_url: https://openalex.org/W4405090828
     code_impact:
       github_stars: 658
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2412.03572/assets/x1.png
@@ -4011,7 +4342,7 @@ works:
       openalex_url: https://openalex.org/W4417327307
     code_impact:
       github_stars: 454
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2510.21571/assets/x2.png
@@ -4056,7 +4387,7 @@ works:
       openalex_url: https://openalex.org/W4405034976
     code_impact:
       github_stars: 13317
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2412.01506/assets/x2.png
@@ -4074,7 +4405,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 53008
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   microsoft-ai-frontiers:0:
     team_id: microsoft-ai-frontiers
@@ -4114,7 +4445,7 @@ works:
       openalex_url: https://openalex.org/W4417327307
     code_impact:
       github_stars: 454
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2510.21571/assets/x2.png
@@ -4159,7 +4490,7 @@ works:
       openalex_url: https://openalex.org/W4405034976
     code_impact:
       github_stars: 13317
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2412.01506/assets/x2.png
@@ -4177,7 +4508,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 53008
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   microsoft-computer-vision:0:
     team_id: microsoft-computer-vision
@@ -4217,7 +4548,7 @@ works:
       openalex_url: https://openalex.org/W4417327307
     code_impact:
       github_stars: 454
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2510.21571/assets/x2.png
@@ -4262,7 +4593,7 @@ works:
       openalex_url: https://openalex.org/W4405034976
     code_impact:
       github_stars: 13317
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2412.01506/assets/x2.png
@@ -4280,7 +4611,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 53008
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   microsoft-general-ai:0:
     team_id: microsoft-general-ai
@@ -4320,7 +4651,7 @@ works:
       openalex_url: https://openalex.org/W4417327307
     code_impact:
       github_stars: 454
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2510.21571/assets/x2.png
@@ -4365,7 +4696,7 @@ works:
       openalex_url: https://openalex.org/W4405034976
     code_impact:
       github_stars: 13317
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2412.01506/assets/x2.png
@@ -4383,7 +4714,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 53008
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   microsoft-machine-learning-area:0:
     team_id: microsoft-machine-learning-area
@@ -4423,7 +4754,7 @@ works:
       openalex_url: https://openalex.org/W4417327307
     code_impact:
       github_stars: 454
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2510.21571/assets/x2.png
@@ -4468,7 +4799,7 @@ works:
       openalex_url: https://openalex.org/W4405034976
     code_impact:
       github_stars: 13317
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2412.01506/assets/x2.png
@@ -4486,7 +4817,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 53008
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   minimax-research:0:
     team_id: minimax-research
@@ -4520,7 +4851,7 @@ works:
       openalex_url: https://openalex.org/W4417461713
     code_impact:
       github_stars: 495
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2512.13687/assets/x1.png
@@ -4566,7 +4897,7 @@ works:
       openalex_url: https://openalex.org/W4416070609
     code_impact:
       github_stars: 203
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2505.19641/assets/x1.png
@@ -4584,7 +4915,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 13174
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   mit-cbmm:0:
     team_id: mit-cbmm
@@ -4646,18 +4977,78 @@ works:
     catalog_title: Emergent Discrete Communication in Semantic Spaces
     catalog_url: https://arxiv.org/abs/2108.01828
     kind: paper
-    summary: 这是团队公开的代表性研究成果。目录中的公开说明为：Emergent Discrete Communication in Semantic Spaces 可通过原始链接查看完整项目、论文或数据说明。
-    citation: {}
-    resolution_status: unresolved
+    paper:
+      title: Emergent Discrete Communication in Semantic Spaces
+      url: https://arxiv.org/abs/2108.01828
+      openalex_url: https://openalex.org/W3189582301
+      year: 2021
+      venue: arXiv (Cornell University)
+      authors:
+      - Mycal Tucker
+      - Huao Li
+      - Siddharth Agrawal
+      - Dana Hughes
+      - Katia Sycara
+      - Michael Lewis
+      - Julie Shah
+      external_ids:
+        ArXiv: '2108.01828'
+        DOI: 10.48550/arxiv.2108.01828
+        OpenAlex: https://openalex.org/W3189582301
+    abstract: Neural agents trained in reinforcement learning settings can learn to communicate among themselves via discrete tokens, accomplishing as a team what agents would be unable to do alone. However, the current standard of using one-hot vectors as discrete communication tokens prevents agents from acquiring more desirable aspects of communication such as zero-shot understanding. Inspired by word embedding techniques from natural language processing, we propose neural agent architectures that enables them to communicate via discrete tokens derived from a learned, continuous space. We show in a decision theoretic framework that our technique optimizes communication over a wide range of scenarios, whereas one-hot tokens are only optimal under restrictive assumptions. In self-play experiments, we validate that our trained agents learn to cluster tokens in semantically-meaningful ways, allowing them communicate in noisy environments where other techniques fail. Lastly, we demonstrate both that agents using our method can effectively respond to novel human communication and that humans can understand unlabeled emergent agent communication, outperforming the use of one-hot communication.
+    summary: 研究者提出一种新型的神经网络模型，利用学习的连续空间生成离散通信token，从而实现零-shot理解和在 noisy 环境中有效通信。实验结果表明，这种方法优于传统的使用一-hot token的方法，并且可以让机器人有效地应对人类的新型通信和理解未标记的机器人通信。
+    citation:
+      source: Google Scholar
+      source_url: https://scholar.google.com/scholar?hl=en&q=%22Emergent+Discrete+Communication+in+Semantic+Spaces%22
+      verification_status: search_link_only
+    metadata_provenance:
+      identity_and_abstract: OpenAlex
+      openalex_url: https://openalex.org/W3189582301
+    resolution_status: resolved
+    figure:
+      image_url: https://ar5iv.labs.arxiv.org/html/2108.01828/assets/x1.png
+      caption: 'Figure 3 : Tracing seeker paths (black lines) and final locations (red dots) revealed the discretization imposed by prototypes.'
+      source_page: https://arxiv.org/abs/2108.01828
+      source_kind: 原论文流程 / 方法图（通过 ar5iv 渲染）
+      selection_score: 0
   mit-embodied-intelligence:1:
     team_id: mit-embodied-intelligence
     work_index: 1
     catalog_title: Learning to See by Looking at Noise
     catalog_url: https://arxiv.org/abs/2106.05963
     kind: paper
-    summary: 这是团队公开的代表性研究成果。目录中的公开说明为：Learning to See by Looking at Noise 可通过原始链接查看完整项目、论文或数据说明。
-    citation: {}
-    resolution_status: unresolved
+    paper:
+      title: Learning to See by Looking at Noise
+      url: https://arxiv.org/abs/2106.05963
+      openalex_url: https://openalex.org/W3169134411
+      year: 2021
+      venue: arXiv (Cornell University)
+      authors:
+      - Manel Baradad
+      - Jonas Wulff
+      - Tongzhou Wang
+      - Phillip Isola
+      - Antonio Torralba
+      external_ids:
+        ArXiv: '2106.05963'
+        DOI: 10.48550/arxiv.2106.05963
+        OpenAlex: https://openalex.org/W3169134411
+    abstract: 'Current vision systems are trained on huge datasets, and these datasets come with costs: curation is expensive, they inherit human biases, and there are concerns over privacy and usage rights. To counter these costs, interest has surged in learning from cheaper data sources, such as unlabeled images. In this paper we go a step further and ask if we can do away with real image datasets entirely, instead learning from noise processes. We investigate a suite of image generation models that produce images from simple random processes. These are then used as training data for a visual representation learner with a contrastive loss. We study two types of noise processes, statistical image models and deep generative models under different random initializations. Our findings show that it is important for the noise to capture certain structural properties of real data but that good performance can be achieved even with processes that are far from realistic. We also find that diversity is a key property to learn good representations. Datasets, models, and code are available at https://mbaradad.github.io/learning_with_noise.'
+    summary: 该研究探讨了使用无标签图像数据和噪声过程来训练视觉表示学习模型。研究人员使用不同类型的噪声过程（统计图像模型和深度生成模型）作为训练数据，结合对比损失来学习视觉表示。结果表明，噪声过程中需要捕捉真实数据的结构性特征，但即使使用不太接近现实的过程也可以获得良好的表现。此外，研究发现多样性是学习良好表示的关键属性。
+    citation:
+      source: Google Scholar
+      source_url: https://scholar.google.com/scholar?hl=en&q=%22Learning+to+See+by+Looking+at+Noise%22
+      verification_status: search_link_only
+    metadata_provenance:
+      identity_and_abstract: OpenAlex
+      openalex_url: https://openalex.org/W3169134411
+    resolution_status: resolved
+    figure:
+      image_url: https://ar5iv.labs.arxiv.org/html/2106.05963/assets/sup_figures/samples_per_eval_dataset/imagenet100.png
+      caption: 'Table 2 : Imagenet100 and VTAB linear evaluation results for Natural tasks (columns) after contrastive training on each of the datasets (rows). From left to right the columns correspond to the tasks: Imagenet100, CIFAR-100, Oxford Flowers102, Oxford IIIT Pets, SVHN, Caltech101, DTD and Sun397. In bold, best synthetic dataset, underlined when it also outperforms training with real images.'
+      source_page: https://arxiv.org/abs/2106.05963
+      source_kind: 原论文流程 / 方法图（通过 ar5iv 渲染）
+      selection_score: 6
   mit-embodied-intelligence:2:
     team_id: mit-embodied-intelligence
     work_index: 2
@@ -4666,10 +5057,10 @@ works:
     kind: paper
     paper:
       title: Long-Horizon Manipulation of Unknown Objects via Task and Motion Planning with Estimated Affordances
-      url: https://doi.org/10.1109/icra46639.2022.9812057
-      openalex_url: https://openalex.org/W3189699967
-      year: 2022
-      venue: 2022 International Conference on Robotics and Automation (ICRA)
+      url: https://arxiv.org/abs/2108.04145
+      openalex_url: https://openalex.org/W4285378882
+      year: 2021
+      venue: arXiv (Cornell University)
       authors:
       - Aidan Curtis
       - Xiaolin Fang
@@ -4677,18 +5068,25 @@ works:
       - Tomás Lozano‐Pérez
       - Caelan Reed Garrett
       external_ids:
-        DOI: 10.1109/icra46639.2022.9812057
-        OpenAlex: https://openalex.org/W3189699967
-    abstract: We present a strategy for designing and building very general robot manipulation systems using a general-purpose task-and-motion planner with both engineered and learned modules that estimate properties and affordances of unknown objects. Such systems are closed-loop policies that map from RGB images, depth images, and robot joint encoder measurements to robot joint position commands. We show that this strategy leads to intelligent behaviors even without a priori knowledge regarding the set of objects, their geometries, and their affordances. We show how these modules can be flexibly composed with robot-centric primitives using the PDDLStream task and motion planning framework. Finally, we demonstrate that this strategy can enable a single policy to perform a wide variety of real-world multi-step manipulation tasks, generalizing over a broad class of objects, arrangements, and goals, without prior knowledge of the environment or re-training.
-    summary: 该研究提出一种设计和构建广泛适用机器人操纵系统的策略，使用任务和运动规划器结合工程化和学习模块来估计未知物体的属性和 affordances。该策略使得机器人在没有先验知识的情况下表现出智能行为，并且可以 flexibly 组合 robot-centric primitives 使用 PDDLStream 框架。
+        ArXiv: '2108.04145'
+        DOI: 10.48550/arxiv.2108.04145
+        OpenAlex: https://openalex.org/W4285378882
+    abstract: We present a strategy for designing and building very general robot manipulation systems involving the integration of a general-purpose task-and-motion planner with engineered and learned perception modules that estimate properties and affordances of unknown objects. Such systems are closed-loop policies that map from RGB images, depth images, and robot joint encoder measurements to robot joint position commands. We show that following this strategy a task-and-motion planner can be used to plan intelligent behaviors even in the absence of a priori knowledge regarding the set of manipulable objects, their geometries, and their affordances. We explore several different ways of implementing such perceptual modules for segmentation, property detection, shape estimation, and grasp generation. We show how these modules are integrated within the PDDLStream task and motion planning framework. Finally, we demonstrate that this strategy can enable a single system to perform a wide variety of real-world multi-step manipulation tasks, generalizing over a broad class of objects, object arrangements, and goals, without any prior knowledge of the environment and without re-training.
+    summary: 该研究探讨了如何设计和构建能够在未知物体上执行多步操作的 robots 系统。该系统通过结合一般性任务和运动规划器与工程化和学习性的感知模块来实现。感知模块可以估计物体的属性和可用性，形成闭环策略，从图像、深度图和机器人关节编码测量到机器人关节位置指令。研究表明，这种策略可以在没有先验知识的情况下使用任务和运动规划器来计划智能行为。
     citation:
       source: Google Scholar
       source_url: https://scholar.google.com/scholar?hl=en&q=%22Long-Horizon+Manipulation+of+Unknown+Objects+via+Task+and+Motion+Planning+with+Estimated+Affordances%22
       verification_status: search_link_only
     metadata_provenance:
       identity_and_abstract: OpenAlex
-      openalex_url: https://openalex.org/W3189699967
+      openalex_url: https://openalex.org/W4285378882
     resolution_status: resolved
+    figure:
+      image_url: https://ar5iv.labs.arxiv.org/html/2108.04145/assets/figures/logs/run_21-04-16_17-30-18/0_observations_segmented.png
+      caption: 'Figure 5: Three segmentation masks predicted by uois -net-3 d during the system’s execution in Figure  14 . White pixels correspond to the table, chromatically-colored pixels correspond to object instances, and grey pixels are unassigned. Our system does not track objects over time, so each object instance is independently and arbitrarily assigned a color. Left : the initial segmentation mask. Middle : an intermediate segmentation mask after picking and placing two objects. Right : the final segmentation mask in a goal state.'
+      source_page: https://arxiv.org/abs/2108.04145
+      source_kind: 原论文流程 / 方法图（通过 ar5iv 渲染）
+      selection_score: 6
   mit-improbable-ai:0:
     team_id: mit-improbable-ai
     work_index: 0
@@ -4699,7 +5097,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 90
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   mit-improbable-ai:1:
     team_id: mit-improbable-ai
@@ -4738,7 +5136,7 @@ works:
       openalex_url: https://openalex.org/W4387634305
     code_impact:
       github_stars: 25
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2310.04413/assets/x2.png
@@ -4756,7 +5154,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 1426
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   moonshot-kimi:0:
     team_id: moonshot-kimi
@@ -4768,7 +5166,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 11053
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   moonshot-kimi:1:
     team_id: moonshot-kimi
@@ -4780,7 +5178,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 10972
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   moonshot-kimi:2:
     team_id: moonshot-kimi
@@ -4792,7 +5190,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 5453
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   nju-lamda-cl:0:
     team_id: nju-lamda-cl
@@ -4828,7 +5226,7 @@ works:
       openalex_url: https://openalex.org/W4319653960
     code_impact:
       github_stars: 285
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2302.03648/assets/x2.png
@@ -4871,7 +5269,7 @@ works:
       openalex_url: https://openalex.org/W4378945744
     code_impact:
       github_stars: 65
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2305.19270/assets/x8.png
@@ -4912,7 +5310,7 @@ works:
       openalex_url: https://openalex.org/W4414578380
     code_impact:
       github_stars: 59
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   nju-lamda:0:
     team_id: nju-lamda
@@ -4924,7 +5322,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 962
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   nju-lamda:1:
     team_id: nju-lamda
@@ -4981,7 +5379,7 @@ works:
       openalex_url: https://openalex.org/W4405957649
     code_impact:
       github_stars: 878
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2412.21037/assets/x2.png
@@ -5021,7 +5419,7 @@ works:
       openalex_url: https://openalex.org/W4383988280
     code_impact:
       github_stars: 12
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2307.04192/assets/x7.png
@@ -5039,7 +5437,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 10
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   ntu-grail:0:
     team_id: ntu-grail
@@ -5233,7 +5631,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 252
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   nus-cvml:1:
     team_id: nus-cvml
@@ -5285,7 +5683,7 @@ works:
       openalex_url: https://openalex.org/W7117245775
     code_impact:
       github_stars: 57
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2512.20292/assets/x2.png
@@ -5325,7 +5723,7 @@ works:
       openalex_url: https://openalex.org/W7118017416
     code_impact:
       github_stars: 24
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2512.24097/assets/x4.png
@@ -5362,7 +5760,7 @@ works:
       openalex_url: https://openalex.org/W4389524183
     code_impact:
       github_stars: 16
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   nvidia-cosmos-lab:0:
     team_id: nvidia-cosmos-lab
@@ -5395,7 +5793,7 @@ works:
       openalex_url: https://openalex.org/W4402754209
     code_impact:
       github_stars: 3453
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   nvidia-cosmos-lab:1:
     team_id: nvidia-cosmos-lab
@@ -5431,7 +5829,7 @@ works:
       openalex_url: https://openalex.org/W4406603889
     code_impact:
       github_stars: 2839
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2501.09898/assets/x5.png
@@ -5469,7 +5867,7 @@ works:
       openalex_url: https://openalex.org/W4400611405
     code_impact:
       github_stars: 2210
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2407.08083/assets/x1.png
@@ -5508,7 +5906,7 @@ works:
       openalex_url: https://openalex.org/W4402754209
     code_impact:
       github_stars: 3453
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   nvidia-dair:1:
     team_id: nvidia-dair
@@ -5544,7 +5942,7 @@ works:
       openalex_url: https://openalex.org/W4406603889
     code_impact:
       github_stars: 2839
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2501.09898/assets/x5.png
@@ -5582,7 +5980,7 @@ works:
       openalex_url: https://openalex.org/W4400611405
     code_impact:
       github_stars: 2210
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2407.08083/assets/x1.png
@@ -5621,7 +6019,7 @@ works:
       openalex_url: https://openalex.org/W4402754209
     code_impact:
       github_stars: 3453
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   nvidia-efficient-ai:1:
     team_id: nvidia-efficient-ai
@@ -5657,7 +6055,7 @@ works:
       openalex_url: https://openalex.org/W4406603889
     code_impact:
       github_stars: 2839
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2501.09898/assets/x5.png
@@ -5695,7 +6093,7 @@ works:
       openalex_url: https://openalex.org/W4400611405
     code_impact:
       github_stars: 2210
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2407.08083/assets/x1.png
@@ -5734,7 +6132,7 @@ works:
       openalex_url: https://openalex.org/W4402754209
     code_impact:
       github_stars: 3453
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   nvidia-gear:1:
     team_id: nvidia-gear
@@ -5770,7 +6168,7 @@ works:
       openalex_url: https://openalex.org/W4406603889
     code_impact:
       github_stars: 2839
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2501.09898/assets/x5.png
@@ -5808,7 +6206,7 @@ works:
       openalex_url: https://openalex.org/W4400611405
     code_impact:
       github_stars: 2210
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2407.08083/assets/x1.png
@@ -5826,7 +6224,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 34080
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   openai-research:1:
     team_id: openai-research
@@ -5863,7 +6261,7 @@ works:
       openalex_url: https://openalex.org/W7133197435
     code_impact:
       github_stars: 1720
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   openai-research:2:
     team_id: openai-research
@@ -5903,7 +6301,7 @@ works:
       openalex_url: https://openalex.org/W4403345800
     code_impact:
       github_stars: 1658
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure: 
   pku-alignment:0:
@@ -5943,7 +6341,7 @@ works:
       openalex_url: https://openalex.org/W4391631276
     code_impact:
       github_stars: 194
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2402.02416/assets/x5.png
@@ -5987,7 +6385,7 @@ works:
       openalex_url: https://openalex.org/W4414883426
     code_impact:
       github_stars: 154
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2503.03480/assets/x1.png
@@ -6028,7 +6426,7 @@ works:
       openalex_url: https://openalex.org/W4384615688
     code_impact:
       github_stars: 105
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2307.07176/assets/x2.png
@@ -6202,7 +6600,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 158
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   pku-dair:1:
     team_id: pku-dair
@@ -6241,7 +6639,7 @@ works:
       openalex_url: https://openalex.org/W4413349810
     code_impact:
       github_stars: 1
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   pku-dair:2:
     team_id: pku-dair
@@ -6253,7 +6651,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 674
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   pku-wu-lab:0:
     team_id: pku-wu-lab
@@ -6265,7 +6663,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 1
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   pku-wu-lab:1:
     team_id: pku-wu-lab
@@ -6350,7 +6748,7 @@ works:
       openalex_url: https://openalex.org/W7141194057
     code_impact:
       github_stars: 842
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2603.25040/assets/x1.png
@@ -6392,7 +6790,7 @@ works:
       openalex_url: https://openalex.org/W7130529623
     code_impact:
       github_stars: 34
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2602.16455/assets/x1.png
@@ -6437,7 +6835,7 @@ works:
       openalex_url: https://openalex.org/W7135231613
     code_impact:
       github_stars: 43
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2603.12252/assets/x3.png
@@ -6455,7 +6853,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 227
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   shanghai-ai-lab-internscience:1:
     team_id: shanghai-ai-lab-internscience
@@ -6467,7 +6865,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 523
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   shanghai-ai-lab-internscience:2:
     team_id: shanghai-ai-lab-internscience
@@ -6507,7 +6905,7 @@ works:
       openalex_url: https://openalex.org/W7128480959
     code_impact:
       github_stars: 1388
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2602.08990/assets/x8.png
@@ -6553,7 +6951,7 @@ works:
       openalex_url: https://openalex.org/W4405266876
     code_impact:
       github_stars: 1921
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2412.07626/assets/x2.png
@@ -6599,7 +6997,7 @@ works:
       openalex_url: https://openalex.org/W4416959403
     code_impact:
       github_stars: 35
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2512.01248/assets/x3.png
@@ -6641,7 +7039,7 @@ works:
       openalex_url: https://openalex.org/W7140294828
     code_impact:
       github_stars: 626
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2603.22458/assets/x3.png
@@ -6687,7 +7085,7 @@ works:
       openalex_url: https://openalex.org/W4416931790
     code_impact:
       github_stars: 311
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure: 
   shanghai-ai-lab-opendrivelab:1:
@@ -6728,7 +7126,7 @@ works:
       openalex_url: https://openalex.org/W7165390311
     code_impact:
       github_stars: 477
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2606.19836/assets/figure_nuplan_v2.png
@@ -6774,7 +7172,7 @@ works:
       openalex_url: https://openalex.org/W7128694070
     code_impact:
       github_stars: 329
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2602.11075/assets/x4.png
@@ -6820,7 +7218,7 @@ works:
       openalex_url: https://openalex.org/W4406031826
     code_impact:
       github_stars: 527
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2501.00574/assets/x1.png
@@ -6838,7 +7236,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 14
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   shanghai-ai-lab-opengvlab:2:
     team_id: shanghai-ai-lab-opengvlab
@@ -6850,7 +7248,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 69
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   sjtu-gair-nlp:0:
     team_id: sjtu-gair-nlp
@@ -6886,7 +7284,7 @@ works:
       openalex_url: https://openalex.org/W4407231762
     code_impact:
       github_stars: 1080
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2502.03387/assets/x1.png
@@ -6926,7 +7324,7 @@ works:
       openalex_url: https://openalex.org/W4400488544
     code_impact:
       github_stars: 842
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2407.06135/assets/x1.png
@@ -6967,7 +7365,7 @@ works:
       openalex_url: https://openalex.org/W4403785094
     code_impact:
       github_stars: 272
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2409.17115/assets/x3.png
@@ -6999,9 +7397,38 @@ works:
     catalog_title: When Noisy Labels Meet Long Tail Dilemmas
     catalog_url: https://arxiv.org/pdf/2211.10955
     kind: paper_or_project
-    summary: 这是团队公开的代表性研究成果。目录中的公开说明为：When Noisy Labels Meet Long Tail Dilemmas 可通过原始链接查看完整项目、论文或数据说明。
-    citation: {}
-    resolution_status: unresolved
+    paper:
+      title: 'When Noisy Labels Meet Long Tail Dilemmas: A Representation Calibration Method'
+      url: https://arxiv.org/abs/2211.10955
+      openalex_url: https://openalex.org/W4320561765
+      year: 2022
+      venue: arXiv (Cornell University)
+      authors:
+      - Manyi Zhang
+      - Zhao, Xuyang
+      - Jun Yao
+      - Chun Yuan
+      - Weiran Huang
+      external_ids:
+        ArXiv: '2211.10955'
+        DOI: 10.48550/arxiv.2211.10955
+        OpenAlex: https://openalex.org/W4320561765
+    abstract: Real-world large-scale datasets are both noisily labeled and class-imbalanced. The issues seriously hurt the generalization of trained models. It is hence significant to address the simultaneous incorrect labeling and class-imbalance, i.e., the problem of learning with noisy labels on long-tailed data. Previous works develop several methods for the problem. However, they always rely on strong assumptions that are invalid or hard to be checked in practice. In this paper, to handle the problem and address the limitations of prior works, we propose a representation calibration method RCAL. Specifically, RCAL works with the representations extracted by unsupervised contrastive learning. We assume that without incorrect labeling and class imbalance, the representations of instances in each class conform to a multivariate Gaussian distribution, which is much milder and easier to be checked. Based on the assumption, we recover underlying representation distributions from polluted ones resulting from mislabeled and class-imbalanced data. Additional data points are then sampled from the recovered distributions to help generalization. Moreover, during classifier training, representation learning takes advantage of representation robustness brought by contrastive learning, which further improves the classifier performance. We derive theoretical results to discuss the effectiveness of our representation calibration. Experiments on multiple benchmarks justify our claims and confirm the superiority of the proposed method.
+    summary: 研究者提出了一个称为RCAL的方法，旨在解决 noisy labels 和长尾数据的问题。该方法通过使用自主对比学习提取表示，并假设正确标签下的表示遵循多变量高斯分布，从而恢复受污染的表示并增加样本数量。实验结果表明RCAL方法可以有效改善分类器性能。
+    citation:
+      source: Google Scholar
+      source_url: https://scholar.google.com/scholar?hl=en&q=%22When+Noisy+Labels+Meet+Long+Tail+Dilemmas%3A+A+Representation+Calibration+Method%22
+      verification_status: search_link_only
+    metadata_provenance:
+      identity_and_abstract: OpenAlex
+      openalex_url: https://openalex.org/W4320561765
+    resolution_status: resolved
+    figure:
+      image_url: https://ar5iv.labs.arxiv.org/html/2211.10955/assets/figs/overview2.png
+      caption: 'Figure 2 : The illustration of the proposed method, uses the representations achieved by contrastive learning for follow-up distributional and individual representation calibrations.'
+      source_page: https://arxiv.org/abs/2211.10955
+      source_kind: 原论文流程 / 方法图（通过 ar5iv 渲染）
+      selection_score: 6
   sjtu-mint:0:
     team_id: sjtu-mint
     work_index: 0
@@ -7012,7 +7439,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 724
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   sjtu-mint:1:
     team_id: sjtu-mint
@@ -7024,7 +7451,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 519
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   sjtu-mint:2:
     team_id: sjtu-mint
@@ -7064,7 +7491,7 @@ works:
       openalex_url: https://openalex.org/W4416026884
     code_impact:
       github_stars: 342
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2511.04555/assets/x1.png
@@ -7129,7 +7556,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 30
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   stanford-crfm:1:
     team_id: stanford-crfm
@@ -7141,7 +7568,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 2864
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   stanford-crfm:2:
     team_id: stanford-crfm
@@ -7153,7 +7580,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 581
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   stanford-iliad:0:
     team_id: stanford-iliad
@@ -7186,7 +7613,7 @@ works:
       openalex_url: https://openalex.org/W3039563104
     code_impact:
       github_stars: 39
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   stanford-iliad:1:
     team_id: stanford-iliad
@@ -7221,7 +7648,7 @@ works:
       openalex_url: https://openalex.org/W3162929185
     code_impact:
       github_stars: 6
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   stanford-iliad:2:
     team_id: stanford-iliad
@@ -7248,8 +7675,8 @@ works:
       external_ids:
         DOI: 10.1109/hri61500.2025.10973807
         OpenAlex: https://openalex.org/W4410296736
-    abstract: Motor skills education often requires experienced professionals who can provide personalized instruction. Unfortu-nately, the availability of high-quality training can be limited for specialized tasks, such as high performance racing. Several recent works have proposed AI -assistance for motor skills instruction, ranging from rehabilitation to surgical robot tele-operation. However, these works often make simplifying assumptions on the student learning process, and fail to model how a teacher's assistance interacts with different individuals' abilities when determining optimal teaching strategies. Inspired by the idea of scaffolding from educational psychology, we leverage shared autonomy, a framework for combining user inputs with robot autonomy, to aid with curriculum design. Our key insight is that the way a student's behavior improves in the presence of assistance from an autonomous agent can highlight which sub-skills might be most “learnable” for the student, or within their Zone of Proximal Development. We use this to design Z-COACH, a method for using shared autonomy to provide personalized instruction targeting interpretable task sub-skills. In a user study <tex xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">$(\mathrm{n}=50)$</tex>, where we teach high performance racing in a simulated environment of the Thunderhill Raceway Park with the CARLA Autonomous Driving simulator, we show that Z-COACH helps identify which skills each student should first practice, leading to an overall improvement in driving time, behavior, and smoothness. Our work shows that increasingly available semi-autonomous capabilities (e.g. in vehicles, robots) can not only assist human users, but also help teach them.
-    summary: 研究者开发了Z-COACH方法，利用共享自主性框架来提供个人化的运动技能教育。该方法通过分析学生在自动化辅助下行为改善的方式，确定哪些子技能是最适合的学习目标。这项研究在一项用户实验中证明了Z-COACH的有效性，可以提高驾驶时间、行为和平滑度。
+    abstract: Motor skills education often requires experienced professionals who can provide personalized instruction. Unfortu-nately, the availability of high-quality training can be limited for specialized tasks, such as high performance racing. Several recent works have proposed AI -assistance for motor skills instruction, ranging from rehabilitation to surgical robot tele-operation. However, these works often make simplifying assumptions on the student learning process, and fail to model how a teacher's assistance interacts with different individuals' abilities when determining optimal teaching strategies. Inspired by the idea of scaffolding from educational psychology, we leverage shared autonomy, a framework for combining user inputs with robot autonomy, to aid with curriculum design. Our key insight is that the way a student's behavior improves in the presence of assistance from an autonomous agent can highlight which sub-skills might be most “learnable” for the student, or within their Zone of Proximal Development. We use this to design Z-COACH, a method for using shared autonomy to provide personalized instruction targeting interpretable task sub-skills. In a user study$(\mathrm{n}=50)$, where we teach high performance racing in a simulated environment of the Thunderhill Raceway Park with the CARLA Autonomous Driving simulator, we show that Z-COACH helps identify which skills each student should first practice, leading to an overall improvement in driving time, behavior, and smoothness. Our work shows that increasingly available semi-autonomous capabilities (e.g. in vehicles, robots) can not only assist human users, but also help teach them.
+    summary: 研究探讨了如何使用人机共主的方法来提供个性化的运动技能教育。该方法通过分析学生在自主机器辅助下行为改进的方式，确定哪些技能是最容易学习的。这项研究表明，该方法可以帮助学生提高驾驶速度、行为和平滑度。
     citation:
       source: Google Scholar
       source_url: https://scholar.google.com/scholar?hl=en&q=%22Shared+Autonomy+for+Proximal+Teaching%22
@@ -7259,7 +7686,7 @@ works:
       openalex_url: https://openalex.org/W4410296736
     code_impact:
       github_stars: 4
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   stanford-nlp:0:
     team_id: stanford-nlp
@@ -7271,7 +7698,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 7854
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   stanford-nlp:1:
     team_id: stanford-nlp
@@ -7309,7 +7736,7 @@ works:
       openalex_url: https://openalex.org/W4392781392
     code_impact:
       github_stars: 893
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2403.07809/assets/x1.png
@@ -7327,7 +7754,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 2
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   stanford-sail:0:
     team_id: stanford-sail
@@ -7366,7 +7793,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 943
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   stanford-svl:1:
     team_id: stanford-svl
@@ -7402,7 +7829,7 @@ works:
       openalex_url: https://openalex.org/W4320086290
     code_impact:
       github_stars: 51
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2206.01720/assets/figures/fig4.png
@@ -7420,7 +7847,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 1598
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   tencent-ai-lab:0:
     team_id: tencent-ai-lab
@@ -7452,7 +7879,7 @@ works:
       openalex_url: https://openalex.org/W4385573480
     code_impact:
       github_stars: 11
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   tencent-ai-lab:1:
     team_id: tencent-ai-lab
@@ -7487,7 +7914,7 @@ works:
       openalex_url: https://openalex.org/W4385848774
     code_impact:
       github_stars: 6644
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2308.06721/assets/x2.png
@@ -7505,7 +7932,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 2357
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   tencent-arc-lab:0:
     team_id: tencent-arc-lab
@@ -7517,7 +7944,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 10099
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   tencent-arc-lab:1:
     team_id: tencent-arc-lab
@@ -7555,7 +7982,7 @@ works:
       openalex_url: https://openalex.org/W7160924144
     code_impact:
       github_stars: 2041
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2605.10922/assets/x1.png
@@ -7597,7 +8024,7 @@ works:
       openalex_url: https://openalex.org/W4392737525
     code_impact:
       github_stars: 1737
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2403.06976/assets/x3.png
@@ -7615,7 +8042,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 1174
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   tencent-hunyuan:1:
     team_id: tencent-hunyuan
@@ -7627,7 +8054,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 1159
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   tencent-hunyuan:2:
     team_id: tencent-hunyuan
@@ -7666,7 +8093,7 @@ works:
       openalex_url: https://openalex.org/W4413146693
     code_impact:
       github_stars: 345
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   tencent-youtu-lab:0:
     team_id: tencent-youtu-lab
@@ -7704,7 +8131,7 @@ works:
       openalex_url: https://openalex.org/W4402955466
     code_impact:
       github_stars: 1568
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2409.02095/assets/x2.png
@@ -7722,7 +8149,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 8682
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   tencent-youtu-lab:2:
     team_id: tencent-youtu-lab
@@ -7734,7 +8161,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 18391
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   tsinghua-air:0:
     team_id: tsinghua-air
@@ -7773,7 +8200,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 296
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   tsinghua-coai:1:
     team_id: tsinghua-coai
@@ -7813,7 +8240,7 @@ works:
       openalex_url: https://openalex.org/W4392222558
     code_impact:
       github_stars: 231
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure: 
   tsinghua-coai:2:
@@ -7854,7 +8281,7 @@ works:
       openalex_url: https://openalex.org/W4400434242
     code_impact:
       github_stars: 102
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2407.03978/assets/x1.png
@@ -7899,7 +8326,7 @@ works:
       openalex_url: https://openalex.org/W4402427428
     code_impact:
       github_stars: 1868
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure: 
   tsinghua-keg-thudm:1:
@@ -7936,7 +8363,7 @@ works:
       openalex_url: https://openalex.org/W4399454812
     code_impact:
       github_stars: 710
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2406.03816/assets/x5.png
@@ -7981,7 +8408,7 @@ works:
       openalex_url: https://openalex.org/W4391463106
     code_impact:
       github_stars: 262
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure: 
   tsinghua-thunlp:0:
@@ -8022,7 +8449,7 @@ works:
       openalex_url: https://openalex.org/W4417530951
     code_impact:
       github_stars: 292
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2512.16649/assets/figures/fig2_training_dynamics.png
@@ -8040,7 +8467,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 117
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   tsinghua-thunlp:2:
     team_id: tsinghua-thunlp
@@ -8076,7 +8503,7 @@ works:
       openalex_url: https://openalex.org/W4403345278
     code_impact:
       github_stars: 17
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2410.06581/assets/x1.png
@@ -8174,7 +8601,7 @@ works:
       openalex_url: https://openalex.org/W4416373173
     code_impact:
       github_stars: 9
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2510.03885/assets/x5.png
@@ -8214,7 +8641,7 @@ works:
       openalex_url: https://openalex.org/W4404305132
     code_impact:
       github_stars: 8
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2410.17547/assets/x1.png
@@ -8254,7 +8681,7 @@ works:
       openalex_url: https://openalex.org/W4417012906
     code_impact:
       github_stars: 47
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2504.19104/assets/x2.png
@@ -8403,7 +8830,7 @@ works:
       openalex_url: https://openalex.org/W4403781307
     code_impact:
       github_stars: 231
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2407.12784/assets/x1.png
@@ -8449,7 +8876,7 @@ works:
       openalex_url: https://openalex.org/W4392488396
     code_impact:
       github_stars: 61
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2403.01749/assets/x1.png
@@ -8488,7 +8915,7 @@ works:
       openalex_url: https://openalex.org/W4417094991
     code_impact:
       github_stars: 38
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2503.01908/assets/x2.png
@@ -8587,7 +9014,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 90
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   umd-umiacs:1:
     team_id: umd-umiacs
@@ -8747,8 +9174,8 @@ works:
       external_ids:
         DOI: 10.1109/cvpr52734.2025.00690
         OpenAlex: https://openalex.org/W4413156392
-    abstract: 'The task of video generation requires synthesizing visually realistic and temporally coherent video frames. Existing methods primarily use asynchronous auto-regressive models or synchronous diffusion models to address this challenge. However, asynchronous auto-regressive models often suffer from inconsistencies between training and inference, leading to issues such as error accumulation, while synchronous diffusion models are limited by their reliance on rigid sequence length. To address these issues, we introduce Auto-Regressive Diffusion (AR-Diffusion), a novel model that combines the strengths of auto-regressive and diffusion models for flexible, asynchronous video generation. Specifically, our approach leverages diffusion to gradually corrupt video frames in both training and inference, reducing the discrepancy between these phases. Inspired by auto-regressive generation, we incorporate a non-decreasing constraint on the corruption timesteps of individual frames, ensuring that earlier frames remain clearer than subsequent ones. This setup, together with temporal causal attention, enables flexible generation of videos with varying lengths while preserving temporal coherence. In addition, we design two specialized timestep schedulers: the FoPP scheduler for balanced timestep sampling during training, and the AD scheduler for flexible timestep differences during inference, supporting both synchronous and asynchronous generation. Extensive experiments demonstrate the superiority of our proposed method, which achieves competitive and state-of-the-art results across four challenging benchmarks. <sup xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">1 2</sup>'
-    summary: 该研究探讨了视频生成任务，旨在合并异步自动回归模型和 diffusión 模型的优势。他们提出了 Auto-Regressive 扩散（AR-扩散）模型，该模型通过逐渐污染视频帧来解决异步生成中的不一致性问题。该模型结合了非递减约束和时间序列注意力，实现了可变长度视频的生成，同时保留时间连贯性。实验结果表明该方法在四个挑战性基准上取得了竞争性和领先性的成果。
+    abstract: 'The task of video generation requires synthesizing visually realistic and temporally coherent video frames. Existing methods primarily use asynchronous auto-regressive models or synchronous diffusion models to address this challenge. However, asynchronous auto-regressive models often suffer from inconsistencies between training and inference, leading to issues such as error accumulation, while synchronous diffusion models are limited by their reliance on rigid sequence length. To address these issues, we introduce Auto-Regressive Diffusion (AR-Diffusion), a novel model that combines the strengths of auto-regressive and diffusion models for flexible, asynchronous video generation. Specifically, our approach leverages diffusion to gradually corrupt video frames in both training and inference, reducing the discrepancy between these phases. Inspired by auto-regressive generation, we incorporate a non-decreasing constraint on the corruption timesteps of individual frames, ensuring that earlier frames remain clearer than subsequent ones. This setup, together with temporal causal attention, enables flexible generation of videos with varying lengths while preserving temporal coherence. In addition, we design two specialized timestep schedulers: the FoPP scheduler for balanced timestep sampling during training, and the AD scheduler for flexible timestep differences during inference, supporting both synchronous and asynchronous generation. Extensive experiments demonstrate the superiority of our proposed method, which achieves competitive and state-of-the-art results across four challenging benchmarks.1 2'
+    summary: 该研究提出了一种称为Auto-Regressive 扩散（AR-扩散）的新模型，旨在解决视频生成任务中的两个主要问题：异步模型的不一致性和同步模型的序列长度限制。通过结合自动回归和 diffusión 模型，AR-扩散可以实现 flexible、异步视频生成，并且能够保持时间连贯性。实验结果表明，该方法在四个挑战性benchmark上取得了竞争性和领先性的成果。
     citation:
       source: Google Scholar
       source_url: https://scholar.google.com/scholar?hl=en&q=%22AR-Diffusion%3A+Asynchronous+Video+Generation+with+Auto-Regressive+Diffusion%22
@@ -8821,7 +9248,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 0
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   uw-robotics:1:
     team_id: uw-robotics
@@ -8833,7 +9260,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 0
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   uw-robotics:2:
     team_id: uw-robotics
@@ -8845,7 +9272,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 0
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   uw-wail:0:
     team_id: uw-wail
@@ -8938,7 +9365,7 @@ works:
       openalex_url: https://openalex.org/W4415252517
     code_impact:
       github_stars: 45
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2509.16691/assets/x3.png
@@ -8983,7 +9410,7 @@ works:
       openalex_url: https://openalex.org/W7106713511
     code_impact:
       github_stars: 6
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2511.19278/assets/x2.png
@@ -9001,7 +9428,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 1943
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   xiaomi-embodied-intelligence:0:
     team_id: xiaomi-embodied-intelligence
@@ -9013,7 +9440,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 397
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   xiaomi-embodied-intelligence:1:
     team_id: xiaomi-embodied-intelligence
@@ -9025,7 +9452,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 12507
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   xiaomi-embodied-intelligence:2:
     team_id: xiaomi-embodied-intelligence
@@ -9065,7 +9492,7 @@ works:
       openalex_url: https://openalex.org/W4417517088
     code_impact:
       github_stars: 2288
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2505.07608/assets/x2.png
@@ -9083,7 +9510,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 12507
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   xiaomi-mimo:1:
     team_id: xiaomi-mimo
@@ -9123,7 +9550,7 @@ works:
       openalex_url: https://openalex.org/W4417517088
     code_impact:
       github_stars: 2288
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2505.07608/assets/x2.png
@@ -9141,7 +9568,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 1362
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   xjtu-ai-sec:0:
     team_id: xjtu-ai-sec
@@ -9207,7 +9634,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 12916
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   zhipu-glm:1:
     team_id: zhipu-glm
@@ -9219,7 +9646,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 1101
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   zhipu-glm:2:
     team_id: zhipu-glm
@@ -9258,7 +9685,7 @@ works:
       openalex_url: https://openalex.org/W4417143758
     code_impact:
       github_stars: 1024
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2512.05905/assets/x2.png
@@ -9302,7 +9729,7 @@ works:
       openalex_url: https://openalex.org/W4387800061
     code_impact:
       github_stars: 1805
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2310.11448/assets/x2.png
@@ -9346,7 +9773,7 @@ works:
       openalex_url: https://openalex.org/W4403624672
     code_impact:
       github_stars: 1800
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
   zju-3dv:2:
     team_id: zju-3dv
@@ -9385,7 +9812,7 @@ works:
       openalex_url: https://openalex.org/W4390573232
     code_impact:
       github_stars: 1373
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2401.01339/assets/x1.png
@@ -9403,7 +9830,7 @@ works:
     citation: {}
     code_impact:
       github_stars: 2886
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: unresolved
   zju-nlp-kg:1:
     team_id: zju-nlp-kg
@@ -9443,7 +9870,7 @@ works:
       openalex_url: https://openalex.org/W4416057654
     code_impact:
       github_stars: 1036
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2510.18866/assets/figure/Lightmem.png
@@ -9489,7 +9916,7 @@ works:
       openalex_url: https://openalex.org/W4406549451
     code_impact:
       github_stars: 487
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure: 
   zju-real:0:
@@ -9530,7 +9957,7 @@ works:
       openalex_url: https://openalex.org/W4416841435
     code_impact:
       github_stars: 310
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2507.15846/assets/x4.png
@@ -9576,7 +10003,7 @@ works:
       openalex_url: https://openalex.org/W4416386285
     code_impact:
       github_stars: 99
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2510.08531/assets/x4.png
@@ -9622,7 +10049,7 @@ works:
       openalex_url: https://openalex.org/W4414588912
     code_impact:
       github_stars: 82
-      checked_at: '2026-07-28'
+      checked_at: '2026-07-30'
     resolution_status: resolved
     figure:
       image_url: https://ar5iv.labs.arxiv.org/html/2505.21500/assets/x2.png

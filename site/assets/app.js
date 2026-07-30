@@ -109,10 +109,11 @@ function filteredTeams() {
 
 function leaderMarkup(profile) {
   if (profile.leaders.length) {
-    return profile.leaders.map((leader) => (
-      `<a href="${escapeHtml(leader.url)}" target="_blank" rel="noreferrer">${escapeHtml(leader.name)}</a>` +
-      ` · ${escapeHtml(leader.role)}`
-    )).join("<br>");
+    return profile.leaders.map((leader) => {
+      const sourceLabel = leader.profile_kind === "google_scholar_search" ? " · Scholar" : "";
+      return `<a href="${escapeHtml(leader.url)}" target="_blank" rel="noreferrer">${escapeHtml(leader.name)}</a>` +
+        ` · ${escapeHtml(leader.role)}${sourceLabel}`;
+    }).join("<br>");
   }
   return `${escapeHtml(profile.leadership_note)} ` +
     `<a href="${escapeHtml(profile.leadership_source)}" target="_blank" rel="noreferrer">成员页 ↗</a>`;
@@ -200,7 +201,7 @@ function teamMarkup(team) {
           <p>${escapeHtml(team.parent.name)} · ${escapeHtml(labels[team.parent.region] || team.parent.region)}</p>
         </div>
         <div class="meta-item">
-          <span>负责人 / 研究成员</span>
+          <span>代表性负责人 / 教师</span>
           <p>${leaderMarkup(profile)}</p>
         </div>
       </div>

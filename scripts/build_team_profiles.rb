@@ -7,6 +7,7 @@ require "yaml"
 ROOT = File.expand_path("..", __dir__)
 PARENTS_PATH = File.join(ROOT, "data", "seed-parents.yaml")
 TEAMS_PATH = File.join(ROOT, "data", "research-teams.yaml")
+LEADERS_PATH = File.join(ROOT, "data", "team-leaders.yaml")
 
 FOCUS_ZH = {
   "foundation-models" => "基础模型",
@@ -59,6 +60,8 @@ FOCUS_ZH = {
   "autonomous-systems" => "自主系统",
   "biology" => "计算生物学",
   "biosecurity" => "生物安全",
+  "brain-computer-interface" => "脑机接口",
+  "brain-inspired-ai" => "类脑智能",
   "causal-learning" => "因果学习",
   "chemistry" => "计算化学",
   "cloud-computing" => "云计算",
@@ -89,6 +92,7 @@ FOCUS_ZH = {
   "evolutionary-computation" => "进化计算",
   "explainable-ai" => "可解释 AI",
   "graph-learning" => "图学习",
+  "governance" => "AI 治理",
   "human-ai-collaboration" => "人机协作",
   "human-compatible-ai" => "人类兼容 AI",
   "human-motion" => "人体运动建模",
@@ -174,43 +178,6 @@ TYPE_ZH = {
   "university_research_network" => "高校研究网络"
 }.freeze
 
-# Only include leaders whose role and official/person page have been manually verified.
-LEADERS = {
-  "mit-csail" => [
-    { "name" => "Daniela Rus", "role" => "Director", "url" => "https://www.csail.mit.edu/person/daniela-rus" }
-  ],
-  "mit-cbmm" => [
-    { "name" => "Tomaso Poggio", "role" => "Co-Director", "url" => "https://cbmm.mit.edu/about/people/poggio" }
-  ],
-  "stanford-crfm" => [
-    { "name" => "Percy Liang", "role" => "Director", "url" => "https://cs.stanford.edu/~pliang/" }
-  ],
-  "stanford-iliad" => [
-    { "name" => "Dorsa Sadigh", "role" => "Faculty Lead", "url" => "https://dorsa.fyi/" }
-  ],
-  "berkeley-rail" => [
-    { "name" => "Sergey Levine", "role" => "Faculty Lead", "url" => "https://people.eecs.berkeley.edu/~svlevine/" }
-  ],
-  "berkeley-chai" => [
-    { "name" => "Stuart Russell", "role" => "Founder and Faculty Director", "url" => "https://people.eecs.berkeley.edu/~russell/" }
-  ],
-  "pku-camera-intelligence" => [
-    { "name" => "Boxin Shi", "role" => "Principal Investigator", "url" => "https://camera.pku.edu.cn/team" }
-  ],
-  "nju-lamda" => [
-    { "name" => "Zhi-Hua Zhou", "role" => "Head of LAMDA", "url" => "https://cs.nju.edu.cn/zhouzh/" }
-  ],
-  "umd-gamma" => [
-    { "name" => "Dinesh Manocha", "role" => "Director", "url" => "https://www.cs.umd.edu/people/dmanocha" }
-  ],
-  "cuhk-language-processing-lab" => [
-    { "name" => "Zhenguang Cai", "role" => "Lab Director", "url" => "https://cuhklpl.github.io/" }
-  ],
-  "uiuc-blender-lab" => [
-    { "name" => "Heng Ji", "role" => "Director", "url" => "https://blender.cs.illinois.edu/" }
-  ]
-}.freeze
-
 def github_owner(url)
   uri = URI.parse(url)
   return unless uri.host == "github.com"
@@ -231,8 +198,23 @@ end
 
 parents_data = YAML.load_file(PARENTS_PATH)
 teams_data = YAML.load_file(TEAMS_PATH)
+leaders_data = YAML.load_file(LEADERS_PATH)
 parents = %w[companies frontier_ai_companies universities].flat_map { |key| parents_data.fetch(key) }
 parent_by_id = parents.to_h { |parent| [parent.fetch("id"), parent] }
+people_by_id = leaders_data.fetch("people")
+leaders_by_team = leaders_data.fetch("teams").transform_values do |memberships|
+  memberships.map do |membership|
+    person = people_by_id.fetch(membership.fetch("person"))
+    {
+      "name" => person.fetch("name"),
+      "role" => membership.fetch("role"),
+      "url" => person.fetch("profile_url"),
+      "profile_kind" => person.fetch("profile_kind"),
+      "evidence_url" => membership.fetch("evidence_url"),
+      "selection_basis" => membership.fetch("selection_basis")
+    }
+  end
+end
 
 profiles = {}
 
@@ -258,7 +240,7 @@ teams_data.fetch("teams").each do |team|
   directions = team.fetch("focus").map { |focus| FOCUS_ZH.fetch(focus, focus.split("-").join(" ")) }
   type_name = TYPE_ZH.fetch(team.fetch("team_type"), team.fetch("team_type").split("_").join(" "))
   intro = "#{team.fetch('name')} 隶属于 #{parent.fetch('name')}，是一支主要关注#{directions.first(3).join('、')}#{directions.length > 3 ? '等方向' : ''}的#{type_name}。本目录依据其官方主页、近期论文或研究型开源活动持续核验。"
-  leaders = LEADERS.fetch(team.fetch("id"), [])
+  leaders = leaders_by_team.fetch(team.fetch("id"), [])
 
   profiles[team.fetch("id")] = {
     "logo" => logo,
@@ -279,8 +261,9 @@ payload = {
   "last_updated" => teams_data.fetch("last_updated").to_s,
   "notes" => [
     "Logo priority: team GitHub avatar, then the icon of the official team site.",
-    "Leader names are only included when a role and official/person page were manually verified.",
-    "A leadership note is shown instead of guessing when no single public lead is identifiable."
+    "Every team has three representative research leaders or influential faculty/research contributors.",
+    "Formal leadership titles are used only when supported by an official source; other entries are explicitly labeled as faculty, collaborators, or senior researchers.",
+    "Profile links prefer official personal pages and otherwise use a labeled Google Scholar author search."
   ],
   "teams" => profiles
 }

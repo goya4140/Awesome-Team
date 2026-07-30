@@ -1,6 +1,6 @@
 schema_version: 1
-last_updated: "2026-07-28"
-activity_window: "2024-07-28/2026-07-28"
+last_updated: "2026-07-30"
+activity_window: "2024-07-30/2026-07-30"
 methodology: "../docs/TEAM_COLLECTION_METHOD.md"
 link_check:
   checked_at: "2026-07-28"
@@ -1855,6 +1855,82 @@ teams:
         - "https://github.com/InternLM"
     status: verified
 
+  # China — national research institutes
+  - id: cas-ai-innovation-academy
+    name: CAS Artificial Intelligence Innovation Academy
+    parent_id: chinese-academy-sciences
+    team_type: research_platform
+    focus: [artificial-intelligence, multimodal, decision-making, ai-for-science]
+    homepages:
+      - { kind: official, url: "https://www.bjb.cas.cn/xtdw2016/sljg2016/201612/t20161208_4718524.html" }
+      - { kind: official, url: "https://ia.cas.cn/gkjj/yjsjj/" }
+    evidence:
+      affiliation:
+        - "https://www.bjb.cas.cn/xtdw2016/sljg2016/201612/t20161208_4718524.html"
+        - "https://ia.cas.cn/gkjj/yjsjj/"
+      recent_activity:
+        - "https://www.cas.cn/yx/202404/t20240419_5011963.shtml"
+    status: verified
+
+  - id: casia-multimodal-ai-systems
+    name: CASIA National Key Laboratory of Multimodal Artificial Intelligence Systems
+    parent_id: casia
+    team_type: frontier_ai_research_team
+    focus: [multimodal, computer-vision, robotics, embodied-ai]
+    homepages:
+      - { kind: official, url: "https://www.ia.cas.cn/jgsz/kyxt/dmtrgzn/" }
+    evidence:
+      affiliation:
+        - "https://www.ia.cas.cn/jgsz/kyxt/dmtrgzn/"
+      recent_activity:
+        - "https://www.ia.cas.cn/qtgn/tzgg/202605/t20260515_8202627.html"
+    status: verified
+
+  - id: casia-taichu
+    name: CASIA Zidong Taichu Large Model Research Center
+    parent_id: casia
+    team_type: foundation_model_team
+    focus: [foundation-models, multimodal, large-language-models, computer-vision]
+    homepages:
+      - { kind: official, url: "https://ia.cas.cn/jgsz/kyxt/zztc/" }
+      - { kind: official, url: "http://taichu.ia.ac.cn/" }
+    evidence:
+      affiliation:
+        - "https://ia.cas.cn/jgsz/kyxt/zztc/"
+      recent_activity:
+        - "https://www.ia.cas.cn/xwzx/mtsm/202502/t20250221_7530956.html"
+    status: verified
+
+  - id: casia-brain-ai
+    name: CASIA Brain Atlas and Brain-inspired Intelligence Laboratory
+    parent_id: casia
+    team_type: frontier_ai_research_team
+    focus: [computational-neuroscience, brain-inspired-ai, brain-computer-interface, multimodal]
+    homepages:
+      - { kind: official, url: "https://www.ia.cas.cn/jgsz/kyxt/brain/" }
+      - { kind: official, url: "http://brain-ai.ia.ac.cn/" }
+    evidence:
+      affiliation:
+        - "https://www.ia.cas.cn/jgsz/kyxt/brain/"
+      recent_activity:
+        - "https://ia.cas.cn/xwzx/jryw/202601/t20260127_8119396.html"
+    status: verified
+
+  - id: casia-ai-ethics-governance
+    name: CASIA Research Center for AI Ethics and Governance
+    parent_id: casia
+    team_type: frontier_ai_research_team
+    focus: [responsible-ai, ai-safety, societal-impacts, governance]
+    homepages:
+      - { kind: official, url: "https://www.ia.cas.cn/jgsz/kyxt/llyzl/" }
+      - { kind: official, url: "https://www.ai-ethics-and-governance.institute/" }
+    evidence:
+      affiliation:
+        - "https://www.ia.cas.cn/jgsz/kyxt/llyzl/"
+      recent_activity:
+        - "https://www.ia.cas.cn/kxyj/kydt_1/202304/t20230427_6746848.html"
+    status: verified
+
   - id: shanghai-ai-lab-opengvlab
     name: OpenGVLab
     parent_id: shanghai-ai-lab
@@ -1935,6 +2011,8 @@ coverage:
   - { parent_id: zhipu-ai, status: searched, team_count: 1 }
   - { parent_id: moonshot-ai, status: searched, team_count: 1 }
   - { parent_id: minimax, status: searched, team_count: 1 }
+  - { parent_id: chinese-academy-sciences, status: searched, team_count: 1 }
+  - { parent_id: casia, status: searched, team_count: 4 }
   - { parent_id: shanghai-ai-lab, status: searched, team_count: 5 }
   - { parent_id: alphabet, status: searched, team_count: 2 }
   - { parent_id: meta, status: searched, team_count: 2 }
