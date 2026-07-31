@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Qwen Team 公开研究档案：团队画像、活跃信号、项目、论文与可核验来源。">
+    <meta name="theme-color" content="#000000">
+    <meta property="og:title" content="Qwen Team · 公开研究档案">
+    <meta property="og:description" content="从 Qwen 官方研究页、QwenLM GitHub 与技术报告重建可检索、可追溯的公开研究档案。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://goya4140.github.io/Awesome-Team/qwen.html">
+    <meta property="og:image" content="https://goya4140.github.io/Awesome-Team/assets/qwen-og.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Qwen Team · 公开研究档案｜Awesome Team</title>
+    <link rel="icon" href="assets/team-logos/alibaba-qwen.webp">
+    <link rel="stylesheet" href="assets/qwen.css?v=20260731-v1">
+    <script defer src="assets/qwen.js?v=20260731-v1"></script>
+  </head>
+  <body>
+    <header class="site-nav">
+      <a class="qwen-brand" href="#top" aria-label="Qwen Team 公开研究档案首页">
+        <img src="assets/qwen-logo.png" alt="Qwen" width="180" height="48">
+        <span>RESEARCH ATLAS</span>
+      </a>
+      <nav aria-label="页面导航">
+        <a href="#profile">团队画像</a>
+        <a href="#activity">活跃信号</a>
+        <a href="#keywords">论文关键词</a>
+        <a href="#people">公开人物</a>
+        <a href="#projects">公开项目</a>
+        <a href="#publications">近期论文</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="https://github.com/QwenLM" target="_blank" rel="noreferrer">QwenLM ↗</a>
+        <a class="nav-primary" href="index.html">Awesome Team ↗</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="hero-kicker">QWEN TEAM · PUBLIC RESEARCH ATLAS</p>
+          <h1>从开放模型，<br><em>走向全域智能。</em></h1>
+          <p id="hero-positioning" class="hero-intro">
+            从开放权重语言模型出发，持续扩展到多模态、智能体、语音、视觉生成与具身智能的公开研究网络。
+          </p>
+          <div class="hero-links">
+            <a class="button primary" href="#publications">浏览近期论文 <span aria-hidden="true">↓</span></a>
+            <a class="button ghost" href="https://qwen.ai/research" target="_blank" rel="noreferrer">Qwen Research ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <i></i><i></i><i></i>
+        </div>
+
+        <div class="hero-stats" aria-label="Qwen 公开研究统计">
+          <article><span>OFFICIAL RESEARCH</span><strong id="stat-research">—</strong><small>官方研究条目</small></article>
+          <article><span>PUBLIC REPOSITORIES</span><strong id="stat-repositories">—</strong><small>QwenLM 公开仓库</small></article>
+          <article><span>90-DAY ACTIVE</span><strong id="stat-active">—</strong><small>近期活跃仓库</small></article>
+          <article><span>PUBLICATIONS</span><strong id="stat-publications">—</strong><small>本页论文工作集</small></article>
+        </div>
+      </section>
+
+      <aside class="evidence-note" aria-label="证据说明">
+        <span class="evidence-signal" aria-hidden="true"></span>
+        <p>
+          <strong>EVIDENCE NOTE</strong>
+          Qwen 官方研究入口同时包含模型发布、开源动态与研究文章。本页仅把具有论文原文、且由官方仓库或研究入口连接的条目纳入论文工作集；GitHub 推送用于判断代码活动，不写成论文发布日期。
+        </p>
+        <a href="#methodology">查看归属方法 ↓</a>
+      </aside>
+
+      <section class="section profile" id="profile">
+        <div class="section-heading">
+          <div>
+            <p class="section-number">01 / CURRENT TEAM PROFILE</p>
+            <h2>一条开放模型路线，<br>六种研究纵深</h2>
+          </div>
+          <div class="section-copy">
+            <p>Qwen 从通用语言模型扩展为相互连接的研究体系。方向由团队自述、近年技术报告与官方仓库共同支持。</p>
+            <p id="team-boundary">页面描述可核验的公开研究工作集，不代表阿里巴巴内部组织架构、完整成员名录或全部研究成果。</p>
+          </div>
+        </div>
+        <div id="direction-grid" class="direction-grid" aria-label="Qwen 当前公开研究方向"></div>
+      </section>
+
+      <section class="section activity" id="activity">
+        <div class="section-heading">
+          <div>
+            <p class="section-number">02 / ACTIVITY SIGNALS</p>
+            <h2>公开研究网络，<br>仍在持续运转</h2>
+          </div>
+          <div class="section-copy">
+            <p>论文公开、仓库推送、模型发布和项目更新分别回答不同问题，不被压缩为一个模糊的“最新时间”。</p>
+            <p>活动窗口：<span id="activity-window">—</span>；本轮核验截止：<span id="checked-at">—</span>。</p>
+          </div>
+        </div>
+        <div class="activity-layout">
+          <div id="activity-list" class="activity-list"></div>
+          <aside class="activity-summary">
+            <p>PUBLIC EVIDENCE MIX</p>
+            <strong>4</strong>
+            <span>类公开活动信号</span>
+            <ul>
+              <li>Research / 研究发布</li>
+              <li>Code / 代码维护</li>
+              <li>Model / 模型生态</li>
+              <li>Paper / 技术报告</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section keywords" id="keywords">
+        <div class="section-heading">
+          <div>
+            <p class="section-number">03 / ABSTRACT KEYWORDS</p>
+            <h2>摘要中的<br>研究重心</h2>
+          </div>
+          <div class="section-copy">
+            <p>关键词按“包含该术语的论文数”计算跨论文覆盖率，同一论文可以覆盖多个关键词，比例不能相加。</p>
+            <p><span id="abstract-count">—</span> 篇论文具有可核验 Abstract；结构化结果保存在独立数据文件中。</p>
+            <p><a href="data/qwen-keywords.json">查看结构化数据 ↗</a> · <a href="assets/qwen-keywords.png">打开可复现关键词图 ↗</a></p>
+          </div>
+        </div>
+        <div class="keyword-map">
+          <div class="keyword-core" aria-hidden="true">
+            <img src="assets/team-logos/alibaba-qwen.webp" alt="" width="96" height="96">
+            <b>QWEN</b>
+            <span id="keyword-denominator">— ABSTRACTS</span>
+          </div>
+          <div id="keyword-bars" class="keyword-bars" aria-label="Qwen 公开论文摘要关键词覆盖率"></div>
+        </div>
+      </section>
+
+      <section class="section people" id="people">
+        <div class="section-heading">
+          <div>
+            <p class="section-number">04 / PUBLIC PEOPLE</p>
+            <h2>公开人物证据，<br>不够就保持空缺</h2>
+          </div>
+          <div class="section-copy">
+            <p>Qwen 当前官方研究页没有维护可核验的完整现任成员目录。论文署名只能证明公开协作，不能自动升级为当前任职。</p>
+          </div>
+        </div>
+        <div class="people-gap">
+          <div>
+            <span>VERIFICATION STATUS</span>
+            <strong>暂不展示现任成员卡片</strong>
+          </div>
+          <p>
+            本页不会把论文作者频次、历史新闻或单篇署名写成“现任成员”。人物进入本模块前，必须拥有当前个人主页、官方员工页或团队页中的任职证据。
+          </p>
+          <a href="#methodology">查看人物纳入规则 ↘</a>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-heading">
+          <div>
+            <p class="section-number">05 / PUBLIC PROJECTS</p>
+            <h2>模型、Agent 与工具，<br>组成开放研究系统</h2>
+          </div>
+          <div class="section-copy">
+            <p>项目保持 QwenLM 原始组织归属，并区分模型、框架、工具与 benchmark；项目顺序不按 Stars 排名。</p>
+          </div>
+        </div>
+        <div id="project-grid" class="project-grid"></div>
+      </section>
+
+      <section class="section publications" id="publications">
+        <div class="section-heading">
+          <div>
+            <p class="section-number">06 / RECENT PUBLICATIONS</p>
+            <h2>可搜索、可筛选，<br>也可回到原文</h2>
+          </div>
+          <div class="section-copy">
+            <p>工作集覆盖 2024—2026 年。每篇论文保留论文、代码和最强归属证据入口。</p>
+          </div>
+        </div>
+
+        <form class="filters" id="publication-filters">
+          <label class="search-field">
+            <span>SEARCH</span>
+            <input id="paper-search" type="search" placeholder="标题、作者或 Abstract 关键词" autocomplete="off">
+          </label>
+          <label>
+            <span>TOPIC</span>
+            <select id="paper-topic"><option value="">全部方向</option></select>
+          </label>
+          <label>
+            <span>YEAR</span>
+            <select id="paper-year"><option value="">全部年份</option></select>
+          </label>
+          <label>
+            <span>EVIDENCE</span>
+            <select id="paper-evidence"><option value="">全部归属证据</option></select>
+          </label>
+          <label>
+            <span>SORT</span>
+            <select id="paper-sort">
+              <option value="recent">时间：新到旧</option>
+              <option value="oldest">时间：旧到新</option>
+              <option value="title">标题：A–Z</option>
+            </select>
+          </label>
+          <button id="paper-reset" type="reset">重置</button>
+        </form>
+
+        <div class="result-line" aria-live="polite">
+          <p>当前找到 <strong id="paper-count">0</strong> 篇论文</p>
+          <span>搜索覆盖标题、作者与 Abstract</span>
+        </div>
+        <div id="paper-list" class="paper-list"></div>
+        <p id="paper-empty" class="paper-empty" hidden>没有符合当前条件的论文。</p>
+        <button id="load-more" class="load-more" type="button" hidden>加载更多</button>
+      </section>
+
+      <section class="section methodology" id="methodology">
+        <div class="section-heading">
+          <div>
+            <p class="section-number">07 / SOURCE & ATTRIBUTION</p>
+            <h2>结论与证据，<br>一起保存</h2>
+          </div>
+          <div class="section-copy">
+            <p>来源说明它支持什么，也说明它不能证明什么。数据会随官方页面更新，归属规则保持稳定。</p>
+          </div>
+        </div>
+        <div id="source-grid" class="source-grid"></div>
+        <div class="method-grid">
+          <article>
+            <span>PUBLICATION RULE</span>
+            <p>正式论文至少需要 Qwen 官方仓库或研究入口直接连接论文，或论文明确署名与另一条官方证据组合。</p>
+          </article>
+          <article>
+            <span>PEOPLE RULE</span>
+            <p>人物必须有当前任职来源；论文署名、作者频次和历史报道只作为发现线索。</p>
+          </article>
+          <article>
+            <span>WHAT WE DO NOT CLAIM</span>
+            <p>不声称完整成员、内部组织结构、全部论文，也不把仓库推送时间当作论文发布日期。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-brand">
+        <img src="assets/qwen-logo.png" alt="Qwen" width="180" height="48">
+        <strong>PUBLIC RESEARCH ATLAS</strong>
+      </div>
+      <p>Independent public research profile · Sources remain with their original owners.</p>
+      <div><a href="index.html">AWESOME TEAM ↗</a><a href="#top">BACK TO TOP ↑</a></div>
+    </footer>
+  </body>
+</html>

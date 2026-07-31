@@ -13,6 +13,7 @@ AI 论文越来越多，但研究者的注意力并没有变多。<br>
 [![Method figures](https://img.shields.io/badge/原文图表-125-f3f1e8?style=for-the-badge&labelColor=091827)](docs/RESEARCH_TEAMS.md)
 
 [**浏览研究团队与论文 →**](https://goya4140.github.io/Awesome-Team/)　·　
+[**进入 Qwen Team 研究专页 →**](https://goya4140.github.io/Awesome-Team/qwen.html)　·　
 [**进入 ByteDance Seed 研究专页 →**](https://goya4140.github.io/Awesome-Team/seed.html)　·　
 [**进入 Tencent Youtu 研究专页 →**](https://goya4140.github.io/Awesome-Team/youtu.html)　·　
 [**进入 Tencent Hunyuan 研究专页 →**](https://goya4140.github.io/Awesome-Team/hunyuan.html)　·　
@@ -43,6 +44,7 @@ AI 生产力正在高速增长。大量论文持续涌现，AI 顶会的收录�
 - **近期工作与代表作：** 每个团队单列最近公开工作，并整理三项代表成果。
 - **不止标题的论文信息：** 提供基于 Abstract 的中文 TL;DR、Semantic Scholar 引用量、Google Scholar 入口与原文方法图。
 - **可核验的团队画像：** 展示所属机构、研究方向、公开负责人 / 教师与官方来源，并明确区分 `verified` 与 `provisional`。
+- **Qwen Team 研究专页：** 以官方研究入口、QwenLM 仓库和技术报告重建开放研究档案，覆盖方向、活动、项目、关键词和 2024—2026 论文工作集，[进入专题档案](https://goya4140.github.io/Awesome-Team/qwen.html)。
 - **ByteDance Seed 研究专页：** 汇总 Seed 团队、公开研究者、212 篇公开论文与 Abstract 关键词方向，[进入专题档案](https://goya4140.github.io/Awesome-Team/seed.html)。
 - **Tencent Youtu 研究专页：** 从研究仓库、负责人主页和论文署名重建优图实验室的当前研究网络，覆盖活跃信号、项目与近期论文，[进入专题档案](https://goya4140.github.io/Awesome-Team/youtu.html)。
 - **Tencent Hunyuan 研究专页：** 以官方仓库、技术报告和研究者主页重建混元的公开研究档案，覆盖团队画像、活跃项目与 2024—2026 论文工作集，[进入专题档案](https://goya4140.github.io/Awesome-Team/hunyuan.html)。
@@ -77,6 +79,7 @@ AI 生产力正在高速增长。大量论文持续涌现，AI 顶会的收录�
 **Follow the teams shaping AI, not just the paper count.**
 
 [在线目录](https://goya4140.github.io/Awesome-Team/) ·
+[Qwen 研究专页](https://goya4140.github.io/Awesome-Team/qwen.html) ·
 [Youtu 研究专页](https://goya4140.github.io/Awesome-Team/youtu.html) ·
 [Hunyuan 研究专页](https://goya4140.github.io/Awesome-Team/hunyuan.html) ·
 [完整团队清单](docs/RESEARCH_TEAMS.md) ·

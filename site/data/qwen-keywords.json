@@ -1,0 +1,46 @@
+{
+  "source": "Qwen Team public paper abstracts",
+  "generated_at": "2026-07-31",
+  "working_set_count": 15,
+  "paper_count": 15,
+  "metric": "document_frequency",
+  "methodology": "Curated Qwen research vocabulary, normalized across synonymous expressions and ranked by the number of distinct abstracts containing each topic. Generic academic boilerplate is excluded.",
+  "keywords": [
+    {
+      "keyword": "开放发布",
+      "name": "open-source",
+      "document_count": 10,
+      "document_share": 0.6667
+    },
+    {
+      "keyword": "推理",
+      "name": "reasoning",
+      "document_count": 9,
+      "document_share": 0.6
+    },
+    {
+      "keyword": "多模态",
+      "name": "multimodal",
+      "document_count": 7,
+      "document_share": 0.4667
+    },
+    {
+      "keyword": "多语言",
+      "name": "multilingual",
+      "document_count": 6,
+      "document_share": 0.4
+    },
+    {
+      "keyword": "效率",
+      "name": "efficiency",
+      "document_count": 6,
+      "document_share": 0.4
+    },
+    {
+      "keyword": "智能体",
+      "name": "agent",
+      "document_count": 5,
+      "document_share": 0.3333
+    }
+  ]
+}
