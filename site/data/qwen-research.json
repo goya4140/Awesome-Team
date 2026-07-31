@@ -1,0 +1,393 @@
+{
+  "team": {
+    "name": "Qwen Team",
+    "parentOrganization": "Alibaba Group / Alibaba Cloud",
+    "aliases": ["Qwen", "通义千问", "QwenLM"],
+    "positioning": "从开放权重语言模型出发，持续扩展到多模态、智能体、语音、视觉生成与具身智能的公开研究网络。",
+    "boundary": "本页依据 Qwen 官方研究页、QwenLM GitHub 组织和官方技术报告构建。它描述可核验的公开研究工作集，不代表阿里巴巴内部组织架构、完整成员名录或全部研究成果。",
+    "checkedAt": "2026-07-31",
+    "activityWindowStart": "2024-08-01"
+  },
+  "designReference": {
+    "primaryUrl": "https://qwen.ai/research",
+    "fallbackUrl": "https://github.com/QwenLM",
+    "checkedAt": "2026-07-31",
+    "sourceType": "current_official_team_site",
+    "theme": {
+      "primaryColor": "#0a28f0",
+      "accentColors": [
+        "#c9b9ff",
+        "#b9d8ff",
+        "#f7f8fc"
+      ],
+      "backgroundTone": "dark",
+      "typographyCharacter": "minimal technical",
+      "shapeLanguage": "large whitespace, rounded cards and pill controls",
+      "imageLanguage": "soft blue-lavender abstract geometry",
+      "motionLanguage": "subtle transitions"
+    },
+    "notes": "Information architecture follows the Awesome Team framework; visual language references the current Qwen research site without copying its marketing content."
+  },
+  "stats": {
+    "officialResearchEntries": 33,
+    "publicRepositories": 49,
+    "activeRepositories90Days": 15,
+    "publications": 15,
+    "papersWithAbstracts": 15
+  },
+  "directions": [
+    {
+      "name": "Foundation Models",
+      "label": "基础模型",
+      "description": "统一思考与非思考模式，覆盖 Dense 与 MoE 架构，并将多语言能力作为模型底座。"
+    },
+    {
+      "name": "Multimodal & Omni",
+      "label": "全模态",
+      "description": "把文本、图像、音频和视频理解与实时语音生成纳入同一模型系统。"
+    },
+    {
+      "name": "Agent & World Models",
+      "label": "智能体与世界模型",
+      "description": "从代码智能体、浏览器环境到语言世界模型，研究可执行、可规划的通用智能体。"
+    },
+    {
+      "name": "Vision & Generation",
+      "label": "视觉与生成",
+      "description": "视觉语言理解、复杂文字渲染、图像生成与精确编辑共同构成视觉研究主线。"
+    },
+    {
+      "name": "Speech & Audio",
+      "label": "语音与音频",
+      "description": "覆盖流式语音识别、强制对齐、声音克隆、语音设计与低延迟生成。"
+    },
+    {
+      "name": "Embodied Intelligence",
+      "label": "具身智能",
+      "description": "以视觉—语言—动作模型统一操作、导航、轨迹预测和不同机器人形态。"
+    }
+  ],
+  "activity": [
+    {
+      "date": "2026-07-31",
+      "type": "Code",
+      "title": "qwen-code 持续推送",
+      "description": "GitHub API 显示 qwen-code 在核验当日仍有推送，属于代码维护信号，不等同于论文发布日期。",
+      "url": "https://github.com/QwenLM/qwen-code"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "Release",
+      "title": "Qwen-Image-3.0",
+      "description": "官方研究索引发布新一代图像模型更新，强调内容密度、真实细节与知识表达。",
+      "url": "https://qwen.ai/research"
+    },
+    {
+      "date": "2026-06-23",
+      "type": "Paper + Code",
+      "title": "Qwen-AgentWorld",
+      "description": "语言世界模型、论文与官方仓库同步公开，连接环境模拟与通用智能体训练。",
+      "url": "https://github.com/QwenLM/Qwen-AgentWorld"
+    },
+    {
+      "date": "2026-06-16",
+      "type": "Model Suite",
+      "title": "Qwen-Robot Suite",
+      "description": "官方研究页集中发布操作、导航与世界建模项目，具身智能成为新的公开方向。",
+      "url": "https://qwen.ai/research"
+    }
+  ],
+  "keywords": [
+    {"name": "reasoning", "label": "推理", "papers": 9},
+    {"name": "multimodal", "label": "多模态", "papers": 7},
+    {"name": "open-source", "label": "开放发布", "papers": 10},
+    {"name": "multilingual", "label": "多语言", "papers": 6},
+    {"name": "agent", "label": "智能体", "papers": 5},
+    {"name": "efficiency", "label": "效率", "papers": 6}
+  ],
+  "projects": [
+    {
+      "name": "Qwen3.6",
+      "kind": "Foundation model",
+      "description": "面向真实世界智能体与编码任务的新一代语言模型系列。",
+      "url": "https://github.com/QwenLM/Qwen3.6",
+      "signal": "2026-06-03 推送"
+    },
+    {
+      "name": "Qwen-AgentWorld",
+      "kind": "World model",
+      "description": "覆盖七类智能体环境的语言世界模型与 AgentWorldBench。",
+      "url": "https://github.com/QwenLM/Qwen-AgentWorld",
+      "signal": "论文 + 代码"
+    },
+    {
+      "name": "Qwen-VLA",
+      "kind": "Embodied AI",
+      "description": "统一操作、导航和轨迹预测的视觉—语言—动作基础模型。",
+      "url": "https://github.com/QwenLM/Qwen-VLA",
+      "signal": "arXiv 2605.30280"
+    },
+    {
+      "name": "Qwen3-Omni",
+      "kind": "Omni-modal",
+      "description": "统一文本、图像、音频、视频理解与实时语音生成。",
+      "url": "https://github.com/QwenLM/Qwen3-Omni",
+      "signal": "Apache 2.0"
+    },
+    {
+      "name": "Qwen-Image",
+      "kind": "Image generation",
+      "description": "面向复杂文字渲染与精确图像编辑的生成基础模型。",
+      "url": "https://github.com/QwenLM/Qwen-Image",
+      "signal": "技术报告"
+    },
+    {
+      "name": "Qwen3-Coder",
+      "kind": "Coding agent",
+      "description": "服务代码智能体的开放权重模型与终端智能体生态。",
+      "url": "https://github.com/QwenLM/Qwen3-Coder",
+      "signal": "2026 技术报告"
+    },
+    {
+      "name": "Qwen3-TTS",
+      "kind": "Speech generation",
+      "description": "支持声音设计、克隆、多语言和流式生成的语音模型。",
+      "url": "https://github.com/QwenLM/Qwen3-TTS",
+      "signal": "Apache 2.0"
+    },
+    {
+      "name": "Qwen3-ASR",
+      "kind": "Speech recognition",
+      "description": "覆盖 52 种语言与方言的识别、语言检测和时间戳预测。",
+      "url": "https://github.com/QwenLM/Qwen3-ASR",
+      "signal": "论文 + 工具包"
+    }
+  ],
+  "publications": [
+    {
+      "id": "2606.24597",
+      "title": "Qwen-AgentWorld: Language World Models for General Agents",
+      "publishedAt": "2026-06-23",
+      "year": 2026,
+      "venue": "arXiv",
+      "topic": "Agent & Reasoning",
+      "authors": ["Yuxin Zuo", "Zikai Xiao", "Li Sheng", "Fei Huang", "Jianhong Tu", "Yuxuan Liu", "Tianyi Tang", "Xiaomeng Hu", "Yang Su", "Qingfeng Lan", "Yantao Liu", "Qin Zhu", "Yinger Zhang", "Bowen Yu", "Haiquan Zhao", "Haiyang Xu", "Jianxin Yang", "Jiayang Cheng", "Junyang Wang", "Lianghao Deng", "Mingfeng Xue", "Tianyi Bai", "Yang Fan", "Yubo Ma", "Yucheng Li", "Zeyu Cui", "Zhihai Wang", "Zhihui Xie", "Zhuorui Ye", "An Yang", "Dayiheng Liu", "Jingren Zhou", "Ning Ding"],
+      "abstract": "A world model predicts environment dynamics from observations and actions. Qwen-AgentWorld introduces language world models that simulate agentic environments across seven domains through long chain-of-thought reasoning, plus AgentWorldBench and two ways to use simulation for agent training.",
+      "paperUrl": "https://arxiv.org/abs/2606.24597",
+      "codeUrl": "https://github.com/QwenLM/Qwen-AgentWorld",
+      "attribution": {"kind": "official_team_release", "label": "官方团队仓库 + 论文", "sourceUrl": "https://github.com/QwenLM/Qwen-AgentWorld"}
+    },
+    {
+      "id": "2605.30280",
+      "title": "Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments",
+      "publishedAt": "2026-05-28",
+      "year": 2026,
+      "venue": "arXiv",
+      "topic": "Embodied AI",
+      "authors": ["Qiuyue Wang", "Mingsheng Li", "Jian Guan", "Jinhui Ye", "Sicheng Xie", "Yitao Liu", "Junhao Chen", "Zhixuan Liang", "Jie Zhang", "Xintong Hu", "Xuhong Huang", "Pei Lin", "Junyang Lin", "Dayiheng Liu", "Shuai Bai", "Jingren Zhou", "Jiazhao Zhang", "Haoqi Yuan", "Gengze Zhou", "Hang Yin", "Ye Wang", "Yiyang Huang", "Zixing Lei", "Wujian Peng", "Delin Chen", "Yingming Zheng", "Jingyang Fan", "Xianwei Zhuang", "Xin Zhou", "Haoyang Li", "Anzhe Chen", "Tong Zhang", "Xuejing Liu", "Yuchong Sun", "Ruizhe Chen", "Zhaohai Li", "Chenxu Lü", "Zhibo Yang", "Tao Yu", "Xionghui Chen"],
+      "abstract": "Qwen-VLA extends Qwen's vision-language stack from perception and reasoning to continuous action generation. It unifies manipulation, navigation and trajectory prediction, while embodiment-aware prompts adapt one model to multiple robot platforms.",
+      "paperUrl": "https://arxiv.org/abs/2605.30280",
+      "codeUrl": "https://github.com/QwenLM/Qwen-VLA",
+      "attribution": {"kind": "official_team_release", "label": "官方团队仓库 + 论文", "sourceUrl": "https://github.com/QwenLM/Qwen-VLA"}
+    },
+    {
+      "id": "2603.00729",
+      "title": "Qwen3-Coder-Next Technical Report",
+      "publishedAt": "2026-02-28",
+      "year": 2026,
+      "venue": "arXiv",
+      "topic": "Code & Agent",
+      "authors": ["Ruisheng Cao", "Mouxiang Chen", "Jiawei Chen", "Zeyu Cui", "Yunlong Feng", "Binyuan Hui", "Yuheng Jing", "Kaixin Li", "Mingze Li", "Junyang Lin", "Zeyao Ma", "Kashun Shum", "Xuwu Wang", "Jinxi Wei", "Jiaxi Yang", "Jiajun Zhang", "Lei Zhang", "Zongmeng Zhang", "Wenting Zhao", "Fan Zhou"],
+      "abstract": "Qwen3-Coder-Next is an 80-billion-parameter coding-agent model that activates 3 billion parameters during inference. Its training combines large-scale verifiable coding tasks, executable environments, mid-training and reinforcement learning.",
+      "paperUrl": "https://arxiv.org/abs/2603.00729",
+      "codeUrl": "https://github.com/QwenLM/Qwen3-Coder",
+      "attribution": {"kind": "official_team_release", "label": "官方模型仓库索引", "sourceUrl": "https://github.com/QwenLM/Qwen3-Coder"}
+    },
+    {
+      "id": "2601.21337",
+      "title": "Qwen3-ASR Technical Report",
+      "publishedAt": "2026-01-29",
+      "year": 2026,
+      "venue": "arXiv",
+      "topic": "Speech & Audio",
+      "authors": ["Xian Shi", "Xiong Wang", "Zhifang Guo", "Yongqi Wang", "Pei Zhang", "Xinyu Zhang", "Zishan Guo", "Hongkun Hao", "Yu Xi", "Baosong Yang", "Jin Xu", "Jingren Zhou", "Junyang Lin"],
+      "abstract": "Qwen3-ASR combines all-in-one speech recognition with a non-autoregressive forced alignment model. The family supports language identification and recognition for 52 languages and dialects, plus timestamp prediction.",
+      "paperUrl": "https://arxiv.org/abs/2601.21337",
+      "codeUrl": "https://github.com/QwenLM/Qwen3-ASR",
+      "attribution": {"kind": "official_team_release", "label": "官方团队仓库 + 论文", "sourceUrl": "https://github.com/QwenLM/Qwen3-ASR"}
+    },
+    {
+      "id": "2601.15621",
+      "title": "Qwen3-TTS Technical Report",
+      "publishedAt": "2026-01-22",
+      "year": 2026,
+      "venue": "arXiv",
+      "topic": "Speech & Audio",
+      "authors": ["Hangrui Hu", "Xinfa Zhu", "Ting He", "Dake Guo", "Bin Zhang", "Xiong Wang", "Zhifang Guo", "Ziyue Jiang", "Hongkun Hao", "Zishan Guo", "Xinyu Zhang", "Pei Zhang", "Baosong Yang", "Jin Xu", "Jingren Zhou", "Junyang Lin"],
+      "abstract": "Qwen3-TTS is a multilingual, controllable and streaming speech generation family. It supports three-second voice cloning, description-based voice design and ultra-low-latency generation through specialized speech tokenizers.",
+      "paperUrl": "https://arxiv.org/abs/2601.15621",
+      "codeUrl": "https://github.com/QwenLM/Qwen3-TTS",
+      "attribution": {"kind": "official_team_release", "label": "官方团队仓库 + 论文", "sourceUrl": "https://github.com/QwenLM/Qwen3-TTS"}
+    },
+    {
+      "id": "2511.21631",
+      "title": "Qwen3-VL Technical Report",
+      "publishedAt": "2025-11-26",
+      "year": 2025,
+      "venue": "arXiv",
+      "topic": "Multimodal",
+      "authors": ["Shuai Bai", "Yuxuan Cai", "Ruizhe Chen", "Keqin Chen", "Xionghui Chen", "Zesen Cheng", "Lianghao Deng", "Wei Ding", "Chang Gao", "Chunjiang Ge", "Wenbin Ge", "Zhifang Guo", "Qidong Huang", "Jie Huang", "Fei Huang", "Binyuan Hui", "Shutong Jiang", "Zhaohai Li", "Mingsheng Li", "Mei Li", "Kaixin Li", "Zicheng Lin", "Junyang Lin", "Xuejing Liu", "Dayiheng Liu", "Jin Xu", "Jianxin Yang", "An Yang", "Bowen Yu", "Jingren Zhou", "Fan Zhou"],
+      "abstract": "Qwen3-VL supports interleaved text, image and video contexts up to 256K tokens. It strengthens long-context multimodal understanding, spatial-temporal modeling and image-grounded reasoning across dense and MoE variants.",
+      "paperUrl": "https://arxiv.org/abs/2511.21631",
+      "codeUrl": "https://github.com/QwenLM/Qwen3-VL",
+      "attribution": {"kind": "official_team_release", "label": "官方团队仓库 + 论文", "sourceUrl": "https://github.com/QwenLM/Qwen3-VL"}
+    },
+    {
+      "id": "2509.17765",
+      "title": "Qwen3-Omni Technical Report",
+      "publishedAt": "2025-09-22",
+      "year": 2025,
+      "venue": "arXiv",
+      "topic": "Multimodal",
+      "authors": ["Jin Xu", "Zhifang Guo", "Hangrui Hu", "Yunfei Chu", "Xiong Wang", "Jinzheng He", "Yuxuan Wang", "Xian Shi", "Ting He", "Xinfa Zhu", "Pei Zhang", "Xinyu Zhang", "Baosong Yang", "Shuai Bai", "Dayiheng Liu", "Rui Men", "Fan Zhou", "Bowen Yu", "Jianxin Yang", "Le Yu", "Jingren Zhou", "Junyang Lin"],
+      "abstract": "Qwen3-Omni unifies text, image, audio and video in a Thinker–Talker MoE architecture. It targets real-time multimodal interaction, streaming speech and explicit reasoning over inputs from any modality.",
+      "paperUrl": "https://arxiv.org/abs/2509.17765",
+      "codeUrl": "https://github.com/QwenLM/Qwen3-Omni",
+      "attribution": {"kind": "official_team_release", "label": "官方团队仓库 + 论文", "sourceUrl": "https://github.com/QwenLM/Qwen3-Omni"}
+    },
+    {
+      "id": "2508.02324",
+      "title": "Qwen-Image Technical Report",
+      "publishedAt": "2025-08-04",
+      "year": 2025,
+      "venue": "arXiv",
+      "topic": "Vision & Generation",
+      "authors": ["Chenfei Wu", "Jiahao Li", "Jingren Zhou", "Junyang Lin", "Kaiyuan Gao", "Kun Yan", "Sheng-ming Yin", "Shuai Bai", "Xiao Xu", "Yilei Chen", "Yuxiang Chen", "Zecheng Tang", "Zekai Zhang", "Zhengyi Wang", "An Yang", "Bowen Yu", "Chen Cheng", "Dayiheng Liu"],
+      "abstract": "Qwen-Image is an image generation foundation model focused on complex text rendering and precise editing. Its training pipeline combines large-scale data curation, progressive curricula and dual semantic/reconstructive image encodings.",
+      "paperUrl": "https://arxiv.org/abs/2508.02324",
+      "codeUrl": "https://github.com/QwenLM/Qwen-Image",
+      "attribution": {"kind": "official_team_release", "label": "官方团队仓库 + 论文", "sourceUrl": "https://github.com/QwenLM/Qwen-Image"}
+    },
+    {
+      "id": "2506.05176",
+      "title": "Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models",
+      "publishedAt": "2025-06-05",
+      "year": 2025,
+      "venue": "arXiv",
+      "topic": "Retrieval",
+      "authors": ["Yanzhao Zhang", "Mingxin Li", "Dingkun Long", "Xin Zhang", "Huan Lin", "Baosong Yang", "Pengjun Xie", "An Yang", "Dayiheng Liu", "Junyang Lin", "Fei Huang", "Jingren Zhou"],
+      "abstract": "The Qwen3 Embedding series builds multilingual embedding and reranking models on Qwen3 backbones. Its training pipeline combines unsupervised pretraining, supervised fine-tuning, model merging and synthetic data generation.",
+      "paperUrl": "https://arxiv.org/abs/2506.05176",
+      "codeUrl": "https://github.com/QwenLM/Qwen3-Embedding",
+      "attribution": {"kind": "official_team_release", "label": "官方团队仓库 + 论文", "sourceUrl": "https://github.com/QwenLM/Qwen3-Embedding"}
+    },
+    {
+      "id": "2505.10527",
+      "title": "WorldPM: Scaling Human Preference Modeling",
+      "publishedAt": "2025-05-15",
+      "year": 2025,
+      "venue": "arXiv",
+      "topic": "Alignment",
+      "authors": ["Binghai Wang", "Runji Lin", "Keming Lu", "Le Yu", "Zhenru Zhang", "Fei Huang", "Chujie Zheng", "Kai Dang", "Yang Fan", "Xingzhang Ren", "An Yang", "Binyuan Hui", "Dayiheng Liu", "Bowen Yu", "Jingren Zhou", "Junyang Lin"],
+      "abstract": "WorldPM studies scaling behavior in preference modeling with 15 million preference examples and models from 1.5B to 72B parameters. It separates adversarial, objective and subjective preference metrics and evaluates transfer to RLHF.",
+      "paperUrl": "https://arxiv.org/abs/2505.10527",
+      "codeUrl": "https://github.com/QwenLM/WorldPM",
+      "attribution": {"kind": "official_team_release", "label": "官方研究仓库 + 论文", "sourceUrl": "https://github.com/QwenLM/WorldPM"}
+    },
+    {
+      "id": "2505.10475",
+      "title": "Parallel Scaling Law for Language Models",
+      "publishedAt": "2025-05-15",
+      "year": 2025,
+      "venue": "arXiv",
+      "topic": "Scaling & Efficiency",
+      "authors": ["Mouxiang Chen", "Binyuan Hui", "Zeyu Cui", "Jiaxi Yang", "Dayiheng Liu", "Jianling Sun", "Junyang Lin", "Zhongxin Liu"],
+      "abstract": "ParScale proposes parallel computation as a third scaling axis beside parameters and inference-time tokens. Learnable input transformations and parallel forward passes aim to improve capability with lower memory and latency growth.",
+      "paperUrl": "https://arxiv.org/abs/2505.10475",
+      "codeUrl": "https://github.com/QwenLM/ParScale",
+      "attribution": {"kind": "official_team_release", "label": "官方研究仓库 + 论文", "sourceUrl": "https://github.com/QwenLM/ParScale"}
+    },
+    {
+      "id": "2505.09388",
+      "title": "Qwen3 Technical Report",
+      "publishedAt": "2025-05-14",
+      "year": 2025,
+      "venue": "arXiv",
+      "topic": "Foundation Model",
+      "authors": ["An Yang", "Anfeng Li", "Baosong Yang", "Beichen Zhang", "Binyuan Hui", "Bo Zheng", "Bowen Yu", "Chang Gao", "Chengen Huang", "Chenxu Lv", "Chujie Zheng", "Dayiheng Liu", "Fan Zhou", "Fei Huang", "Haoran Wei", "Huan Lin", "Jialong Tang", "Jianhong Tu", "Jianxin Yang", "Jingren Zhou", "Junyang Lin", "Rui Men", "Yang Fan", "Yichang Zhang", "Zeyu Cui"],
+      "abstract": "Qwen3 integrates thinking and non-thinking modes in one family of dense and MoE language models. It introduces controllable thinking budgets, knowledge transfer from flagship models and support for 119 languages and dialects.",
+      "paperUrl": "https://arxiv.org/abs/2505.09388",
+      "codeUrl": "https://github.com/QwenLM/Qwen3",
+      "attribution": {"kind": "official_team_release", "label": "官方团队仓库 + 论文", "sourceUrl": "https://github.com/QwenLM/Qwen3"}
+    },
+    {
+      "id": "2504.18428",
+      "title": "PolyMath: Evaluating Mathematical Reasoning in Multilingual Contexts",
+      "publishedAt": "2025-04-25",
+      "year": 2025,
+      "venue": "NeurIPS 2025",
+      "topic": "Evaluation",
+      "authors": ["Yiming Wang", "Pei Zhang", "Jialong Tang", "Haoran Wei", "Baosong Yang", "Rui Wang", "Chenshu Sun", "Feitong Sun", "Jiran Zhang", "Junxuan Wu", "Qiqian Cang", "Yichang Zhang", "Fei Huang", "Junyang Lin", "Jingren Zhou"],
+      "abstract": "PolyMath evaluates multilingual mathematical reasoning across 18 languages and four difficulty levels. It exposes variation in reasoning quality, output-language consistency and thinking length across languages.",
+      "paperUrl": "https://arxiv.org/abs/2504.18428",
+      "codeUrl": "https://github.com/QwenLM/PolyMath",
+      "attribution": {"kind": "official_team_release", "label": "官方研究仓库 + 论文", "sourceUrl": "https://github.com/QwenLM/PolyMath"}
+    },
+    {
+      "id": "2503.20215",
+      "title": "Qwen2.5-Omni Technical Report",
+      "publishedAt": "2025-03-26",
+      "year": 2025,
+      "venue": "arXiv",
+      "topic": "Multimodal",
+      "authors": ["Jin Xu", "Zhifang Guo", "Jinzheng He", "Hangrui Hu", "Ting He", "Shuai Bai", "Keqin Chen", "Jialin Wang", "Yang Fan", "Kai Dang", "Bin Zhang", "Xiong Wang", "Yunfei Chu", "Junyang Lin"],
+      "abstract": "Qwen2.5-Omni is an end-to-end model for text, image, audio and video input with simultaneous text and streaming speech output. Its Thinker–Talker architecture separates reasoning and speech-token generation.",
+      "paperUrl": "https://arxiv.org/abs/2503.20215",
+      "codeUrl": "https://github.com/QwenLM/Qwen2.5-Omni",
+      "attribution": {"kind": "official_team_release", "label": "官方团队仓库 + 论文", "sourceUrl": "https://github.com/QwenLM/Qwen2.5-Omni"}
+    },
+    {
+      "id": "2412.06559",
+      "title": "ProcessBench: Identifying Process Errors in Mathematical Reasoning",
+      "publishedAt": "2024-12-09",
+      "year": 2024,
+      "venue": "ACL 2025",
+      "topic": "Evaluation",
+      "authors": ["Chujie Zheng", "Zhenru Zhang", "Beichen Zhang", "Runji Lin", "Keming Lu", "Bowen Yu", "Dayiheng Liu", "Jingren Zhou", "Junyang Lin"],
+      "abstract": "ProcessBench measures whether models can identify the earliest erroneous step in mathematical reasoning. Its 3,400 expert-annotated cases compare process reward models with critic-style language models.",
+      "paperUrl": "https://arxiv.org/abs/2412.06559",
+      "codeUrl": "https://github.com/QwenLM/ProcessBench",
+      "attribution": {"kind": "official_team_release", "label": "官方研究仓库 + 论文", "sourceUrl": "https://github.com/QwenLM/ProcessBench"}
+    }
+  ],
+  "sources": [
+    {
+      "name": "Qwen Research",
+      "url": "https://qwen.ai/research",
+      "kind": "A · 官方研究索引",
+      "supports": "官方发布、研究条目、发布时间与主题标签",
+      "limitations": "研究索引包含发布与开源动态，不等同于严格论文目录。"
+    },
+    {
+      "name": "QwenLM GitHub",
+      "url": "https://github.com/QwenLM",
+      "kind": "A · 官方代码组织",
+      "supports": "项目归属、仓库数量、推送时间、论文与代码连接",
+      "limitations": "pushed_at 仅表示代码活动；Stars 不代表论文影响力。"
+    },
+    {
+      "name": "arXiv",
+      "url": "https://arxiv.org",
+      "kind": "A/B · 论文原文",
+      "supports": "标题、作者、摘要、提交日期与技术报告正文",
+      "limitations": "arXiv 提交日期不一定等于会议正式发表日期。"
+    },
+    {
+      "name": "Qwen About / Legacy Blog",
+      "url": "https://qwenlm.github.io/about/",
+      "kind": "A · 官方身份说明",
+      "supports": "团队自述、开放路线与模型家族范围",
+      "limitations": "旧站已引导至 qwen.ai，主要用作身份与历史锚点。"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-const CATALOG_VERSION = "20260731-youtu-v1";
+const CATALOG_VERSION = "20260731-qwen-v1";
 const LOGO_WALL_TEAM_IDS = [
   "bytedance-seed", "alibaba-qwen", "alibaba-damo-academy", "alibaba-modelscope",
   "tencent-hunyuan", "tencent-ai-lab", "tencent-arc-lab", "huawei-noahs-ark-lab",
@@ -295,6 +295,7 @@ function workMarkup(work) {
 function officialLinks(team) {
   const profilePages = {
     "bytedance-seed": ["seed.html", "进入 Seed 研究专页 →"],
+    "alibaba-qwen": ["qwen.html", "进入 Qwen 研究专页 →"],
     "tencent-youtu-lab": ["youtu.html", "进入 Youtu 研究专页 →"],
     "tencent-hunyuan": ["hunyuan.html", "进入混元研究专页 →"],
   };

@@ -37,9 +37,13 @@ jobs:
           ruby -rjson -e 'JSON.parse(File.read("site/data/youtu-research.json"))'
           ruby -rjson -e 'JSON.parse(File.read("site/data/youtu-keywords.json"))'
           ruby -rjson -e 'JSON.parse(File.read("site/data/hunyuan-research.json"))'
+          ruby -rjson -e 'JSON.parse(File.read("site/data/qwen-research.json"))'
+          ruby -rjson -e 'JSON.parse(File.read("site/data/qwen-keywords.json"))'
           node --check site/assets/app.js
+          node --check site/assets/qwen.js
           node --check site/assets/youtu.js
           node --check site/assets/hunyuan.js
+          node site/scripts/validate_qwen_research.mjs
 
   deploy:
     environment:

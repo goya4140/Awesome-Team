@@ -16,6 +16,8 @@
 | `data/abstract-summaries-zh.yaml` | 基于 Abstract 的中文 TL;DR 缓存 |
 | `data/recent-works.yaml` | 每个团队的最近工作及择新依据 |
 | `site/data/catalog.json` | 由 YAML 生成的网页数据 |
+| `site/data/qwen-research.json` | 由 Qwen 官方研究入口、QwenLM 仓库和技术报告核验的 Qwen 专页数据 |
+| `site/data/qwen-keywords.json` | 从 Qwen 公开论文 Abstract 生成的跨论文关键词覆盖率 |
 | `site/data/youtu-research.json` | 由维护中的优图研究仓库与现任负责人公开索引生成的 Youtu 专页数据 |
 | `site/data/youtu-keywords.json` | 从优图公开论文 Abstract 生成的研究关键词覆盖率数据 |
 
@@ -35,12 +37,17 @@ ruby scripts/render_research_teams.rb
 ruby scripts/validate_catalog.rb
 ruby scripts/build_site_data.rb > site/data/catalog.json
 node --check site/assets/app.js
+python3 site/scripts/sync_qwen_research.py
+python3 site/scripts/build_qwen_keywords.py
+node --check site/assets/qwen.js
 CHECKED_AT=YYYY-MM-DD python3 site/scripts/sync_youtu_research.py
 python3 site/scripts/build_youtu_keywords.py
 node --check site/assets/youtu.js
 ```
 
 这些命令会访问 GitHub、Crossref、OpenAlex、Semantic Scholar 与 arXiv / ar5iv；中文摘要由本地 Ollama 模型生成。建议为定期引用量同步设置 `SEMANTIC_SCHOLAR_API_KEY`，匿名请求可能受到共享限流。
+
+Qwen 专页将 Qwen 官方研究入口、QwenLM GitHub 组织与逐篇技术报告分开保存。仓库 `pushed_at` 只作为代码活跃信号；论文必须保留官方仓库或研究入口的归属证据。由于当前官方页面没有提供可核验的完整现任成员目录，页面不把论文署名或作者频次写成现任成员。
 
 Youtu 专页不以低频维护的旧官网作为唯一活跃性来源。同步脚本从 `TencentYoutuResearch` 获取仓库与推送日期，从 Ke Li 的现任负责人主页获取 2024–2026 论文索引，并从 Xing Sun 的现任负责人主页获取公开项目；额外的团队仓库论文必须保留对应仓库作为归属证据。该数据是可核验公开工作集，不声称是完整内部人员或论文名录。
 

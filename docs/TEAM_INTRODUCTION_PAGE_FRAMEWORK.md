@@ -190,10 +190,29 @@
 
 ### 2.7 统一框架与团队化表达
 
-后续团队页面应共享同一套研究和交互框架，但不应机械复制 Youtu 的视觉和文案。
+后续团队页面采用“**固定信息模板 + 团队专属视觉主题**”：
+
+```text
+固定模板
+  ├─ 信息组织结构
+  ├─ 页面模块职责
+  ├─ 数据字段与证据标签
+  ├─ 搜索、筛选、展开与分页
+  └─ 验收和更新流程
+
+团队专属主题
+  ├─ 官网品牌色和辅助色
+  ├─ 字体气质与字号比例
+  ├─ 留白、边框、圆角与卡片风格
+  ├─ 图形、图片与动效语言
+  └─ 团队专属标题和叙事重点
+```
+
+也就是说，我们固定的是**信息组织结构和功能框架**，而不是把 Seed 或 Youtu 的视觉样式复制给所有团队。每个页面都应保持 Awesome Team 的研究可信度与交互一致性，同时尽可能与该团队的当前官网或官方品牌视觉对齐。
 
 必须统一：
 
+- Header、Hero、Evidence Note、团队画像、活跃信号、关键词、人物、项目、论文和方法说明的基本信息层级；
 - 页面回答的七个核心问题；
 - 团队、人物、项目和论文的数据关系；
 - 来源证据与归属标签；
@@ -213,6 +232,79 @@
 - 关键词图的研究词汇与配色；
 - 历史背景和当前转型的表达；
 - 团队特有的证据缺口。
+
+#### 官网视觉对齐方法
+
+开始设计团队页面前，先建立一份简短的视觉参考卡：
+
+| 字段 | 需要记录的内容 |
+|---|---|
+| `design_reference_url` | 当前团队官网或官方品牌页 |
+| `fallback_reference_url` | 母体机构官网、历史官网或官方开源组织 |
+| `primary_color` | 官网最主要的品牌色 |
+| `accent_colors` | 强调色、状态色和渐变色 |
+| `background_tone` | 明亮、深色、暖色、冷色或中性 |
+| `typography_character` | 几何、技术、学术、编辑式或企业风格 |
+| `shape_language` | 直角、圆角、细线、块面、网格或自由形态 |
+| `image_language` | 摄影、论文图、抽象图形、产品截图或纯排版 |
+| `motion_language` | 静态、轻微过渡、滚动叙事或交互演示 |
+| `checked_at` | 视觉参考核验日期 |
+
+参考优先级：
+
+1. 当前团队官网；
+2. 团队当前官方项目页或品牌页；
+3. 当前官方 GitHub / Hugging Face Organization；
+4. 团队历史官网；
+5. 母体机构当前品牌体系；
+6. 没有可靠参考时使用 Awesome Team 的中性基础主题。
+
+视觉对齐时应提取“视觉语言”，而不是逐像素复制官网：
+
+- 使用官网品牌色建立 CSS 变量；
+- 延续官网偏好的深浅背景关系；
+- 模仿其排版密度、字体气质、边框和圆角倾向；
+- 优先使用团队官方 Logo、项目图片或论文图，并保存来源；
+- 页面标题可以回应团队官网的语言气质，但不能复制营销文案；
+- 交互组件仍使用统一功能和可访问行为。
+
+品牌对齐不能牺牲可用性。官网配色对比度不足、字号过小或交互不清楚时，以页面可读性和无障碍标准为准。
+
+#### 主题实现方式
+
+推荐把结构样式与团队主题分开：
+
+```text
+shared team-page styles
+  ├─ 页面网格
+  ├─ 模块布局
+  ├─ 论文浏览器
+  ├─ 响应式规则
+  └─ 无障碍交互状态
+
+<team>.css
+  ├─ 品牌色变量
+  ├─ 字体与排版比例
+  ├─ Hero 和卡片视觉
+  ├─ 团队专属图形语言
+  └─ 关键词图主题
+```
+
+团队主题至少定义：
+
+```css
+:root {
+  --team-bg: ...;
+  --team-surface: ...;
+  --team-ink: ...;
+  --team-muted: ...;
+  --team-line: ...;
+  --team-primary: ...;
+  --team-accent: ...;
+}
+```
+
+不要为了复用而让所有团队页面都呈现相同的蓝紫色、绿色渐变、圆角尺寸或 Hero 构图。
 
 页面设计应从团队事实出发。例如：
 
@@ -765,6 +857,29 @@ Unicode 规范化
 }
 ```
 
+### 8.4 页面视觉参考
+
+```json
+{
+  "design_reference": {
+    "primary_url": "https://team.example.org/",
+    "fallback_url": "https://parent.example.org/",
+    "checked_at": "YYYY-MM-DD",
+    "source_type": "current_official_team_site",
+    "theme": {
+      "primary_color": "#000000",
+      "accent_colors": ["#000000"],
+      "background_tone": "light",
+      "typography_character": "editorial",
+      "shape_language": "thin-line and square"
+    },
+    "notes": "Information architecture follows the shared Awesome Team template; visual language references the current official team site."
+  }
+}
+```
+
+该字段用于说明页面视觉从何而来，避免以后维护者把团队专属配色误认为 Awesome Team 的统一主题。
+
 ## 9. 冲突与不确定性处理
 
 ### 9.1 来源冲突
@@ -881,6 +996,10 @@ Unicode 规范化
 - [ ] 页面展示证据类型和来源入口；
 - [ ] 搜索、年份、方向和归属筛选可用；
 - [ ] 数据更新时间可见；
+- [ ] 信息组织和交互遵循统一页面模板；
+- [ ] 配色和视觉语言参考团队官网或明确记录的官方替代来源；
+- [ ] 团队主题没有机械复制 Seed 或 Youtu；
+- [ ] 品牌色、图片和 Logo 保留来源且满足可读性要求；
 - [ ] 没有使用无法由来源支持的确定性措辞。
 
 ## 12. Youtu 案例如何应用本框架
@@ -910,6 +1029,29 @@ Youtu 案例最值得复用的不是视觉样式，而是以下判断顺序：
 
 ## 13. 为下一个团队创建页面时的最小交付物
 
+### 13.1 项目仓库与推送目标
+
+Awesome Team 的代码、数据、文档和团队介绍页面统一推送到：
+
+- 源代码仓库：[github.com/goya4140/awesome-team](https://github.com/goya4140/awesome-team)
+- Git remote：`origin`
+- 默认分支：`main`
+- 公网页面：[goya4140.github.io/awesome-team](https://goya4140.github.io/awesome-team/)
+
+团队页面不是推送到各团队自己的 GitHub Organization。外部团队的 GitHub、官网、论文和项目地址是页面的数据来源；页面实现及生成数据仍进入 Awesome Team 仓库。
+
+提交前应确认：
+
+- 修改位于 Awesome Team 工作区；
+- `origin` 指向 `https://github.com/goya4140/awesome-team.git`；
+- 新团队页面、数据、脚本、图片、路由和文档入口处于同一提交范围；
+- 构建产物与该提交的源码一致；
+- 没有把访问令牌、Cookie、API Key 或本地缓存推送到仓库。
+
+仓库地址只说明标准交付目标，不代表本地改动已经提交或推送；实际交付状态应以 Git commit 和远端分支为准。
+
+### 13.2 最小文件集合
+
 建议至少创建：
 
 ```text
@@ -919,6 +1061,14 @@ site/assets/<team>.js
 site/data/<team>-research.json
 site/scripts/sync_<team>_research.py
 ```
+
+其中：
+
+- HTML 使用统一的信息组织模板；
+- JavaScript 复用统一的筛选和论文浏览行为；
+- `<team>.css` 负责与团队官网对齐的专属配色和视觉语言；
+- `<team>-research.json` 保存页面内容、统计、来源和归属；
+- 同步脚本负责从可核验公开来源更新数据。
 
 如果有足够 Abstract，再创建：
 
