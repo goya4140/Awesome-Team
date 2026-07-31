@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const outputRoot = join(projectRoot, "dist");
-const sourceRoots = ["index.html", "seed.html", "youtu.html", "assets", "data"];
+const sourceRoots = ["index.html", "seed.html", "youtu.html", "hunyuan.html", "assets", "data"];
 
 const contentTypes = {
   ".css": "text/css; charset=utf-8",
@@ -51,6 +51,7 @@ export default {
     if (pathname === "/") pathname = "/index.html";
     if (pathname === "/seed") pathname = "/seed.html";
     if (pathname === "/youtu") pathname = "/youtu.html";
+    if (pathname === "/hunyuan") pathname = "/hunyuan.html";
     const file = files.get(pathname);
     if (!file) return new Response("Not found", { status: 404 });
     const headers = new Headers({
