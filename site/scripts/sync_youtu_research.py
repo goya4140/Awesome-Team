@@ -28,7 +28,7 @@ XING_SUN_URL = "https://www.sunxing.org/"
 YULEI_QIN_URL = "https://yuleichin.github.io/"
 GITHUB_ORG = "TencentYoutuResearch"
 WINDOW_START = "2024-07-31"
-USER_AGENT = "AwesomeTeamCatalog/1.0 (+https://github.com/goya4140/awesome-team)"
+USER_AGENT = "AwesomeTeamCatalog/1.0 (+https://github.com/goya4140/Awesome-Team)"
 
 
 REPOSITORY_PAPERS = [

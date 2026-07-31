@@ -29,8 +29,8 @@ const html = `<!doctype html>
     <meta property="og:title" content="Tencent Hunyuan · 公开研究档案">
     <meta property="og:description" content="从官方仓库、技术报告与公开人物主页重建腾讯混元的可核验研究档案。">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://goya4140.github.io/awesome-team/hunyuan.html">
-    <meta property="og:image" content="https://goya4140.github.io/awesome-team/assets/hunyuan-og.png">
+    <meta property="og:url" content="https://goya4140.github.io/Awesome-Team/hunyuan.html">
+    <meta property="og:image" content="https://goya4140.github.io/Awesome-Team/assets/hunyuan-og.png">
     <meta name="twitter:card" content="summary_large_image">
     <title>Tencent Hunyuan · 公开研究档案｜Awesome Team</title>
     <link rel="stylesheet" href="assets/hunyuan.css?v=20260731-v1">

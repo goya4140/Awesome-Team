@@ -1,6 +1,6 @@
 # Awesome Team · AI 科研团队目录
 
-> GitHub 内可直接浏览的基础资料版。更适合筛选和阅读图表的版本见 [在线目录](https://goya4140.github.io/awesome-team/)。
+> GitHub 内可直接浏览的基础资料版。更适合筛选和阅读图表的版本见 [在线目录](https://goya4140.github.io/Awesome-Team/)。
 
 更新日期：**2026-07-30** · 引用量：[Semantic Scholar](https://www.semanticscholar.org/?utm_source=api) · 检索入口：[Google Scholar](https://scholar.google.com/)
 
