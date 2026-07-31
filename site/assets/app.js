@@ -293,8 +293,13 @@ function workMarkup(work) {
 }
 
 function officialLinks(team) {
-  const profileLink = team.id === "bytedance-seed"
-    ? '<a class="team-deep-link" href="seed.html">进入 Seed 研究专页 →</a>'
+  const profilePages = {
+    "bytedance-seed": ["seed.html", "进入 Seed 研究专页 →"],
+    "tencent-hunyuan": ["hunyuan.html", "进入混元研究专页 →"],
+  };
+  const page = profilePages[team.id];
+  const profileLink = page
+    ? `<a class="team-deep-link" href="${page[0]}">${page[1]}</a>`
     : "";
   const externalLinks = team.homepages.map((page) => {
     const label = page.kind === "github" ? "GitHub" : page.kind === "official" ? "官方网站" : page.kind;
