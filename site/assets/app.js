@@ -1,4 +1,4 @@
-const CATALOG_VERSION = "20260730-citations-v1";
+const CATALOG_VERSION = "20260731-youtu-v1";
 const LOGO_WALL_TEAM_IDS = [
   "bytedance-seed", "alibaba-qwen", "alibaba-damo-academy", "alibaba-modelscope",
   "tencent-hunyuan", "tencent-ai-lab", "tencent-arc-lab", "huawei-noahs-ark-lab",
@@ -295,7 +295,9 @@ function workMarkup(work) {
 function officialLinks(team) {
   const profileLink = team.id === "bytedance-seed"
     ? '<a class="team-deep-link" href="seed.html">进入 Seed 研究专页 →</a>'
-    : "";
+    : team.id === "tencent-youtu-lab"
+      ? '<a class="team-deep-link" href="youtu.html">进入 Youtu 研究专页 →</a>'
+      : "";
   const externalLinks = team.homepages.map((page) => {
     const label = page.kind === "github" ? "GitHub" : page.kind === "official" ? "官方网站" : page.kind;
     return `<a href="${escapeHtml(page.url)}" target="_blank" rel="noreferrer">${escapeHtml(label)} ↗</a>`;
