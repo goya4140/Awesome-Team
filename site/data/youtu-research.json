@@ -1,0 +1,1902 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-07-31",
+  "retrieved_at": "2026-07-30T17:16:52.141045Z",
+  "scope": {
+    "start_date": "2024-07-31",
+    "description": "Current public Youtu research evidence assembled from maintained research repositories and current team-leader publication indexes.",
+    "boundary": "This is a verifiable public working set, not a claimed internal or exhaustive employee/publication roster."
+  },
+  "sources": [
+    {
+      "kind": "legacy_official_site",
+      "url": "https://open.youtu.qq.com/",
+      "use": "historical team identity"
+    },
+    {
+      "kind": "official_research_github",
+      "url": "https://github.com/TencentYoutuResearch",
+      "use": "current repositories and release activity"
+    },
+    {
+      "kind": "current_team_manager",
+      "url": "https://keli.info/",
+      "use": "role evidence and 2024–2026 publication index"
+    },
+    {
+      "kind": "current_team_manager",
+      "url": "https://www.sunxing.org/",
+      "use": "role evidence, research directions, projects and selected publications"
+    },
+    {
+      "kind": "current_senior_researcher",
+      "url": "https://yuleichin.github.io/",
+      "use": "role evidence and current agent/LLM activity"
+    }
+  ],
+  "counts": {
+    "papers": 40,
+    "papers_with_arxiv_abstracts": 31,
+    "github_repositories": 58,
+    "recent_github_repositories": 11,
+    "leader_curated_projects": 9
+  },
+  "topic_counts": {
+    "Agent & Reasoning": 10,
+    "Multimodal": 8,
+    "Computer Vision": 8,
+    "LLM": 5,
+    "Efficient Learning": 4,
+    "Machine Learning": 3,
+    "Generative Vision": 1,
+    "LLM Systems": 1
+  },
+  "year_counts": {
+    "2026": 8,
+    "2025": 17,
+    "2024": 15
+  },
+  "projects": [
+    {
+      "name": "Video-MME",
+      "url": "https://github.com/MME-Benchmarks/Video-MME",
+      "description": "The first-ever comprehensive evaluation benchmark of multi-modal LLMs in video analysis.",
+      "tags": [
+        "Benchmark",
+        "Video"
+      ],
+      "source_url": "https://www.sunxing.org/"
+    },
+    {
+      "name": "Youtu-VL",
+      "url": "https://github.com/TencentCloudADP/youtu-vl",
+      "description": "Open-source Vision-Language models including training recipes and inference code (e.g., Youtu-VL-4B).",
+      "tags": [
+        "MLLM",
+        "Training"
+      ],
+      "source_url": "https://www.sunxing.org/"
+    },
+    {
+      "name": "VITA",
+      "url": "https://github.com/VITA-MLLM/VITA",
+      "description": "The first-ever open-source interactive omni-multimodal LLM",
+      "tags": [
+        "MLLM",
+        "Training"
+      ],
+      "source_url": "https://www.sunxing.org/"
+    },
+    {
+      "name": "Youtu-LLM",
+      "url": "https://huggingface.co/tencent/Youtu-LLM-2B",
+      "description": "Lightweight, high-performance Large Language Models (2B parameters) for edge deployment.",
+      "tags": [
+        "LLM",
+        "HuggingFace"
+      ],
+      "source_url": "https://www.sunxing.org/"
+    },
+    {
+      "name": "Youtu-Agent",
+      "url": "https://github.com/TencentCloudADP/youtu-agent",
+      "description": "A flexible framework for building autonomous LLM agents, supporting complex tool calling, planning, and memory management.",
+      "tags": [
+        "Framework",
+        "Python"
+      ],
+      "source_url": "https://www.sunxing.org/"
+    },
+    {
+      "name": "Youtu-Tip",
+      "url": "https://github.com/TencentCloudADP/youtu-tip",
+      "description": "A desktop efficiency assistant powered by local LLMs (Ollama) and Youtu-Agent to automate daily workflows.",
+      "tags": [
+        "Application",
+        "Local LLM"
+      ],
+      "source_url": "https://www.sunxing.org/"
+    },
+    {
+      "name": "Youtu-GraphRAG",
+      "url": "https://github.com/TencentCloudADP/youtu-graphrag",
+      "description": "Advanced RAG system leveraging Knowledge Graphs to enhance retrieval accuracy and structured reasoning.",
+      "tags": [
+        "RAG",
+        "Graph"
+      ],
+      "source_url": "https://www.sunxing.org/"
+    },
+    {
+      "name": "Youtu-Parsing",
+      "url": "https://github.com/TencentCloudADP/youtu-parsing",
+      "description": "High-performance document parsing tools designed to convert raw files (PDF, Docx) into clean RAG-ready data.",
+      "tags": [
+        "Data Processing"
+      ],
+      "source_url": "https://www.sunxing.org/"
+    },
+    {
+      "name": "Youtu-Embedding",
+      "url": "https://github.com/TencentCloudADP/youtu-embedding",
+      "description": "Optimized embedding models tailored for semantic search and dense retrieval tasks.",
+      "tags": [
+        "Model",
+        "Retrieval"
+      ],
+      "source_url": "https://www.sunxing.org/"
+    }
+  ],
+  "repositories": [
+    {
+      "name": "Palm-Infra",
+      "url": "https://github.com/TencentYoutuResearch/Palm-Infra",
+      "description": "Palm on-device acceleration capabilities.",
+      "stars": 72,
+      "language": "C++",
+      "created_at": "2026-07-13T12:45:52Z",
+      "pushed_at": "2026-07-30T07:35:47Z",
+      "archived": false,
+      "recent": true
+    },
+    {
+      "name": "Palm-Tools",
+      "url": "https://github.com/TencentYoutuResearch/Palm-Tools",
+      "description": "Palm tools collection — skills, MCP, SDK, documentation, utilities, etc.",
+      "stars": 6,
+      "language": "Rust",
+      "created_at": "2026-07-13T12:42:35Z",
+      "pushed_at": "2026-07-26T14:17:06Z",
+      "archived": false,
+      "recent": true
+    },
+    {
+      "name": "T2I-L2P",
+      "url": "https://github.com/TencentYoutuResearch/T2I-L2P",
+      "description": "Code for \"L2P: Unlocking Latent Potential for Pixel Generation\"",
+      "stars": 180,
+      "language": "Python",
+      "created_at": "2026-05-22T03:33:26Z",
+      "pushed_at": "2026-07-11T06:36:13Z",
+      "archived": false,
+      "recent": true
+    },
+    {
+      "name": "Palm-Applications",
+      "url": "https://github.com/TencentYoutuResearch/Palm-Applications",
+      "description": "A collection of fun demo applications using Palm Recognition API",
+      "stars": 5,
+      "language": "JavaScript",
+      "created_at": "2026-05-29T09:06:53Z",
+      "pushed_at": "2026-06-11T13:31:24Z",
+      "archived": false,
+      "recent": true
+    },
+    {
+      "name": "LLM-ASPD",
+      "url": "https://github.com/TencentYoutuResearch/LLM-ASPD",
+      "description": "ASPD (Adaptive Serial-Parallel Decoding) is an end-to-end framework for accelerating LLM inference by exploiting intrinsic parallelism in autoregressive outputs. ",
+      "stars": 9,
+      "language": "Python",
+      "created_at": "2026-02-06T08:06:31Z",
+      "pushed_at": "2026-02-09T08:18:28Z",
+      "archived": false,
+      "recent": true
+    },
+    {
+      "name": "SPEAR",
+      "url": "https://github.com/TencentYoutuResearch/SPEAR",
+      "description": "An RL Recipe for Building Agentic LLMs via Self-Imitation on Long-Horizon Agentic Tasks",
+      "stars": 39,
+      "language": "Python",
+      "created_at": "2025-10-09T12:25:48Z",
+      "pushed_at": "2026-01-30T11:23:30Z",
+      "archived": false,
+      "recent": true
+    },
+    {
+      "name": "SmartSnap",
+      "url": "https://github.com/TencentYoutuResearch/SmartSnap",
+      "description": "SmartSnap",
+      "stars": 6,
+      "language": "Python",
+      "created_at": "2026-01-06T02:56:58Z",
+      "pushed_at": "2026-01-06T03:13:02Z",
+      "archived": false,
+      "recent": true
+    },
+    {
+      "name": "APTBench",
+      "url": "https://github.com/TencentYoutuResearch/APTBench",
+      "description": "Code for \"APTBench: Benchmarking Agentic Potential of Base LLMs During Pre-Training\"",
+      "stars": 42,
+      "language": "Python",
+      "created_at": "2025-10-28T09:14:40Z",
+      "pushed_at": "2025-12-23T07:23:07Z",
+      "archived": false,
+      "recent": true
+    },
+    {
+      "name": "OpenWorld-DeepFakeAttribution",
+      "url": "https://github.com/TencentYoutuResearch/OpenWorld-DeepFakeAttribution",
+      "description": "Code for IJCV 2025 paper \"Rethinking open-world deepfake attribution with multi-perspective sensory learning\" and ICCV 2023 paper \"Contrastive Pseudo Learning for Open-World DeepFake Attribution\"",
+      "stars": 75,
+      "language": "Python",
+      "created_at": "2023-09-19T03:03:30Z",
+      "pushed_at": "2025-11-17T03:51:50Z",
+      "archived": false,
+      "recent": true
+    },
+    {
+      "name": "PersonRetrieval-IVT",
+      "url": "https://github.com/TencentYoutuResearch/PersonRetrieval-IVT",
+      "description": "Code for ECCV 2022 Workshop paper \"See Finer, See More: Implicit Modality Alignment for Text-based Person Retrieval\"",
+      "stars": 23,
+      "language": "Python",
+      "created_at": "2022-08-03T02:41:25Z",
+      "pushed_at": "2025-11-16T15:48:52Z",
+      "archived": false,
+      "recent": true
+    },
+    {
+      "name": "EnConda-Bench",
+      "url": "https://github.com/TencentYoutuResearch/EnConda-Bench",
+      "description": "Code for paper \"Process-Level Trajectory Evaluation for Environment Configuration in Software Engineering Agents\"",
+      "stars": 49,
+      "language": "Python",
+      "created_at": "2025-10-28T08:55:27Z",
+      "pushed_at": "2025-10-30T03:09:30Z",
+      "archived": false,
+      "recent": true
+    },
+    {
+      "name": "AnomalyDetection-SoftPatch",
+      "url": "https://github.com/TencentYoutuResearch/AnomalyDetection-SoftPatch",
+      "description": "Code for NeurIPS 2022 paper \"SoftKernel: Unsupervised Anomaly Detection with Noisy Data\"",
+      "stars": 96,
+      "language": "Python",
+      "created_at": "2022-10-12T03:40:04Z",
+      "pushed_at": "2024-07-13T09:38:08Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "AnomalyDetection_Real-IAD",
+      "url": "https://github.com/TencentYoutuResearch/AnomalyDetection_Real-IAD",
+      "description": "",
+      "stars": 58,
+      "language": null,
+      "created_at": "2024-03-18T13:06:15Z",
+      "pushed_at": "2024-07-03T08:36:44Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "CrowdCounting-P2PNet",
+      "url": "https://github.com/TencentYoutuResearch/CrowdCounting-P2PNet",
+      "description": "The official codes for the ICCV2021 Oral presentation \"Rethinking Counting and Localization in Crowds: A Purely Point-Based Framework\"",
+      "stars": 556,
+      "language": "Python",
+      "created_at": "2021-08-09T07:31:54Z",
+      "pushed_at": "2024-05-29T10:24:57Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "NeRF-Loc",
+      "url": "https://github.com/TencentYoutuResearch/NeRF-Loc",
+      "description": "Code for ICRA2023 paper \"NeRF-Loc: Visual Localization with Conditional Neural Radiance Field\"",
+      "stars": 117,
+      "language": "Python",
+      "created_at": "2023-04-17T02:26:24Z",
+      "pushed_at": "2023-07-04T08:08:20Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "AnomalyDetection-M3DM",
+      "url": "https://github.com/TencentYoutuResearch/AnomalyDetection-M3DM",
+      "description": "Code for CVPR 2023 paper \"Multimodal Industrial Anomaly Detection via Hybrid Fusion\"",
+      "stars": 10,
+      "language": "Python",
+      "created_at": "2023-04-10T02:38:50Z",
+      "pushed_at": "2023-04-10T02:42:32Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "AdaMatcher",
+      "url": "https://github.com/TencentYoutuResearch/AdaMatcher",
+      "description": " Code for CVPR2023 paper:Adaptive Assignment for Geometry Aware Local Feature Matching",
+      "stars": 114,
+      "language": "Python",
+      "created_at": "2023-04-06T06:52:01Z",
+      "pushed_at": "2023-04-06T12:31:27Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "HighlightDetection-CLC",
+      "url": "https://github.com/TencentYoutuResearch/HighlightDetection-CLC",
+      "description": " Code for CVPR2023 paper \"Collaborative Noisy Label Cleaner: Learning Scene-aware Trailers for Multi-modal Highlight Detection in Movies\"",
+      "stars": 18,
+      "language": null,
+      "created_at": "2023-03-21T11:20:00Z",
+      "pushed_at": "2023-03-21T11:20:01Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "SceneSegmentation-SCRL",
+      "url": "https://github.com/TencentYoutuResearch/SceneSegmentation-SCRL",
+      "description": "Code for CVPR 2022 paper \"Scene Consistency Representation Learning for Video Scene Segmentation\"",
+      "stars": 112,
+      "language": "Python",
+      "created_at": "2022-03-22T09:46:08Z",
+      "pushed_at": "2023-02-14T07:01:45Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "ImageColorization-ColorFormer",
+      "url": "https://github.com/TencentYoutuResearch/ImageColorization-ColorFormer",
+      "description": "  Code for ECCV 2022 paper \"ColorFormer: Image Colorization via Color Memory assisted Hybrid-attention Transformer\"",
+      "stars": 12,
+      "language": "Python",
+      "created_at": "2023-01-03T06:15:51Z",
+      "pushed_at": "2023-01-30T02:59:21Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "FaceRestoration-sgpn",
+      "url": "https://github.com/TencentYoutuResearch/FaceRestoration-sgpn",
+      "description": "Code for CVPR 2022 paper \"Blind Face Restoration via Integrating Face Shape and Generative Priors\"",
+      "stars": 25,
+      "language": "Python",
+      "created_at": "2023-01-03T06:18:31Z",
+      "pushed_at": "2023-01-04T09:01:07Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "FewShotLearning-tSF",
+      "url": "https://github.com/TencentYoutuResearch/FewShotLearning-tSF",
+      "description": " Code for ECCV 2022 paper \"tSF: Transformer-based Semantic Filter for Few-Shot Learning\"",
+      "stars": 9,
+      "language": "Python",
+      "created_at": "2023-01-03T06:12:00Z",
+      "pushed_at": "2023-01-04T08:46:38Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "UDA-ProCA",
+      "url": "https://github.com/TencentYoutuResearch/UDA-ProCA",
+      "description": "code for ECCV 2022 paper \"Prototypical Contrast Adaptation for Domain Adaptive Semantic Segmentation\"",
+      "stars": 7,
+      "language": "Python",
+      "created_at": "2023-01-03T06:19:36Z",
+      "pushed_at": "2023-01-04T08:40:07Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "HeadSynthesis-HifiHead",
+      "url": "https://github.com/TencentYoutuResearch/HeadSynthesis-HifiHead",
+      "description": "Code for IJCAI-22 paper \"HifiHead: One-Shot High Fidelity Neural Head Synthesis with 3D Control\"",
+      "stars": 1,
+      "language": null,
+      "created_at": "2023-01-03T06:27:03Z",
+      "pushed_at": "2023-01-03T06:27:04Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "Classification-SemiCLS",
+      "url": "https://github.com/TencentYoutuResearch/Classification-SemiCLS",
+      "description": "Code for CVPR 2022 paper “Class-Aware Contrastive Semi-Supervised Learning”",
+      "stars": 99,
+      "language": "Python",
+      "created_at": "2022-03-22T09:27:11Z",
+      "pushed_at": "2022-12-19T04:14:47Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "Adv-Makeup",
+      "url": "https://github.com/TencentYoutuResearch/Adv-Makeup",
+      "description": "This project is an implementation of our IJCAI 2021 paper \"Adv-Makeup: A New Imperceptible and Transferable Attack on Face Recognition\", we propose a novel attacking form for the face recognition to synthesize the transferable and imperceptible adversarial examples. ",
+      "stars": 76,
+      "language": "Python",
+      "created_at": "2021-08-17T11:40:31Z",
+      "pushed_at": "2022-12-06T11:05:49Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "PersonReID-ACT",
+      "url": "https://github.com/TencentYoutuResearch/PersonReID-ACT",
+      "description": "Code for AAAI 2020 paper \"Asymmetric Co-Teaching for Unsupervised Cross Domain Person Re-Identification\"",
+      "stars": 20,
+      "language": "Python",
+      "created_at": "2021-01-04T03:20:03Z",
+      "pushed_at": "2022-10-05T01:07:57Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "ActionDetection-LSTC",
+      "url": "https://github.com/TencentYoutuResearch/ActionDetection-LSTC",
+      "description": "LSTC: Boosting Atomic Action Detection with Long-Short-Term Context",
+      "stars": 10,
+      "language": "Python",
+      "created_at": "2021-10-19T07:19:05Z",
+      "pushed_at": "2022-09-01T02:26:34Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "VPLOW_CLEAR22",
+      "url": "https://github.com/TencentYoutuResearch/VPLOW_CLEAR22",
+      "description": "Code for CVPR 2022 CLEAR Challenge \"This repository is the CLEAR Challenge 1st place methods for CVPR 2022 Workshop on Visual Perception and Learning in an Open World\"",
+      "stars": 5,
+      "language": "Python",
+      "created_at": "2022-08-02T06:40:12Z",
+      "pushed_at": "2022-08-02T07:12:33Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "EventExtraction-RAAT",
+      "url": "https://github.com/TencentYoutuResearch/EventExtraction-RAAT",
+      "description": "  Code for NAACL 2022 paper (Main Track) \"RAAT: Relation-Augmented Attention Transformer for Relation Modeling in Document-Level Event Extraction\"",
+      "stars": 36,
+      "language": "Python",
+      "created_at": "2022-08-02T06:29:20Z",
+      "pushed_at": "2022-08-02T06:58:08Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "MultiLabel-HML",
+      "url": "https://github.com/TencentYoutuResearch/MultiLabel-HML",
+      "description": "Code for ECCV 2022 paper \"Hyperspherical Learning in Multi-Label Classification\"",
+      "stars": 6,
+      "language": null,
+      "created_at": "2022-08-02T06:33:13Z",
+      "pushed_at": "2022-08-02T06:33:13Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "ImageMatching-OETR",
+      "url": "https://github.com/TencentYoutuResearch/ImageMatching-OETR",
+      "description": "This is the official implementation in PyTorch for AAAI2022 paperGuide Local Feature Matching by Overlap Estimation and also contain a image matching toolbox.",
+      "stars": 88,
+      "language": "Python",
+      "created_at": "2022-05-24T02:45:18Z",
+      "pushed_at": "2022-06-30T08:28:54Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "VisualRecognition-NomMer",
+      "url": "https://github.com/TencentYoutuResearch/VisualRecognition-NomMer",
+      "description": "  Code for CVPR 2022 paper \"NomMer: Nominate Synergistic Context in Vision Transformer for Visual Recognition\"",
+      "stars": 25,
+      "language": "Python",
+      "created_at": "2022-03-11T06:50:31Z",
+      "pushed_at": "2022-06-14T10:09:51Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "BaseArchitecture-EAT",
+      "url": "https://github.com/TencentYoutuResearch/BaseArchitecture-EAT",
+      "description": "Official pytorch implementation of the paper \"Analogous to Evolutionary Algorithm: Designing a Unified Sequence Model, NeurIPS'21\".",
+      "stars": 17,
+      "language": "Python",
+      "created_at": "2021-09-29T02:32:07Z",
+      "pushed_at": "2022-06-12T07:33:05Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "ActiveLearning-SDM",
+      "url": "https://github.com/TencentYoutuResearch/ActiveLearning-SDM",
+      "description": "Implementation of CVPR 2022 paper \"Learning Distinctive Margin toward Active Domain Adaptation”",
+      "stars": 20,
+      "language": "Python",
+      "created_at": "2022-03-11T04:00:03Z",
+      "pushed_at": "2022-04-03T02:19:02Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "HIG-GraphClassification",
+      "url": "https://github.com/TencentYoutuResearch/HIG-GraphClassification",
+      "description": "Code of Heterogeneous interpolation on graph, which is a solution for OGB challenge",
+      "stars": 18,
+      "language": "Python",
+      "created_at": "2021-12-28T09:00:47Z",
+      "pushed_at": "2021-12-28T09:15:09Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "ActionDetection-AFSD",
+      "url": "https://github.com/TencentYoutuResearch/ActionDetection-AFSD",
+      "description": " Code for CVPR2021 paper \"Learning Salient Boundary Feature for Anchor-free Temporal Action Localization\"",
+      "stars": 185,
+      "language": "Python",
+      "created_at": "2021-05-07T09:54:47Z",
+      "pushed_at": "2021-10-26T08:23:29Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "OCR-AEC5k",
+      "url": "https://github.com/TencentYoutuResearch/OCR-AEC5k",
+      "description": "Dataset of AAAI 2020 paper  \"Accurate Structured-Text Spotting for Arithmetical Exercise Correction\"",
+      "stars": 43,
+      "language": null,
+      "created_at": "2021-10-25T02:34:52Z",
+      "pushed_at": "2021-10-25T13:01:15Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "CrowdCounting-UEPNet",
+      "url": "https://github.com/TencentYoutuResearch/CrowdCounting-UEPNet",
+      "description": "The official codes for the ICCV2021 presentation \"Uniformity in Heterogeneity: Diving Deep into Count Interval Partition for Crowd Counting\"",
+      "stars": 26,
+      "language": "Python",
+      "created_at": "2021-08-09T07:31:03Z",
+      "pushed_at": "2021-10-25T03:52:40Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "PedestrianDetection-NohNMS",
+      "url": "https://github.com/TencentYoutuResearch/PedestrianDetection-NohNMS",
+      "description": "Code for ACM MM 2020 paper \"NOH-NMS: Improving Pedestrian Detection by Nearby Objects Hallucination\" ",
+      "stars": 69,
+      "language": "Python",
+      "created_at": "2021-01-04T03:18:34Z",
+      "pushed_at": "2021-08-06T08:04:52Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "3DFaceReconstruction-LAP",
+      "url": "https://github.com/TencentYoutuResearch/3DFaceReconstruction-LAP",
+      "description": "The code of paper 'Learning to Aggregate and Personalize 3D Face from In-the-Wild Photo Collection'",
+      "stars": 162,
+      "language": "Python",
+      "created_at": "2021-03-24T12:42:28Z",
+      "pushed_at": "2021-06-24T09:09:14Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "FaceAlignment-FHR",
+      "url": "https://github.com/TencentYoutuResearch/FaceAlignment-FHR",
+      "description": "",
+      "stars": 104,
+      "language": "Lua",
+      "created_at": "2018-12-19T03:59:45Z",
+      "pushed_at": "2021-06-01T02:46:45Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "ActionRecognition-CMR",
+      "url": "https://github.com/TencentYoutuResearch/ActionRecognition-CMR",
+      "description": "Code for AAAI2021 paper \"Learning Comprehensive Motion Representation for Action Recognition\"",
+      "stars": 11,
+      "language": "Python",
+      "created_at": "2021-05-07T10:06:49Z",
+      "pushed_at": "2021-05-07T12:16:22Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "MOT-CTracker",
+      "url": "https://github.com/TencentYoutuResearch/MOT-CTracker",
+      "description": "Code for ECCV 2020 paper (Spotlight) \"Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking\"",
+      "stars": 12,
+      "language": "Python",
+      "created_at": "2021-03-24T08:43:00Z",
+      "pushed_at": "2021-04-22T07:02:19Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "PersonReID-YouReID",
+      "url": "https://github.com/TencentYoutuResearch/PersonReID-YouReID",
+      "description": "A Simple, High-efficiency, Strong framework for person re-Identification.",
+      "stars": 75,
+      "language": "Python",
+      "created_at": "2021-01-07T10:53:09Z",
+      "pushed_at": "2021-04-19T09:45:13Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "PersonReID-NAFS",
+      "url": "https://github.com/TencentYoutuResearch/PersonReID-NAFS",
+      "description": "Code for \"Contextual Non-Local Alignment over Full-Scale Representation for Text-Based Person Search\"",
+      "stars": 63,
+      "language": "Python",
+      "created_at": "2021-01-07T10:53:32Z",
+      "pushed_at": "2021-04-16T06:25:40Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "PersonReID-Pyramid",
+      "url": "https://github.com/TencentYoutuResearch/PersonReID-Pyramid",
+      "description": "Code for CVPR 2019 paper “Pyramidal Person Re-IDentification via Multi-Loss Dynamic Training”",
+      "stars": 22,
+      "language": null,
+      "created_at": "2020-12-15T03:31:09Z",
+      "pushed_at": "2021-04-09T06:02:12Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "CrowdCounting-SASNet",
+      "url": "https://github.com/TencentYoutuResearch/CrowdCounting-SASNet",
+      "description": "Official implementation in PyTorch of SASNet as described in \"To Choose or to Fuse? Scale Selection for Crowd Counting\"",
+      "stars": 91,
+      "language": "Python",
+      "created_at": "2021-03-24T09:49:27Z",
+      "pushed_at": "2021-03-29T07:13:17Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "PersonReID-TSF",
+      "url": "https://github.com/TencentYoutuResearch/PersonReID-TSF",
+      "description": "Code for AAAI 2020 paper Rethinking Temporal Fusion for Video-based Person Re-identification on Semantic and Time Aspect.",
+      "stars": 20,
+      "language": "Python",
+      "created_at": "2021-01-07T10:53:53Z",
+      "pushed_at": "2021-01-07T11:00:48Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "SelfSupervisedLearning-DSM",
+      "url": "https://github.com/TencentYoutuResearch/SelfSupervisedLearning-DSM",
+      "description": "code for AAAI21 paper \"Enhancing Unsupervised Video Representation Learning by Decoupling the Scene and the Motion“",
+      "stars": 28,
+      "language": "Python",
+      "created_at": "2021-01-07T10:52:46Z",
+      "pushed_at": "2021-01-07T10:52:58Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "Pruning-PFF",
+      "url": "https://github.com/TencentYoutuResearch/Pruning-PFF",
+      "description": "PyTorch implementation of NeurIPS 2020 paper \"Pruning Filter in Filter\".",
+      "stars": 18,
+      "language": "Python",
+      "created_at": "2021-01-04T03:20:24Z",
+      "pushed_at": "2021-01-04T03:30:09Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "Ensemble-Grafting",
+      "url": "https://github.com/TencentYoutuResearch/Ensemble-Grafting",
+      "description": "Code for CVPR 2020 paper “Filter Grafting for Deep Neural Networks”",
+      "stars": 14,
+      "language": "Python",
+      "created_at": "2020-12-21T03:37:27Z",
+      "pushed_at": "2020-12-21T06:33:38Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "SuperResolution-RealSR",
+      "url": "https://github.com/TencentYoutuResearch/SuperResolution-RealSR",
+      "description": "see details at https://github.com/Tencent/Real-SR",
+      "stars": 0,
+      "language": null,
+      "created_at": "2020-09-02T03:00:51Z",
+      "pushed_at": "2020-09-02T03:00:54Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "InferenceFramework-NCNN",
+      "url": "https://github.com/TencentYoutuResearch/InferenceFramework-NCNN",
+      "description": "see details at https://github.com/Tencent/ncnn",
+      "stars": 0,
+      "language": null,
+      "created_at": "2020-08-10T08:05:32Z",
+      "pushed_at": "2020-08-10T08:05:34Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "FaceDetection-DSFD",
+      "url": "https://github.com/TencentYoutuResearch/FaceDetection-DSFD",
+      "description": "see details at https://github.com/Tencent/FaceDetection-DSFD",
+      "stars": 5,
+      "language": null,
+      "created_at": "2020-06-11T02:38:33Z",
+      "pushed_at": "2020-06-11T02:38:35Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "ObjectDetection-OneStageDet",
+      "url": "https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet",
+      "description": "see details at https://github.com/Tencent/ObjectDetection-OneStageDet",
+      "stars": 7,
+      "language": null,
+      "created_at": "2020-06-11T02:36:54Z",
+      "pushed_at": "2020-06-11T02:36:55Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "ActionDetection-DBG",
+      "url": "https://github.com/TencentYoutuResearch/ActionDetection-DBG",
+      "description": "see details at https://github.com/Tencent/ActionDetection-DBG",
+      "stars": 9,
+      "language": null,
+      "created_at": "2020-03-13T08:44:00Z",
+      "pushed_at": "2020-03-13T08:48:13Z",
+      "archived": false,
+      "recent": false
+    },
+    {
+      "name": "FaceAttribute-FAN",
+      "url": "https://github.com/TencentYoutuResearch/FaceAttribute-FAN",
+      "description": "",
+      "stars": 205,
+      "language": "Python",
+      "created_at": "2018-12-19T04:00:40Z",
+      "pushed_at": "2019-01-25T08:35:42Z",
+      "archived": false,
+      "recent": false
+    }
+  ],
+  "papers": [
+    {
+      "title": "L2P: Unlocking Latent Potential for Pixel Generation",
+      "arxiv_id": "2605.12013",
+      "code_url": "https://github.com/TencentYoutuResearch/T2I-L2P",
+      "venue": "arXiv, 2026",
+      "topic": "Generative Vision",
+      "year": 2026,
+      "paper_url": "https://arxiv.org/abs/2605.12013",
+      "authors": "Zhennan Chen, Junwei Zhu, Xu Chen, Jiangning Zhang, Jiawei Chen, Zhuoqi Zeng, Wei Zhang, Chengjie Wang, Jian Yang, Ying Tai",
+      "attribution": {
+        "kind": "official_youtu_repository",
+        "label": "Youtu 官方研究仓库",
+        "source_url": "https://github.com/TencentYoutuResearch/T2I-L2P"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2605.12013",
+      "published_at": "2026-05-12T12:01:35Z",
+      "abstract": "Pixel diffusion models have recently regained attention for visual generation. However, training advanced pixel-space models from scratch demands prohibitive computational and data resources. To address this, we propose the Latent-to-Pixel (L2P) transfer paradigm, an efficient framework that directly harnesses the rich knowledge of pre-trained LDMs to build powerful pixel-space models. Specifically, L2P discards the VAE in favor of large-patch tokenization and freezes the source LDM's intermediate layers, exclusively training shallow layers to learn the latent-to-pixel transformation. By utilizing LDM-generated synthetic images as the sole training corpus, L2P fits an already smooth data manifold, enabling rapid convergence with zero real-data collection. This strategy allows L2P to seamlessly migrate massive latent priors to the pixel space using only 8 GPUs. Furthermore, eliminating the VAE memory bottleneck unlocks native 4K ultra-high resolution generation. Extensive experiments across mainstream LDM architectures show that L2P incurs negligible training overhead, yet performs on par with the source LDM on DPG-Bench and reaches 93% performance on GenEval.",
+      "arxiv_title": "L2P: Unlocking Latent Potential for Pixel Generation",
+      "arxiv_authors": [
+        "Zhennan Chen",
+        "Junwei Zhu",
+        "Xu Chen",
+        "Jiangning Zhang",
+        "Jiawei Chen",
+        "Zhuoqi Zeng",
+        "Wei Zhang",
+        "Chengjie Wang",
+        "Jian Yang",
+        "Ying Tai"
+      ]
+    },
+    {
+      "title": "Process-Level Trajectory Evaluation for Environment Configuration in Software Engineering Agents",
+      "arxiv_id": "2510.25694",
+      "code_url": "https://github.com/TencentYoutuResearch/EnConda-Bench",
+      "venue": "ICLR, 2026",
+      "topic": "Agent & Reasoning",
+      "year": 2026,
+      "paper_url": "https://arxiv.org/abs/2510.25694",
+      "authors": "Jiayi Kuang, Yinghui Li, Xin Zhang, Yangning Li, Di Yin, Xing Sun, Ying Shen, Philip S. Yu",
+      "attribution": {
+        "kind": "official_youtu_repository",
+        "label": "Youtu 官方研究仓库",
+        "source_url": "https://github.com/TencentYoutuResearch/EnConda-Bench"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2510.25694",
+      "published_at": "2025-10-29T16:59:07Z",
+      "abstract": "Large language model-based agents show promise for software engineering, but environment configuration remains a bottleneck due to heavy manual effort and scarce large-scale, high-quality datasets. Existing benchmarks assess only end-to-end build/test success, obscuring where and why agents succeed or fail. We introduce the Environment Configuration Diagnosis Benchmark, Enconda-bench, which provides process-level trajectory assessment of fine-grained agent capabilities during environment setup-planning, perception-driven error diagnosis, feedback-driven repair, and action to execute final environment configuration. Our task instances are automatically constructed by injecting realistic README errors and are validated in Docker for scalable, high-quality evaluation. Enconda-bench combines process-level analysis with end-to-end executability to enable capability assessments beyond aggregate success rates. Evaluations across state-of-the-art LLMs and agent frameworks show that while agents can localize errors, they struggle to translate feedback into effective corrections, limiting end-to-end performance. To our knowledge, Enconda-bench is the first framework to provide process-level internal capability assessment for environment configuration, offering actionable insights for improving software engineering agents.",
+      "arxiv_title": "Process-Level Trajectory Evaluation for Environment Configuration in Software Engineering Agents",
+      "arxiv_authors": [
+        "Jiayi Kuang",
+        "Yinghui Li",
+        "Xin Zhang",
+        "Yangning Li",
+        "Di Yin",
+        "Xing Sun",
+        "Ying Shen",
+        "Philip S. Yu"
+      ]
+    },
+    {
+      "title": "CUARewardBench: Benchmark for Evaluating Reward Models on Computer-using Agent Trajectories",
+      "year": 2026,
+      "venue": "International Conference on Machine Learning (ICML), 2026",
+      "authors": "Haojia Lin, Xiaoyu Tan, Yulei Qin, Zihan Xu, Yuchen Shi, Zongyi Li, Gang Li, Shaofei Cai, Siqi Cai, Yuzheng Cai, Chaoyou Fu, Ke Li, Xing Sun",
+      "paper_url": "https://arxiv.org/abs/2510.18596",
+      "code_url": null,
+      "arxiv_id": "2510.18596",
+      "topic": "Agent & Reasoning",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2510.18596",
+      "published_at": "2025-10-21T12:53:40Z",
+      "abstract": "Computer-using agents (CUAs) enable task completion through natural interaction with operating systems and software interfaces. While script-based verifiers are widely adopted for evaluation, they suffer from limited scalability and inability to provide step-wise assessment. Reward models offer promising alternatives, but their effectiveness on CUA evaluation remains largely underexplored. To address this gap, we present CUARewardBench, comprising four key contributions: (1) First-ever Comprehensive CUA Reward Benchmark: We introduce the first benchmark for evaluating both outcome reward models (ORM) and process reward models (PRM) on CUA tasks, enabling systematic assessment across trajectory-level and step-level evaluation. (2) Diverse, Practical and Reliable Dataset: CUARewardBench encompasses trajectories from 10 software categories and 7 agent architectures with varying performance levels (25.9%-50.8% success rates). All trajectories are expertly annotated through carefully designed protocols, with rigorous quality control to ensure reliability and practical applicability. (3) Comprehensive Analysis and Insights: Through extensive experiments across 7 vision-language models and 3 prompt templates, we reveal critical limitations of current CUA RMs, including insufficient visual reasoning capabilities, knowledge deficiencies, and the superiority of general VLMs over specialized CUA models for reward evaluation. (4) Unanimous Prompt Ensemble (UPE): Based on the insights from our comprehensive analysis, we propose UPE, a novel ensemble method that significantly enhances reward model reliability through strict unanimous voting and strategic prompt-template configurations. UPE achieves 89.8% precision and 93.3% NPV for ORM, and 81.7% precision and 85.1% NPV for PRM, substantially outperforming single VLMs and traditional ensemble approaches.",
+      "arxiv_title": "CUARewardBench: A Benchmark for Evaluating Reward Models on Computer-using Agent",
+      "arxiv_authors": [
+        "Haojia Lin",
+        "Xiaoyu Tan",
+        "Yulei Qin",
+        "Zihan Xu",
+        "Yuchen Shi",
+        "Zongyi Li",
+        "Gang Li",
+        "Shaofei Cai",
+        "Siqi Cai",
+        "Chaoyou Fu",
+        "Ke Li",
+        "Xing Sun"
+      ]
+    },
+    {
+      "title": "Count Counts: Motivating Exploration in LLM Reasoning with Count-based Intrinsic Rewards",
+      "year": 2026,
+      "venue": "International Conference on Learning Representations (ICLR), 2026",
+      "authors": "Xuan Zhang, Ruixiao Li, Zhijian Zhou, Long Li, Yulei Qin, Ke Li, Xing Sun, Xiaoyu Tan, Chao Qu, Yuan Qi",
+      "paper_url": "https://arxiv.org/abs/2510.16614",
+      "code_url": "https://github.com/dd88s87/MERCI",
+      "arxiv_id": "2510.16614",
+      "topic": "Agent & Reasoning",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2510.16614",
+      "published_at": "2025-10-18T18:57:26Z",
+      "abstract": "Reinforcement Learning (RL) has become a compelling way to strengthen the multi step reasoning ability of Large Language Models (LLMs). However, prevalent RL paradigms still lean on sparse outcome-based rewards and limited exploration, which often drives LLMs toward repetitive and suboptimal reasoning patterns. In this paper, we study the central question of how to design exploration for LLM reasoning and introduce MERCI (Motivating Exploration in LLM Reasoning with Count-based Intrinsic Rewards), a novel RL algorithm that augments policy optimization with a principled intrinsic reward. Building on the idea of count-based exploration, MERCI leverages a lightweight Coin Flipping Network (CFN) to estimate the pseudo count and further epistemic uncertainty over reasoning trajectories, and converts them into an intrinsic reward that values novelty while preserving the learning signal from task rewards. We integrate MERCI into some advanced RL frameworks like Group Relative Policy Optimization (GRPO). Experiments on complex reasoning benchmarks demonstrate that MERCI encourages richer and more varied chains of thought, significantly improves performance over strong baselines, and helps the policy escape local routines to discover better solutions. It indicates that our targeted intrinsic motivation can make exploration reliable for language model reasoning.",
+      "arxiv_title": "Count Counts: Motivating Exploration in LLM Reasoning with Count-based Intrinsic Rewards",
+      "arxiv_authors": [
+        "Xuan Zhang",
+        "Ruixiao Li",
+        "Zhijian Zhou",
+        "Long Li",
+        "Yulei Qin",
+        "Ke Li",
+        "Xing Sun",
+        "Xiaoyu Tan",
+        "Chao Qu",
+        "Yuan Qi"
+      ]
+    },
+    {
+      "title": "Learn the Ropes, Then Trust the Wins: Self-imitation with Progressive Exploration for Agentic Reinforcement Learning",
+      "year": 2026,
+      "venue": "International Conference on Learning Representations (ICLR), 2026",
+      "authors": "Yulei Qin, Xiaoyu Tan, Zhengbao He, Gang Li, Haojia Lin, Zongyi Li, Zihan Xu, Yuchen Shi, Siqi Cai, Renting Rui, Shaofei Cai, Yuzheng Cai, Xuan Zhang, Sheng Ye, Ke Li, Xing Sun",
+      "paper_url": "https://arxiv.org/abs/2509.22601",
+      "code_url": "https://github.com/TencentYoutuResearch/SPEAR",
+      "arxiv_id": "2509.22601",
+      "topic": "Agent & Reasoning",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2509.22601",
+      "published_at": "2025-09-26T17:20:38Z",
+      "abstract": "Reinforcement learning (RL) is the dominant paradigm for sharpening strategic tool use capabilities of LLMs on long-horizon, sparsely-rewarded agent tasks, yet it faces a fundamental challenge of exploration-exploitation trade-off. Existing studies stimulate exploration through the lens of policy entropy, but such mechanical entropy maximization is prone to RL instability due to the multi-turn distribution shifting. In this paper, we target the progressive exploration-exploitation balance under the guidance of the agent's own experiences without succumbing to either entropy collapsing or runaway divergence. We propose SPEAR, a self-imitation learning (SIL) recipe for training agentic LLMs. It extends the vanilla SIL, where a replay buffer stores good experience for off-policy update, by gradually steering the policy entropy across stages. Specifically, the proposed curriculum scheduling harmonizes intrinsic reward shaping and self-imitation to 1) expedite exploration via frequent tool interactions at the beginning, and 2) strengthen exploitation of successful tactics upon convergence towards familiarity with the environment. We also combine bag-of-tricks of industrial RL optimizations for a strong baseline Dr.BoT to demonstrate our effectiveness. In ALFWorld and WebShop, SPEAR increases the success rates of GRPO/GiGPO/Dr.BoT by up to 16.1%/5.1%/8.6% and 20.7%/11.8%/13.9%, respectively. In AIME24 and AIME25, SPEAR boosts Dr.BoT by up to 3.8% and 6.1%, respectively. Such gains incur only 10%-25% extra theoretical complexity and negligible runtime overhead in practice, demonstrating the plug-and-play scalability of SPEAR.",
+      "arxiv_title": "Learn the Ropes, Then Trust the Wins: Self-imitation with Progressive Exploration for Agentic Reinforcement Learning",
+      "arxiv_authors": [
+        "Yulei Qin",
+        "Xiaoyu Tan",
+        "Zhengbao He",
+        "Gang Li",
+        "Haojia Lin",
+        "Zongyi Li",
+        "Zihan Xu",
+        "Yuchen Shi",
+        "Siqi Cai",
+        "Renting Rui",
+        "Shaofei Cai",
+        "Yuzheng Cai",
+        "Xuan Zhang",
+        "Sheng Ye",
+        "Ke Li",
+        "Xing Sun"
+      ]
+    },
+    {
+      "title": "When Simple Problems Wear Complex Costumes: Improving Efficiency in LRM’s Adaptive Reasoning",
+      "year": 2026,
+      "venue": "International Conference on Machine Learning (ICML), 2026",
+      "authors": "Junnan Ren, Yan Zhang, Qian Chen, Yunhang Shen, Ke Li, Shengchuan Zhang, Liujuan Cao, Rongrong Ji",
+      "paper_url": "https://openreview.net/pdf?id=df9S9BaN8T",
+      "code_url": null,
+      "arxiv_id": null,
+      "topic": "Agent & Reasoning",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      }
+    },
+    {
+      "title": "DisPPO: Quantile-Based Distributional Reinforcement Learning for Large Language Models",
+      "year": 2026,
+      "venue": "International Conference on Machine Learning (ICML), 2026",
+      "authors": "Zhijian Zhou, Long Li, Xuan Zhang, Zongkai Liu, Yanting Miao, Yuchen Liu, Deshu Chen, Ke Li, Xing Sun, Ruoxi Jiang, Xiaoyu Tan, Chao Qu, Yuan Qi",
+      "paper_url": "https://openreview.net/pdf?id=Tkdgg5uqNK",
+      "code_url": null,
+      "arxiv_id": null,
+      "topic": "LLM",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      }
+    },
+    {
+      "title": "Attend to the Active: Structure-Aware Dynamic Attention in LLMs for Compositional Instruction Following",
+      "year": 2026,
+      "venue": "International Conference on Learning Representations (ICLR), 2026",
+      "authors": "Fangrui Lv, Yulei Qin, Ruixin Hong, Jian Liang, Jinyang Wu, Ke Li, Xing Sun, Changshui Zhang",
+      "paper_url": "https://openreview.net/pdf?id=wwA0X3UfAn",
+      "code_url": null,
+      "arxiv_id": null,
+      "topic": "LLM",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      }
+    },
+    {
+      "title": "Youtu-Agent: Scaling Agent Productivity with Automated Generation and Hybrid Policy Optimization",
+      "arxiv_id": "2512.24615",
+      "code_url": "https://github.com/Tencent/Youtu-agent",
+      "venue": "arXiv, 2025",
+      "topic": "Agent & Reasoning",
+      "year": 2025,
+      "paper_url": "https://arxiv.org/abs/2512.24615",
+      "authors": "Yuchen Shi, Yuzheng Cai, Siqi Cai, Zihan Xu, Lichao Chen, Yulei Qin, Zhijian Zhou, Xiang Fei, Chaofan Qiu, Xiaoyu Tan, Gang Li, Zongyi Li, Haojia Lin, Guocan Cai, Yong Mao, Yunsheng Wu, Ke Li, Xing Sun",
+      "attribution": {
+        "kind": "official_youtu_repository",
+        "label": "Youtu 官方研究仓库",
+        "source_url": "https://github.com/Tencent/Youtu-agent"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2512.24615",
+      "published_at": "2025-12-31T04:17:36Z",
+      "abstract": "Existing Large Language Model (LLM) agent frameworks face two significant challenges: high configuration costs and static capabilities. Building a high-quality agent often requires extensive manual effort in tool integration and prompt engineering, while deployed agents struggle to adapt to dynamic environments without expensive fine-tuning. To address these issues, we propose \\textbf{Youtu-Agent}, a modular framework designed for the automated generation and continuous evolution of LLM agents. Youtu-Agent features a structured configuration system that decouples execution environments, toolkits, and context management, enabling flexible reuse and automated synthesis. We introduce two generation paradigms: a \\textbf{Workflow} mode for standard tasks and a \\textbf{Meta-Agent} mode for complex, non-standard requirements, capable of automatically generating tool code, prompts, and configurations. Furthermore, Youtu-Agent establishes a hybrid policy optimization system: (1) an \\textbf{Agent Practice} module that enables agents to accumulate experience and improve performance through in-context optimization without parameter updates; and (2) an \\textbf{Agent RL} module that integrates with distributed training frameworks to enable scalable and stable reinforcement learning of any Youtu-Agents in an end-to-end, large-scale manner. Experiments demonstrate that Youtu-Agent achieves state-of-the-art performance on WebWalkerQA (71.47\\%) and GAIA (72.8\\%) using open-weight models. Our automated generation pipeline achieves over 81\\% tool synthesis success rate, while the Practice module improves performance on AIME 2024/2025 by +2.7\\% and +5.4\\% respectively. Moreover, our Agent RL training achieves 40\\% speedup with steady performance improvement on 7B LLMs, enhancing coding/reasoning and searching capabilities respectively up to 35\\% and 21\\% on Maths and general/multi-hop QA benchmarks.",
+      "arxiv_title": "Youtu-Agent: Scaling Agent Productivity with Automated Generation and Hybrid Policy Optimization",
+      "arxiv_authors": [
+        "Yuchen Shi",
+        "Yuzheng Cai",
+        "Siqi Cai",
+        "Zihan Xu",
+        "Lichao Chen",
+        "Yulei Qin",
+        "Zhijian Zhou",
+        "Xiang Fei",
+        "Chaofan Qiu",
+        "Xiaoyu Tan",
+        "Gang Li",
+        "Zongyi Li",
+        "Haojia Lin",
+        "Guocan Cai",
+        "Yong Mao",
+        "Yunsheng Wu",
+        "Ke Li",
+        "Xing Sun"
+      ]
+    },
+    {
+      "title": "APTBench: Benchmarking Agentic Potential of Base LLMs During Pre-Training",
+      "arxiv_id": "2510.24397",
+      "code_url": "https://github.com/TencentYoutuResearch/APTBench",
+      "venue": "arXiv, 2025",
+      "topic": "Agent & Reasoning",
+      "year": 2025,
+      "paper_url": "https://arxiv.org/abs/2510.24397",
+      "authors": "Jiarui Qin, Yunjia Xi, Junjie Huang, Renting Rui, Di Yin, Weiwen Liu, Yong Yu, Weinan Zhang, Xing Sun",
+      "attribution": {
+        "kind": "official_youtu_repository",
+        "label": "Youtu 官方研究仓库",
+        "source_url": "https://github.com/TencentYoutuResearch/APTBench"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2510.24397",
+      "published_at": "2025-10-28T13:11:22Z",
+      "abstract": "With the rapid development of LLM-based agents, there is a growing trend to incorporate agent-specific data into the pre-training stage of LLMs, aiming to better align LLMs with real-world autonomous task execution. However, current pre-training benchmarks primarily focus on isolated and static skills, e.g., common knowledge or mathematical/code reasoning, and fail to reflect model's agentic capabilities. On the other hand, agent benchmarks are typically designed for post-trained models, requiring multi-turn task execution abilities that base models struggle to support. Thus, there is a compelling need for a benchmark that can evaluate agentic potentials during pre-training and guide the model training more effectively. To address this gap, we propose APTBench, a framework that converts real-world agent tasks and successful trajectories into multiple-choice or text completion questions tailored for base models. It focuses on core agentic abilities, e.g., planning and action, and covers key agent scenarios, software engineering and deep research. Compared to existing general-purpose benchmarks, APTBench offers a more predictive signal of a model's downstream performance as an agent, while remaining significantly more lightweight and cost-effective than full-scale, end-to-end agent evaluations after post-training.",
+      "arxiv_title": "APTBench: Benchmarking Agentic Potential of Base LLMs During Pre-Training",
+      "arxiv_authors": [
+        "Jiarui Qin",
+        "Yunjia Xi",
+        "Junjie Huang",
+        "Renting Rui",
+        "Di Yin",
+        "Weiwen Liu",
+        "Yong Yu",
+        "Weinan Zhang",
+        "Xing Sun"
+      ]
+    },
+    {
+      "title": "Training-Free Group Relative Policy Optimization",
+      "arxiv_id": "2510.08191",
+      "code_url": "https://github.com/Tencent/Youtu-agent",
+      "venue": "arXiv, 2025",
+      "topic": "Agent & Reasoning",
+      "year": 2025,
+      "paper_url": "https://arxiv.org/abs/2510.08191",
+      "authors": "Yuzheng Cai, Siqi Cai, Yuchen Shi, Zihan Xu, Lichao Chen, Yulei Qin, Xiaoyu Tan, Gang Li, Zongyi Li, Haojia Lin, Yong Mao, Ke Li, Xing Sun",
+      "attribution": {
+        "kind": "official_youtu_repository",
+        "label": "Youtu 官方研究仓库",
+        "source_url": "https://github.com/Tencent/Youtu-agent"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2510.08191",
+      "published_at": "2025-10-09T13:18:17Z",
+      "abstract": "Recent advances in Large Language Model (LLM) agents have demonstrated their promising general capabilities. However, their performance in specialized real-world domains often degrades due to challenges in effectively integrating external tools and specific prompting strategies. While methods like agentic reinforcement learning have been proposed to address this, they typically rely on costly parameter updates, for example, through a process that uses Supervised Fine-Tuning (SFT) followed by a Reinforcement Learning (RL) phase with Group Relative Policy Optimization (GRPO) to alter the output distribution. However, we argue that LLMs can achieve a similar effect on the output distribution by learning experiential knowledge as a token prior, which is a far more lightweight approach that not only addresses practical data scarcity but also avoids the common issue of overfitting. To this end, we propose Training-Free Group Relative Policy Optimization (Training-Free GRPO), a cost-effective solution that enhances LLM agent performance without any parameter updates. Our method leverages the group relative semantic advantage instead of numerical ones within each group of rollouts, iteratively distilling high-quality experiential knowledge during multi-epoch learning on a minimal ground-truth data. Such knowledge serves as the learned token prior, which is seamlessly integrated during LLM API calls to guide model behavior. Experiments on mathematical reasoning and web searching tasks demonstrate that Training-Free GRPO, when applied to DeepSeek-V3.1-Terminus, significantly improves out-of-domain performance. With just a few dozen training samples, Training-Free GRPO outperforms fine-tuned small LLMs with marginal training data and cost.",
+      "arxiv_title": "Training-Free Group Relative Policy Optimization",
+      "arxiv_authors": [
+        "Yuzheng Cai",
+        "Siqi Cai",
+        "Yuchen Shi",
+        "Zihan Xu",
+        "Lichao Chen",
+        "Yulei Qin",
+        "Xiaoyu Tan",
+        "Gang Li",
+        "Zongyi Li",
+        "Haojia Lin",
+        "Yong Mao",
+        "Ke Li",
+        "Xing Sun"
+      ]
+    },
+    {
+      "title": "ASPD: Unlocking Adaptive Serial-Parallel Decoding by Exploring Intrinsic Parallelism in LLMs",
+      "arxiv_id": "2508.08895",
+      "code_url": "https://github.com/TencentYoutuResearch/LLM-ASPD",
+      "venue": "arXiv, 2025",
+      "topic": "LLM Systems",
+      "year": 2025,
+      "paper_url": "https://arxiv.org/abs/2508.08895",
+      "authors": "Keyu Chen, Zhifeng Shen, Daohai Yu, Haoqian Wu, Wei Wen, Jianfeng He, Ruizhi Qiao, Xing Sun",
+      "attribution": {
+        "kind": "official_youtu_repository",
+        "label": "Youtu 官方研究仓库",
+        "source_url": "https://github.com/TencentYoutuResearch/LLM-ASPD"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2508.08895",
+      "published_at": "2025-08-12T12:35:55Z",
+      "abstract": "The increasing scale and complexity of large language models (LLMs) pose significant inference latency challenges, primarily due to their autoregressive decoding paradigm characterized by the sequential nature of next-token prediction. By re-examining the outputs of autoregressive models, we observed that some segments exhibit parallelizable structures, which we term intrinsic parallelism. Decoding each parallelizable branch simultaneously (i.e. parallel decoding) can significantly improve the overall inference speed of LLMs. In this paper, we propose an Adaptive Serial-Parallel Decoding (ASPD), which addresses two core challenges: automated construction of parallelizable data and efficient parallel decoding mechanism. More specifically, we introduce a non-invasive pipeline that automatically extracts and validates parallelizable structures from the responses of autoregressive models. To empower efficient adaptive serial-parallel decoding, we implement a Hybrid Decoding Engine which enables seamless transitions between serial and parallel decoding modes while maintaining a reusable KV cache, maximizing computational efficiency. Extensive evaluations across General Tasks, Retrieval-Augmented Generation, Mathematical Reasoning, demonstrate that ASPD achieves unprecedented performance in both effectiveness and efficiency. Notably, on Vicuna Bench, our method achieves up to 3.19x speedup (1.85x on average) while maintaining response quality within 1% difference compared to autoregressive models, realizing significant acceleration without compromising generation quality. Our framework sets a groundbreaking benchmark for efficient LLM parallel inference, paving the way for its deployment in latency-sensitive applications such as AI-powered customer service bots and answer retrieval engines.",
+      "arxiv_title": "ASPD: Unlocking Adaptive Serial-Parallel Decoding by Exploring Intrinsic Parallelism in LLMs",
+      "arxiv_authors": [
+        "Keyu Chen",
+        "Zhifeng Shen",
+        "Daohai Yu",
+        "Haoqian Wu",
+        "Wei Wen",
+        "Jianfeng He",
+        "Ruizhi Qiao",
+        "Xing Sun"
+      ]
+    },
+    {
+      "title": "Incentivizing Reasoning for Advanced Instruction-Following of Large Language Models",
+      "year": 2025,
+      "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2025",
+      "authors": "Yulei Qin, Gang Li, Zongyi Li, Zihan Xu, Yuchen Shi, Zhekai Lin, Xiao Cui, Ke Li, Xing Sun",
+      "paper_url": "https://arxiv.org/abs/2506.01413",
+      "code_url": "https://github.com/yuleiqin/RAIF",
+      "arxiv_id": "2506.01413",
+      "topic": "Agent & Reasoning",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2506.01413",
+      "published_at": "2025-06-02T08:11:44Z",
+      "abstract": "Existing large language models (LLMs) face challenges of following complex instructions, especially when multiple constraints are present and organized in paralleling, chaining, and branching structures. One intuitive solution, namely chain-of-thought (CoT), is expected to universally improve capabilities of LLMs. However, we find that the vanilla CoT exerts a negative impact on performance due to its superficial reasoning pattern of simply paraphrasing the instructions. It fails to peel back the compositions of constraints for identifying their relationship across hierarchies of types and dimensions. To this end, we propose RAIF, a systematic method to boost LLMs in dealing with complex instructions via incentivizing reasoning for test-time compute scaling. First, we stem from the decomposition of complex instructions under existing taxonomies and propose a reproducible data acquisition method. Second, we exploit reinforcement learning (RL) with verifiable rule-centric reward signals to cultivate reasoning specifically for instruction following. We address the shallow, non-essential nature of reasoning under complex instructions via sample-wise contrast for superior CoT enforcement. We also exploit behavior cloning of experts to facilitate steady distribution shift from fast-thinking LLMs to skillful reasoners. Extensive evaluations on seven comprehensive benchmarks confirm the validity of the proposed method, where a 1.5B LLM achieves 11.74% gains with performance comparable to a 8B LLM. Evaluation on OOD constraints also confirms the generalizability of our RAIF. Codes and data are available at https://github.com/yuleiqin/RAIF. Keywords: reinforcement learning with verifiable rewards (RLVR), instruction following, complex instructions",
+      "arxiv_title": "Incentivizing Reasoning for Advanced Instruction-Following of Large Language Models",
+      "arxiv_authors": [
+        "Yulei Qin",
+        "Gang Li",
+        "Zongyi Li",
+        "Zihan Xu",
+        "Yuchen Shi",
+        "Zhekai Lin",
+        "Xiao Cui",
+        "Ke Li",
+        "Xing Sun"
+      ]
+    },
+    {
+      "title": "VITA-Audio: Fast Interleaved Audio-Text Token Generation for Efficient Large Speech-Language Model",
+      "year": 2025,
+      "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2025",
+      "authors": "Zuwei Long, Yunhang Shen, Chaoyou Fu, Heting Gao, Lijiang Li, Peixian Chen, Mengdan Zhang, Hang Shao, Jian Li, Jinlong Peng, Haoyu Cao, Ke Li, Rongrong Ji, Xing Sun",
+      "paper_url": "https://arxiv.org/abs/2505.03739",
+      "code_url": "https://github.com/VITA-MLLM/VITA-Audio",
+      "arxiv_id": "2505.03739",
+      "topic": "Multimodal",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2505.03739",
+      "published_at": "2025-05-06T17:59:53Z",
+      "abstract": "With the growing requirement for natural human-computer interaction, speech-based systems receive increasing attention as speech is one of the most common forms of daily communication. However, the existing speech models still experience high latency when generating the first audio token during streaming, which poses a significant bottleneck for deployment. To address this issue, we propose VITA-Audio, an end-to-end large speech model with fast audio-text token generation. Specifically, we introduce a lightweight Multiple Cross-modal Token Prediction (MCTP) module that efficiently generates multiple audio tokens within a single model forward pass, which not only accelerates the inference but also significantly reduces the latency for generating the first audio in streaming scenarios. In addition, a four-stage progressive training strategy is explored to achieve model acceleration with minimal loss of speech quality. To our knowledge, VITA-Audio is the first multi-modal large language model capable of generating audio output during the first forward pass, enabling real-time conversational capabilities with minimal latency. VITA-Audio is fully reproducible and is trained on open-source data only. Experimental results demonstrate that our model achieves an inference speedup of 3~5x at the 7B parameter scale, but also significantly outperforms open-source models of similar model size on multiple benchmarks for automatic speech recognition (ASR), text-to-speech (TTS), and spoken question answering (SQA) tasks.",
+      "arxiv_title": "VITA-Audio: Fast Interleaved Cross-Modal Token Generation for Efficient Large Speech-Language Model",
+      "arxiv_authors": [
+        "Zuwei Long",
+        "Yunhang Shen",
+        "Chaoyou Fu",
+        "Heting Gao",
+        "Lijiang Li",
+        "Peixian Chen",
+        "Mengdan Zhang",
+        "Hang Shao",
+        "Jian Li",
+        "Jinlong Peng",
+        "Haoyu Cao",
+        "Ke Li",
+        "Rongrong Ji",
+        "Xing Sun"
+      ]
+    },
+    {
+      "title": "VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction",
+      "year": 2025,
+      "venue": "Advances in Neural Information Processing Systems (NeurIPS, spotlight), 2025",
+      "authors": "Chaoyou Fu, Haojia Lin, Xiong Wang, YiFan Zhang, Yunhang Shen, Xiaoyu Liu, Haoyu Cao, Zuwei Long, Heting Gao, Ke Li, Long Ma, Xiawu Zheng, Rongrong Ji, Xing Sun, Caifeng Shan, Ran He",
+      "paper_url": "https://arxiv.org/abs/2501.01957",
+      "code_url": "https://github.com/VITA-MLLM/VITA",
+      "arxiv_id": "2501.01957",
+      "topic": "Multimodal",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2501.01957",
+      "published_at": "2025-01-03T18:59:52Z",
+      "abstract": "Recent Multimodal Large Language Models (MLLMs) have typically focused on integrating visual and textual modalities, with less emphasis placed on the role of speech in enhancing interaction. However, speech plays a crucial role in multimodal dialogue systems, and implementing high-performance in both vision and speech tasks remains a significant challenge due to the fundamental modality differences. In this paper, we propose a carefully designed multi-stage training methodology that progressively trains LLM to understand both visual and speech information, ultimately enabling fluent vision and speech interaction. Our approach not only preserves strong vision-language capacity, but also enables efficient speech-to-speech dialogue capabilities without separate ASR and TTS modules, significantly accelerating multimodal end-to-end response speed. By comparing our method against state-of-the-art counterparts across benchmarks for image, video, and speech tasks, we demonstrate that our model is equipped with both strong visual and speech capabilities, making near real-time vision and speech interaction. Code has been released at https://github.com/VITA-MLLM/VITA.",
+      "arxiv_title": "VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction",
+      "arxiv_authors": [
+        "Chaoyou Fu",
+        "Haojia Lin",
+        "Xiong Wang",
+        "Yi-Fan Zhang",
+        "Yunhang Shen",
+        "Xiaoyu Liu",
+        "Haoyu Cao",
+        "Zuwei Long",
+        "Heting Gao",
+        "Ke Li",
+        "Long Ma",
+        "Xiawu Zheng",
+        "Rongrong Ji",
+        "Xing Sun",
+        "Caifeng Shan",
+        "Ran He"
+      ]
+    },
+    {
+      "title": "Probability-Density-aware Semi-supervised Learning",
+      "year": 2025,
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2025",
+      "authors": "Shuyang Liu, Ruiqiu Zheng, Yunhang Shen, Zhou Yu, Ke Li, Xing Sun, Shaohui Lin",
+      "paper_url": "https://arxiv.org/abs/2412.17547",
+      "code_url": null,
+      "arxiv_id": "2412.17547",
+      "topic": "Efficient Learning",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2412.17547",
+      "published_at": "2024-12-23T13:08:23Z",
+      "abstract": "Semi-supervised learning (SSL) assumes that neighbor points lie in the same category (neighbor assumption), and points in different clusters belong to various categories (cluster assumption). Existing methods usually rely on similarity measures to retrieve the similar neighbor points, ignoring cluster assumption, which may not utilize unlabeled information sufficiently and effectively. This paper first provides a systematical investigation into the significant role of probability density in SSL and lays a solid theoretical foundation for cluster assumption. To this end, we introduce a Probability-Density-Aware Measure (PM) to discern the similarity between neighbor points. To further improve Label Propagation, we also design a Probability-Density-Aware Measure Label Propagation (PMLP) algorithm to fully consider the cluster assumption in label propagation. Last but not least, we prove that traditional pseudo-labeling could be viewed as a particular case of PMLP, which provides a comprehensive theoretical understanding of PMLP's superior performance. Extensive experiments demonstrate that PMLP achieves outstanding performance compared with other recent methods.",
+      "arxiv_title": "Probability-density-aware Semi-supervised Learning",
+      "arxiv_authors": [
+        "Shuyang Liu",
+        "Ruiqiu Zheng",
+        "Yunhang Shen",
+        "Ke Li",
+        "Xing Sun",
+        "Zhou Yu",
+        "Shaohui Lin"
+      ]
+    },
+    {
+      "title": "FlashSloth: Lightning Multimodal Large Language Models via Embedded Visual Compression",
+      "year": 2025,
+      "venue": "Computer Vision and Pattern Recognition (CVPR), 2025",
+      "authors": "Bo Tong, Bokai Lai, Yiyi Zhou, Gen Luo, Yunhang Shen, Ke Li, Xiaoshuai Sun, Rongrong Ji",
+      "paper_url": "https://arxiv.org/abs/2412.04317",
+      "code_url": "https://github.com/codefanw/FlashSloth",
+      "arxiv_id": "2412.04317",
+      "topic": "Multimodal",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2412.04317",
+      "published_at": "2024-12-05T16:34:07Z",
+      "abstract": "Despite a big leap forward in capability, multimodal large language models (MLLMs) tend to behave like a sloth in practical use, i.e., slow response and large latency. Recent efforts are devoted to building tiny MLLMs for better efficiency, but the plethora of visual tokens still used limit their actual speedup. In this paper, we propose a powerful and fast tiny MLLM called FlashSloth. Different from previous efforts, FlashSloth focuses on improving the descriptive power of visual tokens in the process of compressing their redundant semantics. In particular, FlashSloth introduces embedded visual compression designs to capture both visually salient and instruction-related image information, so as to achieving superior multimodal performance with fewer visual tokens. Extensive experiments are conducted to validate the proposed FlashSloth, and a bunch of tiny but strong MLLMs are also comprehensively compared, e.g., InternVL2, MiniCPM-V2 and Qwen2-VL. The experimental results show that compared with these advanced tiny MLLMs, our FlashSloth can greatly reduce the number of visual tokens, training memory and computation complexity while retaining high performance on various VL tasks.",
+      "arxiv_title": "FlashSloth: Lightning Multimodal Large Language Models via Embedded Visual Compression",
+      "arxiv_authors": [
+        "Bo Tong",
+        "Bokai Lai",
+        "Yiyi Zhou",
+        "Gen Luo",
+        "Yunhang Shen",
+        "Ke Li",
+        "Xiaoshuai Sun",
+        "Rongrong Ji"
+      ]
+    },
+    {
+      "title": "Freeze-Omni: A Smart and Low Latency Speech-to-speech Dialogue Model with Frozen LLM",
+      "year": 2025,
+      "venue": "International Conference on Machine Learning (ICML), 2025",
+      "authors": "Xiong Wang, Yangze Li, Chaoyou Fu, Yike Zhang, Yunhang Shen, Lei Xie, Ke Li, Xing Sun, Long Ma",
+      "paper_url": "https://arxiv.org/abs/2411.00774",
+      "code_url": "https://github.com/VITA-MLLM/Freeze-Omni",
+      "arxiv_id": "2411.00774",
+      "topic": "Multimodal",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2411.00774",
+      "published_at": "2024-11-01T17:59:51Z",
+      "abstract": "Rapidly developing large language models (LLMs) have brought tremendous intelligent applications. Especially, the GPT-4o's excellent duplex speech interaction ability has brought impressive experience to users. Researchers have recently proposed several multi-modal LLMs in this direction that can achieve user-agent speech-to-speech conversations. This paper proposes a novel speech-text multimodal LLM architecture called Freeze-Omni. Our main contribution is that the speech input and output modalities can be easily connected to a textual LLM while keeping the LLM's parameters frozen throughout the training process. We design a three-stage training strategy for modeling both the speech input and output, enabling Freeze-Omni to obtain speech-to-speech conversation ability using text-speech paired data (such as ASR and TTS data) and only 60,000 multi-round text Q&A data on 8 GPUs. Moreover, we can effectively ensure that the intelligence of the Freeze-Omni in the speech modality is at the same level compared with that in the text modality of its backbone LLM, while achieving low latency end-to-end spoken response. In addition, we also designed a method to achieve duplex dialogue ability through multi-task training, giving Freeze-Omni a more natural style of dialogue ability between users and agents. In summary, Freeze-Omni holds great potential to conduct speech-to-speech dialogue based on a multimodal LLM under the condition of a frozen LLM, avoiding the catastrophic forgetting problem caused by limited data and training resources.",
+      "arxiv_title": "Freeze-Omni: A Smart and Low Latency Speech-to-speech Dialogue Model with Frozen LLM",
+      "arxiv_authors": [
+        "Xiong Wang",
+        "Yangze Li",
+        "Chaoyou Fu",
+        "Yunhang Shen",
+        "Lei Xie",
+        "Ke Li",
+        "Xing Sun",
+        "Long Ma"
+      ]
+    },
+    {
+      "title": "Few-Shot Image Quality Assessment via Adaptation of Vision-Language Models",
+      "year": 2025,
+      "venue": "International Conference on Computer Vision (ICCV), 2025",
+      "authors": "Xudong Li, Zihao Huang, Yan Zhang, Yunhang Shen, Ke Li, Xiawu Zheng, Liujuan Cao, Rongrong Ji",
+      "paper_url": "https://arxiv.org/abs/2409.05381",
+      "code_url": "https://github.com/LXDxmu/GRMP-IQA",
+      "arxiv_id": "2409.05381",
+      "topic": "Multimodal",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2409.05381",
+      "published_at": "2024-09-09T07:26:21Z",
+      "abstract": "Image Quality Assessment (IQA) remains an unresolved challenge in computer vision due to complex distortions, diverse image content, and limited data availability. Existing Blind IQA (BIQA) methods largely rely on extensive human annotations, which are labor-intensive and costly due to the demanding nature of creating IQA datasets. To reduce this dependency, we propose the Gradient-Regulated Meta-Prompt IQA Framework (GRMP-IQA), designed to efficiently adapt the visual-language pre-trained model, CLIP, to IQA tasks, achieving high accuracy even with limited data. GRMP-IQA consists of two core modules: (i) Meta-Prompt Pre-training Module and (ii) Quality-Aware Gradient Regularization. The Meta Prompt Pre-training Module leverages a meta-learning paradigm to pre-train soft prompts with shared meta-knowledge across different distortions, enabling rapid adaptation to various IQA tasks. On the other hand, the Quality-Aware Gradient Regularization is designed to adjust the update gradients during fine-tuning, focusing the model's attention on quality-relevant features and preventing overfitting to semantic information. Extensive experiments on standard BIQA datasets demonstrate the superior performance to the state-of-the-art BIQA methods under limited data setting. Notably, utilizing just 20% of the training data, GRMP-IQA is competitive with most existing fully supervised BIQA approaches.",
+      "arxiv_title": "Few-Shot Image Quality Assessment via Adaptation of Vision-Language Models",
+      "arxiv_authors": [
+        "Xudong Li",
+        "Zihao Huang",
+        "Yan Zhang",
+        "Yunhang Shen",
+        "Ke Li",
+        "Xiawu Zheng",
+        "Liujuan Cao",
+        "Rongrong Ji"
+      ]
+    },
+    {
+      "title": "Improving Factuality in Large Language Models via Decoding-Time Hallucinatory and Truthful Comparators",
+      "year": 2025,
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI, Oral), 2025",
+      "authors": "Dingkang Yang, Dongling Xiao, Jinjie Wei, Mingcheng Li, Zhaoyu Chen, Ke Li*, Lihua Zhang",
+      "paper_url": "https://arxiv.org/abs/2408.12325",
+      "code_url": "https://github.com/ydk122024/CDT",
+      "arxiv_id": "2408.12325",
+      "topic": "LLM",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2408.12325",
+      "published_at": "2024-08-22T12:00:31Z",
+      "abstract": "Despite their remarkable capabilities, Large Language Models (LLMs) are prone to generate responses that contradict verifiable facts, i.e., unfaithful hallucination content. Existing efforts generally focus on optimizing model parameters or editing semantic representations, which compromise the internal factual knowledge of target LLMs. In addition, hallucinations typically exhibit multifaceted patterns in downstream tasks, limiting the model's holistic performance across tasks. In this paper, we propose a Comparator-driven Decoding-Time (CDT) framework to alleviate the response hallucination. Firstly, we construct hallucinatory and truthful comparators with multi-task fine-tuning samples. In this case, we present an instruction prototype-guided mixture of experts strategy to enhance the ability of the corresponding comparators to capture different hallucination or truthfulness patterns in distinct task instructions. CDT constrains next-token predictions to factuality-robust distributions by contrasting the logit differences between the target LLMs and these comparators. Systematic experiments on multiple downstream tasks show that our framework can significantly improve the model performance and response factuality.",
+      "arxiv_title": "Improving Factuality in Large Language Models via Decoding-Time Hallucinatory and Truthful Comparators",
+      "arxiv_authors": [
+        "Dingkang Yang",
+        "Dongling Xiao",
+        "Jinjie Wei",
+        "Mingcheng Li",
+        "Zhaoyu Chen",
+        "Ke Li",
+        "Lihua Zhang"
+      ]
+    },
+    {
+      "title": "Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis",
+      "year": 2025,
+      "venue": "Computer Vision and Pattern Recognition (CVPR, highlight), 2025",
+      "authors": "Chaoyou Fu, Yuhan Dai, Yongdong Luo, Lei Li, Shuhuai Ren, Renrui Zhang, Zihan Wang, Chenyu Zhou, Yunhang Shen, Mengdan Zhang, Peixian Chen, Yanwei Li, Shaohui Lin, Sirui Zhao, Ke Li, Tong Xu, Xiawu Zheng, Enhong Chen, Caifeng Shan, Ran He, Xing Sun",
+      "paper_url": "https://arxiv.org/abs/2405.21075",
+      "code_url": "https://github.com/MME-Benchmarks/Video-MME",
+      "arxiv_id": "2405.21075",
+      "topic": "Multimodal",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2405.21075",
+      "published_at": "2024-05-31T17:59:47Z",
+      "abstract": "In the quest for artificial general intelligence, Multi-modal Large Language Models (MLLMs) have emerged as a focal point in recent advancements. However, the predominant focus remains on developing their capabilities in static image understanding. The potential of MLLMs in processing sequential visual data is still insufficiently explored, highlighting the absence of a comprehensive, high-quality assessment of their performance. In this paper, we introduce Video-MME, the first-ever full-spectrum, Multi-Modal Evaluation benchmark of MLLMs in Video analysis. Our work distinguishes from existing benchmarks through four key features: 1) Diversity in video types, spanning 6 primary visual domains with 30 subfields to ensure broad scenario generalizability; 2) Duration in temporal dimension, encompassing both short-, medium-, and long-term videos, ranging from 11 seconds to 1 hour, for robust contextual dynamics; 3) Breadth in data modalities, integrating multi-modal inputs besides video frames, including subtitles and audios, to unveil the all-round capabilities of MLLMs; 4) Quality in annotations, utilizing rigorous manual labeling by expert annotators to facilitate precise and reliable model assessment. 900 videos with a total of 254 hours are manually selected and annotated by repeatedly viewing all the video content, resulting in 2,700 question-answer pairs. With Video-MME, we extensively evaluate various state-of-the-art MLLMs, including GPT-4 series and Gemini 1.5 Pro, as well as open-source image models like InternVL-Chat-V1.5 and video models like LLaVA-NeXT-Video. Our experiments reveal that Gemini 1.5 Pro is the best-performing commercial model, significantly outperforming the open-source models. Our dataset along with these findings underscores the need for further improvements in handling longer sequences and multi-modal data. Project Page: https://video-mme.github.io",
+      "arxiv_title": "Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis",
+      "arxiv_authors": [
+        "Chaoyou Fu",
+        "Yuhan Dai",
+        "Yongdong Luo",
+        "Lei Li",
+        "Shuhuai Ren",
+        "Renrui Zhang",
+        "Zihan Wang",
+        "Chenyu Zhou",
+        "Yunhang Shen",
+        "Mengdan Zhang",
+        "Peixian Chen",
+        "Yanwei Li",
+        "Shaohui Lin",
+        "Sirui Zhao",
+        "Ke Li",
+        "Tong Xu",
+        "Xiawu Zheng",
+        "Enhong Chen",
+        "Caifeng Shan",
+        "Ran He",
+        "Xing Sun"
+      ]
+    },
+    {
+      "title": "Feature Denoising Diffusion Model for Blind Image Quality Assessment",
+      "year": 2025,
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2025",
+      "authors": "Xudong Li, Yan Zhang, Yunhang Shen, Ke Li, Runze Hu, Xiawu Zheng, Sicheng Zhao",
+      "paper_url": "https://arxiv.org/abs/2401.11949",
+      "code_url": null,
+      "arxiv_id": "2401.11949",
+      "topic": "Computer Vision",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2401.11949",
+      "published_at": "2024-01-22T13:38:24Z",
+      "abstract": "Blind Image Quality Assessment (BIQA) aims to evaluate image quality in line with human perception, without reference benchmarks. Currently, deep learning BIQA methods typically depend on using features from high-level tasks for transfer learning. However, the inherent differences between BIQA and these high-level tasks inevitably introduce noise into the quality-aware features. In this paper, we take an initial step towards exploring the diffusion model for feature denoising in BIQA, namely Perceptual Feature Diffusion for IQA (PFD-IQA), which aims to remove noise from quality-aware features. Specifically, (i) We propose a {Perceptual Prior Discovery and Aggregation module to establish two auxiliary tasks to discover potential low-level features in images that are used to aggregate perceptual text conditions for the diffusion model. (ii) We propose a Perceptual Prior-based Feature Refinement strategy, which matches noisy features to predefined denoising trajectories and then performs exact feature denoising based on text conditions. Extensive experiments on eight standard BIQA datasets demonstrate the superior performance to the state-of-the-art BIQA methods, i.e., achieving the PLCC values of 0.935 ( vs. 0.905 in KADID) and 0.922 ( vs. 0.894 in LIVEC).",
+      "arxiv_title": "Feature Denoising Diffusion Model for Blind Image Quality Assessment",
+      "arxiv_authors": [
+        "Xudong Li",
+        "Jingyuan Zheng",
+        "Runze Hu",
+        "Yan Zhang",
+        "Ke Li",
+        "Yunhang Shen",
+        "Xiawu Zheng",
+        "Yutao Liu",
+        "ShengChuan Zhang",
+        "Pingyang Dai",
+        "Rongrong Ji"
+      ]
+    },
+    {
+      "title": "MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models",
+      "year": 2025,
+      "venue": "Advances in Neural Information Processing Systems (NeurIPS, spotlight), 2025",
+      "authors": "Chaoyou Fu, Peixian Chen, Yunhang Shen, Yulei Qin, Mengdan Zhang, Xu Lin, Jinrui Yang, Xiawu Zheng, Ke Li*, Xing Sun, Rongrong Ji",
+      "paper_url": "https://arxiv.org/abs/2306.13394",
+      "code_url": "https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation",
+      "arxiv_id": "2306.13394",
+      "topic": "Multimodal",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2306.13394",
+      "published_at": "2023-06-23T09:22:36Z",
+      "abstract": "Multimodal Large Language Model (MLLM) relies on the powerful LLM to perform multimodal tasks, showing amazing emergent abilities in recent studies, such as writing poems based on an image. However, it is difficult for these case studies to fully reflect the performance of MLLM, lacking a comprehensive evaluation. In this paper, we fill in this blank, presenting the first comprehensive MLLM Evaluation benchmark MME. It measures both perception and cognition abilities on a total of 14 subtasks. In order to avoid data leakage that may arise from direct use of public datasets for evaluation, the annotations of instruction-answer pairs are all manually designed. The concise instruction design allows us to fairly compare MLLMs, instead of struggling in prompt engineering. Besides, with such an instruction, we can also easily carry out quantitative statistics. A total of 30 advanced MLLMs are comprehensively evaluated on our MME, which not only suggests that existing MLLMs still have a large room for improvement, but also reveals the potential directions for the subsequent model optimization. The data are released at the project page https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation.",
+      "arxiv_title": "MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models",
+      "arxiv_authors": [
+        "Chaoyou Fu",
+        "Peixian Chen",
+        "Yunhang Shen",
+        "Yulei Qin",
+        "Mengdan Zhang",
+        "Xu Lin",
+        "Jinrui Yang",
+        "Xiawu Zheng",
+        "Ke Li",
+        "Xing Sun",
+        "Yunsheng Wu",
+        "Rongrong Ji",
+        "Caifeng Shan",
+        "Ran He"
+      ]
+    },
+    {
+      "title": "LTD-Bench: Evaluating Large Language Models by Letting Them Draw",
+      "year": 2025,
+      "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2025",
+      "authors": "Liuhao Lin, Ke Li*, Zihan Xu, Yuchen Shi, Yulei Qin, Yan Zhang, Xing Sun, Rongrong Ji",
+      "paper_url": "https://neurips.cc/virtual/2025/poster/121630",
+      "code_url": "https://github.com/walktaster/LTD-Bench",
+      "arxiv_id": null,
+      "topic": "LLM",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      }
+    },
+    {
+      "title": "Distilling Spatially-Heterogeneous Distortion Perception for Blind Image Quality Assessment",
+      "year": 2025,
+      "venue": "Computer Vision and Pattern Recognition (CVPR), 2025",
+      "authors": "Xudong Li, Wenjie Nie, Yan Zhang, Runze Hu, Ke Li, Xiawu Zheng, Liujuan Cao",
+      "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_Distilling_Spatially-Heterogeneous_Distortion_Perception_for_Blind_Image_Quality_Assessment_CVPR_2025_paper.pdf",
+      "code_url": null,
+      "arxiv_id": null,
+      "topic": "Computer Vision",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      }
+    },
+    {
+      "title": "Solving the Catastrophic Forgetting Problem in Generalized Category Discovery",
+      "year": 2024,
+      "venue": "Computer Vision and Pattern Recognition (CVPR), 2024",
+      "authors": "Xinzi Cao, Xiawu Zheng, Guanhong Wang, Weijiang Yu, Yunhang Shen, Ke Li, Yutong Lu, Yonghong Tian",
+      "paper_url": "https://arxiv.org/abs/2501.05272",
+      "code_url": "https://github.com/Cliffia123/LegoGCD",
+      "arxiv_id": "2501.05272",
+      "topic": "Machine Learning",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2501.05272",
+      "published_at": "2025-01-09T14:31:54Z",
+      "abstract": "Generalized Category Discovery (GCD) aims to identify a mix of known and novel categories within unlabeled data sets, providing a more realistic setting for image recognition. Essentially, GCD needs to remember existing patterns thoroughly to recognize novel categories. Recent state-of-the-art method SimGCD transfers the knowledge from known-class data to the learning of novel classes through debiased learning. However, some patterns are catastrophically forgot during adaptation and thus lead to poor performance in novel categories classification. To address this issue, we propose a novel learning approach, LegoGCD, which is seamlessly integrated into previous methods to enhance the discrimination of novel classes while maintaining performance on previously encountered known classes. Specifically, we design two types of techniques termed as Local Entropy Regularization (LER) and Dual-views Kullback Leibler divergence constraint (DKL). The LER optimizes the distribution of potential known class samples in unlabeled data, thus ensuring the preservation of knowledge related to known categories while learning novel classes. Meanwhile, DKL introduces Kullback Leibler divergence to encourage the model to produce a similar prediction distribution of two view samples from the same image. In this way, it successfully avoids mismatched prediction and generates more reliable potential known class samples simultaneously. Extensive experiments validate that the proposed LegoGCD effectively addresses the known category forgetting issue across all datasets, eg, delivering a 7.74% and 2.51% accuracy boost on known and novel classes in CUB, respectively. Our code is available at: https://github.com/Cliffia123/LegoGCD.",
+      "arxiv_title": "Solving the Catastrophic Forgetting Problem in Generalized Category Discovery",
+      "arxiv_authors": [
+        "Xinzi Cao",
+        "Xiawu Zheng",
+        "Guanhong Wang",
+        "Weijiang Yu",
+        "Yunhang Shen",
+        "Ke Li",
+        "Yutong Lu",
+        "Yonghong Tian"
+      ]
+    },
+    {
+      "title": "PediatricsGPT: Large Language Models as Chinese Medical Assistants for Pediatric Applications",
+      "year": 2024,
+      "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2024",
+      "authors": "Dingkang Yang, Jinjie Wei, Dongling Xiao, Shunli Wang, Tong Wu, Gang Li, Mingcheng Li, Shuaibing Wang, Jiawei Chen, Yue Jiang, Qingyao Xu, Ke Li, Peng Zhai, Lihua Zhang",
+      "paper_url": "https://arxiv.org/abs/2405.19266",
+      "code_url": "https://github.com/ydk122024/PediatricsGPT",
+      "arxiv_id": "2405.19266",
+      "topic": "LLM",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2405.19266",
+      "published_at": "2024-05-29T16:59:38Z",
+      "abstract": "Developing intelligent pediatric consultation systems offers promising prospects for improving diagnostic efficiency, especially in China, where healthcare resources are scarce. Despite recent advances in Large Language Models (LLMs) for Chinese medicine, their performance is sub-optimal in pediatric applications due to inadequate instruction data and vulnerable training procedures. To address the above issues, this paper builds PedCorpus, a high-quality dataset of over 300,000 multi-task instructions from pediatric textbooks, guidelines, and knowledge graph resources to fulfil diverse diagnostic demands. Upon well-designed PedCorpus, we propose PediatricsGPT, the first Chinese pediatric LLM assistant built on a systematic and robust training pipeline. In the continuous pre-training phase, we introduce a hybrid instruction pre-training mechanism to mitigate the internal-injected knowledge inconsistency of LLMs for medical domain adaptation. Immediately, the full-parameter Supervised Fine-Tuning (SFT) is utilized to incorporate the general medical knowledge schema into the models. After that, we devise a direct following preference optimization to enhance the generation of pediatrician-like humanistic responses. In the parameter-efficient secondary SFT phase, a mixture of universal-specific experts strategy is presented to resolve the competency conflict between medical generalist and pediatric expertise mastery. Extensive results based on the metrics, GPT-4, and doctor evaluations on distinct doctor downstream tasks show that PediatricsGPT consistently outperforms previous Chinese medical LLMs. Our model and dataset will be open-source for community development.",
+      "arxiv_title": "PediatricsGPT: Large Language Models as Chinese Medical Assistants for Pediatric Applications",
+      "arxiv_authors": [
+        "Dingkang Yang",
+        "Jinjie Wei",
+        "Dongling Xiao",
+        "Shunli Wang",
+        "Tong Wu",
+        "Gang Li",
+        "Mingcheng Li",
+        "Shuaibing Wang",
+        "Jiawei Chen",
+        "Yue Jiang",
+        "Qingyao Xu",
+        "Ke Li",
+        "Peng Zhai",
+        "Lihua Zhang"
+      ]
+    },
+    {
+      "title": "A General and Efficient Training for Transformer via Token Expansion",
+      "year": 2024,
+      "venue": "Computer Vision and Pattern Recognition (CVPR), 2024",
+      "authors": "Wenxuan Huang, Yunhang Shen, Jiao Xie, Baochang Zhang, Gaoqi He, Ke Li, Xing Sun, Shaohui Lin",
+      "paper_url": "https://arxiv.org/abs/2404.00672",
+      "code_url": "https://github.com/Osilly/TokenExpansion",
+      "arxiv_id": "2404.00672",
+      "topic": "Efficient Learning",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2404.00672",
+      "published_at": "2024-03-31T12:44:24Z",
+      "abstract": "The remarkable performance of Vision Transformers (ViTs) typically requires an extremely large training cost. Existing methods have attempted to accelerate the training of ViTs, yet typically disregard method universality with accuracy dropping. Meanwhile, they break the training consistency of the original transformers, including the consistency of hyper-parameters, architecture, and strategy, which prevents them from being widely applied to different Transformer networks. In this paper, we propose a novel token growth scheme Token Expansion (termed ToE) to achieve consistent training acceleration for ViTs. We introduce an \"initialization-expansion-merging\" pipeline to maintain the integrity of the intermediate feature distribution of original transformers, preventing the loss of crucial learnable information in the training process. ToE can not only be seamlessly integrated into the training and fine-tuning process of transformers (e.g., DeiT and LV-ViT), but also effective for efficient training frameworks (e.g., EfficientTrain), without twisting the original training hyper-parameters, architecture, and introducing additional training strategies. Extensive experiments demonstrate that ToE achieves about 1.3x faster for the training of ViTs in a lossless manner, or even with performance gains over the full-token training baselines. Code is available at https://github.com/Osilly/TokenExpansion .",
+      "arxiv_title": "A General and Efficient Training for Transformer via Token Expansion",
+      "arxiv_authors": [
+        "Wenxuan Huang",
+        "Yunhang Shen",
+        "Jiao Xie",
+        "Baochang Zhang",
+        "Gaoqi He",
+        "Ke Li",
+        "Xing Sun",
+        "Shaohui Lin"
+      ]
+    },
+    {
+      "title": "Towards Multimodal Sentiment Analysis Debiasing via Bias Purification",
+      "year": 2024,
+      "venue": "European Conference on Computer Vision (ECCV), 2024",
+      "authors": "Dingkang Yang, Mingcheng Li, Dongling Xiao, Yang Liu, Kun Yang, Zhaoyu Chen, Yuzheng Wang, Peng Zhai, Ke Li, Lihua Zhang",
+      "paper_url": "https://arxiv.org/abs/2403.05023",
+      "code_url": null,
+      "arxiv_id": "2403.05023",
+      "topic": "Multimodal",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2403.05023",
+      "published_at": "2024-03-08T03:55:27Z",
+      "abstract": "Multimodal Sentiment Analysis (MSA) aims to understand human intentions by integrating emotion-related clues from diverse modalities, such as visual, language, and audio. Unfortunately, the current MSA task invariably suffers from unplanned dataset biases, particularly multimodal utterance-level label bias and word-level context bias. These harmful biases potentially mislead models to focus on statistical shortcuts and spurious correlations, causing severe performance bottlenecks. To alleviate these issues, we present a Multimodal Counterfactual Inference Sentiment (MCIS) analysis framework based on causality rather than conventional likelihood. Concretely, we first formulate a causal graph to discover harmful biases from already-trained vanilla models. In the inference phase, given a factual multimodal input, MCIS imagines two counterfactual scenarios to purify and mitigate these biases. Then, MCIS can make unbiased decisions from biased observations by comparing factual and counterfactual outcomes. We conduct extensive experiments on several standard MSA benchmarks. Qualitative and quantitative results show the effectiveness of the proposed framework.",
+      "arxiv_title": "Towards Multimodal Sentiment Analysis Debiasing via Bias Purification",
+      "arxiv_authors": [
+        "Dingkang Yang",
+        "Mingcheng Li",
+        "Dongling Xiao",
+        "Yang Liu",
+        "Kun Yang",
+        "Zhaoyu Chen",
+        "Yuzheng Wang",
+        "Peng Zhai",
+        "Ke Li",
+        "Lihua Zhang"
+      ]
+    },
+    {
+      "title": "Sinkhorn Distance Minimization for Knowledge Distillation",
+      "year": 2024,
+      "venue": "International Conference on Computational Linguistics (COLING), 2024",
+      "authors": "Xiao Cui, Yulei Qin, Yuting Gao, Enwei Zhang, Zihan Xu, Tong Wu, Ke Li, Xing Sun, Wengang Zhou, Houqiang Li",
+      "paper_url": "https://arxiv.org/abs/2402.17110",
+      "code_url": null,
+      "arxiv_id": "2402.17110",
+      "topic": "Efficient Learning",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2402.17110",
+      "published_at": "2024-02-27T01:13:58Z",
+      "abstract": "Knowledge distillation (KD) has been widely adopted to compress large language models (LLMs). Existing KD methods investigate various divergence measures including the Kullback-Leibler (KL), reverse Kullback-Leibler (RKL), and Jensen-Shannon (JS) divergences. However, due to limitations inherent in their assumptions and definitions, these measures fail to deliver effective supervision when few distribution overlap exists between the teacher and the student. In this paper, we show that the aforementioned KL, RKL, and JS divergences respectively suffer from issues of mode-averaging, mode-collapsing, and mode-underestimation, which deteriorates logits-based KD for diverse NLP tasks. We propose the Sinkhorn Knowledge Distillation (SinKD) that exploits the Sinkhorn distance to ensure a nuanced and precise assessment of the disparity between teacher and student distributions. Besides, profit by properties of the Sinkhorn metric, we can get rid of sample-wise KD that restricts the perception of divergence in each teacher-student sample pair. Instead, we propose a batch-wise reformulation to capture geometric intricacies of distributions across samples in the high-dimensional space. Comprehensive evaluation on GLUE and SuperGLUE, in terms of comparability, validity, and generalizability, highlights our superiority over state-of-the-art methods on all kinds of LLMs with encoder-only, encoder-decoder, and decoder-only architectures.",
+      "arxiv_title": "Sinkhorn Distance Minimization for Knowledge Distillation",
+      "arxiv_authors": [
+        "Xiao Cui",
+        "Yulei Qin",
+        "Yuting Gao",
+        "Enwei Zhang",
+        "Zihan Xu",
+        "Tong Wu",
+        "Ke Li",
+        "Xing Sun",
+        "Wengang Zhou",
+        "Houqiang Li"
+      ]
+    },
+    {
+      "title": "Weakly Supervised Open-Vocabulary Object Detection",
+      "year": 2024,
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024",
+      "authors": "Jianghang Lin, Yunhang Shen, Bingquan Wang, Shaohui Lin, Ke Li, Liujuan Cao",
+      "paper_url": "https://arxiv.org/abs/2312.12437",
+      "code_url": "https://github.com/HunterJ-Lin/WSOVOD",
+      "arxiv_id": "2312.12437",
+      "topic": "Computer Vision",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2312.12437",
+      "published_at": "2023-12-19T18:59:53Z",
+      "abstract": "Despite weakly supervised object detection (WSOD) being a promising step toward evading strong instance-level annotations, its capability is confined to closed-set categories within a single training dataset. In this paper, we propose a novel weakly supervised open-vocabulary object detection framework, namely WSOVOD, to extend traditional WSOD to detect novel concepts and utilize diverse datasets with only image-level annotations. To achieve this, we explore three vital strategies, including dataset-level feature adaptation, image-level salient object localization, and region-level vision-language alignment. First, we perform data-aware feature extraction to produce an input-conditional coefficient, which is leveraged into dataset attribute prototypes to identify dataset bias and help achieve cross-dataset generalization. Second, a customized location-oriented weakly supervised region proposal network is proposed to utilize high-level semantic layouts from the category-agnostic segment anything model to distinguish object boundaries. Lastly, we introduce a proposal-concept synchronized multiple-instance network, i.e., object mining and refinement with visual-semantic alignment, to discover objects matched to the text embeddings of concepts. Extensive experiments on Pascal VOC and MS COCO demonstrate that the proposed WSOVOD achieves new state-of-the-art compared with previous WSOD methods in both close-set object localization and detection tasks. Meanwhile, WSOVOD enables cross-dataset and open-vocabulary learning to achieve on-par or even better performance than well-established fully-supervised open-vocabulary object detection (FSOVOD).",
+      "arxiv_title": "Weakly Supervised Open-Vocabulary Object Detection",
+      "arxiv_authors": [
+        "Jianghang Lin",
+        "Yunhang Shen",
+        "Bingquan Wang",
+        "Shaohui Lin",
+        "Ke Li",
+        "Liujuan Cao"
+      ]
+    },
+    {
+      "title": "SPD-DDPM: Denoising Diffusion Probabilistic Models in the Symmetric Positive Definite Space",
+      "year": 2024,
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024",
+      "authors": "Yunchen Li, Zhou Yu, Gaoqi He, Yunhang Shen, Ke Li, Xing Sun, Shaohui Lin",
+      "paper_url": "https://arxiv.org/abs/2312.08200",
+      "code_url": "https://github.com/li-yun-chen/SPD-DDPM",
+      "arxiv_id": "2312.08200",
+      "topic": "Computer Vision",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2312.08200",
+      "published_at": "2023-12-13T15:08:54Z",
+      "abstract": "Symmetric positive definite~(SPD) matrices have shown important value and applications in statistics and machine learning, such as FMRI analysis and traffic prediction. Previous works on SPD matrices mostly focus on discriminative models, where predictions are made directly on $E(X|y)$, where $y$ is a vector and $X$ is an SPD matrix. However, these methods are challenging to handle for large-scale data, as they need to access and process the whole data. In this paper, inspired by denoising diffusion probabilistic model~(DDPM), we propose a novel generative model, termed SPD-DDPM, by introducing Gaussian distribution in the SPD space to estimate $E(X|y)$. Moreover, our model is able to estimate $p(X)$ unconditionally and flexibly without giving $y$. On the one hand, the model conditionally learns $p(X|y)$ and utilizes the mean of samples to obtain $E(X|y)$ as a prediction. On the other hand, the model unconditionally learns the probability distribution of the data $p(X)$ and generates samples that conform to this distribution. Furthermore, we propose a new SPD net which is much deeper than the previous networks and allows for the inclusion of conditional factors. Experiment results on toy data and real taxi data demonstrate that our models effectively fit the data distribution both unconditionally and unconditionally and provide accurate predictions.",
+      "arxiv_title": "SPD-DDPM: Denoising Diffusion Probabilistic Models in the Symmetric Positive Definite Space",
+      "arxiv_authors": [
+        "Yunchen Li",
+        "Zhou Yu",
+        "Gaoqi He",
+        "Yunhang Shen",
+        "Ke Li",
+        "Xing Sun",
+        "Shaohui Lin"
+      ]
+    },
+    {
+      "title": "Adaptive Feature Selection for No-Reference Image Quality Assessment by Mitigating Semantic Noise Sensitivity",
+      "year": 2024,
+      "venue": "International Conference on Machine Learning (ICML), 2024",
+      "authors": "Xudong Li, Timin Gao, Runze Hu, Yan Zhang, Shengchuan Zhang, Xiawu Zheng, Jingyuan Zheng, Yunhang Shen, Ke Li, Yutao Liu, Pingyang Dai, Rongrong Ji",
+      "paper_url": "https://arxiv.org/abs/2312.06158",
+      "code_url": null,
+      "arxiv_id": "2312.06158",
+      "topic": "Computer Vision",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2312.06158",
+      "published_at": "2023-12-11T06:50:27Z",
+      "abstract": "The current state-of-the-art No-Reference Image Quality Assessment (NR-IQA) methods typically rely on feature extraction from upstream semantic backbone networks, assuming that all extracted features are relevant. However, we make a key observation that not all features are beneficial, and some may even be harmful, necessitating careful selection. Empirically, we find that many image pairs with small feature spatial distances can have vastly different quality scores, indicating that the extracted features may contain a significant amount of quality-irrelevant noise. To address this issue, we propose a Quality-Aware Feature Matching IQA Metric (QFM-IQM) that employs an adversarial perspective to remove harmful semantic noise features from the upstream task. Specifically, QFM-IQM enhances the semantic noise distinguish capabilities by matching image pairs with similar quality scores but varying semantic features as adversarial semantic noise and adaptively adjusting the upstream task's features by reducing sensitivity to adversarial noise perturbation. Furthermore, we utilize a distillation framework to expand the dataset and improve the model's generalization ability. Our approach achieves superior performance to the state-of-the-art NR-IQA methods on eight standard IQA datasets.",
+      "arxiv_title": "Adaptive Feature Selection for No-Reference Image Quality Assessment by Mitigating Semantic Noise Sensitivity",
+      "arxiv_authors": [
+        "Xudong Li",
+        "Timin Gao",
+        "Runze Hu",
+        "Yan Zhang",
+        "Shengchuan Zhang",
+        "Xiawu Zheng",
+        "Jingyuan Zheng",
+        "Yunhang Shen",
+        "Ke Li",
+        "Yutao Liu",
+        "Pingyang Dai",
+        "Rongrong Ji"
+      ]
+    },
+    {
+      "title": "Aligning and Prompting Everything All at Once for Universal Visual Perception",
+      "year": 2024,
+      "venue": "Computer Vision and Pattern Recognition (CVPR), 2024",
+      "authors": "Yunhang Shen, Chaoyou Fu, Peixian Chen, Mengdan Zhang, Ke Li, Xing Sun, Yunsheng Wu, Shaohui Lin, Rongrong Ji",
+      "paper_url": "https://arxiv.org/abs/2312.02153",
+      "code_url": "https://github.com/shenyunhang/APE",
+      "arxiv_id": "2312.02153",
+      "topic": "Computer Vision",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2312.02153",
+      "published_at": "2023-12-04T18:59:50Z",
+      "abstract": "Vision foundation models have been explored recently to build general-purpose vision systems. However, predominant paradigms, driven by casting instance-level tasks as an object-word alignment, bring heavy cross-modality interaction, which is not effective in prompting object detection and visual grounding. Another line of work that focuses on pixel-level tasks often encounters a large annotation gap of things and stuff, and suffers from mutual interference between foreground-object and background-class segmentation. In stark contrast to the prevailing methods, we present APE, a universal visual perception model for aligning and prompting everything all at once in an image to perform diverse tasks, i.e., detection, segmentation, and grounding, as an instance-level sentence-object matching paradigm. Specifically, APE advances the convergence of detection and grounding by reformulating language-guided grounding as open-vocabulary detection, which efficiently scales up model prompting to thousands of category vocabularies and region descriptions while maintaining the effectiveness of cross-modality fusion. To bridge the granularity gap of different pixel-level tasks, APE equalizes semantic and panoptic segmentation to proxy instance learning by considering any isolated regions as individual instances. APE aligns vision and language representation on broad data with natural and challenging characteristics all at once without task-specific fine-tuning. The extensive experiments on over 160 datasets demonstrate that, with only one-suit of weights, APE outperforms (or is on par with) the state-of-the-art models, proving that an effective yet universal perception for anything aligning and prompting is indeed feasible. Codes and trained models are released at https://github.com/shenyunhang/APE.",
+      "arxiv_title": "Aligning and Prompting Everything All at Once for Universal Visual Perception",
+      "arxiv_authors": [
+        "Yunhang Shen",
+        "Chaoyou Fu",
+        "Peixian Chen",
+        "Mengdan Zhang",
+        "Ke Li",
+        "Xing Sun",
+        "Yunsheng Wu",
+        "Shaohui Lin",
+        "Rongrong Ji"
+      ]
+    },
+    {
+      "title": "SoftCLIP: Softer Cross-modal Alignment Makes CLIP Stronger",
+      "year": 2024,
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024",
+      "authors": "Yuting Gao, Jinfeng Liu, Zihan Xu, Tong Wu, Enwei Zhang, Ke Li, Jie Yang, Wei Liu, Xing Sun",
+      "paper_url": "https://arxiv.org/abs/2303.17561",
+      "code_url": null,
+      "arxiv_id": "2303.17561",
+      "topic": "Machine Learning",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2303.17561",
+      "published_at": "2023-03-30T17:27:22Z",
+      "abstract": "During the preceding biennium, vision-language pre-training has achieved noteworthy success on several downstream tasks. Nevertheless, acquiring high-quality image-text pairs, where the pairs are entirely exclusive of each other, remains a challenging task, and noise exists in the commonly used datasets. To address this issue, we propose SoftCLIP, a novel approach that relaxes the strict one-to-one constraint and achieves a soft cross-modal alignment by introducing a softened target, which is generated from the fine-grained intra-modal self-similarity. The intra-modal guidance is indicative to enable two pairs have some local similarities and model many-to-many relationships between the two modalities. Besides, since the positive still dominates in the softened target distribution, we disentangle the negatives in the distribution to further boost the relation alignment with the negatives in the cross-modal learning. Extensive experiments demonstrate the effectiveness of SoftCLIP. In particular, on ImageNet zero-shot classification task, using CC3M/CC12M as pre-training dataset, SoftCLIP brings a top-1 accuracy improvement of 6.8%/7.2% over the CLIP baseline.",
+      "arxiv_title": "SoftCLIP: Softer Cross-modal Alignment Makes CLIP Stronger",
+      "arxiv_authors": [
+        "Yuting Gao",
+        "Jinfeng Liu",
+        "Zihan Xu",
+        "Tong Wu Enwei Zhang",
+        "Wei Liu",
+        "Jie Yang",
+        "Ke Li",
+        "Xing Sun"
+      ]
+    },
+    {
+      "title": "Task-Adaptive Saliency Guidance for Exemplar-free Class Incremental Learning",
+      "year": 2024,
+      "venue": "Computer Vision and Pattern Recognition (CVPR), 2024",
+      "authors": "Xialei Liu, Jiang-Tian Zhai, Andrew D. Bagdanov, Ke Li, Ming-Ming Cheng",
+      "paper_url": "https://arxiv.org/abs/2212.08251",
+      "code_url": "https://github.com/scok30/tass",
+      "arxiv_id": "2212.08251",
+      "topic": "Machine Learning",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      },
+      "arxiv_url": "https://arxiv.org/abs/2212.08251",
+      "published_at": "2022-12-16T02:43:52Z",
+      "abstract": "Exemplar-free Class Incremental Learning (EFCIL) aims to sequentially learn tasks with access only to data from the current one. EFCIL is of interest because it mitigates concerns about privacy and long-term storage of data, while at the same time alleviating the problem of catastrophic forgetting in incremental learning. In this work, we introduce task-adaptive saliency for EFCIL and propose a new framework, which we call Task-Adaptive Saliency Supervision (TASS), for mitigating the negative effects of saliency drift between different tasks. We first apply boundary-guided saliency to maintain task adaptivity and \\textit{plasticity} on model attention. Besides, we introduce task-agnostic low-level signals as auxiliary supervision to increase the \\textit{stability} of model attention. Finally, we introduce a module for injecting and recovering saliency noise to increase the robustness of saliency preservation. Our experiments demonstrate that our method can better preserve saliency maps across tasks and achieve state-of-the-art results on the CIFAR-100, Tiny-ImageNet, and ImageNet-Subset EFCIL benchmarks. Code is available at \\url{https://github.com/scok30/tass}.",
+      "arxiv_title": "Task-Adaptive Saliency Guidance for Exemplar-free Class Incremental Learning",
+      "arxiv_authors": [
+        "Xialei Liu",
+        "Jiang-Tian Zhai",
+        "Andrew D. Bagdanov",
+        "Ke Li",
+        "Ming-Ming Cheng"
+      ]
+    },
+    {
+      "title": "Training-free Transformer Architecture Search with Zero-cost Proxy Guided Evolution",
+      "year": 2024,
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024",
+      "authors": "Qinqin Zhou, Kekai Sheng, Xiawu Zheng, Ke Li, Yonghong Tian, Jie Chen, Rongrong Ji",
+      "paper_url": "https://ieeexplore.ieee.org/document/10475573",
+      "code_url": "https://github.com/decemberzhou/TF_TAS",
+      "arxiv_id": null,
+      "topic": "Efficient Learning",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      }
+    },
+    {
+      "title": "Semi-Supervised Blind Image Quality Assessment through Knowledge Distillation and Incremental Learning",
+      "year": 2024,
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024",
+      "authors": "Wensheng Pan, Timin Gao, Yan Zhang, Xiawu Zheng, Yunhang Shen, Ke Li, Runze Hu, Yutao Liu, Pingyang Dai",
+      "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/28236",
+      "code_url": null,
+      "arxiv_id": null,
+      "topic": "Computer Vision",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      }
+    },
+    {
+      "title": "Integrating Global Context Contrast and Local Sensitivity for Blind Image Quality Assessment",
+      "year": 2024,
+      "venue": "International Conference on Machine Learning (ICML, spotlight), 2024",
+      "authors": "XuDong Li, Runze Hu, Jingyuan Zheng, Yan Zhang, Shengchuan Zhang, Xiawu Zheng, Ke Li, Yunhang Shen, Yutao Liu, Pingyang Dai, Rongrong Ji",
+      "paper_url": "https://openreview.net/pdf?id=MRYS3Zb4iV",
+      "code_url": null,
+      "arxiv_id": null,
+      "topic": "Computer Vision",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      }
+    },
+    {
+      "title": "Align before Collaborate: Mitigating Feature Misalignment for Robust Multi-Agent Perception",
+      "year": 2024,
+      "venue": "European Conference on Computer Vision (ECCV, Oral), 2024",
+      "authors": "Kun Yang, Dingkang Yang, Ke Li, Dongling Xiao, Zedian Shao, Peng Sun, Liang Song",
+      "paper_url": "https://eccv.ecva.net/virtual/2024/poster/1727",
+      "code_url": null,
+      "arxiv_id": null,
+      "topic": "Agent & Reasoning",
+      "attribution": {
+        "kind": "current_team_manager_publication_index",
+        "label": "Ke Li 公开论文索引",
+        "source_url": "https://keli.info/"
+      }
+    }
+  ]
+}

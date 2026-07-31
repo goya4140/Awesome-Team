@@ -34,7 +34,10 @@ jobs:
         run: |
           ruby scripts/validate_catalog.rb
           ruby -rjson -e 'JSON.parse(File.read("site/data/catalog.json"))'
+          ruby -rjson -e 'JSON.parse(File.read("site/data/youtu-research.json"))'
+          ruby -rjson -e 'JSON.parse(File.read("site/data/youtu-keywords.json"))'
           node --check site/assets/app.js
+          node --check site/assets/youtu.js
 
   deploy:
     environment:

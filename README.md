@@ -14,6 +14,7 @@ AI 论文越来越多，但研究者的注意力并没有变多。<br>
 
 [**浏览研究团队与论文 →**](https://goya4140.github.io/awesome-team/)　·　
 [**进入 ByteDance Seed 研究专页 →**](https://goya4140.github.io/awesome-team/seed.html)　·　
+[Youtu 研究专页](https://goya4140.github.io/awesome-team/youtu.html)　·　
 [推荐团队或论文](https://github.com/goya4140/awesome-team/issues/new)　·　
 [参与共建](CONTRIBUTING.md)
 
@@ -73,8 +74,10 @@ AI 生产力正在高速增长。大量论文持续涌现，AI 顶会的收录�
 **Follow the teams shaping AI, not just the paper count.**
 
 [在线目录](https://goya4140.github.io/awesome-team/) ·
+[Youtu 研究专页](https://goya4140.github.io/awesome-team/youtu.html) ·
 [完整团队清单](docs/RESEARCH_TEAMS.md) ·
 [收录方法](docs/TEAM_COLLECTION_METHOD.md) ·
+[团队介绍网页框架](docs/TEAM_INTRODUCTION_PAGE_FRAMEWORK.md) ·
 [维护与数据说明](docs/MAINTAINING.md) ·
 [MIT License](LICENSE)
 

@@ -1,0 +1,194 @@
+{
+  "source": "Tencent Youtu public paper abstracts",
+  "generated_at": "2026-07-31",
+  "paper_count": 31,
+  "working_set_count": 40,
+  "metric": "document_frequency",
+  "methodology": "Curated research vocabulary with synonym-normalizing regular expressions. Ranked by the number of distinct abstracts containing each term. Generic academic boilerplate, organization names, URLs, and low-information words are excluded.",
+  "excluded_examples": [
+    "paper",
+    "method",
+    "results",
+    "novel",
+    "state-of-the-art",
+    "model",
+    "dataset"
+  ],
+  "keywords": [
+    {
+      "keyword": "Large Language Models",
+      "category": "Agents & Language",
+      "document_count": 17,
+      "document_share": 0.5484,
+      "mention_count": 61
+    },
+    {
+      "keyword": "Benchmarks & Evaluation",
+      "category": "Evaluation & Trust",
+      "document_count": 14,
+      "document_share": 0.4516,
+      "mention_count": 20
+    },
+    {
+      "keyword": "Adaptation & Fine-tuning",
+      "category": "Learning & Systems",
+      "document_count": 11,
+      "document_share": 0.3548,
+      "mention_count": 16
+    },
+    {
+      "keyword": "Multimodal Learning",
+      "category": "Multimodal & Interaction",
+      "document_count": 9,
+      "document_share": 0.2903,
+      "mention_count": 25
+    },
+    {
+      "keyword": "Agents",
+      "category": "Agents & Language",
+      "document_count": 7,
+      "document_share": 0.2258,
+      "mention_count": 40
+    },
+    {
+      "keyword": "Reasoning",
+      "category": "Agents & Language",
+      "document_count": 7,
+      "document_share": 0.2258,
+      "mention_count": 17
+    },
+    {
+      "keyword": "Robustness & Debiasing",
+      "category": "Evaluation & Trust",
+      "document_count": 7,
+      "document_share": 0.2258,
+      "mention_count": 16
+    },
+    {
+      "keyword": "Inference & Decoding",
+      "category": "Learning & Systems",
+      "document_count": 6,
+      "document_share": 0.1935,
+      "mention_count": 24
+    },
+    {
+      "keyword": "Reinforcement Learning",
+      "category": "Agents & Language",
+      "document_count": 5,
+      "document_share": 0.1613,
+      "mention_count": 23
+    },
+    {
+      "keyword": "Instruction Following",
+      "category": "Agents & Language",
+      "document_count": 5,
+      "document_share": 0.1613,
+      "mention_count": 17
+    },
+    {
+      "keyword": "Vision–Language",
+      "category": "Multimodal & Interaction",
+      "document_count": 5,
+      "document_share": 0.1613,
+      "mention_count": 7
+    },
+    {
+      "keyword": "Speech & Audio",
+      "category": "Multimodal & Interaction",
+      "document_count": 4,
+      "document_share": 0.129,
+      "mention_count": 38
+    },
+    {
+      "keyword": "Exploration",
+      "category": "Agents & Language",
+      "document_count": 4,
+      "document_share": 0.129,
+      "mention_count": 15
+    },
+    {
+      "keyword": "Reward Modeling",
+      "category": "Agents & Language",
+      "document_count": 4,
+      "document_share": 0.129,
+      "mention_count": 14
+    },
+    {
+      "keyword": "Compression & Distillation",
+      "category": "Learning & Systems",
+      "document_count": 4,
+      "document_share": 0.129,
+      "mention_count": 6
+    },
+    {
+      "keyword": "Image Quality Assessment",
+      "category": "Vision & Generation",
+      "document_count": 3,
+      "document_share": 0.0968,
+      "mention_count": 24
+    },
+    {
+      "keyword": "Semi-supervised Learning",
+      "category": "Learning & Systems",
+      "document_count": 3,
+      "document_share": 0.0968,
+      "mention_count": 7
+    },
+    {
+      "keyword": "Open-vocabulary Vision",
+      "category": "Vision & Generation",
+      "document_count": 3,
+      "document_share": 0.0968,
+      "mention_count": 7
+    },
+    {
+      "keyword": "Real-time Interaction",
+      "category": "Multimodal & Interaction",
+      "document_count": 3,
+      "document_share": 0.0968,
+      "mention_count": 6
+    },
+    {
+      "keyword": "Diffusion Models",
+      "category": "Vision & Generation",
+      "document_count": 3,
+      "document_share": 0.0968,
+      "mention_count": 6
+    },
+    {
+      "keyword": "Incremental Learning",
+      "category": "Learning & Systems",
+      "document_count": 3,
+      "document_share": 0.0968,
+      "mention_count": 5
+    },
+    {
+      "keyword": "Video Understanding",
+      "category": "Multimodal & Interaction",
+      "document_count": 2,
+      "document_share": 0.0645,
+      "mention_count": 13
+    },
+    {
+      "keyword": "Factuality",
+      "category": "Evaluation & Trust",
+      "document_count": 2,
+      "document_share": 0.0645,
+      "mention_count": 11
+    },
+    {
+      "keyword": "Object Detection",
+      "category": "Vision & Generation",
+      "document_count": 2,
+      "document_share": 0.0645,
+      "mention_count": 7
+    },
+    {
+      "keyword": "Software Engineering",
+      "category": "Agents & Language",
+      "document_count": 2,
+      "document_share": 0.0645,
+      "mention_count": 3
+    }
+  ]
+}
