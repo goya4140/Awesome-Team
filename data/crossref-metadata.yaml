@@ -59,37 +59,6 @@ works:
     - Insup Lee
     - James Weimer
     checked_at: '2026-07-28'
-  alibaba-modelscope:0:
-    status: unresolved
-    query: Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025).
-    checked_at: '2026-07-28'
-  alibaba-modelscope:1:
-    status: resolved
-    query: 'ModelScope: bring the notion of Model-as-a-Service to life.'
-    match_confidence: 1.0
-    title: ModelScope
-    doi: 10.1145/1370175.1370195
-    url: https://doi.org/10.1145/1370175.1370195
-    year: 2008
-    venue: Companion Proceedings of the 30th International Conference on Software Engineering
-    citation_count: 1
-    authors:
-    - Philipp Graf
-    - Klaus D. Müller-Glaser
-    checked_at: '2026-07-28'
-  alibaba-modelscope:2:
-    status: resolved
-    query: FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI.
-    match_confidence: 0.75
-    title: Video based Subtitle Generation
-    doi: 10.22214/ijraset.2018.3373
-    url: https://doi.org/10.22214/ijraset.2018.3373
-    year: 2018
-    venue: International Journal for Research in Applied Science and Engineering Technology
-    citation_count: 2
-    authors:
-    - Aditi Sankhe
-    checked_at: '2026-07-28'
   alibaba-nlp:0:
     status: resolved
     query: 'ViDoRAG: Visual Document Retrieval-Augmented Generation via Dynamic Iterative Reasoning Agents'

@@ -1,12 +1,12 @@
 # Awesome Team · AI 科研团队目录
 
-> GitHub 内可直接浏览的基础资料版。更适合筛选和阅读图表的版本见 [在线目录](https://goya4140.github.io/Awesome-Team/)。
+> GitHub 内可直接浏览的基础资料版。更适合筛选和阅读图表的版本见 [在线目录](https://goya4140.github.io/awesome-team/)。
 
 更新日期：**2026-07-30** · 引用量：[Semantic Scholar](https://www.semanticscholar.org/?utm_source=api) · 检索入口：[Google Scholar](https://scholar.google.com/)
 
 <a href="https://www.semanticscholar.org/?utm_source=api"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Semantic_Scholar_logo.svg" width="160" alt="Semantic Scholar"></a>
 
-当前收录 **153** 个团队（132 verified / 21 provisional），共 **459** 项代表成果；其中 **176** 项已匹配论文元数据，**164** 项带 Semantic Scholar 引用量，**125** 项带原文图表。
+当前收录 **152** 个团队（131 verified / 21 provisional），共 **456** 项代表成果；其中 **176** 项已匹配论文元数据，**164** 项带 Semantic Scholar 引用量，**125** 项带原文图表。
 
 Semantic Scholar 引用量通过 arXiv / DOI 标识符核验并带检查日期；Google Scholar 保留为精确标题检索入口。两个索引的数字不混用。`research_index` 是官方研究入口，不冒充单篇论文。
 
@@ -117,7 +117,7 @@ ByteDance Seed 隶属于 ByteDance，是一支主要关注基础模型、多模�
 
 </details>
 
-### Alibaba（4）
+### Alibaba（3）
 
 <details>
 <summary><img src="https://github.com/QwenLM.png?size=160" width="32" height="32" alt="Qwen Team logo"> &nbsp;<strong>Qwen Team</strong> · <code>verified</code></summary>
@@ -366,76 +366,6 @@ Alibaba NLP 隶属于 Alibaba，是一支主要关注自然语言处理、信息
 
 > Figure 2: Method illustration of training a Knowledge Boundary model.
 > 来源：[原论文](https://arxiv.org/abs/2502.18023)
-
-</details>
-
-</details>
-
-<details>
-<summary><img src="https://github.com/modelscope.png?size=160" width="32" height="32" alt="ModelScope logo"> &nbsp;<strong>ModelScope</strong> · <code>verified</code></summary>
-
-<br>
-
-ModelScope 隶属于 Alibaba，是一支主要关注开放模型、多模态学习、模型评测等方向的研究平台。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
-
-- **所属：** Alibaba
-- **主要方向：** 开放模型、多模态学习、模型评测、AI 系统
-- **负责人：** [Jingren Zhou](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jingren+Zhou)（Founder / Research Leader） · [Junyang Lin](https://scholar.google.com/citations?view_op=search_authors&mauthors=Junyang+Lin)（Senior Researcher） · [Jian-Yong wu](https://scholar.google.com/citations?view_op=search_authors&mauthors=Jian-Yong+wu)（Senior Researcher）
-- **官方入口：** [官网](https://modelscope.cn/) · [GitHub](https://github.com/modelscope)
-
-#### 最近工作 · 2026-07-30
-
-<details>
-<summary><strong>1. Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025).</strong></summary>
-
-- 引用量：非论文条目或尚未可靠匹配
-- GitHub Stars：**14973**（与论文引用量分开统计）
-- [论文 / 项目原始入口](https://github.com/modelscope/ms-swift)
-
-**摘要 / 项目说明**
-
-这是团队公开的开源研究成果。目录中的公开说明为：Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025). 可通过原始链接查看完整项目、论文或数据说明。
-
-</details>
-
-#### 代表作
-
-<details>
-<summary><strong>1. Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025).</strong></summary>
-
-- 引用量：非论文条目或尚未可靠匹配
-- GitHub Stars：**14973**（与论文引用量分开统计）
-- [论文 / 项目原始入口](https://github.com/modelscope/ms-swift)
-
-**摘要 / 项目说明**
-
-这是团队公开的开源研究成果。目录中的公开说明为：Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025). 可通过原始链接查看完整项目、论文或数据说明。
-
-</details>
-
-<details>
-<summary><strong>2. ModelScope: bring the notion of Model-as-a-Service to life.</strong></summary>
-
-- 引用量：非论文条目或尚未可靠匹配
-- GitHub Stars：**9059**（与论文引用量分开统计）
-- [论文 / 项目原始入口](https://github.com/modelscope/modelscope)
-
-**摘要 / 项目说明**
-
-这是团队公开的开源研究成果。目录中的公开说明为：ModelScope: bring the notion of Model-as-a-Service to life. 可通过原始链接查看完整项目、论文或数据说明。
-
-</details>
-
-<details>
-<summary><strong>3. FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI.</strong></summary>
-
-- 引用量：非论文条目或尚未可靠匹配
-- GitHub Stars：**6072**（与论文引用量分开统计）
-- [论文 / 项目原始入口](https://github.com/modelscope/FunClip)
-
-**摘要 / 项目说明**
-
-这是团队公开的开源研究成果。目录中的公开说明为：FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI. 可通过原始链接查看完整项目、论文或数据说明。
 
 </details>
 

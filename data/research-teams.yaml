@@ -61,19 +61,6 @@ teams:
       recent_activity: ["https://github.com/Alibaba-NLP"]
     status: verified
 
-  - id: alibaba-modelscope
-    name: ModelScope
-    parent_id: alibaba
-    team_type: research_platform
-    focus: [open-models, multimodal, model-evaluation, ai-systems]
-    homepages:
-      - { kind: official, url: "https://modelscope.cn/" }
-      - { kind: github, url: "https://github.com/modelscope" }
-    evidence:
-      affiliation: ["https://github.com/modelscope/modelscope"]
-      recent_activity: ["https://github.com/modelscope"]
-    status: verified
-
   - id: tencent-hunyuan
     name: Tencent Hunyuan
     parent_id: tencent
@@ -1997,7 +1984,7 @@ teams:
 
 coverage:
   - { parent_id: byte-dance, status: searched, team_count: 1 }
-  - { parent_id: alibaba, status: searched, team_count: 4 }
+  - { parent_id: alibaba, status: searched, team_count: 3 }
   - { parent_id: tencent, status: searched, team_count: 4 }
   - { parent_id: huawei, status: searched, team_count: 1 }
   - { parent_id: baidu, status: searched, team_count: 2 }

@@ -7,7 +7,7 @@
 AI 论文越来越多，但研究者的注意力并没有变多。<br>
 我们从持续产出优秀工作的科研团队出发，整理近期工作与代表作，让高质量研究更容易被发现、理解和讨论。
 
-[![Teams](https://img.shields.io/badge/研究团队-153-091827?style=for-the-badge)](https://goya4140.github.io/Awesome-Team/)
+[![Teams](https://img.shields.io/badge/研究团队-152-091827?style=for-the-badge)](https://goya4140.github.io/Awesome-Team/)
 [![Institutions](https://img.shields.io/badge/母体机构-49-315bea?style=for-the-badge)](docs/SEED_LIST.md)
 [![Resolved papers](https://img.shields.io/badge/已匹配论文-176-c7f36b?style=for-the-badge&labelColor=091827)](docs/RESEARCH_TEAMS.md)
 [![Method figures](https://img.shields.io/badge/原文图表-125-f3f1e8?style=for-the-badge&labelColor=091827)](docs/RESEARCH_TEAMS.md)
@@ -40,7 +40,7 @@ AI 生产力正在高速增长。大量论文持续涌现，AI 顶会的收录�
 
 ## 你可以在这里发现什么？
 
-- **值得长期关注的团队：** 当前覆盖中国大陆、美国、中国香港与新加坡的 153 个 AI 科研团队。
+- **值得长期关注的团队：** 当前覆盖中国大陆、美国、中国香港与新加坡的 152 个 AI 科研团队。
 - **近期工作与代表作：** 每个团队单列最近公开工作，并整理三项代表成果。
 - **不止标题的论文信息：** 提供基于 Abstract 的中文 TL;DR、Semantic Scholar 引用量、Google Scholar 入口与原文方法图。
 - **可核验的团队画像：** 展示所属机构、研究方向、公开负责人 / 教师与官方来源，并明确区分 `verified` 与 `provisional`。
@@ -65,12 +65,12 @@ AI 生产力正在高速增长。大量论文持续涌现，AI 顶会的收录�
 
 | 范围 | 母体机构 | 团队 |
 |---|---:|---:|
-| 科技公司 | 17 | 44 |
+| 科技公司 | 17 | 43 |
 | 前沿 AI 公司 / 研究机构 | 9 | 20 |
 | 顶尖高校 | 23 | 89 |
-| **合计** | **49** | **153** |
+| **合计** | **49** | **152** |
 
-地区分布：**中国大陆 75**、**美国 58**、**中国香港 11**、**新加坡 9**。其中 **132 个团队已核验**，**21 个条目待社区继续完善**。
+地区分布：**中国大陆 74**、**美国 58**、**中国香港 11**、**新加坡 9**。其中 **131 个团队已核验**，**21 个条目待社区继续完善**。
 
 ---
 

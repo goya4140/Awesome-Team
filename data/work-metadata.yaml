@@ -122,42 +122,6 @@ works:
       github_stars: 161
       checked_at: '2026-07-30'
     resolution_status: unresolved
-  alibaba-modelscope:0:
-    team_id: alibaba-modelscope
-    work_index: 0
-    catalog_title: Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025).
-    catalog_url: https://github.com/modelscope/ms-swift
-    kind: open_source
-    summary: 这是团队公开的开源研究成果。目录中的公开说明为：Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025). 可通过原始链接查看完整项目、论文或数据说明。
-    citation: {}
-    code_impact:
-      github_stars: 14973
-      checked_at: '2026-07-30'
-    resolution_status: unresolved
-  alibaba-modelscope:1:
-    team_id: alibaba-modelscope
-    work_index: 1
-    catalog_title: 'ModelScope: bring the notion of Model-as-a-Service to life.'
-    catalog_url: https://github.com/modelscope/modelscope
-    kind: open_source
-    summary: '这是团队公开的开源研究成果。目录中的公开说明为：ModelScope: bring the notion of Model-as-a-Service to life. 可通过原始链接查看完整项目、论文或数据说明。'
-    citation: {}
-    code_impact:
-      github_stars: 9059
-      checked_at: '2026-07-30'
-    resolution_status: unresolved
-  alibaba-modelscope:2:
-    team_id: alibaba-modelscope
-    work_index: 2
-    catalog_title: FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI.
-    catalog_url: https://github.com/modelscope/FunClip
-    kind: open_source
-    summary: 这是团队公开的开源研究成果。目录中的公开说明为：FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI. 可通过原始链接查看完整项目、论文或数据说明。
-    citation: {}
-    code_impact:
-      github_stars: 6072
-      checked_at: '2026-07-30'
-    resolution_status: unresolved
   alibaba-nlp:0:
     team_id: alibaba-nlp
     work_index: 0

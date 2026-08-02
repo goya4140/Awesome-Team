@@ -45,21 +45,6 @@
     ]
   },
   {
-    "team_id": "alibaba-modelscope",
-    "team_name": "ModelScope",
-    "source": "https://github.com/modelscope.png?size=320",
-    "source_kind": "official_github_avatar",
-    "source_dimensions": [
-      320,
-      320
-    ],
-    "asset": "alibaba-modelscope.webp",
-    "asset_dimensions": [
-      240,
-      240
-    ]
-  },
-  {
     "team_id": "tencent-hunyuan",
     "team_name": "Tencent Hunyuan",
     "source": "https://github.com/Tencent-Hunyuan.png?size=320",

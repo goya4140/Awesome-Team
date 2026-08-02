@@ -69,22 +69,6 @@ teams:
     kind: open_source
     source: github
     stars: 2
-  alibaba-modelscope:
-  - title: Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025).
-    url: https://github.com/modelscope/ms-swift
-    kind: open_source
-    source: github
-    stars: 14973
-  - title: 'ModelScope: bring the notion of Model-as-a-Service to life.'
-    url: https://github.com/modelscope/modelscope
-    kind: open_source
-    source: github
-    stars: 9059
-  - title: FunASR-powered video transcription, subtitle generation, and LLM-assisted clipping tool with a local Gradio UI.
-    url: https://github.com/modelscope/FunClip
-    kind: open_source
-    source: github
-    stars: 6072
   tencent-hunyuan:
   - title: "[ICML 2026] WorldMirror: Fast and Universal 3D reconstruction model for versatile tasks"
     url: https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror
