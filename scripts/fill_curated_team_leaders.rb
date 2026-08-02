@@ -13,7 +13,6 @@ TEAMS_PATH = File.join(ROOT, "data", "research-teams.yaml")
 # documents them. "Influential faculty" and "senior researcher" are editorial
 # selections, not claims that the person formally manages the organization.
 ROSTERS = {
-  "alibaba-modelscope" => [["Jingren Zhou", "Founder / Research Leader"], ["Junyang Lin", "Senior Researcher"], ["Jian-Yong Wu", "Senior Researcher"]],
   "huawei-noahs-ark-lab" => [["Zhenguo Li", "Senior Research Leader"], ["Yinchuan Li", "Senior Researcher"], ["Jian Li", "Senior Researcher"]],
   "baidu-ernie" => [["Haifeng Wang", "Research Leader"], ["Houwen Peng", "Senior Researcher"], ["Jing Liu", "Senior Researcher"]],
   "baidu-paddlepaddle" => [["Haifeng Wang", "Research Leader"], ["Yanjun Ma", "Senior Researcher"], ["Yi Ren", "Senior Researcher"]],

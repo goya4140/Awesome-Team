@@ -13,13 +13,6 @@ teams:
     recent_at: '2025'
     recency_source: paper_year
     selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
-  alibaba-modelscope:
-    work_index: 0
-    title: Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025).
-    url: https://github.com/modelscope/ms-swift
-    recent_at: '2026-07-30'
-    recency_source: github_pushed_at
-    selection_note: 从本目录三项代表成果中优先选择最新论文；无已匹配论文时，退回 GitHub 最近推送日期。
   alibaba-nlp:
     work_index: 2
     title: '[EMNLP 2025] Code for "Detecting Knowledge Boundary of Vision Large Language Models by Sampling-Based Inference"'

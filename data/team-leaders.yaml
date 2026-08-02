@@ -1992,25 +1992,6 @@ teams:
     evidence_url: https://github.com/Alibaba-NLP/VLLM-KB
     selection_basis: Selected from the senior-author positions of a featured work;
       the publication is the affiliation evidence and research-influence proxy.
-  alibaba-modelscope:
-  - person: jingren-zhou
-    role: Founder / Research Leader
-    evidence_url: https://github.com/modelscope/modelscope
-    selection_basis: Selected from the official team or institutional page as a documented
-      research leader; the linked evidence page is the source of the affiliation or
-      leadership claim.
-  - person: junyang-lin
-    role: Senior Researcher
-    evidence_url: https://github.com/modelscope/modelscope
-    selection_basis: Editorially selected as one of the team's or institution's most
-      influential faculty/research contributors; the role does not imply formal management
-      responsibility.
-  - person: jian-yong-wu
-    role: Senior Researcher
-    evidence_url: https://github.com/modelscope/modelscope
-    selection_basis: Editorially selected as one of the team's or institution's most
-      influential faculty/research contributors; the role does not imply formal management
-      responsibility.
   tencent-hunyuan:
   - person: shiyu-tang
     role: Senior Researcher / Representative-work Author

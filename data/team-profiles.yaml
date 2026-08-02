@@ -130,37 +130,6 @@ teams:
       evidence_url: https://github.com/Alibaba-NLP/VLLM-KB
       selection_basis: Selected from the senior-author positions of a featured work; the publication is the affiliation evidence and research-influence proxy.
     leadership_source: https://github.com/Alibaba-NLP
-  alibaba-modelscope:
-    logo:
-      url: https://github.com/modelscope.png?size=160
-      kind: github_avatar
-      source_url: https://github.com/modelscope
-    introduction: ModelScope 隶属于 Alibaba，是一支主要关注开放模型、多模态学习、模型评测等方向的研究平台。本目录依据其官方主页、近期论文或研究型开源活动持续核验。
-    directions_zh:
-    - 开放模型
-    - 多模态学习
-    - 模型评测
-    - AI 系统
-    leaders:
-    - name: Jingren Zhou
-      role: Founder / Research Leader
-      url: https://scholar.google.com/citations?view_op=search_authors&mauthors=Jingren+Zhou
-      profile_kind: google_scholar_search
-      evidence_url: https://github.com/modelscope/modelscope
-      selection_basis: Selected from the official team or institutional page as a documented research leader; the linked evidence page is the source of the affiliation or leadership claim.
-    - name: Junyang Lin
-      role: Senior Researcher
-      url: https://scholar.google.com/citations?view_op=search_authors&mauthors=Junyang+Lin
-      profile_kind: google_scholar_search
-      evidence_url: https://github.com/modelscope/modelscope
-      selection_basis: Editorially selected as one of the team's or institution's most influential faculty/research contributors; the role does not imply formal management responsibility.
-    - name: Jian-Yong wu
-      role: Senior Researcher
-      url: https://scholar.google.com/citations?view_op=search_authors&mauthors=Jian-Yong+wu
-      profile_kind: google_scholar_search
-      evidence_url: https://github.com/modelscope/modelscope
-      selection_basis: Editorially selected as one of the team's or institution's most influential faculty/research contributors; the role does not imply formal management responsibility.
-    leadership_source: https://modelscope.cn/
   tencent-hunyuan:
     logo:
       url: https://github.com/Tencent-Hunyuan.png?size=160

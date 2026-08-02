@@ -26,26 +26,6 @@ works:
     arxiv_ids:
     - '2507.08801'
     dois: []
-  alibaba-modelscope:0:
-    repository: https://github.com/modelscope/ms-swift
-    readme_status: read
-    arxiv_ids:
-    - '2408.05517'
-    - '2508.05629'
-    - '2309.00986'
-    dois: []
-  alibaba-modelscope:1:
-    repository: https://github.com/modelscope/modelscope
-    readme_status: read
-    arxiv_ids: []
-    dois: []
-  alibaba-modelscope:2:
-    repository: https://github.com/modelscope/FunClip
-    readme_status: read
-    arxiv_ids:
-    - '2305.11013'
-    - '2308.03266'
-    dois: []
   alibaba-nlp:0:
     repository: https://github.com/Alibaba-NLP/ViDoRAG
     readme_status: read

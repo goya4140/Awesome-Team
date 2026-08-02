@@ -1,6 +1,6 @@
-const CATALOG_VERSION = "20260731-qwen-v1";
+const CATALOG_VERSION = "20260802-remove-modelscope-v1";
 const LOGO_WALL_TEAM_IDS = [
-  "bytedance-seed", "alibaba-qwen", "alibaba-damo-academy", "alibaba-modelscope",
+  "bytedance-seed", "alibaba-qwen", "alibaba-damo-academy",
   "tencent-hunyuan", "tencent-ai-lab", "tencent-arc-lab", "huawei-noahs-ark-lab",
   "baidu-paddlepaddle", "kuaishou-kling-ai-research", "kuaishou-kolors", "meituan-longcat",
   "ant-interactive-ai-lab", "ant-inclusion-ai", "xiaomi-mimo", "xiaohongshu-firered",
